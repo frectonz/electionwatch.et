@@ -1,0 +1,436 @@
+{
+  "slug": "renaissance-party",
+  "name": "Renaissance Party",
+  "positions": [
+    {
+      "topic": "Women's Empowerment and Inclusion",
+      "position": "Empower women through capacity-building and mindset training, implement maternal health packages, ensure equal pay, utilize a 50+1 representation model for decision-making, and implement digital reporting for gender-based violence.",
+      "citations": [
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Provide training to build women's self-confidence and capacity.",
+          "spans": [
+            {
+              "start_index": 295,
+              "end_index": 302,
+              "start": 1170.56,
+              "end": 1206.08,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1171s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=1171&end=1207"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Provide capacity-building training to change women's mindsets and build confidence.",
+          "spans": [
+            {
+              "start_index": 389,
+              "end_index": 395,
+              "start": 1538.84,
+              "end": 1570.16,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1539s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=1539&end=1571"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Implement maternal health and hygiene packages.",
+          "spans": [
+            {
+              "start_index": 396,
+              "end_index": 398,
+              "start": 1566.0,
+              "end": 1580.24,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1566s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=1566&end=1581"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Ensure equal pay and equal participation in the workforce.",
+          "spans": [
+            {
+              "start_index": 398,
+              "end_index": 401,
+              "start": 1573.2,
+              "end": 1591.8,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1573s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=1573&end=1593"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Operates on a 50+1 women representation model for decision-making.",
+          "spans": [
+            {
+              "start_index": 860,
+              "end_index": 861,
+              "start": 3313.88,
+              "end": 3326.44,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=3314s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=3314&end=3327"
+            },
+            {
+              "start_index": 875,
+              "end_index": 877,
+              "start": 3373.4,
+              "end": 3389.2,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=3373s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=3373&end=3390"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Will implement digital reporting systems to prevent and respond to gender-based violence.",
+          "spans": [
+            {
+              "start_index": 883,
+              "end_index": 887,
+              "start": 3402.28,
+              "end": 3423.88,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=3402s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=3402&end=3425"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Disability Inclusion and Support",
+      "position": "Support persons with disabilities through mandatory inclusive building designs, a 5% job quota, discounted health services, tailored vocational training, and official recognition of sign language and Braille.",
+      "citations": [
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Enact and enforce mandatory inclusive design laws for all government and private buildings.",
+          "spans": [
+            {
+              "start_index": 626,
+              "end_index": 628,
+              "start": 2436.32,
+              "end": 2451.88,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2436s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=2436&end=2453"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Allocate a 5% job quota for PWDs.",
+          "spans": [
+            {
+              "start_index": 638,
+              "end_index": 639,
+              "start": 2476.24,
+              "end": 2489.12,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2476s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=2476&end=2490"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Provide discounted health and medication services, and expand assistive technologies like Braille.",
+          "spans": [
+            {
+              "start_index": 640,
+              "end_index": 642,
+              "start": 2485.08,
+              "end": 2501.12,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2485s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=2485&end=2502"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Provides party programs and bylaws in Braille.",
+          "spans": [
+            {
+              "start_index": 869,
+              "end_index": 870,
+              "start": 3349.24,
+              "end": 3360.56,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=3349s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=3349&end=3362"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Will give official recognition to sign language.",
+          "spans": [
+            {
+              "start_index": 879,
+              "end_index": 881,
+              "start": 3389.2,
+              "end": 3402.28,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=3389s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=3389&end=3403"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Provide tailored vocational training based on what individuals with intellectual disabilities can comprehend.",
+          "spans": [
+            {
+              "start_index": 1100,
+              "end_index": 1103,
+              "start": 4226.16,
+              "end": 4244.68,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=4226s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=4226&end=4246"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Independence of Civic Associations",
+      "position": "Civic associations must operate independently from government interference to effectively fight for justice.",
+      "citations": [
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Believes associations will be more effective if they operate independently from government interference.",
+          "spans": [
+            {
+              "start_index": 1081,
+              "end_index": 1082,
+              "start": 4156.76,
+              "end": 4169.4,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=4157s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=4157&end=4170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Economic Policy and Job Creation",
+      "position": "Reduce the cost of living and create jobs by focusing on agriculture and manufacturing, improving the banking system for youth lending, and providing tax incentives for investors.",
+      "citations": [
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Aims to create job opportunities, especially for the youth demographic.",
+          "spans": [
+            {
+              "start_index": 490,
+              "end_index": 492,
+              "start": 1916.32,
+              "end": 1932.44,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=1916s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=1916&end=1933"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Focuses on agriculture and manufacturing industries to absorb the workforce.",
+          "spans": [
+            {
+              "start_index": 494,
+              "end_index": 497,
+              "start": 1932.44,
+              "end": 1948.36,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=1932s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=1932&end=1949"
+            },
+            {
+              "start_index": 500,
+              "end_index": 502,
+              "start": 1951.96,
+              "end": 1966.08,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=1952s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=1952&end=1967"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Plans to make the banking system more conducive to lending, especially for youth entering innovative fields.",
+          "spans": [
+            {
+              "start_index": 663,
+              "end_index": 666,
+              "start": 2545.96,
+              "end": 2564.08,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=2546s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=2546&end=2565"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Will provide tax incentives and establish favorable procedures for domestic and foreign investors.",
+          "spans": [
+            {
+              "start_index": 668,
+              "end_index": 672,
+              "start": 2564.08,
+              "end": 2585.56,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=2564s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=2564&end=2587"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Macroeconomic Institutions and Taxation",
+      "position": "Ensure the independence of the National Bank through an independent board accountable to parliament, modernize the tax system to broaden the base and reduce corruption, and encourage diaspora investment.",
+      "citations": [
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Plans to establish legal systems and procedures to control corruption and factors exacerbating inflation.",
+          "spans": [
+            {
+              "start_index": 503,
+              "end_index": 508,
+              "start": 1963.08,
+              "end": 1986.36,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=1963s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=1963&end=1987"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Monetary policy will be managed by an independent board, separate from the government's fiscal policy.",
+          "spans": [
+            {
+              "start_index": 821,
+              "end_index": 824,
+              "start": 3140.2,
+              "end": 3161.8,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=3140s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=3140&end=3163"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "The National Bank will be accountable to the House of Peoples' Representatives (the public).",
+          "spans": [
+            {
+              "start_index": 842,
+              "end_index": 843,
+              "start": 3213.8,
+              "end": 3220.44,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=3214s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=3214&end=3221"
+            },
+            {
+              "start_index": 847,
+              "end_index": 847,
+              "start": 3225.08,
+              "end": 3232.0,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=3225s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=3225&end=3233"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Will encourage the diaspora to participate in the economy through technology transfer and investment.",
+          "spans": [
+            {
+              "start_index": 998,
+              "end_index": 1002,
+              "start": 3818.84,
+              "end": 3842.2,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=3819s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=3819&end=3843"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Plans to modernize the tax system to reach untaxed sectors and reduce manual interference and corruption.",
+          "spans": [
+            {
+              "start_index": 1006,
+              "end_index": 1010,
+              "start": 3850.4,
+              "end": 3877.24,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=3850s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=3850&end=3878"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Language and Cultural Policy",
+      "position": "Elevate more than five languages to working languages, establish a national language based on public acceptance and demographics (over 6 million speakers), and provide primary education in mother tongues.",
+      "citations": [
+        {
+          "video_id": "l7XtNS_znDc",
+          "excerpt": "Will make more than five languages working languages based on geographic location and public consultation.",
+          "spans": [
+            {
+              "start_index": 368,
+              "end_index": 372,
+              "start": 1504.04,
+              "end": 1529.2,
+              "youtube_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=1504s",
+              "embed_url": "https://www.youtube.com/embed/l7XtNS_znDc?start=1504&end=1530"
+            }
+          ]
+        },
+        {
+          "video_id": "l7XtNS_znDc",
+          "excerpt": "Will establish a national language based on public acceptance, written utility, and having over 6 million speakers.",
+          "spans": [
+            {
+              "start_index": 384,
+              "end_index": 391,
+              "start": 1562.32,
+              "end": 1592.68,
+              "youtube_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=1562s",
+              "embed_url": "https://www.youtube.com/embed/l7XtNS_znDc?start=1562&end=1594"
+            }
+          ]
+        },
+        {
+          "video_id": "l7XtNS_znDc",
+          "excerpt": "Primary education will be given in mother tongues so children can easily understand concepts and stories.",
+          "spans": [
+            {
+              "start_index": 419,
+              "end_index": 423,
+              "start": 1691.64,
+              "end": 1719.4,
+              "youtube_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=1692s",
+              "embed_url": "https://www.youtube.com/embed/l7XtNS_znDc?start=1692&end=1720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Federalism and Group Rights",
+      "position": "Advocate for citizen-centered liberalism that empowers individuals and collectives without categorizing citizens by language groups.",
+      "citations": [
+        {
+          "video_id": "l7XtNS_znDc",
+          "excerpt": "Our ideology is citizen-centered liberalism, which empowers citizens individually and collectively without categorizing them by language groups.",
+          "spans": [
+            {
+              "start_index": 1497,
+              "end_index": 1501,
+              "start": 5538.0,
+              "end": 5559.28,
+              "youtube_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=5538s",
+              "embed_url": "https://www.youtube.com/embed/l7XtNS_znDc?start=5538&end=5560"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

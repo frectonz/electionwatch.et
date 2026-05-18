@@ -1,0 +1,514 @@
+{
+  "slug": "prosperity-party",
+  "name": "Prosperity Party",
+  "positions": [
+    {
+      "topic": "Federalism and State Structure",
+      "position": "Advocates for multinational federalism that accommodates diversity and self-administration, rejecting a return to a unitary state and viewing the creation of new regions as democratic demands that strengthen the federal system.",
+      "citations": [
+        {
+          "video_id": "BPDQbsjWZ94",
+          "excerpt": "Advocates for a multinational federal system to use diversity as a foundation for unity.",
+          "spans": [
+            {
+              "start_index": 280,
+              "end_index": 282,
+              "start": 1076.32,
+              "end": 1090.32,
+              "youtube_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=1076s",
+              "embed_url": "https://www.youtube.com/embed/BPDQbsjWZ94?start=1076&end=1091"
+            }
+          ]
+        },
+        {
+          "video_id": "4byg_qME7DQ",
+          "excerpt": "An increase in the number of regions is seen as strengthening the federal system, similar to India and Nigeria.",
+          "spans": [
+            {
+              "start_index": 742,
+              "end_index": 745,
+              "start": 2729.64,
+              "end": 2742.68,
+              "youtube_url": "https://www.youtube.com/watch?v=4byg_qME7DQ&t=2730s",
+              "embed_url": "https://www.youtube.com/embed/4byg_qME7DQ?start=2730&end=2744"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Constitutional Amendment",
+      "position": "Maintains that any constitutional amendments, including those regarding land tenure or language, must not be dictated unilaterally by the ruling party but decided by the public through the inclusive National Dialogue Commission.",
+      "citations": [
+        {
+          "video_id": "BPDQbsjWZ94",
+          "excerpt": "Has no immediate plans for constitutional change but will present ideas to the National Dialogue Commission.",
+          "spans": [
+            {
+              "start_index": 717,
+              "end_index": 725,
+              "start": 2768.12,
+              "end": 2809.28,
+              "youtube_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94&t=2768s",
+              "embed_url": "https://www.youtube.com/embed/BPDQbsjWZ94?start=2768&end=2810"
+            }
+          ]
+        },
+        {
+          "video_id": "4byg_qME7DQ",
+          "excerpt": "Constitutional amendments must be done through an inclusive and participatory national dialogue.",
+          "spans": [
+            {
+              "start_index": 549,
+              "end_index": 550,
+              "start": 2088.24,
+              "end": 2098.96,
+              "youtube_url": "https://www.youtube.com/watch?v=4byg_qME7DQ&t=2088s",
+              "embed_url": "https://www.youtube.com/embed/4byg_qME7DQ?start=2088&end=2100"
+            }
+          ]
+        },
+        {
+          "video_id": "9JcOOksO7Ok",
+          "excerpt": "Constitutional amendments regarding land should be handled through the National Dialogue Commission with public consultation.",
+          "spans": [
+            {
+              "start_index": 326,
+              "end_index": 332,
+              "start": 1343.68,
+              "end": 1374.88,
+              "youtube_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok&t=1344s",
+              "embed_url": "https://www.youtube.com/embed/9JcOOksO7Ok?start=1344&end=1376"
+            },
+            {
+              "start_index": 337,
+              "end_index": 343,
+              "start": 1383.0,
+              "end": 1413.68,
+              "youtube_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok&t=1383s",
+              "embed_url": "https://www.youtube.com/embed/9JcOOksO7Ok?start=1383&end=1415"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Economic Policy and Ideology",
+      "position": "Guided by the pragmatic 'Medemer' (Synergy) philosophy rather than rigid ideology, implementing a multi-sectoral Homegrown Economic Reform. Supports floating the Birr to find its true market value and ensuring the independence of the National Bank.",
+      "citations": [
+        {
+          "video_id": "Isdiet0C9FA",
+          "excerpt": "'Medemer' is not a rigid ideology but a pragmatic approach that takes solutions from both East and West to solve Ethiopia's specific problems.",
+          "spans": [
+            {
+              "start_index": 788,
+              "end_index": 795,
+              "start": 2950.08,
+              "end": 2989.2,
+              "youtube_url": "https://www.youtube.com/watch?v=Isdiet0C9FA&t=2950s",
+              "embed_url": "https://www.youtube.com/embed/Isdiet0C9FA?start=2950&end=2990"
+            },
+            {
+              "start_index": 805,
+              "end_index": 809,
+              "start": 3018.76,
+              "end": 3046.4,
+              "youtube_url": "https://www.youtube.com/watch?v=Isdiet0C9FA&t=3019s",
+              "embed_url": "https://www.youtube.com/embed/Isdiet0C9FA?start=3019&end=3047"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Floating the currency allowed it to find its true market value.",
+          "spans": [
+            {
+              "start_index": 1596,
+              "end_index": 1603,
+              "start": 6186.76,
+              "end": 6224.16,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=6187s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=6187&end=6225"
+            }
+          ]
+        },
+        {
+          "video_id": "UNvv-R93bok",
+          "excerpt": "Recent proclamations have established an independent monetary policy committee to guide the National Bank.",
+          "spans": [
+            {
+              "start_index": 969,
+              "end_index": 974,
+              "start": 3703.92,
+              "end": 3731.6,
+              "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok&t=3704s",
+              "embed_url": "https://www.youtube.com/embed/UNvv-R93bok?start=3704&end=3733"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Peace, Security, and Foreign Affairs",
+      "position": "Reforming defense forces to be non-partisan while limiting regional forces to regular police. Prioritizes peaceful negotiations with armed groups internally, and seeks Red Sea access through peaceful, diplomatic means externally.",
+      "citations": [
+        {
+          "video_id": "Gulr8Kw8-cQ",
+          "excerpt": "Limit regional forces to regular police as permitted by the constitution, correcting unnecessary regional armaments.",
+          "spans": [
+            {
+              "start_index": 345,
+              "end_index": 349,
+              "start": 1371.2,
+              "end": 1394.72,
+              "youtube_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=1371s",
+              "embed_url": "https://www.youtube.com/embed/Gulr8Kw8-cQ?start=1371&end=1396"
+            }
+          ]
+        },
+        {
+          "video_id": "Gulr8Kw8-cQ",
+          "excerpt": "The door remains open for peaceful negotiations with armed groups; law enforcement does not end the possibility of dialogue.",
+          "spans": [
+            {
+              "start_index": 1248,
+              "end_index": 1251,
+              "start": 4691.56,
+              "end": 4714.56,
+              "youtube_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=4692s",
+              "embed_url": "https://www.youtube.com/embed/Gulr8Kw8-cQ?start=4692&end=4716"
+            },
+            {
+              "start_index": 1256,
+              "end_index": 1259,
+              "start": 4723.04,
+              "end": 4740.56,
+              "youtube_url": "https://www.youtube.com/watch?v=Gulr8Kw8-cQ&t=4723s",
+              "embed_url": "https://www.youtube.com/embed/Gulr8Kw8-cQ?start=4723&end=4742"
+            }
+          ]
+        },
+        {
+          "video_id": "RNSXsJhPT7k",
+          "excerpt": "Lacking a seaport reduces a country's economic growth by 20%, and Ethiopia aims to secure one through peaceful, diplomatic, and legal means.",
+          "spans": [
+            {
+              "start_index": 321,
+              "end_index": 330,
+              "start": 1267.44,
+              "end": 1310.84,
+              "youtube_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=1267s",
+              "embed_url": "https://www.youtube.com/embed/RNSXsJhPT7k?start=1267&end=1312"
+            },
+            {
+              "start_index": 334,
+              "end_index": 337,
+              "start": 1317.6,
+              "end": 1333.84,
+              "youtube_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k&t=1318s",
+              "embed_url": "https://www.youtube.com/embed/RNSXsJhPT7k?start=1318&end=1335"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Agriculture and Land Tenure",
+      "position": "Aims for food security and agricultural transformation by subsidizing inputs, building domestic fertilizer plants, and promoting mechanization. Supports the current land framework allowing land use rights as collateral.",
+      "citations": [
+        {
+          "video_id": "3zRbfhtT4IQ",
+          "excerpt": "Building a domestic fertilizer plant to produce 3 million metric tons of Urea annually, and plans to do the same for Phosphate and Potash.",
+          "spans": [
+            {
+              "start_index": 1361,
+              "end_index": 1364,
+              "start": 5044.6,
+              "end": 5061.52,
+              "youtube_url": "https://www.youtube.com/watch?v=3zRbfhtT4IQ&t=5045s",
+              "embed_url": "https://www.youtube.com/embed/3zRbfhtT4IQ?start=5045&end=5063"
+            }
+          ]
+        },
+        {
+          "video_id": "3zRbfhtT4IQ",
+          "excerpt": "Allowed over 55 types of agricultural machinery to be imported tax-free.",
+          "spans": [
+            {
+              "start_index": 727,
+              "end_index": 729,
+              "start": 2719.88,
+              "end": 2734.48,
+              "youtube_url": "https://www.youtube.com/watch?v=3zRbfhtT4IQ&t=2720s",
+              "embed_url": "https://www.youtube.com/embed/3zRbfhtT4IQ?start=2720&end=2735"
+            }
+          ]
+        },
+        {
+          "video_id": "9JcOOksO7Ok",
+          "excerpt": "The proclamation has successfully expanded financial access and credit for farmers.",
+          "spans": [
+            {
+              "start_index": 984,
+              "end_index": 987,
+              "start": 3896.2,
+              "end": 3916.2,
+              "youtube_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok&t=3896s",
+              "embed_url": "https://www.youtube.com/embed/9JcOOksO7Ok?start=3896&end=3917"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Social Inclusion and Vulnerable Groups",
+      "position": "Promotes inclusivity by achieving 51% female cabinet representation, mandating a 2% candidate quota for persons with disabilities, and finalizing a comprehensive disability law.",
+      "citations": [
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Achieved 51% female representation in the cabinet (12 out of 23 members).",
+          "spans": [
+            {
+              "start_index": 446,
+              "end_index": 446,
+              "start": 1749.48,
+              "end": 1759.44,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1749s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=1749&end=1760"
+            },
+            {
+              "start_index": 477,
+              "end_index": 479,
+              "start": 1870.64,
+              "end": 1888.4,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=1871s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=1871&end=1889"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Mandated a 2% quota for PWD candidates in the 7th national election.",
+          "spans": [
+            {
+              "start_index": 765,
+              "end_index": 766,
+              "start": 2967.68,
+              "end": 2977.76,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2968s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=2968&end=2979"
+            }
+          ]
+        },
+        {
+          "video_id": "3r4-I5zVvqg",
+          "excerpt": "Finalized the preparation of a comprehensive disability policy/law and will implement it shortly after the election.",
+          "spans": [
+            {
+              "start_index": 680,
+              "end_index": 683,
+              "start": 2641.4,
+              "end": 2660.44,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2641s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=2641&end=2661"
+            },
+            {
+              "start_index": 706,
+              "end_index": 707,
+              "start": 2733.96,
+              "end": 2744.2,
+              "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg&t=2734s",
+              "embed_url": "https://www.youtube.com/embed/3r4-I5zVvqg?start=2734&end=2745"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Education Policy",
+      "position": "Implemented a new education roadmap and curriculum that includes moral education and enforces international assessment standards (50% passing mark) to improve quality, while providing housing and allowances to motivate teachers.",
+      "citations": [
+        {
+          "video_id": "ihYTmV3w38o",
+          "excerpt": "The passing mark was set to the international standard of 50%.",
+          "spans": [
+            {
+              "start_index": 498,
+              "end_index": 501,
+              "start": 1909.04,
+              "end": 1919.92,
+              "youtube_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=1909s",
+              "embed_url": "https://www.youtube.com/embed/ihYTmV3w38o?start=1909&end=1921"
+            }
+          ]
+        },
+        {
+          "video_id": "ihYTmV3w38o",
+          "excerpt": "The curriculum was revised to include moral and civic education.",
+          "spans": [
+            {
+              "start_index": 378,
+              "end_index": 379,
+              "start": 1509.28,
+              "end": 1521.52,
+              "youtube_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=1509s",
+              "embed_url": "https://www.youtube.com/embed/ihYTmV3w38o?start=1509&end=1523"
+            }
+          ]
+        },
+        {
+          "video_id": "ihYTmV3w38o",
+          "excerpt": "The government has provided condominium housing for over 6,000 teachers.",
+          "spans": [
+            {
+              "start_index": 546,
+              "end_index": 547,
+              "start": 2059.0,
+              "end": 2068.48,
+              "youtube_url": "https://www.youtube.com/watch?v=ihYTmV3w38o&t=2059s",
+              "embed_url": "https://www.youtube.com/embed/ihYTmV3w38o?start=2059&end=2069"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Health Policy",
+      "position": "Significantly increased the national health budget, expanded social health insurance, boosted local medicine production capacity, and pledged to hire all unemployed doctors within five years.",
+      "citations": [
+        {
+          "video_id": "IJSgkVaFq6U",
+          "excerpt": "Increased the national health budget from 59 billion to 143 billion birr.",
+          "spans": [
+            {
+              "start_index": 1434,
+              "end_index": 1444,
+              "start": 4939.36,
+              "end": 4982.6,
+              "youtube_url": "https://www.youtube.com/watch?v=IJSgkVaFq6U&t=4939s",
+              "embed_url": "https://www.youtube.com/embed/IJSgkVaFq6U?start=4939&end=4984"
+            }
+          ]
+        },
+        {
+          "video_id": "IJSgkVaFq6U",
+          "excerpt": "Increased local medicine production capacity from 8% to over 40%.",
+          "spans": [
+            {
+              "start_index": 1664,
+              "end_index": 1672,
+              "start": 5749.36,
+              "end": 5787.48,
+              "youtube_url": "https://www.youtube.com/watch?v=IJSgkVaFq6U&t=5749s",
+              "embed_url": "https://www.youtube.com/embed/IJSgkVaFq6U?start=5749&end=5788"
+            }
+          ]
+        },
+        {
+          "video_id": "IJSgkVaFq6U",
+          "excerpt": "Pledges to hire all currently unemployed doctors in the next five years.",
+          "spans": [
+            {
+              "start_index": 1957,
+              "end_index": 1961,
+              "start": 6839.4,
+              "end": 6863.32,
+              "youtube_url": "https://www.youtube.com/watch?v=IJSgkVaFq6U&t=6839s",
+              "embed_url": "https://www.youtube.com/embed/IJSgkVaFq6U?start=6839&end=6864"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Civil Service Reform",
+      "position": "Reforming the civil service through merit-based recruitment that considers diversity, implementing digital service centers to prevent corruption, and providing massive salary increases.",
+      "citations": [
+        {
+          "video_id": "-lZqsvPkYLY",
+          "excerpt": "Civil service will be organized based on merit while considering diversity (ethnicity, language, gender, disability).",
+          "spans": [
+            {
+              "start_index": 366,
+              "end_index": 370,
+              "start": 1476.8,
+              "end": 1506.2,
+              "youtube_url": "https://www.youtube.com/watch?v=-lZqsvPkYLY&t=1477s",
+              "embed_url": "https://www.youtube.com/embed/-lZqsvPkYLY?start=1477&end=1507"
+            }
+          ]
+        },
+        {
+          "video_id": "-lZqsvPkYLY",
+          "excerpt": "Increased the minimum wage from 1000 to 6000 birr and degree holders' starting salary from 5358 to 11500 birr.",
+          "spans": [
+            {
+              "start_index": 643,
+              "end_index": 646,
+              "start": 2531.36,
+              "end": 2553.08,
+              "youtube_url": "https://www.youtube.com/watch?v=-lZqsvPkYLY&t=2531s",
+              "embed_url": "https://www.youtube.com/embed/-lZqsvPkYLY?start=2531&end=2554"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Language, Culture, and Tourism",
+      "position": "Introduced a comprehensive language policy proposing five working languages, protects cultural heritage while developing new tourism infrastructure, and aims to make Ethiopia Africa's leading tourist center.",
+      "citations": [
+        {
+          "video_id": "l7XtNS_znDc",
+          "excerpt": "We introduced Ethiopia's first comprehensive language policy in 2012 EC, which proposes five working languages and further studies.",
+          "spans": [
+            {
+              "start_index": 1018,
+              "end_index": 1029,
+              "start": 3795.2,
+              "end": 3850.96,
+              "youtube_url": "https://www.youtube.com/watch?v=l7XtNS_znDc&t=3795s",
+              "embed_url": "https://www.youtube.com/embed/l7XtNS_znDc?start=3795&end=3852"
+            }
+          ]
+        },
+        {
+          "video_id": "qzkCHpL1DJw",
+          "excerpt": "Stated their philosophy is 'protecting the heritage of the past and building the heritage of our era.'",
+          "spans": [
+            {
+              "start_index": 862,
+              "end_index": 864,
+              "start": 3202.84,
+              "end": 3220.24,
+              "youtube_url": "https://www.youtube.com/watch?v=qzkCHpL1DJw&t=3203s",
+              "embed_url": "https://www.youtube.com/embed/qzkCHpL1DJw?start=3203&end=3221"
+            },
+            {
+              "start_index": 873,
+              "end_index": 875,
+              "start": 3250.04,
+              "end": 3264.2,
+              "youtube_url": "https://www.youtube.com/watch?v=qzkCHpL1DJw&t=3250s",
+              "embed_url": "https://www.youtube.com/embed/qzkCHpL1DJw?start=3250&end=3265"
+            }
+          ]
+        },
+        {
+          "video_id": "qzkCHpL1DJw",
+          "excerpt": "Pledged to increase the number of tourists to 7 million in the next five years.",
+          "spans": [
+            {
+              "start_index": 785,
+              "end_index": 786,
+              "start": 2928.88,
+              "end": 2939.36,
+              "youtube_url": "https://www.youtube.com/watch?v=qzkCHpL1DJw&t=2929s",
+              "embed_url": "https://www.youtube.com/embed/qzkCHpL1DJw?start=2929&end=2940"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
