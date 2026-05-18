@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "google-genai>=2.4.0",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
     "youtube-transcript-api>=1.2.4",
     "yt-dlp>=2026.3.17",
 ]
