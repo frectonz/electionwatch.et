@@ -1,0 +1,26 @@
+{
+  "video_id": "uXeJS1Tory0",
+  "source": "etv_nebe",
+  "upload_date": "2026-05-13",
+  "youtube_url": "https://www.youtube.com/watch?v=uXeJS1Tory0",
+  "duration_seconds": 5268.84,
+  "title": "Self-Administration and Identity Questions Debate",
+  "parties": [
+    {
+      "name": "New Generation Party",
+      "slug": "new-generation-party"
+    },
+    {
+      "name": "Ethiopian Democratic Union",
+      "slug": "ethiopian-democratic-union"
+    },
+    {
+      "name": "Kucha People's Democratic Party",
+      "slug": "kucha-peoples-democratic-party"
+    },
+    {
+      "name": "Kush Peoples' National Movement Party",
+      "slug": "kush-peoples-national-movement-party"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "Isdiet0C9FA",
+  "source": "fana_medrek",
+  "upload_date": "2026-02-21",
+  "youtube_url": "https://www.youtube.com/watch?v=Isdiet0C9FA",
+  "duration_seconds": 7647.27,
+  "title": "Economic Policy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    },
+    {
+      "name": "Ethiopian Social Democratic Party",
+      "slug": "ethiopian-social-democratic-party"
+    }
+  ]
+}

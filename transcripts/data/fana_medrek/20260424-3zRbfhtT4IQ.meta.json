@@ -1,0 +1,26 @@
+{
+  "video_id": "3zRbfhtT4IQ",
+  "source": "fana_medrek",
+  "upload_date": "2026-04-24",
+  "youtube_url": "https://www.youtube.com/watch?v=3zRbfhtT4IQ",
+  "duration_seconds": 7556.92,
+  "title": "Agriculture and Rural Development Policy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Oromo Liberation Front",
+      "slug": "oromo-liberation-front"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    }
+  ]
+}

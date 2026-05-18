@@ -1,0 +1,26 @@
+{
+  "video_id": "4byg_qME7DQ",
+  "source": "fana_medrek",
+  "upload_date": "2026-02-27",
+  "youtube_url": "https://www.youtube.com/watch?v=4byg_qME7DQ",
+  "duration_seconds": 7359.06,
+  "title": "Federalism and the Constitution Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    },
+    {
+      "name": "Peace for Ethiopia Coalition",
+      "slug": "peace-for-ethiopia-coalition"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "UNvv-R93bok",
+  "source": "etv_nebe",
+  "upload_date": "2026-05-09",
+  "youtube_url": "https://www.youtube.com/watch?v=UNvv-R93bok",
+  "duration_seconds": 7228.72,
+  "title": "Economic Policy Alternatives of Political Parties Debate",
+  "parties": [
+    {
+      "name": "Renaissance Party",
+      "slug": "renaissance-party"
+    },
+    {
+      "name": "Freedom and Equality Party",
+      "slug": "freedom-and-equality-party"
+    },
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    }
+  ]
+}

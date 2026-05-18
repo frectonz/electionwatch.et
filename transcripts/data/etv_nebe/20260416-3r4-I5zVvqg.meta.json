@@ -1,0 +1,26 @@
+{
+  "video_id": "3r4-I5zVvqg",
+  "source": "etv_nebe",
+  "upload_date": "2026-04-16",
+  "youtube_url": "https://www.youtube.com/watch?v=3r4-I5zVvqg",
+  "duration_seconds": 6757.84,
+  "title": "Inclusivity for Women, Persons with Disabilities, and Vulnerable Groups Debate",
+  "parties": [
+    {
+      "name": "Renaissance Party",
+      "slug": "renaissance-party"
+    },
+    {
+      "name": "Ethiopian Social Democratic Party",
+      "slug": "ethiopian-social-democratic-party"
+    },
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Freedom and Equality Party",
+      "slug": "freedom-and-equality-party"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "j9HL-v6Akjs",
+  "source": "fana_medrek",
+  "upload_date": "2026-04-03",
+  "youtube_url": "https://www.youtube.com/watch?v=j9HL-v6Akjs",
+  "duration_seconds": 7127.6,
+  "title": "Urban Infrastructure and Digital Economy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    },
+    {
+      "name": "Ethiopian Social Democratic Party",
+      "slug": "ethiopian-social-democratic-party"
+    }
+  ]
+}

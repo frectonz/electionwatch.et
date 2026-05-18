@@ -1,0 +1,26 @@
+{
+  "video_id": "l7XtNS_znDc",
+  "source": "fana_medrek",
+  "upload_date": "2026-04-17",
+  "youtube_url": "https://www.youtube.com/watch?v=l7XtNS_znDc",
+  "duration_seconds": 7165.88,
+  "title": "Language and Cultural Policy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Renaissance Party",
+      "slug": "renaissance-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    }
+  ]
+}

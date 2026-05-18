@@ -1,0 +1,22 @@
+{
+  "video_id": "qzkCHpL1DJw",
+  "source": "fana_medrek",
+  "upload_date": "2026-05-01",
+  "youtube_url": "https://www.youtube.com/watch?v=qzkCHpL1DJw",
+  "duration_seconds": 5883.28,
+  "title": "Tourism Policy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    },
+    {
+      "name": "Freedom and Equality Party",
+      "slug": "freedom-and-equality-party"
+    }
+  ]
+}

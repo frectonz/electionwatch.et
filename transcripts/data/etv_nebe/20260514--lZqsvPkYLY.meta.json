@@ -1,0 +1,26 @@
+{
+  "video_id": "-lZqsvPkYLY",
+  "source": "etv_nebe",
+  "upload_date": "2026-05-14",
+  "youtube_url": "https://www.youtube.com/watch?v=-lZqsvPkYLY",
+  "duration_seconds": 5410.42,
+  "title": "Civil Service Reform and Contested Issues in Ethiopia Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Balderas for True Democracy Party",
+      "slug": "balderas-for-true-democracy-party"
+    },
+    {
+      "name": "Peace for Ethiopia Coalition",
+      "slug": "peace-for-ethiopia-coalition"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    }
+  ]
+}

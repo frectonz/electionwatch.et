@@ -1,0 +1,26 @@
+{
+  "video_id": "9JcOOksO7Ok",
+  "source": "etv_nebe",
+  "upload_date": "2026-04-25",
+  "youtube_url": "https://www.youtube.com/watch?v=9JcOOksO7Ok",
+  "duration_seconds": 5810.6,
+  "title": "Rural Land Tenure Administration and Use Debate",
+  "parties": [
+    {
+      "name": "Wollo Peoples' Democratic Party",
+      "slug": "wollo-peoples-democratic-party"
+    },
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian National Unity Party",
+      "slug": "ethiopian-national-unity-party"
+    },
+    {
+      "name": "Gogot for Gurage Unity and Justice Party",
+      "slug": "gogot-for-gurage-unity-and-justice-party"
+    }
+  ]
+}

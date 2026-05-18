@@ -1,0 +1,26 @@
+{
+  "video_id": "IJSgkVaFq6U",
+  "source": "fana_medrek",
+  "upload_date": "2026-03-13",
+  "youtube_url": "https://www.youtube.com/watch?v=IJSgkVaFq6U",
+  "duration_seconds": 7080.28,
+  "title": "Health Policy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Freedom and Equality Party",
+      "slug": "freedom-and-equality-party"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "video_id": "aNQccF3jTT4",
+  "source": "etv_nebe",
+  "upload_date": "2026-04-22",
+  "youtube_url": "https://www.youtube.com/watch?v=aNQccF3jTT4",
+  "duration_seconds": 5880.71,
+  "title": "Human Rights and Democratic Rights Protection Debate",
+  "parties": [
+    {
+      "name": "Sidama Unity Party",
+      "slug": "sidama-unity-party"
+    },
+    {
+      "name": "Raya Rayuma Democratic Party",
+      "slug": "raya-rayuma-democratic-party"
+    },
+    {
+      "name": "Amhara Democratic Force Movement",
+      "slug": "amhara-democratic-force-movement"
+    }
+  ]
+}

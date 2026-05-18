@@ -1,0 +1,26 @@
+{
+  "video_id": "ihYTmV3w38o",
+  "source": "fana_medrek",
+  "upload_date": "2026-03-27",
+  "youtube_url": "https://www.youtube.com/watch?v=ihYTmV3w38o",
+  "duration_seconds": 8255.11,
+  "title": "Education Policy Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Hibir Ethiopia Democratic Party",
+      "slug": "hibir-ethiopia-democratic-party"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    }
+  ]
+}

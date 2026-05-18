@@ -1,0 +1,26 @@
+{
+  "video_id": "BPDQbsjWZ94",
+  "source": "etv_nebe",
+  "upload_date": "2026-04-07",
+  "youtube_url": "https://www.youtube.com/watch?v=BPDQbsjWZ94",
+  "duration_seconds": 7459.96,
+  "title": "Federalism, Ethnic Identity and National Unity Debate",
+  "parties": [
+    {
+      "name": "Peace for Ethiopia Coalition",
+      "slug": "peace-for-ethiopia-coalition"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    },
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    }
+  ]
+}

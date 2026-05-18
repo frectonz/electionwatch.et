@@ -1,0 +1,26 @@
+{
+  "video_id": "sKmJysWP-Kw",
+  "source": "etv_nebe",
+  "upload_date": "2026-04-29",
+  "youtube_url": "https://www.youtube.com/watch?v=sKmJysWP-Kw",
+  "duration_seconds": 5795.72,
+  "title": "Multinationalism and Citizenship in Ethiopia Debate",
+  "parties": [
+    {
+      "name": "National Movement of Amhara",
+      "slug": "national-movement-of-amhara"
+    },
+    {
+      "name": "Balderas for True Democracy Party",
+      "slug": "balderas-for-true-democracy-party"
+    },
+    {
+      "name": "Wollo Peoples' Democratic Party",
+      "slug": "wollo-peoples-democratic-party"
+    },
+    {
+      "name": "Afar People's Party",
+      "slug": "afar-peoples-party"
+    }
+  ]
+}

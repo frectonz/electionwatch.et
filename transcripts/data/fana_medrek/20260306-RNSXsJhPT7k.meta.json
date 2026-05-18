@@ -1,0 +1,30 @@
+{
+  "video_id": "RNSXsJhPT7k",
+  "source": "fana_medrek",
+  "upload_date": "2026-03-06",
+  "youtube_url": "https://www.youtube.com/watch?v=RNSXsJhPT7k",
+  "duration_seconds": 8540.16,
+  "title": "Foreign Affairs and National Security Debate",
+  "parties": [
+    {
+      "name": "Prosperity Party",
+      "slug": "prosperity-party"
+    },
+    {
+      "name": "National Movement of Amhara",
+      "slug": "national-movement-of-amhara"
+    },
+    {
+      "name": "Ethiopian Citizens for Social Justice",
+      "slug": "ethiopian-citizens-for-social-justice"
+    },
+    {
+      "name": "Cooperation for Ethiopian Unity Party",
+      "slug": "cooperation-for-ethiopian-unity-party"
+    },
+    {
+      "name": "Freedom and Equality Party",
+      "slug": "freedom-and-equality-party"
+    }
+  ]
+}
