@@ -1,0 +1,392 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import ClipPlayer from "@/components/ClipPlayer.astro";
+import ClipButton from "@/components/ClipButton.astro";
+import {
+  allDebates,
+  getDebate,
+  partyName,
+  SOURCE_LABELS,
+  formatDate,
+  formatDuration,
+} from "@/data";
+import { timestamp } from "@/lib/format";
+import { ArrowLeft, Youtube } from "@lucide/astro";
+
+export function getStaticPaths() {
+  return allDebates.map((d) => ({ params: { id: d.meta.video_id } }));
+}
+
+const { id } = Astro.params as { id: string };
+const debate = getDebate(id);
+if (!debate) {
+  return Astro.redirect("/data/debates");
+}
+
+const videoId = debate.meta.video_id;
+const totalDuration = debate.meta.duration_seconds;
+
+function askerName(asker: string): string {
+  if (asker === "moderator") return "Moderator";
+  if (asker === "audience") return "Audience";
+  return partyName(asker);
+}
+
+const questions = debate.analysis.questions.map((q, i) => {
+  const qStart = q.citations[0]?.start ?? 0;
+  const ansEnds = q.answers.flatMap((a) =>
+    [...a.citations, ...a.key_points.flatMap((kp) => kp.citations)].map(
+      (c) => c.end,
+    ),
+  );
+  return {
+    raw: q,
+    index: i,
+    qid: `q${i + 1}`,
+    startSec: qStart,
+    endSec: Math.max(qStart, q.citations[0]?.end ?? qStart, ...ansEnds),
+  };
+});
+---
+
+<Layout
+  title={`${debate.analysis.title} · electionwatch.et`}
+  description={`Analysis of the ${debate.analysis.title} debate during Ethiopia's 7th General Election.`}
+>
+  <!-- Header -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
+    <a
+      href="/data/debates"
+      class="inline-flex items-center gap-1.5 text-sm text-ew-text-muted hover:text-ew-shell mb-6"
+    >
+      <ArrowLeft class="w-4 h-4" />
+      All debates
+    </a>
+    <div
+      class="flex items-center gap-2 text-[11px] uppercase tracking-wider mb-3"
+    >
+      <span
+        class="px-2 py-0.5 rounded bg-ew-surface text-ew-text-dim font-semibold"
+      >
+        {SOURCE_LABELS[debate.meta.source as keyof typeof SOURCE_LABELS]}
+      </span>
+      <span class="text-ew-text-muted">
+        {formatDate(debate.meta.upload_date)}
+      </span>
+      <span class="text-ew-text-muted">&middot;</span>
+      <span class="text-ew-text-muted font-mono">
+        {formatDuration(debate.meta.duration_seconds)}
+      </span>
+    </div>
+    <h1 class="font-display text-4xl sm:text-5xl mb-3 leading-tight">
+      {debate.analysis.title}
+    </h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      {debate.analysis.overall_topic}
+    </p>
+  </section>
+
+  <!-- Player + chapter timeline -->
+  <ClipPlayer defaultVideoId={videoId}>
+    <div class="relative h-6 bg-ew-surface rounded overflow-hidden mt-1">
+      {
+        questions.map((q) => {
+          const leftPct = (q.startSec / totalDuration) * 100;
+          const widthPct = ((q.endSec - q.startSec) / totalDuration) * 100;
+          return (
+            <button
+              type="button"
+              data-clip-video-id={videoId}
+              data-clip-start={q.startSec}
+              data-clip-end={q.endSec}
+              data-clip-label={`Q${q.index + 1}. ${q.raw.topic}`}
+              class="absolute top-0 bottom-0 bg-ew-shell/50 hover:bg-ew-shell border-r border-white/40 transition-colors flex items-center justify-center cursor-pointer"
+              style={`left:${leftPct}%;width:${Math.max(widthPct, 1.5)}%`}
+              title={`Q${q.index + 1}. ${q.raw.topic}`}
+            >
+              <span class="text-[9px] text-white font-mono leading-none px-0.5 truncate">
+                Q{q.index + 1}
+              </span>
+            </button>
+          );
+        })
+      }
+    </div>
+    <div
+      class="flex justify-between text-[10px] font-mono text-ew-text-muted mt-1"
+    >
+      <span>0:00</span>
+      <span>{formatDuration(totalDuration)}</span>
+    </div>
+    <a
+      href={debate.meta.youtube_url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-1.5 text-xs text-ew-text-muted hover:text-ew-shell mt-1"
+    >
+      <Youtube class="w-3.5 h-3.5" />
+      Open on YouTube
+    </a>
+  </ClipPlayer>
+
+  <!-- Question ToC + Party filter -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
+    <div class="grid lg:grid-cols-[2fr_1fr] gap-6">
+      <div>
+        <h2
+          class="text-[11px] uppercase tracking-wider text-ew-text-muted mb-2 font-semibold"
+        >
+          Jump to question
+        </h2>
+        <div class="flex flex-wrap gap-1.5">
+          {
+            questions.map((q) => {
+              const firstCite = q.raw.citations[0];
+              const chipClass =
+                "text-xs px-2.5 py-1 rounded-full border border-ew-card-border text-ew-text-dim hover:border-ew-shell hover:text-ew-shell transition-colors inline-flex items-center gap-1";
+              if (!firstCite) {
+                return (
+                  <a href={`#${q.qid}`} class={chipClass}>
+                    <span class="font-mono text-ew-text-muted">
+                      Q{q.index + 1}
+                    </span>
+                    <span class="truncate max-w-[180px]">{q.raw.topic}</span>
+                  </a>
+                );
+              }
+              return (
+                <button
+                  type="button"
+                  data-jump={q.qid}
+                  data-clip-video-id={videoId}
+                  data-clip-start={firstCite.start}
+                  data-clip-end={firstCite.end}
+                  data-clip-label={`Q${q.index + 1}. ${q.raw.topic}`}
+                  data-clip-youtube={firstCite.youtube_url}
+                  class={chipClass}
+                >
+                  <span class="font-mono text-ew-text-muted">
+                    Q{q.index + 1}
+                  </span>
+                  <span class="truncate max-w-[180px]">{q.raw.topic}</span>
+                </button>
+              );
+            })
+          }
+        </div>
+      </div>
+      <div>
+        <h2
+          class="text-[11px] uppercase tracking-wider text-ew-text-muted mb-2 font-semibold"
+        >
+          Filter by party
+        </h2>
+        <div class="flex flex-wrap gap-1.5" data-party-filter>
+          <button
+            type="button"
+            data-party-slug=""
+            class="text-xs px-2.5 py-1 rounded-full border border-ew-shell bg-ew-shell text-white"
+          >
+            All
+          </button>
+          {
+            debate.meta.parties.map((p) => (
+              <button
+                type="button"
+                data-party-slug={p.slug}
+                class="text-xs px-2.5 py-1 rounded-full border border-ew-card-border text-ew-text-dim hover:border-ew-shell hover:text-ew-shell transition-colors"
+              >
+                {p.name}
+              </button>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <div class="space-y-10">
+      {
+        questions.map((q) => (
+          <article
+            id={q.qid}
+            data-question
+            class="bg-ew-card border border-ew-card-border rounded-xl p-5 sm:p-7 scroll-mt-[420px] lg:scroll-mt-[240px]"
+          >
+            <div class="flex items-center gap-2 text-[11px] uppercase tracking-wider text-ew-text-muted mb-2">
+              <span class="font-mono">Q{q.index + 1}</span>
+              <span>&middot;</span>
+              <span class="font-semibold text-ew-shell">{q.raw.topic}</span>
+              <span>&middot;</span>
+              <span>{askerName(q.raw.asker)}</span>
+            </div>
+            <h2 class="font-display text-2xl leading-snug mb-3">
+              {q.raw.question}
+            </h2>
+
+            {q.raw.citations.length > 0 && (
+              <div class="flex flex-wrap gap-2 mb-5 text-xs">
+                {q.raw.citations.map((c) => (
+                  <ClipButton
+                    videoId={videoId}
+                    start={c.start}
+                    end={c.end}
+                    label={`Q${q.index + 1}. Question asked`}
+                    youtubeUrl={c.youtube_url}
+                  />
+                ))}
+              </div>
+            )}
+
+            {q.raw.answers.length > 0 && q.endSec > q.startSec && (
+              <div class="mb-6">
+                <div class="relative h-5 bg-ew-surface rounded overflow-hidden">
+                  {q.raw.answers.map((ans) => {
+                    const c = ans.citations[0];
+                    if (!c) return null;
+                    const left = Math.max(
+                      0,
+                      ((c.start - q.startSec) / (q.endSec - q.startSec)) * 100,
+                    );
+                    const width = Math.max(
+                      0.8,
+                      ((c.end - c.start) / (q.endSec - q.startSec)) * 100,
+                    );
+                    const name = partyName(ans.party_slug);
+                    return (
+                      <button
+                        type="button"
+                        data-clip-video-id={videoId}
+                        data-clip-start={c.start}
+                        data-clip-end={c.end}
+                        data-clip-label={`${name} · Q${q.index + 1}`}
+                        data-clip-youtube={c.youtube_url}
+                        data-party-segment={ans.party_slug}
+                        class="absolute top-0 bottom-0 bg-ew-shell/60 hover:bg-ew-shell border-r border-white/40 transition-colors"
+                        style={`left:${left}%;width:${Math.min(width, 100 - left)}%`}
+                        title={`${name} · ${timestamp(c.start)}`}
+                      />
+                    );
+                  })}
+                </div>
+                <div class="flex justify-between text-[10px] font-mono text-ew-text-muted mt-0.5">
+                  <span>{timestamp(q.startSec)}</span>
+                  <span>{timestamp(q.endSec)}</span>
+                </div>
+              </div>
+            )}
+
+            <div class="space-y-5">
+              {q.raw.answers.map((ans) => {
+                const name = partyName(ans.party_slug);
+                const primaryCite = ans.citations[0];
+                return (
+                  <div
+                    data-party-answer={ans.party_slug}
+                    class="pl-4 border-l-2 border-ew-shell/20 transition-opacity"
+                  >
+                    <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
+                      <a
+                        href={`/parties/${ans.party_slug}`}
+                        class="font-display text-lg text-ew-text hover:text-ew-shell"
+                      >
+                        {name}
+                      </a>
+                      {primaryCite && (
+                        <ClipButton
+                          videoId={videoId}
+                          start={primaryCite.start}
+                          end={primaryCite.end}
+                          label={`${name} · Q${q.index + 1}`}
+                          youtubeUrl={primaryCite.youtube_url}
+                        />
+                      )}
+                    </div>
+                    <p class="text-ew-text-dim leading-relaxed mb-3">
+                      {ans.summary}
+                    </p>
+                    {ans.key_points.length > 0 && (
+                      <ul class="space-y-2 text-sm">
+                        {ans.key_points.map((kp) => (
+                          <li>
+                            <p class="text-ew-text-dim leading-snug">
+                              {kp.point}
+                            </p>
+                            {kp.citations.length > 0 && (
+                              <div class="mt-1 flex flex-wrap gap-1.5">
+                                {kp.citations.map((c) => (
+                                  <ClipButton
+                                    variant="inline"
+                                    videoId={videoId}
+                                    start={c.start}
+                                    end={c.end}
+                                    label={`${name} · Q${q.index + 1}`}
+                                    youtubeUrl={c.youtube_url}
+                                  />
+                                ))}
+                              </div>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
+
+<script is:inline>
+  (function () {
+    const filterBar = document.querySelector("[data-party-filter]");
+    if (!filterBar) return;
+
+    function applyFilter(slug) {
+      filterBar.querySelectorAll("[data-party-slug]").forEach(function (b) {
+        const active = b.dataset.partySlug === slug;
+        b.classList.toggle("bg-ew-shell", active);
+        b.classList.toggle("text-white", active);
+        b.classList.toggle("border-ew-shell", active);
+        b.classList.toggle("border-ew-card-border", !active);
+        b.classList.toggle("text-ew-text-dim", !active);
+      });
+      document.querySelectorAll("[data-party-answer]").forEach(function (el) {
+        const match = !slug || el.dataset.partyAnswer === slug;
+        el.classList.toggle("opacity-25", !match);
+      });
+      document.querySelectorAll("[data-party-segment]").forEach(function (el) {
+        const match = !slug || el.dataset.partySegment === slug;
+        el.classList.toggle("opacity-25", !match);
+      });
+    }
+
+    function syncUrl(slug) {
+      const url = new URL(window.location.href);
+      if (slug) url.searchParams.set("party", slug);
+      else url.searchParams.delete("party");
+      window.history.replaceState({}, "", url);
+    }
+
+    const initial =
+      new URLSearchParams(window.location.search).get("party") || "";
+    if (initial) applyFilter(initial);
+
+    filterBar.addEventListener("click", function (e) {
+      const btn =
+        e.target instanceof Element
+          ? e.target.closest("[data-party-slug]")
+          : null;
+      if (!(btn instanceof HTMLElement)) return;
+      const slug = btn.dataset.partySlug || "";
+      applyFilter(slug);
+      syncUrl(slug);
+    });
+  })();
+</script>

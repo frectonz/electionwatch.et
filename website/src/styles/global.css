@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ew-shell: #1f2455;
+  --color-ew-shell-soft: #2d3370;
+
+  --color-ew-gold: #c79a3a;
+  --color-ew-gold-deep: #94701c;
+  --color-ew-gold-soft: #ece2bf;
+
+  --color-ew-bg: #eeeff5;
+  --color-ew-card: #ffffff;
+  --color-ew-card-border: #d3d5e0;
+  --color-ew-surface: #e3e5ef;
+
+  --color-ew-text: #15172a;
+  --color-ew-text-dim: #3c3f55;
+  --color-ew-text-muted: #7a7d92;
+
+  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("https://fonts.gstatic.com/s/instrumentserif/v4/jizBRFtNs2ka5fCjSL3y5aMRkkTfKOlC.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("https://fonts.gstatic.com/s/jetbrainsmono/v20/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTOlOTk6OThhvA.woff2")
+    format("woff2");
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    color: var(--color-ew-text);
+    background-color: var(--color-ew-bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-ew-text);
+    line-height: 1.15;
+  }
+
+  ::selection {
+    background-color: var(--color-ew-shell);
+    color: var(--color-ew-bg);
+  }
+}

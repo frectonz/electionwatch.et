@@ -1,0 +1,203 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import ClipPlayer from "@/components/ClipPlayer.astro";
+import ClipButton from "@/components/ClipButton.astro";
+import {
+  allParties,
+  allDebates,
+  partyBySlug,
+  SOURCE_LABELS,
+  formatDate,
+} from "@/data";
+import { slugifyTopic } from "@/lib/format";
+import { ArrowLeft, MessagesSquare, Quote } from "@lucide/astro";
+
+export function getStaticPaths() {
+  return allParties.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params as { slug: string };
+const party = partyBySlug.get(slug);
+if (!party) {
+  return Astro.redirect("/parties");
+}
+
+const partyDebates = allDebates.filter((d) =>
+  d.meta.parties.some((p) => p.slug === slug),
+);
+
+const hasPlayableCitations = party.positions.some((p) =>
+  p.citations.some((c) => c.spans.length > 0),
+);
+
+const debateByVideo = new Map<string, { title: string }>(
+  allDebates.map((d) => [d.meta.video_id, { title: d.analysis.title }]),
+);
+---
+
+<Layout
+  title={`${party.name} · electionwatch.et`}
+  description={`Positions and debate appearances for ${party.name} during Ethiopia's 7th General Election.`}
+>
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
+    <a
+      href="/parties"
+      class="inline-flex items-center gap-1.5 text-sm text-ew-text-muted hover:text-ew-shell mb-6"
+    >
+      <ArrowLeft class="w-4 h-4" />
+      All parties
+    </a>
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">{party.name}</h1>
+    <div class="flex flex-wrap gap-4 text-sm text-ew-text-muted">
+      <span class="inline-flex items-center gap-1.5">
+        <Quote class="w-4 h-4" />
+        {party.positions.length} positions
+      </span>
+      <span class="inline-flex items-center gap-1.5">
+        <MessagesSquare class="w-4 h-4" />
+        {partyDebates.length} debate appearances
+      </span>
+    </div>
+  </section>
+
+  {
+    party.positions.length === 0 && (
+      <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div class="bg-ew-card border border-ew-card-border rounded-xl p-8 text-center">
+          <p class="text-ew-text-dim">
+            No position file yet. This party hasn&rsquo;t appeared in any
+            analysed debate.
+          </p>
+        </div>
+      </section>
+    )
+  }
+
+  {hasPlayableCitations && <ClipPlayer />}
+
+  {
+    party.positions.length > 0 && (
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
+        <h2 class="text-[11px] uppercase tracking-wider text-ew-text-muted mb-2 font-semibold">
+          Jump to topic
+        </h2>
+        <div class="flex flex-wrap gap-1.5">
+          {party.positions.map((pos) => {
+            const firstCite = pos.citations[0];
+            const firstSpan = firstCite?.spans[0];
+            const chipClass =
+              "text-xs px-2.5 py-1 rounded-full border border-ew-card-border text-ew-text-dim hover:border-ew-shell hover:text-ew-shell transition-colors";
+            if (!firstCite || !firstSpan) {
+              return (
+                <a href={`#${slugifyTopic(pos.topic)}`} class={chipClass}>
+                  {pos.topic}
+                </a>
+              );
+            }
+            return (
+              <button
+                type="button"
+                data-jump={slugifyTopic(pos.topic)}
+                data-clip-video-id={firstCite.video_id}
+                data-clip-start={firstSpan.start}
+                data-clip-end={firstSpan.end}
+                data-clip-label={pos.topic}
+                data-clip-youtube={firstSpan.youtube_url}
+                class={chipClass}
+              >
+                {pos.topic}
+              </button>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    party.positions.length > 0 && (
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+        <h2 class="font-display text-2xl mb-4">Positions</h2>
+        <div class="space-y-4">
+          {party.positions.map((pos) => {
+            const tid = slugifyTopic(pos.topic);
+            return (
+              <article
+                id={tid}
+                class="bg-ew-card border border-ew-card-border rounded-xl p-5 sm:p-6 scroll-mt-[420px] lg:scroll-mt-[240px]"
+              >
+                <div class="flex items-center gap-2 text-[11px] uppercase tracking-wider text-ew-shell font-semibold mb-2">
+                  {pos.topic}
+                </div>
+                <p class="text-ew-text leading-relaxed mb-4">{pos.position}</p>
+                {pos.citations.length > 0 && (
+                  <details class="group" open={pos.citations.length <= 2}>
+                    <summary class="cursor-pointer text-sm text-ew-text-muted hover:text-ew-shell inline-flex items-center gap-1.5 select-none mb-3">
+                      <Quote class="w-3.5 h-3.5" />
+                      {pos.citations.length} cited{" "}
+                      {pos.citations.length === 1 ? "moment" : "moments"}
+                    </summary>
+                    <ul class="pl-5 border-l-2 border-ew-shell/15 space-y-4">
+                      {pos.citations.map((c) => {
+                        const debateInfo = debateByVideo.get(c.video_id);
+                        return (
+                          <li>
+                            <p class="text-sm text-ew-text-dim italic leading-relaxed">
+                              &ldquo;{c.excerpt}&rdquo;
+                            </p>
+                            {debateInfo && (
+                              <p class="text-[10px] uppercase tracking-wider text-ew-text-muted mt-1">
+                                {debateInfo.title}
+                              </p>
+                            )}
+                            <div class="mt-2 flex flex-wrap gap-1.5">
+                              {c.spans.map((s) => (
+                                <ClipButton
+                                  videoId={c.video_id}
+                                  start={s.start}
+                                  end={s.end}
+                                  label={`${pos.topic}${debateInfo ? " · " + debateInfo.title : ""}`}
+                                  youtubeUrl={s.youtube_url}
+                                />
+                              ))}
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </details>
+                )}
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    partyDebates.length > 0 && (
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <h2 class="font-display text-2xl mb-4">Debate appearances</h2>
+        <div class="grid sm:grid-cols-2 gap-3">
+          {partyDebates.map((d) => (
+            <a
+              href={`/data/debates/${d.meta.video_id}`}
+              class="group bg-ew-card border border-ew-card-border rounded-xl p-4 hover:border-ew-shell/40 hover:shadow-md transition-all"
+            >
+              <div class="flex items-center gap-2 text-[11px] uppercase tracking-wider text-ew-text-muted mb-2">
+                <span class="px-2 py-0.5 rounded bg-ew-surface text-ew-text-dim font-semibold">
+                  {SOURCE_LABELS[d.meta.source as keyof typeof SOURCE_LABELS]}
+                </span>
+                <span>{formatDate(d.meta.upload_date)}</span>
+              </div>
+              <h3 class="font-display text-lg leading-tight group-hover:text-ew-shell transition-colors">
+                {d.analysis.title}
+              </h3>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Layout>

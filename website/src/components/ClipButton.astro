@@ -1,0 +1,46 @@
+---
+import { Play } from "@lucide/astro";
+import { timestamp } from "@/lib/format";
+
+interface Props {
+  videoId: string;
+  start: number;
+  end: number;
+  label: string;
+  youtubeUrl?: string;
+  variant?: "chip" | "inline";
+}
+
+const {
+  videoId,
+  start,
+  end,
+  label,
+  youtubeUrl,
+  variant = "chip",
+} = Astro.props;
+
+const chipClass =
+  "inline-flex items-center gap-1 px-2 py-1 rounded bg-ew-surface text-ew-shell hover:bg-ew-shell hover:text-white text-xs transition-colors";
+const inlineClass =
+  "text-[10px] font-mono text-ew-shell hover:text-ew-gold inline-flex items-center gap-0.5";
+---
+
+<button
+  type="button"
+  data-clip-video-id={videoId}
+  data-clip-start={start}
+  data-clip-end={end}
+  data-clip-label={label}
+  data-clip-youtube={youtubeUrl}
+  class={variant === "inline" ? inlineClass : chipClass}
+>
+  <Play class={variant === "inline" ? "w-2.5 h-2.5" : "w-3 h-3"} />
+  <span class="font-mono">
+    {
+      variant === "inline"
+        ? `[${timestamp(start)}]`
+        : `${timestamp(start)} – ${timestamp(end)}`
+    }
+  </span>
+</button>

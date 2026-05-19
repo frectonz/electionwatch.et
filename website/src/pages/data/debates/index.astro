@@ -1,0 +1,82 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  allDebates,
+  SOURCES,
+  SOURCE_LABELS,
+  formatDate,
+  formatDuration,
+  type Source,
+} from "@/data";
+import { ArrowRight } from "@lucide/astro";
+---
+
+<Layout
+  title="Debates · electionwatch.et"
+  description="Debate broadcasts from Ethiopia's 7th General Election."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">
+      {allDebates.length} debates
+    </h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      Every claim links to its YouTube timestamp.
+    </p>
+  </section>
+
+  {
+    SOURCES.map((source: Source) => {
+      const debates = allDebates.filter((d) => d.meta.source === source);
+      if (debates.length === 0) return null;
+      return (
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+          <div class="flex items-end justify-between mb-4">
+            <h2 class="font-display text-2xl">{SOURCE_LABELS[source]}</h2>
+            <span class="text-sm text-ew-text-muted font-mono">
+              {debates.length} {debates.length === 1 ? "debate" : "debates"}
+            </span>
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {debates.map((d) => (
+              <a
+                href={`/data/debates/${d.meta.video_id}`}
+                class="group bg-ew-card border border-ew-card-border rounded-xl p-5 hover:border-ew-shell/40 hover:shadow-md transition-all"
+              >
+                <div class="flex items-center gap-2 text-[11px] uppercase tracking-wider text-ew-text-muted mb-3">
+                  <span>{formatDate(d.meta.upload_date)}</span>
+                  <span>&middot;</span>
+                  <span class="font-mono">
+                    {formatDuration(d.meta.duration_seconds)}
+                  </span>
+                  <span>&middot;</span>
+                  <span class="font-mono">{d.analysis.questions.length} Q</span>
+                </div>
+                <h3 class="font-display text-xl mb-2 group-hover:text-ew-shell transition-colors leading-tight">
+                  {d.analysis.title}
+                </h3>
+                <p class="text-ew-text-dim text-sm leading-snug line-clamp-2">
+                  {d.analysis.overall_topic}
+                </p>
+                <div class="mt-4 flex flex-wrap gap-1.5">
+                  {d.meta.parties.slice(0, 4).map((p) => (
+                    <span class="text-[11px] px-2 py-0.5 rounded-full border border-ew-card-border text-ew-text-dim">
+                      {p.name}
+                    </span>
+                  ))}
+                  {d.meta.parties.length > 4 && (
+                    <span class="text-[11px] px-2 py-0.5 rounded-full text-ew-text-muted">
+                      +{d.meta.parties.length - 4}
+                    </span>
+                  )}
+                </div>
+                <div class="mt-4 text-xs text-ew-shell inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Read <ArrowRight class="w-3 h-3" />
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      );
+    })
+  }
+</Layout>

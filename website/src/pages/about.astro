@@ -1,0 +1,57 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { ExternalLink } from "@lucide/astro";
+---
+
+<Layout
+  title="About · electionwatch.et"
+  description="About electionwatch.et: an independent open-data portal for Ethiopia's 7th General Election."
+>
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h1 class="font-display text-4xl sm:text-5xl mb-6">About</h1>
+    <div
+      class="prose prose-lg max-w-none text-ew-text-dim leading-relaxed space-y-5"
+    >
+      <p>
+        <strong class="text-ew-text">electionwatch.et</strong> is an independent,
+        open data portal for Ethiopia&rsquo;s 7th General Election. It is not affiliated
+        with the Ethiopian government, <a
+          href="https://nebe.org.et/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1"
+          >NEBE<ExternalLink class="w-3 h-3" /></a
+        >, or any political party.
+      </p>
+      <p>
+        We collect publicly available material, structure it into citable
+        datasets, and publish it for free. New datasets are added through the
+        election cycle.
+      </p>
+
+      <h2 class="font-display text-2xl text-ew-text mt-10 mb-3">Datasets</h2>
+      <p>
+        Two are live: question-by-question analyses of every official debate
+        broadcast, and consolidated position files for parties that have
+        appeared in one. More are in progress.
+      </p>
+
+      <h2 class="font-display text-2xl text-ew-text mt-10 mb-3">Citations</h2>
+      <p>
+        Every record links to its primary source. Where claims are summarised
+        automatically by a language model, the same link lets you check the
+        model&rsquo;s work. Check the source before drawing conclusions.
+      </p>
+
+      <h2 class="font-display text-2xl text-ew-text mt-10 mb-3">Contact</h2>
+      <p>
+        Found an inaccuracy? Reach out to
+        <a
+          href="https://t.me/frectonz"
+          target="_blank"
+          rel="noopener noreferrer">@frectonz</a
+        > on Telegram.
+      </p>
+    </div>
+  </section>
+</Layout>

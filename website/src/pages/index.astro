@@ -1,0 +1,203 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { ArrowRight, Landmark, Quote, ScrollText } from "@lucide/astro";
+import { allDebates, allParties } from "@/data";
+import { datasets } from "@/data/datasets";
+
+const totalQuestions = allDebates.reduce(
+  (sum, d) => sum + d.analysis.questions.length,
+  0,
+);
+const totalCitations = allDebates.reduce(
+  (sum, d) =>
+    sum +
+    d.analysis.questions.reduce(
+      (qs, q) =>
+        qs +
+        q.citations.length +
+        q.answers.reduce(
+          (a, ans) =>
+            a +
+            ans.citations.length +
+            ans.key_points.reduce((kp, k) => kp + k.citations.length, 0),
+          0,
+        ),
+      0,
+    ),
+  0,
+);
+
+const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
+---
+
+<Layout>
+  <!-- Hero -->
+  <section class="border-b border-ew-card-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1
+            class="font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.05] mb-6 text-ew-text"
+          >
+            Data on Ethiopia&rsquo;s 7th General Election.
+          </h1>
+          <p class="text-ew-text-dim text-lg leading-relaxed mb-4 max-w-xl">
+            Debates, parties, and positions. Every claim links to its source.
+          </p>
+          <p class="text-ew-text-muted text-sm leading-relaxed max-w-xl mb-8">
+            Independent. Open source. Built from public material.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a
+              href="/data"
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-ew-shell text-white font-medium text-sm hover:bg-ew-shell-soft transition-colors"
+            >
+              Explore the Data
+              <ArrowRight class="w-4 h-4" />
+            </a>
+            <a
+              href="/parties"
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-ew-shell/30 text-ew-shell font-medium text-sm hover:bg-ew-shell/10 transition-colors"
+            >
+              Browse Parties
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: tilted card with portal-wide stats -->
+        <div class="min-w-0" style="perspective: 800px;">
+          <div
+            class="bg-ew-card border border-ew-card-border rounded-xl p-6 sm:p-8 relative"
+            style="transform: rotateY(-4deg) rotateX(2deg); box-shadow: 8px 12px 28px rgba(31,36,85,0.18), 2px 4px 8px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.7);"
+          >
+            <div class="grid grid-cols-2 gap-x-6 gap-y-5">
+              <div>
+                <p class="text-ew-text font-mono text-3xl font-semibold">
+                  {datasets.length}
+                </p>
+                <p
+                  class="text-ew-text-muted text-xs uppercase tracking-wider mt-1"
+                >
+                  Datasets
+                </p>
+              </div>
+              <div>
+                <p class="text-ew-text font-mono text-3xl font-semibold">
+                  {allDebates.length}
+                </p>
+                <p
+                  class="text-ew-text-muted text-xs uppercase tracking-wider mt-1"
+                >
+                  Debates
+                </p>
+              </div>
+              <div>
+                <p class="text-ew-text font-mono text-3xl font-semibold">
+                  {partiesWithPositions.length}
+                </p>
+                <p
+                  class="text-ew-text-muted text-xs uppercase tracking-wider mt-1"
+                >
+                  Parties profiled
+                </p>
+              </div>
+              <div>
+                <p class="text-ew-text font-mono text-3xl font-semibold">
+                  {totalCitations.toLocaleString()}
+                </p>
+                <p
+                  class="text-ew-text-muted text-xs uppercase tracking-wider mt-1"
+                >
+                  Citations
+                </p>
+              </div>
+            </div>
+            <div
+              class="mt-6 pt-4 border-t border-ew-card-border text-xs text-ew-text-muted tabular-nums"
+            >
+              {totalQuestions} questions tracked.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Datasets -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="flex items-end justify-between mb-6">
+      <h2 class="font-display text-3xl text-ew-text">Datasets</h2>
+      <a
+        href="/data"
+        class="text-sm text-ew-shell hover:text-ew-gold inline-flex items-center gap-1"
+      >
+        All datasets <ArrowRight class="w-4 h-4" />
+      </a>
+    </div>
+    <div class="grid md:grid-cols-2 gap-4">
+      {
+        datasets.map((d) => {
+          const isLive = d.status === "live";
+          const Wrapper = isLive ? "a" : "div";
+          return (
+            <Wrapper
+              href={isLive ? d.href : undefined}
+              class={`group bg-ew-card border border-ew-card-border rounded-xl p-5 sm:p-6 flex flex-col gap-2 ${
+                isLive
+                  ? "hover:border-ew-shell/40 hover:shadow-md transition-all"
+                  : "opacity-75"
+              }`}
+            >
+              <ScrollText class="w-5 h-5 text-ew-shell" />
+              <h3 class="font-display text-xl group-hover:text-ew-shell transition-colors">
+                {d.title}
+                {!isLive && (
+                  <span class="ml-2 text-xs uppercase tracking-wider text-ew-text-muted font-body font-normal align-middle">
+                    coming soon
+                  </span>
+                )}
+              </h3>
+              <p class="text-ew-text-dim text-sm leading-relaxed flex-1">
+                {d.blurb}
+              </p>
+              <p class="text-xs text-ew-text-muted font-mono tabular-nums mt-1">
+                {d.records} {d.recordsLabel}
+              </p>
+            </Wrapper>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <!-- Entry points -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <div class="grid md:grid-cols-2 gap-5">
+      <a
+        href="/parties"
+        class="group bg-ew-card border border-ew-card-border rounded-xl p-6 sm:p-7 hover:border-ew-shell/40 hover:shadow-md transition-all"
+      >
+        <Landmark class="w-6 h-6 text-ew-shell mb-3" />
+        <h3 class="font-display text-2xl mb-2 group-hover:text-ew-shell">
+          Browse by party
+        </h3>
+        <p class="text-ew-text-dim text-sm leading-relaxed">
+          {allParties.length} parties. {partiesWithPositions.length} have position
+          files from debate appearances.
+        </p>
+      </a>
+      <a
+        href="/data/debates"
+        class="group bg-ew-card border border-ew-card-border rounded-xl p-6 sm:p-7 hover:border-ew-shell/40 hover:shadow-md transition-all"
+      >
+        <Quote class="w-6 h-6 text-ew-shell mb-3" />
+        <h3 class="font-display text-2xl mb-2 group-hover:text-ew-shell">
+          Browse by debate
+        </h3>
+        <p class="text-ew-text-dim text-sm leading-relaxed">
+          {allDebates.length} broadcasts. Every claim links to its YouTube timestamp.
+        </p>
+      </a>
+    </div>
+  </section>
+</Layout>

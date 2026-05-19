@@ -1,0 +1,193 @@
+---
+import "../styles/global.css";
+import { House, Landmark, Database, Info } from "@lucide/astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  type?: string;
+}
+
+const {
+  title = "electionwatch.et · Open data for Ethiopia's 7th General Election",
+  description = "Open datasets on Ethiopia's 7th General Election. Debates, party positions, and more. Every claim links to its source.",
+  type = "website",
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const currentPath = Astro.url.pathname;
+
+const navLink = (href: string) => {
+  const isActive =
+    href === "/" ? currentPath === "/" : currentPath.startsWith(href);
+  return isActive
+    ? "text-ew-gold flex items-center gap-1.5"
+    : "text-white/70 hover:text-ew-gold transition-colors flex items-center gap-1.5";
+};
+
+const amharicLetters = ["ም", "ር", "ጫ"];
+function seededRandom(seed: number) {
+  let s = seed;
+  return () => {
+    s = (s * 16807 + 0) % 2147483647;
+    return s / 2147483647;
+  };
+}
+const rand = seededRandom(7);
+const glyphs = Array.from({ length: 150 }, () => {
+  const r = rand();
+  const size = r < 0.15 ? 120 + rand() * 180 : 32 + rand() * 48;
+  return {
+    char: amharicLetters[Math.floor(rand() * amharicLetters.length)],
+    left: (rand() * 100).toFixed(1),
+    top: (rand() * 100).toFixed(1),
+    size: size.toFixed(0),
+    opacity: (0.025 + rand() * 0.04).toFixed(3),
+  };
+});
+---
+
+<!doctype html>
+<html lang="en" class="bg-ew-shell text-ew-text">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1f2455" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="electionwatch.et" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="canonical" href={canonicalURL.href} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.href} />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="electionwatch.et" />
+    <meta property="og:locale" content="en_ET" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <slot name="head" />
+  </head>
+  <body
+    class="bg-ew-bg font-body min-h-screen flex flex-col antialiased relative"
+  >
+    <!-- Amharic letter background -->
+    <div
+      class="absolute inset-0 overflow-hidden pointer-events-none select-none z-0 h-full"
+      aria-hidden="true"
+    >
+      {
+        glyphs.map((g) => (
+          <span
+            class="absolute font-display text-ew-shell"
+            style={`left:${g.left}%;top:${g.top}%;font-size:${g.size}px;opacity:${g.opacity};`}
+          >
+            {g.char}
+          </span>
+        ))
+      }
+    </div>
+
+    <nav class="bg-ew-shell text-white sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"
+      >
+        <a
+          href="/"
+          class="flex flex-col leading-tight text-white hover:opacity-80 transition-opacity"
+        >
+          <span class="font-display text-2xl tracking-tight"
+            >electionwatch.et</span
+          >
+          <span class="text-[11px] -mt-1 opacity-70">ምርጫ</span>
+        </a>
+        <div class="flex items-center gap-3 sm:gap-5 text-sm">
+          <a href="/" class={navLink("/")}>
+            <House class="w-4 h-4" />
+            <span class="hidden sm:inline">Home</span>
+          </a>
+          <a href="/data" class={navLink("/data")}>
+            <Database class="w-4 h-4" />
+            <span class="hidden sm:inline">Data</span>
+          </a>
+          <a href="/parties" class={navLink("/parties")}>
+            <Landmark class="w-4 h-4" />
+            <span class="hidden sm:inline">Parties</span>
+          </a>
+          <a href="/about" class={navLink("/about")}>
+            <Info class="w-4 h-4" />
+            <span class="hidden sm:inline">About</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex-1 relative z-10">
+      <slot />
+    </main>
+
+    <footer class="bg-ew-shell text-white mt-20 relative z-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <div class="flex flex-col leading-tight mb-4">
+              <span class="font-display text-lg">electionwatch.et</span>
+              <span class="text-white/60 text-[11px]">ምርጫ</span>
+            </div>
+            <p class="text-white/70 text-sm max-w-md leading-relaxed">
+              An independent open-data portal for Ethiopia&rsquo;s 7th General
+              Election. Not affiliated with or endorsed by the Ethiopian
+              government, <a
+                href="https://nebe.org.et/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline">NEBE</a
+              >, or any political party.
+            </p>
+          </div>
+          <div>
+            <h4
+              class="text-white/90 text-sm font-semibold mb-3 uppercase tracking-wider"
+            >
+              Disclaimer
+            </h4>
+            <p class="text-white/70 text-sm leading-relaxed">
+              All sources are public. Where summaries are generated
+              automatically, the citation links back to the original transcript,
+              broadcast, or filing.
+            </p>
+            <p class="text-white/70 text-sm leading-relaxed mt-3">
+              Check the source before drawing conclusions.
+            </p>
+          </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-white/20 text-center space-y-2">
+          <p class="text-white/50 text-xs">
+            Source list is published with each dataset.
+          </p>
+          <p class="text-white/50 text-xs">
+            If you find any inaccuracies or want to contact the creators of this
+            site, reach out to
+            <a
+              href="https://t.me/frectonz"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-ew-gold hover:text-ew-gold/80 transition-colors"
+              >@frectonz</a
+            > on Telegram.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

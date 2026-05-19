@@ -1,0 +1,74 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { allParties } from "@/data";
+import { ArrowRight, Quote, MessagesSquare } from "@lucide/astro";
+
+const withPositions = allParties.filter((p) => p.positions.length > 0);
+const withoutPositions = allParties.filter((p) => p.positions.length === 0);
+---
+
+<Layout
+  title="Parties · electionwatch.et"
+  description="Parties on the ballot for Ethiopia's 7th General Election."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">
+      {allParties.length} parties on the ballot
+    </h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      {withPositions.length} have position files from debate appearances. The rest
+      are listed for completeness.
+    </p>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+    <h2
+      class="font-display text-xl text-ew-text-muted uppercase tracking-wider mb-4"
+    >
+      With debate positions
+    </h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+      {
+        withPositions.map((p) => (
+          <a
+            href={`/parties/${p.slug}`}
+            class="group bg-ew-card border border-ew-card-border rounded-xl p-5 hover:border-ew-shell/40 hover:shadow-md transition-all flex flex-col"
+          >
+            <h3 class="font-display text-lg leading-tight group-hover:text-ew-shell transition-colors">
+              {p.name}
+            </h3>
+            <div class="flex-1" />
+            <div class="mt-4 flex items-center justify-between text-xs text-ew-text-muted">
+              <span class="inline-flex items-center gap-1.5">
+                <Quote class="w-3.5 h-3.5" />
+                {p.positions.length} positions
+              </span>
+              <span class="inline-flex items-center gap-1.5">
+                <MessagesSquare class="w-3.5 h-3.5" />
+                {p.debateCount} debates
+              </span>
+              <ArrowRight class="w-4 h-4 text-ew-shell opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  {
+    withoutPositions.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <h2 class="font-display text-xl text-ew-text-muted uppercase tracking-wider mb-4">
+          No debate appearance yet
+        </h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+          {withoutPositions.map((p) => (
+            <div class="bg-ew-card/60 border border-ew-card-border rounded-lg px-4 py-3 text-sm text-ew-text-dim">
+              {p.name}
+            </div>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Layout>

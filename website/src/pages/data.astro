@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { datasets } from "@/data/datasets";
+import { ArrowRight, Database } from "@lucide/astro";
+---
+
+<Layout
+  title="Data · electionwatch.et"
+  description="Open datasets on Ethiopia's 7th General Election."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">Datasets</h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      Every entry links to its source.
+    </p>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <div class="grid md:grid-cols-2 gap-5">
+      {
+        datasets.map((d) => {
+          const isLive = d.status === "live";
+          const Wrapper = isLive ? "a" : "div";
+          return (
+            <Wrapper
+              href={isLive ? d.href : undefined}
+              class={`group bg-ew-card border border-ew-card-border rounded-xl p-6 flex flex-col gap-3 ${
+                isLive
+                  ? "hover:border-ew-shell/40 hover:shadow-md transition-all"
+                  : "opacity-75"
+              }`}
+            >
+              <Database class="w-6 h-6 text-ew-shell" />
+              <h2 class="font-display text-2xl leading-tight group-hover:text-ew-shell transition-colors">
+                {d.title}
+                {!isLive && (
+                  <span class="ml-2 text-xs uppercase tracking-wider text-ew-text-muted font-body font-normal align-middle">
+                    coming soon
+                  </span>
+                )}
+              </h2>
+              <p class="text-ew-text-dim text-sm leading-relaxed flex-1">
+                {d.blurb}
+              </p>
+              <dl class="grid grid-cols-2 gap-2 text-xs mt-1">
+                <div>
+                  <dt class="text-ew-text-muted uppercase tracking-wider mb-0.5">
+                    Records
+                  </dt>
+                  <dd class="font-mono text-ew-text tabular-nums">
+                    {d.records} {d.recordsLabel}
+                  </dd>
+                </div>
+                <div>
+                  <dt class="text-ew-text-muted uppercase tracking-wider mb-0.5">
+                    Sources
+                  </dt>
+                  <dd class="text-ew-text-dim">{d.sources.join(", ")}</dd>
+                </div>
+              </dl>
+              {isLive && (
+                <div class="text-sm text-ew-shell inline-flex items-center gap-1 mt-2 opacity-70 group-hover:opacity-100 transition-opacity">
+                  Browse <ArrowRight class="w-3.5 h-3.5" />
+                </div>
+              )}
+            </Wrapper>
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>

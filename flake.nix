@@ -34,6 +34,9 @@
             pkgs.uv
             pkgs.ty
             pkgs.ruff
+
+            pkgs.pnpm
+            pkgs.nodejs
           ];
         };
       });
