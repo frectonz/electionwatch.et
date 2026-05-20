@@ -1,4 +1,5 @@
 import { allDebates, allParties } from "./index";
+import { pollingStationsIndex } from "./pollingStations";
 
 export type DatasetStatus = "live" | "in-progress" | "planned";
 
@@ -40,6 +41,17 @@ export const datasets: DatasetMeta[] = [
     records: partiesWithPositions,
     recordsLabel: "party profiles with positions",
     sources: ["Debate transcripts"],
+  },
+  {
+    id: "polling-stations",
+    title: "Polling Stations",
+    blurb:
+      "Every registered polling station for the 7th General Election, structured by region, zone, woreda, kebele, and electoral constituency — with coordinates where the board published them.",
+    href: "/data/polling-stations",
+    status: "live",
+    records: pollingStationsIndex.total_stations,
+    recordsLabel: "polling stations",
+    sources: ["NEBE"],
   },
 ];
 

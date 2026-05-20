@@ -1,3 +1,12 @@
 .direnv
 .env
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# regenerable NEBE source PDFs (re-download via polling-stations/main.py)
+polling-stations/data/pdfs/

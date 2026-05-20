@@ -1,8 +1,11 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { ArrowRight, Landmark, Quote, ScrollText } from "@lucide/astro";
+import { ArrowRight, Landmark, MapPin, Quote, ScrollText } from "@lucide/astro";
 import { allDebates, allParties } from "@/data";
 import { datasets } from "@/data/datasets";
+import { pollingStationsIndex } from "@/data/pollingStations";
+
+const fmt = (n: number) => n.toLocaleString("en-US");
 
 const totalQuestions = allDebates.reduce(
   (sum, d) => sum + d.analysis.questions.length,
@@ -42,7 +45,8 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
             Data on Ethiopia&rsquo;s 7th General Election.
           </h1>
           <p class="text-ew-text-dim text-lg leading-relaxed mb-4 max-w-xl">
-            Debates, parties, and positions. Every claim links to its source.
+            Debates, parties, positions, and polling stations. Every claim links
+            to its source.
           </p>
           <p class="text-ew-text-muted text-sm leading-relaxed max-w-xl mb-8">
             Independent. Open source. Built from public material.
@@ -103,19 +107,20 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
               </div>
               <div>
                 <p class="text-ew-text font-mono text-3xl font-semibold">
-                  {totalCitations.toLocaleString()}
+                  {fmt(pollingStationsIndex.total_stations)}
                 </p>
                 <p
                   class="text-ew-text-muted text-xs uppercase tracking-wider mt-1"
                 >
-                  Citations
+                  Polling stations
                 </p>
               </div>
             </div>
             <div
               class="mt-6 pt-4 border-t border-ew-card-border text-xs text-ew-text-muted tabular-nums"
             >
-              {totalQuestions} questions tracked.
+              {totalQuestions} questions &middot; {fmt(totalCitations)} citations
+              tracked.
             </div>
           </div>
         </div>
@@ -161,7 +166,7 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
                 {d.blurb}
               </p>
               <p class="text-xs text-ew-text-muted font-mono tabular-nums mt-1">
-                {d.records} {d.recordsLabel}
+                {fmt(d.records)} {d.recordsLabel}
               </p>
             </Wrapper>
           );
@@ -172,7 +177,7 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
 
   <!-- Entry points -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-    <div class="grid md:grid-cols-2 gap-5">
+    <div class="grid md:grid-cols-3 gap-5">
       <a
         href="/parties"
         class="group bg-ew-card border border-ew-card-border rounded-xl p-6 sm:p-7 hover:border-ew-shell/40 hover:shadow-md transition-all"
@@ -196,6 +201,20 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
         </h3>
         <p class="text-ew-text-dim text-sm leading-relaxed">
           {allDebates.length} broadcasts. Every claim links to its YouTube timestamp.
+        </p>
+      </a>
+      <a
+        href="/data/polling-stations"
+        class="group bg-ew-card border border-ew-card-border rounded-xl p-6 sm:p-7 hover:border-ew-shell/40 hover:shadow-md transition-all"
+      >
+        <MapPin class="w-6 h-6 text-ew-shell mb-3" />
+        <h3 class="font-display text-2xl mb-2 group-hover:text-ew-shell">
+          Browse polling stations
+        </h3>
+        <p class="text-ew-text-dim text-sm leading-relaxed">
+          {fmt(pollingStationsIndex.total_stations)} stations across {
+            pollingStationsIndex.region_count
+          } regions, mapped and structured by constituency.
         </p>
       </a>
     </div>

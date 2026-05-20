@@ -1,0 +1,438 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import PollingStationMap from "@/components/PollingStationMap.astro";
+import {
+  pollingStationsIndex as idx,
+  regions,
+  hoprConstituencies,
+} from "@/data/pollingStations";
+import { ArrowRight } from "@lucide/astro";
+
+const fmt = (n: number) => n.toLocaleString("en-US");
+const pct = (n: number, of: number) =>
+  of === 0 ? 0 : Math.round((n / of) * 100);
+
+const sortedRegions = [...regions].sort((a, b) => b.stations - a.stations);
+
+const stats = [
+  { label: "Polling stations", value: fmt(idx.total_stations) },
+  { label: "Regions", value: fmt(idx.region_count) },
+  { label: "HoPR constituencies", value: fmt(idx.hopr_constituency_count) },
+  { label: "RC constituencies", value: fmt(idx.rc_constituency_count) },
+];
+
+const byStations = [...hoprConstituencies].sort(
+  (a, b) => b.stations - a.stations,
+);
+const topConstituencies = byStations.slice(0, 9);
+const bottomConstituencies = byStations.slice(-9).reverse();
+
+// Constituency size distribution stats.
+const counts = hoprConstituencies.map((c) => c.stations).sort((a, b) => a - b);
+const sum = counts.reduce((a, b) => a + b, 0);
+const constituencyStats = {
+  average: counts.length ? Math.round(sum / counts.length) : 0,
+  median: counts.length ? counts[Math.floor(counts.length / 2)] : 0,
+  smallest: counts[0] ?? 0,
+  largest: counts[counts.length - 1] ?? 0,
+};
+
+// Online vs in-person registration totals.
+const reg = {
+  online: idx.by_registration_type.digital,
+  inperson: idx.by_registration_type.manual,
+};
+
+// Chart data (consumed by ECharts in the script below).
+const regionChart = {
+  names: sortedRegions.map((r) => r.name),
+  online: sortedRegions.map((r) => r.digital),
+  inperson: sortedRegions.map((r) => r.manual),
+};
+const histEdges: [number, number][] = [
+  [1, 25],
+  [26, 50],
+  [51, 75],
+  [76, 100],
+  [101, 150],
+  [151, 200],
+  [201, 300],
+  [301, Infinity],
+];
+const histLabels = [
+  "1–25",
+  "26–50",
+  "51–75",
+  "76–100",
+  "101–150",
+  "151–200",
+  "201–300",
+  "301+",
+];
+const sizeChart = {
+  labels: histLabels,
+  counts: histEdges.map(
+    ([lo, hi]) =>
+      hoprConstituencies.filter((c) => c.stations >= lo && c.stations <= hi)
+        .length,
+  ),
+};
+---
+
+<Layout
+  title="Polling Stations · electionwatch.et"
+  description="Map and structured data for every NEBE polling station in Ethiopia's 7th General Election."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">Polling Stations</h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      Every registered polling station the National Election Board published —
+      mapped, and structured down to kebele and electoral constituency.
+    </p>
+
+    <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
+      {
+        stats.map((s) => (
+          <div class="bg-ew-card border border-ew-card-border rounded-xl p-5">
+            <dt class="text-ew-text-muted uppercase tracking-wider text-xs mb-1">
+              {s.label}
+            </dt>
+            <dd class="font-display text-3xl tabular-nums">{s.value}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </section>
+
+  <!-- Map -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+    <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
+      <h2 class="font-display text-2xl">Map</h2>
+      <p class="text-sm text-ew-text-muted">
+        {fmt(idx.with_coordinates)} of {fmt(idx.total_stations)} stations ({
+          pct(idx.with_coordinates, idx.total_stations)
+        }%) have GPS coordinates published by NEBE. The remaining {
+          fmt(idx.without_coordinates)
+        } have none and are not shown.
+      </p>
+    </div>
+    <PollingStationMap height="64vh" />
+  </section>
+
+  <!-- Registration method -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Registration method</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      How voters registered at each station — online (technology-assisted) or
+      in-person.
+    </p>
+    <div class="flex flex-wrap gap-3 mb-4">
+      <div
+        class="flex items-baseline gap-2 bg-ew-card border border-ew-card-border rounded-xl px-4 py-3"
+      >
+        <span
+          class="w-3 h-3 rounded-full inline-block"
+          style="background:#ea580c"></span>
+        <span class="font-display text-2xl tabular-nums">{fmt(reg.online)}</span
+        >
+        <span class="text-sm text-ew-text-muted">
+          online · {pct(reg.online, idx.total_stations)}%
+        </span>
+      </div>
+      <div
+        class="flex items-baseline gap-2 bg-ew-card border border-ew-card-border rounded-xl px-4 py-3"
+      >
+        <span
+          class="w-3 h-3 rounded-full inline-block"
+          style="background:#0d9488"></span>
+        <span class="font-display text-2xl tabular-nums"
+          >{fmt(reg.inperson)}</span
+        >
+        <span class="text-sm text-ew-text-muted">
+          in-person · {pct(reg.inperson, idx.total_stations)}%
+        </span>
+      </div>
+    </div>
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+      <h3 class="text-sm text-ew-text-muted mb-2">By region</h3>
+      <div
+        id="regionChart"
+        data-chart={JSON.stringify(regionChart)}
+        style="height:420px"
+      >
+      </div>
+    </div>
+  </section>
+
+  <!-- By region (clickable) -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-4">Browse by region</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      {
+        sortedRegions.map((r) => (
+          <a
+            href={`/data/polling-stations/${r.slug}`}
+            class="group bg-ew-card border border-ew-card-border rounded-xl p-4 hover:border-ew-shell/40 hover:shadow-md transition-all"
+          >
+            <div class="flex items-baseline justify-between gap-2">
+              <div>
+                <div class="text-ew-text group-hover:text-ew-shell transition-colors leading-tight">
+                  {r.name}
+                </div>
+                <div class="text-ew-text-muted text-xs">{r.name_native}</div>
+              </div>
+              <span class="font-mono text-lg tabular-nums shrink-0">
+                {fmt(r.stations)}
+              </span>
+            </div>
+            <div
+              class="mt-3 h-2 rounded-full bg-ew-bg overflow-hidden flex"
+              title={`${pct(r.digital, r.stations)}% online · ${pct(r.manual, r.stations)}% in-person`}
+            >
+              <div
+                style={`width:${pct(r.digital, r.stations)}%;background:#ea580c`}
+              />
+              <div class="flex-1" style="background:#0d9488" />
+            </div>
+            <div class="mt-2 flex items-center justify-between text-xs text-ew-text-muted">
+              <span>
+                {r.digital > 0 && `${fmt(r.digital)} online`}
+                {r.digital > 0 && r.manual > 0 && " · "}
+                {r.manual > 0 && `${fmt(r.manual)} in-person`}
+              </span>
+              <span class="inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity text-ew-shell">
+                Open <ArrowRight class="w-3 h-3" />
+              </span>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Constituencies -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="font-display text-2xl mb-1">Constituencies</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Polling stations grouped by their federal (HoPR) constituency —
+      {fmt(idx.hopr_constituency_count)} in total.
+    </p>
+
+    <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+      {
+        [
+          { label: "Average stations", value: fmt(constituencyStats.average) },
+          { label: "Median stations", value: fmt(constituencyStats.median) },
+          {
+            label: "Smallest",
+            value: fmt(constituencyStats.smallest),
+            sub: byStations[byStations.length - 1]?.name,
+          },
+          {
+            label: "Largest",
+            value: fmt(constituencyStats.largest),
+            sub: byStations[0]?.name,
+          },
+        ].map((s) => (
+          <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+            <dt class="text-ew-text-muted uppercase tracking-wider text-xs mb-1">
+              {s.label}
+            </dt>
+            <dd class="font-display text-2xl tabular-nums">{s.value}</dd>
+            {s.sub && (
+              <dd class="text-xs text-ew-text-muted mt-0.5 truncate">
+                {s.sub}
+              </dd>
+            )}
+          </div>
+        ))
+      }
+    </dl>
+
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-4 mb-8">
+      <h3 class="text-sm text-ew-text-muted mb-2">
+        Constituencies by number of polling stations
+      </h3>
+      <div
+        id="sizeChart"
+        data-chart={JSON.stringify(sizeChart)}
+        style="height:300px"
+      >
+      </div>
+    </div>
+
+    {
+      [
+        {
+          title: "Constituencies with the most polling stations",
+          items: topConstituencies,
+        },
+        {
+          title: "Constituencies with the fewest polling stations",
+          items: bottomConstituencies,
+        },
+      ].map((group) => (
+        <div class="mb-8 last:mb-0">
+          <h3 class="font-display text-xl mb-3">{group.title}</h3>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {group.items.map((c) => (
+              <div class="bg-ew-card border border-ew-card-border rounded-xl px-4 py-3.5">
+                <div class="text-ew-text leading-tight truncate">{c.name}</div>
+                <div class="text-ew-text-muted text-xs mt-0.5">
+                  {c.region} &middot; code {c.code}
+                </div>
+                <div class="mt-3 flex items-baseline gap-1.5">
+                  <span class="font-mono text-xl tabular-nums text-ew-text">
+                    {fmt(c.stations)}
+                  </span>
+                  <span class="text-xs text-ew-text-muted">
+                    polling stations
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </section>
+
+  <script>
+    import * as echarts from "echarts";
+
+    const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
+    const MUTED = "#7a7d92";
+    const GRID = "rgba(0,0,0,0.06)";
+    const charts: echarts.ECharts[] = [];
+
+    const axisLabel = { color: MUTED, fontFamily: MONO, fontSize: 11 };
+
+    const regionEl = document.getElementById("regionChart");
+    if (regionEl) {
+      const d = JSON.parse(regionEl.dataset.chart!);
+      const chart = echarts.init(regionEl);
+      charts.push(chart);
+      chart.setOption({
+        grid: { left: 8, right: 16, top: 30, bottom: 8, containLabel: true },
+        legend: {
+          data: ["Online", "In-person"],
+          top: 0,
+          textStyle: { color: MUTED },
+        },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: { type: "shadow" },
+          confine: true,
+          enterable: false,
+          transitionDuration: 0.2,
+          // Offset the tooltip from the cursor so the pointer never sits on top
+          // of it (which otherwise causes a show/hide flicker loop).
+          position: (
+            pt: number[],
+            _params: unknown,
+            _dom: unknown,
+            _rect: unknown,
+            size: { viewSize: number[]; contentSize: number[] },
+          ) => {
+            const [x, y] = pt;
+            const [vw, vh] = size.viewSize;
+            const [tw, th] = size.contentSize;
+            let left = x + 18;
+            if (left + tw > vw) left = x - tw - 18;
+            const top = Math.max(0, Math.min(y - th / 2, vh - th));
+            return [left, top];
+          },
+          formatter: (
+            params: {
+              name: string;
+              seriesName: string;
+              value: number;
+              marker: string;
+            }[],
+          ) => {
+            const total = params.reduce((a, p) => a + (p.value || 0), 0);
+            const rows = params
+              .map(
+                (p) =>
+                  `${p.marker} ${p.seriesName}: ${(p.value || 0).toLocaleString()}`,
+              )
+              .join("<br>");
+            return `<strong>${params[0].name}</strong><br>${rows}<br>Total: ${total.toLocaleString()}`;
+          },
+        },
+        xAxis: {
+          type: "value",
+          axisLabel: {
+            ...axisLabel,
+            formatter: (v: number) => v.toLocaleString(),
+          },
+          splitLine: { lineStyle: { color: GRID } },
+        },
+        yAxis: {
+          type: "category",
+          inverse: true,
+          data: d.names,
+          axisLabel,
+          axisTick: { show: false },
+          axisLine: { lineStyle: { color: GRID } },
+        },
+        series: [
+          {
+            name: "Online",
+            type: "bar",
+            stack: "t",
+            data: d.online,
+            itemStyle: { color: "#ea580c" },
+          },
+          {
+            name: "In-person",
+            type: "bar",
+            stack: "t",
+            data: d.inperson,
+            itemStyle: { color: "#0d9488" },
+          },
+        ],
+      });
+    }
+
+    const sizeEl = document.getElementById("sizeChart");
+    if (sizeEl) {
+      const d = JSON.parse(sizeEl.dataset.chart!);
+      const chart = echarts.init(sizeEl);
+      charts.push(chart);
+      chart.setOption({
+        grid: { left: 8, right: 16, top: 16, bottom: 8, containLabel: true },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: { type: "shadow" },
+          confine: true,
+          transitionDuration: 0.3,
+          formatter: (p: { name: string; value: number }[]) =>
+            `Constituencies with ${p[0].name} polling stations<br><strong>${p[0].value.toLocaleString()}</strong>`,
+        },
+        xAxis: {
+          type: "category",
+          data: d.labels,
+          axisLabel,
+          axisTick: { show: false },
+          axisLine: { lineStyle: { color: GRID } },
+        },
+        yAxis: {
+          type: "value",
+          axisLabel,
+          splitLine: { lineStyle: { color: GRID } },
+        },
+        series: [
+          {
+            type: "bar",
+            data: d.counts,
+            itemStyle: { color: "#1f2455", borderRadius: [3, 3, 0, 0] },
+          },
+        ],
+      });
+    }
+
+    const ro = new ResizeObserver(() => charts.forEach((c) => c.resize()));
+    [regionEl, sizeEl].forEach((el) => el && ro.observe(el));
+  </script>
+</Layout>

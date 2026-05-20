@@ -1,0 +1,293 @@
+---
+// Reusable MapLibre map of polling stations with NEBE-published GPS coordinates.
+// Rendered as individual GPU circle dots (fast at scale). Stations NEBE left
+// without coordinates are not shown — we do not invent locations.
+interface Props {
+  /** Map data URL (global by default; pass a per-region file for region pages). */
+  dataUrl?: string;
+  /** CSS height of the map. */
+  height?: string;
+  /** Fit the view to the data bounds instead of the default Ethiopia view. */
+  fitData?: boolean;
+}
+const {
+  dataUrl = "/data/polling-stations-map.json",
+  height = "72vh",
+  fitData = false,
+} = Astro.props;
+
+const id = "psmap-" + Math.random().toString(36).slice(2, 8);
+// Point colour by registration type: online (digital) vs in-person (manual).
+const COLORS = { online: "#ea580c", inperson: "#0d9488" };
+---
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+/>
+
+<style is:global>
+  .maplibregl-popup-content {
+    padding: 0 !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+    border: 1px solid var(--color-ew-card-border);
+    box-shadow: 0 8px 28px rgba(21, 23, 42, 0.18);
+  }
+  .maplibregl-popup-close-button {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    padding: 2px 8px;
+    right: 2px;
+    top: 2px;
+    z-index: 1;
+  }
+  .maplibregl-popup-close-button:hover {
+    color: #fff;
+    background: transparent;
+  }
+  .ps-pop-head {
+    background: var(--color-ew-shell);
+    padding: 12px 14px;
+  }
+  .ps-pop-title {
+    font-family: var(--font-display, Georgia, serif);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.25;
+    color: #fff;
+    padding-right: 16px;
+  }
+  .ps-pop-sub {
+    margin-top: 3px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.72);
+  }
+  .ps-pop-body {
+    padding: 11px 14px;
+    background: var(--color-ew-card);
+  }
+  .ps-pop-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  .ps-pop-chip::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+  .ps-pop-chip--online {
+    color: #c2410c;
+    background: rgba(234, 88, 12, 0.12);
+  }
+  .ps-pop-chip--inperson {
+    color: #0d9488;
+    background: rgba(13, 148, 136, 0.12);
+  }
+</style>
+
+<div>
+  <div
+    id={`${id}-legend`}
+    class="flex flex-wrap gap-x-4 gap-y-1 mb-3 text-sm text-ew-text-dim"
+  >
+    <span class="inline-flex items-center gap-2">
+      <span
+        class="w-3 h-3 rounded-full inline-block"
+        style={`background:${COLORS.online}`}></span>
+      Online registration
+    </span>
+    <span class="inline-flex items-center gap-2">
+      <span
+        class="w-3 h-3 rounded-full inline-block"
+        style={`background:${COLORS.inperson}`}></span>
+      In-person registration
+    </span>
+  </div>
+  <div class="relative">
+    <div
+      id={id}
+      class="w-full rounded-xl border border-ew-card-border overflow-hidden bg-ew-card"
+      style={`height:${height};min-height:360px;`}
+      data-url={dataUrl}
+      data-fit={fitData ? "1" : ""}
+    >
+    </div>
+    <div
+      id={`${id}-empty`}
+      class="hidden absolute inset-0 grid place-items-center pointer-events-none"
+    >
+      <p
+        class="bg-ew-card/95 border border-ew-card-border rounded-lg px-4 py-3 text-sm text-ew-text-dim max-w-xs text-center"
+      >
+        NEBE did not publish GPS coordinates for these polling stations, so
+        there is nothing to map.
+      </p>
+    </div>
+    <div
+      id={`${id}-hint`}
+      class="absolute inset-0 grid place-items-center pointer-events-none transition-opacity duration-200"
+    >
+      <span
+        class="bg-ew-text/70 text-white text-sm rounded-full px-4 py-2 backdrop-blur-sm"
+      >
+        Click the map to zoom
+      </span>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" is:inline
+></script>
+<script is:inline define:vars={{ id, COLORS }}>
+  const container = document.getElementById(id);
+  const dataUrl = container.dataset.url;
+  const fitData = container.dataset.fit === "1";
+
+  const map = new maplibregl.Map({
+    container: id,
+    style: {
+      version: 8,
+      sources: {
+        carto: {
+          type: "raster",
+          tiles: [
+            "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+            "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+          ],
+          tileSize: 256,
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        },
+      },
+      layers: [{ id: "carto", type: "raster", source: "carto" }],
+    },
+    center: [39.5, 9.2],
+    zoom: 5,
+    scrollZoom: false, // don't hijack page scroll; enabled on click below
+  });
+  map.addControl(new maplibregl.NavigationControl(), "top-right");
+
+  // Scroll-zoom only after the map is clicked, and stop again when the pointer
+  // leaves — so scrolling the page never zooms the map by accident.
+  const hint = document.getElementById(id + "-hint");
+  const activate = () => {
+    map.scrollZoom.enable();
+    hint.style.opacity = "0";
+  };
+  const deactivate = () => {
+    map.scrollZoom.disable();
+    hint.style.opacity = "1";
+  };
+  container.addEventListener("click", activate);
+  container.addEventListener("mouseleave", deactivate);
+
+  async function load() {
+    const data = await fetch(dataUrl).then((r) => r.json());
+
+    if (!data.points.length) {
+      document.getElementById(id + "-empty").classList.remove("hidden");
+      hint.style.display = "none";
+      document.getElementById(id + "-legend").style.display = "none";
+      return;
+    }
+
+    const bounds = new maplibregl.LngLatBounds();
+    const fc = {
+      type: "FeatureCollection",
+      features: data.points.map(([lat, lon, regIdx, typeIdx, name, woreda]) => {
+        bounds.extend([lon, lat]);
+        return {
+          type: "Feature",
+          geometry: { type: "Point", coordinates: [lon, lat] },
+          properties: {
+            name,
+            woreda: woreda ?? "",
+            region: data.regions[regIdx],
+            type: typeIdx === 0 ? "digital" : "manual",
+          },
+        };
+      }),
+    };
+
+    if (fitData && !bounds.isEmpty()) {
+      map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
+    }
+
+    map.addSource("stations", { type: "geojson", data: fc });
+    map.addLayer({
+      id: "station-point",
+      type: "circle",
+      source: "stations",
+      paint: {
+        // digital = online, manual = in-person
+        "circle-color": [
+          "match",
+          ["get", "type"],
+          "digital",
+          COLORS.online,
+          COLORS.inperson,
+        ],
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 2.2, 12, 5],
+        "circle-stroke-color": "#fff",
+        "circle-stroke-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          5,
+          0,
+          9,
+          1,
+        ],
+        "circle-opacity": 0.85,
+      },
+    });
+
+    const esc = (s) => {
+      const d = document.createElement("div");
+      d.textContent = s ?? "";
+      return d.innerHTML;
+    };
+    map.on("click", "station-point", (e) => {
+      const p = e.features[0].properties;
+      const where = [p.woreda, p.region]
+        .filter(Boolean)
+        .map(esc)
+        .join(" &middot; ");
+      const online = p.type === "digital";
+      const label = online ? "Online registration" : "In-person registration";
+      new maplibregl.Popup({ offset: 12, maxWidth: "300px", closeButton: true })
+        .setLngLat(e.features[0].geometry.coordinates)
+        .setHTML(
+          `<div class="ps-pop">
+             <div class="ps-pop-head">
+               <div class="ps-pop-title">${esc(p.name)}</div>
+               ${where ? `<div class="ps-pop-sub">${where}</div>` : ""}
+             </div>
+             <div class="ps-pop-body">
+               <span class="ps-pop-chip ps-pop-chip--${online ? "online" : "inperson"}">${label}</span>
+             </div>
+           </div>`,
+        )
+        .addTo(map);
+    });
+    map.on("mouseenter", "station-point", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
+    map.on("mouseleave", "station-point", () => {
+      map.getCanvas().style.cursor = "";
+    });
+  }
+
+  if (map.loaded()) load();
+  else map.on("load", load);
+</script>

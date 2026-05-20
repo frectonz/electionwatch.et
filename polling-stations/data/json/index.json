@@ -1,0 +1,158 @@
+{
+  "total_stations": 50126,
+  "by_registration_type": {
+    "digital": 4477,
+    "manual": 45649
+  },
+  "with_coordinates": 29486,
+  "without_coordinates": 20640,
+  "coordinate_sources": {
+    "nebe": 29486,
+    "none": 20640
+  },
+  "region_count": 13,
+  "hopr_constituency_count": 509,
+  "rc_constituency_count": 672,
+  "files": [
+    {
+      "file": "addis_ababa_digital",
+      "region": "Addis Ababa",
+      "registration_type": "digital",
+      "stations": 1719,
+      "with_coordinates": 1712
+    },
+    {
+      "file": "afar_manual",
+      "region": "Afar",
+      "registration_type": "manual",
+      "stations": 1674,
+      "with_coordinates": 1540
+    },
+    {
+      "file": "amhara_digital",
+      "region": "Amhara",
+      "registration_type": "digital",
+      "stations": 595,
+      "with_coordinates": 0
+    },
+    {
+      "file": "amhara_manual",
+      "region": "Amhara",
+      "registration_type": "manual",
+      "stations": 11426,
+      "with_coordinates": 0
+    },
+    {
+      "file": "benshangul_gumz_manual",
+      "region": "Benishangul-Gumuz",
+      "registration_type": "manual",
+      "stations": 752,
+      "with_coordinates": 678
+    },
+    {
+      "file": "central_ethiopia_digital",
+      "region": "Central Ethiopia",
+      "registration_type": "digital",
+      "stations": 62,
+      "with_coordinates": 62
+    },
+    {
+      "file": "central_ethiopia_manual",
+      "region": "Central Ethiopia",
+      "registration_type": "manual",
+      "stations": 2884,
+      "with_coordinates": 2875
+    },
+    {
+      "file": "diredawa_digital",
+      "region": "Dire Dawa",
+      "registration_type": "digital",
+      "stations": 262,
+      "with_coordinates": 259
+    },
+    {
+      "file": "diredawa_manual",
+      "region": "Dire Dawa",
+      "registration_type": "manual",
+      "stations": 25,
+      "with_coordinates": 25
+    },
+    {
+      "file": "gambella_manual",
+      "region": "Gambela",
+      "registration_type": "manual",
+      "stations": 443,
+      "with_coordinates": 435
+    },
+    {
+      "file": "harari_manual",
+      "region": "Harari",
+      "registration_type": "manual",
+      "stations": 305,
+      "with_coordinates": 275
+    },
+    {
+      "file": "oromia_digital",
+      "region": "Oromia",
+      "registration_type": "digital",
+      "stations": 997,
+      "with_coordinates": 966
+    },
+    {
+      "file": "oromia_manual",
+      "region": "Oromia",
+      "registration_type": "manual",
+      "stations": 17012,
+      "with_coordinates": 10871
+    },
+    {
+      "file": "sidama_digital",
+      "region": "Sidama",
+      "registration_type": "digital",
+      "stations": 301,
+      "with_coordinates": 301
+    },
+    {
+      "file": "sidama_manual",
+      "region": "Sidama",
+      "registration_type": "manual",
+      "stations": 1950,
+      "with_coordinates": 1935
+    },
+    {
+      "file": "somali_digital",
+      "region": "Somali",
+      "registration_type": "digital",
+      "stations": 94,
+      "with_coordinates": 94
+    },
+    {
+      "file": "somali_manual",
+      "region": "Somali",
+      "registration_type": "manual",
+      "stations": 3946,
+      "with_coordinates": 1859
+    },
+    {
+      "file": "south_ethiopia_digital",
+      "region": "South Ethiopia",
+      "registration_type": "digital",
+      "stations": 447,
+      "with_coordinates": 447
+    },
+    {
+      "file": "south_ethiopia_manual",
+      "region": "South Ethiopia",
+      "registration_type": "manual",
+      "stations": 3468,
+      "with_coordinates": 3448
+    },
+    {
+      "file": "south_west_manual",
+      "region": "South West Ethiopia",
+      "registration_type": "manual",
+      "stations": 1764,
+      "with_coordinates": 1704
+    }
+  ]
+}

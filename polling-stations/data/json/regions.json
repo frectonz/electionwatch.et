@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "addis_ababa",
+    "code": "14",
+    "name": "Addis Ababa",
+    "name_native": "አዲስ አበባ",
+    "stations": 1719,
+    "digital": 1719,
+    "manual": 0,
+    "with_coordinates": 1712
+  },
+  {
+    "slug": "afar",
+    "code": "2",
+    "name": "Afar",
+    "name_native": "አፋር",
+    "stations": 1674,
+    "digital": 0,
+    "manual": 1674,
+    "with_coordinates": 1540
+  },
+  {
+    "slug": "amhara",
+    "code": "3",
+    "name": "Amhara",
+    "name_native": "አማራ",
+    "stations": 12021,
+    "digital": 595,
+    "manual": 11426,
+    "with_coordinates": 0
+  },
+  {
+    "slug": "benshangul_gumz",
+    "code": "6",
+    "name": "Benishangul-Gumuz",
+    "name_native": "ቤኒሻንጉል ጉሙዝ",
+    "stations": 752,
+    "digital": 0,
+    "manual": 752,
+    "with_coordinates": 678
+  },
+  {
+    "slug": "central_ethiopia",
+    "code": "7",
+    "name": "Central Ethiopia",
+    "name_native": "ማዕከላዊ ኢትዮጵያ",
+    "stations": 2946,
+    "digital": 62,
+    "manual": 2884,
+    "with_coordinates": 2937
+  },
+  {
+    "slug": "diredawa",
+    "code": "15",
+    "name": "Dire Dawa",
+    "name_native": "ድሬዳዋ",
+    "stations": 287,
+    "digital": 262,
+    "manual": 25,
+    "with_coordinates": 284
+  },
+  {
+    "slug": "gambella",
+    "code": "12",
+    "name": "Gambela",
+    "name_native": "ጋምቤላ",
+    "stations": 443,
+    "digital": 0,
+    "manual": 443,
+    "with_coordinates": 435
+  },
+  {
+    "slug": "harari",
+    "code": "13",
+    "name": "Harari",
+    "name_native": "ሃረሪ",
+    "stations": 305,
+    "digital": 0,
+    "manual": 305,
+    "with_coordinates": 275
+  },
+  {
+    "slug": "oromia",
+    "code": "4",
+    "name": "Oromia",
+    "name_native": "ኦሮሚያ",
+    "stations": 18009,
+    "digital": 997,
+    "manual": 17012,
+    "with_coordinates": 11837
+  },
+  {
+    "slug": "sidama",
+    "code": "8",
+    "name": "Sidama",
+    "name_native": "ሲዳማ",
+    "stations": 2251,
+    "digital": 301,
+    "manual": 1950,
+    "with_coordinates": 2236
+  },
+  {
+    "slug": "somali",
+    "code": "5",
+    "name": "Somali",
+    "name_native": "ሶማሌ",
+    "stations": 4040,
+    "digital": 94,
+    "manual": 3946,
+    "with_coordinates": 1953
+  },
+  {
+    "slug": "south_ethiopia",
+    "code": "9",
+    "name": "South Ethiopia",
+    "name_native": "ደቡብ ኢትዮጵያ",
+    "stations": 3915,
+    "digital": 447,
+    "manual": 3468,
+    "with_coordinates": 3895
+  },
+  {
+    "slug": "south_west",
+    "code": "11",
+    "name": "South West Ethiopia",
+    "name_native": "ደቡብ ምዕራብ ኢትዮጵያ",
+    "stations": 1764,
+    "digital": 0,
+    "manual": 1764,
+    "with_coordinates": 1704
+  }
+]

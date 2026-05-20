@@ -1,0 +1,7092 @@
+{
+  "hopr": [
+    {
+      "code": "39",
+      "name": "አብአላ",
+      "region": "Afar",
+      "stations": 360
+    },
+    {
+      "code": "40",
+      "name": "አሚባራ",
+      "region": "Afar",
+      "stations": 83
+    },
+    {
+      "code": "41",
+      "name": "አዋሽ ፈንታሌ",
+      "region": "Afar",
+      "stations": 81
+    },
+    {
+      "code": "42",
+      "name": "አይሳይታ",
+      "region": "Afar",
+      "stations": 254
+    },
+    {
+      "code": "43",
+      "name": "ዳሊፋጌ",
+      "region": "Afar",
+      "stations": 259
+    },
+    {
+      "code": "44",
+      "name": "ዱብቲ",
+      "region": "Afar",
+      "stations": 321
+    },
+    {
+      "code": "45",
+      "name": "ጉሊና",
+      "region": "Afar",
+      "stations": 199
+    },
+    {
+      "code": "46",
+      "name": "ጋዋኔ ቡሬ ሞዳ",
+      "region": "Afar",
+      "stations": 117
+    },
+    {
+      "code": "47",
+      "name": "አዴት",
+      "region": "Amhara",
+      "stations": 94
+    },
+    {
+      "code": "48",
+      "name": "አዲስ ቅዳም",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "49",
+      "name": "አልቡኮ",
+      "region": "Amhara",
+      "stations": 38
+    },
+    {
+      "code": "50",
+      "name": "አለም ከተማ",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "51",
+      "name": "አለፋ ጣቁሳ 1",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "52",
+      "name": "አለፋ ጣቁሳ 2",
+      "region": "Amhara",
+      "stations": 98
+    },
+    {
+      "code": "53",
+      "name": "አማኑኤል",
+      "region": "Amhara",
+      "stations": 59
+    },
+    {
+      "code": "54",
+      "name": "አምባሰል",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "55",
+      "name": "አምበር",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "56",
+      "name": "አንኮበር",
+      "region": "Amhara",
+      "stations": 87
+    },
+    {
+      "code": "57",
+      "name": "አረርቲ",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "58",
+      "name": "አርጎባ ልዩ",
+      "region": "Amhara",
+      "stations": 53
+    },
+    {
+      "code": "59",
+      "name": "ደሴ ዙሪያ 1",
+      "region": "Amhara",
+      "stations": 60
+    },
+    {
+      "code": "60",
+      "name": "ደሴ ዙሪያ 2",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "61",
+      "name": "ጎንደር ዙሪያ 3",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "62",
+      "name": "ጎንደር ዙሪያ 4",
+      "region": "Amhara",
+      "stations": 41
+    },
+    {
+      "code": "63",
+      "name": "ባሕር ዳር ከተማ",
+      "region": "Amhara",
+      "stations": 161
+    },
+    {
+      "code": "64",
+      "name": "ባቲ",
+      "region": "Amhara",
+      "stations": 77
+    },
+    {
+      "code": "65",
+      "name": "ብቸና",
+      "region": "Amhara",
+      "stations": 109
+    },
+    {
+      "code": "66",
+      "name": "በለሳ",
+      "region": "Amhara",
+      "stations": 113
+    },
+    {
+      "code": "67",
+      "name": "ቡግና",
+      "region": "Amhara",
+      "stations": 140
+    },
+    {
+      "code": "68",
+      "name": "ቡሬ",
+      "region": "Amhara",
+      "stations": 99
+    },
+    {
+      "code": "69",
+      "name": "ጫጫ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "70",
+      "name": "ቻግኒ",
+      "region": "Amhara",
+      "stations": 72
+    },
+    {
+      "code": "71",
+      "name": "ጨፋ ሮቢት",
+      "region": "Amhara",
+      "stations": 136
+    },
+    {
+      "code": "72",
+      "name": "ጭልጋ 1",
+      "region": "Amhara",
+      "stations": 106
+    },
+    {
+      "code": "73",
+      "name": "ጭልጋ 2",
+      "region": "Amhara",
+      "stations": 38
+    },
+    {
+      "code": "74",
+      "name": "ደብረ ኤልያስ",
+      "region": "Amhara",
+      "stations": 53
+    },
+    {
+      "code": "75",
+      "name": "ዳባት",
+      "region": "Amhara",
+      "stations": 96
+    },
+    {
+      "code": "76",
+      "name": "ደበጫ",
+      "region": "Amhara",
+      "stations": 95
+    },
+    {
+      "code": "77",
+      "name": "ዳንግላ",
+      "region": "Amhara",
+      "stations": 76
+    },
+    {
+      "code": "78",
+      "name": "ዳዋ ጨፋ",
+      "region": "Amhara",
+      "stations": 185
+    },
+    {
+      "code": "79",
+      "name": "ደባርቅ",
+      "region": "Amhara",
+      "stations": 206
+    },
+    {
+      "code": "80",
+      "name": "ደብረ ብርሃን",
+      "region": "Amhara",
+      "stations": 106
+    },
+    {
+      "code": "81",
+      "name": "ደብረ ማርቆስ",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "82",
+      "name": "ደብረ ወርቅ",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "83",
+      "name": "ደብረሲና",
+      "region": "Amhara",
+      "stations": 112
+    },
+    {
+      "code": "84",
+      "name": "ደብረሲና 1",
+      "region": "Amhara",
+      "stations": 100
+    },
+    {
+      "code": "85",
+      "name": "ደብረሲና 2",
+      "region": "Amhara",
+      "stations": 89
+    },
+    {
+      "code": "86",
+      "name": "ደጋ ዳሞት",
+      "region": "Amhara",
+      "stations": 102
+    },
+    {
+      "code": "87",
+      "name": "ደሀና",
+      "region": "Amhara",
+      "stations": 87
+    },
+    {
+      "code": "88",
+      "name": "ደጀን",
+      "region": "Amhara",
+      "stations": 73
+    },
+    {
+      "code": "89",
+      "name": "ደላንታ",
+      "region": "Amhara",
+      "stations": 111
+    },
+    {
+      "code": "90",
+      "name": "ደምቢያ 1",
+      "region": "Amhara",
+      "stations": 103
+    },
+    {
+      "code": "91",
+      "name": "ደምቢያ 2",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "92",
+      "name": "ደራ 1",
+      "region": "Amhara",
+      "stations": 92
+    },
+    {
+      "code": "93",
+      "name": "ደራ 2",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "94",
+      "name": "ደሴ ከተማ",
+      "region": "Amhara",
+      "stations": 104
+    },
+    {
+      "code": "95",
+      "name": "ዲጎጽዮን",
+      "region": "Amhara",
+      "stations": 63
+    },
+    {
+      "code": "96",
+      "name": "ድል ይብዛ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "97",
+      "name": "ደነባ",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "98",
+      "name": "ዱርቤቴ",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "99",
+      "name": "እብናት 1",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "100",
+      "name": "እብናት 2",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "101",
+      "name": "ኤፌሶን",
+      "region": "Amhara",
+      "stations": 75
+    },
+    {
+      "code": "102",
+      "name": "እነዋሪ",
+      "region": "Amhara",
+      "stations": 63
+    },
+    {
+      "code": "103",
+      "name": "እሮብ ገበያ",
+      "region": "Amhara",
+      "stations": 74
+    },
+    {
+      "code": "104",
+      "name": "እስቴ 1",
+      "region": "Amhara",
+      "stations": 81
+    },
+    {
+      "code": "105",
+      "name": "እስቴ 2",
+      "region": "Amhara",
+      "stations": 71
+    },
+    {
+      "code": "106",
+      "name": "እስቴ 3",
+      "region": "Amhara",
+      "stations": 76
+    },
+    {
+      "code": "107",
+      "name": "ፋርጣ 1",
+      "region": "Amhara",
+      "stations": 92
+    },
+    {
+      "code": "108",
+      "name": "ፋርጣ 2",
+      "region": "Amhara",
+      "stations": 75
+    },
+    {
+      "code": "109",
+      "name": "ፋርጣ 3",
+      "region": "Amhara",
+      "stations": 60
+    },
+    {
+      "code": "110",
+      "name": "ፍኖተ ሰላም",
+      "region": "Amhara",
+      "stations": 89
+    },
+    {
+      "code": "111",
+      "name": "ፎገራ 1",
+      "region": "Amhara",
+      "stations": 86
+    },
+    {
+      "code": "112",
+      "name": "ፎገራ 2",
+      "region": "Amhara",
+      "stations": 68
+    },
+    {
+      "code": "113",
+      "name": "ግዳን",
+      "region": "Amhara",
+      "stations": 119
+    },
+    {
+      "code": "114",
+      "name": "ገርጨጭ",
+      "region": "Amhara",
+      "stations": 85
+    },
+    {
+      "code": "115",
+      "name": "ግምጃ ቤት",
+      "region": "Amhara",
+      "stations": 158
+    },
+    {
+      "code": "116",
+      "name": "ግንደ ወይን",
+      "region": "Amhara",
+      "stations": 98
+    },
+    {
+      "code": "117",
+      "name": "ጎንደር ከተማ 1",
+      "region": "Amhara",
+      "stations": 106
+    },
+    {
+      "code": "118",
+      "name": "ጎንደር ከተማ 2",
+      "region": "Amhara",
+      "stations": 114
+    },
+    {
+      "code": "119",
+      "name": "ጎንጂ",
+      "region": "Amhara",
+      "stations": 102
+    },
+    {
+      "code": "120",
+      "name": "ጎዛምን",
+      "region": "Amhara",
+      "stations": 49
+    },
+    {
+      "code": "121",
+      "name": "ጉባላፍቶ",
+      "region": "Amhara",
+      "stations": 145
+    },
+    {
+      "code": "122",
+      "name": "ሐብሩ",
+      "region": "Amhara",
+      "stations": 128
+    },
+    {
+      "code": "123",
+      "name": "ጃማ ደጎሎ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "124",
+      "name": "ጃናሞራ",
+      "region": "Amhara",
+      "stations": 112
+    },
+    {
+      "code": "125",
+      "name": "ጂጋ",
+      "region": "Amhara",
+      "stations": 66
+    },
+    {
+      "code": "126",
+      "name": "ከለላ",
+      "region": "Amhara",
+      "stations": 75
+    },
+    {
+      "code": "127",
+      "name": "ከምከም 1",
+      "region": "Amhara",
+      "stations": 74
+    },
+    {
+      "code": "128",
+      "name": "ከምከም 2",
+      "region": "Amhara",
+      "stations": 113
+    },
+    {
+      "code": "129",
+      "name": "ኮሶ በር",
+      "region": "Amhara",
+      "stations": 71
+    },
+    {
+      "code": "130",
+      "name": "ኩታበር",
+      "region": "Amhara",
+      "stations": 72
+    },
+    {
+      "code": "131",
+      "name": "ላይ አርማጭ",
+      "region": "Amhara",
+      "stations": 92
+    },
+    {
+      "code": "132",
+      "name": "ላይ ጋይንት 1",
+      "region": "Amhara",
+      "stations": 68
+    },
+    {
+      "code": "133",
+      "name": "ላይ ጋይንት 2",
+      "region": "Amhara",
+      "stations": 76
+    },
+    {
+      "code": "134",
+      "name": "ለጋምቦ",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "135",
+      "name": "ሊበን",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "136",
+      "name": "ሉማሜ",
+      "region": "Amhara",
+      "stations": 82
+    },
+    {
+      "code": "137",
+      "name": "ማጄቴ",
+      "region": "Amhara",
+      "stations": 57
+    },
+    {
+      "code": "138",
+      "name": "መሐል ሜዳ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "139",
+      "name": "መቄት 1",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "140",
+      "name": "መቄት 2",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "141",
+      "name": "መቅደላ",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "142",
+      "name": "መራኛ",
+      "region": "Amhara",
+      "stations": 82
+    },
+    {
+      "code": "143",
+      "name": "መርአዊ",
+      "region": "Amhara",
+      "stations": 112
+    },
+    {
+      "code": "144",
+      "name": "መርጦ ለማርያ",
+      "region": "Amhara",
+      "stations": 105
+    },
+    {
+      "code": "145",
+      "name": "መተማ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "146",
+      "name": "ሞላሌ",
+      "region": "Amhara",
+      "stations": 94
+    },
+    {
+      "code": "147",
+      "name": "ሞጣ",
+      "region": "Amhara",
+      "stations": 83
+    },
+    {
+      "code": "148",
+      "name": "ቃሉ 1",
+      "region": "Amhara",
+      "stations": 97
+    },
+    {
+      "code": "149",
+      "name": "ቃሉ 2",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "150",
+      "name": "ቀይት",
+      "region": "Amhara",
+      "stations": 63
+    },
+    {
+      "code": "151",
+      "name": "ቅላጅ",
+      "region": "Amhara",
+      "stations": 69
+    },
+    {
+      "code": "152",
+      "name": "ቋሪት",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "153",
+      "name": "ቁይ",
+      "region": "Amhara",
+      "stations": 82
+    },
+    {
+      "code": "154",
+      "name": "ቋራ ማተቢያ",
+      "region": "Amhara",
+      "stations": 64
+    },
+    {
+      "code": "155",
+      "name": "ራያ ቆቦ",
+      "region": "Amhara",
+      "stations": 149
+    },
+    {
+      "code": "156",
+      "name": "ራቤል",
+      "region": "Amhara",
+      "stations": 39
+    },
+    {
+      "code": "157",
+      "name": "ሮቢት",
+      "region": "Amhara",
+      "stations": 100
+    },
+    {
+      "code": "158",
+      "name": "ሳይንት 2",
+      "region": "Amhara",
+      "stations": 60
+    },
+    {
+      "code": "159",
+      "name": "ሳይንት 1",
+      "region": "Amhara",
+      "stations": 84
+    },
+    {
+      "code": "160",
+      "name": "ስማዳ 1",
+      "region": "Amhara",
+      "stations": 83
+    },
+    {
+      "code": "161",
+      "name": "ስማዳ 2",
+      "region": "Amhara",
+      "stations": 64
+    },
+    {
+      "code": "162",
+      "name": "ሰዴ",
+      "region": "Amhara",
+      "stations": 93
+    },
+    {
+      "code": "163",
+      "name": "ሰከላ",
+      "region": "Amhara",
+      "stations": 99
+    },
+    {
+      "code": "164",
+      "name": "ሰቆጣ",
+      "region": "Amhara",
+      "stations": 109
+    },
+    {
+      "code": "165",
+      "name": "ሾላ ገበያ",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "166",
+      "name": "ታች አርማጭ",
+      "region": "Amhara",
+      "stations": 50
+    },
+    {
+      "code": "167",
+      "name": "ታች ጋይንት",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "168",
+      "name": "ተሁለድሬ 1",
+      "region": "Amhara",
+      "stations": 50
+    },
+    {
+      "code": "169",
+      "name": "ተሁለድሬ 2",
+      "region": "Amhara",
+      "stations": 35
+    },
+    {
+      "code": "170",
+      "name": "ተንታ",
+      "region": "Amhara",
+      "stations": 110
+    },
+    {
+      "code": "171",
+      "name": "ቲሊሊ",
+      "region": "Amhara",
+      "stations": 49
+    },
+    {
+      "code": "172",
+      "name": "ጢስ አባይ",
+      "region": "Amhara",
+      "stations": 80
+    },
+    {
+      "code": "173",
+      "name": "ወይን አምባ",
+      "region": "Amhara",
+      "stations": 55
+    },
+    {
+      "code": "174",
+      "name": "ዋድላ",
+      "region": "Amhara",
+      "stations": 94
+    },
+    {
+      "code": "175",
+      "name": "ወገራ 1",
+      "region": "Amhara",
+      "stations": 97
+    },
+    {
+      "code": "176",
+      "name": "ወገራ 2",
+      "region": "Amhara",
+      "stations": 53
+    },
+    {
+      "code": "177",
+      "name": "ወምበርማ",
+      "region": "Amhara",
+      "stations": 62
+    },
+    {
+      "code": "178",
+      "name": "ወረባቦ",
+      "region": "Amhara",
+      "stations": 64
+    },
+    {
+      "code": "179",
+      "name": "ወረኢሉ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "180",
+      "name": "የጨረቃ",
+      "region": "Amhara",
+      "stations": 97
+    },
+    {
+      "code": "181",
+      "name": "የእድ ውሃ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "182",
+      "name": "የጁቤ",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "183",
+      "name": "ዘጌ መሸንቲ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "184",
+      "name": "ዝቋላ አገው",
+      "region": "Amhara",
+      "stations": 47
+    },
+    {
+      "code": "185",
+      "name": "አቦምሳ",
+      "region": "Oromia",
+      "stations": 66
+    },
+    {
+      "code": "186",
+      "name": "አቦቴ ደራ",
+      "region": "Oromia",
+      "stations": 168
+    },
+    {
+      "code": "187",
+      "name": "አደኣ 1",
+      "region": "Oromia",
+      "stations": 119
+    },
+    {
+      "code": "188",
+      "name": "አደኣ 2",
+      "region": "Oromia",
+      "stations": 138
+    },
+    {
+      "code": "189",
+      "name": "አደአ በርጋ",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "190",
+      "name": "አዳባ",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "191",
+      "name": "አዳማ 1",
+      "region": "Oromia",
+      "stations": 170
+    },
+    {
+      "code": "192",
+      "name": "አዳማ 2",
+      "region": "Oromia",
+      "stations": 94
+    },
+    {
+      "code": "193",
+      "name": "አዳማ 3",
+      "region": "Oromia",
+      "stations": 82
+    },
+    {
+      "code": "194",
+      "name": "አዲስ አለም",
+      "region": "Oromia",
+      "stations": 59
+    },
+    {
+      "code": "195",
+      "name": "አጋርፋ ጋሴራ",
+      "region": "Oromia",
+      "stations": 95
+    },
+    {
+      "code": "196",
+      "name": "አጉሊቾ",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "197",
+      "name": "አቃቂ ግምቢቹ",
+      "region": "Oromia",
+      "stations": 241
+    },
+    {
+      "code": "198",
+      "name": "አለም ገና 1",
+      "region": "Oromia",
+      "stations": 55
+    },
+    {
+      "code": "199",
+      "name": "አለም ገና 2",
+      "region": "Oromia",
+      "stations": 94
+    },
+    {
+      "code": "200",
+      "name": "አለም ጤና",
+      "region": "Oromia",
+      "stations": 93
+    },
+    {
+      "code": "201",
+      "name": "አሊቦ",
+      "region": "Oromia",
+      "stations": 234
+    },
+    {
+      "code": "202",
+      "name": "አምቦ 1",
+      "region": "Oromia",
+      "stations": 95
+    },
+    {
+      "code": "203",
+      "name": "አምቦ 2",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "204",
+      "name": "አኖ",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "205",
+      "name": "አርቦዬ",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "206",
+      "name": "አርሲ ነገሌ",
+      "region": "Oromia",
+      "stations": 101
+    },
+    {
+      "code": "207",
+      "name": "አስኮ",
+      "region": "Oromia",
+      "stations": 56
+    },
+    {
+      "code": "208",
+      "name": "አሰላ",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "209",
+      "name": "አያና",
+      "region": "Oromia",
+      "stations": 109
+    },
+    {
+      "code": "210",
+      "name": "ባኮ ትቤ",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "211",
+      "name": "ባቱ ዝዋይ",
+      "region": "Oromia",
+      "stations": 183
+    },
+    {
+      "code": "212",
+      "name": "በቾ",
+      "region": "Oromia",
+      "stations": 124
+    },
+    {
+      "code": "213",
+      "name": "በደሌ",
+      "region": "Oromia",
+      "stations": 120
+    },
+    {
+      "code": "214",
+      "name": "በደኖ",
+      "region": "Oromia",
+      "stations": 162
+    },
+    {
+      "code": "215",
+      "name": "በዴሳ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "216",
+      "name": "ቤጊ",
+      "region": "Oromia",
+      "stations": 122
+    },
+    {
+      "code": "217",
+      "name": "በሌ",
+      "region": "Oromia",
+      "stations": 118
+    },
+    {
+      "code": "218",
+      "name": "በቆጂ 1",
+      "region": "Oromia",
+      "stations": 63
+    },
+    {
+      "code": "219",
+      "name": "በቆጂ 2",
+      "region": "Oromia",
+      "stations": 66
+    },
+    {
+      "code": "220",
+      "name": "በረህ አለልቱ",
+      "region": "Oromia",
+      "stations": 132
+    },
+    {
+      "code": "221",
+      "name": "ቢሎኖጳ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "222",
+      "name": "ቦኮ",
+      "region": "Oromia",
+      "stations": 153
+    },
+    {
+      "code": "223",
+      "name": "ቦሬ",
+      "region": "Oromia",
+      "stations": 93
+    },
+    {
+      "code": "224",
+      "name": "ቦረዳ",
+      "region": "Oromia",
+      "stations": 124
+    },
+    {
+      "code": "225",
+      "name": "ጫንጮ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "226",
+      "name": "ጨለንቆ 1",
+      "region": "Oromia",
+      "stations": 132
+    },
+    {
+      "code": "227",
+      "name": "ጨለንቆ 2",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "228",
+      "name": "ጨሊያ 1",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "229",
+      "name": "ጨሊያ 2",
+      "region": "Oromia",
+      "stations": 63
+    },
+    {
+      "code": "230",
+      "name": "ጭሮ 1",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "231",
+      "name": "ጭሮ 2",
+      "region": "Oromia",
+      "stations": 44
+    },
+    {
+      "code": "232",
+      "name": "ጭሮ 3",
+      "region": "Oromia",
+      "stations": 42
+    },
+    {
+      "code": "233",
+      "name": "ጮሌ",
+      "region": "Oromia",
+      "stations": 85
+    },
+    {
+      "code": "234",
+      "name": "ጮራ",
+      "region": "Oromia",
+      "stations": 113
+    },
+    {
+      "code": "235",
+      "name": "ከሞና",
+      "region": "Oromia",
+      "stations": 120
+    },
+    {
+      "code": "236",
+      "name": "ደምቢ",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "237",
+      "name": "ዳንዲ 1",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "238",
+      "name": "ዳንዲ 2",
+      "region": "Oromia",
+      "stations": 64
+    },
+    {
+      "code": "239",
+      "name": "ዳኖ",
+      "region": "Oromia",
+      "stations": 60
+    },
+    {
+      "code": "240",
+      "name": "ዳሪሙ",
+      "region": "Oromia",
+      "stations": 78
+    },
+    {
+      "code": "241",
+      "name": "ደደር 1",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "242",
+      "name": "ደደር 2",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "243",
+      "name": "ዴዶ 1",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "244",
+      "name": "ዴዶ 2",
+      "region": "Oromia",
+      "stations": 85
+    },
+    {
+      "code": "245",
+      "name": "ደሎ መና",
+      "region": "Oromia",
+      "stations": 138
+    },
+    {
+      "code": "246",
+      "name": "ደምቢ ዶሎ",
+      "region": "Oromia",
+      "stations": 82
+    },
+    {
+      "code": "247",
+      "name": "ዴራ",
+      "region": "Oromia",
+      "stations": 133
+    },
+    {
+      "code": "248",
+      "name": "ዲጋ ኮሎቦ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "249",
+      "name": "ዲምቱ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "250",
+      "name": "ዶባ",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "251",
+      "name": "ዶዶላ",
+      "region": "Oromia",
+      "stations": 79
+    },
+    {
+      "code": "252",
+      "name": "ደገም",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "253",
+      "name": "ዱግዳ መቂ",
+      "region": "Oromia",
+      "stations": 148
+    },
+    {
+      "code": "254",
+      "name": "እናንጎ ቢላ",
+      "region": "Oromia",
+      "stations": 73
+    },
+    {
+      "code": "255",
+      "name": "ፊንጫኣ",
+      "region": "Oromia",
+      "stations": 174
+    },
+    {
+      "code": "256",
+      "name": "ፉኛንቢራ",
+      "region": "Oromia",
+      "stations": 283
+    },
+    {
+      "code": "257",
+      "name": "ገሊላ",
+      "region": "Oromia",
+      "stations": 127
+    },
+    {
+      "code": "258",
+      "name": "ጋሎ",
+      "region": "Oromia",
+      "stations": 57
+    },
+    {
+      "code": "259",
+      "name": "ግራር ጃርሶ",
+      "region": "Oromia",
+      "stations": 71
+    },
+    {
+      "code": "260",
+      "name": "ጋቲራ",
+      "region": "Oromia",
+      "stations": 113
+    },
+    {
+      "code": "261",
+      "name": "ገቺ ቦርቻ",
+      "region": "Oromia",
+      "stations": 117
+    },
+    {
+      "code": "262",
+      "name": "ገደብ ሀሳሳ",
+      "region": "Oromia",
+      "stations": 79
+    },
+    {
+      "code": "263",
+      "name": "ጌራ",
+      "region": "Oromia",
+      "stations": 78
+    },
+    {
+      "code": "264",
+      "name": "ጉይ ገነት",
+      "region": "Oromia",
+      "stations": 42
+    },
+    {
+      "code": "265",
+      "name": "ጊዳሚ",
+      "region": "Oromia",
+      "stations": 52
+    },
+    {
+      "code": "266",
+      "name": "ጊምቢ",
+      "region": "Oromia",
+      "stations": 84
+    },
+    {
+      "code": "267",
+      "name": "ግንደ በረት",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "268",
+      "name": "ጊኒር",
+      "region": "Oromia",
+      "stations": 143
+    },
+    {
+      "code": "269",
+      "name": "ግራዋ",
+      "region": "Oromia",
+      "stations": 274
+    },
+    {
+      "code": "270",
+      "name": "ጎባ",
+      "region": "Oromia",
+      "stations": 53
+    },
+    {
+      "code": "271",
+      "name": "ጎማ 1",
+      "region": "Oromia",
+      "stations": 84
+    },
+    {
+      "code": "272",
+      "name": "ጎማ 2",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "273",
+      "name": "ጎሬ",
+      "region": "Oromia",
+      "stations": 111
+    },
+    {
+      "code": "274",
+      "name": "ጎሮ",
+      "region": "Oromia",
+      "stations": 184
+    },
+    {
+      "code": "275",
+      "name": "ጉቴ",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "276",
+      "name": "ሐገረ ማርያም",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "277",
+      "name": "ሀብሩ 1",
+      "region": "Oromia",
+      "stations": 57
+    },
+    {
+      "code": "278",
+      "name": "ሐብሮ 2",
+      "region": "Oromia",
+      "stations": 38
+    },
+    {
+      "code": "279",
+      "name": "ሐረማያ 1",
+      "region": "Oromia",
+      "stations": 163
+    },
+    {
+      "code": "280",
+      "name": "ሐረማያ 2",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "281",
+      "name": "ሀረዋጫ",
+      "region": "Oromia",
+      "stations": 333
+    },
+    {
+      "code": "282",
+      "name": "ሂርና",
+      "region": "Oromia",
+      "stations": 79
+    },
+    {
+      "code": "283",
+      "name": "አይራ ጉሊሶ",
+      "region": "Oromia",
+      "stations": 102
+    },
+    {
+      "code": "284",
+      "name": "ኢተያ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "285",
+      "name": "ጃራ",
+      "region": "Oromia",
+      "stations": 98
+    },
+    {
+      "code": "286",
+      "name": "ጀልዱ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "287",
+      "name": "ጅማ አርጆ",
+      "region": "Oromia",
+      "stations": 49
+    },
+    {
+      "code": "288",
+      "name": "ጅማ ቀርሳ",
+      "region": "Oromia",
+      "stations": 104
+    },
+    {
+      "code": "289",
+      "name": "ጅማ ከተማ",
+      "region": "Oromia",
+      "stations": 90
+    },
+    {
+      "code": "290",
+      "name": "ቃቄ",
+      "region": "Oromia",
+      "stations": 58
+    },
+    {
+      "code": "291",
+      "name": "ቄቤ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "292",
+      "name": "ቀርጫ",
+      "region": "Oromia",
+      "stations": 174
+    },
+    {
+      "code": "293",
+      "name": "ቀርሳ",
+      "region": "Oromia",
+      "stations": 103
+    },
+    {
+      "code": "294",
+      "name": "ቀርሳ 1",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "295",
+      "name": "ቀርሳ 2",
+      "region": "Oromia",
+      "stations": 60
+    },
+    {
+      "code": "296",
+      "name": "ክብረ መንግስ",
+      "region": "Oromia",
+      "stations": 228
+    },
+    {
+      "code": "297",
+      "name": "ቅምብቢት",
+      "region": "Oromia",
+      "stations": 123
+    },
+    {
+      "code": "298",
+      "name": "ኮፈሌ 1",
+      "region": "Oromia",
+      "stations": 74
+    },
+    {
+      "code": "299",
+      "name": "ኮፈሌ 2",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "300",
+      "name": "ኮኮሳ",
+      "region": "Oromia",
+      "stations": 112
+    },
+    {
+      "code": "301",
+      "name": "ኮምቦልቻ 1",
+      "region": "Oromia",
+      "stations": 116
+    },
+    {
+      "code": "302",
+      "name": "ኮምቦልቻ 2",
+      "region": "Oromia",
+      "stations": 188
+    },
+    {
+      "code": "303",
+      "name": "ኩላ",
+      "region": "Oromia",
+      "stations": 70
+    },
+    {
+      "code": "304",
+      "name": "ኩርፋ ጨሌ",
+      "region": "Oromia",
+      "stations": 71
+    },
+    {
+      "code": "305",
+      "name": "ኩዩ",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "306",
+      "name": "ላሎ",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "307",
+      "name": "ሌመን",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "308",
+      "name": "ሊሙ ኮሳ 1",
+      "region": "Oromia",
+      "stations": 95
+    },
+    {
+      "code": "309",
+      "name": "ሊሙ ኮሳ 2",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "310",
+      "name": "ሊሙ ሰቃ",
+      "region": "Oromia",
+      "stations": 127
+    },
+    {
+      "code": "311",
+      "name": "ሉሜ ሞጆ",
+      "region": "Oromia",
+      "stations": 168
+    },
+    {
+      "code": "312",
+      "name": "ማና",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "313",
+      "name": "መኮ ሳቺ",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "314",
+      "name": "መልካ ሶዳ",
+      "region": "Oromia",
+      "stations": 153
+    },
+    {
+      "code": "315",
+      "name": "መንዲ",
+      "region": "Oromia",
+      "stations": 101
+    },
+    {
+      "code": "316",
+      "name": "መሰላ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "317",
+      "name": "ሜታ ሮቢ",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "318",
+      "name": "መቱ",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "319",
+      "name": "ሚጨታ",
+      "region": "Oromia",
+      "stations": 204
+    },
+    {
+      "code": "320",
+      "name": "ሚኤሶ",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "321",
+      "name": "ሞያሌ",
+      "region": "Oromia",
+      "stations": 223
+    },
+    {
+      "code": "322",
+      "name": "ነገሌ",
+      "region": "Oromia",
+      "stations": 167
+    },
+    {
+      "code": "323",
+      "name": "ነጆ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "324",
+      "name": "ነቀምቴ",
+      "region": "Oromia",
+      "stations": 103
+    },
+    {
+      "code": "325",
+      "name": "ኖሌ ካባ 1",
+      "region": "Oromia",
+      "stations": 43
+    },
+    {
+      "code": "326",
+      "name": "ኖሌ ካባ 2",
+      "region": "Oromia",
+      "stations": 44
+    },
+    {
+      "code": "327",
+      "name": "ኖኖ",
+      "region": "Oromia",
+      "stations": 109
+    },
+    {
+      "code": "328",
+      "name": "ኑኑ",
+      "region": "Oromia",
+      "stations": 42
+    },
+    {
+      "code": "329",
+      "name": "ኦሞ ናዳ 1",
+      "region": "Oromia",
+      "stations": 74
+    },
+    {
+      "code": "330",
+      "name": "ኦሞ ናዳ 2",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "331",
+      "name": "ጥቁር እንጭኒ",
+      "region": "Oromia",
+      "stations": 117
+    },
+    {
+      "code": "332",
+      "name": "ሮቤ",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "333",
+      "name": "ሳጉሬ",
+      "region": "Oromia",
+      "stations": 70
+    },
+    {
+      "code": "334",
+      "name": "ሲቡ ሲሬ",
+      "region": "Oromia",
+      "stations": 62
+    },
+    {
+      "code": "335",
+      "name": "ሰኮሩ",
+      "region": "Oromia",
+      "stations": 82
+    },
+    {
+      "code": "336",
+      "name": "ሰኞ ገበያ",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "337",
+      "name": "ሰቃ ጨቆርሳ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "338",
+      "name": "ሰቃ ጨቆርሳ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "339",
+      "name": "ሻምቡ",
+      "region": "Oromia",
+      "stations": 130
+    },
+    {
+      "code": "340",
+      "name": "ሻሸመኔ 1",
+      "region": "Oromia",
+      "stations": 131
+    },
+    {
+      "code": "341",
+      "name": "ሻሸመኔ 2",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "342",
+      "name": "ሽርካ",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "343",
+      "name": "ሲናና",
+      "region": "Oromia",
+      "stations": 88
+    },
+    {
+      "code": "344",
+      "name": "ሲራሮ 1",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "345",
+      "name": "ሲራሮ 2",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "346",
+      "name": "ሱሉልታ እና",
+      "region": "Oromia",
+      "stations": 116
+    },
+    {
+      "code": "347",
+      "name": "ተጂ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "348",
+      "name": "ተጆ",
+      "region": "Oromia",
+      "stations": 128
+    },
+    {
+      "code": "349",
+      "name": "ጢቾ",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "350",
+      "name": "ኡካ",
+      "region": "Oromia",
+      "stations": 104
+    },
+    {
+      "code": "351",
+      "name": "ኡራጋ",
+      "region": "Oromia",
+      "stations": 154
+    },
+    {
+      "code": "352",
+      "name": "ወንጪ",
+      "region": "Oromia",
+      "stations": 51
+    },
+    {
+      "code": "353",
+      "name": "ውጫሌና ጂዶ",
+      "region": "Oromia",
+      "stations": 93
+    },
+    {
+      "code": "354",
+      "name": "ወለንጭቲ",
+      "region": "Oromia",
+      "stations": 155
+    },
+    {
+      "code": "355",
+      "name": "ወሊሶ 1",
+      "region": "Oromia",
+      "stations": 58
+    },
+    {
+      "code": "356",
+      "name": "ወሊሶ 2",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "357",
+      "name": "ወልመራ",
+      "region": "Oromia",
+      "stations": 132
+    },
+    {
+      "code": "358",
+      "name": "ወረጃርሶ",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "359",
+      "name": "ያቤሎ",
+      "region": "Oromia",
+      "stations": 177
+    },
+    {
+      "code": "360",
+      "name": "ያያ ጉለሌ እና",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "361",
+      "name": "ያዩ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "362",
+      "name": "ዩብዶ",
+      "region": "Oromia",
+      "stations": 54
+    },
+    {
+      "code": "363",
+      "name": "አይሻ",
+      "region": "Somali",
+      "stations": 38
+    },
+    {
+      "code": "364",
+      "name": "አራቢ",
+      "region": "Somali",
+      "stations": 264
+    },
+    {
+      "code": "365",
+      "name": "አዋሬ",
+      "region": "Somali",
+      "stations": 168
+    },
+    {
+      "code": "366",
+      "name": "ቦህዳኖት",
+      "region": "Somali",
+      "stations": 52
+    },
+    {
+      "code": "367",
+      "name": "ጨረቲ",
+      "region": "Somali",
+      "stations": 247
+    },
+    {
+      "code": "368",
+      "name": "ደጋህቡር",
+      "region": "Somali",
+      "stations": 185
+    },
+    {
+      "code": "369",
+      "name": "ደጋህመዶ",
+      "region": "Somali",
+      "stations": 53
+    },
+    {
+      "code": "370",
+      "name": "ኤልከሬ",
+      "region": "Somali",
+      "stations": 151
+    },
+    {
+      "code": "371",
+      "name": "ኤረር",
+      "region": "Somali",
+      "stations": 190
+    },
+    {
+      "code": "372",
+      "name": "ፊቅ",
+      "region": "Somali",
+      "stations": 268
+    },
+    {
+      "code": "373",
+      "name": "ፊልቱ",
+      "region": "Somali",
+      "stations": 494
+    },
+    {
+      "code": "374",
+      "name": "ገላዲን",
+      "region": "Somali",
+      "stations": 21
+    },
+    {
+      "code": "375",
+      "name": "ጋሻሞ",
+      "region": "Somali",
+      "stations": 65
+    },
+    {
+      "code": "376",
+      "name": "ጎዴ",
+      "region": "Somali",
+      "stations": 240
+    },
+    {
+      "code": "377",
+      "name": "ሀርጌሌ",
+      "region": "Somali",
+      "stations": 195
+    },
+    {
+      "code": "378",
+      "name": "ጂግጂጋ 1",
+      "region": "Somali",
+      "stations": 148
+    },
+    {
+      "code": "379",
+      "name": "ጂግጂጋ 2",
+      "region": "Somali",
+      "stations": 196
+    },
+    {
+      "code": "380",
+      "name": "ቀብሪ ደሀር",
+      "region": "Somali",
+      "stations": 229
+    },
+    {
+      "code": "381",
+      "name": "ቀብሪበያህ",
+      "region": "Somali",
+      "stations": 438
+    },
+    {
+      "code": "382",
+      "name": "ቀላፎ",
+      "region": "Somali",
+      "stations": 121
+    },
+    {
+      "code": "383",
+      "name": "ሰገግ",
+      "region": "Somali",
+      "stations": 163
+    },
+    {
+      "code": "384",
+      "name": "ሽንሌ",
+      "region": "Somali",
+      "stations": 65
+    },
+    {
+      "code": "385",
+      "name": "ዋርዴር",
+      "region": "Somali",
+      "stations": 49
+    },
+    {
+      "code": "386",
+      "name": "አሶሳ ሆሃ",
+      "region": "Benishangul-Gumuz",
+      "stations": 104
+    },
+    {
+      "code": "387",
+      "name": "አሶሳ መጋሌ",
+      "region": "Benishangul-Gumuz",
+      "stations": 41
+    },
+    {
+      "code": "388",
+      "name": "ባምባሲ",
+      "region": "Benishangul-Gumuz",
+      "stations": 57
+    },
+    {
+      "code": "389",
+      "name": "ዳለቲ",
+      "region": "Benishangul-Gumuz",
+      "stations": 54
+    },
+    {
+      "code": "390",
+      "name": "ከማሺ",
+      "region": "Benishangul-Gumuz",
+      "stations": 82
+    },
+    {
+      "code": "391",
+      "name": "ማኦ ኮሞ ልዩ",
+      "region": "Benishangul-Gumuz",
+      "stations": 36
+    },
+    {
+      "code": "392",
+      "name": "መተከል",
+      "region": "Benishangul-Gumuz",
+      "stations": 284
+    },
+    {
+      "code": "393",
+      "name": "ሸርቆሌ",
+      "region": "Benishangul-Gumuz",
+      "stations": 79
+    },
+    {
+      "code": "394",
+      "name": "ሺናሻ ልዩ",
+      "region": "Benishangul-Gumuz",
+      "stations": 15
+    },
+    {
+      "code": "395",
+      "name": "አዲያ ካካ",
+      "region": "South West Ethiopia",
+      "stations": 84
+    },
+    {
+      "code": "396",
+      "name": "አሊቾ ወሬሮ",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "397",
+      "name": "አማሮ ኬሌ",
+      "region": "South Ethiopia",
+      "stations": 117
+    },
+    {
+      "code": "398",
+      "name": "አንጋጫ 1",
+      "region": "Central Ethiopia",
+      "stations": 59
+    },
+    {
+      "code": "399",
+      "name": "አንጋጫ 2",
+      "region": "Central Ethiopia",
+      "stations": 48
+    },
+    {
+      "code": "400",
+      "name": "አርባ ምንጭ",
+      "region": "South Ethiopia",
+      "stations": 222
+    },
+    {
+      "code": "401",
+      "name": "አዘርነት በርበሬ",
+      "region": "Central Ethiopia",
+      "stations": 76
+    },
+    {
+      "code": "402",
+      "name": "ባኮ ጋዘር 1",
+      "region": "South Ethiopia",
+      "stations": 138
+    },
+    {
+      "code": "403",
+      "name": "ባኮ ጋዘር 2",
+      "region": "South Ethiopia",
+      "stations": 61
+    },
+    {
+      "code": "404",
+      "name": "ባስኬቶ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 36
+    },
+    {
+      "code": "405",
+      "name": "ብርብር",
+      "region": "South Ethiopia",
+      "stations": 106
+    },
+    {
+      "code": "406",
+      "name": "ቢጣ ጌሻ",
+      "region": "South West Ethiopia",
+      "stations": 109
+    },
+    {
+      "code": "407",
+      "name": "ቦሎሶ ሶሬ 1",
+      "region": "South Ethiopia",
+      "stations": 102
+    },
+    {
+      "code": "408",
+      "name": "ቦሎሶ ሶሬ 2",
+      "region": "South Ethiopia",
+      "stations": 78
+    },
+    {
+      "code": "409",
+      "name": "ቦሎሶ ሶሬ 3",
+      "region": "South Ethiopia",
+      "stations": 111
+    },
+    {
+      "code": "410",
+      "name": "ቡሌ",
+      "region": "South Ethiopia",
+      "stations": 83
+    },
+    {
+      "code": "411",
+      "name": "ቡርጂ",
+      "region": "South Ethiopia",
+      "stations": 48
+    },
+    {
+      "code": "412",
+      "name": "ማጀት መደበኛ",
+      "region": "South West Ethiopia",
+      "stations": 180
+    },
+    {
+      "code": "413",
+      "name": "ጨንቻ",
+      "region": "South Ethiopia",
+      "stations": 74
+    },
+    {
+      "code": "414",
+      "name": "ላስካ/ባስኬቶ",
+      "region": "South Ethiopia",
+      "stations": 14
+    },
+    {
+      "code": "415",
+      "name": "ጭሪ መደበኛ",
+      "region": "South West Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "416",
+      "name": "ናኦ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 16
+    },
+    {
+      "code": "417",
+      "name": "ዳሎቻ",
+      "region": "Central Ethiopia",
+      "stations": 102
+    },
+    {
+      "code": "418",
+      "name": "ዳሞት ጋሌ 2",
+      "region": "South Ethiopia",
+      "stations": 78
+    },
+    {
+      "code": "419",
+      "name": "ዳሞት ጋሌ 1",
+      "region": "South Ethiopia",
+      "stations": 100
+    },
+    {
+      "code": "420",
+      "name": "ዳሞት ወይዴ",
+      "region": "South Ethiopia",
+      "stations": 67
+    },
+    {
+      "code": "421",
+      "name": "ዳሞት ወይዴ",
+      "region": "South Ethiopia",
+      "stations": 70
+    },
+    {
+      "code": "422",
+      "name": "ዳሰነች",
+      "region": "South Ethiopia",
+      "stations": 46
+    },
+    {
+      "code": "423",
+      "name": "ዲታ",
+      "region": "South Ethiopia",
+      "stations": 56
+    },
+    {
+      "code": "424",
+      "name": "ደራሼ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "425",
+      "name": "ዲዚ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 40
+    },
+    {
+      "code": "426",
+      "name": "እምድብር",
+      "region": "Central Ethiopia",
+      "stations": 71
+    },
+    {
+      "code": "427",
+      "name": "እነሞርና ኤነር 1",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "428",
+      "name": "እነሞርና ኤነር 2",
+      "region": "Central Ethiopia",
+      "stations": 44
+    },
+    {
+      "code": "429",
+      "name": "እዣ 1",
+      "region": "Central Ethiopia",
+      "stations": 57
+    },
+    {
+      "code": "430",
+      "name": "እዣ 2",
+      "region": "Central Ethiopia",
+      "stations": 63
+    },
+    {
+      "code": "431",
+      "name": "ፈለገ ሰላም",
+      "region": "South West Ethiopia",
+      "stations": 63
+    },
+    {
+      "code": "432",
+      "name": "ፍስሀ ገነት",
+      "region": "South Ethiopia",
+      "stations": 169
+    },
+    {
+      "code": "433",
+      "name": "ገረሴ",
+      "region": "South Ethiopia",
+      "stations": 95
+    },
+    {
+      "code": "434",
+      "name": "ጊምቦ",
+      "region": "South West Ethiopia",
+      "stations": 120
+    },
+    {
+      "code": "435",
+      "name": "ጎፋ ዙሪያ 1",
+      "region": "South Ethiopia",
+      "stations": 81
+    },
+    {
+      "code": "436",
+      "name": "ጎፋ ዙሪያ 2",
+      "region": "South Ethiopia",
+      "stations": 55
+    },
+    {
+      "code": "437",
+      "name": "ጊዶሌ መደበኛ",
+      "region": "South Ethiopia",
+      "stations": 30
+    },
+    {
+      "code": "438",
+      "name": "ጉመር 1",
+      "region": "Central Ethiopia",
+      "stations": 46
+    },
+    {
+      "code": "439",
+      "name": "ጉመር 2",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "440",
+      "name": "ገዋዳ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 64
+    },
+    {
+      "code": "441",
+      "name": "ሀላባ 1",
+      "region": "Central Ethiopia",
+      "stations": 128
+    },
+    {
+      "code": "442",
+      "name": "ሀላባ 2",
+      "region": "Central Ethiopia",
+      "stations": 114
+    },
+    {
+      "code": "443",
+      "name": "ሐመር ልዩ",
+      "region": "South Ethiopia",
+      "stations": 45
+    },
+    {
+      "code": "444",
+      "name": "ሁምቦ ጠበላ",
+      "region": "South Ethiopia",
+      "stations": 97
+    },
+    {
+      "code": "445",
+      "name": "ኢሰራ ቶጫ",
+      "region": "South West Ethiopia",
+      "stations": 103
+    },
+    {
+      "code": "446",
+      "name": "ቃጫ ቢራ",
+      "region": "Central Ethiopia",
+      "stations": 77
+    },
+    {
+      "code": "447",
+      "name": "ከምባ",
+      "region": "South Ethiopia",
+      "stations": 98
+    },
+    {
+      "code": "448",
+      "name": "ቀይ አፈር መደ",
+      "region": "South Ethiopia",
+      "stations": 110
+    },
+    {
+      "code": "449",
+      "name": "ቅበት",
+      "region": "Central Ethiopia",
+      "stations": 137
+    },
+    {
+      "code": "450",
+      "name": "ኪንዶ ኮይሻ 1",
+      "region": "South Ethiopia",
+      "stations": 64
+    },
+    {
+      "code": "451",
+      "name": "ኪንዶ ኮይሻ 2",
+      "region": "South Ethiopia",
+      "stations": 54
+    },
+    {
+      "code": "452",
+      "name": "ኮኪር",
+      "region": "Central Ethiopia",
+      "stations": 56
+    },
+    {
+      "code": "453",
+      "name": "ኮንሶ",
+      "region": "South Ethiopia",
+      "stations": 146
+    },
+    {
+      "code": "454",
+      "name": "ኮንታ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 72
+    },
+    {
+      "code": "455",
+      "name": "ኮንተብ 1",
+      "region": "Central Ethiopia",
+      "stations": 78
+    },
+    {
+      "code": "456",
+      "name": "ኮንተብ 2",
+      "region": "Central Ethiopia",
+      "stations": 70
+    },
+    {
+      "code": "457",
+      "name": "ኮንተብ 3",
+      "region": "Central Ethiopia",
+      "stations": 99
+    },
+    {
+      "code": "458",
+      "name": "ቁጫ",
+      "region": "South Ethiopia",
+      "stations": 100
+    },
+    {
+      "code": "459",
+      "name": "ቀዲዳ ጋሜላ 1",
+      "region": "Central Ethiopia",
+      "stations": 49
+    },
+    {
+      "code": "460",
+      "name": "ቀዲዳ ጋሜላ 2",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "461",
+      "name": "ሌሞ 01",
+      "region": "Central Ethiopia",
+      "stations": 140
+    },
+    {
+      "code": "462",
+      "name": "ሌሞ 02",
+      "region": "Central Ethiopia",
+      "stations": 85
+    },
+    {
+      "code": "463",
+      "name": "ላንፍሮ",
+      "region": "Central Ethiopia",
+      "stations": 77
+    },
+    {
+      "code": "464",
+      "name": "ሎማ ቦሳ",
+      "region": "South West Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "465",
+      "name": "ማሌ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 53
+    },
+    {
+      "code": "466",
+      "name": "ሜእኒት ልዮ",
+      "region": "South West Ethiopia",
+      "stations": 85
+    },
+    {
+      "code": "467",
+      "name": "ማረቃ ጌና",
+      "region": "South West Ethiopia",
+      "stations": 83
+    },
+    {
+      "code": "468",
+      "name": "ማሻ",
+      "region": "South West Ethiopia",
+      "stations": 71
+    },
+    {
+      "code": "469",
+      "name": "መሎ ኮዛ",
+      "region": "South Ethiopia",
+      "stations": 84
+    },
+    {
+      "code": "470",
+      "name": "መስቃን ማረቆ 1",
+      "region": "Central Ethiopia",
+      "stations": 87
+    },
+    {
+      "code": "471",
+      "name": "መስቃን ማረቆ 2",
+      "region": "Central Ethiopia",
+      "stations": 107
+    },
+    {
+      "code": "472",
+      "name": "ሚዛን ተፈሪ",
+      "region": "South West Ethiopia",
+      "stations": 130
+    },
+    {
+      "code": "473",
+      "name": "ኦፋ",
+      "region": "South Ethiopia",
+      "stations": 112
+    },
+    {
+      "code": "474",
+      "name": "ኦይዳ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 22
+    },
+    {
+      "code": "475",
+      "name": "ሼይ ቤንች",
+      "region": "South West Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "476",
+      "name": "ሸኮ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 55
+    },
+    {
+      "code": "477",
+      "name": "ሲቄ 01",
+      "region": "Central Ethiopia",
+      "stations": 93
+    },
+    {
+      "code": "478",
+      "name": "ሲቄ 02",
+      "region": "Central Ethiopia",
+      "stations": 88
+    },
+    {
+      "code": "479",
+      "name": "ሶዶ",
+      "region": "Central Ethiopia",
+      "stations": 93
+    },
+    {
+      "code": "480",
+      "name": "ሶዶ ዙሪያ 1",
+      "region": "South Ethiopia",
+      "stations": 105
+    },
+    {
+      "code": "481",
+      "name": "ሶዶ ዙሪያ 2",
+      "region": "South Ethiopia",
+      "stations": 108
+    },
+    {
+      "code": "482",
+      "name": "ሶሮ 01",
+      "region": "Central Ethiopia",
+      "stations": 178
+    },
+    {
+      "code": "483",
+      "name": "ሶሮ 02",
+      "region": "Central Ethiopia",
+      "stations": 97
+    },
+    {
+      "code": "484",
+      "name": "ሱርማ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 28
+    },
+    {
+      "code": "485",
+      "name": "ቴፒ",
+      "region": "South West Ethiopia",
+      "stations": 151
+    },
+    {
+      "code": "486",
+      "name": "ጠምባሮ",
+      "region": "Central Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "487",
+      "name": "ፀማይ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 17
+    },
+    {
+      "code": "488",
+      "name": "ኡባ ደብረ ጸሐ",
+      "region": "South Ethiopia",
+      "stations": 54
+    },
+    {
+      "code": "489",
+      "name": "ዋቻ",
+      "region": "South West Ethiopia",
+      "stations": 116
+    },
+    {
+      "code": "490",
+      "name": "ወልቂጤ",
+      "region": "Central Ethiopia",
+      "stations": 138
+    },
+    {
+      "code": "491",
+      "name": "ወናጎ 1",
+      "region": "South Ethiopia",
+      "stations": 46
+    },
+    {
+      "code": "492",
+      "name": "ወናጎ 2",
+      "region": "South Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "493",
+      "name": "ወናጎ 3",
+      "region": "South Ethiopia",
+      "stations": 84
+    },
+    {
+      "code": "494",
+      "name": "የም ልዩ",
+      "region": "Central Ethiopia",
+      "stations": 63
+    },
+    {
+      "code": "495",
+      "name": "ይርጋ ጨፌ 1",
+      "region": "South Ethiopia",
+      "stations": 56
+    },
+    {
+      "code": "496",
+      "name": "ይርጋጨፌ 2",
+      "region": "South Ethiopia",
+      "stations": 106
+    },
+    {
+      "code": "497",
+      "name": "ዛላ ዳራማሎ",
+      "region": "South Ethiopia",
+      "stations": 120
+    },
+    {
+      "code": "498",
+      "name": "ዘይሴ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 13
+    },
+    {
+      "code": "499",
+      "name": "አለታ ወንዶ",
+      "region": "Sidama",
+      "stations": 112
+    },
+    {
+      "code": "500",
+      "name": "አርቤጎና",
+      "region": "Sidama",
+      "stations": 126
+    },
+    {
+      "code": "501",
+      "name": "አሮሬሳ",
+      "region": "Sidama",
+      "stations": 127
+    },
+    {
+      "code": "502",
+      "name": "በሌላ",
+      "region": "Sidama",
+      "stations": 105
+    },
+    {
+      "code": "503",
+      "name": "በንሳ",
+      "region": "Sidama",
+      "stations": 201
+    },
+    {
+      "code": "504",
+      "name": "ቡርሳ",
+      "region": "Sidama",
+      "stations": 75
+    },
+    {
+      "code": "505",
+      "name": "ጩኮ",
+      "region": "Sidama",
+      "stations": 93
+    },
+    {
+      "code": "506",
+      "name": "ዳራ",
+      "region": "Sidama",
+      "stations": 88
+    },
+    {
+      "code": "507",
+      "name": "ደሴ",
+      "region": "Sidama",
+      "stations": 134
+    },
+    {
+      "code": "508",
+      "name": "ዱባ",
+      "region": "Sidama",
+      "stations": 101
+    },
+    {
+      "code": "509",
+      "name": "ጎርቼ",
+      "region": "Sidama",
+      "stations": 98
+    },
+    {
+      "code": "510",
+      "name": "ጉጉማ",
+      "region": "Sidama",
+      "stations": 78
+    },
+    {
+      "code": "511",
+      "name": "ሀገረ ሰላም",
+      "region": "Sidama",
+      "stations": 85
+    },
+    {
+      "code": "512",
+      "name": "ሐዋሳ",
+      "region": "Sidama",
+      "stations": 308
+    },
+    {
+      "code": "513",
+      "name": "ለኩ",
+      "region": "Sidama",
+      "stations": 70
+    },
+    {
+      "code": "514",
+      "name": "ሴኒቴሪያ",
+      "region": "Sidama",
+      "stations": 86
+    },
+    {
+      "code": "515",
+      "name": "ሻፍና",
+      "region": "Sidama",
+      "stations": 128
+    },
+    {
+      "code": "516",
+      "name": "ቱላ",
+      "region": "Sidama",
+      "stations": 156
+    },
+    {
+      "code": "517",
+      "name": "ይርባ",
+      "region": "Sidama",
+      "stations": 80
+    },
+    {
+      "code": "518",
+      "name": "ጋምቤላ",
+      "region": "Gambela",
+      "stations": 198
+    },
+    {
+      "code": "519",
+      "name": "ጎደሬ",
+      "region": "Gambela",
+      "stations": 53
+    },
+    {
+      "code": "520",
+      "name": "ላሬ",
+      "region": "Gambela",
+      "stations": 192
+    },
+    {
+      "code": "521",
+      "name": "ጀጎል ልዩ",
+      "region": "Harari",
+      "stations": 79
+    },
+    {
+      "code": "522",
+      "name": "ጀጎል ዙሪያ እና ሁንደኔ",
+      "region": "Harari",
+      "stations": 226
+    },
+    {
+      "code": "523",
+      "name": "የምርጫ ክልል 17",
+      "region": "Addis Ababa",
+      "stations": 174
+    },
+    {
+      "code": "524",
+      "name": "የምርጫ ክልል 1 እና 9",
+      "region": "Addis Ababa",
+      "stations": 67
+    },
+    {
+      "code": "525",
+      "name": "የምርጫ ክልል 10",
+      "region": "Addis Ababa",
+      "stations": 63
+    },
+    {
+      "code": "526",
+      "name": "የምርጫ ክልል 11",
+      "region": "Addis Ababa",
+      "stations": 71
+    },
+    {
+      "code": "527",
+      "name": "የምርጫ ክልል 12 እና 13",
+      "region": "Addis Ababa",
+      "stations": 87
+    },
+    {
+      "code": "528",
+      "name": "የምርጫ ክልል 15",
+      "region": "Addis Ababa",
+      "stations": 14
+    },
+    {
+      "code": "529",
+      "name": "የምርጫ ክልል 16",
+      "region": "Addis Ababa",
+      "stations": 37
+    },
+    {
+      "code": "530",
+      "name": "የምርጫ ክልል 18",
+      "region": "Addis Ababa",
+      "stations": 29
+    },
+    {
+      "code": "531",
+      "name": "የምርጫ ክልል 19",
+      "region": "Addis Ababa",
+      "stations": 173
+    },
+    {
+      "code": "532",
+      "name": "የምርጫ ክልል 2 እና 14",
+      "region": "Addis Ababa",
+      "stations": 12
+    },
+    {
+      "code": "533",
+      "name": "የምርጫ ክልል 20",
+      "region": "Addis Ababa",
+      "stations": 67
+    },
+    {
+      "code": "534",
+      "name": "የምርጫ ክልል 21 እና 22",
+      "region": "Addis Ababa",
+      "stations": 61
+    },
+    {
+      "code": "535",
+      "name": "የምርጫ ክልል 23",
+      "region": "Addis Ababa",
+      "stations": 71
+    },
+    {
+      "code": "536",
+      "name": "የምርጫ ክልል 24",
+      "region": "Addis Ababa",
+      "stations": 153
+    },
+    {
+      "code": "537",
+      "name": "የምርጫ ክልል 25",
+      "region": "Addis Ababa",
+      "stations": 88
+    },
+    {
+      "code": "538",
+      "name": "የምርጫ ክልል 26 እና 27",
+      "region": "Addis Ababa",
+      "stations": 141
+    },
+    {
+      "code": "539",
+      "name": "የምርጫ ክልል 28",
+      "region": "Addis Ababa",
+      "stations": 151
+    },
+    {
+      "code": "540",
+      "name": "የምርጫ ክልል 3",
+      "region": "Addis Ababa",
+      "stations": 35
+    },
+    {
+      "code": "541",
+      "name": "የምርጫ ክልል 4",
+      "region": "Addis Ababa",
+      "stations": 35
+    },
+    {
+      "code": "542",
+      "name": "የምርጫ ክልል 6",
+      "region": "Addis Ababa",
+      "stations": 40
+    },
+    {
+      "code": "543",
+      "name": "የምርጫ ክልል 7",
+      "region": "Addis Ababa",
+      "stations": 51
+    },
+    {
+      "code": "544",
+      "name": "የምርጫ ክልል 8",
+      "region": "Addis Ababa",
+      "stations": 57
+    },
+    {
+      "code": "545",
+      "name": "የምርጫ ክልል 5",
+      "region": "Addis Ababa",
+      "stations": 42
+    },
+    {
+      "code": "546",
+      "name": "ድሬዳዋ 1",
+      "region": "Dire Dawa",
+      "stations": 144
+    },
+    {
+      "code": "547",
+      "name": "ድሬዳዋ 2",
+      "region": "Dire Dawa",
+      "stations": 143
+    }
+  ],
+  "rc": [
+    {
+      "code": "101",
+      "name": "አዲስ ከተማ",
+      "region": "Addis Ababa",
+      "stations": 5
+    },
+    {
+      "code": "102",
+      "name": "አዲስ ከተማ",
+      "region": "Addis Ababa",
+      "stations": 9
+    },
+    {
+      "code": "103",
+      "name": "አዲስ ከተማ",
+      "region": "Addis Ababa",
+      "stations": 40
+    },
+    {
+      "code": "104",
+      "name": "አዲስ ከተማ",
+      "region": "Addis Ababa",
+      "stations": 51
+    },
+    {
+      "code": "105",
+      "name": "አዲስ ከተማ",
+      "region": "Addis Ababa",
+      "stations": 21
+    },
+    {
+      "code": "106",
+      "name": "አዲስ ከተማ",
+      "region": "Addis Ababa",
+      "stations": 42
+    },
+    {
+      "code": "107",
+      "name": "አቃቂ ቃሊቲ",
+      "region": "Addis Ababa",
+      "stations": 22
+    },
+    {
+      "code": "108",
+      "name": "አቃቂ ቃሊቲ",
+      "region": "Addis Ababa",
+      "stations": 141
+    },
+    {
+      "code": "109",
+      "name": "አራዳ",
+      "region": "Addis Ababa",
+      "stations": 55
+    },
+    {
+      "code": "110",
+      "name": "አራዳ",
+      "region": "Addis Ababa",
+      "stations": 28
+    },
+    {
+      "code": "111",
+      "name": "አራዳ",
+      "region": "Addis Ababa",
+      "stations": 12
+    },
+    {
+      "code": "112",
+      "name": "ቦሌ",
+      "region": "Addis Ababa",
+      "stations": 174
+    },
+    {
+      "code": "114",
+      "name": "ቦሌ",
+      "region": "Addis Ababa",
+      "stations": 33
+    },
+    {
+      "code": "115",
+      "name": "ጉለሌ",
+      "region": "Addis Ababa",
+      "stations": 12
+    },
+    {
+      "code": "116",
+      "name": "ጉለሌ",
+      "region": "Addis Ababa",
+      "stations": 63
+    },
+    {
+      "code": "117",
+      "name": "ጉለሌ",
+      "region": "Addis Ababa",
+      "stations": 71
+    },
+    {
+      "code": "119",
+      "name": "ጉለሌ",
+      "region": "Addis Ababa",
+      "stations": 36
+    },
+    {
+      "code": "120",
+      "name": "ቂርቆስ",
+      "region": "Addis Ababa",
+      "stations": 3
+    },
+    {
+      "code": "121",
+      "name": "ቂርቆስ",
+      "region": "Addis Ababa",
+      "stations": 29
+    },
+    {
+      "code": "122",
+      "name": "ቂርቆስ",
+      "region": "Addis Ababa",
+      "stations": 9
+    },
+    {
+      "code": "123",
+      "name": "ቂርቆስ",
+      "region": "Addis Ababa",
+      "stations": 25
+    },
+    {
+      "code": "124",
+      "name": "ቂርቆስ",
+      "region": "Addis Ababa",
+      "stations": 34
+    },
+    {
+      "code": "125",
+      "name": "ቂርቆስ",
+      "region": "Addis Ababa",
+      "stations": 11
+    },
+    {
+      "code": "126",
+      "name": "ኮልፌ ቀራኒዮ",
+      "region": "Addis Ababa",
+      "stations": 17
+    },
+    {
+      "code": "127",
+      "name": "ኮልፌ ቀራኒዮ",
+      "region": "Addis Ababa",
+      "stations": 137
+    },
+    {
+      "code": "128",
+      "name": "ኮልፌ ቀራኒዮ",
+      "region": "Addis Ababa",
+      "stations": 79
+    },
+    {
+      "code": "129",
+      "name": "ልደታ",
+      "region": "Addis Ababa",
+      "stations": 27
+    },
+    {
+      "code": "130",
+      "name": "ልደታ",
+      "region": "Addis Ababa",
+      "stations": 8
+    },
+    {
+      "code": "131",
+      "name": "ልደታ",
+      "region": "Addis Ababa",
+      "stations": 35
+    },
+    {
+      "code": "132",
+      "name": "ልደታ",
+      "region": "Addis Ababa",
+      "stations": 35
+    },
+    {
+      "code": "133",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "region": "Addis Ababa",
+      "stations": 142
+    },
+    {
+      "code": "134",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "region": "Addis Ababa",
+      "stations": 42
+    },
+    {
+      "code": "135",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "region": "Addis Ababa",
+      "stations": 43
+    },
+    {
+      "code": "136",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "region": "Addis Ababa",
+      "stations": 3
+    },
+    {
+      "code": "137",
+      "name": "የካ",
+      "region": "Addis Ababa",
+      "stations": 59
+    },
+    {
+      "code": "138",
+      "name": "የካ",
+      "region": "Addis Ababa",
+      "stations": 11
+    },
+    {
+      "code": "139",
+      "name": "የካ",
+      "region": "Addis Ababa",
+      "stations": 37
+    },
+    {
+      "code": "140",
+      "name": "የካ",
+      "region": "Addis Ababa",
+      "stations": 118
+    },
+    {
+      "code": "141",
+      "name": "አብኣላ ወረዳ",
+      "region": "Afar",
+      "stations": 51
+    },
+    {
+      "code": "142",
+      "name": "አደአር ወረዳ",
+      "region": "Afar",
+      "stations": 55
+    },
+    {
+      "code": "143",
+      "name": "ሓዳሌኤላ ወረ",
+      "region": "Afar",
+      "stations": 57
+    },
+    {
+      "code": "144",
+      "name": "አፋምቦ ወረዳ",
+      "region": "Afar",
+      "stations": 37
+    },
+    {
+      "code": "145",
+      "name": "አፍዴራ ወረዳ",
+      "region": "Afar",
+      "stations": 37
+    },
+    {
+      "code": "146",
+      "name": "አሚባራ",
+      "region": "Afar",
+      "stations": 83
+    },
+    {
+      "code": "147",
+      "name": "አርጎባ ልዩ ወረ",
+      "region": "Afar",
+      "stations": 21
+    },
+    {
+      "code": "148",
+      "name": "አዋሽ ፈንታሌ",
+      "region": "Afar",
+      "stations": 36
+    },
+    {
+      "code": "149",
+      "name": "አውራ ወረዳ",
+      "region": "Afar",
+      "stations": 40
+    },
+    {
+      "code": "150",
+      "name": "አይሳኢታ ወረ",
+      "region": "Afar",
+      "stations": 65
+    },
+    {
+      "code": "151",
+      "name": "በርሀሌ ወረዳ",
+      "region": "Afar",
+      "stations": 62
+    },
+    {
+      "code": "152",
+      "name": "ቢዱ ወረዳ",
+      "region": "Afar",
+      "stations": 25
+    },
+    {
+      "code": "153",
+      "name": "ቡሬ ሞዳይቱ",
+      "region": "Afar",
+      "stations": 49
+    },
+    {
+      "code": "154",
+      "name": "ጭፍራ ወረዳ",
+      "region": "Afar",
+      "stations": 105
+    },
+    {
+      "code": "155",
+      "name": "ዳሌ ፋጌ ወረዳ",
+      "region": "Afar",
+      "stations": 41
+    },
+    {
+      "code": "156",
+      "name": "ዳዌ ወረዳ",
+      "region": "Afar",
+      "stations": 59
+    },
+    {
+      "code": "157",
+      "name": "ዳሎቻ ወረዳ",
+      "region": "Afar",
+      "stations": 24
+    },
+    {
+      "code": "158",
+      "name": "ዳሉል ወረዳ",
+      "region": "Afar",
+      "stations": 71
+    },
+    {
+      "code": "159",
+      "name": "ዱብቲ ወረዳ",
+      "region": "Afar",
+      "stations": 124
+    },
+    {
+      "code": "160",
+      "name": "ኤሊዳር ወረዳ",
+      "region": "Afar",
+      "stations": 63
+    },
+    {
+      "code": "161",
+      "name": "ኤረብቲ ወረዳ",
+      "region": "Afar",
+      "stations": 50
+    },
+    {
+      "code": "162",
+      "name": "ኡዋ ወረዳ",
+      "region": "Afar",
+      "stations": 55
+    },
+    {
+      "code": "163",
+      "name": "ገዋኔ ወረዳ",
+      "region": "Afar",
+      "stations": 68
+    },
+    {
+      "code": "164",
+      "name": "ጉሊና ወረዳ",
+      "region": "Afar",
+      "stations": 41
+    },
+    {
+      "code": "165",
+      "name": "ኩኖባ ወረዳ",
+      "region": "Afar",
+      "stations": 34
+    },
+    {
+      "code": "166",
+      "name": "ኮሪ ወረዳ",
+      "region": "Afar",
+      "stations": 29
+    },
+    {
+      "code": "167",
+      "name": "መጋሌ",
+      "region": "Afar",
+      "stations": 30
+    },
+    {
+      "code": "168",
+      "name": "ሚሌ ወረዳ",
+      "region": "Afar",
+      "stations": 97
+    },
+    {
+      "code": "169",
+      "name": "ሰሙሮቢ ወረ",
+      "region": "Afar",
+      "stations": 49
+    },
+    {
+      "code": "170",
+      "name": "ተላላክ ወረዳ",
+      "region": "Afar",
+      "stations": 53
+    },
+    {
+      "code": "171",
+      "name": "ቴሩ ወረዳ",
+      "region": "Afar",
+      "stations": 33
+    },
+    {
+      "code": "172",
+      "name": "ያሎ ወረዳ",
+      "region": "Afar",
+      "stations": 30
+    },
+    {
+      "code": "174",
+      "name": "አዲስ ቅዳም",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "175",
+      "name": "አዴት",
+      "region": "Amhara",
+      "stations": 94
+    },
+    {
+      "code": "176",
+      "name": "አልቡኮ",
+      "region": "Amhara",
+      "stations": 38
+    },
+    {
+      "code": "177",
+      "name": "አለፋ ጣቁሳ 1",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "178",
+      "name": "አለፋ ጣቁሳ 2",
+      "region": "Amhara",
+      "stations": 98
+    },
+    {
+      "code": "179",
+      "name": "አለም ከተማ",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "180",
+      "name": "አማኑኤል",
+      "region": "Amhara",
+      "stations": 59
+    },
+    {
+      "code": "181",
+      "name": "አምባሰል",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "182",
+      "name": "አምበር",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "183",
+      "name": "አንኮበር",
+      "region": "Amhara",
+      "stations": 124
+    },
+    {
+      "code": "184",
+      "name": "አረርቲ",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "185",
+      "name": "ባሕር ዳር ከተማ",
+      "region": "Amhara",
+      "stations": 161
+    },
+    {
+      "code": "186",
+      "name": "ባቲ",
+      "region": "Amhara",
+      "stations": 77
+    },
+    {
+      "code": "187",
+      "name": "በለሳ",
+      "region": "Amhara",
+      "stations": 113
+    },
+    {
+      "code": "188",
+      "name": "ብቸና",
+      "region": "Amhara",
+      "stations": 109
+    },
+    {
+      "code": "189",
+      "name": "ቡግና",
+      "region": "Amhara",
+      "stations": 140
+    },
+    {
+      "code": "190",
+      "name": "ቡሬ",
+      "region": "Amhara",
+      "stations": 99
+    },
+    {
+      "code": "191",
+      "name": "ጫጫ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "192",
+      "name": "ቻግኒ",
+      "region": "Amhara",
+      "stations": 72
+    },
+    {
+      "code": "193",
+      "name": "ጨፋ ሮቢት",
+      "region": "Amhara",
+      "stations": 136
+    },
+    {
+      "code": "194",
+      "name": "ጭልጋ 1",
+      "region": "Amhara",
+      "stations": 106
+    },
+    {
+      "code": "195",
+      "name": "ጭልጋ 2",
+      "region": "Amhara",
+      "stations": 38
+    },
+    {
+      "code": "196",
+      "name": "ዳባት",
+      "region": "Amhara",
+      "stations": 96
+    },
+    {
+      "code": "197",
+      "name": "ዳንግላ",
+      "region": "Amhara",
+      "stations": 76
+    },
+    {
+      "code": "198",
+      "name": "ዳዋ ጨፋ",
+      "region": "Amhara",
+      "stations": 185
+    },
+    {
+      "code": "199",
+      "name": "ደባርቅ",
+      "region": "Amhara",
+      "stations": 206
+    },
+    {
+      "code": "200",
+      "name": "ደብረ ብርሃን",
+      "region": "Amhara",
+      "stations": 106
+    },
+    {
+      "code": "201",
+      "name": "ደብረ ኤልያስ",
+      "region": "Amhara",
+      "stations": 53
+    },
+    {
+      "code": "202",
+      "name": "ደብረ ማርቆስ",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "203",
+      "name": "ደብረ ወርቅ",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "204",
+      "name": "ደብረሲና",
+      "region": "Amhara",
+      "stations": 112
+    },
+    {
+      "code": "205",
+      "name": "ደብረሲና 1",
+      "region": "Amhara",
+      "stations": 100
+    },
+    {
+      "code": "206",
+      "name": "ደብረሲና 2",
+      "region": "Amhara",
+      "stations": 89
+    },
+    {
+      "code": "207",
+      "name": "ደጋ ዳሞት",
+      "region": "Amhara",
+      "stations": 102
+    },
+    {
+      "code": "208",
+      "name": "ደጓ ጽዮን",
+      "region": "Amhara",
+      "stations": 63
+    },
+    {
+      "code": "209",
+      "name": "ደሀና",
+      "region": "Amhara",
+      "stations": 87
+    },
+    {
+      "code": "210",
+      "name": "ደጀን",
+      "region": "Amhara",
+      "stations": 73
+    },
+    {
+      "code": "211",
+      "name": "ደላንታ",
+      "region": "Amhara",
+      "stations": 111
+    },
+    {
+      "code": "212",
+      "name": "ደበጫ",
+      "region": "Amhara",
+      "stations": 95
+    },
+    {
+      "code": "213",
+      "name": "ደምቢያ 1",
+      "region": "Amhara",
+      "stations": 103
+    },
+    {
+      "code": "214",
+      "name": "ደምቢያ 2",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "215",
+      "name": "ደነባ",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "216",
+      "name": "ደራ 1",
+      "region": "Amhara",
+      "stations": 92
+    },
+    {
+      "code": "217",
+      "name": "ደራ 2",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "218",
+      "name": "ደሴ ከተማ",
+      "region": "Amhara",
+      "stations": 104
+    },
+    {
+      "code": "219",
+      "name": "ደሴ ዙሪያ 1",
+      "region": "Amhara",
+      "stations": 60
+    },
+    {
+      "code": "220",
+      "name": "ደሴ ዙሪያ 2",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "221",
+      "name": "ድል ይብዛ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "222",
+      "name": "ዱርቤቴ",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "223",
+      "name": "እብናት 1",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "224",
+      "name": "እብናት 2",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "225",
+      "name": "ኤፌሶን",
+      "region": "Amhara",
+      "stations": 75
+    },
+    {
+      "code": "226",
+      "name": "እነዋሪ",
+      "region": "Amhara",
+      "stations": 63
+    },
+    {
+      "code": "227",
+      "name": "እሮብ ገበያ",
+      "region": "Amhara",
+      "stations": 74
+    },
+    {
+      "code": "228",
+      "name": "እስቴ 1",
+      "region": "Amhara",
+      "stations": 81
+    },
+    {
+      "code": "229",
+      "name": "እስቴ 2",
+      "region": "Amhara",
+      "stations": 71
+    },
+    {
+      "code": "230",
+      "name": "እስቴ 3",
+      "region": "Amhara",
+      "stations": 76
+    },
+    {
+      "code": "231",
+      "name": "ፋርጣ 1",
+      "region": "Amhara",
+      "stations": 92
+    },
+    {
+      "code": "232",
+      "name": "ፋርጣ 2",
+      "region": "Amhara",
+      "stations": 75
+    },
+    {
+      "code": "233",
+      "name": "ፋርጣ 3",
+      "region": "Amhara",
+      "stations": 60
+    },
+    {
+      "code": "234",
+      "name": "ፍኖተ ሰላም",
+      "region": "Amhara",
+      "stations": 89
+    },
+    {
+      "code": "235",
+      "name": "ፎገራ 1",
+      "region": "Amhara",
+      "stations": 86
+    },
+    {
+      "code": "236",
+      "name": "ፎገራ 2",
+      "region": "Amhara",
+      "stations": 68
+    },
+    {
+      "code": "237",
+      "name": "ገርጨጭ",
+      "region": "Amhara",
+      "stations": 85
+    },
+    {
+      "code": "238",
+      "name": "ግዳን",
+      "region": "Amhara",
+      "stations": 119
+    },
+    {
+      "code": "239",
+      "name": "ግምጃ ቤት",
+      "region": "Amhara",
+      "stations": 158
+    },
+    {
+      "code": "240",
+      "name": "ግንደ ወይን",
+      "region": "Amhara",
+      "stations": 98
+    },
+    {
+      "code": "241",
+      "name": "ጎንደር ከተማ 1",
+      "region": "Amhara",
+      "stations": 106
+    },
+    {
+      "code": "242",
+      "name": "ጎንደር ከተማ 2",
+      "region": "Amhara",
+      "stations": 114
+    },
+    {
+      "code": "243",
+      "name": "ጎንደር ዙሪያ 3",
+      "region": "Amhara",
+      "stations": 70
+    },
+    {
+      "code": "244",
+      "name": "ጎንደር ዙሪያ 4",
+      "region": "Amhara",
+      "stations": 41
+    },
+    {
+      "code": "245",
+      "name": "ጎንጂ",
+      "region": "Amhara",
+      "stations": 102
+    },
+    {
+      "code": "246",
+      "name": "ጎዛምን",
+      "region": "Amhara",
+      "stations": 49
+    },
+    {
+      "code": "247",
+      "name": "ጉባላፍቶ",
+      "region": "Amhara",
+      "stations": 145
+    },
+    {
+      "code": "248",
+      "name": "ሐብሩ",
+      "region": "Amhara",
+      "stations": 128
+    },
+    {
+      "code": "249",
+      "name": "ጃማ ደጎሎ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "250",
+      "name": "ጃናሞራ",
+      "region": "Amhara",
+      "stations": 112
+    },
+    {
+      "code": "251",
+      "name": "ጂጋ",
+      "region": "Amhara",
+      "stations": 66
+    },
+    {
+      "code": "252",
+      "name": "ከለላ",
+      "region": "Amhara",
+      "stations": 75
+    },
+    {
+      "code": "253",
+      "name": "ከምከም 1",
+      "region": "Amhara",
+      "stations": 74
+    },
+    {
+      "code": "254",
+      "name": "ከምከም 2",
+      "region": "Amhara",
+      "stations": 113
+    },
+    {
+      "code": "255",
+      "name": "ኮሶ በር",
+      "region": "Amhara",
+      "stations": 71
+    },
+    {
+      "code": "256",
+      "name": "ቁይ",
+      "region": "Amhara",
+      "stations": 82
+    },
+    {
+      "code": "257",
+      "name": "ኩታበር",
+      "region": "Amhara",
+      "stations": 72
+    },
+    {
+      "code": "259",
+      "name": "ላይ ጋይንት 1",
+      "region": "Amhara",
+      "stations": 68
+    },
+    {
+      "code": "260",
+      "name": "ላይ ጋይንት 2",
+      "region": "Amhara",
+      "stations": 76
+    },
+    {
+      "code": "261",
+      "name": "ለጋምቦ",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "262",
+      "name": "ሊበን",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "263",
+      "name": "ሉማሜ",
+      "region": "Amhara",
+      "stations": 82
+    },
+    {
+      "code": "264",
+      "name": "ማጄቴ",
+      "region": "Amhara",
+      "stations": 57
+    },
+    {
+      "code": "265",
+      "name": "መሐል ሜዳ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "266",
+      "name": "መቄት 1",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "267",
+      "name": "መቄት 2",
+      "region": "Amhara",
+      "stations": 78
+    },
+    {
+      "code": "268",
+      "name": "መቅደላ",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "269",
+      "name": "መራኛ",
+      "region": "Amhara",
+      "stations": 82
+    },
+    {
+      "code": "270",
+      "name": "መርአዊ",
+      "region": "Amhara",
+      "stations": 112
+    },
+    {
+      "code": "271",
+      "name": "መርጦ ለማርያ",
+      "region": "Amhara",
+      "stations": 105
+    },
+    {
+      "code": "272",
+      "name": "መተማ",
+      "region": "Amhara",
+      "stations": 107
+    },
+    {
+      "code": "273",
+      "name": "ሞላሌ",
+      "region": "Amhara",
+      "stations": 94
+    },
+    {
+      "code": "274",
+      "name": "ሞጣ",
+      "region": "Amhara",
+      "stations": 83
+    },
+    {
+      "code": "275",
+      "name": "ቃሉ 1",
+      "region": "Amhara",
+      "stations": 97
+    },
+    {
+      "code": "276",
+      "name": "ቃሉ 2",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "277",
+      "name": "ቀይት",
+      "region": "Amhara",
+      "stations": 63
+    },
+    {
+      "code": "278",
+      "name": "ቅላጅ",
+      "region": "Amhara",
+      "stations": 69
+    },
+    {
+      "code": "279",
+      "name": "ቋሪት",
+      "region": "Amhara",
+      "stations": 101
+    },
+    {
+      "code": "280",
+      "name": "ቋራ ማተቢያ",
+      "region": "Amhara",
+      "stations": 64
+    },
+    {
+      "code": "281",
+      "name": "ራያ ቆቦ",
+      "region": "Amhara",
+      "stations": 149
+    },
+    {
+      "code": "282",
+      "name": "ራቤል",
+      "region": "Amhara",
+      "stations": 39
+    },
+    {
+      "code": "283",
+      "name": "ሮቢት",
+      "region": "Amhara",
+      "stations": 116
+    },
+    {
+      "code": "284",
+      "name": "ሳይንት 1",
+      "region": "Amhara",
+      "stations": 84
+    },
+    {
+      "code": "285",
+      "name": "ሳይንት 2",
+      "region": "Amhara",
+      "stations": 60
+    },
+    {
+      "code": "286",
+      "name": "ሰዴ",
+      "region": "Amhara",
+      "stations": 93
+    },
+    {
+      "code": "287",
+      "name": "ሰከላ",
+      "region": "Amhara",
+      "stations": 99
+    },
+    {
+      "code": "288",
+      "name": "ሰቆጣ",
+      "region": "Amhara",
+      "stations": 109
+    },
+    {
+      "code": "289",
+      "name": "ሾላ ገበያ",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "290",
+      "name": "ስማዳ 1",
+      "region": "Amhara",
+      "stations": 83
+    },
+    {
+      "code": "291",
+      "name": "ስማዳ 2",
+      "region": "Amhara",
+      "stations": 64
+    },
+    {
+      "code": "292",
+      "name": "ታች አርማጭ",
+      "region": "Amhara",
+      "stations": 50
+    },
+    {
+      "code": "293",
+      "name": "ታች ጋይንት",
+      "region": "Amhara",
+      "stations": 79
+    },
+    {
+      "code": "294",
+      "name": "ተሁለድሬ 1",
+      "region": "Amhara",
+      "stations": 50
+    },
+    {
+      "code": "295",
+      "name": "ተሁለድሬ 2",
+      "region": "Amhara",
+      "stations": 35
+    },
+    {
+      "code": "296",
+      "name": "ተንታ",
+      "region": "Amhara",
+      "stations": 110
+    },
+    {
+      "code": "297",
+      "name": "ቲሊሊ",
+      "region": "Amhara",
+      "stations": 49
+    },
+    {
+      "code": "298",
+      "name": "ጢስ አባይ",
+      "region": "Amhara",
+      "stations": 80
+    },
+    {
+      "code": "299",
+      "name": "ዋድላ",
+      "region": "Amhara",
+      "stations": 94
+    },
+    {
+      "code": "300",
+      "name": "ወገራ 1",
+      "region": "Amhara",
+      "stations": 97
+    },
+    {
+      "code": "301",
+      "name": "ወገራ 2",
+      "region": "Amhara",
+      "stations": 53
+    },
+    {
+      "code": "302",
+      "name": "ወይን አምባ",
+      "region": "Amhara",
+      "stations": 55
+    },
+    {
+      "code": "303",
+      "name": "ወምበርማ",
+      "region": "Amhara",
+      "stations": 62
+    },
+    {
+      "code": "304",
+      "name": "ወረባቦ",
+      "region": "Amhara",
+      "stations": 64
+    },
+    {
+      "code": "305",
+      "name": "ወረኢሉ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "306",
+      "name": "የጨረቃ",
+      "region": "Amhara",
+      "stations": 97
+    },
+    {
+      "code": "307",
+      "name": "የእድ ውሃ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "308",
+      "name": "የጁቤ",
+      "region": "Amhara",
+      "stations": 90
+    },
+    {
+      "code": "309",
+      "name": "ዘጌ መሸንቲ",
+      "region": "Amhara",
+      "stations": 65
+    },
+    {
+      "code": "310",
+      "name": "ዝቋላ አገው",
+      "region": "Amhara",
+      "stations": 47
+    },
+    {
+      "code": "313",
+      "name": "አጋሎ ሜጢ (",
+      "region": "Benishangul-Gumuz",
+      "stations": 22
+    },
+    {
+      "code": "314",
+      "name": "አሶሳ",
+      "region": "Benishangul-Gumuz",
+      "stations": 120
+    },
+    {
+      "code": "315",
+      "name": "ባምባሲ",
+      "region": "Benishangul-Gumuz",
+      "stations": 57
+    },
+    {
+      "code": "316",
+      "name": "በሎ ጃጋንፎይ",
+      "region": "Benishangul-Gumuz",
+      "stations": 22
+    },
+    {
+      "code": "317",
+      "name": "ቡለን",
+      "region": "Benishangul-Gumuz",
+      "stations": 54
+    },
+    {
+      "code": "318",
+      "name": "ዳንጉር",
+      "region": "Benishangul-Gumuz",
+      "stations": 42
+    },
+    {
+      "code": "319",
+      "name": "ድባጤ",
+      "region": "Benishangul-Gumuz",
+      "stations": 43
+    },
+    {
+      "code": "320",
+      "name": "ጉባ",
+      "region": "Benishangul-Gumuz",
+      "stations": 24
+    },
+    {
+      "code": "321",
+      "name": "ሆሞሻ",
+      "region": "Benishangul-Gumuz",
+      "stations": 25
+    },
+    {
+      "code": "322",
+      "name": "ከማሺ",
+      "region": "Benishangul-Gumuz",
+      "stations": 21
+    },
+    {
+      "code": "323",
+      "name": "ኩርሙክ",
+      "region": "Benishangul-Gumuz",
+      "stations": 22
+    },
+    {
+      "code": "324",
+      "name": "ማንዱራ",
+      "region": "Benishangul-Gumuz",
+      "stations": 36
+    },
+    {
+      "code": "325",
+      "name": "ማኦ ኮሞ ልዩ",
+      "region": "Benishangul-Gumuz",
+      "stations": 36
+    },
+    {
+      "code": "326",
+      "name": "መንጌ",
+      "region": "Benishangul-Gumuz",
+      "stations": 36
+    },
+    {
+      "code": "327",
+      "name": "ኦዳቢልጉዱል",
+      "region": "Benishangul-Gumuz",
+      "stations": 35
+    },
+    {
+      "code": "328",
+      "name": "ፓዊ",
+      "region": "Benishangul-Gumuz",
+      "stations": 50
+    },
+    {
+      "code": "329",
+      "name": "ሸርቆሌ",
+      "region": "Benishangul-Gumuz",
+      "stations": 21
+    },
+    {
+      "code": "330",
+      "name": "ሲርባ አባያ (ሰ",
+      "region": "Benishangul-Gumuz",
+      "stations": 19
+    },
+    {
+      "code": "331",
+      "name": "ወምበራ",
+      "region": "Benishangul-Gumuz",
+      "stations": 50
+    },
+    {
+      "code": "332",
+      "name": "ያሶ (ዛይ)",
+      "region": "Benishangul-Gumuz",
+      "stations": 17
+    },
+    {
+      "code": "333",
+      "name": "01 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 10
+    },
+    {
+      "code": "334",
+      "name": "02 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 30
+    },
+    {
+      "code": "335",
+      "name": "03 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 14
+    },
+    {
+      "code": "336",
+      "name": "04 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 15
+    },
+    {
+      "code": "337",
+      "name": "05 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 19
+    },
+    {
+      "code": "338",
+      "name": "06 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 15
+    },
+    {
+      "code": "339",
+      "name": "07 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 15
+    },
+    {
+      "code": "340",
+      "name": "08 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 21
+    },
+    {
+      "code": "341",
+      "name": "09 ቀበሌ",
+      "region": "Dire Dawa",
+      "stations": 28
+    },
+    {
+      "code": "342",
+      "name": "አዳዳ",
+      "region": "Dire Dawa",
+      "stations": 3
+    },
+    {
+      "code": "343",
+      "name": "አዲጋ ፈለማ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "344",
+      "name": "አሰሊሶ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "345",
+      "name": "አዋሌ",
+      "region": "Dire Dawa",
+      "stations": 7
+    },
+    {
+      "code": "346",
+      "name": "በኬ ሃሎ",
+      "region": "Dire Dawa",
+      "stations": 3
+    },
+    {
+      "code": "347",
+      "name": "በለዋ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "348",
+      "name": "ቢሻን በሄ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "349",
+      "name": "ቢዮ አዋሌ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "350",
+      "name": "ቦረን",
+      "region": "Dire Dawa",
+      "stations": 3
+    },
+    {
+      "code": "351",
+      "name": "ጭሪ ሚቲ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "352",
+      "name": "ደበሌ",
+      "region": "Dire Dawa",
+      "stations": 3
+    },
+    {
+      "code": "353",
+      "name": "ዱጁማ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "354",
+      "name": "ኢል ሃመር",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "355",
+      "name": "ገደንሰር",
+      "region": "Dire Dawa",
+      "stations": 1
+    },
+    {
+      "code": "356",
+      "name": "ገንደ ገበሬ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "357",
+      "name": "ገንደ ሪጌ",
+      "region": "Dire Dawa",
+      "stations": 6
+    },
+    {
+      "code": "358",
+      "name": "ገርባ አነኖ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "359",
+      "name": "ጎለ አደግ",
+      "region": "Dire Dawa",
+      "stations": 1
+    },
+    {
+      "code": "360",
+      "name": "አያሌ ጉምጉም",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "361",
+      "name": "ሀሎ ቡሳ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "362",
+      "name": "ሀርላ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "363",
+      "name": "ሁሉል ሞጆ",
+      "region": "Dire Dawa",
+      "stations": 3
+    },
+    {
+      "code": "364",
+      "name": "ኢጀ አነኒ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "365",
+      "name": "ቀልአድ",
+      "region": "Dire Dawa",
+      "stations": 5
+    },
+    {
+      "code": "366",
+      "name": "ጀሎ በሊና",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "367",
+      "name": "ቃልቻ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "368",
+      "name": "ኮሪሶ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "369",
+      "name": "ኩላዩ",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "370",
+      "name": "ኮርቱ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "371",
+      "name": "ለገዲኒ",
+      "region": "Dire Dawa",
+      "stations": 1
+    },
+    {
+      "code": "372",
+      "name": "ለገኦዳ ሚርጋ",
+      "region": "Dire Dawa",
+      "stations": 5
+    },
+    {
+      "code": "373",
+      "name": "ለገቢራ",
+      "region": "Dire Dawa",
+      "stations": 1
+    },
+    {
+      "code": "374",
+      "name": "ለገዶል",
+      "region": "Dire Dawa",
+      "stations": 2
+    },
+    {
+      "code": "375",
+      "name": "ለገኦዳ ጉዱንፈ",
+      "region": "Dire Dawa",
+      "stations": 8
+    },
+    {
+      "code": "376",
+      "name": "መልካቀሮ",
+      "region": "Dire Dawa",
+      "stations": 4
+    },
+    {
+      "code": "377",
+      "name": "ሙዲዓነኖ",
+      "region": "Dire Dawa",
+      "stations": 1
+    },
+    {
+      "code": "378",
+      "name": "ሁላ ሁሉል",
+      "region": "Dire Dawa",
+      "stations": 3
+    },
+    {
+      "code": "379",
+      "name": "ዋሂል",
+      "region": "Dire Dawa",
+      "stations": 6
+    },
+    {
+      "code": "381",
+      "name": "አቦቦ",
+      "region": "Gambela",
+      "stations": 22
+    },
+    {
+      "code": "382",
+      "name": "አኮቦ",
+      "region": "Gambela",
+      "stations": 41
+    },
+    {
+      "code": "383",
+      "name": "ዲማ",
+      "region": "Gambela",
+      "stations": 25
+    },
+    {
+      "code": "384",
+      "name": "ጋምቤላ",
+      "region": "Gambela",
+      "stations": 16
+    },
+    {
+      "code": "385",
+      "name": "ጋምቤላ ከተማ",
+      "region": "Gambela",
+      "stations": 51
+    },
+    {
+      "code": "386",
+      "name": "ጎደሬ",
+      "region": "Gambela",
+      "stations": 28
+    },
+    {
+      "code": "387",
+      "name": "ጎግ",
+      "region": "Gambela",
+      "stations": 19
+    },
+    {
+      "code": "388",
+      "name": "ኢታንግ",
+      "region": "Gambela",
+      "stations": 49
+    },
+    {
+      "code": "389",
+      "name": "ጂካዎ",
+      "region": "Gambela",
+      "stations": 30
+    },
+    {
+      "code": "390",
+      "name": "ጆር",
+      "region": "Gambela",
+      "stations": 16
+    },
+    {
+      "code": "391",
+      "name": "ላሬ",
+      "region": "Gambela",
+      "stations": 63
+    },
+    {
+      "code": "392",
+      "name": "ማኩዌ",
+      "region": "Gambela",
+      "stations": 25
+    },
+    {
+      "code": "393",
+      "name": "መንገሺ",
+      "region": "Gambela",
+      "stations": 25
+    },
+    {
+      "code": "394",
+      "name": "ዋንቱዋር",
+      "region": "Gambela",
+      "stations": 33
+    },
+    {
+      "code": "395",
+      "name": "ጀጎል ዙሪያ እና ሁንደኔ",
+      "region": "Harari",
+      "stations": 226
+    },
+    {
+      "code": "396",
+      "name": "ጀጎል ልዩ",
+      "region": "Harari",
+      "stations": 49
+    },
+    {
+      "code": "397",
+      "name": "ጀጎል መደበኛ",
+      "region": "Harari",
+      "stations": 30
+    },
+    {
+      "code": "398",
+      "name": "አቦምሳ",
+      "region": "Oromia",
+      "stations": 66
+    },
+    {
+      "code": "399",
+      "name": "አቦቴ ደራ",
+      "region": "Oromia",
+      "stations": 168
+    },
+    {
+      "code": "400",
+      "name": "አደአ በርጋ",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "401",
+      "name": "አደኣ 1",
+      "region": "Oromia",
+      "stations": 114
+    },
+    {
+      "code": "402",
+      "name": "አደአ 2",
+      "region": "Oromia",
+      "stations": 138
+    },
+    {
+      "code": "403",
+      "name": "አዳባ",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "404",
+      "name": "አዳማ 1",
+      "region": "Oromia",
+      "stations": 170
+    },
+    {
+      "code": "405",
+      "name": "አዳማ 2",
+      "region": "Oromia",
+      "stations": 94
+    },
+    {
+      "code": "406",
+      "name": "አዳማ 3",
+      "region": "Oromia",
+      "stations": 82
+    },
+    {
+      "code": "407",
+      "name": "አዲስ አለም",
+      "region": "Oromia",
+      "stations": 59
+    },
+    {
+      "code": "408",
+      "name": "አጋርፋ ጋሰራ",
+      "region": "Oromia",
+      "stations": 95
+    },
+    {
+      "code": "409",
+      "name": "አጉሊቾ",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "410",
+      "name": "አቃቂ ጊምቢቹ",
+      "region": "Oromia",
+      "stations": 246
+    },
+    {
+      "code": "411",
+      "name": "አለም ገና 1",
+      "region": "Oromia",
+      "stations": 55
+    },
+    {
+      "code": "412",
+      "name": "አለም ገና 2",
+      "region": "Oromia",
+      "stations": 94
+    },
+    {
+      "code": "413",
+      "name": "አለም ጤና",
+      "region": "Oromia",
+      "stations": 93
+    },
+    {
+      "code": "414",
+      "name": "አሊቦ",
+      "region": "Oromia",
+      "stations": 234
+    },
+    {
+      "code": "415",
+      "name": "አምቦ 1",
+      "region": "Oromia",
+      "stations": 95
+    },
+    {
+      "code": "416",
+      "name": "አምቦ 2",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "417",
+      "name": "አኖ",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "418",
+      "name": "አርቦዬ",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "419",
+      "name": "አርሲ ነገሌ",
+      "region": "Oromia",
+      "stations": 101
+    },
+    {
+      "code": "420",
+      "name": "አሰኮ",
+      "region": "Oromia",
+      "stations": 56
+    },
+    {
+      "code": "421",
+      "name": "አሰላ",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "422",
+      "name": "አያና",
+      "region": "Oromia",
+      "stations": 109
+    },
+    {
+      "code": "423",
+      "name": "አይራ ጉሊሶ",
+      "region": "Oromia",
+      "stations": 102
+    },
+    {
+      "code": "424",
+      "name": "ባኮ ትቤ",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "425",
+      "name": "ባቱ ዝዋይ",
+      "region": "Oromia",
+      "stations": 183
+    },
+    {
+      "code": "426",
+      "name": "በቾ",
+      "region": "Oromia",
+      "stations": 124
+    },
+    {
+      "code": "427",
+      "name": "በደሌ",
+      "region": "Oromia",
+      "stations": 120
+    },
+    {
+      "code": "428",
+      "name": "በደኖ",
+      "region": "Oromia",
+      "stations": 162
+    },
+    {
+      "code": "429",
+      "name": "በዴሳ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "430",
+      "name": "ቤጊ",
+      "region": "Oromia",
+      "stations": 122
+    },
+    {
+      "code": "431",
+      "name": "በቆጂ 1",
+      "region": "Oromia",
+      "stations": 63
+    },
+    {
+      "code": "432",
+      "name": "በቆጂ 2",
+      "region": "Oromia",
+      "stations": 66
+    },
+    {
+      "code": "433",
+      "name": "በሌ",
+      "region": "Oromia",
+      "stations": 118
+    },
+    {
+      "code": "434",
+      "name": "በረህ አለልቱ",
+      "region": "Oromia",
+      "stations": 132
+    },
+    {
+      "code": "435",
+      "name": "ቢሎኖጳ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "436",
+      "name": "ቦኮ",
+      "region": "Oromia",
+      "stations": 153
+    },
+    {
+      "code": "437",
+      "name": "ቦሬ",
+      "region": "Oromia",
+      "stations": 93
+    },
+    {
+      "code": "438",
+      "name": "ቦረዳ",
+      "region": "Oromia",
+      "stations": 124
+    },
+    {
+      "code": "439",
+      "name": "ጫንጮ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "440",
+      "name": "ጨለንቆ 1",
+      "region": "Oromia",
+      "stations": 132
+    },
+    {
+      "code": "441",
+      "name": "ጨለንቆ 2",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "442",
+      "name": "ጨሊያ 1",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "443",
+      "name": "ጨሊያ 2",
+      "region": "Oromia",
+      "stations": 63
+    },
+    {
+      "code": "444",
+      "name": "ጭሮ 1",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "445",
+      "name": "ጭሮ 2",
+      "region": "Oromia",
+      "stations": 44
+    },
+    {
+      "code": "446",
+      "name": "ጭሮ 3",
+      "region": "Oromia",
+      "stations": 42
+    },
+    {
+      "code": "447",
+      "name": "ጮሌ",
+      "region": "Oromia",
+      "stations": 85
+    },
+    {
+      "code": "448",
+      "name": "ጮራ",
+      "region": "Oromia",
+      "stations": 113
+    },
+    {
+      "code": "449",
+      "name": "ዳንዲ 1",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "450",
+      "name": "ዳንዲ 2",
+      "region": "Oromia",
+      "stations": 64
+    },
+    {
+      "code": "451",
+      "name": "ዳኖ",
+      "region": "Oromia",
+      "stations": 60
+    },
+    {
+      "code": "452",
+      "name": "ዳሪሙ",
+      "region": "Oromia",
+      "stations": 78
+    },
+    {
+      "code": "453",
+      "name": "ደደር 1",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "454",
+      "name": "ደደር 2",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "455",
+      "name": "ዴዶ 1",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "456",
+      "name": "ዴዶ 2",
+      "region": "Oromia",
+      "stations": 85
+    },
+    {
+      "code": "457",
+      "name": "ደገም",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "458",
+      "name": "ደሎመና",
+      "region": "Oromia",
+      "stations": 138
+    },
+    {
+      "code": "459",
+      "name": "ደምቢ",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "460",
+      "name": "ደምቢ ዶሎ",
+      "region": "Oromia",
+      "stations": 82
+    },
+    {
+      "code": "461",
+      "name": "ዴራ",
+      "region": "Oromia",
+      "stations": 133
+    },
+    {
+      "code": "462",
+      "name": "ዲጋ ኮሎቦ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "463",
+      "name": "ዲምቱ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "464",
+      "name": "ዶባ",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "465",
+      "name": "ዶዶላ",
+      "region": "Oromia",
+      "stations": 79
+    },
+    {
+      "code": "466",
+      "name": "ዱግዳ መቂ",
+      "region": "Oromia",
+      "stations": 148
+    },
+    {
+      "code": "467",
+      "name": "እናንጎ ቢላ",
+      "region": "Oromia",
+      "stations": 73
+    },
+    {
+      "code": "468",
+      "name": "ፊንጫኣ",
+      "region": "Oromia",
+      "stations": 174
+    },
+    {
+      "code": "469",
+      "name": "ፉኛን ቢራ",
+      "region": "Oromia",
+      "stations": 283
+    },
+    {
+      "code": "470",
+      "name": "ጋሎ",
+      "region": "Oromia",
+      "stations": 57
+    },
+    {
+      "code": "471",
+      "name": "ጋቲራ",
+      "region": "Oromia",
+      "stations": 113
+    },
+    {
+      "code": "472",
+      "name": "ገቺ ቦርቻ",
+      "region": "Oromia",
+      "stations": 117
+    },
+    {
+      "code": "473",
+      "name": "ገደብ ሀሳሳ",
+      "region": "Oromia",
+      "stations": 79
+    },
+    {
+      "code": "474",
+      "name": "ገላና አባያ",
+      "region": "Oromia",
+      "stations": 134
+    },
+    {
+      "code": "475",
+      "name": "ገሊላ",
+      "region": "Oromia",
+      "stations": 127
+    },
+    {
+      "code": "476",
+      "name": "ጌራ",
+      "region": "Oromia",
+      "stations": 78
+    },
+    {
+      "code": "477",
+      "name": "ጊዳሚ",
+      "region": "Oromia",
+      "stations": 52
+    },
+    {
+      "code": "478",
+      "name": "ጊምቢ",
+      "region": "Oromia",
+      "stations": 84
+    },
+    {
+      "code": "479",
+      "name": "ግንደበረት",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "480",
+      "name": "ጊኒር",
+      "region": "Oromia",
+      "stations": 143
+    },
+    {
+      "code": "481",
+      "name": "ግራር ጃርሶ",
+      "region": "Oromia",
+      "stations": 71
+    },
+    {
+      "code": "482",
+      "name": "ግራዋ",
+      "region": "Oromia",
+      "stations": 274
+    },
+    {
+      "code": "483",
+      "name": "ጎባ",
+      "region": "Oromia",
+      "stations": 53
+    },
+    {
+      "code": "484",
+      "name": "ጎማ 1",
+      "region": "Oromia",
+      "stations": 84
+    },
+    {
+      "code": "485",
+      "name": "ጎማ 2",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "486",
+      "name": "ጎሬ",
+      "region": "Oromia",
+      "stations": 111
+    },
+    {
+      "code": "487",
+      "name": "ጎሮ",
+      "region": "Oromia",
+      "stations": 184
+    },
+    {
+      "code": "488",
+      "name": "ጉይ ገነት",
+      "region": "Oromia",
+      "stations": 42
+    },
+    {
+      "code": "489",
+      "name": "ጉቴ",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "490",
+      "name": "ሀብሮ 1",
+      "region": "Oromia",
+      "stations": 57
+    },
+    {
+      "code": "491",
+      "name": "ሐብሮ 2",
+      "region": "Oromia",
+      "stations": 38
+    },
+    {
+      "code": "492",
+      "name": "ሐገረ ማርያም",
+      "region": "Oromia",
+      "stations": 105
+    },
+    {
+      "code": "493",
+      "name": "ሐረማያ 1",
+      "region": "Oromia",
+      "stations": 163
+    },
+    {
+      "code": "494",
+      "name": "ሐረማያ 2",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "495",
+      "name": "ሀረዋጫ",
+      "region": "Oromia",
+      "stations": 333
+    },
+    {
+      "code": "496",
+      "name": "ሂርና",
+      "region": "Oromia",
+      "stations": 79
+    },
+    {
+      "code": "497",
+      "name": "ሆሮ ጉዱሩ ወ",
+      "region": "Oromia",
+      "stations": 188
+    },
+    {
+      "code": "498",
+      "name": "ኢተያ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "499",
+      "name": "ጃራ",
+      "region": "Oromia",
+      "stations": 98
+    },
+    {
+      "code": "500",
+      "name": "ጄልዱ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "501",
+      "name": "ጂማ አርጆ",
+      "region": "Oromia",
+      "stations": 49
+    },
+    {
+      "code": "502",
+      "name": "ጅማ ቀርሳ",
+      "region": "Oromia",
+      "stations": 104
+    },
+    {
+      "code": "503",
+      "name": "ጅማ ከተማ",
+      "region": "Oromia",
+      "stations": 90
+    },
+    {
+      "code": "504",
+      "name": "ቃቄ",
+      "region": "Oromia",
+      "stations": 58
+    },
+    {
+      "code": "505",
+      "name": "ቀርሳ",
+      "region": "Oromia",
+      "stations": 103
+    },
+    {
+      "code": "506",
+      "name": "ቀርሳ 1",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "507",
+      "name": "ቀርሳ 2",
+      "region": "Oromia",
+      "stations": 60
+    },
+    {
+      "code": "508",
+      "name": "ክብረ መንግስ",
+      "region": "Oromia",
+      "stations": 228
+    },
+    {
+      "code": "509",
+      "name": "ቅምብቢት",
+      "region": "Oromia",
+      "stations": 123
+    },
+    {
+      "code": "510",
+      "name": "ኮፈሌ 1",
+      "region": "Oromia",
+      "stations": 74
+    },
+    {
+      "code": "511",
+      "name": "ኮፈሌ 2",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "512",
+      "name": "ኮኮሳ",
+      "region": "Oromia",
+      "stations": 112
+    },
+    {
+      "code": "513",
+      "name": "ከሞና",
+      "region": "Oromia",
+      "stations": 120
+    },
+    {
+      "code": "514",
+      "name": "ኩላ",
+      "region": "Oromia",
+      "stations": 70
+    },
+    {
+      "code": "515",
+      "name": "ኩርፋ ጨሌ",
+      "region": "Oromia",
+      "stations": 71
+    },
+    {
+      "code": "516",
+      "name": "ኩዩ",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "517",
+      "name": "ላሎ",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "518",
+      "name": "ሌመን",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "519",
+      "name": "ሊሙ ኮሳ 1",
+      "region": "Oromia",
+      "stations": 95
+    },
+    {
+      "code": "520",
+      "name": "ሊሙ ኮሳ 2",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "521",
+      "name": "ሊሙ ሰቃ",
+      "region": "Oromia",
+      "stations": 127
+    },
+    {
+      "code": "522",
+      "name": "ሉሜ ሞጆ",
+      "region": "Oromia",
+      "stations": 168
+    },
+    {
+      "code": "523",
+      "name": "ማና",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "524",
+      "name": "መኮ ሳቺ",
+      "region": "Oromia",
+      "stations": 75
+    },
+    {
+      "code": "525",
+      "name": "መልካ ሶዳ",
+      "region": "Oromia",
+      "stations": 153
+    },
+    {
+      "code": "526",
+      "name": "መንዲ",
+      "region": "Oromia",
+      "stations": 101
+    },
+    {
+      "code": "527",
+      "name": "መሰላ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "528",
+      "name": "ሜታ ሮቢ",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "529",
+      "name": "መቱ",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "530",
+      "name": "ሚጨታ",
+      "region": "Oromia",
+      "stations": 204
+    },
+    {
+      "code": "531",
+      "name": "ሚኤሶ",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "532",
+      "name": "ምስራቅ ሐረር",
+      "region": "Oromia",
+      "stations": 116
+    },
+    {
+      "code": "533",
+      "name": "ሞያሌ",
+      "region": "Oromia",
+      "stations": 223
+    },
+    {
+      "code": "534",
+      "name": "ነገሌ",
+      "region": "Oromia",
+      "stations": 167
+    },
+    {
+      "code": "535",
+      "name": "ነጆ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "536",
+      "name": "ነቀምቴ",
+      "region": "Oromia",
+      "stations": 103
+    },
+    {
+      "code": "537",
+      "name": "ኖሌ ካባ 1",
+      "region": "Oromia",
+      "stations": 43
+    },
+    {
+      "code": "538",
+      "name": "ኖሌ ካባ 2",
+      "region": "Oromia",
+      "stations": 44
+    },
+    {
+      "code": "539",
+      "name": "ኖኖ",
+      "region": "Oromia",
+      "stations": 109
+    },
+    {
+      "code": "540",
+      "name": "ኑኑ",
+      "region": "Oromia",
+      "stations": 42
+    },
+    {
+      "code": "541",
+      "name": "ኦሞ ናዳ 1",
+      "region": "Oromia",
+      "stations": 74
+    },
+    {
+      "code": "542",
+      "name": "ኦሞ ናዳ 2",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "543",
+      "name": "ቄቤ",
+      "region": "Oromia",
+      "stations": 77
+    },
+    {
+      "code": "544",
+      "name": "ቀርጫ",
+      "region": "Oromia",
+      "stations": 40
+    },
+    {
+      "code": "545",
+      "name": "ሮቤ",
+      "region": "Oromia",
+      "stations": 83
+    },
+    {
+      "code": "546",
+      "name": "ሳጉሬ",
+      "region": "Oromia",
+      "stations": 70
+    },
+    {
+      "code": "549",
+      "name": "ሰኮሩ",
+      "region": "Oromia",
+      "stations": 82
+    },
+    {
+      "code": "550",
+      "name": "ሰኞ ገበያ",
+      "region": "Oromia",
+      "stations": 72
+    },
+    {
+      "code": "551",
+      "name": "ሻምቡ",
+      "region": "Oromia",
+      "stations": 130
+    },
+    {
+      "code": "552",
+      "name": "ሻሸመኔ 1",
+      "region": "Oromia",
+      "stations": 131
+    },
+    {
+      "code": "553",
+      "name": "ሻሸመኔ 2",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "554",
+      "name": "ሽርካ",
+      "region": "Oromia",
+      "stations": 67
+    },
+    {
+      "code": "555",
+      "name": "ሲቡ ሲሬ",
+      "region": "Oromia",
+      "stations": 62
+    },
+    {
+      "code": "556",
+      "name": "ሲናና",
+      "region": "Oromia",
+      "stations": 88
+    },
+    {
+      "code": "557",
+      "name": "ሲራሮ 1",
+      "region": "Oromia",
+      "stations": 80
+    },
+    {
+      "code": "558",
+      "name": "ሲራሮ 2",
+      "region": "Oromia",
+      "stations": 96
+    },
+    {
+      "code": "560",
+      "name": "ተጂ",
+      "region": "Oromia",
+      "stations": 87
+    },
+    {
+      "code": "561",
+      "name": "ተጆ",
+      "region": "Oromia",
+      "stations": 128
+    },
+    {
+      "code": "562",
+      "name": "ጢቾ",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "563",
+      "name": "ጥቁር እንጪኒ",
+      "region": "Oromia",
+      "stations": 117
+    },
+    {
+      "code": "564",
+      "name": "ኡካ",
+      "region": "Oromia",
+      "stations": 104
+    },
+    {
+      "code": "565",
+      "name": "ኡራጋ",
+      "region": "Oromia",
+      "stations": 154
+    },
+    {
+      "code": "566",
+      "name": "ወረጃርሶ",
+      "region": "Oromia",
+      "stations": 91
+    },
+    {
+      "code": "567",
+      "name": "ወንጪ",
+      "region": "Oromia",
+      "stations": 51
+    },
+    {
+      "code": "568",
+      "name": "ወለንጪቲ",
+      "region": "Oromia",
+      "stations": 155
+    },
+    {
+      "code": "569",
+      "name": "ወሊሶ 1",
+      "region": "Oromia",
+      "stations": 58
+    },
+    {
+      "code": "570",
+      "name": "ወሊሶ 2",
+      "region": "Oromia",
+      "stations": 69
+    },
+    {
+      "code": "571",
+      "name": "ወልመራ",
+      "region": "Oromia",
+      "stations": 132
+    },
+    {
+      "code": "572",
+      "name": "ውጫሌና ጂዶ",
+      "region": "Oromia",
+      "stations": 93
+    },
+    {
+      "code": "573",
+      "name": "ያቤሎ",
+      "region": "Oromia",
+      "stations": 177
+    },
+    {
+      "code": "574",
+      "name": "ያያ ጉለሌ እና",
+      "region": "Oromia",
+      "stations": 68
+    },
+    {
+      "code": "575",
+      "name": "ያዩ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "576",
+      "name": "ዩብዶ",
+      "region": "Oromia",
+      "stations": 54
+    },
+    {
+      "code": "577",
+      "name": "አለታ ወንዶ",
+      "region": "Sidama",
+      "stations": 112
+    },
+    {
+      "code": "578",
+      "name": "አርቤጎና",
+      "region": "Sidama",
+      "stations": 126
+    },
+    {
+      "code": "579",
+      "name": "አሮሬሳ",
+      "region": "Sidama",
+      "stations": 127
+    },
+    {
+      "code": "580",
+      "name": "በሌላ",
+      "region": "Sidama",
+      "stations": 105
+    },
+    {
+      "code": "581",
+      "name": "በንሳ",
+      "region": "Sidama",
+      "stations": 201
+    },
+    {
+      "code": "582",
+      "name": "ቡርሳ",
+      "region": "Sidama",
+      "stations": 75
+    },
+    {
+      "code": "583",
+      "name": "ጩኮ",
+      "region": "Sidama",
+      "stations": 93
+    },
+    {
+      "code": "584",
+      "name": "ዳራ",
+      "region": "Sidama",
+      "stations": 88
+    },
+    {
+      "code": "585",
+      "name": "ደሴ",
+      "region": "Sidama",
+      "stations": 134
+    },
+    {
+      "code": "586",
+      "name": "ዱባ",
+      "region": "Sidama",
+      "stations": 101
+    },
+    {
+      "code": "587",
+      "name": "ጎርቼ",
+      "region": "Sidama",
+      "stations": 98
+    },
+    {
+      "code": "588",
+      "name": "ጉጉማ",
+      "region": "Sidama",
+      "stations": 78
+    },
+    {
+      "code": "589",
+      "name": "ሀገረ ሰላም",
+      "region": "Sidama",
+      "stations": 85
+    },
+    {
+      "code": "590",
+      "name": "ሐዋሳ",
+      "region": "Sidama",
+      "stations": 308
+    },
+    {
+      "code": "591",
+      "name": "ለኩ",
+      "region": "Sidama",
+      "stations": 70
+    },
+    {
+      "code": "592",
+      "name": "ሴኒቴሪያ",
+      "region": "Sidama",
+      "stations": 86
+    },
+    {
+      "code": "593",
+      "name": "ሻፍና",
+      "region": "Sidama",
+      "stations": 128
+    },
+    {
+      "code": "594",
+      "name": "ቱላ",
+      "region": "Sidama",
+      "stations": 156
+    },
+    {
+      "code": "595",
+      "name": "ይርባ",
+      "region": "Sidama",
+      "stations": 80
+    },
+    {
+      "code": "596",
+      "name": "አድያ ካካ",
+      "region": "South West Ethiopia",
+      "stations": 84
+    },
+    {
+      "code": "597",
+      "name": "ሀላባ 1",
+      "region": "Central Ethiopia",
+      "stations": 128
+    },
+    {
+      "code": "598",
+      "name": "ሀላባ 2",
+      "region": "Central Ethiopia",
+      "stations": 114
+    },
+    {
+      "code": "599",
+      "name": "አሊቾ ወሬሮ",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "600",
+      "name": "አማሮ ኬሌ",
+      "region": "South Ethiopia",
+      "stations": 117
+    },
+    {
+      "code": "601",
+      "name": "አንጋጫ 1",
+      "region": "Central Ethiopia",
+      "stations": 59
+    },
+    {
+      "code": "602",
+      "name": "አንጋጫ 2",
+      "region": "Central Ethiopia",
+      "stations": 48
+    },
+    {
+      "code": "603",
+      "name": "አርባ ምንጭ",
+      "region": "South Ethiopia",
+      "stations": 222
+    },
+    {
+      "code": "604",
+      "name": "አርቦሬ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 11
+    },
+    {
+      "code": "605",
+      "name": "አዘርነት በርበሬ",
+      "region": "Central Ethiopia",
+      "stations": 76
+    },
+    {
+      "code": "606",
+      "name": "ባኮ ጋዘር 1",
+      "region": "South Ethiopia",
+      "stations": 138
+    },
+    {
+      "code": "607",
+      "name": "ባኮ ጋዘር 2",
+      "region": "South Ethiopia",
+      "stations": 61
+    },
+    {
+      "code": "608",
+      "name": "ባስኬቶ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 36
+    },
+    {
+      "code": "609",
+      "name": "ብርብር",
+      "region": "South Ethiopia",
+      "stations": 102
+    },
+    {
+      "code": "610",
+      "name": "ቢጣ ጌሻ",
+      "region": "South West Ethiopia",
+      "stations": 109
+    },
+    {
+      "code": "611",
+      "name": "ቦዲ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 17
+    },
+    {
+      "code": "612",
+      "name": "ቦሎሶ ሶሬ 1",
+      "region": "South Ethiopia",
+      "stations": 102
+    },
+    {
+      "code": "613",
+      "name": "ቦሎሶ ሶሬ 2",
+      "region": "South Ethiopia",
+      "stations": 78
+    },
+    {
+      "code": "614",
+      "name": "ቦሎሶ ሶሬ 3",
+      "region": "South Ethiopia",
+      "stations": 111
+    },
+    {
+      "code": "615",
+      "name": "ቡሌ",
+      "region": "South Ethiopia",
+      "stations": 83
+    },
+    {
+      "code": "616",
+      "name": "ቡርጂ",
+      "region": "South Ethiopia",
+      "stations": 48
+    },
+    {
+      "code": "617",
+      "name": "ቡሳ",
+      "region": "South Ethiopia",
+      "stations": 14
+    },
+    {
+      "code": "618",
+      "name": "ጨንቻ",
+      "region": "South Ethiopia",
+      "stations": 74
+    },
+    {
+      "code": "619",
+      "name": "ጭሪ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 8
+    },
+    {
+      "code": "620",
+      "name": "ጭሪ ልዩ ናኦ",
+      "region": "South West Ethiopia",
+      "stations": 8
+    },
+    {
+      "code": "621",
+      "name": "ጭሪ መደበኛ",
+      "region": "South West Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "622",
+      "name": "ዳሎቻ",
+      "region": "Central Ethiopia",
+      "stations": 102
+    },
+    {
+      "code": "623",
+      "name": "ዳሞት ጋሌ 1",
+      "region": "South Ethiopia",
+      "stations": 100
+    },
+    {
+      "code": "624",
+      "name": "ዳሞት ጋሌ 2",
+      "region": "South Ethiopia",
+      "stations": 78
+    },
+    {
+      "code": "625",
+      "name": "ዳሞት ወይዴ",
+      "region": "South Ethiopia",
+      "stations": 67
+    },
+    {
+      "code": "626",
+      "name": "ዳሞት ወይዴ",
+      "region": "South Ethiopia",
+      "stations": 70
+    },
+    {
+      "code": "627",
+      "name": "ዳሰነች",
+      "region": "South Ethiopia",
+      "stations": 46
+    },
+    {
+      "code": "628",
+      "name": "ደራሼ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "629",
+      "name": "ዲዚ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 40
+    },
+    {
+      "code": "630",
+      "name": "ዲሜ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 12
+    },
+    {
+      "code": "631",
+      "name": "ዲታ",
+      "region": "South Ethiopia",
+      "stations": 56
+    },
+    {
+      "code": "632",
+      "name": "እምድብር",
+      "region": "Central Ethiopia",
+      "stations": 71
+    },
+    {
+      "code": "633",
+      "name": "እነሞርና ኤነር 1",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "634",
+      "name": "እነሞርና ኤነር 2",
+      "region": "Central Ethiopia",
+      "stations": 44
+    },
+    {
+      "code": "635",
+      "name": "እዣ 1",
+      "region": "Central Ethiopia",
+      "stations": 57
+    },
+    {
+      "code": "636",
+      "name": "እዣ 2",
+      "region": "Central Ethiopia",
+      "stations": 63
+    },
+    {
+      "code": "637",
+      "name": "ፈለገ ሰላም",
+      "region": "South West Ethiopia",
+      "stations": 63
+    },
+    {
+      "code": "638",
+      "name": "ፍስሀ ገነት",
+      "region": "South Ethiopia",
+      "stations": 169
+    },
+    {
+      "code": "639",
+      "name": "ገረሴ",
+      "region": "South Ethiopia",
+      "stations": 95
+    },
+    {
+      "code": "640",
+      "name": "ገዋዳ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 64
+    },
+    {
+      "code": "641",
+      "name": "ጊዲቾ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 4
+    },
+    {
+      "code": "642",
+      "name": "ጊዶሌ መደበኛ",
+      "region": "South Ethiopia",
+      "stations": 16
+    },
+    {
+      "code": "643",
+      "name": "ጊምቦ",
+      "region": "South West Ethiopia",
+      "stations": 120
+    },
+    {
+      "code": "644",
+      "name": "ኛንጋቶም ልዩ",
+      "region": "South Ethiopia",
+      "stations": 36
+    },
+    {
+      "code": "645",
+      "name": "ጎፋ ዙሪያ 1",
+      "region": "South Ethiopia",
+      "stations": 81
+    },
+    {
+      "code": "646",
+      "name": "ጎፋ ዙሪያ 2",
+      "region": "South Ethiopia",
+      "stations": 55
+    },
+    {
+      "code": "647",
+      "name": "ጉመር 1",
+      "region": "Central Ethiopia",
+      "stations": 46
+    },
+    {
+      "code": "648",
+      "name": "ጉመር 2",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "649",
+      "name": "ሐመር ልዩ",
+      "region": "South Ethiopia",
+      "stations": 45
+    },
+    {
+      "code": "650",
+      "name": "ሁምቦ ጠበላ",
+      "region": "South Ethiopia",
+      "stations": 97
+    },
+    {
+      "code": "651",
+      "name": "ኢሰራ ቶጫ",
+      "region": "South West Ethiopia",
+      "stations": 103
+    },
+    {
+      "code": "652",
+      "name": "ቃጫ ቢራ",
+      "region": "Central Ethiopia",
+      "stations": 77
+    },
+    {
+      "code": "653",
+      "name": "ቀዲዳ ጋሜላ 1",
+      "region": "Central Ethiopia",
+      "stations": 49
+    },
+    {
+      "code": "654",
+      "name": "ቀዲዳ ጋሜላ 2",
+      "region": "Central Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "655",
+      "name": "ከምባ",
+      "region": "South Ethiopia",
+      "stations": 98
+    },
+    {
+      "code": "656",
+      "name": "ቀይ አፈር መደ",
+      "region": "South Ethiopia",
+      "stations": 28
+    },
+    {
+      "code": "657",
+      "name": "ቅበት",
+      "region": "Central Ethiopia",
+      "stations": 137
+    },
+    {
+      "code": "658",
+      "name": "ኪንዶ ኮይሻ 1",
+      "region": "South Ethiopia",
+      "stations": 64
+    },
+    {
+      "code": "659",
+      "name": "ኪንዶ ኮይሻ 2",
+      "region": "South Ethiopia",
+      "stations": 54
+    },
+    {
+      "code": "660",
+      "name": "ኮኪር",
+      "region": "Central Ethiopia",
+      "stations": 56
+    },
+    {
+      "code": "661",
+      "name": "ኮንሶ",
+      "region": "South Ethiopia",
+      "stations": 146
+    },
+    {
+      "code": "662",
+      "name": "ኮንታ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 72
+    },
+    {
+      "code": "663",
+      "name": "ኮንተብ 1",
+      "region": "Central Ethiopia",
+      "stations": 78
+    },
+    {
+      "code": "664",
+      "name": "ኮንተብ 2",
+      "region": "Central Ethiopia",
+      "stations": 70
+    },
+    {
+      "code": "665",
+      "name": "ኮንተብ 3",
+      "region": "Central Ethiopia",
+      "stations": 99
+    },
+    {
+      "code": "666",
+      "name": "ቁጫ",
+      "region": "South Ethiopia",
+      "stations": 100
+    },
+    {
+      "code": "667",
+      "name": "ላስካ/ባስኬቶ",
+      "region": "South Ethiopia",
+      "stations": 14
+    },
+    {
+      "code": "668",
+      "name": "ሌሞ 01",
+      "region": "Central Ethiopia",
+      "stations": 140
+    },
+    {
+      "code": "669",
+      "name": "ሌሞ 02",
+      "region": "Central Ethiopia",
+      "stations": 85
+    },
+    {
+      "code": "670",
+      "name": "ላንፍሮ",
+      "region": "Central Ethiopia",
+      "stations": 77
+    },
+    {
+      "code": "671",
+      "name": "ሎማ ቦሳ",
+      "region": "South West Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "672",
+      "name": "ማጀት መደበኛ",
+      "region": "South West Ethiopia",
+      "stations": 180
+    },
+    {
+      "code": "673",
+      "name": "ማሌ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 53
+    },
+    {
+      "code": "674",
+      "name": "ማረቃ ጌና",
+      "region": "South West Ethiopia",
+      "stations": 83
+    },
+    {
+      "code": "675",
+      "name": "ማሻ",
+      "region": "South West Ethiopia",
+      "stations": 71
+    },
+    {
+      "code": "676",
+      "name": "ሜእኒት ልዮ",
+      "region": "South West Ethiopia",
+      "stations": 85
+    },
+    {
+      "code": "677",
+      "name": "መሎ ኮዛ",
+      "region": "South Ethiopia",
+      "stations": 84
+    },
+    {
+      "code": "678",
+      "name": "መስቃን ማረቆ 1",
+      "region": "Central Ethiopia",
+      "stations": 87
+    },
+    {
+      "code": "679",
+      "name": "መስቃን ማረቆ 2",
+      "region": "Central Ethiopia",
+      "stations": 107
+    },
+    {
+      "code": "680",
+      "name": "ሚዛን ተፈሪ",
+      "region": "South West Ethiopia",
+      "stations": 130
+    },
+    {
+      "code": "681",
+      "name": "ሙርሲ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 6
+    },
+    {
+      "code": "682",
+      "name": "ኦፋ",
+      "region": "South Ethiopia",
+      "stations": 112
+    },
+    {
+      "code": "683",
+      "name": "ኦይዳ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 22
+    },
+    {
+      "code": "684",
+      "name": "ሼይ ቤንች",
+      "region": "South West Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "685",
+      "name": "ሸኮ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 55
+    },
+    {
+      "code": "686",
+      "name": "ሲቄ 01",
+      "region": "Central Ethiopia",
+      "stations": 93
+    },
+    {
+      "code": "687",
+      "name": "ሲቄ 02",
+      "region": "Central Ethiopia",
+      "stations": 88
+    },
+    {
+      "code": "688",
+      "name": "ሶዶ",
+      "region": "Central Ethiopia",
+      "stations": 93
+    },
+    {
+      "code": "689",
+      "name": "ሶዶ ዙሪያ 1",
+      "region": "South Ethiopia",
+      "stations": 105
+    },
+    {
+      "code": "690",
+      "name": "ሶዶ ዙሪያ 2",
+      "region": "South Ethiopia",
+      "stations": 108
+    },
+    {
+      "code": "691",
+      "name": "ሶሮ 01",
+      "region": "Central Ethiopia",
+      "stations": 178
+    },
+    {
+      "code": "692",
+      "name": "ሶሮ 02",
+      "region": "Central Ethiopia",
+      "stations": 97
+    },
+    {
+      "code": "693",
+      "name": "ሱርማ ልዩ",
+      "region": "South West Ethiopia",
+      "stations": 23
+    },
+    {
+      "code": "694",
+      "name": "ጠምባሮ",
+      "region": "Central Ethiopia",
+      "stations": 86
+    },
+    {
+      "code": "695",
+      "name": "ቴፒ",
+      "region": "South West Ethiopia",
+      "stations": 151
+    },
+    {
+      "code": "696",
+      "name": "ፀማይ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 17
+    },
+    {
+      "code": "697",
+      "name": "ኡባ ደብረ ጸሐ",
+      "region": "South Ethiopia",
+      "stations": 54
+    },
+    {
+      "code": "698",
+      "name": "ዋቻ",
+      "region": "South West Ethiopia",
+      "stations": 116
+    },
+    {
+      "code": "699",
+      "name": "ወልቂጤ",
+      "region": "Central Ethiopia",
+      "stations": 138
+    },
+    {
+      "code": "700",
+      "name": "ወናጎ 1",
+      "region": "South Ethiopia",
+      "stations": 46
+    },
+    {
+      "code": "701",
+      "name": "ወናጎ 2",
+      "region": "South Ethiopia",
+      "stations": 60
+    },
+    {
+      "code": "702",
+      "name": "ወናጎ 3",
+      "region": "South Ethiopia",
+      "stations": 84
+    },
+    {
+      "code": "703",
+      "name": "የም ልዩ",
+      "region": "Central Ethiopia",
+      "stations": 63
+    },
+    {
+      "code": "704",
+      "name": "ይርጋጨፌ 1",
+      "region": "South Ethiopia",
+      "stations": 56
+    },
+    {
+      "code": "705",
+      "name": "ይርጋጨፌ 2",
+      "region": "South Ethiopia",
+      "stations": 106
+    },
+    {
+      "code": "706",
+      "name": "ዛላ ዳራማሎ",
+      "region": "South Ethiopia",
+      "stations": 120
+    },
+    {
+      "code": "707",
+      "name": "ዘልማም",
+      "region": "South West Ethiopia",
+      "stations": 5
+    },
+    {
+      "code": "708",
+      "name": "ዘይሴ ልዩ",
+      "region": "South Ethiopia",
+      "stations": 13
+    },
+    {
+      "code": "709",
+      "name": "አዳድሌ",
+      "region": "Somali",
+      "stations": 55
+    },
+    {
+      "code": "710",
+      "name": "አፍደም",
+      "region": "Somali",
+      "stations": 69
+    },
+    {
+      "code": "711",
+      "name": "አራርሶ",
+      "region": "Somali",
+      "stations": 52
+    },
+    {
+      "code": "712",
+      "name": "አዋሬ",
+      "region": "Somali",
+      "stations": 53
+    },
+    {
+      "code": "713",
+      "name": "አዉበሬ",
+      "region": "Somali",
+      "stations": 191
+    },
+    {
+      "code": "714",
+      "name": "አይሻ",
+      "region": "Somali",
+      "stations": 38
+    },
+    {
+      "code": "715",
+      "name": "ባቢሌ",
+      "region": "Somali",
+      "stations": 156
+    },
+    {
+      "code": "716",
+      "name": "ባሬ",
+      "region": "Somali",
+      "stations": 74
+    },
+    {
+      "code": "717",
+      "name": "ቤርአኖ",
+      "region": "Somali",
+      "stations": 22
+    },
+    {
+      "code": "718",
+      "name": "ቢርቆት",
+      "region": "Somali",
+      "stations": 33
+    },
+    {
+      "code": "719",
+      "name": "ቦህ",
+      "region": "Somali",
+      "stations": 30
+    },
+    {
+      "code": "720",
+      "name": "ጨረቲ",
+      "region": "Somali",
+      "stations": 99
+    },
+    {
+      "code": "721",
+      "name": "ደናን",
+      "region": "Somali",
+      "stations": 48
+    },
+    {
+      "code": "722",
+      "name": "ዳኖት",
+      "region": "Somali",
+      "stations": 22
+    },
+    {
+      "code": "723",
+      "name": "ደበወይን",
+      "region": "Somali",
+      "stations": 28
+    },
+    {
+      "code": "724",
+      "name": "ደጋሃቡር",
+      "region": "Somali",
+      "stations": 62
+    },
+    {
+      "code": "725",
+      "name": "ደጋሃቡር ከተ",
+      "region": "Somali",
+      "stations": 38
+    },
+    {
+      "code": "726",
+      "name": "ደጋህመዶ",
+      "region": "Somali",
+      "stations": 53
+    },
+    {
+      "code": "727",
+      "name": "ደካ ሱፍቱ",
+      "region": "Somali",
+      "stations": 55
+    },
+    {
+      "code": "728",
+      "name": "ደምበል (ከተ",
+      "region": "Somali",
+      "stations": 73
+    },
+    {
+      "code": "729",
+      "name": "ደራቶሌ",
+      "region": "Somali",
+      "stations": 7
+    },
+    {
+      "code": "730",
+      "name": "ዳሮር",
+      "region": "Somali",
+      "stations": 38
+    },
+    {
+      "code": "731",
+      "name": "ድሁን",
+      "region": "Somali",
+      "stations": 74
+    },
+    {
+      "code": "732",
+      "name": "ዶሎ ባይ",
+      "region": "Somali",
+      "stations": 65
+    },
+    {
+      "code": "733",
+      "name": "ዶሎ አዶ",
+      "region": "Somali",
+      "stations": 88
+    },
+    {
+      "code": "734",
+      "name": "ምስራቅ ኢሚ",
+      "region": "Somali",
+      "stations": 43
+    },
+    {
+      "code": "735",
+      "name": "ኤልከሬ",
+      "region": "Somali",
+      "stations": 55
+    },
+    {
+      "code": "736",
+      "name": "ኤልወይኔ",
+      "region": "Somali",
+      "stations": 14
+    },
+    {
+      "code": "737",
+      "name": "ኤረር",
+      "region": "Somali",
+      "stations": 58
+    },
+    {
+      "code": "738",
+      "name": "ፌርፌር",
+      "region": "Somali",
+      "stations": 25
+    },
+    {
+      "code": "739",
+      "name": "ፊልቱ",
+      "region": "Somali",
+      "stations": 106
+    },
+    {
+      "code": "740",
+      "name": "ፊቅ",
+      "region": "Somali",
+      "stations": 88
+    },
+    {
+      "code": "741",
+      "name": "ጋሻሞ",
+      "region": "Somali",
+      "stations": 65
+    },
+    {
+      "code": "742",
+      "name": "ገላዲን",
+      "region": "Somali",
+      "stations": 21
+    },
+    {
+      "code": "743",
+      "name": "ገርቦ",
+      "region": "Somali",
+      "stations": 48
+    },
+    {
+      "code": "744",
+      "name": "ጎዴ",
+      "region": "Somali",
+      "stations": 37
+    },
+    {
+      "code": "745",
+      "name": "ጎዴ ከተማ",
+      "region": "Somali",
+      "stations": 21
+    },
+    {
+      "code": "746",
+      "name": "ጎልጀኖ",
+      "region": "Somali",
+      "stations": 17
+    },
+    {
+      "code": "747",
+      "name": "ጎሮ በቀቅሳ",
+      "region": "Somali",
+      "stations": 52
+    },
+    {
+      "code": "748",
+      "name": "ጉኖጎዳ",
+      "region": "Somali",
+      "stations": 39
+    },
+    {
+      "code": "749",
+      "name": "ጉራዳሞሌ",
+      "region": "Somali",
+      "stations": 60
+    },
+    {
+      "code": "750",
+      "name": "ጉርሱም",
+      "region": "Somali",
+      "stations": 34
+    },
+    {
+      "code": "751",
+      "name": "ሃዳጋሌ",
+      "region": "Somali",
+      "stations": 18
+    },
+    {
+      "code": "752",
+      "name": "ሐምሮ",
+      "region": "Somali",
+      "stations": 36
+    },
+    {
+      "code": "753",
+      "name": "ሐርገሌ",
+      "region": "Somali",
+      "stations": 56
+    },
+    {
+      "code": "754",
+      "name": "ሃርሺን",
+      "region": "Somali",
+      "stations": 85
+    },
+    {
+      "code": "755",
+      "name": "ጂግጂጋ",
+      "region": "Somali",
+      "stations": 148
+    },
+    {
+      "code": "756",
+      "name": "ጂግጂጋ",
+      "region": "Somali",
+      "stations": 112
+    },
+    {
+      "code": "757",
+      "name": "ቀብሪ በያህ",
+      "region": "Somali",
+      "stations": 163
+    },
+    {
+      "code": "758",
+      "name": "ቀበሪደሀር",
+      "region": "Somali",
+      "stations": 68
+    },
+    {
+      "code": "759",
+      "name": "ቀብሪዳር ከተ",
+      "region": "Somali",
+      "stations": 35
+    },
+    {
+      "code": "760",
+      "name": "ቀላፎ",
+      "region": "Somali",
+      "stations": 43
+    },
+    {
+      "code": "761",
+      "name": "ቀርሳ ዱላ",
+      "region": "Somali",
+      "stations": 36
+    },
+    {
+      "code": "762",
+      "name": "ለገሂዳ",
+      "region": "Somali",
+      "stations": 38
+    },
+    {
+      "code": "763",
+      "name": "ሙዩ ሙሉቆ",
+      "region": "Somali",
+      "stations": 37
+    },
+    {
+      "code": "764",
+      "name": "መርሲን",
+      "region": "Somali",
+      "stations": 26
+    },
+    {
+      "code": "765",
+      "name": "ሚኤሶ",
+      "region": "Somali",
+      "stations": 63
+    },
+    {
+      "code": "766",
+      "name": "ሞያሌ",
+      "region": "Somali",
+      "stations": 161
+    },
+    {
+      "code": "767",
+      "name": "ሙባረክ",
+      "region": "Somali",
+      "stations": 36
+    },
+    {
+      "code": "768",
+      "name": "ሙስተሂል",
+      "region": "Somali",
+      "stations": 53
+    },
+    {
+      "code": "769",
+      "name": "ቁቢ",
+      "region": "Somali",
+      "stations": 21
+    },
+    {
+      "code": "770",
+      "name": "ራሶ",
+      "region": "Somali",
+      "stations": 29
+    },
+    {
+      "code": "771",
+      "name": "ሳላሃድ",
+      "region": "Somali",
+      "stations": 31
+    },
+    {
+      "code": "772",
+      "name": "ሰገግ",
+      "region": "Somali",
+      "stations": 41
+    },
+    {
+      "code": "773",
+      "name": "ሼኮሽ",
+      "region": "Somali",
+      "stations": 50
+    },
+    {
+      "code": "774",
+      "name": "ሺላቦ",
+      "region": "Somali",
+      "stations": 22
+    },
+    {
+      "code": "775",
+      "name": "ሽንሌ",
+      "region": "Somali",
+      "stations": 47
+    },
+    {
+      "code": "776",
+      "name": "ቱሉ ጉሌድ",
+      "region": "Somali",
+      "stations": 84
+    },
+    {
+      "code": "777",
+      "name": "ኡደት",
+      "region": "Somali",
+      "stations": 48
+    },
+    {
+      "code": "778",
+      "name": "ዋርዴር",
+      "region": "Somali",
+      "stations": 42
+    },
+    {
+      "code": "779",
+      "name": "ምዕራብ ኢሚ",
+      "region": "Somali",
+      "stations": 67
+    },
+    {
+      "code": "780",
+      "name": "ዮአሌ",
+      "region": "Somali",
+      "stations": 38
+    },
+    {
+      "code": "1547",
+      "name": "ሰቃ ጮቆርሳ",
+      "region": "Oromia",
+      "stations": 86
+    },
+    {
+      "code": "2548",
+      "name": "ሰቃ ጨቆርሳ",
+      "region": "Oromia",
+      "stations": 87
+    }
+  ]
+}
