@@ -11,23 +11,6 @@ OUT_JSON = DATA_DIR / "symbols.json"
 IMG_DIR = DATA_DIR / "images"
 PARTIES_JSON = Path("../transcripts/data/parties.json")
 
-# Parties whose symbol was confidently matched to a high-quality image from the
-# NEBE symbol catalogue (verified visually against the PDF render). Those images
-# are curated by hand and committed at data/images/<slug>.png as-is; this script
-# leaves them untouched and only (re)renders everyone else from the PDF. The
-# value records which catalogue image each was sourced from, for provenance.
-CURATED = {
-    "welene-peoples-democratic-party": "Oil lamp.jpg",
-    "wolaita-peoples-liberation-movement": "Bee.jpg",
-    "wolaita-peoples-democratic-front": "Lion 1.jpg",
-    "renaissance-party": "Mobile phone 1.jpg",
-    "wollo-peoples-democratic-party": "lock.jpg",
-    "democratic-unity-of-tigray": "Joigned Hands.jpg",
-    "prosperity-party": "Wheat.jpg",
-    "tinsae-seba-enderta-party": "thumbnail_bread symbol.png",
-    "one-ethiopia-democratic-party": "Palm tree.jpg",
-}
-
 # Column indices in the extracted table.
 COL_NUMBER = 0
 COL_PARTY = 1
@@ -144,12 +127,6 @@ def render_cell(page: fitz.Page, cell: tuple) -> Image.Image:
 
 
 def save_symbol(slug: str, page: fitz.Page, cell: tuple):
-    if slug in CURATED:
-        # Curated catalogue image, committed as-is; don't overwrite it.
-        if not (IMG_DIR / f"{slug}.png").exists():
-            print(f"WARNING: curated symbol missing: {slug}.png")
-        return
-
     # Crop the symbol from the PDF and center it on a square canvas. It's
     # black-and-white line art, so greyscale + optimise keeps the file tiny.
     img = center_on_square(render_cell(page, cell))
