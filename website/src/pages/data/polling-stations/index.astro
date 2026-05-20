@@ -17,8 +17,7 @@ const sortedRegions = [...regions].sort((a, b) => b.stations - a.stations);
 const stats = [
   { label: "Polling stations", value: fmt(idx.total_stations) },
   { label: "Regions", value: fmt(idx.region_count) },
-  { label: "HoPR constituencies", value: fmt(idx.hopr_constituency_count) },
-  { label: "RC constituencies", value: fmt(idx.rc_constituency_count) },
+  { label: "Constituencies", value: fmt(idx.hopr_constituency_count) },
 ];
 
 const byStations = [...hoprConstituencies].sort(
@@ -90,7 +89,7 @@ const sizeChart = {
       mapped, and structured down to kebele and electoral constituency.
     </p>
 
-    <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
+    <dl class="grid grid-cols-3 gap-4 mt-8">
       {
         stats.map((s) => (
           <div class="bg-ew-card border border-ew-card-border rounded-xl p-5">
