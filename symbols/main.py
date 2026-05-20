@@ -9,13 +9,14 @@ PDF_PATH = Path("symbols.pdf")
 DATA_DIR = Path("data")
 OUT_JSON = DATA_DIR / "symbols.json"
 IMG_DIR = DATA_DIR / "images"
-CATALOG_DIR = Path("images")  # high-quality stock symbols, named by subject
 PARTIES_JSON = Path("../transcripts/data/parties.json")
 
-# Parties whose symbol was confidently matched to a catalogue image (verified
-# visually against the PDF render). These use the high-quality catalogue file;
-# every other party falls back to the symbol cropped from the PDF.
-CATALOG_MATCHES = {
+# Parties whose symbol was confidently matched to a high-quality image from the
+# NEBE symbol catalogue (verified visually against the PDF render). Those images
+# are curated by hand and committed at data/images/<slug>.png as-is; this script
+# leaves them untouched and only (re)renders everyone else from the PDF. The
+# value records which catalogue image each was sourced from, for provenance.
+CURATED = {
     "welene-peoples-democratic-party": "Oil lamp.jpg",
     "wolaita-peoples-liberation-movement": "Bee.jpg",
     "wolaita-peoples-democratic-front": "Lion 1.jpg",
@@ -143,15 +144,15 @@ def render_cell(page: fitz.Page, cell: tuple) -> Image.Image:
 
 
 def save_symbol(slug: str, page: fitz.Page, cell: tuple):
-    catalog_name = CATALOG_MATCHES.get(slug)
-    if catalog_name and (CATALOG_DIR / catalog_name).exists():
-        # Use the high-quality catalogue image (already centered/square).
-        img = Image.open(CATALOG_DIR / catalog_name).convert("RGB")
-    else:
-        # Fall back to the symbol cropped from the PDF, centered to match.
-        img = center_on_square(render_cell(page, cell))
+    if slug in CURATED:
+        # Curated catalogue image, committed as-is; don't overwrite it.
+        if not (IMG_DIR / f"{slug}.png").exists():
+            print(f"WARNING: curated symbol missing: {slug}.png")
+        return
 
-    # Symbols are black-and-white line art: greyscale + optimise keeps files tiny.
+    # Crop the symbol from the PDF and center it on a square canvas. It's
+    # black-and-white line art, so greyscale + optimise keeps the file tiny.
+    img = center_on_square(render_cell(page, cell))
     img = img.convert("L").resize((OUTPUT_SIZE, OUTPUT_SIZE), Image.LANCZOS)
     img.save(IMG_DIR / f"{slug}.png", optimize=True)
 
