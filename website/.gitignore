@@ -16,5 +16,8 @@ pnpm-debug.log*
 # astro
 .astro/
 
+# synced from ../symbols at build time (see scripts/sync-symbols.mjs)
+public/symbols/
+
 # macOS
 .DS_Store

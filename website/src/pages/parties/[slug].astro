@@ -47,7 +47,20 @@ const debateByVideo = new Map<string, { title: string }>(
       <ArrowLeft class="w-4 h-4" />
       All parties
     </a>
-    <h1 class="font-display text-4xl sm:text-5xl mb-4">{party.name}</h1>
+    <div class="flex items-center gap-4 mb-4">
+      {
+        party.symbol && (
+          <div class="shrink-0 isolate bg-ew-bg rounded-lg">
+            <img
+              src={party.symbol}
+              alt={`${party.name} ballot symbol`}
+              class="w-32 h-32 sm:w-40 sm:h-40 object-contain mix-blend-multiply"
+            />
+          </div>
+        )
+      }
+      <h1 class="font-display text-4xl sm:text-5xl">{party.name}</h1>
+    </div>
     <div class="flex flex-wrap gap-4 text-sm text-ew-text-muted">
       <span class="inline-flex items-center gap-1.5">
         <Quote class="w-4 h-4" />
