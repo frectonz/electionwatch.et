@@ -46,6 +46,10 @@ SYMBOL_MARGIN = 0.08
 # Treat pixels lighter than this (0-255) as background when finding the symbol.
 CONTENT_THRESHOLD = 245
 
+# Every symbol is saved as this square size (px), so the site can render them
+# at a fixed box without any object-fit cropping.
+OUTPUT_SIZE = 160
+
 # Amharic party name -> English slug. Slugs for the 24 parties already in
 # transcripts/data/parties.json are reused verbatim; the rest follow the same
 # kebab-case English convention.
@@ -141,13 +145,15 @@ def render_cell(page: fitz.Page, cell: tuple) -> Image.Image:
 def save_symbol(slug: str, page: fitz.Page, cell: tuple):
     catalog_name = CATALOG_MATCHES.get(slug)
     if catalog_name and (CATALOG_DIR / catalog_name).exists():
-        # Use the high-quality catalogue image as-is (already centered/square).
-        Image.open(CATALOG_DIR / catalog_name).convert("RGB").save(
-            IMG_DIR / f"{slug}.png"
-        )
+        # Use the high-quality catalogue image (already centered/square).
+        img = Image.open(CATALOG_DIR / catalog_name).convert("RGB")
     else:
         # Fall back to the symbol cropped from the PDF, centered to match.
-        center_on_square(render_cell(page, cell)).save(IMG_DIR / f"{slug}.png")
+        img = center_on_square(render_cell(page, cell))
+
+    # Symbols are black-and-white line art: greyscale + optimise keeps files tiny.
+    img = img.convert("L").resize((OUTPUT_SIZE, OUTPUT_SIZE), Image.LANCZOS)
+    img.save(IMG_DIR / f"{slug}.png", optimize=True)
 
 
 def extract(doc: fitz.Document) -> list[dict]:

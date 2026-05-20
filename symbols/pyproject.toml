@@ -1,12 +1,11 @@
 [project]
 name = "symbols"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extract Ethiopian party ballot symbols from the NEBE PDF"
 requires-python = ">=3.14"
 dependencies = [
     "pillow>=12.2.0",
     "pymupdf>=1.27.2.3",
-    "rich>=15.0.0",
 ]
 
 [dependency-groups]
