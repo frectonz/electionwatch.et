@@ -3,10 +3,14 @@ import { Play, Youtube } from "@lucide/astro";
 
 interface Props {
   defaultVideoId?: string;
+  defaultLabel?: string;
   placeholder?: string;
 }
-const { defaultVideoId = "", placeholder = "Click any clip to start playing" } =
-  Astro.props;
+const {
+  defaultVideoId = "",
+  defaultLabel = "Full debate",
+  placeholder = "Click any clip to start playing",
+} = Astro.props;
 
 const initialSrc = defaultVideoId
   ? `https://www.youtube.com/embed/${defaultVideoId}?rel=0&enablejsapi=1`
@@ -57,7 +61,7 @@ const initialSrc = defaultVideoId
               id="now-playing-label"
               class="font-display text-base sm:text-lg text-ew-text leading-tight truncate"
             >
-              {defaultVideoId ? "Full debate" : "Nothing yet"}
+              {defaultVideoId ? defaultLabel : "Nothing yet"}
             </p>
           </div>
           <button
@@ -101,7 +105,7 @@ const initialSrc = defaultVideoId
   </div>
 </section>
 
-<script is:inline define:vars={{ defaultVideoId }}>
+<script is:inline define:vars={{ defaultVideoId, defaultLabel }}>
   (function () {
     const playerContainer = document.getElementById("player-container");
     const label = document.getElementById("now-playing-label");
@@ -310,7 +314,7 @@ const initialSrc = defaultVideoId
       stopPolling();
       progressBox.classList.add("hidden");
       if (hasDefault) {
-        label.textContent = "Full debate";
+        label.textContent = defaultLabel;
         if (playerReady && player && player.cueVideoById) {
           player.cueVideoById(defaultVideoId);
         }

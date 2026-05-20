@@ -26,6 +26,12 @@ const partyDebates = allDebates.filter((d) =>
   d.meta.parties.some((p) => p.slug === slug),
 );
 
+// The first debate the party appeared in, shown in the player by default
+// instead of an empty placeholder.
+const firstDebate = [...partyDebates].sort((a, b) =>
+  a.meta.upload_date < b.meta.upload_date ? -1 : 1,
+)[0];
+
 const hasPlayableCitations = party.positions.some((p) =>
   p.citations.some((c) => c.spans.length > 0),
 );
@@ -88,7 +94,14 @@ const debateByVideo = new Map<string, { title: string }>(
     )
   }
 
-  {hasPlayableCitations && <ClipPlayer />}
+  {
+    hasPlayableCitations && (
+      <ClipPlayer
+        defaultVideoId={firstDebate?.meta.video_id}
+        defaultLabel={firstDebate?.analysis.title}
+      />
+    )
+  }
 
   {
     party.positions.length > 0 && (
@@ -146,7 +159,7 @@ const debateByVideo = new Map<string, { title: string }>(
                 </div>
                 <p class="text-ew-text leading-relaxed mb-4">{pos.position}</p>
                 {pos.citations.length > 0 && (
-                  <details class="group" open={pos.citations.length <= 2}>
+                  <details class="group">
                     <summary class="cursor-pointer text-sm text-ew-text-muted hover:text-ew-shell inline-flex items-center gap-1.5 select-none mb-3">
                       <Quote class="w-3.5 h-3.5" />
                       {pos.citations.length} cited{" "}
