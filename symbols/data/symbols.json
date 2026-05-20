@@ -1,194 +1,242 @@
 [
   {
     "slug": "sidama-peoples-unity-democratic-organization",
+    "symbol_name": "እንሰት",
     "image": "sidama-peoples-unity-democratic-organization.png"
   },
   {
     "slug": "all-sidama-peoples-democratic-unity-party",
+    "symbol_name": "በኅብረት የተያያዙ እጆች",
     "image": "all-sidama-peoples-democratic-unity-party.png"
   },
   {
     "slug": "sidama-unity-party",
+    "symbol_name": "አውራ ዶሮ",
     "image": "sidama-unity-party.png"
   },
   {
     "slug": "kucha-peoples-democratic-party",
+    "symbol_name": "የቁጫ ቅቤ",
     "image": "kucha-peoples-democratic-party.png"
   },
   {
     "slug": "ethiopian-national-unity-party",
+    "symbol_name": "ልብ",
     "image": "ethiopian-national-unity-party.png"
   },
   {
     "slug": "oromo-liberation-front",
+    "symbol_name": "ሆሮሮ",
     "image": "oromo-liberation-front.png"
   },
   {
     "slug": "hibir-ethiopia-democratic-party",
+    "symbol_name": "አደይ አበባ",
     "image": "hibir-ethiopia-democratic-party.png"
   },
   {
     "slug": "wolaita-national-movement",
+    "symbol_name": "ጉላንታ",
     "image": "wolaita-national-movement.png"
   },
   {
     "slug": "welene-peoples-democratic-party",
+    "symbol_name": "ኩራዝ",
     "image": "welene-peoples-democratic-party.png"
   },
   {
     "slug": "ethiopian-social-democratic-party",
+    "symbol_name": "የእጅ ባትሪ",
     "image": "ethiopian-social-democratic-party.png"
   },
   {
     "slug": "raya-rayuma-democratic-party",
+    "symbol_name": "በቆሎ",
     "image": "raya-rayuma-democratic-party.png"
   },
   {
     "slug": "argoba-peoples-democratic-organization",
+    "symbol_name": "ብርቱካን",
     "image": "argoba-peoples-democratic-organization.png"
   },
   {
     "slug": "wolaita-peoples-liberation-movement",
+    "symbol_name": "ንብ",
     "image": "wolaita-peoples-liberation-movement.png"
   },
   {
     "slug": "wolaita-peoples-democratic-front",
+    "symbol_name": "አንበሳ",
     "image": "wolaita-peoples-democratic-front.png"
   },
   {
     "slug": "benishangul-peoples-liberation-movement",
+    "symbol_name": "የተጨባበጡ እጆች",
     "image": "benishangul-peoples-liberation-movement.png"
   },
   {
     "slug": "balderas-for-true-democracy-party",
+    "symbol_name": "የተጨበጠ እጅ",
     "image": "balderas-for-true-democracy-party.png"
   },
   {
     "slug": "renaissance-party",
+    "symbol_name": "የሞባይል ስልክ",
     "image": "renaissance-party.png"
   },
   {
     "slug": "wollo-peoples-democratic-party",
+    "symbol_name": "ቁልፍ",
     "image": "wollo-peoples-democratic-party.png"
   },
   {
     "slug": "ethiopian-democratic-union",
+    "symbol_name": "ጋሻና ጦር",
     "image": "ethiopian-democratic-union.png"
   },
   {
     "slug": "cooperation-for-ethiopian-unity-party",
+    "symbol_name": "አውራ ጣት",
     "image": "cooperation-for-ethiopian-unity-party.png"
   },
   {
     "slug": "gedeo-peoples-democratic-organization",
+    "symbol_name": "ጐሽ",
     "image": "gedeo-peoples-democratic-organization.png"
   },
   {
     "slug": "new-generation-party",
+    "symbol_name": "ዐይን",
     "image": "new-generation-party.png"
   },
   {
     "slug": "donga-peoples-democratic-organization",
+    "symbol_name": "ዝንጅብል",
     "image": "donga-peoples-democratic-organization.png"
   },
   {
     "slug": "somali-federalist-party",
+    "symbol_name": "ግመል",
     "image": "somali-federalist-party.png"
   },
   {
     "slug": "qimant-democratic-party",
+    "symbol_name": "ነጭ እርግብ",
     "image": "qimant-democratic-party.png"
   },
   {
     "slug": "kush-peoples-national-movement-party",
+    "symbol_name": "የፀሐይ ብርሃን ጮራ ወጋገን",
     "image": "kush-peoples-national-movement-party.png"
   },
   {
     "slug": "western-somali-democratic-party",
+    "symbol_name": "ፈረስ",
     "image": "western-somali-democratic-party.png"
   },
   {
     "slug": "argoba-unity-jeberti",
+    "symbol_name": "ጥላ",
     "image": "argoba-unity-jeberti.png"
   },
   {
     "slug": "gumuz-peoples-democratic-movement",
+    "symbol_name": "ማሽላ",
     "image": "gumuz-peoples-democratic-movement.png"
   },
   {
     "slug": "freedom-and-equality-party",
+    "symbol_name": "ብዕር",
     "image": "freedom-and-equality-party.png"
   },
   {
     "slug": "amhara-democratic-force-movement",
+    "symbol_name": "መነጽር",
     "image": "amhara-democratic-force-movement.png"
   },
   {
     "slug": "afar-peoples-party",
+    "symbol_name": "ቴምር እና እጅ",
     "image": "afar-peoples-party.png"
   },
   {
     "slug": "afar-liberation-front-party",
+    "symbol_name": "ዝሆን",
     "image": "afar-liberation-front-party.png"
   },
   {
     "slug": "gogot-for-gurage-unity-and-justice-party",
+    "symbol_name": "ምሰሶ",
     "image": "gogot-for-gurage-unity-and-justice-party.png"
   },
   {
     "slug": "democratic-unity-of-tigray",
+    "symbol_name": "የተያያዙ እጆች",
     "image": "democratic-unity-of-tigray.png"
   },
   {
     "slug": "ethiopian-citizens-for-social-justice",
+    "symbol_name": "ሚዛን",
     "image": "ethiopian-citizens-for-social-justice.png"
   },
   {
     "slug": "enat-party",
+    "symbol_name": "ቁልፍ የያዘ እጅ",
     "image": "enat-party.png"
   },
   {
     "slug": "national-movement-of-amhara",
+    "symbol_name": "ሰዓት",
     "image": "national-movement-of-amhara.png"
   },
   {
     "slug": "peace-for-ethiopia-coalition",
+    "symbol_name": "የቡና ተክል",
     "image": "peace-for-ethiopia-coalition.png"
   },
   {
     "slug": "ethiopian-federal-democratic-unity-forum",
+    "symbol_name": "ባለአምስት የእጅ ጣት",
     "image": "ethiopian-federal-democratic-unity-forum.png"
   },
   {
     "slug": "one-ethiopia-democratic-party",
+    "symbol_name": "ዘንባባ",
     "image": "one-ethiopia-democratic-party.png"
   },
   {
     "slug": "prosperity-party",
+    "symbol_name": "የስንዴ ነዶ",
     "image": "prosperity-party.png"
   },
   {
     "slug": "union-for-democracy-and-freedom-party",
+    "symbol_name": "የዕጣን ዛፍ",
     "image": "union-for-democracy-and-freedom-party.png"
   },
   {
     "slug": "ogaden-national-liberation-front",
+    "symbol_name": "መጽሐፍ",
     "image": "ogaden-national-liberation-front.png"
   },
   {
     "slug": "tinsae-seba-enderta-party",
+    "symbol_name": "አምባሻ",
     "image": "tinsae-seba-enderta-party.png"
   },
   {
     "slug": "gambela-peoples-liberation-movement",
+    "symbol_name": "ዓሳ",
     "image": "gambela-peoples-liberation-movement.png"
   },
   {
     "slug": "harari-democratic-organization",
+    "symbol_name": "የጀጎል በር",
     "image": "harari-democratic-organization.png"
   },
   {
     "slug": "tinsae-sirat-kanchi-haqi",
+    "symbol_name": "ቃንጪ ሃቂ",
     "image": "tinsae-sirat-kanchi-haqi.png"
   }
 ]
