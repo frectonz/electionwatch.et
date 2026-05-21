@@ -98,17 +98,30 @@ const initialSrc = defaultVideoId
               Continue on YouTube
             </a>
           </div>
-          <a
-            id="clip-continue"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div
+            id="clip-ended-actions"
             style="display:none"
-            class="mt-2 w-full justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-shell text-white px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-opacity"
+            class="mt-2 flex gap-2"
           >
-            <Icon name="simple-icons:youtube" class="w-3.5 h-3.5" />
-            Clip ended — continue on YouTube
-          </a>
+            <button
+              type="button"
+              id="clip-replay"
+              class="flex-1 justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-surface border border-ew-card-border text-ew-text px-3 py-1.5 text-xs font-medium hover:border-ew-shell/40 transition-colors"
+            >
+              <Play class="w-3.5 h-3.5" />
+              Play again
+            </button>
+            <a
+              id="clip-continue"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex-1 justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-shell text-white px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-opacity"
+            >
+              <Icon name="simple-icons:youtube" class="w-3.5 h-3.5" />
+              Continue on YouTube
+            </a>
+          </div>
         </div>
 
         <slot />
@@ -126,7 +139,9 @@ const initialSrc = defaultVideoId
     const progressFill = document.getElementById("clip-progress-fill");
     const progressTime = document.getElementById("clip-progress-time");
     const openYT = document.getElementById("clip-open-youtube");
+    const endedActions = document.getElementById("clip-ended-actions");
     const clipContinue = document.getElementById("clip-continue");
+    const replayBtn = document.getElementById("clip-replay");
     const resetBtn = document.querySelector("[data-reset-player]");
     if (
       !playerContainer ||
@@ -167,15 +182,33 @@ const initialSrc = defaultVideoId
       );
     }
 
-    // Toggle via inline display (not the `hidden` class) — `inline-flex` would
-    // otherwise win the display cascade and keep the button always visible.
+    // Toggle via inline display (not the `hidden` class) — `flex` would
+    // otherwise lose to nothing, but the class cascade is unreliable here.
     function showContinue(seconds) {
-      if (!clipContinue || !activeClip) return;
-      clipContinue.setAttribute("href", watchUrl(activeClip.videoId, seconds));
-      clipContinue.style.display = "inline-flex";
+      if (!endedActions || !activeClip) return;
+      if (clipContinue)
+        clipContinue.setAttribute(
+          "href",
+          watchUrl(activeClip.videoId, seconds),
+        );
+      endedActions.style.display = "flex";
     }
     function hideContinue() {
-      if (clipContinue) clipContinue.style.display = "none";
+      if (endedActions) endedActions.style.display = "none";
+    }
+
+    // Replay the active clip from its start (re-establishes the end cap).
+    function replayClip() {
+      if (!activeClip) return;
+      const c = activeClip;
+      loadClip(
+        c.videoId,
+        c.start,
+        c.end,
+        c.label,
+        watchUrl(c.videoId, c.start),
+        "play",
+      );
     }
 
     function clipUrl(videoId, start, end, mode) {
@@ -376,6 +409,8 @@ const initialSrc = defaultVideoId
         }
       }
     }
+
+    if (replayBtn) replayBtn.addEventListener("click", replayClip);
 
     if (hasDefault) loadYouTubeApi();
 
