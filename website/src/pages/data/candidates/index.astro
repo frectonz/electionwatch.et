@@ -165,19 +165,15 @@ const peopleChart = peopleRings(
       {
         bodies.map((b) => (
           <div class="bg-ew-card border border-ew-card-border rounded-xl p-6">
-            <div class="flex items-center gap-2 mb-3">
-              <span
-                class="w-9 h-9 rounded-lg grid place-items-center"
-                style={`background:${b.color}1a;color:${b.color}`}
-              >
-                <b.Icon class="w-5 h-5" />
-              </span>
-              <div>
-                <div class="font-display text-xl leading-tight">{b.label}</div>
-                <div class="text-ew-text-muted text-xs">{b.short}</div>
-              </div>
-            </div>
-            <p class="text-ew-text-dim text-sm mb-4">{b.blurb}</p>
+            <span
+              class="w-9 h-9 rounded-lg grid place-items-center"
+              style={`background:${b.color}1a;color:${b.color}`}
+            >
+              <b.Icon class="w-5 h-5" />
+            </span>
+            <div class="font-display text-xl leading-tight mt-3">{b.label}</div>
+            <div class="text-ew-text-muted text-xs">{b.short}</div>
+            <p class="text-ew-text-dim text-sm mt-3 mb-4">{b.blurb}</p>
             <div class="flex items-baseline gap-4">
               <div>
                 <span class="font-display text-3xl tabular-nums">
