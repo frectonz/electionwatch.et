@@ -178,7 +178,7 @@ const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
       </button>
       <button
         data-mode="reg"
-        class="px-3 py-1.5 font-medium bg-ew-card text-ew-text-dim hover:text-ew-text"
+        class="px-3 py-1.5 font-medium bg-ew-card text-ew-text-dim hover:text-ew-shell"
       >
         Registration
       </button>
@@ -382,6 +382,9 @@ const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
         b.classList.toggle("text-white", active);
         b.classList.toggle("bg-ew-card", !active);
         b.classList.toggle("text-ew-text-dim", !active);
+        // Drop the hover colour on the active button so its white text doesn't
+        // turn navy-on-navy when hovered.
+        b.classList.toggle("hover:text-ew-shell", !active);
       });
     };
     modeBtns.forEach((b) =>
