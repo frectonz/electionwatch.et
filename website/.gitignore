@@ -22,5 +22,8 @@ public/symbols/
 # generated from ../polling-stations at build time (see scripts/build-ps-points.mjs)
 public/data/
 
+# generated at build time (see scripts/build-llms.ts)
+public/llms.txt
+
 # macOS
 .DS_Store

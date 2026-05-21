@@ -2,7 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { datasets } from "@/data/datasets";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import { ArrowRight, Database } from "@lucide/astro";
+import { ArrowRight, Database, Sparkles, FileJson } from "@lucide/astro";
 ---
 
 <Layout
@@ -15,6 +15,50 @@ import { ArrowRight, Database } from "@lucide/astro";
     <p class="text-ew-text-dim text-lg max-w-2xl">
       Every entry links to its source.
     </p>
+  </section>
+
+  <!-- Talk to the data in your own LLM -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
+    <div
+      class="bg-ew-gold-soft border border-ew-gold/20 rounded-xl p-6 sm:p-8 flex flex-col gap-4"
+    >
+      <div class="flex items-start gap-3">
+        <div
+          class="w-10 h-10 rounded-lg bg-ew-shell/10 grid place-items-center shrink-0"
+        >
+          <Sparkles class="w-5 h-5 text-ew-shell" />
+        </div>
+        <div class="min-w-0">
+          <h2 class="font-display text-2xl text-ew-text leading-tight">
+            Explore this with your favorite LLM
+          </h2>
+          <p
+            class="text-ew-text-dim text-sm sm:text-base leading-relaxed mt-2 max-w-2xl"
+          >
+            Every dataset on this site is published as plain JSON behind a
+            single
+            <code class="text-ew-shell">llms.txt</code> entry point. Hand the link
+            to ChatGPT, Claude, or any agent and ask it to load the data, then put
+            your own questions to it or run your own analysis. Each record stays linked
+            to its source so the model can cite where a number came from.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a
+          href="/llms.txt"
+          class="inline-flex items-center gap-2 bg-ew-shell text-white rounded-lg px-4 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
+        >
+          <Sparkles class="w-4 h-4" /> Open llms.txt
+        </a>
+        <a
+          href="/data/manifest.json"
+          class="inline-flex items-center gap-2 bg-ew-card border border-ew-card-border text-ew-text rounded-lg px-4 py-2 text-sm font-medium hover:border-ew-shell/40 transition-colors"
+        >
+          <FileJson class="w-4 h-4 text-ew-shell" /> View the data manifest
+        </a>
+      </div>
+    </div>
   </section>
 
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
