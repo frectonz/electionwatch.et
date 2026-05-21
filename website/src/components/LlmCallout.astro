@@ -1,8 +1,8 @@
 ---
 // "Explore this with your favorite LLM" callout: one-click launchers that open
 // the data prefilled in ChatGPT / Claude / Perplexity, plus a copy-prompt
-// button for any other assistant. Used on the home page and the data hub.
-// Self-contained — the script enhances whichever instance is on the page.
+// button for any other assistant. Used on the home page.
+// Self-contained — the script enhances the instance on the page.
 import { Sparkles, ArrowUpRight, Copy } from "@lucide/astro";
 
 const SITE = "https://electionwatch.et";
@@ -10,7 +10,7 @@ const LLMS_URL = `${SITE}/llms.txt`;
 
 // The ready-made prompt we copy / prefill. It points the model at llms.txt,
 // which maps every dataset and links the raw JSON.
-const AGENT_PROMPT = `Read ${LLMS_URL} — it's the entry point for electionwatch.et, an open-data project on Ethiopia's 7th General Election. It maps every dataset (candidates, polling stations, debate analyses, party positions, and ballot symbols) and links to the raw JSON, with the full file list at ${SITE}/data/manifest.json. Load it and the files it references, then help me explore and analyze the data, citing the source files you use.`;
+const AGENT_PROMPT = `Read ${LLMS_URL} — it's the entry point for electionwatch.et, an open-data project on Ethiopia's 7th General Election. It maps every dataset (candidates, polling stations, debate analyses, party positions, and ballot symbols) and links to the raw JSON, with the full file list at ${SITE}/data/manifest.json. Refer to it and look up the data directly from the site as you help me explore and analyze it.`;
 
 // Brand logos (single-path marks from simpleicons.org).
 const LOGOS = {
@@ -62,11 +62,8 @@ const assistants = [
       <p
         class="text-ew-text-dim text-sm sm:text-base leading-relaxed mt-2 max-w-2xl"
       >
-        The whole site is published as plain JSON behind a single
-        <code class="text-ew-shell">llms.txt</code> entry point. Open it in your assistant
-        of choice and ask your own questions, or copy the ready-made prompt and paste
-        it anywhere. Each record stays linked to its source, so the model can cite
-        where a number came from.
+        Every dataset here is machine-readable. Open it in your assistant and
+        ask your own questions of the data.
       </p>
     </div>
   </div>
