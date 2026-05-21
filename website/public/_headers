@@ -15,3 +15,7 @@
 
 /data/*
   Access-Control-Allow-Origin: *
+
+# Debate transcripts are Markdown — serve them as readable text, not a download.
+/data/debates/*.md
+  Content-Type: text/markdown; charset=utf-8

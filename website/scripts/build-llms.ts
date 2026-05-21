@@ -67,6 +67,80 @@ type PsIndex = {
 
 const num = (n: number) => n.toLocaleString("en-US");
 
+const SOURCE_LABEL: Record<string, string> = {
+  etv_nebe: "ETV / NEBE",
+  fana_medrek: "Fana Medrek",
+};
+
+type DebateMeta = {
+  video_id: string;
+  source: string;
+  upload_date: string;
+  youtube_url: string;
+  duration_seconds: number;
+  title: string;
+  parties: { name: string; slug: string }[];
+};
+type TranscriptSegment = { text: string; start: number; duration: number };
+type PositionsFile = { slug: string; name: string; positions: unknown[] };
+
+// mm:ss (or h:mm:ss) from a number of seconds.
+const clock = (t: number): string => {
+  const s = Math.max(0, Math.floor(t));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return h > 0 ? `${h}:${pad(m)}:${pad(sec)}` : `${m}:${pad(sec)}`;
+};
+const hm = (seconds: number): string => {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.round((seconds % 3600) / 60);
+  return h > 0 ? `${h}h ${m}m` : `${m}m`;
+};
+
+// Render a debate's caption segments into a clean Markdown transcript an LLM (or
+// a person) can read top to bottom: a header of context, then the text in
+// timestamped paragraphs (~30s each) for navigation back to the video.
+function renderTranscript(
+  meta: DebateMeta,
+  segments: TranscriptSegment[],
+  links: { meta: string; analysis: string; json: string },
+): string {
+  const out: string[] = [
+    `# ${meta.title}`,
+    "",
+    `- **Broadcaster:** ${SOURCE_LABEL[meta.source] ?? meta.source}`,
+    `- **Date:** ${meta.upload_date}`,
+    `- **Duration:** ${hm(meta.duration_seconds)}`,
+    `- **Language:** Amharic`,
+    `- **YouTube:** ${meta.youtube_url}`,
+    `- **Participating parties:** ${meta.parties.map((p) => p.name).join(", ")}`,
+    `- **Structured data:** [metadata](${links.meta}) · [question-by-question analysis](${links.analysis}) · [raw caption JSON](${links.json})`,
+    "",
+    "> Auto-generated from the broadcast captions. Timestamps are mm:ss (or h:mm:ss) from the start of the video.",
+    "",
+    "---",
+    "",
+  ];
+  let start: number | null = null;
+  let buf: string[] = [];
+  const flush = () => {
+    if (buf.length && start !== null) {
+      out.push(`**[${clock(start)}]** ${buf.join(" ").replace(/\s+/g, " ").trim()}`, "");
+    }
+    buf = [];
+    start = null;
+  };
+  for (const seg of segments) {
+    if (start === null) start = seg.start;
+    buf.push(seg.text);
+    if (seg.start - start >= 30) flush();
+  }
+  flush();
+  return out.join("\n") + "\n";
+}
+
 export function buildLlms() {
   if (!fs.existsSync(CAND_SRC) || !fs.existsSync(TRANS_SRC)) {
     console.warn("[llms] source datasets not found, skipping");
@@ -107,21 +181,128 @@ export function buildLlms() {
   positionFiles.push(path.join("party-positions", "parties.json"));
   positionFiles.sort();
 
+  // public/data/<rel> is served at /data/<rel>.
+  const url = (rel: string) => `${SITE}/data/${rel.split(path.sep).join("/")}`;
+
+  // English party names, for labelling symbols and positions. The debate
+  // registry carries English names; fall back to the candidate parties list
+  // (keyed by profile_slug).
+  const transRegistry = readJSON<Record<string, { name: string }>>(
+    path.join(TRANS_SRC, "parties.json"),
+  );
+  const candParties = readJSON<{ profile_slug?: string; name_en: string }[]>(
+    path.join(CAND_SRC, "parties.json"),
+  );
+  const englishName = new Map<string, string>();
+  for (const [slug, info] of Object.entries(transRegistry)) {
+    englishName.set(slug, info.name);
+  }
+  for (const cp of candParties) {
+    if (cp.profile_slug && !englishName.has(cp.profile_slug)) {
+      englishName.set(cp.profile_slug, cp.name_en);
+    }
+  }
+
   // Party ballot symbols: the PNGs are served at /symbols/<file> (synced by
-  // sync-symbols.ts). Publish an index mapping each party to its ballot symbol
-  // name (Amharic) and image URL, so an agent can reference symbols too.
+  // sync-symbols.ts). Publish an index joining each party to its English name,
+  // its ballot symbol's Amharic name, and the image URL.
   const symbolsRaw = readJSON<
     { slug: string; symbol_name: string; image: string }[]
   >(path.join(SYMBOLS_SRC, "symbols.json"));
   const symbols = symbolsRaw.map((s) => ({
     slug: s.slug,
+    party_name: englishName.get(s.slug) ?? null,
     symbol_name: s.symbol_name,
     image: `${SITE}/symbols/${s.image}`,
+    source: "NEBE ballot symbol list",
   }));
   fs.mkdirSync(DATA_DEST, { recursive: true });
   fs.writeFileSync(
     path.join(DATA_DEST, "symbols.json"),
     JSON.stringify(symbols, null, 2),
+  );
+  const symbolBySlug = new Map(symbols.map((s) => [s.slug, s.image]));
+
+  // Debates: a self-describing index plus a clean Markdown transcript per
+  // broadcast (written alongside the raw caption JSON).
+  const debateIndex: Record<string, unknown>[] = [];
+  for (const source of Object.keys(SOURCE_LABEL)) {
+    const dir = path.join(TRANS_SRC, source);
+    if (!fs.existsSync(dir)) continue;
+    for (const file of fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith(".meta.json"))
+      .sort()) {
+      const base = file.replace(/\.meta\.json$/, "");
+      const meta = readJSON<DebateMeta>(path.join(dir, file));
+      const metaUrl = url(`debates/${source}/${base}.meta.json`);
+      const analysisUrl = url(`debates/${source}/${base}.analysis.json`);
+      const jsonUrl = url(`debates/${source}/${base}.json`);
+      let mdUrl: string | null = null;
+      const transcriptPath = path.join(dir, `${base}.json`);
+      if (fs.existsSync(transcriptPath)) {
+        const segments = readJSON<TranscriptSegment[]>(transcriptPath);
+        fs.writeFileSync(
+          path.join(DATA_DEST, "debates", source, `${base}.md`),
+          renderTranscript(meta, segments, {
+            meta: metaUrl,
+            analysis: analysisUrl,
+            json: jsonUrl,
+          }),
+        );
+        mdUrl = url(`debates/${source}/${base}.md`);
+      }
+      debateIndex.push({
+        video_id: meta.video_id,
+        title: meta.title,
+        broadcaster: SOURCE_LABEL[source],
+        date: meta.upload_date,
+        language: "Amharic",
+        duration_seconds: meta.duration_seconds,
+        youtube_url: meta.youtube_url,
+        participating_parties: meta.parties,
+        transcript_markdown: mdUrl,
+        transcript_json: jsonUrl,
+        analysis: analysisUrl,
+        metadata: metaUrl,
+      });
+    }
+  }
+  debateIndex.sort((a, b) =>
+    String(a.date) < String(b.date) ? 1 : -1,
+  );
+  fs.writeFileSync(
+    path.join(DATA_DEST, "debates", "index.json"),
+    JSON.stringify({ count: debateIndex.length, debates: debateIndex }, null, 2),
+  );
+
+  // Party positions: a self-describing index — each dossier with its ballot
+  // symbol and human profile page.
+  const partyPositions = positionFiles
+    .filter((rel) => rel.endsWith(".json") && !rel.endsWith("parties.json"))
+    .map((rel) => {
+      const pf = readJSON<PositionsFile>(path.join(DATA_DEST, rel));
+      return {
+        slug: pf.slug,
+        name: pf.name,
+        positions: pf.positions.length,
+        json: url(rel),
+        symbol: symbolBySlug.get(pf.slug) ?? null,
+        profile: `${SITE}/parties/${pf.slug}`,
+      };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+  fs.writeFileSync(
+    path.join(DATA_DEST, "party-positions", "index.json"),
+    JSON.stringify(
+      {
+        registry: url("party-positions/parties.json"),
+        count: partyPositions.length,
+        parties: partyPositions,
+      },
+      null,
+      2,
+    ),
   );
 
   // The compact polling-station map dataset is generated by the
@@ -143,11 +324,7 @@ export function buildLlms() {
   const debateCount = debateFiles.filter((f) =>
     f.endsWith(".meta.json"),
   ).length;
-  const positionCount =
-    positionFiles.filter((f) => f.endsWith(".json")).length - 1; // minus the shared parties.json registry
-
-  // public/data/<rel> is served at /data/<rel>.
-  const url = (rel: string) => `${SITE}/data/${rel.split(path.sep).join("/")}`;
+  const positionCount = partyPositions.length;
 
   // 2. Machine-readable manifest: every dataset, its stats, and its files.
   const manifest = {
@@ -163,6 +340,9 @@ export function buildLlms() {
         title: "Debate broadcasts",
         records: debateCount,
         recordsLabel: "broadcasts analysed",
+        index: url("debates/index.json"),
+        notes:
+          "Each broadcast also has a clean Markdown transcript (…/<id>.md), linked from index.json as transcript_markdown.",
         files: debateFiles.map(url),
       },
       {
@@ -170,6 +350,7 @@ export function buildLlms() {
         title: "Party positions",
         records: positionCount,
         recordsLabel: "party position dossiers",
+        index: url("party-positions/index.json"),
         registry: url("party-positions/parties.json"),
         files: positionFiles.map(url),
       },
@@ -295,10 +476,12 @@ Fana Medrek). The analysis files are the editorial summaries: each claim and key
 point links to the exact YouTube timestamp where it was spoken. Source:
 ${SITE}/data/debates
 
-- Per-debate files under \`${SITE}/data/debates/etv_nebe/\` and \`${SITE}/data/debates/fana_medrek/\`, each broadcast as three files:
+- **Start here:** [${SITE}/data/debates/index.json](${SITE}/data/debates/index.json) — every broadcast with its date, broadcaster, title, participating parties, and links to its metadata, analysis, raw captions, and a clean Markdown transcript.
+- Per-debate files under \`${SITE}/data/debates/etv_nebe/\` and \`${SITE}/data/debates/fana_medrek/\`, each broadcast as:
+  - \`<id>.md\` — a clean, readable Markdown transcript (header of context + timestamped paragraphs). Best for reading.
   - \`<id>.meta.json\` — title, source, upload date, duration, YouTube URL, participating parties.
   - \`<id>.analysis.json\` — \`overall_topic\` and \`questions[]\`, each with \`asker\`, \`topic\`, \`question\`, and per-party \`answers[]\` carrying a \`summary\`, \`key_points[]\`, and timestamped \`citations[]\`.
-  - \`<id>.json\` — the raw transcript.
+  - \`<id>.json\` — the raw caption segments (\`text\`, \`start\`, \`duration\`).
 - Human view: ${SITE}/data/debates
 
 ## Party positions
@@ -307,6 +490,7 @@ Consolidated, citable position dossiers per party, aggregated across every
 debate appearance into one file. These are the editorial summaries of where each
 party stands. Source: ${SITE}/parties
 
+- **Start here:** [${SITE}/data/party-positions/index.json](${SITE}/data/party-positions/index.json) — each party with its name, position count, dossier URL, ballot symbol, and profile page.
 - Position dossiers under \`${SITE}/data/party-positions/<party-slug>.json\`: each \`{ topic, position, citations[] }\`, where every citation links to the moment in a debate it was stated.
 - Party registry (slug → name): ${SITE}/data/party-positions/parties.json
 - Human view: ${SITE}/parties
@@ -315,7 +499,7 @@ party stands. Source: ${SITE}/parties
 
 The ballot symbol assigned to each party, as rendered from the NEBE ballot.
 
-- [Symbol index](${SITE}/data/symbols.json): an array of \`{ slug, symbol_name, image }\`, where \`symbol_name\` is the symbol's Amharic name and \`image\` is the full URL of its PNG (served under \`${SITE}/symbols/\`). Join \`slug\` to a party's \`profile_slug\` (candidates) or position-file slug.
+- [Symbol index](${SITE}/data/symbols.json): an array of \`{ slug, party_name, symbol_name, image, source }\`, where \`party_name\` is the party's English name (where known), \`symbol_name\` is the symbol's Amharic name, and \`image\` is the full URL of its PNG (served under \`${SITE}/symbols/\`). Join \`slug\` to a party's \`profile_slug\` (candidates) or position-file slug.
 
 ## About
 
