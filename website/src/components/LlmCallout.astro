@@ -72,46 +72,48 @@ const assistants = [
   </div>
 
   <!-- One-click launchers -->
-  <div class="flex flex-wrap gap-2">
-    {
-      assistants.map((a) => (
-        <a
-          href={a.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          data-open
-          data-name={a.name}
-          class="inline-flex items-center gap-2 bg-ew-card border border-ew-card-border rounded-lg px-4 py-2 text-sm font-medium text-ew-text hover:border-ew-shell/40 transition-colors"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            aria-hidden="true"
-            class="w-4 h-4 text-ew-text"
+  <div class="flex flex-col gap-2">
+    <div class="flex flex-wrap gap-2">
+      {
+        assistants.map((a) => (
+          <a
+            href={a.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-open
+            data-name={a.name}
+            class="inline-flex items-center gap-2 bg-ew-card border border-ew-card-border rounded-lg px-4 py-2 text-sm font-medium text-ew-text hover:border-ew-shell/40 transition-colors"
           >
-            <path d={a.logo} />
-          </svg>
-          Open in {a.name}
-          <ArrowUpRight class="w-3.5 h-3.5 text-ew-text-muted" />
-        </a>
-      ))
-    }
-    <button
-      type="button"
-      data-copy
-      class="inline-flex items-center gap-2 bg-ew-shell text-white rounded-lg px-4 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
-    >
-      <Copy class="w-4 h-4" /> Copy AI prompt
-    </button>
-  </div>
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+              class="w-4 h-4 text-ew-text"
+            >
+              <path d={a.logo} />
+            </svg>
+            Open in {a.name}
+            <ArrowUpRight class="w-3.5 h-3.5 text-ew-text-muted" />
+          </a>
+        ))
+      }
+      <button
+        type="button"
+        data-copy
+        class="inline-flex items-center gap-2 bg-ew-shell text-white rounded-lg px-4 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
+      >
+        <Copy class="w-4 h-4" /> Copy AI prompt
+      </button>
+    </div>
 
-  <p
-    data-status
-    role="status"
-    aria-live="polite"
-    class="text-xs text-ew-text-muted opacity-0 transition-opacity min-h-4"
-  >
-  </p>
+    <p
+      data-status
+      role="status"
+      aria-live="polite"
+      class="text-xs text-ew-text-muted opacity-0 transition-opacity empty:hidden"
+    >
+    </p>
+  </div>
 
   <details class="text-xs text-ew-text-muted">
     <summary class="cursor-pointer hover:text-ew-shell select-none">
