@@ -2,7 +2,46 @@
 import Layout from "@/layouts/Layout.astro";
 import { datasets } from "@/data/datasets";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import { ArrowRight, Database, Sparkles, FileJson } from "@lucide/astro";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Database,
+  Sparkles,
+  Copy,
+} from "@lucide/astro";
+
+const SITE = "https://electionwatch.et";
+const LLMS_URL = `${SITE}/llms.txt`;
+
+// The ready-made prompt we copy / prefill. It points the model at llms.txt,
+// which maps every dataset and links the raw JSON.
+const AGENT_PROMPT = `Read ${LLMS_URL} — it's the entry point for electionwatch.et, an open-data project on Ethiopia's 7th General Election. It maps every dataset (candidates, polling stations, debate analyses, party positions, and ballot symbols) and links to the raw JSON, with the full file list at ${SITE}/data/manifest.json. Load it and the files it references, then help me explore and analyze the data, citing the source files you use.`;
+
+// Only ChatGPT and Perplexity accept a prompt straight from the URL; Claude and
+// Gemini don't, so for those we open a fresh chat and rely on the clipboard
+// copy (the script copies the prompt on every click).
+const assistants = [
+  {
+    name: "ChatGPT",
+    href: `https://chatgpt.com/?q=${encodeURIComponent(AGENT_PROMPT)}`,
+    prefill: true,
+  },
+  {
+    name: "Claude",
+    href: "https://claude.ai/new",
+    prefill: false,
+  },
+  {
+    name: "Gemini",
+    href: "https://gemini.google.com/app",
+    prefill: false,
+  },
+  {
+    name: "Perplexity",
+    href: `https://www.perplexity.ai/search/new?q=${encodeURIComponent(AGENT_PROMPT)}`,
+    prefill: true,
+  },
+];
 ---
 
 <Layout
@@ -20,6 +59,8 @@ import { ArrowRight, Database, Sparkles, FileJson } from "@lucide/astro";
   <!-- Talk to the data in your own LLM -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
     <div
+      data-llm-cta
+      data-prompt={AGENT_PROMPT}
       class="bg-ew-gold-soft border border-ew-gold/20 rounded-xl p-6 sm:p-8 flex flex-col gap-4"
     >
       <div class="flex items-start gap-3">
@@ -35,31 +76,127 @@ import { ArrowRight, Database, Sparkles, FileJson } from "@lucide/astro";
           <p
             class="text-ew-text-dim text-sm sm:text-base leading-relaxed mt-2 max-w-2xl"
           >
-            Every dataset on this site is published as plain JSON behind a
-            single
-            <code class="text-ew-shell">llms.txt</code> entry point. Hand the link
-            to ChatGPT, Claude, or any agent and ask it to load the data, then put
-            your own questions to it or run your own analysis. Each record stays linked
-            to its source so the model can cite where a number came from.
+            The whole site is published as plain JSON behind a single
+            <code class="text-ew-shell">llms.txt</code> entry point. Open it in your
+            assistant of choice and ask your own questions, or copy the ready-made
+            prompt and paste it anywhere. Each record stays linked to its source,
+            so the model can cite where a number came from.
           </p>
         </div>
       </div>
-      <div class="flex flex-wrap gap-3">
-        <a
-          href="/llms.txt"
+
+      <!-- One-click launchers -->
+      <div class="flex flex-wrap gap-2">
+        {
+          assistants.map((a) => (
+            <a
+              href={a.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-open
+              data-name={a.name}
+              data-prefill={String(a.prefill)}
+              class="inline-flex items-center gap-2 bg-ew-card border border-ew-card-border rounded-lg px-4 py-2 text-sm font-medium text-ew-text hover:border-ew-shell/40 transition-colors"
+            >
+              Open in {a.name}
+              <ArrowUpRight class="w-3.5 h-3.5 text-ew-text-muted" />
+            </a>
+          ))
+        }
+        <button
+          type="button"
+          data-copy
           class="inline-flex items-center gap-2 bg-ew-shell text-white rounded-lg px-4 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
         >
-          <Sparkles class="w-4 h-4" /> Open llms.txt
-        </a>
-        <a
-          href="/data/manifest.json"
-          class="inline-flex items-center gap-2 bg-ew-card border border-ew-card-border text-ew-text rounded-lg px-4 py-2 text-sm font-medium hover:border-ew-shell/40 transition-colors"
-        >
-          <FileJson class="w-4 h-4 text-ew-shell" /> View the data manifest
-        </a>
+          <Copy class="w-4 h-4" /> Copy prompt
+        </button>
       </div>
+
+      <p
+        data-status
+        role="status"
+        aria-live="polite"
+        class="text-xs text-ew-text-muted opacity-0 transition-opacity min-h-4"
+      >
+      </p>
+
+      <p class="text-xs text-ew-text-muted leading-relaxed">
+        Claude and Gemini can&rsquo;t take a prompt from a link, so we copy it
+        to your clipboard on click &mdash; just paste it in. Prefer to wire it
+        up yourself? Open
+        <a href="/llms.txt" class="text-ew-shell hover:text-ew-gold">llms.txt</a
+        >
+        or the
+        <a href="/data/manifest.json" class="text-ew-shell hover:text-ew-gold"
+          >data manifest</a
+        >.
+      </p>
+
+      <details class="text-xs text-ew-text-muted">
+        <summary class="cursor-pointer hover:text-ew-shell select-none">
+          Preview the prompt
+        </summary>
+        <p
+          class="mt-2 bg-ew-card border border-ew-card-border rounded-lg p-3 text-ew-text-dim leading-relaxed font-mono"
+        >
+          {AGENT_PROMPT}
+        </p>
+      </details>
     </div>
   </section>
+
+  <script>
+    const root = document.querySelector<HTMLElement>("[data-llm-cta]");
+    if (root) {
+      const prompt = root.dataset.prompt ?? "";
+      const status = root.querySelector<HTMLElement>("[data-status]");
+      let timer = 0;
+      const flash = (msg: string) => {
+        if (!status) return;
+        status.textContent = msg;
+        status.classList.remove("opacity-0");
+        clearTimeout(timer);
+        timer = window.setTimeout(
+          () => status.classList.add("opacity-0"),
+          6000,
+        );
+      };
+      const copyPrompt = async (): Promise<boolean> => {
+        try {
+          await navigator.clipboard.writeText(prompt);
+          return true;
+        } catch {
+          return false;
+        }
+      };
+      root.querySelectorAll<HTMLAnchorElement>("[data-open]").forEach((el) => {
+        el.addEventListener("click", () => {
+          const prefill = el.dataset.prefill === "true";
+          const name = el.dataset.name ?? "the assistant";
+          void copyPrompt().then((ok) => {
+            if (prefill) {
+              flash(`Opening ${name} with the prompt ready to send.`);
+            } else if (ok) {
+              flash(`Prompt copied — paste it into ${name} and send.`);
+            } else {
+              flash(`Opening ${name} — use “Copy prompt”, then paste.`);
+            }
+          });
+        });
+      });
+      root
+        .querySelector<HTMLButtonElement>("[data-copy]")
+        ?.addEventListener("click", () => {
+          void copyPrompt().then((ok) =>
+            flash(
+              ok
+                ? "Prompt copied to your clipboard."
+                : "Couldn’t access the clipboard — select the preview text and copy it.",
+            ),
+          );
+        });
+    }
+  </script>
 
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <div class="grid md:grid-cols-2 gap-5">
