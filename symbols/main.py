@@ -57,7 +57,7 @@ SLUGS = {
     "ህዳሴ ፓርቲ": "renaissance-party",
     "የወሎ ህዝቦች ዴሞክራሲያዊ ፓርቲ": "wollo-peoples-democratic-party",
     "የኢትዮጵያ ዴሞክራቲክ ኅብረት": "ethiopian-democratic-union",
-    "ትብብር ለኢትዮጵያ አንድነት": "cooperation-for-ethiopian-unity-party",
+    "ትብብር ለኢትዮጵያ አንድነት": "coalition-for-ethiopian-unity-party",
     "የጌዴኦ ሕዝብ ዴሞክራሲያዊ ድርጅት": "gedeo-peoples-democratic-organization",
     "አዲስ ትውልድ ፓርቲ": "new-generation-party",
     "የዶንጋ ህዝብ ዴሞክራሲያዊ ድርጅት": "donga-peoples-democratic-organization",

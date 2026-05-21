@@ -89,7 +89,7 @@ BODY_NAMES = {
 ENGLISH_NAMES: dict[str, str] = {
     "ብልፅግና ፓርቲ": "Prosperity Party",
     "ኢዜማ": "Ethiopian Citizens for Social Justice (EZEMA)",
-    "ትብብር ለኢትዮጵያ አንድነት": "Cooperation for Ethiopian Unity",
+    "ትብብር ለኢትዮጵያ አንድነት": "Coalition for Ethiopian Unity",
     "ነፃነትና እኩልነት ፓርቲ": "Freedom and Equality Party",
     "ሰላም ለኢትዮጵያ ጥምረት": "Peace for Ethiopia Coalition",
     "ህዳሴ ፓርቲ": "Renaissance Party",
@@ -138,7 +138,7 @@ ENGLISH_NAMES: dict[str, str] = {
 PROFILE_SLUGS: dict[str, str] = {
     "ብልፅግና ፓርቲ": "prosperity-party",
     "ኢዜማ": "ethiopian-citizens-for-social-justice",
-    "ትብብር ለኢትዮጵያ አንድነት": "cooperation-for-ethiopian-unity-party",
+    "ትብብር ለኢትዮጵያ አንድነት": "coalition-for-ethiopian-unity-party",
     "ነፃነትና እኩልነት ፓርቲ": "freedom-and-equality-party",
     "ሰላም ለኢትዮጵያ ጥምረት": "peace-for-ethiopia-coalition",
     "ህዳሴ ፓርቲ": "renaissance-party",
