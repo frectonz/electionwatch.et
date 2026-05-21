@@ -84,7 +84,7 @@ const initialSrc = defaultVideoId
             </div>
           </div>
           <div
-            class="flex justify-between text-[10px] font-mono text-ew-text-muted mt-1"
+            class="flex justify-between items-center text-[10px] font-mono text-ew-text-muted mt-1 gap-2"
           >
             <span id="clip-progress-time">0:00 / 0:00</span>
             <a
@@ -92,12 +92,22 @@ const initialSrc = defaultVideoId
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="uppercase tracking-wider inline-flex items-center gap-1 hover:text-ew-shell"
+              class="uppercase tracking-wider inline-flex items-center gap-1 hover:text-ew-shell shrink-0"
             >
               <Icon name="simple-icons:youtube" class="w-3 h-3" />
-              Open
+              Continue on YouTube
             </a>
           </div>
+          <a
+            id="clip-continue"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hidden mt-2 w-full justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-shell text-white px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-opacity"
+          >
+            <Icon name="simple-icons:youtube" class="w-3.5 h-3.5" />
+            Clip ended — continue on YouTube
+          </a>
         </div>
 
         <slot />
@@ -115,6 +125,7 @@ const initialSrc = defaultVideoId
     const progressFill = document.getElementById("clip-progress-fill");
     const progressTime = document.getElementById("clip-progress-time");
     const openYT = document.getElementById("clip-open-youtube");
+    const clipContinue = document.getElementById("clip-continue");
     const resetBtn = document.querySelector("[data-reset-player]");
     if (
       !playerContainer ||
@@ -141,6 +152,27 @@ const initialSrc = defaultVideoId
       const sec = s % 60;
       const pad = (n) => String(n).padStart(2, "0");
       return h > 0 ? h + ":" + pad(m) + ":" + pad(sec) : m + ":" + pad(sec);
+    }
+
+    // Full video on YouTube, at a given second — so "continue" picks up exactly
+    // where playback is, not at the clip's start.
+    function watchUrl(videoId, seconds) {
+      return (
+        "https://www.youtube.com/watch?v=" +
+        videoId +
+        "&t=" +
+        Math.max(0, Math.floor(seconds)) +
+        "s"
+      );
+    }
+
+    function showContinue(seconds) {
+      if (!clipContinue || !activeClip) return;
+      clipContinue.setAttribute("href", watchUrl(activeClip.videoId, seconds));
+      clipContinue.classList.remove("hidden");
+    }
+    function hideContinue() {
+      if (clipContinue) clipContinue.classList.add("hidden");
     }
 
     function clipUrl(videoId, start, end, mode) {
@@ -172,6 +204,10 @@ const initialSrc = defaultVideoId
       const elapsed = Math.max(0, Math.min(clipDur, t - activeClip.start));
       progressFill.style.width = (elapsed / clipDur) * 100 + "%";
       progressTime.textContent = fmt(elapsed) + " / " + fmt(clipDur);
+      // Keep the "Continue on YouTube" link pointed at the live position.
+      if (openYT) openYT.setAttribute("href", watchUrl(activeClip.videoId, t));
+      // Near the clip's end, surface the prompt to keep watching on YouTube.
+      if (t >= activeClip.end - 0.4) showContinue(t);
     }
     function startPolling() {
       stopPolling();
@@ -232,7 +268,14 @@ const initialSrc = defaultVideoId
               }
             },
             onStateChange: function (e) {
-              if (e.data === 1 && activeClip) startPolling();
+              if (e.data === 1 && activeClip) {
+                startPolling();
+                hideContinue();
+              } else if (e.data === 0 && activeClip) {
+                // Ended (reached the clip's end cap): offer to keep watching.
+                stopPolling();
+                showContinue(activeClip.end);
+              }
             },
           },
         });
@@ -264,7 +307,9 @@ const initialSrc = defaultVideoId
       label.textContent = name;
       progressBox.classList.remove("hidden");
       if (resetBtn) resetBtn.classList.remove("hidden");
+      // Initial target = clip start; updateProgress() then tracks the live time.
       if (openYT && youtubeUrl) openYT.setAttribute("href", youtubeUrl);
+      hideContinue();
       progressFill.style.width = "0%";
       progressTime.textContent = "0:00 / " + fmt(end - start);
 
@@ -313,6 +358,7 @@ const initialSrc = defaultVideoId
       activeClip = null;
       setClipParam(null);
       stopPolling();
+      hideContinue();
       progressBox.classList.add("hidden");
       if (hasDefault) {
         label.textContent = defaultLabel;
