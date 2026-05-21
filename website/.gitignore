@@ -19,11 +19,8 @@ pnpm-debug.log*
 # synced from ../symbols at build time (see scripts/sync-symbols.mjs)
 public/symbols/
 
-# generated from ../polling-stations at build time (see scripts/build-ps-points.mjs)
+# generated from ../polling-stations at build time (see scripts/build-ps-points.ts)
 public/data/
-
-# generated at build time (see scripts/build-llms.ts)
-public/llms.txt
 
 # macOS
 .DS_Store
