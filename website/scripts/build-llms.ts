@@ -127,7 +127,10 @@ function renderTranscript(
   let buf: string[] = [];
   const flush = () => {
     if (buf.length && start !== null) {
-      out.push(`**[${clock(start)}]** ${buf.join(" ").replace(/\s+/g, " ").trim()}`, "");
+      out.push(
+        `**[${clock(start)}]** ${buf.join(" ").replace(/\s+/g, " ").trim()}`,
+        "",
+      );
     }
     buf = [];
     start = null;
@@ -268,12 +271,14 @@ export function buildLlms() {
       });
     }
   }
-  debateIndex.sort((a, b) =>
-    String(a.date) < String(b.date) ? 1 : -1,
-  );
+  debateIndex.sort((a, b) => (String(a.date) < String(b.date) ? 1 : -1));
   fs.writeFileSync(
     path.join(DATA_DEST, "debates", "index.json"),
-    JSON.stringify({ count: debateIndex.length, debates: debateIndex }, null, 2),
+    JSON.stringify(
+      { count: debateIndex.length, debates: debateIndex },
+      null,
+      2,
+    ),
   );
 
   // Party positions: a self-describing index — each dossier with its ballot
