@@ -13,6 +13,7 @@ import { datasets } from "@/data/datasets";
 import { pollingStationsIndex } from "@/data/pollingStations";
 import { candidatesIndex } from "@/data/candidates";
 import { fmt } from "@/lib/format";
+import LlmCallout from "@/components/LlmCallout.astro";
 
 const totalQuestions = allDebates.reduce(
   (sum, d) => sum + d.analysis.questions.length,
@@ -179,6 +180,11 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
         })
       }
     </div>
+  </section>
+
+  <!-- Talk to the data in your own LLM -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <LlmCallout />
   </section>
 
   <!-- Entry points -->
