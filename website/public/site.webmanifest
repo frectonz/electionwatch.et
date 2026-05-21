@@ -36,5 +36,49 @@
       "sizes": "512x512",
       "purpose": "maskable"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-home.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Home — open data for Ethiopia's 7th General Election"
+    },
+    {
+      "src": "/screenshots/desktop-map.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "50,126 polling stations mapped across Ethiopia"
+    },
+    {
+      "src": "/screenshots/desktop-debates.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Every party debate, analysed question by question"
+    },
+    {
+      "src": "/screenshots/mobile-home.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home — open data for Ethiopia's 7th General Election"
+    },
+    {
+      "src": "/screenshots/mobile-candidates.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "10,438 candidates by region, constituency, and party"
+    },
+    {
+      "src": "/screenshots/mobile-debates.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Every party debate, analysed question by question"
+    }
   ]
 }
