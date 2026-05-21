@@ -29,6 +29,7 @@ import re
 import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
+from typing import TypedDict
 
 import pymupdf
 from rich.console import Console
@@ -291,7 +292,7 @@ def join_polling_stations(constituencies: dict[str, list[dict]]) -> dict:
                 for seg in candidate_segments(cc["name"]):
                     if DISTRICT_PHRASE not in seg:
                         codes += secondary[region].get(strip_trailing_number(seg), [])
-            codes = sorted(set(codes), key=int)
+            codes = sorted(set(codes), key=lambda c: int(c))
             cc["polling_station_codes"] = codes
             cc["polling_stations"] = sum(stations_by_code.get(c, 0) for c in codes)
             ref = {
@@ -425,22 +426,32 @@ def main() -> None:
 
     # parties.json: party names are Amharic, so the slug is a stable positional
     # id (parties are ordered by candidate count, then name).
-    parties_out = sorted(
+    class PartyOut(TypedDict):
+        name: str
+        name_en: str
+        candidates: int
+        hopr: int
+        rc: int
+        slug: str
+        profile_slug: str | None
+
+    parties_out: list[PartyOut] = sorted(
         (
-            {
-                "name": name,
-                "name_en": ENGLISH_NAMES.get(name, name),
-                "candidates": counts["hopr"] + counts["rc"],
-                "hopr": counts["hopr"],
-                "rc": counts["rc"],
-            }
+            PartyOut(
+                name=name,
+                name_en=ENGLISH_NAMES.get(name, name),
+                candidates=counts["hopr"] + counts["rc"],
+                hopr=counts["hopr"],
+                rc=counts["rc"],
+                slug="",
+                profile_slug=PROFILE_SLUGS.get(name),
+            )
             for name, counts in party_counts.items()
         ),
         key=lambda p: (-p["candidates"], p["name"]),
     )
     for i, party in enumerate(parties_out):
         party["slug"] = f"party-{i}"
-        party["profile_slug"] = PROFILE_SLUGS.get(party["name"])
     (JSON_DIR / "parties.json").write_text(
         json.dumps(parties_out, ensure_ascii=False, indent=2), encoding="utf-8"
     )

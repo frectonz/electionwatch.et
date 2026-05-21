@@ -84,8 +84,8 @@ COLUMNS = [
     "hopr_constituency",
     "rc_constituency_code",
     "rc_constituency",
-    None,  # 13: ps_type or polling_station_id
-    None,  # 14: the other
+    "",  # 13: ps_type or polling_station_id
+    "",  # 14: the other
     "polling_station_code",
     "name",
     "latitude",

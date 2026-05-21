@@ -130,7 +130,7 @@ def save_symbol(slug: str, page: fitz.Page, cell: tuple):
     # Crop the symbol from the PDF and center it on a square canvas. It's
     # black-and-white line art, so greyscale + optimise keeps the file tiny.
     img = center_on_square(render_cell(page, cell))
-    img = img.convert("L").resize((OUTPUT_SIZE, OUTPUT_SIZE), Image.LANCZOS)
+    img = img.convert("L").resize((OUTPUT_SIZE, OUTPUT_SIZE), Image.Resampling.LANCZOS)
     img.save(IMG_DIR / f"{slug}.png", optimize=True)
 
 
