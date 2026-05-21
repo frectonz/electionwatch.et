@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
+import icon from "astro-icon";
 import { syncSymbols } from "./scripts/sync-symbols.ts";
 import { buildPollingStationPoints } from "./scripts/build-ps-points.ts";
 import { buildLlms } from "./scripts/build-llms.ts";
@@ -40,7 +41,13 @@ function llmsExport() {
 // https://astro.build/config
 export default defineConfig({
   site: "https://electionwatch.et",
-  integrations: [symbolAssets(), pollingStationMap(), llmsExport(), sitemap()],
+  integrations: [
+    symbolAssets(),
+    pollingStationMap(),
+    llmsExport(),
+    icon(),
+    sitemap(),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },

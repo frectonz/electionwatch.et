@@ -12,7 +12,7 @@ import {
 } from "@/data";
 import { timestamp } from "@/lib/format";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import { Youtube } from "@lucide/astro";
+import { Icon } from "astro-icon/components";
 
 export function getStaticPaths() {
   return allDebates.map((d) => ({ params: { id: d.meta.video_id } }));
@@ -125,7 +125,7 @@ const questions = debate.analysis.questions.map((q, i) => {
       rel="noopener noreferrer"
       class="inline-flex items-center gap-1.5 text-xs text-ew-text-muted hover:text-ew-shell mt-1"
     >
-      <Youtube class="w-3.5 h-3.5" />
+      <Icon name="simple-icons:youtube" class="w-3.5 h-3.5" />
       Open on YouTube
     </a>
   </ClipPlayer>

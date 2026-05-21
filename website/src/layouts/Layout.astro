@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
-import { House, Landmark, Database, Info, Github } from "@lucide/astro";
+import { House, Landmark, Database, Info } from "@lucide/astro";
+import { Icon } from "astro-icon/components";
 import { ogImageFor } from "@/lib/og-pages";
 
 interface Props {
@@ -185,7 +186,7 @@ const glyphs = Array.from({ length: 150 }, () => {
             class="text-white/70 hover:text-ew-gold transition-colors flex items-center gap-1.5"
             aria-label="Source code on GitHub"
           >
-            <Github class="w-4 h-4" />
+            <Icon name="simple-icons:github" class="w-4 h-4" />
             <span class="hidden sm:inline">GitHub</span>
           </a>
         </div>

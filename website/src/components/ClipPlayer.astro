@@ -1,5 +1,6 @@
 ---
-import { Play, Youtube } from "@lucide/astro";
+import { Play } from "@lucide/astro";
+import { Icon } from "astro-icon/components";
 
 interface Props {
   defaultVideoId?: string;
@@ -93,7 +94,7 @@ const initialSrc = defaultVideoId
               rel="noopener noreferrer"
               class="uppercase tracking-wider inline-flex items-center gap-1 hover:text-ew-shell"
             >
-              <Youtube class="w-3 h-3" />
+              <Icon name="simple-icons:youtube" class="w-3 h-3" />
               Open
             </a>
           </div>
