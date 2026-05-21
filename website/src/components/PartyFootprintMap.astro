@@ -15,12 +15,7 @@ interface Props {
   partyName: string;
   height?: string;
 }
-const {
-  contestedHopr,
-  contestedRc,
-  partyName,
-  height = "68vh",
-} = Astro.props;
+const { contestedHopr, contestedRc, partyName, height = "68vh" } = Astro.props;
 
 const id = "pfmap-" + Math.random().toString(36).slice(2, 8);
 const GREY = "#d4d7e1"; // faint "not running" dots
@@ -154,10 +149,7 @@ const sets = { hopr: contestedHopr, rc: contestedRc };
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" is:inline
 ></script>
-<script
-  is:inline
-  define:vars={{ id, COLORS, sets, startMode, partyName }}
->
+<script is:inline define:vars={{ id, COLORS, sets, startMode, partyName }}>
   const container = document.getElementById(id);
   // Contested constituency slugs become Sets for O(1) membership tests.
   const setOf = { hopr: new Set(sets.hopr), rc: new Set(sets.rc) };
