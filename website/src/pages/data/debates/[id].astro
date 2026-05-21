@@ -186,7 +186,7 @@ const questions = debate.analysis.questions.map((q, i) => {
           <button
             type="button"
             data-party-slug=""
-            class="text-xs px-2.5 py-1 rounded-full border border-ew-shell bg-ew-shell text-white"
+            class="text-xs px-2.5 py-1 rounded-full border border-ew-shell bg-ew-shell text-white transition-colors"
           >
             All
           </button>
@@ -357,6 +357,10 @@ const questions = debate.analysis.questions.map((q, i) => {
         b.classList.toggle("border-ew-shell", active);
         b.classList.toggle("border-ew-card-border", !active);
         b.classList.toggle("text-ew-text-dim", !active);
+        // Only hover-tint while inactive; otherwise the white label turns
+        // ew-shell on the ew-shell background and becomes unreadable.
+        b.classList.toggle("hover:text-ew-shell", !active);
+        b.classList.toggle("hover:border-ew-shell", !active);
       });
       document.querySelectorAll("[data-party-answer]").forEach(function (el) {
         const match = !slug || el.dataset.partyAnswer === slug;
