@@ -72,22 +72,52 @@ export function buildLlms() {
     return;
   }
 
-  // 1. Mirror the raw datasets into public/data/ at stable URLs.
+  // Clear only the subdirs this script owns, so renamed/removed source files
+  // don't linger (the polling-stations-map/ dir is written by another
+  // integration — leave it alone).
+  for (const sub of [
+    "candidates",
+    "polling-stations",
+    "debates",
+    "party-positions",
+  ]) {
+    fs.rmSync(path.join(DATA_DEST, sub), { recursive: true, force: true });
+  }
+
+  // 1. Mirror the raw datasets into public/data/ at stable URLs. The transcripts
+  // source holds two distinct datasets — the debate broadcasts (under etv_nebe/
+  // and fana_medrek/) and the per-party position dossiers (positions/) — so they
+  // are mirrored, and listed below, separately.
   const candFiles = mirror(CAND_SRC, "candidates");
   const psFiles = mirror(PS_SRC, "polling-stations");
-  const debateFiles = mirror(TRANS_SRC, "debates");
+  const debateFiles = [
+    ...mirror(path.join(TRANS_SRC, "etv_nebe"), "debates/etv_nebe"),
+    ...mirror(path.join(TRANS_SRC, "fana_medrek"), "debates/fana_medrek"),
+  ].sort();
+  const positionFiles = mirror(
+    path.join(TRANS_SRC, "positions"),
+    "party-positions",
+  );
+  // The shared party-name registry, served alongside the position dossiers.
+  fs.copyFileSync(
+    path.join(TRANS_SRC, "parties.json"),
+    path.join(DATA_DEST, "party-positions", "parties.json"),
+  );
+  positionFiles.push(path.join("party-positions", "parties.json"));
+  positionFiles.sort();
 
   const candIdx = readJSON<CandIndex>(path.join(CAND_SRC, "index.json"));
   const psIdx = readJSON<PsIndex>(path.join(PS_SRC, "index.json"));
-  const debateMeta = debateFiles.filter((f) => f.endsWith(".meta.json")).length;
-  const positionFiles = debateFiles.filter((f) =>
-    f.startsWith(path.join("debates", "positions") + path.sep),
+  const debateCount = debateFiles.filter((f) =>
+    f.endsWith(".meta.json"),
   ).length;
+  const positionCount =
+    positionFiles.filter((f) => f.endsWith(".json")).length - 1; // minus the shared parties.json registry
 
   // public/data/<rel> is served at /data/<rel>.
   const url = (rel: string) => `${SITE}/data/${rel.split(path.sep).join("/")}`;
 
-  // 2. Machine-readable manifest: every dataset, its stats, and its files.
+  // 2. Machine-readable manifest: the four datasets, their stats, and files.
   const manifest = {
     name: "electionwatch.et",
     description:
@@ -97,16 +127,25 @@ export function buildLlms() {
     generated_at: new Date().toISOString().slice(0, 10),
     datasets: [
       {
-        id: "candidates",
-        title: "Candidates",
-        records: candIdx.total_candidates,
-        index: url("candidates/index.json"),
-        files: candFiles.map(url),
+        id: "debates",
+        title: "Debate broadcasts",
+        records: debateCount,
+        recordsLabel: "broadcasts analysed",
+        files: debateFiles.map(url),
+      },
+      {
+        id: "party-positions",
+        title: "Party positions",
+        records: positionCount,
+        recordsLabel: "party position dossiers",
+        registry: url("party-positions/parties.json"),
+        files: positionFiles.map(url),
       },
       {
         id: "polling-stations",
         title: "Polling stations",
         records: psIdx.total_stations,
+        recordsLabel: "polling stations",
         index: url("polling-stations/index.json"),
         files: psFiles.map(url),
         notes: `${num(psIdx.with_coordinates)} of ${num(
@@ -114,11 +153,12 @@ export function buildLlms() {
         )} stations have NEBE-published GPS coordinates.`,
       },
       {
-        id: "debates",
-        title: "Debate broadcasts & party positions",
-        records: debateMeta,
-        position_files: positionFiles,
-        files: debateFiles.map(url),
+        id: "candidates",
+        title: "Candidates",
+        records: candIdx.total_candidates,
+        recordsLabel: "candidates",
+        index: url("candidates/index.json"),
+        files: candFiles.map(url),
       },
     ],
   };
@@ -131,11 +171,16 @@ export function buildLlms() {
   // 3. The llms.txt entry point.
   fs.writeFileSync(
     path.join(PUBLIC, "llms.txt"),
-    renderLlmsTxt(candIdx, psIdx, debateMeta, positionFiles),
+    renderLlmsTxt(candIdx, psIdx, debateCount, positionCount),
   );
 
+  const total =
+    candFiles.length +
+    psFiles.length +
+    debateFiles.length +
+    positionFiles.length;
   console.log(
-    `[llms] mirrored ${candFiles.length + psFiles.length + debateFiles.length} JSON files -> public/data/ + manifest.json + llms.txt`,
+    `[llms] mirrored ${total} JSON files -> public/data/ + manifest.json + llms.txt`,
   );
 }
 
@@ -199,17 +244,28 @@ https://nebe.org.et/en/List_of_polling_stations
 - Map of GPS-located stations (compact): ${SITE}/data/polling-stations-map.json (+ per-region files under \`/data/polling-stations-map/<region>.json\`).
 - Human view: ${SITE}/data/polling-stations
 
-## Debates & party positions
+## Debates
 
-Question-by-question analyses of every official debate (ETV/NEBE and Fana
-Medrek), and consolidated position files per party. These are the editorial
-summaries and analysis: each claim, key point, and position links to the exact
-YouTube timestamp where it was spoken. Source: ${SITE}/data/debates
+Question-by-question analyses of every official debate broadcast (ETV/NEBE and
+Fana Medrek). The analysis files are the editorial summaries: each claim and key
+point links to the exact YouTube timestamp where it was spoken. Source:
+${SITE}/data/debates
 
-- Per-debate metadata (\`*.meta.json\`), analysis (\`*.analysis.json\`: \`overall_topic\`, \`questions[]\` each with \`asker\`, \`topic\`, \`question\`, and per-party \`answers[]\` carrying a \`summary\`, \`key_points[]\`, and timestamped \`citations[]\`), and raw transcript (\`*.json\`) under \`${SITE}/data/debates/etv_nebe/\` and \`${SITE}/data/debates/fana_medrek/\`.
-- Party position dossiers under \`${SITE}/data/debates/positions/<party-slug>.json\`: each \`{ topic, position, citations[] }\`, aggregated across every debate appearance.
-- Party registry: ${SITE}/data/debates/parties.json
-- Human views: ${SITE}/data/debates and ${SITE}/parties
+- Per-debate files under \`${SITE}/data/debates/etv_nebe/\` and \`${SITE}/data/debates/fana_medrek/\`, each broadcast as three files:
+  - \`<id>.meta.json\` — title, source, upload date, duration, YouTube URL, participating parties.
+  - \`<id>.analysis.json\` — \`overall_topic\` and \`questions[]\`, each with \`asker\`, \`topic\`, \`question\`, and per-party \`answers[]\` carrying a \`summary\`, \`key_points[]\`, and timestamped \`citations[]\`.
+  - \`<id>.json\` — the raw transcript.
+- Human view: ${SITE}/data/debates
+
+## Party positions
+
+Consolidated, citable position dossiers per party, aggregated across every
+debate appearance into one file. These are the editorial summaries of where each
+party stands. Source: ${SITE}/parties
+
+- Position dossiers under \`${SITE}/data/party-positions/<party-slug>.json\`: each \`{ topic, position, citations[] }\`, where every citation links to the moment in a debate it was stated.
+- Party registry (slug → name): ${SITE}/data/party-positions/parties.json
+- Human view: ${SITE}/parties
 
 ## About
 
