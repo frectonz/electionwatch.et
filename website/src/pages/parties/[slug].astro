@@ -9,16 +9,39 @@ import {
   SOURCE_LABELS,
   formatDate,
 } from "@/data";
-import { partyByProfileSlug } from "@/data/candidates";
+import {
+  partyByProfileSlug,
+  loadAllCandidates,
+  type Candidate,
+} from "@/data/candidates";
 import { slugifyTopic, fmt } from "@/lib/format";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
 import { MessagesSquare, Quote, Users } from "@lucide/astro";
 
 export function getStaticPaths() {
-  return allParties.map((p) => ({ params: { slug: p.slug } }));
+  // Group every candidate by party name once, so each party page can list its
+  // own candidates without re-scanning the full dataset.
+  const byParty = new Map<string, Candidate[]>();
+  for (const c of loadAllCandidates()) {
+    const list = byParty.get(c.party) ?? [];
+    list.push(c);
+    byParty.set(c.party, list);
+  }
+  return allParties.map((p) => {
+    const cp = partyByProfileSlug.get(p.slug);
+    return {
+      params: { slug: p.slug },
+      props: { candidates: cp ? (byParty.get(cp.name) ?? []) : [] },
+    };
+  });
 }
 
 const { slug } = Astro.params as { slug: string };
+const { candidates } = Astro.props as { candidates: Candidate[] };
 const party = partyBySlug.get(slug);
 if (!party) {
   return Astro.redirect("/parties");
@@ -44,6 +67,32 @@ const debateByVideo = new Map<string, { title: string }>(
 
 // Link to this party's candidate breakdown, if it fields candidates.
 const candidateParty = partyByProfileSlug.get(slug);
+
+// All candidates this party is fielding, as a searchable/filterable grid. Party
+// is constant here, so the columns carry region, constituency, and ballot
+// instead.
+const ballotLabel = (body: string) => (body === "hopr" ? "HoPR" : "RC");
+const candidateColumns: GridColumn[] = [
+  { label: "Name", grow: 1.6, sortable: true },
+  { label: "Region", grow: 1, filter: true },
+  { label: "Constituency", grow: 1.4, sortable: true },
+  { label: "Ballot", grow: 0.7, filter: true },
+  { label: "Gender", grow: 0.7, filter: true },
+  { label: "Education", grow: 1.1, filter: true },
+  { label: "Disability", grow: 0.8, filter: true },
+];
+const candidateRows: GridRow[] = candidates.map((c) => ({
+  search: `${c.full_name} ${c.region} ${c.constituency}`,
+  cells: [
+    { text: c.full_name },
+    { text: c.region },
+    { text: c.constituency },
+    { text: ballotLabel(c.body) },
+    { text: c.gender },
+    { text: c.education },
+    { text: c.disability ? "Yes" : "No" },
+  ],
+}));
 ---
 
 <Layout
@@ -239,6 +288,36 @@ const candidateParty = partyByProfileSlug.get(slug);
             </a>
           ))}
         </div>
+      </section>
+    )
+  }
+
+  {
+    candidates.length > 0 && (
+      <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div class="flex items-baseline justify-between flex-wrap gap-2 mb-1">
+          <h2 class="font-display text-2xl">Candidates</h2>
+          {candidateParty && (
+            <a
+              href={`/data/candidates/party/${candidateParty.slug}`}
+              class="text-sm text-ew-shell hover:text-ew-gold font-medium"
+            >
+              Full breakdown &rsaquo;
+            </a>
+          )}
+        </div>
+        <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+          Every candidate {party.name} is fielding. Search by name, or filter by
+          region, ballot, gender, education, or disability.
+        </p>
+        <DataGrid
+          columns={candidateColumns}
+          rows={candidateRows}
+          defaultSort={1}
+          minWidth="820px"
+          maxHeight="640px"
+          searchPlaceholder="Search name, region, or constituency"
+        />
       </section>
     )
   }
