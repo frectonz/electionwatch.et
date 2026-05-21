@@ -8,6 +8,7 @@ import {
   regionAggregation,
   peopleRings,
   educationChart,
+  partyUrlSlug,
   type Party,
   type Candidate,
 } from "@/data/candidates";
@@ -17,6 +18,10 @@ import BallotBadge from "@/components/BallotBadge.astro";
 import BallotLegend from "@/components/BallotLegend.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import PartyFootprintMap from "@/components/PartyFootprintMap.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
 import { ArrowRight, MessageSquareQuote, MapPin } from "@lucide/astro";
 
 type ContestedRow = {
@@ -63,7 +68,7 @@ export function getStaticPaths() {
       (a, b) => a.region.localeCompare(b.region) || b.candidates - a.candidates,
     );
     return {
-      params: { slug: party.slug },
+      params: { slug: partyUrlSlug(party) },
       props: { party, candidates, contested },
     };
   });
@@ -125,6 +130,31 @@ const contestedRc = contested
   .filter((r) => r.body === "rc" && r.slug)
   .map((r) => r.slug as string);
 const mappedSeats = contestedHopr.length + contestedRc.length;
+
+// Every candidate this party fields, as a searchable/filterable grid. Party is
+// constant here, so the columns carry region, constituency, and ballot.
+const ballotLabel = (body: string) => (body === "hopr" ? "HoPR" : "RC");
+const candidateColumns: GridColumn[] = [
+  { label: "Name", grow: 1.6, sortable: true },
+  { label: "Region", grow: 1, filter: true },
+  { label: "Constituency", grow: 1.4, sortable: true },
+  { label: "Ballot", grow: 0.7, filter: true },
+  { label: "Gender", grow: 0.7, filter: true },
+  { label: "Education", grow: 1.1, filter: true },
+  { label: "Disability", grow: 0.8, filter: true },
+];
+const candidateRows: GridRow[] = candidates.map((c) => ({
+  search: `${c.full_name} ${c.region} ${c.constituency}`,
+  cells: [
+    { text: c.full_name },
+    { text: c.region },
+    { text: c.constituency },
+    { text: ballotLabel(c.body) },
+    { text: c.gender },
+    { text: c.education },
+    { text: c.disability ? "Yes" : "No" },
+  ],
+}));
 ---
 
 <Layout
@@ -243,6 +273,23 @@ const mappedSeats = contestedHopr.length + contestedRc.length;
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- Full candidate list -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <h2 class="font-display text-2xl mb-1">All candidates</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Every candidate {party.name_en} is fielding. Search by name, or filter by region,
+      ballot, gender, education, or disability.
+    </p>
+    <DataGrid
+      columns={candidateColumns}
+      rows={candidateRows}
+      defaultSort={1}
+      minWidth="820px"
+      maxHeight="640px"
+      searchPlaceholder="Search name, region, or constituency"
+    />
   </section>
 
   <!-- Constituencies contested (navigable + filterable) -->

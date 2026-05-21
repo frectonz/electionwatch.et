@@ -1,5 +1,9 @@
 import { allParties, allDebates } from "@/data";
-import { candidateRegions, candidateParties } from "@/data/candidates";
+import {
+  candidateRegions,
+  candidateParties,
+  partyUrlSlug,
+} from "@/data/candidates";
 import { regions as pollingRegions } from "@/data/pollingStations";
 
 export interface OgPage {
@@ -88,7 +92,7 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
 
   // --- Candidates by party ---
   ...candidateParties.map((p): [string, OgPage] => [
-    `data/candidates/party/${p.slug}`,
+    `data/candidates/party/${partyUrlSlug(p)}`,
     {
       title: `${p.name_en} — Candidates`,
       description: `${p.candidates.toLocaleString()} candidates fielded by ${p.name_en} in ${TAGLINE}.`,

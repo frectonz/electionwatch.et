@@ -3,7 +3,7 @@
 // (it reorders/filters the children of [data-rows], which works for a card grid
 // just as well as a table).
 import { fmt } from "@/lib/format";
-import type { Party } from "@/data/candidates";
+import { partyUrlSlug, type Party } from "@/data/candidates";
 import { MessageSquareQuote } from "@lucide/astro";
 
 interface Props {
@@ -28,7 +28,7 @@ const { parties } = Astro.props;
     {
       parties.map((p) => (
         <a
-          href={`/data/candidates/party/${p.slug}`}
+          href={`/data/candidates/party/${partyUrlSlug(p)}`}
           class="group flex items-center justify-between gap-3 bg-ew-card border border-ew-card-border rounded-lg px-4 py-2.5 hover:border-ew-shell/40 transition-colors"
           data-search={p.name_en.toLowerCase()}
           data-s0={p.name_en.toLowerCase()}

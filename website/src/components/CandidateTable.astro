@@ -6,7 +6,7 @@ import DataGrid, {
   type GridColumn,
   type GridRow,
 } from "@/components/DataGrid.astro";
-import { partyByName, type Candidate } from "@/data/candidates";
+import { partyByName, partyUrlSlug, type Candidate } from "@/data/candidates";
 
 interface Props {
   candidates: Candidate[];
@@ -16,7 +16,7 @@ const { candidates } = Astro.props;
 const partyEn = (name: string) => partyByName.get(name)?.name_en ?? name;
 const partyHref = (name: string) => {
   const p = partyByName.get(name);
-  return p ? `/data/candidates/party/${p.slug}` : null;
+  return p ? `/data/candidates/party/${partyUrlSlug(p)}` : null;
 };
 
 // Education ordered low -> high so that column sorts by level, not alphabet.

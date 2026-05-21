@@ -120,6 +120,33 @@ export const partyByProfileSlug = new Map(
     .map((p) => [p.profile_slug as string, p]),
 );
 
+const slugifyName = (name: string): string =>
+  name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+// Readable, stable URL slug for each candidate party: its profile slug when it
+// has one, else a slugified English name (deduplicated). Replaces the positional
+// "party-N" id in URLs.
+const urlSlugById = new Map<string, string>();
+export const partyByUrlSlug = new Map<string, Party>();
+{
+  const used = new Set<string>();
+  for (const p of candidateParties) {
+    const base = p.profile_slug || slugifyName(p.name_en) || p.slug;
+    let s = base;
+    for (let n = 2; used.has(s); n++) s = `${base}-${n}`;
+    used.add(s);
+    urlSlugById.set(p.slug, s);
+    partyByUrlSlug.set(s, p);
+  }
+}
+
+/** The public URL slug for a candidate party (use for /data/candidates/party/). */
+export const partyUrlSlug = (p: Party): string =>
+  urlSlugById.get(p.slug) ?? p.slug;
+
 /** Look up a candidate constituency by body + region + name (candidate side). */
 const constituencyByKey = new Map<string, CandidateConstituency>();
 for (const c of [

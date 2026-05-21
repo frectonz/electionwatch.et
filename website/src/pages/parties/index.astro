@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { allParties } from "@/data";
-import { candidateParties } from "@/data/candidates";
+import { candidateParties, partyUrlSlug } from "@/data/candidates";
 import { fmt } from "@/lib/format";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight, Quote, MessagesSquare, Users } from "@lucide/astro";
@@ -82,7 +82,7 @@ const withoutPositions = ballotParties
         <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
           {withoutPositions.map((p) => (
             <a
-              href={`/data/candidates/party/${p.slug}`}
+              href={`/data/candidates/party/${partyUrlSlug(p)}`}
               class="group bg-ew-card border border-ew-card-border rounded-lg px-4 py-3 hover:border-ew-shell/40 transition-colors"
             >
               <div class="text-sm text-ew-text group-hover:text-ew-shell transition-colors leading-tight">
