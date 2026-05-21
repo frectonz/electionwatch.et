@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { House, Landmark, Database, Info } from "@lucide/astro";
+import { House, Landmark, Database, Info, Github } from "@lucide/astro";
 
 interface Props {
   title?: string;
@@ -128,6 +128,16 @@ const glyphs = Array.from({ length: 150 }, () => {
             <Info class="w-4 h-4" />
             <span class="hidden sm:inline">About</span>
           </a>
+          <a
+            href="https://github.com/frectonz/electionwatch.et"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white/70 hover:text-ew-gold transition-colors flex items-center gap-1.5"
+            aria-label="Source code on GitHub"
+          >
+            <Github class="w-4 h-4" />
+            <span class="hidden sm:inline">GitHub</span>
+          </a>
         </div>
       </div>
     </nav>
@@ -154,6 +164,23 @@ const glyphs = Array.from({ length: 150 }, () => {
                 class="hover:underline">NEBE</a
               >, or any political party.
             </p>
+            <p class="text-white/70 text-sm max-w-md leading-relaxed mt-4">
+              This site is open source. Spotted an inaccuracy or have an idea?
+              <a
+                href="https://github.com/frectonz/electionwatch.et/issues"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-ew-gold hover:text-ew-gold/80 transition-colors"
+                >Open an issue on GitHub</a
+              >, or reach out to
+              <a
+                href="https://t.me/frectonz"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-ew-gold hover:text-ew-gold/80 transition-colors"
+                >@frectonz</a
+              > on Telegram.
+            </p>
           </div>
           <div>
             <h4
@@ -167,22 +194,10 @@ const glyphs = Array.from({ length: 150 }, () => {
               automatically, it links back to the original source.
             </p>
             <p class="text-white/70 text-sm leading-relaxed mt-3">
-              Check the source before drawing conclusions.
+              Check the source before drawing conclusions. Data is provided
+              as-is for informational purposes.
             </p>
           </div>
-        </div>
-        <div class="mt-8 pt-6 border-t border-white/20 text-center space-y-2">
-          <p class="text-white/50 text-xs">
-            If you find any inaccuracies or want to contact the creators of this
-            site, reach out to
-            <a
-              href="https://t.me/frectonz"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-ew-gold hover:text-ew-gold/80 transition-colors"
-              >@frectonz</a
-            > on Telegram.
-          </p>
         </div>
       </div>
     </footer>

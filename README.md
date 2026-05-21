@@ -32,6 +32,10 @@ pnpm build
 pnpm preview
 ```
 
+## Contributing
+
+Found an inaccuracy, or have an idea for a dataset or feature? Please [open an issue](https://github.com/frectonz/electionwatch.et/issues). The site is open source and contributions are welcome.
+
 ## Disclaimer
 
 This is an independent, unofficial, open-source project. It is not affiliated with or endorsed by the Ethiopian government, the National Election Board of Ethiopia, or any political party. Data is provided as-is for informational purposes.

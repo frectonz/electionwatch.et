@@ -13,6 +13,7 @@ import {
   LayoutGrid,
   ExternalLink,
   ArrowRight,
+  Github,
 } from "@lucide/astro";
 
 const mission = [
@@ -208,17 +209,27 @@ const steps = [
             >, or any political party.
           </p>
           <p>
-            The data is provided as-is. Where records are extracted from PDFs or
-            summarized automatically, they may contain extraction or
-            interpretation errors. Always check the linked source before drawing
-            conclusions.
+            The data is provided as-is for informational purposes. Where records
+            are extracted from PDFs or summarized automatically, they may
+            contain extraction or interpretation errors. Always check the linked
+            source before drawing conclusions.
           </p>
         </div>
       </div>
       <div class="bg-ew-card border border-ew-card-border rounded-xl p-6">
-        <h3 class="font-display text-lg text-ew-text mb-3">Contact</h3>
+        <h3 class="font-display text-lg text-ew-text mb-3">
+          Open source &amp; contact
+        </h3>
         <p class="text-sm text-ew-text-dim leading-relaxed">
-          Found an inaccuracy, or want to suggest a dataset? Reach out to
+          This site is open source. Found an inaccuracy, or want to suggest a
+          dataset?
+          <a
+            href="https://github.com/frectonz/electionwatch.et/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-ew-shell hover:text-ew-gold font-medium"
+            >Open an issue on GitHub</a
+          >, or reach out to
           <a
             href="https://t.me/frectonz"
             target="_blank"
@@ -227,6 +238,14 @@ const steps = [
           >
           on Telegram.
         </p>
+        <a
+          href="https://github.com/frectonz/electionwatch.et"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-4 inline-flex items-center gap-1.5 text-sm text-ew-shell hover:text-ew-gold font-medium"
+        >
+          <Github class="w-4 h-4" /> View the source on GitHub
+        </a>
       </div>
     </div>
   </section>
