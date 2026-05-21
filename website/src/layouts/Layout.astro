@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { House, Landmark, Database, Info, Github } from "@lucide/astro";
+import { ogImageFor } from "@/lib/og-pages";
 
 interface Props {
   title?: string;
@@ -16,6 +17,7 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const currentPath = Astro.url.pathname;
+const ogImageURL = new URL(ogImageFor(currentPath), Astro.site);
 
 const navLink = (href: string) => {
   const isActive =
@@ -53,10 +55,19 @@ const glyphs = Array.from({ length: 150 }, () => {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#1f2455" />
+    <meta name="msapplication-TileColor" content="#1f2455" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="electionwatch.et" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -69,6 +80,7 @@ const glyphs = Array.from({ length: 150 }, () => {
     <link rel="canonical" href={canonicalURL.href} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL.href} />
     <meta property="og:url" content={canonicalURL.href} />
     <meta property="og:type" content={type} />
     <meta property="og:site_name" content="electionwatch.et" />
@@ -76,7 +88,45 @@ const glyphs = Array.from({ length: 150 }, () => {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL.href} />
+    {
+      currentPath === "/" && (
+        <script
+          is:inline
+          type="application/ld+json"
+          set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "electionwatch.et",
+            url: "https://electionwatch.et",
+            description:
+              "Open datasets on Ethiopia's 7th General Election: candidates, polling stations, party debates, and positions. Every record links to its source.",
+          })}
+        />
+      )
+    }
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: "electionwatch.et",
+        url: "https://electionwatch.et",
+        logo: "https://electionwatch.et/icon-512.png",
+        description:
+          "An independent open-data portal for Ethiopia's 7th General Election.",
+      })}
+    />
     <slot name="head" />
+    {
+      import.meta.env.PROD && (
+        <script
+          is:inline
+          set:html={`if("serviceWorker" in navigator){window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js",{scope:"/",updateViaCache:"none"}).catch(()=>{});});}`}
+        />
+      )
+    }
   </head>
   <body
     class="bg-ew-bg font-body min-h-screen flex flex-col antialiased relative"
