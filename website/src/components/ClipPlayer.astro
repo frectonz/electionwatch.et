@@ -162,6 +162,7 @@ const initialSrc = defaultVideoId
     let pollTimer = null;
 
     function fmt(s) {
+      if (!Number.isFinite(s)) return "0:00";
       s = Math.max(0, Math.floor(s));
       const h = Math.floor(s / 3600);
       const m = Math.floor((s % 3600) / 60);
@@ -236,7 +237,8 @@ const initialSrc = defaultVideoId
       if (!activeClip || !player || !player.getCurrentTime) return;
       const t = player.getCurrentTime();
       const clipDur = activeClip.end - activeClip.start;
-      if (clipDur <= 0) return;
+      // getCurrentTime() can return NaN for a tick right after a load.
+      if (!Number.isFinite(t) || clipDur <= 0) return;
       const elapsed = Math.max(0, Math.min(clipDur, t - activeClip.start));
       progressFill.style.width = (elapsed / clipDur) * 100 + "%";
       progressTime.textContent = fmt(elapsed) + " / " + fmt(clipDur);
