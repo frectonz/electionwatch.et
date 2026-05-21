@@ -103,7 +103,8 @@ const initialSrc = defaultVideoId
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            class="hidden mt-2 w-full justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-shell text-white px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-opacity"
+            style="display:none"
+            class="mt-2 w-full justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-shell text-white px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-opacity"
           >
             <Icon name="simple-icons:youtube" class="w-3.5 h-3.5" />
             Clip ended — continue on YouTube
@@ -166,13 +167,15 @@ const initialSrc = defaultVideoId
       );
     }
 
+    // Toggle via inline display (not the `hidden` class) — `inline-flex` would
+    // otherwise win the display cascade and keep the button always visible.
     function showContinue(seconds) {
       if (!clipContinue || !activeClip) return;
       clipContinue.setAttribute("href", watchUrl(activeClip.videoId, seconds));
-      clipContinue.classList.remove("hidden");
+      clipContinue.style.display = "inline-flex";
     }
     function hideContinue() {
-      if (clipContinue) clipContinue.classList.add("hidden");
+      if (clipContinue) clipContinue.style.display = "none";
     }
 
     function clipUrl(videoId, start, end, mode) {
