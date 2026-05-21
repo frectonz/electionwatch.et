@@ -67,3 +67,46 @@
     color: var(--color-ew-bg);
   }
 }
+
+/* Shared MapLibre popup chrome (PollingStationMap + PartyFootprintMap). The
+   per-map body content keeps its own component-scoped classes. */
+.maplibregl-popup-content {
+  padding: 0 !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  border: 1px solid var(--color-ew-card-border);
+  box-shadow: 0 8px 28px rgba(21, 23, 42, 0.18);
+}
+.maplibregl-popup-close-button {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  padding: 2px 8px;
+  right: 2px;
+  top: 2px;
+  z-index: 1;
+}
+.maplibregl-popup-close-button:hover {
+  color: #fff;
+  background: transparent;
+}
+.ew-pop-head {
+  background: var(--color-ew-shell);
+  padding: 12px 14px;
+}
+.ew-pop-title {
+  font-family: var(--font-display, Georgia, serif);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.25;
+  color: #fff;
+  padding-right: 16px;
+}
+.ew-pop-sub {
+  margin-top: 3px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.72);
+}
+.ew-pop-body {
+  padding: 11px 14px;
+  background: var(--color-ew-card);
+}

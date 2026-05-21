@@ -4,7 +4,7 @@ import {
   hoprCandidateConstituencies,
   rcCandidateConstituencies,
   loadCandidates,
-  partyByName,
+  partyDistChart,
   BODY_LABEL,
   BODY_SHORT,
   type Candidate,
@@ -15,8 +15,6 @@ import StatTiles from "@/components/StatTiles.astro";
 import CandidateTable from "@/components/CandidateTable.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight, MapPin } from "@lucide/astro";
-
-const partyEn = (name: string) => partyByName.get(name)?.name_en ?? name;
 
 export function getStaticPaths() {
   const all = [...hoprCandidateConstituencies, ...rcCandidateConstituencies];
@@ -49,14 +47,7 @@ const { c, candidates } = Astro.props as {
   candidates: Candidate[];
 };
 
-const partyCount = new Map<string, number>();
-for (const cand of candidates)
-  partyCount.set(cand.party, (partyCount.get(cand.party) ?? 0) + 1);
-const parties = [...partyCount.entries()].sort((a, b) => b[1] - a[1]);
-const partyDist = {
-  labels: parties.map(([name]) => partyEn(name)),
-  counts: parties.map(([, n]) => n),
-};
+const partyDist = partyDistChart(candidates);
 const female = candidates.filter((x) => x.gender === "Female").length;
 
 const stats = [
@@ -120,14 +111,14 @@ const stats = [
   {
     /* Only meaningful when a party fields more than one candidate (RC seats are
        multi-member; HoPR is single-member, so every party would just show 1). */
-    parties.length > 1 && parties[0][1] > 1 && (
+    partyDist.counts.length > 1 && partyDist.counts[0] > 1 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <h2 class="font-display text-2xl mb-4">Candidates by party</h2>
         <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
           <div
             id="partyDistChart"
             data-chart={JSON.stringify(partyDist)}
-            style={`height:${Math.max(160, parties.length * 30 + 24)}px`}
+            style={`height:${Math.max(160, partyDist.counts.length * 30 + 24)}px`}
           />
         </div>
       </section>

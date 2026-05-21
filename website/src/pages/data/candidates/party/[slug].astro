@@ -3,12 +3,15 @@ import Layout from "@/layouts/Layout.astro";
 import {
   candidateParties,
   loadAllCandidates,
-  candidateRegionBySlug,
   findConstituency,
+  regionSlugByName,
+  regionAggregation,
+  peopleRings,
+  educationChart,
   type Party,
   type Candidate,
 } from "@/data/candidates";
-import { fmt, pct, BALLOT_COLORS, GOLD } from "@/lib/format";
+import { fmt, pct, BALLOT_COLORS } from "@/lib/format";
 import StatTiles from "@/components/StatTiles.astro";
 import BallotBadge from "@/components/BallotBadge.astro";
 import BallotLegend from "@/components/BallotLegend.astro";
@@ -27,9 +30,6 @@ type ContestedRow = {
 };
 
 export function getStaticPaths() {
-  const regionSlugByName = new Map(
-    [...candidateRegionBySlug.values()].map((r) => [r.name, r.slug]),
-  );
   const byParty = new Map<string, Candidate[]>();
   for (const c of loadAllCandidates()) {
     const list = byParty.get(c.party) ?? [];
@@ -78,30 +78,11 @@ const HOPR = BALLOT_COLORS.hopr;
 const RC = BALLOT_COLORS.rc;
 
 const female = candidates.filter((c) => c.gender === "Female").length;
+const disabled = candidates.filter((c) => c.disability).length;
 const totalStations = contested.reduce((a, r) => a + r.pollingStations, 0);
 
 // Per-region totals.
-const regionAgg = new Map<
-  string,
-  { name: string; slug: string; total: number; hopr: number; rc: number }
->();
-for (const c of candidates) {
-  const slug =
-    [...candidateRegionBySlug.values()].find((r) => r.name === c.region)
-      ?.slug ?? "";
-  const a = regionAgg.get(c.region) ?? {
-    name: c.region,
-    slug,
-    total: 0,
-    hopr: 0,
-    rc: 0,
-  };
-  a.total++;
-  if (c.body === "hopr") a.hopr++;
-  else a.rc++;
-  regionAgg.set(c.region, a);
-}
-const regionRows = [...regionAgg.values()].sort((a, b) => b.total - a.total);
+const regionRows = regionAggregation(candidates);
 
 const stats = [
   { label: "Candidates", value: party.candidates },
@@ -126,35 +107,14 @@ const regionChart = {
   hopr: regionRows.map((r) => r.hopr),
   rc: regionRows.map((r) => r.rc),
 };
-const disabled = candidates.filter((c) => c.disability).length;
-const genderChart = {
-  rings: [
-    [
-      { name: "Male", value: candidates.length - female, color: RC },
-      { name: "Female", value: female, color: HOPR },
-    ],
-    [
-      { name: "Has disability", value: disabled, color: GOLD },
-      {
-        name: "No disability",
-        value: candidates.length - disabled,
-        color: "#dfe1ea",
-      },
-    ],
-  ],
-};
+const genderChart = peopleRings(
+  female,
+  candidates.length - female,
+  disabled,
+  candidates.length,
+);
 // Education distribution, sorted by candidate count (desc).
-const eduCount = new Map<string, number>();
-for (const c of candidates)
-  eduCount.set(
-    c.education || "Not Specified",
-    (eduCount.get(c.education) ?? 0) + 1,
-  );
-const eduRows = [...eduCount.entries()].sort((a, b) => b[1] - a[1]);
-const eduChart = {
-  labels: eduRows.map(([k]) => k),
-  counts: eduRows.map(([, v]) => v),
-};
+const eduChart = educationChart(candidates);
 
 // Footprint map: the candidate-constituency slugs this party contests, split by
 // ballot. Constituencies with no polling-station match won't appear as dots.

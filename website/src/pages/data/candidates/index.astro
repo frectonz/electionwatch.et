@@ -6,9 +6,11 @@ import {
   candidateParties,
   hoprCandidateConstituencies,
   rcCandidateConstituencies,
+  peopleRings,
+  countChart,
   BODY_LABEL,
 } from "@/data/candidates";
-import { fmt, pct, BALLOT_COLORS, GOLD } from "@/lib/format";
+import { fmt, pct, BALLOT_COLORS } from "@/lib/format";
 import StatTiles from "@/components/StatTiles.astro";
 import BallotLegend from "@/components/BallotLegend.astro";
 import ContestedSeatCard from "@/components/ContestedSeatCard.astro";
@@ -104,34 +106,16 @@ const partyChart = {
   rc: topParties.map((p) => p.rc),
 };
 
-// Gender + education breakdowns. Education sorted by candidate count (desc).
-const genderEntries = Object.entries(idx.by_gender);
-const eduEntries = Object.entries(idx.by_education).sort((a, b) => b[1] - a[1]);
-const eduChart = {
-  labels: eduEntries.map(([k]) => k),
-  counts: eduEntries.map(([, v]) => v),
-};
-
-const GENDER_COLOR: Record<string, string> = {
-  Male: RC,
-  Female: HOPR,
-};
+// Education distribution, sorted by candidate count (desc).
+const eduChart = countChart(Object.entries(idx.by_education));
 
 // Concentric pie: gender (inner ring) + disability (outer ring).
-const genderRing = genderEntries.map(([name, value]) => ({
-  name,
-  value,
-  color: GENDER_COLOR[name] ?? "#7a7d92",
-}));
-const disabilityRing = [
-  { name: "Has disability", value: idx.with_disability, color: GOLD },
-  {
-    name: "No disability",
-    value: idx.total_candidates - idx.with_disability,
-    color: "#dfe1ea",
-  },
-];
-const peopleChart = { rings: [genderRing, disabilityRing] };
+const peopleChart = peopleRings(
+  idx.by_gender.Female ?? 0,
+  idx.by_gender.Male ?? 0,
+  idx.with_disability,
+  idx.total_candidates,
+);
 ---
 
 <Layout

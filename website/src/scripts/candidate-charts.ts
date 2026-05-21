@@ -2,30 +2,19 @@
 // values live in the tooltip, so value axes carry no numeric labels; only the
 // category axis is labelled. Colours are the site's orange/teal ballot combo.
 import * as echarts from "echarts";
-import { grad, radial, barShadow } from "@/scripts/chart-style";
+import {
+  grad,
+  radial,
+  barShadow,
+  offsetTooltip,
+  MONO,
+  MUTED,
+  GRID,
+  INK,
+} from "@/scripts/chart-style";
+import { fmt } from "@/lib/format";
 
-const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
-const MUTED = "#7a7d92";
-const GRID = "rgba(0,0,0,0.05)";
-const INK = "#1f2455";
-
-const nf = (n: number) => (n || 0).toLocaleString("en-US");
-
-// Keep the tooltip off the cursor so it never flickers under the pointer.
-const offsetTooltip = (
-  pt: number[],
-  _p: unknown,
-  _d: unknown,
-  _r: unknown,
-  size: { viewSize: number[]; contentSize: number[] },
-) => {
-  const [x, y] = pt;
-  const [vw, vh] = size.viewSize;
-  const [tw, th] = size.contentSize;
-  let left = x + 18;
-  if (left + tw > vw) left = x - tw - 18;
-  return [left, Math.max(0, Math.min(y - th / 2, vh - th))];
-};
+const nf = (n: number) => fmt(n ?? 0);
 
 type Stacked = { names: string[]; hopr: number[]; rc: number[] };
 type Hist = { labels: string[]; counts: number[] };

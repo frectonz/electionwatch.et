@@ -2,8 +2,8 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
-import { syncSymbols } from "./scripts/sync-symbols.mjs";
-import { buildPollingStationPoints } from "./scripts/build-ps-points.mjs";
+import { syncSymbols } from "./scripts/sync-symbols.ts";
+import { buildPollingStationPoints } from "./scripts/build-ps-points.ts";
 
 // Copies party symbol images into public/ before dev and build.
 function symbolAssets() {

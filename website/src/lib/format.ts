@@ -15,6 +15,12 @@ export const INK = "#1f2455";
 /** Brand gold accent (used where a non-navy highlight is needed). */
 export const GOLD = "#c79a3a";
 
+/** Muted text/axis grey. */
+export const MUTED = "#7a7d92";
+
+/** Neutral fill for the "no disability" share of the people ring. */
+export const DISABILITY_GREY = "#dfe1ea";
+
 export function timestamp(seconds: number): string {
   const total = Math.max(0, Math.floor(seconds));
   const h = Math.floor(total / 3600);

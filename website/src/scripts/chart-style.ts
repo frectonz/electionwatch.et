@@ -1,6 +1,32 @@
 // Shared ECharts styling helpers so every chart on the site uses the same
 // audit.et-inspired gradient fills and soft shadows.
 import * as echarts from "echarts";
+import { INK, MUTED } from "@/lib/format";
+
+// Re-exported so chart scripts have a single import site for chart tokens.
+export { INK, MUTED };
+
+/** Monospace stack for numeric chart labels. */
+export const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
+
+/** Faint split-line colour for value axes. */
+export const GRID = "rgba(0,0,0,0.05)";
+
+/** Keep an axis tooltip off the cursor so it never flickers under the pointer. */
+export const offsetTooltip = (
+  pt: number[],
+  _p: unknown,
+  _d: unknown,
+  _r: unknown,
+  size: { viewSize: number[]; contentSize: number[] },
+) => {
+  const [x, y] = pt;
+  const [vw, vh] = size.viewSize;
+  const [tw, th] = size.contentSize;
+  let left = x + 18;
+  if (left + tw > vw) left = x - tw - 18;
+  return [left, Math.max(0, Math.min(y - th / 2, vh - th))];
+};
 
 /** Hex colour to an rgba() string at alpha `a`. */
 export const hexA = (hex: string, a: number) => {

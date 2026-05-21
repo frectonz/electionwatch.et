@@ -96,7 +96,7 @@ const partiesRegistry: Record<string, PartyRegistryEntry> = JSON.parse(
 );
 
 // Symbols are synced into public/symbols/ at build time (see
-// scripts/sync-symbols.mjs); map each party slug to its served URL.
+// scripts/sync-symbols.ts); map each party slug to its served URL.
 const symbolsList: SymbolEntry[] = JSON.parse(
   fs.readFileSync(path.join(SYMBOLS_ROOT, "symbols.json"), "utf-8"),
 );

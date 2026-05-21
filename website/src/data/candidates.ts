@@ -1,6 +1,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
+import { BALLOT_COLORS, GOLD, DISABILITY_GREY } from "@/lib/format";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "../../../candidates/data/json");
@@ -179,4 +180,94 @@ export function loadCandidates(regionSlug: string, body: Body): Candidate[] {
   const file = path.join(ROOT, "candidates", `${regionSlug}_${body}.json`);
   if (!fs.existsSync(file)) return [];
   return JSON.parse(fs.readFileSync(file, "utf-8")) as Candidate[];
+}
+
+// --- Shaping helpers shared by the candidate pages -------------------------
+
+/** Region name -> slug, so pages don't re-scan candidateRegionBySlug per row. */
+export const regionSlugByName = new Map(
+  candidateRegions.map((r) => [r.name, r.slug]),
+);
+
+export type RegionAgg = {
+  name: string;
+  slug: string;
+  total: number;
+  hopr: number;
+  rc: number;
+};
+
+/** Per-region candidate totals (with HoPR/RC split), sorted by total desc. */
+export function regionAggregation(candidates: Candidate[]): RegionAgg[] {
+  const agg = new Map<string, RegionAgg>();
+  for (const c of candidates) {
+    const a = agg.get(c.region) ?? {
+      name: c.region,
+      slug: regionSlugByName.get(c.region) ?? "",
+      total: 0,
+      hopr: 0,
+      rc: 0,
+    };
+    a.total++;
+    if (c.body === "hopr") a.hopr++;
+    else a.rc++;
+    agg.set(c.region, a);
+  }
+  return [...agg.values()].sort((a, b) => b.total - a.total);
+}
+
+/** Inner gender ring + outer disability ring for the concentric people pie. */
+export function peopleRings(
+  female: number,
+  male: number,
+  disabled: number,
+  total: number,
+) {
+  return {
+    rings: [
+      [
+        { name: "Male", value: male, color: BALLOT_COLORS.rc },
+        { name: "Female", value: female, color: BALLOT_COLORS.hopr },
+      ],
+      [
+        { name: "Has disability", value: disabled, color: GOLD },
+        {
+          name: "No disability",
+          value: total - disabled,
+          color: DISABILITY_GREY,
+        },
+      ],
+    ],
+  };
+}
+
+export type CountChart = { labels: string[]; counts: number[] };
+
+/** Sort label/count pairs by count desc into the {labels, counts} chart shape. */
+export function countChart(entries: [string, number][]): CountChart {
+  const sorted = [...entries].sort((a, b) => b[1] - a[1]);
+  return { labels: sorted.map(([k]) => k), counts: sorted.map(([, v]) => v) };
+}
+
+/** Candidates per education level, highest first. */
+export function educationChart(candidates: Candidate[]): CountChart {
+  const counts = new Map<string, number>();
+  for (const c of candidates) {
+    const key = c.education || "Not Specified";
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+  return countChart([...counts.entries()]);
+}
+
+/** Candidates per party (labelled by English name), highest first. */
+export function partyDistChart(candidates: Candidate[]): CountChart {
+  const counts = new Map<string, number>();
+  for (const c of candidates)
+    counts.set(c.party, (counts.get(c.party) ?? 0) + 1);
+  return countChart(
+    [...counts.entries()].map(([name, n]) => [
+      partyByName.get(name)?.name_en ?? name,
+      n,
+    ]),
+  );
 }

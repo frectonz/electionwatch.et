@@ -17,6 +17,7 @@ import DataGrid, {
 } from "@/components/DataGrid.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { Users } from "@lucide/astro";
+import { fmt, pct, GOLD, INK } from "@/lib/format";
 
 export function getStaticPaths() {
   return regions.map((r) => ({
@@ -26,7 +27,6 @@ export function getStaticPaths() {
 }
 
 const { region } = Astro.props;
-const fmt = (n: number) => n.toLocaleString("en-US");
 
 const stations: PollingStation[] = [
   ...loadStations(region.slug, "digital"),
@@ -43,8 +43,6 @@ for (const s of stations) {
 const zones = [...zoneCount.entries()].sort((a, b) => b[1] - a[1]);
 
 const located = stations.filter((s) => s.coordinate_source === "nebe").length;
-const pct = (n: number, of: number) =>
-  of === 0 ? 0 : Math.round((n / of) * 100);
 
 const constituencies = hoprConstituencies
   .filter((c) => c.region === region.name)
@@ -189,7 +187,7 @@ const conStats = [
           <div class="flex items-baseline gap-2 bg-ew-card border border-ew-card-border rounded-xl px-4 py-3">
             <span
               class="w-3 h-3 rounded-full inline-block"
-              style="background:#c79a3a"
+              style={`background:${GOLD}`}
             />
             <span class="font-display text-2xl tabular-nums">
               {fmt(region.digital)}
@@ -205,7 +203,7 @@ const conStats = [
           <div class="flex items-baseline gap-2 bg-ew-card border border-ew-card-border rounded-xl px-4 py-3">
             <span
               class="w-3 h-3 rounded-full inline-block"
-              style="background:#1f2455"
+              style={`background:${INK}`}
             />
             <span class="font-display text-2xl tabular-nums">
               {fmt(region.manual)}
@@ -288,11 +286,17 @@ const conStats = [
 
   <script>
     import * as echarts from "echarts";
-    import { grad, barShadow } from "@/scripts/chart-style";
+    import {
+      grad,
+      barShadow,
+      offsetTooltip,
+      MONO,
+      MUTED,
+      GRID,
+      INK,
+    } from "@/scripts/chart-style";
+    import { GOLD } from "@/lib/format";
 
-    const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
-    const MUTED = "#7a7d92";
-    const GRID = "rgba(0,0,0,0.06)";
     const axisLabel = { color: MUTED, fontFamily: MONO, fontSize: 11 };
 
     const el = document.getElementById("zoneChart");
@@ -312,20 +316,7 @@ const conStats = [
           confine: true,
           enterable: false,
           transitionDuration: 0.2,
-          position: (
-            pt: number[],
-            _p: unknown,
-            _d: unknown,
-            _r: unknown,
-            size: { viewSize: number[]; contentSize: number[] },
-          ) => {
-            const [x, y] = pt;
-            const [vw, vh] = size.viewSize;
-            const [tw, th] = size.contentSize;
-            let left = x + 18;
-            if (left + tw > vw) left = x - tw - 18;
-            return [left, Math.max(0, Math.min(y - th / 2, vh - th))];
-          },
+          position: offsetTooltip,
           formatter: (
             params: {
               name: string;
@@ -367,14 +358,14 @@ const conStats = [
             type: "bar",
             stack: "t",
             data: d.online,
-            itemStyle: { color: grad("#c79a3a", "h"), ...barShadow },
+            itemStyle: { color: grad(GOLD, "h"), ...barShadow },
           },
           {
             name: "In-person",
             type: "bar",
             stack: "t",
             data: d.inperson,
-            itemStyle: { color: grad("#1f2455", "h") },
+            itemStyle: { color: grad(INK, "h") },
           },
         ],
       });

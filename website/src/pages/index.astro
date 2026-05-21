@@ -12,8 +12,7 @@ import { allDebates, allParties } from "@/data";
 import { datasets } from "@/data/datasets";
 import { pollingStationsIndex } from "@/data/pollingStations";
 import { candidatesIndex } from "@/data/candidates";
-
-const fmt = (n: number) => n.toLocaleString("en-US");
+import { fmt } from "@/lib/format";
 
 const totalQuestions = allDebates.reduce(
   (sum, d) => sum + d.analysis.questions.length,

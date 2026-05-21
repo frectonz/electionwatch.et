@@ -4,7 +4,7 @@
 // "Running here" dots take the ballot colour; the rest fade to faint grey, so a
 // single glance shows where the party stands and where it leaves a gap. A ballot
 // toggle switches between the HoPR and Regional Council races, whose coverage
-// differs. Reuses the global map JSON built by build-ps-points.mjs.
+// differs. Reuses the global map JSON built by build-ps-points.ts.
 import { BALLOT_COLORS } from "@/lib/format";
 
 interface Props {
@@ -24,44 +24,15 @@ const GREY = "#d4d7e1"; // faint "not running" dots
 const COLORS = { run: BALLOT_COLORS.hopr, grey: GREY };
 // Which ballot to show first: prefer whichever the party actually contests.
 const startMode = contestedHopr.length >= contestedRc.length ? "hopr" : "rc";
-const sets = { hopr: contestedHopr, rc: contestedRc };
+const config = {
+  colors: COLORS,
+  sets: { hopr: contestedHopr, rc: contestedRc },
+  startMode,
+  partyName,
+};
 ---
 
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
-/>
-
 <style is:global>
-  .pf-pop .maplibregl-popup-content,
-  .maplibregl-popup-content {
-    padding: 0 !important;
-    border-radius: 12px !important;
-    overflow: hidden;
-    border: 1px solid var(--color-ew-card-border);
-    box-shadow: 0 8px 28px rgba(21, 23, 42, 0.18);
-  }
-  .pf-pop-head {
-    background: var(--color-ew-shell);
-    padding: 12px 14px;
-  }
-  .pf-pop-title {
-    font-family: var(--font-display, Georgia, serif);
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1.25;
-    color: #fff;
-    padding-right: 16px;
-  }
-  .pf-pop-sub {
-    margin-top: 3px;
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.72);
-  }
-  .pf-pop-body {
-    padding: 11px 14px;
-    background: var(--color-ew-card);
-  }
   .pf-pop-status {
     font-size: 13px;
     color: var(--color-ew-text);
@@ -130,8 +101,9 @@ const sets = { hopr: contestedHopr, rc: contestedRc };
   <div class="relative">
     <div
       id={id}
-      class="w-full rounded-xl border border-ew-card-border overflow-hidden bg-ew-card"
+      class="pf-map-root w-full rounded-xl border border-ew-card-border overflow-hidden bg-ew-card"
       style={`height:${height};min-height:360px;`}
+      data-config={JSON.stringify(config)}
     >
     </div>
     <div
@@ -147,201 +119,170 @@ const sets = { hopr: contestedHopr, rc: contestedRc };
   </div>
 </div>
 
-<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" is:inline
-></script>
-<script is:inline define:vars={{ id, COLORS, sets, startMode, partyName }}>
-  const container = document.getElementById(id);
-  // Contested constituency slugs become Sets for O(1) membership tests.
-  const setOf = { hopr: new Set(sets.hopr), rc: new Set(sets.rc) };
+<script>
+  import { Popup, type ExpressionSpecification } from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
+  import {
+    createMap,
+    initScrollZoom,
+    wireModeToggle,
+    wireCursor,
+    esc,
+    matchColor,
+    CIRCLE_PAINT_BASE,
+    type MapData,
+  } from "@/lib/map";
 
-  const map = new maplibregl.Map({
-    container: id,
-    style: {
-      version: 8,
-      sources: {
-        carto: {
-          type: "raster",
-          tiles: [
-            "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
-            "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
-          ],
-          tileSize: 256,
-          attribution:
-            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        },
-      },
-      layers: [{ id: "carto", type: "raster", source: "carto" }],
-    },
-    center: [39.5, 9.2],
-    zoom: 5,
-    scrollZoom: false,
-  });
-  map.addControl(new maplibregl.NavigationControl(), "top-right");
+  interface PfConfig {
+    colors: { run: string; grey: string };
+    sets: { hopr: string[]; rc: string[] };
+    startMode: "hopr" | "rc";
+    partyName: string;
+  }
+  interface PfProps {
+    name: string;
+    woreda: string;
+    region: string;
+    chopr: string;
+    crc: string;
+    hslug: string;
+    hname: string;
+    rslug: string;
+    rname: string;
+  }
 
-  const hint = document.getElementById(id + "-hint");
-  container.addEventListener("click", () => {
-    map.scrollZoom.enable();
-    hint.style.opacity = "0";
-  });
-  container.addEventListener("mouseleave", () => {
-    map.scrollZoom.disable();
-    hint.style.opacity = "1";
-  });
+  document
+    .querySelectorAll<HTMLElement>(".pf-map-root")
+    .forEach((container) => {
+      const id = container.id;
+      const { colors, sets, startMode, partyName }: PfConfig = JSON.parse(
+        container.dataset.config!,
+      );
+      // Contested constituency slugs become Sets for O(1) membership tests.
+      const setOf = { hopr: new Set(sets.hopr), rc: new Set(sets.rc) };
+      const prop = (mode: string) => (mode === "hopr" ? "chopr" : "crc");
 
-  async function load() {
-    const data = await fetch("/data/polling-stations-map.json").then((r) =>
-      r.json(),
-    );
-    const hoprC = data.hoprC ?? [];
-    const rcC = data.rcC ?? [];
+      const map = createMap(id);
+      initScrollZoom(map, container, id);
 
-    const fc = {
-      type: "FeatureCollection",
-      features: data.points.map(
-        ([lat, lon, regIdx, , name, woreda, hIdx, rIdx]) => {
-          const h = hIdx >= 0 ? hoprC[hIdx] : null;
-          const r = rIdx >= 0 ? rcC[rIdx] : null;
-          return {
-            type: "Feature",
-            geometry: { type: "Point", coordinates: [lon, lat] },
-            properties: {
+      async function load() {
+        const data = (await fetch("/data/polling-stations-map.json").then((r) =>
+          r.json(),
+        )) as MapData;
+        const { hoprC, rcC } = data;
+
+        const fc: GeoJSON.FeatureCollection = {
+          type: "FeatureCollection",
+          features: data.points.map(
+            ([
+              lat,
+              lon,
+              regIdx,
+              ,
               name,
-              woreda: woreda ?? "",
-              region: data.regions[regIdx],
-              chopr: h && setOf.hopr.has(h.slug) ? "1" : "",
-              crc: r && setOf.rc.has(r.slug) ? "1" : "",
-              hslug: h ? h.slug : "",
-              hname: h ? h.name : "",
-              rslug: r ? r.slug : "",
-              rname: r ? r.name : "",
+              woreda,
+              hIdx,
+              rIdx,
+            ]): GeoJSON.Feature => {
+              const h = hIdx >= 0 ? hoprC[hIdx] : null;
+              const r = rIdx >= 0 ? rcC[rIdx] : null;
+              const props: PfProps = {
+                name,
+                woreda: woreda ?? "",
+                region: data.regions[regIdx],
+                chopr: h && setOf.hopr.has(h.slug) ? "1" : "",
+                crc: r && setOf.rc.has(r.slug) ? "1" : "",
+                hslug: h ? h.slug : "",
+                hname: h ? h.name : "",
+                rslug: r ? r.slug : "",
+                rname: r ? r.name : "",
+              };
+              return {
+                type: "Feature",
+                geometry: { type: "Point", coordinates: [lon, lat] },
+                properties: props,
+              };
             },
-          };
-        },
-      ),
-    };
+          ),
+        };
 
-    const colorFor = (mode) => [
-      "case",
-      ["==", ["get", mode === "hopr" ? "chopr" : "crc"], "1"],
-      COLORS.run,
-      COLORS.grey,
-    ];
-    // Draw the contested (coloured) dots on top of the grey ones.
-    const sortFor = (mode) => [
-      "case",
-      ["==", ["get", mode === "hopr" ? "chopr" : "crc"], "1"],
-      1,
-      0,
-    ];
-
-    map.addSource("stations", { type: "geojson", data: fc });
-    map.addLayer({
-      id: "station-point",
-      type: "circle",
-      source: "stations",
-      // circle-sort-key is a layout property: contested dots (1) draw above
-      // the grey (0) ones so a small footprint never gets buried.
-      layout: { "circle-sort-key": sortFor(startMode) },
-      paint: {
-        "circle-color": colorFor(startMode),
-        "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 2.2, 12, 5],
-        "circle-stroke-color": "#fff",
-        "circle-stroke-width": [
-          "interpolate",
-          ["linear"],
-          ["zoom"],
-          5,
-          0,
-          9,
+        const colorFor = (mode: string) =>
+          matchColor(prop(mode), "1", colors.run, colors.grey);
+        // Draw the contested (coloured) dots on top of the grey ones.
+        const sortFor = (mode: string): ExpressionSpecification => [
+          "case",
+          ["==", ["get", prop(mode)], "1"],
           1,
-        ],
-        "circle-opacity": 0.85,
-      },
-    });
+          0,
+        ];
 
-    const modeBtns = [
-      ...document.getElementById(id + "-mode").querySelectorAll("button"),
-    ];
-    let mode = startMode;
-    const setMode = (m) => {
-      mode = m;
-      map.setPaintProperty("station-point", "circle-color", colorFor(m));
-      map.setLayoutProperty("station-point", "circle-sort-key", sortFor(m));
-      modeBtns.forEach((b) => {
-        const active = b.dataset.mode === m;
-        b.classList.toggle("bg-ew-shell", active);
-        b.classList.toggle("text-white", active);
-        b.classList.toggle("bg-ew-card", !active);
-        b.classList.toggle("text-ew-text-dim", !active);
-        // Drop the hover colour on the active button so its white text doesn't
-        // turn navy-on-navy when hovered.
-        b.classList.toggle("hover:text-ew-shell", !active);
-      });
-    };
-    modeBtns.forEach((b) =>
-      b.addEventListener("click", () => setMode(b.dataset.mode)),
-    );
+        map.addSource("stations", { type: "geojson", data: fc });
+        map.addLayer({
+          id: "station-point",
+          type: "circle",
+          source: "stations",
+          // circle-sort-key is a layout property: contested dots (1) draw above
+          // the grey (0) ones so a small footprint never gets buried.
+          layout: { "circle-sort-key": sortFor(startMode) },
+          paint: { "circle-color": colorFor(startMode), ...CIRCLE_PAINT_BASE },
+        });
 
-    const esc = (s) => {
-      const d = document.createElement("div");
-      d.textContent = s ?? "";
-      return d.innerHTML;
-    };
-    map.on("click", "station-point", (e) => {
-      const p = e.features[0].properties;
-      const where = [p.woreda, p.region]
-        .filter(Boolean)
-        .map(esc)
-        .join(" &middot; ");
-      const running = (mode === "hopr" ? p.chopr : p.crc) === "1";
-      const conName = mode === "hopr" ? p.hname : p.rname;
-      const conSlug = mode === "hopr" ? p.hslug : p.rslug;
-      const bodyLabel = mode === "hopr" ? "HoPR" : "Regional Council";
-      let status;
-      if (!conName) {
-        status = `No ${bodyLabel} constituency is linked to this station.`;
-      } else if (running) {
-        status =
-          `<strong>${esc(partyName)}</strong> is running here for ` +
-          `${bodyLabel} in ${esc(conName)}.`;
-      } else {
-        status =
-          `${esc(partyName)} is <strong>not</strong> running here for ` +
-          `${bodyLabel} (${esc(conName)}).`;
-      }
-      const link =
-        conSlug && conName
-          ? `<a class="pf-pop-link" href="/data/candidates/c/${conSlug}">See this constituency &rsaquo;</a>`
-          : "";
-      new maplibregl.Popup({
-        offset: 12,
-        maxWidth: "300px",
-        closeButton: true,
-        className: "pf-pop",
-      })
-        .setLngLat(e.features[0].geometry.coordinates)
-        .setHTML(
-          `<div>
-             <div class="pf-pop-head">
-               <div class="pf-pop-title">${esc(p.name)}</div>
-               ${where ? `<div class="pf-pop-sub">${where}</div>` : ""}
+        let mode = startMode;
+        wireModeToggle(id, (m) => {
+          mode = m as "hopr" | "rc";
+          map.setPaintProperty("station-point", "circle-color", colorFor(m));
+          map.setLayoutProperty("station-point", "circle-sort-key", sortFor(m));
+        });
+
+        map.on("click", "station-point", (e) => {
+          const f = e.features![0];
+          const p = f.properties as PfProps;
+          const where = [p.woreda, p.region]
+            .filter(Boolean)
+            .map(esc)
+            .join(" &middot; ");
+          const running = (mode === "hopr" ? p.chopr : p.crc) === "1";
+          const conName = mode === "hopr" ? p.hname : p.rname;
+          const conSlug = mode === "hopr" ? p.hslug : p.rslug;
+          const bodyLabel = mode === "hopr" ? "HoPR" : "Regional Council";
+          let status;
+          if (!conName) {
+            status = `No ${bodyLabel} constituency is linked to this station.`;
+          } else if (running) {
+            status =
+              `<strong>${esc(partyName)}</strong> is running here for ` +
+              `${bodyLabel} in ${esc(conName)}.`;
+          } else {
+            status =
+              `${esc(partyName)} is <strong>not</strong> running here for ` +
+              `${bodyLabel} (${esc(conName)}).`;
+          }
+          const link =
+            conSlug && conName
+              ? `<a class="pf-pop-link" href="/data/candidates/c/${conSlug}">See this constituency &rsaquo;</a>`
+              : "";
+          new Popup({ offset: 12, maxWidth: "300px", closeButton: true })
+            .setLngLat(
+              (f.geometry as GeoJSON.Point).coordinates as [number, number],
+            )
+            .setHTML(
+              `<div>
+             <div class="ew-pop-head">
+               <div class="ew-pop-title">${esc(p.name)}</div>
+               ${where ? `<div class="ew-pop-sub">${where}</div>` : ""}
              </div>
-             <div class="pf-pop-body">
+             <div class="ew-pop-body">
                <p class="pf-pop-status">${status}</p>
                ${link}
              </div>
            </div>`,
-        )
-        .addTo(map);
-    });
-    map.on("mouseenter", "station-point", () => {
-      map.getCanvas().style.cursor = "pointer";
-    });
-    map.on("mouseleave", "station-point", () => {
-      map.getCanvas().style.cursor = "";
-    });
-  }
+            )
+            .addTo(map);
+        });
+        wireCursor(map, "station-point");
+      }
 
-  if (map.loaded()) load();
-  else map.on("load", load);
+      if (map.loaded()) load();
+      else map.on("load", load);
+    });
 </script>

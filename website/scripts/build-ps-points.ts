@@ -1,6 +1,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
+import type { ConstituencyRef, MapData, MapPoint } from "../src/lib/map-data";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PS_JSON = path.resolve(__dirname, "../../polling-stations/data/json");
@@ -9,13 +10,42 @@ const SRC = path.join(PS_JSON, "stations");
 const DEST_DIR = path.resolve(__dirname, "../public/data");
 const REGION_DIR = path.join(DEST_DIR, "polling-stations-map");
 
+interface RegionMeta {
+  name: string;
+  slug: string;
+}
+
+interface StationRecord {
+  coordinate_source: string;
+  latitude: number | null;
+  longitude: number | null;
+  region: string;
+  registration_type: string;
+  name: string;
+  woreda: string;
+  hopr_constituency_code: string;
+  rc_constituency_code: string;
+}
+
+interface StationLinks {
+  hopr: Record<string, ConstituencyRef>;
+  rc: Record<string, ConstituencyRef>;
+}
+
+type Scope = {
+  regions: string[];
+  points: MapPoint[];
+  hoprC: ConstituencyRef[];
+  rcC: ConstituencyRef[];
+};
+
 // candidates/extract.py already matched each polling-station constituency to the
 // candidate constituency voted on there and emitted station_links.json keyed by
 // polling-station constituency *code*. We just look it up — no name matching here.
-function loadStationLinks() {
+function loadStationLinks(): StationLinks {
   const file = path.join(CAND_JSON, "station_links.json");
   if (!fs.existsSync(file)) return { hopr: {}, rc: {} };
-  return JSON.parse(fs.readFileSync(file, "utf-8"));
+  return JSON.parse(fs.readFileSync(file, "utf-8")) as StationLinks;
 }
 
 // Builds the compact dataset(s) the map fetches at runtime: one global file and
@@ -31,15 +61,23 @@ export function buildPollingStationPoints() {
 
   const regionMeta = JSON.parse(
     fs.readFileSync(path.join(PS_JSON, "regions.json"), "utf-8"),
-  );
+  ) as RegionMeta[];
   const slugByName = new Map(regionMeta.map((r) => [r.name, r.slug]));
   const stationLinks = loadStationLinks();
 
-  const makeScope = () => ({ regions: [], points: [], hoprC: [], rcC: [] });
+  const makeScope = (): Scope => ({
+    regions: [],
+    points: [],
+    hoprC: [],
+    rcC: [],
+  });
   const all = makeScope();
-  const perRegion = new Map(); // slug -> scope
+  const perRegion = new Map<string, Scope>();
 
-  const tableIdx = (table, ref) => {
+  const tableIdx = (
+    table: ConstituencyRef[],
+    ref?: ConstituencyRef,
+  ): number => {
     if (!ref) return -1;
     let i = table.findIndex((t) => t.slug === ref.slug);
     if (i === -1) {
@@ -48,7 +86,7 @@ export function buildPollingStationPoints() {
     }
     return i;
   };
-  const regionIdx = (scope, name) => {
+  const regionIdx = (scope: Scope, name: string): number => {
     let i = scope.regions.indexOf(name);
     if (i === -1) {
       i = scope.regions.length;
@@ -57,7 +95,14 @@ export function buildPollingStationPoints() {
     return i;
   };
 
-  const add = (scope, r, lat, lon, hoprRef, rcRef) =>
+  const add = (
+    scope: Scope,
+    r: StationRecord,
+    lat: number,
+    lon: number,
+    hoprRef?: ConstituencyRef,
+    rcRef?: ConstituencyRef,
+  ) =>
     scope.points.push([
       lat,
       lon,
@@ -70,25 +115,25 @@ export function buildPollingStationPoints() {
     ]);
 
   for (const file of fs.readdirSync(SRC).filter((f) => f.endsWith(".json"))) {
-    const records = JSON.parse(fs.readFileSync(path.join(SRC, file), "utf-8"));
+    const records = JSON.parse(
+      fs.readFileSync(path.join(SRC, file), "utf-8"),
+    ) as StationRecord[];
     for (const r of records) {
       if (r.coordinate_source !== "nebe" || r.latitude == null) continue;
       const lat = Math.round(r.latitude * 1e5) / 1e5;
-      const lon = Math.round(r.longitude * 1e5) / 1e5;
+      const lon = Math.round(r.longitude! * 1e5) / 1e5;
       const hoprRef = stationLinks.hopr[r.hopr_constituency_code];
       const rcRef = stationLinks.rc[r.rc_constituency_code];
       add(all, r, lat, lon, hoprRef, rcRef);
       const slug = slugByName.get(r.region);
       if (slug) {
         if (!perRegion.has(slug)) perRegion.set(slug, makeScope());
-        add(perRegion.get(slug), r, lat, lon, hoprRef, rcRef);
+        add(perRegion.get(slug)!, r, lat, lon, hoprRef, rcRef);
       }
     }
   }
 
-  // [lat, lon, regionIdx, registrationType(0=digital,1=manual), name, woreda,
-  //  hoprConstituencyIdx, rcConstituencyIdx]
-  const serialize = (scope) => ({
+  const serialize = (scope: Scope): MapData => ({
     regions: scope.regions,
     hoprC: scope.hoprC,
     rcC: scope.rcC,

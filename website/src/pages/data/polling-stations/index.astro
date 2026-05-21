@@ -9,10 +9,7 @@ import {
 import { candidateConstituencyByStation } from "@/data/candidates";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight } from "@lucide/astro";
-
-const fmt = (n: number) => n.toLocaleString("en-US");
-const pct = (n: number, of: number) =>
-  of === 0 ? 0 : Math.round((n / of) * 100);
+import { fmt, pct, GOLD, INK } from "@/lib/format";
 
 const sortedRegions = [...regions].sort((a, b) => b.stations - a.stations);
 
@@ -136,7 +133,7 @@ const sizeChart = {
       >
         <span
           class="w-3 h-3 rounded-full inline-block"
-          style="background:#c79a3a"></span>
+          style={`background:${GOLD}`}></span>
         <span class="font-display text-2xl tabular-nums">{fmt(reg.online)}</span
         >
         <span class="text-sm text-ew-text-muted">
@@ -148,7 +145,7 @@ const sizeChart = {
       >
         <span
           class="w-3 h-3 rounded-full inline-block"
-          style="background:#1f2455"></span>
+          style={`background:${INK}`}></span>
         <span class="font-display text-2xl tabular-nums"
           >{fmt(reg.inperson)}</span
         >
@@ -194,9 +191,9 @@ const sizeChart = {
               title={`${pct(r.digital, r.stations)}% online · ${pct(r.manual, r.stations)}% in-person`}
             >
               <div
-                style={`width:${pct(r.digital, r.stations)}%;background:#c79a3a`}
+                style={`width:${pct(r.digital, r.stations)}%;background:${GOLD}`}
               />
-              <div class="flex-1" style="background:#1f2455" />
+              <div class="flex-1" style={`background:${INK}`} />
             </div>
             <div class="mt-2 flex items-center justify-between text-xs text-ew-text-muted">
               <span>
@@ -320,11 +317,17 @@ const sizeChart = {
 
   <script>
     import * as echarts from "echarts";
-    import { grad, barShadow } from "@/scripts/chart-style";
+    import {
+      grad,
+      barShadow,
+      offsetTooltip,
+      MONO,
+      MUTED,
+      GRID,
+      INK,
+    } from "@/scripts/chart-style";
+    import { GOLD } from "@/lib/format";
 
-    const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
-    const MUTED = "#7a7d92";
-    const GRID = "rgba(0,0,0,0.06)";
     const charts: echarts.ECharts[] = [];
 
     const axisLabel = { color: MUTED, fontFamily: MONO, fontSize: 11 };
@@ -347,23 +350,7 @@ const sizeChart = {
           confine: true,
           enterable: false,
           transitionDuration: 0.2,
-          // Offset the tooltip from the cursor so the pointer never sits on top
-          // of it (which otherwise causes a show/hide flicker loop).
-          position: (
-            pt: number[],
-            _params: unknown,
-            _dom: unknown,
-            _rect: unknown,
-            size: { viewSize: number[]; contentSize: number[] },
-          ) => {
-            const [x, y] = pt;
-            const [vw, vh] = size.viewSize;
-            const [tw, th] = size.contentSize;
-            let left = x + 18;
-            if (left + tw > vw) left = x - tw - 18;
-            const top = Math.max(0, Math.min(y - th / 2, vh - th));
-            return [left, top];
-          },
+          position: offsetTooltip,
           formatter: (
             params: {
               name: string;
@@ -405,14 +392,14 @@ const sizeChart = {
             type: "bar",
             stack: "t",
             data: d.online,
-            itemStyle: { color: grad("#c79a3a", "h"), ...barShadow },
+            itemStyle: { color: grad(GOLD, "h"), ...barShadow },
           },
           {
             name: "In-person",
             type: "bar",
             stack: "t",
             data: d.inperson,
-            itemStyle: { color: grad("#1f2455", "h") },
+            itemStyle: { color: grad(INK, "h") },
           },
         ],
       });
@@ -450,7 +437,7 @@ const sizeChart = {
             type: "bar",
             data: d.counts,
             itemStyle: {
-              color: grad("#1f2455", "v"),
+              color: grad(INK, "v"),
               borderRadius: [3, 3, 0, 0],
               ...barShadow,
             },

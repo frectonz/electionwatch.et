@@ -10,11 +10,9 @@ import {
   formatDate,
 } from "@/data";
 import { partyByProfileSlug } from "@/data/candidates";
-import { slugifyTopic } from "@/lib/format";
+import { slugifyTopic, fmt } from "@/lib/format";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { MessagesSquare, Quote, Users } from "@lucide/astro";
-
-const fmtNum = (n: number) => n.toLocaleString("en-US");
 
 export function getStaticPaths() {
   return allParties.map((p) => ({ params: { slug: p.slug } }));
@@ -88,7 +86,7 @@ const candidateParty = partyByProfileSlug.get(slug);
             class="inline-flex items-center gap-1.5 text-ew-shell hover:text-ew-gold font-medium"
           >
             <Users class="w-4 h-4" />
-            {fmtNum(candidateParty.candidates)} candidates running &rsaquo;
+            {fmt(candidateParty.candidates)} candidates running &rsaquo;
           </a>
         )
       }

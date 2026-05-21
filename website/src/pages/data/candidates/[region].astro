@@ -4,12 +4,14 @@ import {
   candidateRegions,
   candidateConstituencies,
   loadCandidates,
-  partyByName,
+  peopleRings,
+  educationChart,
+  partyDistChart,
   BODY_LABEL,
   type CandidateRegion,
   type Body,
 } from "@/data/candidates";
-import { fmt, pct, BALLOT_COLORS, GOLD } from "@/lib/format";
+import { fmt, pct } from "@/lib/format";
 import StatTiles from "@/components/StatTiles.astro";
 import DataGrid, {
   type GridColumn,
@@ -17,9 +19,6 @@ import DataGrid, {
 } from "@/components/DataGrid.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { MapPin } from "@lucide/astro";
-
-const HOPR = BALLOT_COLORS.hopr;
-const RC = BALLOT_COLORS.rc;
 
 export function getStaticPaths() {
   return candidateRegions.map((r) => ({
@@ -35,58 +34,27 @@ const all = [
   ...loadCandidates(region.slug, "rc"),
 ];
 
-// Party breakdown within this region.
-const partyCount = new Map<string, number>();
-for (const c of all)
-  partyCount.set(c.party, (partyCount.get(c.party) ?? 0) + 1);
-const parties = [...partyCount.entries()].sort((a, b) => b[1] - a[1]);
-
 const female = all.filter((c) => c.gender === "Female").length;
 const disabled = all.filter((c) => c.disability).length;
 
 // Gender (inner) + disability (outer) concentric pie.
-const peopleChart = {
-  rings: [
-    [
-      { name: "Male", value: all.length - female, color: RC },
-      { name: "Female", value: female, color: HOPR },
-    ],
-    [
-      { name: "Has disability", value: disabled, color: GOLD },
-      {
-        name: "No disability",
-        value: all.length - disabled,
-        color: "#dfe1ea",
-      },
-    ],
-  ],
-};
-
+const peopleChart = peopleRings(
+  female,
+  all.length - female,
+  disabled,
+  all.length,
+);
 // Education distribution (horizontal bar), sorted by candidate count (desc).
-const eduCount = new Map<string, number>();
-for (const c of all)
-  eduCount.set(
-    c.education || "Not Specified",
-    (eduCount.get(c.education) ?? 0) + 1,
-  );
-const eduRows = [...eduCount.entries()].sort((a, b) => b[1] - a[1]);
-const eduChart = {
-  labels: eduRows.map(([k]) => k),
-  counts: eduRows.map(([, v]) => v),
-};
+const eduChart = educationChart(all);
+// Party distribution chart (candidates per party in this region).
+const partyDist = partyDistChart(all);
 
 const stats = [
   { label: "Candidates", value: region.candidates },
   { label: "HoPR", value: region.hopr },
   { label: "Regional Council", value: region.rc },
-  { label: "Parties", value: parties.length },
+  { label: "Parties", value: partyDist.counts.length },
 ];
-
-// Party distribution chart (candidates per party in this region).
-const partyDist = {
-  labels: parties.map(([name]) => partyByName.get(name)?.name_en ?? name),
-  counts: parties.map(([, n]) => n),
-};
 
 // Constituency tables, one per ballot.
 const conColumns: GridColumn[] = [
@@ -183,7 +151,7 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
       <div
         id="partyDistChart"
         data-chart={JSON.stringify(partyDist)}
-        style={`height:${Math.max(160, parties.length * 28 + 24)}px`}
+        style={`height:${Math.max(160, partyDist.counts.length * 28 + 24)}px`}
       >
       </div>
     </div>

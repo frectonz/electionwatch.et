@@ -20,54 +20,10 @@ const id = "psmap-" + Math.random().toString(36).slice(2, 8);
 // Point colour by registration type: online (digital) = gold, in-person
 // (manual) = navy.
 const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
+const config = { colors: COLORS, dataUrl, fitData };
 ---
 
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
-/>
-
 <style is:global>
-  .maplibregl-popup-content {
-    padding: 0 !important;
-    border-radius: 12px !important;
-    overflow: hidden;
-    border: 1px solid var(--color-ew-card-border);
-    box-shadow: 0 8px 28px rgba(21, 23, 42, 0.18);
-  }
-  .maplibregl-popup-close-button {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 18px;
-    padding: 2px 8px;
-    right: 2px;
-    top: 2px;
-    z-index: 1;
-  }
-  .maplibregl-popup-close-button:hover {
-    color: #fff;
-    background: transparent;
-  }
-  .ps-pop-head {
-    background: var(--color-ew-shell);
-    padding: 12px 14px;
-  }
-  .ps-pop-title {
-    font-family: var(--font-display, Georgia, serif);
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1.25;
-    color: #fff;
-    padding-right: 16px;
-  }
-  .ps-pop-sub {
-    margin-top: 3px;
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.72);
-  }
-  .ps-pop-body {
-    padding: 11px 14px;
-    background: var(--color-ew-card);
-  }
   .ps-pop-chip {
     display: inline-flex;
     align-items: center;
@@ -187,10 +143,9 @@ const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
   <div class="relative">
     <div
       id={id}
-      class="w-full rounded-xl border border-ew-card-border overflow-hidden bg-ew-card"
+      class="ps-map-root w-full rounded-xl border border-ew-card-border overflow-hidden bg-ew-card"
       style={`height:${height};min-height:360px;`}
-      data-url={dataUrl}
-      data-fit={fitData ? "1" : ""}
+      data-config={JSON.stringify(config)}
     >
     </div>
     <div
@@ -217,12 +172,38 @@ const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
   </div>
 </div>
 
-<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" is:inline
-></script>
-<script is:inline define:vars={{ id, COLORS }}>
-  const container = document.getElementById(id);
-  const dataUrl = container.dataset.url;
-  const fitData = container.dataset.fit === "1";
+<script>
+  import {
+    Popup,
+    LngLatBounds,
+    type ExpressionSpecification,
+  } from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
+  import {
+    createMap,
+    initScrollZoom,
+    wireModeToggle,
+    wireCursor,
+    esc,
+    CIRCLE_PAINT_BASE,
+    type MapData,
+    type ConstituencyRef,
+  } from "@/lib/map";
+
+  interface PsConfig {
+    colors: { online: string; inperson: string };
+    dataUrl: string;
+    fitData: boolean;
+  }
+  interface PsProps {
+    name: string;
+    woreda: string;
+    region: string;
+    type: string;
+    hopr: string;
+    rc: string;
+    ccolor: string;
+  }
 
   // Categorical palette for "colour by constituency" mode (cycled by index).
   const PALETTE = [
@@ -247,199 +228,147 @@ const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
   ];
   const NO_CONSTITUENCY = "#c2c6d2";
 
-  const map = new maplibregl.Map({
-    container: id,
-    style: {
-      version: 8,
-      sources: {
-        carto: {
-          type: "raster",
-          tiles: [
-            "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
-            "https://b.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
-          ],
-          tileSize: 256,
-          attribution:
-            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        },
-      },
-      layers: [{ id: "carto", type: "raster", source: "carto" }],
-    },
-    center: [39.5, 9.2],
-    zoom: 5,
-    scrollZoom: false, // don't hijack page scroll; enabled on click below
-  });
-  map.addControl(new maplibregl.NavigationControl(), "top-right");
-
-  // Scroll-zoom only after the map is clicked, and stop again when the pointer
-  // leaves, so scrolling the page never zooms the map by accident.
-  const hint = document.getElementById(id + "-hint");
-  const activate = () => {
-    map.scrollZoom.enable();
-    hint.style.opacity = "0";
-  };
-  const deactivate = () => {
-    map.scrollZoom.disable();
-    hint.style.opacity = "1";
-  };
-  container.addEventListener("click", activate);
-  container.addEventListener("mouseleave", deactivate);
-
-  async function load() {
-    const data = await fetch(dataUrl).then((r) => r.json());
-
-    if (!data.points.length) {
-      document.getElementById(id + "-empty").classList.remove("hidden");
-      hint.style.display = "none";
-      document.getElementById(id + "-legend").style.display = "none";
-      document.getElementById(id + "-mode").style.display = "none";
-      return;
-    }
-
-    const hoprC = data.hoprC ?? [];
-    const rcC = data.rcC ?? [];
-    const bounds = new maplibregl.LngLatBounds();
-    const fc = {
-      type: "FeatureCollection",
-      features: data.points.map(
-        ([lat, lon, regIdx, typeIdx, name, woreda, hIdx, rIdx]) => {
-          bounds.extend([lon, lat]);
-          return {
-            type: "Feature",
-            geometry: { type: "Point", coordinates: [lon, lat] },
-            properties: {
-              name,
-              woreda: woreda ?? "",
-              region: data.regions[regIdx],
-              type: typeIdx === 0 ? "digital" : "manual",
-              hopr: hIdx >= 0 ? JSON.stringify(hoprC[hIdx]) : "",
-              rc: rIdx >= 0 ? JSON.stringify(rcC[rIdx]) : "",
-              ccolor:
-                hIdx >= 0 ? PALETTE[hIdx % PALETTE.length] : NO_CONSTITUENCY,
-            },
-          };
-        },
-      ),
-    };
-
-    if (fitData && !bounds.isEmpty()) {
-      map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
-    }
-
-    // digital = online, manual = in-person
-    const REG_COLOR = [
-      "match",
-      ["get", "type"],
-      "digital",
-      COLORS.online,
-      COLORS.inperson,
-    ];
-    const CON_COLOR = ["get", "ccolor"];
-
-    map.addSource("stations", { type: "geojson", data: fc });
-    map.addLayer({
-      id: "station-point",
-      type: "circle",
-      source: "stations",
-      paint: {
-        "circle-color": CON_COLOR,
-        "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 2.2, 12, 5],
-        "circle-stroke-color": "#fff",
-        "circle-stroke-width": [
-          "interpolate",
-          ["linear"],
-          ["zoom"],
-          5,
-          0,
-          9,
-          1,
-        ],
-        "circle-opacity": 0.85,
-      },
-    });
-
-    // Colour-by toggle: registration type vs HoPR constituency.
-    const legend = document.getElementById(id + "-legend");
-    const regSpans = [...legend.querySelectorAll(":scope > span")].filter(
-      (s) => s.id !== id + "-legend-con",
-    );
-    const conNote = document.getElementById(id + "-legend-con");
-    const modeBtns = [
-      ...document.getElementById(id + "-mode").querySelectorAll("button"),
-    ];
-    const setMode = (mode) => {
-      const con = mode === "con";
-      map.setPaintProperty(
-        "station-point",
-        "circle-color",
-        con ? CON_COLOR : REG_COLOR,
+  document
+    .querySelectorAll<HTMLElement>(".ps-map-root")
+    .forEach((container) => {
+      const id = container.id;
+      const { colors, dataUrl, fitData }: PsConfig = JSON.parse(
+        container.dataset.config!,
       );
-      regSpans.forEach((s) => (s.style.display = con ? "none" : ""));
-      conNote.style.display = con ? "" : "none";
-      modeBtns.forEach((b) => {
-        const active = b.dataset.mode === mode;
-        b.classList.toggle("bg-ew-shell", active);
-        b.classList.toggle("text-white", active);
-        b.classList.toggle("bg-ew-card", !active);
-        b.classList.toggle("text-ew-text-dim", !active);
-        // Drop the hover colour on the active button so its white text doesn't
-        // turn navy-on-navy when hovered.
-        b.classList.toggle("hover:text-ew-shell", !active);
-      });
-    };
-    modeBtns.forEach((b) =>
-      b.addEventListener("click", () => setMode(b.dataset.mode)),
-    );
-    setMode("con"); // constituency colouring is the default view
 
-    const esc = (s) => {
-      const d = document.createElement("div");
-      d.textContent = s ?? "";
-      return d.innerHTML;
-    };
-    map.on("click", "station-point", (e) => {
-      const p = e.features[0].properties;
-      const where = [p.woreda, p.region]
-        .filter(Boolean)
-        .map(esc)
-        .join(" &middot; ");
-      const online = p.type === "digital";
-      const label = online ? "Online registration" : "In-person registration";
-      const ballotRow = (raw, body) => {
-        if (!raw) return "";
-        const c = JSON.parse(raw);
-        return `<a class="ps-pop-ballot" href="/data/candidates/c/${c.slug}">
+      const map = createMap(id);
+      const hint = initScrollZoom(map, container, id);
+
+      async function load() {
+        const data = (await fetch(dataUrl).then((r) => r.json())) as MapData;
+
+        if (!data.points.length) {
+          document.getElementById(id + "-empty")!.classList.remove("hidden");
+          hint.style.display = "none";
+          document.getElementById(id + "-legend")!.style.display = "none";
+          document.getElementById(id + "-mode")!.style.display = "none";
+          return;
+        }
+
+        const { hoprC, rcC } = data;
+        const bounds = new LngLatBounds();
+        const fc: GeoJSON.FeatureCollection = {
+          type: "FeatureCollection",
+          features: data.points.map(
+            ([
+              lat,
+              lon,
+              regIdx,
+              typeIdx,
+              name,
+              woreda,
+              hIdx,
+              rIdx,
+            ]): GeoJSON.Feature => {
+              bounds.extend([lon, lat]);
+              const props: PsProps = {
+                name,
+                woreda: woreda ?? "",
+                region: data.regions[regIdx],
+                type: typeIdx === 0 ? "digital" : "manual",
+                hopr: hIdx >= 0 ? JSON.stringify(hoprC[hIdx]) : "",
+                rc: rIdx >= 0 ? JSON.stringify(rcC[rIdx]) : "",
+                ccolor:
+                  hIdx >= 0 ? PALETTE[hIdx % PALETTE.length] : NO_CONSTITUENCY,
+              };
+              return {
+                type: "Feature",
+                geometry: { type: "Point", coordinates: [lon, lat] },
+                properties: props,
+              };
+            },
+          ),
+        };
+
+        if (fitData && !bounds.isEmpty()) {
+          map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
+        }
+
+        // digital = online, manual = in-person
+        const REG_COLOR: ExpressionSpecification = [
+          "match",
+          ["get", "type"],
+          "digital",
+          colors.online,
+          colors.inperson,
+        ];
+        const CON_COLOR: ExpressionSpecification = ["get", "ccolor"];
+
+        map.addSource("stations", { type: "geojson", data: fc });
+        map.addLayer({
+          id: "station-point",
+          type: "circle",
+          source: "stations",
+          paint: { "circle-color": CON_COLOR, ...CIRCLE_PAINT_BASE },
+        });
+
+        // Colour-by toggle: registration type vs HoPR constituency.
+        const legend = document.getElementById(id + "-legend")!;
+        const regSpans = [
+          ...legend.querySelectorAll<HTMLElement>(":scope > span"),
+        ].filter((s) => s.id !== id + "-legend-con");
+        const conNote = document.getElementById(id + "-legend-con")!;
+        const setMode = wireModeToggle(id, (mode) => {
+          const con = mode === "con";
+          map.setPaintProperty(
+            "station-point",
+            "circle-color",
+            con ? CON_COLOR : REG_COLOR,
+          );
+          regSpans.forEach((s) => (s.style.display = con ? "none" : ""));
+          conNote.style.display = con ? "" : "none";
+        });
+        setMode("con"); // constituency colouring is the default view
+
+        map.on("click", "station-point", (e) => {
+          const f = e.features![0];
+          const p = f.properties as PsProps;
+          const where = [p.woreda, p.region]
+            .filter(Boolean)
+            .map(esc)
+            .join(" &middot; ");
+          const online = p.type === "digital";
+          const label = online
+            ? "Online registration"
+            : "In-person registration";
+          const ballotRow = (raw: string, body: string) => {
+            if (!raw) return "";
+            const c = JSON.parse(raw) as ConstituencyRef;
+            return `<a class="ps-pop-ballot" href="/data/candidates/c/${c.slug}">
             <span class="ps-pop-ballot-body">${body}</span>
             <span class="ps-pop-ballot-name">${esc(c.name)}</span>
             <span class="ps-pop-ballot-count">${c.candidates.toLocaleString()} candidates &rsaquo;</span>
           </a>`;
-      };
-      const ballots =
-        ballotRow(p.hopr, "HoPR") + ballotRow(p.rc, "Regional Council");
-      new maplibregl.Popup({ offset: 12, maxWidth: "320px", closeButton: true })
-        .setLngLat(e.features[0].geometry.coordinates)
-        .setHTML(
-          `<div class="ps-pop">
-             <div class="ps-pop-head">
-               <div class="ps-pop-title">${esc(p.name)}</div>
-               ${where ? `<div class="ps-pop-sub">${where}</div>` : ""}
+          };
+          const ballots =
+            ballotRow(p.hopr, "HoPR") + ballotRow(p.rc, "Regional Council");
+          new Popup({ offset: 12, maxWidth: "320px", closeButton: true })
+            .setLngLat(
+              (f.geometry as GeoJSON.Point).coordinates as [number, number],
+            )
+            .setHTML(
+              `<div>
+             <div class="ew-pop-head">
+               <div class="ew-pop-title">${esc(p.name)}</div>
+               ${where ? `<div class="ew-pop-sub">${where}</div>` : ""}
              </div>
-             <div class="ps-pop-body">
+             <div class="ew-pop-body">
                <span class="ps-pop-chip ps-pop-chip--${online ? "online" : "inperson"}">${label}</span>
                ${ballots ? `<div class="ps-pop-ballots"><div class="ps-pop-ballots-head">On the ballot here</div>${ballots}</div>` : ""}
              </div>
            </div>`,
-        )
-        .addTo(map);
-    });
-    map.on("mouseenter", "station-point", () => {
-      map.getCanvas().style.cursor = "pointer";
-    });
-    map.on("mouseleave", "station-point", () => {
-      map.getCanvas().style.cursor = "";
-    });
-  }
+            )
+            .addTo(map);
+        });
+        wireCursor(map, "station-point");
+      }
 
-  if (map.loaded()) load();
-  else map.on("load", load);
+      if (map.loaded()) load();
+      else map.on("load", load);
+    });
 </script>
