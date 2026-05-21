@@ -68,7 +68,9 @@ const candidateParty = partyByProfileSlug.get(slug);
           </div>
         )
       }
-      <h1 class="font-display text-4xl sm:text-5xl">{party.name}</h1>
+      <h1 class="font-display text-3xl sm:text-5xl min-w-0 break-words">
+        {party.name}
+      </h1>
     </div>
     <div class="flex flex-wrap gap-4 text-sm text-ew-text-muted">
       <span class="inline-flex items-center gap-1.5">

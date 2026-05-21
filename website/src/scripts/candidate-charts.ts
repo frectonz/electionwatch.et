@@ -7,6 +7,7 @@ import {
   radial,
   barShadow,
   offsetTooltip,
+  narrowYLabels,
   MONO,
   MUTED,
   GRID,
@@ -40,60 +41,63 @@ export function initCandidateCharts() {
       const c = JSON.parse(el.dataset.colors!) as { hopr: string; rc: string };
       const chart = echarts.init(el);
       chart.setOption({
-        grid: { left: 4, right: 16, top: 8, bottom: 4, containLabel: true },
-        tooltip: {
-          trigger: "axis",
-          axisPointer: { type: "shadow" },
-          confine: true,
-          enterable: false,
-          transitionDuration: 0.2,
-          position: offsetTooltip,
-          formatter: (
-            p: {
-              name: string;
-              seriesName: string;
-              value: number;
-              marker: string;
-            }[],
-          ) => {
-            const rows = p
-              .map((x) => `${x.marker} ${x.seriesName}: ${nf(x.value)}`)
-              .join("<br>");
-            return `<strong>${p[0].name}</strong><br>${rows}`;
+        baseOption: {
+          grid: { left: 4, right: 16, top: 8, bottom: 4, containLabel: true },
+          tooltip: {
+            trigger: "axis",
+            axisPointer: { type: "shadow" },
+            confine: true,
+            enterable: false,
+            transitionDuration: 0.2,
+            position: offsetTooltip,
+            formatter: (
+              p: {
+                name: string;
+                seriesName: string;
+                value: number;
+                marker: string;
+              }[],
+            ) => {
+              const rows = p
+                .map((x) => `${x.marker} ${x.seriesName}: ${nf(x.value)}`)
+                .join("<br>");
+              return `<strong>${p[0].name}</strong><br>${rows}`;
+            },
           },
-        },
-        xAxis: {
-          type: "value",
-          axisLabel: { show: false },
-          axisLine: { show: false },
-          splitLine: { lineStyle: { color: GRID } },
-        },
-        yAxis: {
-          type: "category",
-          inverse: true,
-          position: labelsRight ? "right" : "left",
-          data: d.names,
-          axisLabel: { color: MUTED, fontSize: 12 },
-          axisTick: { show: false },
-          axisLine: { show: false },
-        },
-        series: [
-          {
-            name: "HoPR",
-            type: "bar",
-            stack: "t",
-            data: d.hopr,
-            itemStyle: { color: grad(c.hopr), ...barShadow },
-            barWidth: "62%",
+          xAxis: {
+            type: "value",
+            axisLabel: { show: false },
+            axisLine: { show: false },
+            splitLine: { lineStyle: { color: GRID } },
           },
-          {
-            name: "Regional Council",
-            type: "bar",
-            stack: "t",
-            data: d.rc,
-            itemStyle: { color: grad(c.rc) },
+          yAxis: {
+            type: "category",
+            inverse: true,
+            position: labelsRight ? "right" : "left",
+            data: d.names,
+            axisLabel: { color: MUTED, fontSize: 12 },
+            axisTick: { show: false },
+            axisLine: { show: false },
           },
-        ],
+          series: [
+            {
+              name: "HoPR",
+              type: "bar",
+              stack: "t",
+              data: d.hopr,
+              itemStyle: { color: grad(c.hopr), ...barShadow },
+              barWidth: "62%",
+            },
+            {
+              name: "Regional Council",
+              type: "bar",
+              stack: "t",
+              data: d.rc,
+              itemStyle: { color: grad(c.rc) },
+            },
+          ],
+        },
+        media: narrowYLabels,
       });
       return chart;
     });
@@ -105,42 +109,45 @@ export function initCandidateCharts() {
       const d = JSON.parse(el.dataset.chart!) as Hist;
       const chart = echarts.init(el);
       chart.setOption({
-        grid: { left: 4, right: 12, top: 4, bottom: 4, containLabel: true },
-        tooltip: {
-          trigger: "axis",
-          axisPointer: { type: "shadow" },
-          confine: true,
-          position: offsetTooltip,
-          formatter: (p: { name: string; value: number }[]) =>
-            `${p[0].name}<br><strong>${nf(p[0].value)}</strong> candidates`,
-        },
-        xAxis: {
-          type: "value",
-          axisLabel: { show: false },
-          axisLine: { show: false },
-          splitLine: { lineStyle: { color: GRID } },
-        },
-        yAxis: {
-          type: "category",
-          inverse: true,
-          position: labelsRight ? "right" : "left",
-          data: d.labels,
-          axisLabel: { color: MUTED, fontSize: 12 },
-          axisTick: { show: false },
-          axisLine: { show: false },
-        },
-        series: [
-          {
-            type: "bar",
-            data: d.counts,
-            itemStyle: {
-              color: grad(INK, "h"),
-              borderRadius: [0, 4, 4, 0],
-              ...barShadow,
-            },
-            barWidth: "62%",
+        baseOption: {
+          grid: { left: 4, right: 12, top: 4, bottom: 4, containLabel: true },
+          tooltip: {
+            trigger: "axis",
+            axisPointer: { type: "shadow" },
+            confine: true,
+            position: offsetTooltip,
+            formatter: (p: { name: string; value: number }[]) =>
+              `${p[0].name}<br><strong>${nf(p[0].value)}</strong> candidates`,
           },
-        ],
+          xAxis: {
+            type: "value",
+            axisLabel: { show: false },
+            axisLine: { show: false },
+            splitLine: { lineStyle: { color: GRID } },
+          },
+          yAxis: {
+            type: "category",
+            inverse: true,
+            position: labelsRight ? "right" : "left",
+            data: d.labels,
+            axisLabel: { color: MUTED, fontSize: 12 },
+            axisTick: { show: false },
+            axisLine: { show: false },
+          },
+          series: [
+            {
+              type: "bar",
+              data: d.counts,
+              itemStyle: {
+                color: grad(INK, "h"),
+                borderRadius: [0, 4, 4, 0],
+                ...barShadow,
+              },
+              barWidth: "62%",
+            },
+          ],
+        },
+        media: narrowYLabels,
       });
       return chart;
     });

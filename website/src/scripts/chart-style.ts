@@ -12,6 +12,27 @@ export const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
 /** Faint split-line colour for value axes. */
 export const GRID = "rgba(0,0,0,0.05)";
 
+// On narrow containers, long category names (party / region / zone names)
+// reserve so much horizontal room via `containLabel` that the bars get
+// squished. Pass these as a chart's `media` (with the rest of the option under
+// `baseOption`) to cap the y-axis label width and let ECharts ellipsise them;
+// the full name stays available in the tooltip. Keyed to the chart's own width,
+// not the viewport, so it works inside any column.
+export const narrowYLabels = [
+  {
+    query: { maxWidth: 560 },
+    option: {
+      yAxis: { axisLabel: { width: 96, overflow: "truncate", fontSize: 11 } },
+    },
+  },
+  {
+    query: { maxWidth: 400 },
+    option: {
+      yAxis: { axisLabel: { width: 72, overflow: "truncate", fontSize: 10 } },
+    },
+  },
+];
+
 /** Keep an axis tooltip off the cursor so it never flickers under the pointer. */
 export const offsetTooltip = (
   pt: number[],

@@ -91,7 +91,7 @@ const sizeChart = {
       mapped and structured down to kebele and electoral constituency.
     </p>
 
-    <dl class="grid grid-cols-3 gap-4 mt-8">
+    <dl class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
       {
         stats.map((s) => (
           <div class="bg-ew-card border border-ew-card-border rounded-xl p-5">
@@ -321,6 +321,7 @@ const sizeChart = {
       grad,
       barShadow,
       offsetTooltip,
+      narrowYLabels,
       MONO,
       MUTED,
       GRID,
@@ -338,70 +339,73 @@ const sizeChart = {
       const chart = echarts.init(regionEl);
       charts.push(chart);
       chart.setOption({
-        grid: { left: 8, right: 16, top: 30, bottom: 8, containLabel: true },
-        legend: {
-          data: ["Online", "In-person"],
-          top: 0,
-          textStyle: { color: MUTED },
-        },
-        tooltip: {
-          trigger: "axis",
-          axisPointer: { type: "shadow" },
-          confine: true,
-          enterable: false,
-          transitionDuration: 0.2,
-          position: offsetTooltip,
-          formatter: (
-            params: {
-              name: string;
-              seriesName: string;
-              value: number;
-              marker: string;
-            }[],
-          ) => {
-            const total = params.reduce((a, p) => a + (p.value || 0), 0);
-            const rows = params
-              .map(
-                (p) =>
-                  `${p.marker} ${p.seriesName}: ${(p.value || 0).toLocaleString()}`,
-              )
-              .join("<br>");
-            return `<strong>${params[0].name}</strong><br>${rows}<br>Total: ${total.toLocaleString()}`;
+        baseOption: {
+          grid: { left: 8, right: 16, top: 30, bottom: 8, containLabel: true },
+          legend: {
+            data: ["Online", "In-person"],
+            top: 0,
+            textStyle: { color: MUTED },
           },
-        },
-        xAxis: {
-          type: "value",
-          axisLabel: {
-            ...axisLabel,
-            formatter: (v: number) => v.toLocaleString(),
+          tooltip: {
+            trigger: "axis",
+            axisPointer: { type: "shadow" },
+            confine: true,
+            enterable: false,
+            transitionDuration: 0.2,
+            position: offsetTooltip,
+            formatter: (
+              params: {
+                name: string;
+                seriesName: string;
+                value: number;
+                marker: string;
+              }[],
+            ) => {
+              const total = params.reduce((a, p) => a + (p.value || 0), 0);
+              const rows = params
+                .map(
+                  (p) =>
+                    `${p.marker} ${p.seriesName}: ${(p.value || 0).toLocaleString()}`,
+                )
+                .join("<br>");
+              return `<strong>${params[0].name}</strong><br>${rows}<br>Total: ${total.toLocaleString()}`;
+            },
           },
-          splitLine: { lineStyle: { color: GRID } },
-        },
-        yAxis: {
-          type: "category",
-          inverse: true,
-          position: "right",
-          data: d.names,
-          axisLabel,
-          axisTick: { show: false },
-          axisLine: { lineStyle: { color: GRID } },
-        },
-        series: [
-          {
-            name: "Online",
-            type: "bar",
-            stack: "t",
-            data: d.online,
-            itemStyle: { color: grad(GOLD, "h"), ...barShadow },
+          xAxis: {
+            type: "value",
+            axisLabel: {
+              ...axisLabel,
+              formatter: (v: number) => v.toLocaleString(),
+            },
+            splitLine: { lineStyle: { color: GRID } },
           },
-          {
-            name: "In-person",
-            type: "bar",
-            stack: "t",
-            data: d.inperson,
-            itemStyle: { color: grad(INK, "h") },
+          yAxis: {
+            type: "category",
+            inverse: true,
+            position: "right",
+            data: d.names,
+            axisLabel,
+            axisTick: { show: false },
+            axisLine: { lineStyle: { color: GRID } },
           },
-        ],
+          series: [
+            {
+              name: "Online",
+              type: "bar",
+              stack: "t",
+              data: d.online,
+              itemStyle: { color: grad(GOLD, "h"), ...barShadow },
+            },
+            {
+              name: "In-person",
+              type: "bar",
+              stack: "t",
+              data: d.inperson,
+              itemStyle: { color: grad(INK, "h") },
+            },
+          ],
+        },
+        media: narrowYLabels,
       });
     }
 
