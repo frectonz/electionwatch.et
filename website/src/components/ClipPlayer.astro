@@ -16,6 +16,12 @@ const {
 const initialSrc = defaultVideoId
   ? `https://www.youtube.com/embed/${defaultVideoId}?rel=0&enablejsapi=1`
   : "";
+
+// Buttons that appear below the timeline; toggled by display in the script.
+const btnBase =
+  "justify-center items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors";
+const btnPrimary = `${btnBase} bg-ew-shell text-white hover:opacity-90`;
+const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-text hover:border-ew-shell/40`;
 ---
 
 <section
@@ -26,7 +32,7 @@ const initialSrc = defaultVideoId
     <div class="grid lg:grid-cols-[420px_1fr] gap-4">
       <div
         id="player-container"
-        class="relative aspect-video bg-ew-surface border border-ew-card-border rounded-lg overflow-hidden shrink-0 max-w-full"
+        class="aspect-video bg-ew-surface border border-ew-card-border rounded-lg overflow-hidden shrink-0 max-w-full"
       >
         {
           defaultVideoId ? (
@@ -48,19 +54,6 @@ const initialSrc = defaultVideoId
             </div>
           )
         }
-        <button
-          type="button"
-          id="clip-play-overlay"
-          aria-label="Play clip"
-          style="display:none"
-          class="absolute inset-0 z-10 items-center justify-center bg-ew-shell/30 hover:bg-ew-shell/40 transition-colors"
-        >
-          <span
-            class="w-14 h-14 rounded-full bg-white/90 text-ew-shell grid place-items-center shadow-lg"
-          >
-            <Play class="w-6 h-6 ml-0.5" />
-          </span>
-        </button>
       </div>
 
       <div class="min-w-0 flex flex-col gap-2">
@@ -111,6 +104,19 @@ const initialSrc = defaultVideoId
               Continue on YouTube
             </a>
           </div>
+
+          <!-- Shown for a cued clip (e.g. opened from a ?clip= link). -->
+          <button
+            type="button"
+            id="clip-play"
+            style="display:none"
+            class={`mt-2 w-full ${btnPrimary}`}
+          >
+            <Play class="w-3.5 h-3.5" />
+            Play clip
+          </button>
+
+          <!-- Shown when a clip reaches its end. -->
           <div
             id="clip-ended-actions"
             style="display:none"
@@ -119,7 +125,7 @@ const initialSrc = defaultVideoId
             <button
               type="button"
               id="clip-replay"
-              class="flex-1 justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-surface border border-ew-card-border text-ew-text px-3 py-1.5 text-xs font-medium hover:border-ew-shell/40 transition-colors"
+              class={`flex-1 inline-flex ${btnGhost}`}
             >
               <Play class="w-3.5 h-3.5" />
               Play again
@@ -129,7 +135,7 @@ const initialSrc = defaultVideoId
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="flex-1 justify-center inline-flex items-center gap-1.5 rounded-md bg-ew-shell text-white px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-opacity"
+              class={`flex-1 inline-flex ${btnPrimary}`}
             >
               <Icon name="simple-icons:youtube" class="w-3.5 h-3.5" />
               Continue on YouTube
@@ -145,237 +151,166 @@ const initialSrc = defaultVideoId
 
 <script is:inline define:vars={{ defaultVideoId, defaultLabel }}>
   (function () {
-    const playerContainer = document.getElementById("player-container");
-    const label = document.getElementById("now-playing-label");
-    const playerBar = document.getElementById("player-bar");
-    const progressBox = document.getElementById("clip-progress");
-    const progressFill = document.getElementById("clip-progress-fill");
-    const progressTime = document.getElementById("clip-progress-time");
-    const openYT = document.getElementById("clip-open-youtube");
-    const endedActions = document.getElementById("clip-ended-actions");
-    const clipContinue = document.getElementById("clip-continue");
-    const replayBtn = document.getElementById("clip-replay");
-    const playOverlay = document.getElementById("clip-play-overlay");
-    const resetBtn = document.querySelector("[data-reset-player]");
-    if (
-      !playerContainer ||
-      !label ||
-      !progressBox ||
-      !progressFill ||
-      !progressTime
-    )
+    const el = {
+      container: document.getElementById("player-container"),
+      label: document.getElementById("now-playing-label"),
+      bar: document.getElementById("player-bar"),
+      progress: document.getElementById("clip-progress"),
+      fill: document.getElementById("clip-progress-fill"),
+      time: document.getElementById("clip-progress-time"),
+      openYT: document.getElementById("clip-open-youtube"),
+      endedActions: document.getElementById("clip-ended-actions"),
+      continueYT: document.getElementById("clip-continue"),
+      replay: document.getElementById("clip-replay"),
+      play: document.getElementById("clip-play"),
+      reset: document.querySelector("[data-reset-player]"),
+    };
+    if (!el.container || !el.label || !el.progress || !el.fill || !el.time) {
       return;
+    }
 
+    const EMBED_ALLOW =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
     const hasDefault = !!defaultVideoId;
 
     let player = null;
     let playerReady = false;
     let iframeCreated = hasDefault;
-    let pendingAfterReady = null;
-    let activeClip = null;
+    let onReady = null; // a single action to run once the player is ready
+    let active = null; // { videoId, start, end, label } of the current clip
     let rafId = null;
     let lastSec = -1;
 
-    function fmt(s) {
+    // --- formatting -----------------------------------------------------------
+    const pad = (n) => String(n).padStart(2, "0");
+    function clock(s) {
       if (!Number.isFinite(s)) return "0:00";
       s = Math.max(0, Math.floor(s));
       const h = Math.floor(s / 3600);
       const m = Math.floor((s % 3600) / 60);
       const sec = s % 60;
-      const pad = (n) => String(n).padStart(2, "0");
       return h > 0 ? h + ":" + pad(m) + ":" + pad(sec) : m + ":" + pad(sec);
     }
+    const clamp = (sec) => Math.max(0, Math.floor(sec));
+    // The full video at a given second, so "continue" resumes where you are.
+    const watchUrl = (id, sec) =>
+      "https://www.youtube.com/watch?v=" + id + "&t=" + clamp(sec) + "s";
+    const embedUrl = (id, start, end, autoplay) =>
+      "https://www.youtube.com/embed/" +
+      id +
+      "?start=" +
+      Math.floor(start) +
+      "&end=" +
+      Math.ceil(end) +
+      "&autoplay=" +
+      (autoplay ? "1" : "0") +
+      "&rel=0&enablejsapi=1";
 
-    // Full video on YouTube, at a given second — so "continue" picks up exactly
-    // where playback is, not at the clip's start.
-    function watchUrl(videoId, seconds) {
-      return (
-        "https://www.youtube.com/watch?v=" +
-        videoId +
-        "&t=" +
-        Math.max(0, Math.floor(seconds)) +
-        "s"
-      );
-    }
-
-    // Toggle via inline display (not the `hidden` class) — `flex` would
-    // otherwise lose to nothing, but the class cascade is unreliable here.
-    function showContinue(seconds) {
-      if (!endedActions || !activeClip) return;
-      if (clipContinue)
-        clipContinue.setAttribute(
-          "href",
-          watchUrl(activeClip.videoId, seconds),
-        );
-      endedActions.style.display = "flex";
-    }
-    function hideContinue() {
-      if (endedActions) endedActions.style.display = "none";
-    }
-
-    // Replay the active clip from its start (re-establishes the end cap).
-    function replayClip() {
-      if (!activeClip) return;
-      const c = activeClip;
-      loadClip(
-        c.videoId,
-        c.start,
-        c.end,
-        c.label,
-        watchUrl(c.videoId, c.start),
-        "play",
-      );
+    // --- show/hide the toggled controls --------------------------------------
+    const toggle = (node, on) => {
+      if (node) node.style.display = on ? "flex" : "none";
+    };
+    const showPlay = (on) => toggle(el.play, on);
+    const hideEnded = () => toggle(el.endedActions, false);
+    function showEnded(sec) {
+      if (!active || !el.endedActions) return;
+      if (el.continueYT) el.continueYT.href = watchUrl(active.videoId, sec);
+      toggle(el.endedActions, true);
     }
 
-    // A cued clip (e.g. loaded from a ?clip= link) shows our own play button
-    // over the poster, so it's obvious how to start it.
-    function showPlayOverlay() {
-      if (playOverlay) playOverlay.style.display = "flex";
-    }
-    function hidePlayOverlay() {
-      if (playOverlay) playOverlay.style.display = "none";
-    }
-    function playActiveClip() {
-      hidePlayOverlay();
-      if (!activeClip) return;
-      if (playerReady && player && player.playVideo) {
-        if (player.seekTo) player.seekTo(activeClip.start, true);
-        player.playVideo();
-        startPolling();
-      } else {
-        replayClip();
-      }
-    }
-
-    function clipUrl(videoId, start, end, mode) {
-      const autoplay = mode === "cue" ? "0" : "1";
-      return (
-        "https://www.youtube.com/embed/" +
-        videoId +
-        "?start=" +
-        Math.floor(start) +
-        "&end=" +
-        Math.ceil(end) +
-        "&autoplay=" +
-        autoplay +
-        "&rel=0&enablejsapi=1"
-      );
-    }
-
-    function scrollToSection(targetId) {
-      const section = document.getElementById(targetId);
-      if (!section) return;
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-
-    function updateProgress() {
-      if (!activeClip || !player || !player.getCurrentTime) return;
+    // --- progress bar (driven by requestAnimationFrame for smoothness) --------
+    function renderProgress() {
+      if (!active || !player || !player.getCurrentTime) return;
       const t = player.getCurrentTime();
-      const clipDur = activeClip.end - activeClip.start;
+      const dur = active.end - active.start;
       // getCurrentTime() can return NaN for a tick right after a load.
-      if (!Number.isFinite(t) || clipDur <= 0) return;
-      const elapsed = Math.max(0, Math.min(clipDur, t - activeClip.start));
-      // Width updates every animation frame for a smooth bar.
-      progressFill.style.width = (elapsed / clipDur) * 100 + "%";
-      // Text + link only change once per second — no need to touch them 60×/s.
+      if (!Number.isFinite(t) || dur <= 0) return;
+      const elapsed = Math.max(0, Math.min(dur, t - active.start));
+      el.fill.style.width = (elapsed / dur) * 100 + "%";
+      // Text + link only change once a second — no need to touch them per frame.
       const sec = Math.floor(elapsed);
       if (sec !== lastSec) {
         lastSec = sec;
-        progressTime.textContent = fmt(elapsed) + " / " + fmt(clipDur);
-        if (openYT)
-          openYT.setAttribute("href", watchUrl(activeClip.videoId, t));
+        el.time.textContent = clock(elapsed) + " / " + clock(dur);
+        if (el.openYT) el.openYT.href = watchUrl(active.videoId, t);
       }
-      // Near the clip's end, surface the prompt to keep watching on YouTube.
-      if (t >= activeClip.end - 0.4) showContinue(t);
+      if (t >= active.end - 0.4) showEnded(t);
     }
-    // Drive the progress bar off requestAnimationFrame (the player's
-    // getCurrentTime is continuous), rather than a 250ms interval that stutters.
-    function startPolling() {
-      stopPolling();
+    function startTracking() {
+      stopTracking();
       lastSec = -1;
       const tick = () => {
-        updateProgress();
+        renderProgress();
         rafId = requestAnimationFrame(tick);
       };
       rafId = requestAnimationFrame(tick);
     }
-    function stopPolling() {
-      if (rafId) {
-        cancelAnimationFrame(rafId);
-        rafId = null;
-      }
+    function stopTracking() {
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = null;
     }
 
-    function createIframe(videoId, start, end, mode) {
-      const placeholder = document.getElementById("player-placeholder");
-      if (placeholder && placeholder.parentNode === playerContainer) {
-        playerContainer.removeChild(placeholder);
-      }
-      const iframe = document.createElement("iframe");
-      iframe.id = "clip-player";
-      iframe.src = clipUrl(videoId, start, end, mode);
-      iframe.setAttribute("frameborder", "0");
-      iframe.setAttribute(
-        "allow",
-        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-      );
-      iframe.setAttribute("allowfullscreen", "true");
-      iframe.className = "w-full h-full";
-      playerContainer.appendChild(iframe);
-      iframeCreated = true;
-      loadYouTubeApi();
-    }
-
-    function loadYouTubeApi() {
+    // --- YouTube iframe + player ----------------------------------------------
+    function ensurePlayer() {
       if (window.YT && window.YT.Player) {
-        initPlayer();
+        createPlayer();
         return;
       }
-      window.onYouTubeIframeAPIReady = initPlayer;
+      window.onYouTubeIframeAPIReady = createPlayer;
       const tag = document.createElement("script");
       tag.src = "https://www.youtube.com/iframe_api";
       tag.async = true;
       document.head.appendChild(tag);
     }
-
-    function initPlayer() {
+    function createPlayer() {
       try {
         player = new YT.Player("clip-player", {
           events: {
-            onReady: function () {
+            onReady: () => {
               playerReady = true;
-              if (pendingAfterReady) {
-                const p = pendingAfterReady;
-                pendingAfterReady = null;
-                p();
-              } else if (activeClip) {
-                startPolling();
-              }
+              const action = onReady;
+              onReady = null;
+              if (action) action();
+              else if (active) startTracking();
             },
-            onStateChange: function (e) {
-              if (e.data === 1 && activeClip) {
-                // Playing.
-                startPolling();
-                hideContinue();
-                hidePlayOverlay();
-              } else if (e.data === 0 && activeClip) {
-                // Ended (reached the clip's end cap): offer to keep watching.
-                stopPolling();
-                showContinue(activeClip.end);
-              } else if (e.data === 2 && activeClip) {
-                // Paused: stop the rAF loop but settle the bar at the position.
-                stopPolling();
-                updateProgress();
+            onStateChange: (e) => {
+              if (!active) return;
+              const S = YT.PlayerState;
+              if (e.data === S.PLAYING) {
+                startTracking();
+                hideEnded();
+                showPlay(false);
+              } else if (e.data === S.ENDED) {
+                stopTracking();
+                showEnded(active.end);
+              } else if (e.data === S.PAUSED) {
+                stopTracking();
+                renderProgress();
               }
             },
           },
         });
       } catch {
-        return;
+        /* iframe API failed to load */
       }
     }
+    function mountIframe(videoId, start, end, autoplay) {
+      const placeholder = document.getElementById("player-placeholder");
+      if (placeholder) placeholder.remove();
+      const iframe = document.createElement("iframe");
+      iframe.id = "clip-player";
+      iframe.src = embedUrl(videoId, start, end, autoplay);
+      iframe.className = "w-full h-full";
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("allow", EMBED_ALLOW);
+      iframe.setAttribute("allowfullscreen", "true");
+      el.container.appendChild(iframe);
+      iframeCreated = true;
+      ensurePlayer();
+    }
 
-    function setClipParam(clip) {
+    // --- loading / controlling clips ------------------------------------------
+    function syncUrl(clip) {
       const url = new URL(window.location.href);
       if (clip) {
         url.searchParams.set(
@@ -392,147 +327,165 @@ const initialSrc = defaultVideoId
       window.history.replaceState({}, "", url);
     }
 
-    function loadClip(videoId, start, end, name, youtubeUrl, mode) {
-      activeClip = { videoId: videoId, start: start, end: end, label: name };
-      setClipParam(activeClip);
-      label.textContent = name;
-      progressBox.classList.remove("hidden");
-      if (resetBtn) resetBtn.classList.remove("hidden");
-      // Initial target = clip start; updateProgress() then tracks the live time.
-      if (openYT && youtubeUrl) openYT.setAttribute("href", youtubeUrl);
-      hideContinue();
-      progressFill.style.width = "0%";
-      progressTime.textContent = "0:00 / " + fmt(end - start);
-
-      const isCue = mode === "cue";
-      if (isCue) showPlayOverlay();
-      else hidePlayOverlay();
-
-      if (!iframeCreated) {
-        createIframe(videoId, start, end, mode);
-      } else if (playerReady && player) {
-        if (isCue && player.cueVideoById) {
-          player.cueVideoById({
-            videoId: videoId,
-            startSeconds: start,
-            endSeconds: end,
-          });
-          stopPolling();
-        } else if (player.loadVideoById) {
-          player.loadVideoById({
-            videoId: videoId,
-            startSeconds: start,
-            endSeconds: end,
-          });
-          startPolling();
-        }
-      } else {
-        const iframe = document.getElementById("clip-player");
-        if (iframe) iframe.src = clipUrl(videoId, start, end, mode);
-        pendingAfterReady = isCue
-          ? null
-          : function () {
-              startPolling();
-            };
-      }
-
-      if (!isCue) {
-        const rect = playerBar.getBoundingClientRect();
-        if (rect.top < 0 || rect.bottom > window.innerHeight) {
-          window.scrollTo({
-            top: window.scrollY + rect.top - 64,
-            behavior: "smooth",
-          });
-        }
+    function scrollIntoView(node) {
+      if (node) node.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    function revealPlayerBar() {
+      const rect = el.bar.getBoundingClientRect();
+      if (rect.top < 0 || rect.bottom > window.innerHeight) {
+        window.scrollTo({
+          top: window.scrollY + rect.top - 64,
+          behavior: "smooth",
+        });
       }
     }
 
+    // mode: "play" autoplays; "cue" loads paused and shows the Play button.
+    function loadClip(videoId, start, end, name, youtubeUrl, mode) {
+      const cue = mode === "cue";
+      active = { videoId: videoId, start: start, end: end, label: name };
+      syncUrl(active);
+
+      el.label.textContent = name;
+      el.progress.classList.remove("hidden");
+      if (el.reset) el.reset.classList.remove("hidden");
+      // Initial target = clip start; renderProgress() then tracks the live time.
+      if (el.openYT && youtubeUrl) el.openYT.href = youtubeUrl;
+      el.fill.style.width = "0%";
+      el.time.textContent = "0:00 / " + clock(end - start);
+      hideEnded();
+      showPlay(cue);
+
+      const opts = { videoId: videoId, startSeconds: start, endSeconds: end };
+      if (!iframeCreated) {
+        mountIframe(videoId, start, end, !cue);
+      } else if (playerReady && player) {
+        if (cue && player.cueVideoById) {
+          player.cueVideoById(opts);
+          stopTracking();
+        } else {
+          player.loadVideoById(opts);
+          startTracking();
+        }
+      } else {
+        const iframe = document.getElementById("clip-player");
+        if (iframe) iframe.src = embedUrl(videoId, start, end, !cue);
+        onReady = cue ? null : startTracking;
+      }
+
+      if (!cue) revealPlayerBar();
+    }
+
+    function playActive() {
+      showPlay(false);
+      if (!active) return;
+      if (playerReady && player && player.playVideo) {
+        if (player.seekTo) player.seekTo(active.start, true);
+        player.playVideo();
+        startTracking();
+      } else {
+        replayActive();
+      }
+    }
+    function replayActive() {
+      if (!active) return;
+      loadClip(
+        active.videoId,
+        active.start,
+        active.end,
+        active.label,
+        watchUrl(active.videoId, active.start),
+        "play",
+      );
+    }
     function resetPlayer() {
-      activeClip = null;
-      setClipParam(null);
-      stopPolling();
-      hideContinue();
-      hidePlayOverlay();
-      progressBox.classList.add("hidden");
+      active = null;
+      syncUrl(null);
+      stopTracking();
+      hideEnded();
+      showPlay(false);
+      el.progress.classList.add("hidden");
       if (hasDefault) {
-        label.textContent = defaultLabel;
+        el.label.textContent = defaultLabel;
         if (playerReady && player && player.cueVideoById) {
           player.cueVideoById(defaultVideoId);
         }
       } else {
-        label.textContent = "Nothing yet";
-        if (resetBtn) resetBtn.classList.add("hidden");
-        if (playerReady && player && player.stopVideo) {
-          player.stopVideo();
-        }
+        el.label.textContent = "Nothing yet";
+        if (el.reset) el.reset.classList.add("hidden");
+        if (playerReady && player && player.stopVideo) player.stopVideo();
       }
     }
 
-    if (replayBtn) replayBtn.addEventListener("click", replayClip);
-    if (playOverlay) playOverlay.addEventListener("click", playActiveClip);
-
-    if (hasDefault) loadYouTubeApi();
-
-    (function applyClipFromUrl() {
+    // Restore a clip shared via ?clip=videoId:start-end. The param holds rounded
+    // seconds, but the clip triggers carry exact times — so match on floor/ceil
+    // and reuse the trigger's precise time, label and YouTube link.
+    function applyClipFromUrl() {
       const param = new URLSearchParams(window.location.search).get("clip");
-      if (!param) return;
-      const m = param.match(/^([^:]+):(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)$/);
+      const m =
+        param && param.match(/^([^:]+):(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)$/);
       if (!m) return;
-      const vid = m[1];
-      const start = parseFloat(m[2]);
-      const end = parseFloat(m[3]);
-      // The clip param stores floored/ceiled seconds, but the clip triggers
-      // carry exact (often fractional) times — so match on floor/ceil rather
-      // than an exact string, and reuse the trigger's precise times + label.
-      const sParam = Math.floor(start);
-      const eParam = Math.ceil(end);
-      let btn = null;
-      const candidates = document.querySelectorAll(
-        '[data-clip-video-id="' + vid + '"]',
+      const videoId = m[1];
+      const startParam = Math.floor(parseFloat(m[2]));
+      const endParam = Math.ceil(parseFloat(m[3]));
+
+      let match = null;
+      const triggers = document.querySelectorAll(
+        '[data-clip-video-id="' + videoId + '"]',
       );
-      for (let i = 0; i < candidates.length; i++) {
-        const s = parseFloat(candidates[i].dataset.clipStart);
-        const en = parseFloat(candidates[i].dataset.clipEnd);
-        if (
-          Number.isFinite(s) &&
-          Number.isFinite(en) &&
-          Math.floor(s) === sParam &&
-          Math.ceil(en) === eParam
-        ) {
-          btn = candidates[i];
+      for (let i = 0; i < triggers.length; i++) {
+        const s = parseFloat(triggers[i].dataset.clipStart);
+        const e = parseFloat(triggers[i].dataset.clipEnd);
+        if (Math.floor(s) === startParam && Math.ceil(e) === endParam) {
+          match = triggers[i].dataset;
           break;
         }
       }
-      const lbl = (btn && btn.dataset.clipLabel) || "Clip";
-      const yt = (btn && btn.dataset.clipYoutube) || "";
-      const realStart = btn ? parseFloat(btn.dataset.clipStart) : start;
-      const realEnd = btn ? parseFloat(btn.dataset.clipEnd) : end;
-      loadClip(vid, realStart, realEnd, lbl, yt, "cue");
-    })();
+      loadClip(
+        videoId,
+        match ? parseFloat(match.clipStart) : startParam,
+        match ? parseFloat(match.clipEnd) : endParam,
+        (match && match.clipLabel) || "Clip",
+        (match && match.clipYoutube) || "",
+        "cue",
+      );
+    }
 
-    document.addEventListener("click", function (e) {
+    // --- wiring ---------------------------------------------------------------
+    if (el.replay) el.replay.addEventListener("click", replayActive);
+    if (el.play) el.play.addEventListener("click", playActive);
+
+    document.addEventListener("click", (e) => {
       const target = e.target instanceof Element ? e.target : null;
       if (!target) return;
 
-      const playBtn = target.closest("[data-clip-video-id]");
-      if (playBtn instanceof HTMLElement) {
+      const trigger = target.closest("[data-clip-video-id]");
+      if (trigger instanceof HTMLElement) {
         e.preventDefault();
-        const jumpTarget = playBtn.dataset.jump;
-        const mode = jumpTarget ? "cue" : "play";
+        const jump = trigger.dataset.jump;
         loadClip(
-          playBtn.dataset.clipVideoId,
-          parseFloat(playBtn.dataset.clipStart || "0"),
-          parseFloat(playBtn.dataset.clipEnd || "0"),
-          playBtn.dataset.clipLabel || "Clip",
-          playBtn.dataset.clipYoutube || "",
-          mode,
+          trigger.dataset.clipVideoId,
+          parseFloat(trigger.dataset.clipStart || "0"),
+          parseFloat(trigger.dataset.clipEnd || "0"),
+          trigger.dataset.clipLabel || "Clip",
+          trigger.dataset.clipYoutube || "",
+          jump ? "cue" : "play",
         );
-        if (jumpTarget) scrollToSection(jumpTarget);
+        if (jump) scrollIntoView(document.getElementById(jump));
         return;
       }
 
-      const reset = target.closest("[data-reset-player]");
-      if (reset) resetPlayer();
+      if (target.closest("[data-reset-player]")) resetPlayer();
     });
+
+    if (hasDefault) ensurePlayer();
+
+    // Defer until the clip triggers lower in the page are parsed (this inline
+    // script runs before them), so we can resolve the clip's real title.
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", applyClipFromUrl);
+    } else {
+      applyClipFromUrl();
+    }
   })();
 </script>
