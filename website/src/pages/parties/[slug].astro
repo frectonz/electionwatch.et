@@ -59,7 +59,7 @@ const candidateParty = partyByProfileSlug.get(slug);
     <div class="flex items-center gap-4 mb-4">
       {
         party.symbol && (
-          <div class="shrink-0 isolate bg-ew-bg rounded-lg">
+          <div class="shrink-0 isolate overflow-hidden bg-ew-bg rounded-lg">
             <img
               src={party.symbol}
               alt={`${party.name} ballot symbol`}
