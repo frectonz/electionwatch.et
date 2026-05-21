@@ -1,0 +1,188 @@
+{
+  "total_candidates": 10438,
+  "by_body": {
+    "hopr": 2080,
+    "rc": 8358
+  },
+  "hopr_constituency_count": 509,
+  "rc_constituency_count": 646,
+  "region_count": 13,
+  "party_count": 43,
+  "with_disability": 275,
+  "by_gender": {
+    "Male": 7747,
+    "Female": 2691
+  },
+  "by_education": {
+    "Bachelor of Arts": 2690,
+    "High School": 1810,
+    "Master of Arts": 1577,
+    "Bachelor of Science": 1366,
+    "No Education": 676,
+    "Master of Science": 620,
+    "Middle School": 581,
+    "Doctorate": 361,
+    "Primary School": 348,
+    "Bachelor of Law": 248,
+    "Not Specified": 88,
+    "Master of Law": 73
+  },
+  "files": [
+    {
+      "file": "addis_ababa_hopr",
+      "region": "Addis Ababa",
+      "body": "hopr",
+      "candidates": 219
+    },
+    {
+      "file": "addis_ababa_rc",
+      "region": "Addis Ababa",
+      "body": "rc",
+      "candidates": 797
+    },
+    {
+      "file": "afar_hopr",
+      "region": "Afar",
+      "body": "hopr",
+      "candidates": 48
+    },
+    {
+      "file": "afar_rc",
+      "region": "Afar",
+      "body": "rc",
+      "candidates": 507
+    },
+    {
+      "file": "amhara_hopr",
+      "region": "Amhara",
+      "body": "hopr",
+      "candidates": 494
+    },
+    {
+      "file": "amhara_rc",
+      "region": "Amhara",
+      "body": "rc",
+      "candidates": 757
+    },
+    {
+      "file": "benshangul_gumz_hopr",
+      "region": "Benishangul-Gumuz",
+      "body": "hopr",
+      "candidates": 31
+    },
+    {
+      "file": "benshangul_gumz_rc",
+      "region": "Benishangul-Gumuz",
+      "body": "rc",
+      "candidates": 356
+    },
+    {
+      "file": "central_ethiopia_hopr",
+      "region": "Central Ethiopia",
+      "body": "hopr",
+      "candidates": 164
+    },
+    {
+      "file": "central_ethiopia_rc",
+      "region": "Central Ethiopia",
+      "body": "rc",
+      "candidates": 570
+    },
+    {
+      "file": "diredawa_hopr",
+      "region": "Dire Dawa",
+      "body": "hopr",
+      "candidates": 13
+    },
+    {
+      "file": "diredawa_rc",
+      "region": "Dire Dawa",
+      "body": "rc",
+      "candidates": 209
+    },
+    {
+      "file": "gambella_hopr",
+      "region": "Gambela",
+      "body": "hopr",
+      "candidates": 9
+    },
+    {
+      "file": "gambella_rc",
+      "region": "Gambela",
+      "body": "rc",
+      "candidates": 334
+    },
+    {
+      "file": "harari_hopr",
+      "region": "Harari",
+      "body": "hopr",
+      "candidates": 8
+    },
+    {
+      "file": "harari_rc",
+      "region": "Harari",
+      "body": "rc",
+      "candidates": 67
+    },
+    {
+      "file": "oromia_hopr",
+      "region": "Oromia",
+      "body": "hopr",
+      "candidates": 458
+    },
+    {
+      "file": "oromia_rc",
+      "region": "Oromia",
+      "body": "rc",
+      "candidates": 988
+    },
+    {
+      "file": "sidama_hopr",
+      "region": "Sidama",
+      "body": "hopr",
+      "candidates": 166
+    },
+    {
+      "file": "sidama_rc",
+      "region": "Sidama",
+      "body": "rc",
+      "candidates": 1281
+    },
+    {
+      "file": "somali_hopr",
+      "region": "Somali",
+      "body": "hopr",
+      "candidates": 61
+    },
+    {
+      "file": "somali_rc",
+      "region": "Somali",
+      "body": "rc",
+      "candidates": 650
+    },
+    {
+      "file": "south_ethiopia_hopr",
+      "region": "South Ethiopia",
+      "body": "hopr",
+      "candidates": 314
+    },
+    {
+      "file": "south_ethiopia_rc",
+      "region": "South Ethiopia",
+      "body": "rc",
+      "candidates": 1183
+    },
+    {
+      "file": "south_west_hopr",
+      "region": "South West Ethiopia",
+      "body": "hopr",
+      "candidates": 95
+    },
+    {
+      "file": "south_west_rc",
+      "region": "South West Ethiopia",
+      "body": "rc",
+      "candidates": 659
+    }
+  ]
+}

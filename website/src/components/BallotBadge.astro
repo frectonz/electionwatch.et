@@ -1,0 +1,18 @@
+---
+// Small colour-coded chip marking a constituency's ballot (HoPR / RC).
+import { BALLOT_COLORS } from "@/lib/format";
+import { BODY_SHORT, type Body } from "@/data/candidates";
+
+interface Props {
+  body: Body;
+}
+const { body } = Astro.props;
+const color = BALLOT_COLORS[body];
+---
+
+<span
+  class="text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded shrink-0"
+  style={`color:${color};background:${color}1a`}
+>
+  {BODY_SHORT[body]}
+</span>

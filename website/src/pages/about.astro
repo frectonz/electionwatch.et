@@ -1,57 +1,233 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { ExternalLink } from "@lucide/astro";
+import { liveDatasets } from "@/data/datasets";
+import { fmt } from "@/lib/format";
+import {
+  House,
+  ChevronRight,
+  Eye,
+  Quote,
+  Code,
+  FileText,
+  Database,
+  LayoutGrid,
+  ExternalLink,
+  ArrowRight,
+} from "@lucide/astro";
+
+const mission = [
+  {
+    Icon: Eye,
+    title: "Accessible",
+    text: "Election data sits locked in scattered PDFs and broadcasts. We turn it into searchable datasets, maps, and charts that anyone can use, for free.",
+  },
+  {
+    Icon: Quote,
+    title: "Verifiable",
+    text: "Every record links back to its primary source, so you can always check the original rather than take our word for it.",
+  },
+  {
+    Icon: Code,
+    title: "Open & independent",
+    text: "The site is open source and not affiliated with any government body or political party. The code and structured data are public.",
+  },
+];
+
+const steps = [
+  {
+    Icon: FileText,
+    title: "Collect",
+    text: "We gather publicly released material: NEBE candidate lists and polling-station PDFs, official debate broadcasts, and party filings.",
+  },
+  {
+    Icon: Database,
+    title: "Structure",
+    text: "Each source is parsed into normalized JSON, with Amharic and English names cleaned and cross-linked across datasets.",
+  },
+  {
+    Icon: LayoutGrid,
+    title: "Publish",
+    text: "The data is rendered into a fast static site with interactive maps, charts, and searchable tables. No tracking, no server.",
+  },
+];
 ---
 
 <Layout
   title="About · electionwatch.et"
-  description="About electionwatch.et: an independent open-data portal for Ethiopia's 7th General Election."
+  description="About electionwatch.et: an independent open-data portal for Ethiopia's 7th General Election, with every record linked to its source."
 >
-  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <h1 class="font-display text-4xl sm:text-5xl mb-6">About</h1>
-    <div
-      class="prose prose-lg max-w-none text-ew-text-dim leading-relaxed space-y-5"
-    >
-      <p>
-        <strong class="text-ew-text">electionwatch.et</strong> is an independent,
-        open data portal for Ethiopia&rsquo;s 7th General Election. It is not affiliated
-        with the Ethiopian government, <a
-          href="https://nebe.org.et/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1"
-          >NEBE<ExternalLink class="w-3 h-3" /></a
-        >, or any political party.
-      </p>
-      <p>
-        We collect publicly available material, structure it into citable
-        datasets, and publish it for free. New datasets are added through the
-        election cycle.
-      </p>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-4">
+    <nav class="flex items-center gap-1.5 text-sm mb-8">
+      <a
+        href="/"
+        class="inline-flex items-center gap-1 text-ew-text-muted hover:text-ew-shell transition-colors"
+      >
+        <House class="w-3.5 h-3.5" /> Home
+      </a>
+      <ChevronRight class="w-3.5 h-3.5 text-ew-text-muted/50" />
+      <span class="text-ew-text font-medium">About</span>
+    </nav>
 
-      <h2 class="font-display text-2xl text-ew-text mt-10 mb-3">Datasets</h2>
-      <p>
-        Two are live: question-by-question analyses of every official debate
-        broadcast, and consolidated position files for parties that have
-        appeared in one. More are in progress.
-      </p>
+    <h1 class="font-display text-4xl sm:text-5xl text-ew-text mb-3">
+      About electionwatch.et
+    </h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      An independent open-data portal for Ethiopia&rsquo;s 7th General Election.
+      Public material, structured into citable datasets, free for anyone to use.
+    </p>
+  </section>
 
-      <h2 class="font-display text-2xl text-ew-text mt-10 mb-3">Citations</h2>
-      <p>
-        Every record links to its primary source. Where claims are summarised
-        automatically by a language model, the same link lets you check the
-        model&rsquo;s work. Check the source before drawing conclusions.
-      </p>
+  <!-- Mission -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <div class="grid sm:grid-cols-3 gap-5">
+      {
+        mission.map((m) => (
+          <div class="bg-ew-card border border-ew-card-border rounded-xl p-6">
+            <div class="w-10 h-10 rounded-lg bg-ew-shell/10 flex items-center justify-center mb-4">
+              <m.Icon class="w-5 h-5 text-ew-shell" />
+            </div>
+            <h3 class="font-display text-lg text-ew-text mb-2">{m.title}</h3>
+            <p class="text-ew-text-dim text-sm leading-relaxed">{m.text}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
 
-      <h2 class="font-display text-2xl text-ew-text mt-10 mb-3">Contact</h2>
-      <p>
-        Found an inaccuracy? Reach out to
-        <a
-          href="https://t.me/frectonz"
-          target="_blank"
-          rel="noopener noreferrer">@frectonz</a
-        > on Telegram.
-      </p>
+  <!-- What is this -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-6 sm:p-8">
+      <h2 class="font-display text-2xl text-ew-text mb-4">
+        What is electionwatch.et?
+      </h2>
+      <div class="space-y-4 text-ew-text-dim leading-relaxed">
+        <p>
+          <strong class="text-ew-text">electionwatch.et</strong> takes the public
+          record of Ethiopia&rsquo;s 7th General Election and turns it into structured,
+          cross-linked datasets that are easy to explore.
+        </p>
+        <p>
+          The National Election Board publishes candidate lists and
+          polling-station registries as long PDFs; debates air as hours-long
+          broadcasts. Useful, but hard to search, compare, or cite. We extract
+          that material, normalize it, and connect it, so you can move from a
+          polling station to the candidates on its ballot, from a party to every
+          seat it contests, or from a debate claim to the second it was spoken.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <h2 class="font-display text-2xl text-ew-text mb-6">How it works</h2>
+    <div class="grid sm:grid-cols-3 gap-5">
+      {
+        steps.map((s, i) => (
+          <div class="bg-ew-card border border-ew-card-border rounded-xl p-6">
+            <div class="w-8 h-8 rounded-full bg-ew-shell text-white flex items-center justify-center font-mono text-sm font-bold mb-4">
+              {i + 1}
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <s.Icon class="w-4 h-4 text-ew-gold" />
+              <h3 class="font-semibold text-ew-text text-sm">{s.title}</h3>
+            </div>
+            <p class="text-ew-text-dim text-sm leading-relaxed">{s.text}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Datasets & sources -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <h2 class="font-display text-2xl text-ew-text mb-2">
+      Datasets &amp; sources
+    </h2>
+    <p class="text-ew-text-dim mb-6 max-w-2xl">
+      {liveDatasets.length} datasets are live. Each is built from public material:
+    </p>
+    <div class="grid sm:grid-cols-2 gap-4">
+      {
+        liveDatasets.map((d) => {
+          const external = d.sourceUrl.startsWith("http");
+          return (
+            <div class="bg-ew-card border border-ew-card-border rounded-xl p-6 flex flex-col">
+              <div class="flex items-baseline justify-between gap-3 mb-1">
+                <a
+                  href={d.href}
+                  class="font-display text-lg text-ew-text hover:text-ew-shell transition-colors"
+                >
+                  {d.title}
+                </a>
+                <span class="text-xs font-mono tabular-nums text-ew-text-muted shrink-0">
+                  {fmt(d.records)}
+                </span>
+              </div>
+              <p class="text-ew-text-dim text-sm leading-relaxed flex-1">
+                {d.sourceNote}
+              </p>
+              <a
+                href={d.sourceUrl}
+                target={external ? "_blank" : undefined}
+                rel={external ? "noopener noreferrer" : undefined}
+                class="mt-3 inline-flex items-center gap-1.5 text-sm text-ew-shell hover:text-ew-gold font-medium"
+              >
+                {external ? (
+                  <>
+                    <ExternalLink class="w-3.5 h-3.5" /> Source on nebe.org.et
+                  </>
+                ) : (
+                  <>
+                    View the dataset <ArrowRight class="w-3.5 h-3.5" />
+                  </>
+                )}
+              </a>
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <!-- Disclaimer & contact -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-ew-gold-soft border border-ew-gold/20 rounded-xl p-6">
+        <h3 class="font-display text-lg text-ew-text mb-3">Disclaimer</h3>
+        <div class="space-y-3 text-sm text-ew-text-dim leading-relaxed">
+          <p>
+            This is an <strong class="text-ew-text"
+              >independent, unofficial project</strong
+            >. It is not affiliated with or endorsed by the Ethiopian
+            government, <a
+              href="https://nebe.org.et/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:underline">NEBE</a
+            >, or any political party.
+          </p>
+          <p>
+            The data is provided as-is. Where records are extracted from PDFs or
+            summarized automatically, they may contain extraction or
+            interpretation errors. Always check the linked source before drawing
+            conclusions.
+          </p>
+        </div>
+      </div>
+      <div class="bg-ew-card border border-ew-card-border rounded-xl p-6">
+        <h3 class="font-display text-lg text-ew-text mb-3">Contact</h3>
+        <p class="text-sm text-ew-text-dim leading-relaxed">
+          Found an inaccuracy, or want to suggest a dataset? Reach out to
+          <a
+            href="https://t.me/frectonz"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-ew-shell hover:text-ew-gold font-medium">@frectonz</a
+          >
+          on Telegram.
+        </p>
+      </div>
     </div>
   </section>
 </Layout>

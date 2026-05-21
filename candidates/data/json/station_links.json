@@ -1,0 +1,5281 @@
+{
+  "hopr": {
+    "524": {
+      "slug": "addis_ababa-hopr-0",
+      "name": "የምርጫ ክልል 1 እና 9",
+      "candidates": 8
+    },
+    "525": {
+      "slug": "addis_ababa-hopr-1",
+      "name": "የምርጫ ክልል 10",
+      "candidates": 9
+    },
+    "526": {
+      "slug": "addis_ababa-hopr-2",
+      "name": "የምርጫ ክልል 11",
+      "candidates": 10
+    },
+    "527": {
+      "slug": "addis_ababa-hopr-3",
+      "name": "የምርጫ ክልል 12 እና 13",
+      "candidates": 14
+    },
+    "528": {
+      "slug": "addis_ababa-hopr-4",
+      "name": "የምርጫ ክልል 15",
+      "candidates": 7
+    },
+    "529": {
+      "slug": "addis_ababa-hopr-5",
+      "name": "የምርጫ ክልል 16",
+      "candidates": 10
+    },
+    "523": {
+      "slug": "addis_ababa-hopr-6",
+      "name": "የምርጫ ክልል 17",
+      "candidates": 13
+    },
+    "530": {
+      "slug": "addis_ababa-hopr-7",
+      "name": "የምርጫ ክልል 18",
+      "candidates": 7
+    },
+    "531": {
+      "slug": "addis_ababa-hopr-8",
+      "name": "የምርጫ ክልል 19",
+      "candidates": 10
+    },
+    "532": {
+      "slug": "addis_ababa-hopr-9",
+      "name": "የምርጫ ክልል 2 እና 14",
+      "candidates": 8
+    },
+    "533": {
+      "slug": "addis_ababa-hopr-10",
+      "name": "የምርጫ ክልል 20",
+      "candidates": 11
+    },
+    "534": {
+      "slug": "addis_ababa-hopr-11",
+      "name": "የምርጫ ክልል 21 እና 22",
+      "candidates": 12
+    },
+    "535": {
+      "slug": "addis_ababa-hopr-12",
+      "name": "የምርጫ ክልል 23",
+      "candidates": 7
+    },
+    "536": {
+      "slug": "addis_ababa-hopr-13",
+      "name": "የምርጫ ክልል 24",
+      "candidates": 15
+    },
+    "537": {
+      "slug": "addis_ababa-hopr-14",
+      "name": "የምርጫ ክልል 25",
+      "candidates": 8
+    },
+    "538": {
+      "slug": "addis_ababa-hopr-15",
+      "name": "የምርጫ ክልል 26 እና 27",
+      "candidates": 12
+    },
+    "539": {
+      "slug": "addis_ababa-hopr-16",
+      "name": "የምርጫ ክልል 28",
+      "candidates": 12
+    },
+    "540": {
+      "slug": "addis_ababa-hopr-17",
+      "name": "የምርጫ ክልል 3",
+      "candidates": 10
+    },
+    "541": {
+      "slug": "addis_ababa-hopr-18",
+      "name": "የምርጫ ክልል 4",
+      "candidates": 4
+    },
+    "545": {
+      "slug": "addis_ababa-hopr-19",
+      "name": "የምርጫ ክልል 5",
+      "candidates": 7
+    },
+    "542": {
+      "slug": "addis_ababa-hopr-20",
+      "name": "የምርጫ ክልል 6",
+      "candidates": 8
+    },
+    "543": {
+      "slug": "addis_ababa-hopr-21",
+      "name": "የምርጫ ክልል 7",
+      "candidates": 9
+    },
+    "544": {
+      "slug": "addis_ababa-hopr-22",
+      "name": "የምርጫ ክልል 8",
+      "candidates": 8
+    },
+    "40": {
+      "slug": "afar-hopr-0",
+      "name": "አሚባራ / Qammi baxa",
+      "candidates": 7
+    },
+    "39": {
+      "slug": "afar-hopr-1",
+      "name": "አብአላ / Abqaala",
+      "candidates": 7
+    },
+    "41": {
+      "slug": "afar-hopr-2",
+      "name": "አዋሽ ፈንታሌ / Awaash Fanti Qazle",
+      "candidates": 6
+    },
+    "42": {
+      "slug": "afar-hopr-3",
+      "name": "አይሳይታ / Aysaqiita",
+      "candidates": 5
+    },
+    "44": {
+      "slug": "afar-hopr-4",
+      "name": "ዱብቲ / Dubti",
+      "candidates": 8
+    },
+    "43": {
+      "slug": "afar-hopr-5",
+      "name": "ዳሊፋጌ / xaalefaage",
+      "candidates": 4
+    },
+    "45": {
+      "slug": "afar-hopr-7",
+      "name": "ጉሊና / Golina",
+      "candidates": 6
+    },
+    "134": {
+      "slug": "amhara-hopr-0",
+      "name": "ለጋምቦ",
+      "candidates": 5
+    },
+    "136": {
+      "slug": "amhara-hopr-1",
+      "name": "ሉማሜ",
+      "candidates": 2
+    },
+    "135": {
+      "slug": "amhara-hopr-2",
+      "name": "ሊበን",
+      "candidates": 3
+    },
+    "132": {
+      "slug": "amhara-hopr-4",
+      "name": "ላይ ጋይንት 1",
+      "candidates": 4
+    },
+    "133": {
+      "slug": "amhara-hopr-5",
+      "name": "ላይ ጋይንት 2",
+      "candidates": 2
+    },
+    "122": {
+      "slug": "amhara-hopr-6",
+      "name": "ሐብሩ",
+      "candidates": 2
+    },
+    "138": {
+      "slug": "amhara-hopr-7",
+      "name": "መሐል ሜዳ",
+      "candidates": 1
+    },
+    "142": {
+      "slug": "amhara-hopr-8",
+      "name": "መራኛ",
+      "candidates": 1
+    },
+    "139": {
+      "slug": "amhara-hopr-11",
+      "name": "መቄት 1",
+      "candidates": 2
+    },
+    "140": {
+      "slug": "amhara-hopr-12",
+      "name": "መቄት 2",
+      "candidates": 3
+    },
+    "141": {
+      "slug": "amhara-hopr-13",
+      "name": "መቅደላ",
+      "candidates": 4
+    },
+    "145": {
+      "slug": "amhara-hopr-14",
+      "name": "መተማ",
+      "candidates": 6
+    },
+    "137": {
+      "slug": "amhara-hopr-15",
+      "name": "ማጄቴ",
+      "candidates": 2
+    },
+    "146": {
+      "slug": "amhara-hopr-16",
+      "name": "ሞላሌ",
+      "candidates": 4
+    },
+    "147": {
+      "slug": "amhara-hopr-17",
+      "name": "ሞጣ",
+      "candidates": 4
+    },
+    "156": {
+      "slug": "amhara-hopr-18",
+      "name": "ራቤል",
+      "candidates": 1
+    },
+    "155": {
+      "slug": "amhara-hopr-19",
+      "name": "ራያ ቆቦ",
+      "candidates": 7
+    },
+    "157": {
+      "slug": "amhara-hopr-20",
+      "name": "ሮቢት",
+      "candidates": 3
+    },
+    "164": {
+      "slug": "amhara-hopr-21",
+      "name": "ሰቆጣ",
+      "candidates": 4
+    },
+    "163": {
+      "slug": "amhara-hopr-22",
+      "name": "ሰከላ",
+      "candidates": 1
+    },
+    "162": {
+      "slug": "amhara-hopr-23",
+      "name": "ሰዴ",
+      "candidates": 2
+    },
+    "159": {
+      "slug": "amhara-hopr-24",
+      "name": "ሳይንት 1",
+      "candidates": 6
+    },
+    "158": {
+      "slug": "amhara-hopr-25",
+      "name": "ሳይንት 2",
+      "candidates": 1
+    },
+    "160": {
+      "slug": "amhara-hopr-26",
+      "name": "ስማዳ 1",
+      "candidates": 3
+    },
+    "161": {
+      "slug": "amhara-hopr-27",
+      "name": "ስማዳ 2",
+      "candidates": 3
+    },
+    "165": {
+      "slug": "amhara-hopr-28",
+      "name": "ሾላ ገበያ",
+      "candidates": 2
+    },
+    "150": {
+      "slug": "amhara-hopr-29",
+      "name": "ቀይት",
+      "candidates": 3
+    },
+    "153": {
+      "slug": "amhara-hopr-30",
+      "name": "ቁይ",
+      "candidates": 1
+    },
+    "148": {
+      "slug": "amhara-hopr-31",
+      "name": "ቃሉ 1",
+      "candidates": 9
+    },
+    "149": {
+      "slug": "amhara-hopr-32",
+      "name": "ቃሉ 2",
+      "candidates": 6
+    },
+    "151": {
+      "slug": "amhara-hopr-33",
+      "name": "ቅላጅ",
+      "candidates": 4
+    },
+    "152": {
+      "slug": "amhara-hopr-34",
+      "name": "ቋሪት",
+      "candidates": 2
+    },
+    "66": {
+      "slug": "amhara-hopr-36",
+      "name": "በለሳ",
+      "candidates": 5
+    },
+    "68": {
+      "slug": "amhara-hopr-37",
+      "name": "ቡሬ",
+      "candidates": 4
+    },
+    "67": {
+      "slug": "amhara-hopr-38",
+      "name": "ቡግና",
+      "candidates": 5
+    },
+    "63": {
+      "slug": "amhara-hopr-39",
+      "name": "ባሕር ዳር ከተማ",
+      "candidates": 7
+    },
+    "64": {
+      "slug": "amhara-hopr-40",
+      "name": "ባቲ",
+      "candidates": 4
+    },
+    "65": {
+      "slug": "amhara-hopr-41",
+      "name": "ብቸና",
+      "candidates": 5
+    },
+    "170": {
+      "slug": "amhara-hopr-44",
+      "name": "ተንታ",
+      "candidates": 5
+    },
+    "171": {
+      "slug": "amhara-hopr-45",
+      "name": "ቲሊሊ",
+      "candidates": 4
+    },
+    "167": {
+      "slug": "amhara-hopr-47",
+      "name": "ታች ጋይንት",
+      "candidates": 2
+    },
+    "70": {
+      "slug": "amhara-hopr-48",
+      "name": "ቻግኒ",
+      "candidates": 6
+    },
+    "50": {
+      "slug": "amhara-hopr-49",
+      "name": "አለም ከተማ",
+      "candidates": 1
+    },
+    "51": {
+      "slug": "amhara-hopr-50",
+      "name": "አለፋ ጣቁሳ 1",
+      "candidates": 3
+    },
+    "52": {
+      "slug": "amhara-hopr-51",
+      "name": "አለፋ ጣቁሳ 2",
+      "candidates": 4
+    },
+    "49": {
+      "slug": "amhara-hopr-52",
+      "name": "አልቡኮ",
+      "candidates": 2
+    },
+    "53": {
+      "slug": "amhara-hopr-53",
+      "name": "አማኑኤል",
+      "candidates": 1
+    },
+    "55": {
+      "slug": "amhara-hopr-54",
+      "name": "አምበር",
+      "candidates": 4
+    },
+    "54": {
+      "slug": "amhara-hopr-55",
+      "name": "አምባሰል",
+      "candidates": 4
+    },
+    "57": {
+      "slug": "amhara-hopr-56",
+      "name": "አረርቲ",
+      "candidates": 3
+    },
+    "58": {
+      "slug": "amhara-hopr-57",
+      "name": "አርጎባ ልዩ",
+      "candidates": 2
+    },
+    "56": {
+      "slug": "amhara-hopr-58",
+      "name": "አንኮበር",
+      "candidates": 4
+    },
+    "48": {
+      "slug": "amhara-hopr-59",
+      "name": "አዲስ ቅዳም",
+      "candidates": 4
+    },
+    "47": {
+      "slug": "amhara-hopr-60",
+      "name": "አዴት",
+      "candidates": 4
+    },
+    "101": {
+      "slug": "amhara-hopr-61",
+      "name": "ኤፌሶን",
+      "candidates": 3
+    },
+    "103": {
+      "slug": "amhara-hopr-62",
+      "name": "እሮብ ገበያ",
+      "candidates": 2
+    },
+    "104": {
+      "slug": "amhara-hopr-63",
+      "name": "እስቴ 1",
+      "candidates": 4
+    },
+    "105": {
+      "slug": "amhara-hopr-64",
+      "name": "እስቴ 2",
+      "candidates": 2
+    },
+    "106": {
+      "slug": "amhara-hopr-65",
+      "name": "እስቴ 3",
+      "candidates": 3
+    },
+    "99": {
+      "slug": "amhara-hopr-66",
+      "name": "እብናት 1",
+      "candidates": 2
+    },
+    "100": {
+      "slug": "amhara-hopr-67",
+      "name": "እብናት 2",
+      "candidates": 2
+    },
+    "102": {
+      "slug": "amhara-hopr-68",
+      "name": "እነዋሪ",
+      "candidates": 2
+    },
+    "126": {
+      "slug": "amhara-hopr-69",
+      "name": "ከለላ",
+      "candidates": 4
+    },
+    "127": {
+      "slug": "amhara-hopr-70",
+      "name": "ከምከም 1",
+      "candidates": 7
+    },
+    "128": {
+      "slug": "amhara-hopr-71",
+      "name": "ከምከም 2",
+      "candidates": 2
+    },
+    "130": {
+      "slug": "amhara-hopr-72",
+      "name": "ኩታበር",
+      "candidates": 4
+    },
+    "129": {
+      "slug": "amhara-hopr-73",
+      "name": "ኮሶ በር",
+      "candidates": 7
+    },
+    "177": {
+      "slug": "amhara-hopr-74",
+      "name": "ወምበርማ",
+      "candidates": 1
+    },
+    "178": {
+      "slug": "amhara-hopr-75",
+      "name": "ወረባቦ",
+      "candidates": 4
+    },
+    "179": {
+      "slug": "amhara-hopr-76",
+      "name": "ወረኢሉ",
+      "candidates": 2
+    },
+    "173": {
+      "slug": "amhara-hopr-77",
+      "name": "ወይን አምባ",
+      "candidates": 5
+    },
+    "175": {
+      "slug": "amhara-hopr-78",
+      "name": "ወገራ 1",
+      "candidates": 5
+    },
+    "176": {
+      "slug": "amhara-hopr-79",
+      "name": "ወገራ 2",
+      "candidates": 3
+    },
+    "174": {
+      "slug": "amhara-hopr-80",
+      "name": "ዋድላ",
+      "candidates": 3
+    },
+    "183": {
+      "slug": "amhara-hopr-81",
+      "name": "ዘጌ መሸንቲ",
+      "candidates": 4
+    },
+    "184": {
+      "slug": "amhara-hopr-82",
+      "name": "ዝቋላ አገው",
+      "candidates": 5
+    },
+    "181": {
+      "slug": "amhara-hopr-83",
+      "name": "የእድ ውሃ",
+      "candidates": 1
+    },
+    "182": {
+      "slug": "amhara-hopr-84",
+      "name": "የጁቤ",
+      "candidates": 2
+    },
+    "180": {
+      "slug": "amhara-hopr-85",
+      "name": "የጨረቃ",
+      "candidates": 4
+    },
+    "87": {
+      "slug": "amhara-hopr-86",
+      "name": "ደሀና",
+      "candidates": 6
+    },
+    "89": {
+      "slug": "amhara-hopr-87",
+      "name": "ደላንታ",
+      "candidates": 3
+    },
+    "90": {
+      "slug": "amhara-hopr-89",
+      "name": "ደምቢያ 1",
+      "candidates": 7
+    },
+    "91": {
+      "slug": "amhara-hopr-90",
+      "name": "ደምቢያ 2",
+      "candidates": 3
+    },
+    "92": {
+      "slug": "amhara-hopr-91",
+      "name": "ደራ 1",
+      "candidates": 4
+    },
+    "93": {
+      "slug": "amhara-hopr-92",
+      "name": "ደራ 2",
+      "candidates": 4
+    },
+    "94": {
+      "slug": "amhara-hopr-93",
+      "name": "ደሴ ከተማ",
+      "candidates": 7
+    },
+    "59": {
+      "slug": "amhara-hopr-94",
+      "name": "ደሴ ዙሪያ 1",
+      "candidates": 6
+    },
+    "60": {
+      "slug": "amhara-hopr-95",
+      "name": "ደሴ ዙሪያ 2",
+      "candidates": 5
+    },
+    "79": {
+      "slug": "amhara-hopr-96",
+      "name": "ደባርቅ",
+      "candidates": 3
+    },
+    "81": {
+      "slug": "amhara-hopr-97",
+      "name": "ደብረ ማርቆስ",
+      "candidates": 5
+    },
+    "80": {
+      "slug": "amhara-hopr-98",
+      "name": "ደብረ ብርሃን",
+      "candidates": 11
+    },
+    "74": {
+      "slug": "amhara-hopr-99",
+      "name": "ደብረ ኤልያስ",
+      "candidates": 2
+    },
+    "82": {
+      "slug": "amhara-hopr-100",
+      "name": "ደብረ ወርቅ",
+      "candidates": 3
+    },
+    "83": {
+      "slug": "amhara-hopr-101",
+      "name": "ደብረሲና",
+      "candidates": 2
+    },
+    "84": {
+      "slug": "amhara-hopr-102",
+      "name": "ደብረሲና 1",
+      "candidates": 5
+    },
+    "85": {
+      "slug": "amhara-hopr-103",
+      "name": "ደብረሲና 2",
+      "candidates": 5
+    },
+    "97": {
+      "slug": "amhara-hopr-104",
+      "name": "ደነባ",
+      "candidates": 2
+    },
+    "88": {
+      "slug": "amhara-hopr-105",
+      "name": "ደጀን",
+      "candidates": 2
+    },
+    "86": {
+      "slug": "amhara-hopr-106",
+      "name": "ደጋ ዳሞት",
+      "candidates": 1
+    },
+    "98": {
+      "slug": "amhara-hopr-108",
+      "name": "ዱርቤቴ",
+      "candidates": 2
+    },
+    "75": {
+      "slug": "amhara-hopr-109",
+      "name": "ዳባት",
+      "candidates": 2
+    },
+    "77": {
+      "slug": "amhara-hopr-110",
+      "name": "ዳንግላ",
+      "candidates": 5
+    },
+    "78": {
+      "slug": "amhara-hopr-111",
+      "name": "ዳዋ ጨፋ",
+      "candidates": 3
+    },
+    "96": {
+      "slug": "amhara-hopr-112",
+      "name": "ድል ይብዛ",
+      "candidates": 4
+    },
+    "125": {
+      "slug": "amhara-hopr-113",
+      "name": "ጂጋ",
+      "candidates": 1
+    },
+    "123": {
+      "slug": "amhara-hopr-114",
+      "name": "ጃማ ደጎሎ",
+      "candidates": 3
+    },
+    "124": {
+      "slug": "amhara-hopr-115",
+      "name": "ጃናሞራ",
+      "candidates": 5
+    },
+    "114": {
+      "slug": "amhara-hopr-116",
+      "name": "ገርጨጭ",
+      "candidates": 3
+    },
+    "121": {
+      "slug": "amhara-hopr-117",
+      "name": "ጉባላፍቶ",
+      "candidates": 4
+    },
+    "115": {
+      "slug": "amhara-hopr-118",
+      "name": "ግምጃ ቤት",
+      "candidates": 4
+    },
+    "116": {
+      "slug": "amhara-hopr-119",
+      "name": "ግንደ ወይን",
+      "candidates": 1
+    },
+    "113": {
+      "slug": "amhara-hopr-120",
+      "name": "ግዳን",
+      "candidates": 3
+    },
+    "117": {
+      "slug": "amhara-hopr-121",
+      "name": "ጎንደር ከተማ 1",
+      "candidates": 8
+    },
+    "118": {
+      "slug": "amhara-hopr-122",
+      "name": "ጎንደር ከተማ 2",
+      "candidates": 9
+    },
+    "61": {
+      "slug": "amhara-hopr-123",
+      "name": "ጎንደር ዙሪያ 3",
+      "candidates": 7
+    },
+    "62": {
+      "slug": "amhara-hopr-124",
+      "name": "ጎንደር ዙሪያ 4",
+      "candidates": 4
+    },
+    "119": {
+      "slug": "amhara-hopr-125",
+      "name": "ጎንጂ",
+      "candidates": 3
+    },
+    "120": {
+      "slug": "amhara-hopr-126",
+      "name": "ጎዛምን",
+      "candidates": 1
+    },
+    "172": {
+      "slug": "amhara-hopr-127",
+      "name": "ጢስ አባይ",
+      "candidates": 4
+    },
+    "71": {
+      "slug": "amhara-hopr-128",
+      "name": "ጨፋ ሮቢት",
+      "candidates": 2
+    },
+    "69": {
+      "slug": "amhara-hopr-129",
+      "name": "ጫጫ",
+      "candidates": 5
+    },
+    "72": {
+      "slug": "amhara-hopr-130",
+      "name": "ጭልጋ 1",
+      "candidates": 4
+    },
+    "73": {
+      "slug": "amhara-hopr-131",
+      "name": "ጭልጋ 2",
+      "candidates": 3
+    },
+    "107": {
+      "slug": "amhara-hopr-132",
+      "name": "ፋርጣ 1",
+      "candidates": 4
+    },
+    "108": {
+      "slug": "amhara-hopr-133",
+      "name": "ፋርጣ 2",
+      "candidates": 1
+    },
+    "109": {
+      "slug": "amhara-hopr-134",
+      "name": "ፋርጣ 3",
+      "candidates": 3
+    },
+    "110": {
+      "slug": "amhara-hopr-135",
+      "name": "ፍኖተ ሰላም",
+      "candidates": 4
+    },
+    "111": {
+      "slug": "amhara-hopr-136",
+      "name": "ፎገራ 1",
+      "candidates": 4
+    },
+    "112": {
+      "slug": "amhara-hopr-137",
+      "name": "ፎገራ 2",
+      "candidates": 3
+    },
+    "392": {
+      "slug": "benshangul_gumz-hopr-0",
+      "name": "መተከል",
+      "candidates": 7
+    },
+    "391": {
+      "slug": "benshangul_gumz-hopr-1",
+      "name": "ማኦ ኮሞ ልዩ",
+      "candidates": 1
+    },
+    "393": {
+      "slug": "benshangul_gumz-hopr-2",
+      "name": "ሸርቆሌ",
+      "candidates": 2
+    },
+    "394": {
+      "slug": "benshangul_gumz-hopr-3",
+      "name": "ሺናሻ ልዩ",
+      "candidates": 3
+    },
+    "388": {
+      "slug": "benshangul_gumz-hopr-4",
+      "name": "ባምባሲ",
+      "candidates": 3
+    },
+    "386": {
+      "slug": "benshangul_gumz-hopr-5",
+      "name": "አሶሳ ሆሃ",
+      "candidates": 7
+    },
+    "387": {
+      "slug": "benshangul_gumz-hopr-6",
+      "name": "አሶሳ መጋሌ",
+      "candidates": 6
+    },
+    "390": {
+      "slug": "benshangul_gumz-hopr-7",
+      "name": "ከማሺ",
+      "candidates": 1
+    },
+    "389": {
+      "slug": "benshangul_gumz-hopr-8",
+      "name": "ዳለቲ",
+      "candidates": 1
+    },
+    "461": {
+      "slug": "central_ethiopia-hopr-1",
+      "name": "ሌሞ 01",
+      "candidates": 9
+    },
+    "462": {
+      "slug": "central_ethiopia-hopr-2",
+      "name": "ሌሞ 02",
+      "candidates": 6
+    },
+    "477": {
+      "slug": "central_ethiopia-hopr-5",
+      "name": "ሲቄ 01",
+      "candidates": 6
+    },
+    "478": {
+      "slug": "central_ethiopia-hopr-6",
+      "name": "ሲቄ 02",
+      "candidates": 6
+    },
+    "482": {
+      "slug": "central_ethiopia-hopr-7",
+      "name": "ሶሮ 01",
+      "candidates": 9
+    },
+    "483": {
+      "slug": "central_ethiopia-hopr-8",
+      "name": "ሶሮ 02",
+      "candidates": 7
+    },
+    "479": {
+      "slug": "central_ethiopia-hopr-9",
+      "name": "ሶዶ",
+      "candidates": 5
+    },
+    "459": {
+      "slug": "central_ethiopia-hopr-10",
+      "name": "ቀዲዳ ጋሜላ 1",
+      "candidates": 6
+    },
+    "460": {
+      "slug": "central_ethiopia-hopr-11",
+      "name": "ቀዲዳ ጋሜላ 2",
+      "candidates": 7
+    },
+    "446": {
+      "slug": "central_ethiopia-hopr-12",
+      "name": "ቃጫ ቢራ",
+      "candidates": 7
+    },
+    "449": {
+      "slug": "central_ethiopia-hopr-13",
+      "name": "ቅበት",
+      "candidates": 2
+    },
+    "396": {
+      "slug": "central_ethiopia-hopr-14",
+      "name": "አሊቾ ወሬሮ",
+      "candidates": 3
+    },
+    "398": {
+      "slug": "central_ethiopia-hopr-17",
+      "name": "አንጋጫ 1",
+      "candidates": 3
+    },
+    "399": {
+      "slug": "central_ethiopia-hopr-18",
+      "name": "አንጋጫ 2",
+      "candidates": 5
+    },
+    "401": {
+      "slug": "central_ethiopia-hopr-19",
+      "name": "አዘርነት በርበሬ",
+      "candidates": 3
+    },
+    "426": {
+      "slug": "central_ethiopia-hopr-20",
+      "name": "እምድብር",
+      "candidates": 4
+    },
+    "429": {
+      "slug": "central_ethiopia-hopr-23",
+      "name": "እዣ 1",
+      "candidates": 3
+    },
+    "430": {
+      "slug": "central_ethiopia-hopr-24",
+      "name": "እዣ 2",
+      "candidates": 2
+    },
+    "455": {
+      "slug": "central_ethiopia-hopr-25",
+      "name": "ኮንተብ 1",
+      "candidates": 5
+    },
+    "456": {
+      "slug": "central_ethiopia-hopr-26",
+      "name": "ኮንተብ 2",
+      "candidates": 4
+    },
+    "457": {
+      "slug": "central_ethiopia-hopr-27",
+      "name": "ኮንተብ 3",
+      "candidates": 4
+    },
+    "452": {
+      "slug": "central_ethiopia-hopr-28",
+      "name": "ኮኪር",
+      "candidates": 3
+    },
+    "490": {
+      "slug": "central_ethiopia-hopr-29",
+      "name": "ወልቂጤ",
+      "candidates": 7
+    },
+    "494": {
+      "slug": "central_ethiopia-hopr-30",
+      "name": "የም ልዩ",
+      "candidates": 2
+    },
+    "417": {
+      "slug": "central_ethiopia-hopr-31",
+      "name": "ዳሎቻ",
+      "candidates": 4
+    },
+    "438": {
+      "slug": "central_ethiopia-hopr-32",
+      "name": "ጉመር 1",
+      "candidates": 3
+    },
+    "439": {
+      "slug": "central_ethiopia-hopr-33",
+      "name": "ጉመር 2",
+      "candidates": 3
+    },
+    "486": {
+      "slug": "central_ethiopia-hopr-34",
+      "name": "ጠምባሮ",
+      "candidates": 6
+    },
+    "520": {
+      "slug": "gambella-hopr-0",
+      "name": "ላሬ",
+      "candidates": 3
+    },
+    "518": {
+      "slug": "gambella-hopr-1",
+      "name": "ጋምቤላ",
+      "candidates": 4
+    },
+    "519": {
+      "slug": "gambella-hopr-2",
+      "name": "ጎደሬ",
+      "candidates": 2
+    },
+    "521": {
+      "slug": "harari-hopr-0",
+      "name": "ጀጎል ልዩ",
+      "candidates": 2
+    },
+    "522": {
+      "slug": "harari-hopr-1",
+      "name": "ጀጎል ዙሪያ እና ሁንደኔ",
+      "candidates": 6
+    },
+    "282": {
+      "slug": "oromia-hopr-1",
+      "name": "ሂርና / Hiirnaa",
+      "candidates": 1
+    },
+    "310": {
+      "slug": "oromia-hopr-4",
+      "name": "ሊሙ ሰቃ / Limmuu Saqqaa",
+      "candidates": 1
+    },
+    "308": {
+      "slug": "oromia-hopr-5",
+      "name": "ሊሙ ኮሳ 1 / Limmuu Kossaa 1",
+      "candidates": 3
+    },
+    "309": {
+      "slug": "oromia-hopr-6",
+      "name": "ሊሙ ኮሳ 2 / Limmuu Kossaa 2",
+      "candidates": 2
+    },
+    "306": {
+      "slug": "oromia-hopr-7",
+      "name": "ላሎ / Laaloo",
+      "candidates": 1
+    },
+    "307": {
+      "slug": "oromia-hopr-8",
+      "name": "ሌመን / Leemman",
+      "candidates": 3
+    },
+    "278": {
+      "slug": "oromia-hopr-12",
+      "name": "ሐብሮ 1 / Habroo 1",
+      "candidates": 2
+    },
+    "276": {
+      "slug": "oromia-hopr-14",
+      "name": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidates": 2
+    },
+    "314": {
+      "slug": "oromia-hopr-15",
+      "name": "መልካ ሶዳ / Malkaa Soddaa",
+      "candidates": 2
+    },
+    "316": {
+      "slug": "oromia-hopr-16",
+      "name": "መሰላ / Masalaa",
+      "candidates": 2
+    },
+    "318": {
+      "slug": "oromia-hopr-17",
+      "name": "መቱ / Mattuu",
+      "candidates": 4
+    },
+    "315": {
+      "slug": "oromia-hopr-18",
+      "name": "መንዲ / Mandii",
+      "candidates": 1
+    },
+    "313": {
+      "slug": "oromia-hopr-20",
+      "name": "መኮ ሳቺ / Makoo Saachii",
+      "candidates": 1
+    },
+    "319": {
+      "slug": "oromia-hopr-21",
+      "name": "ሚጨታ / Michataa",
+      "candidates": 1
+    },
+    "312": {
+      "slug": "oromia-hopr-22",
+      "name": "ማና / Maannaa",
+      "candidates": 1
+    },
+    "317": {
+      "slug": "oromia-hopr-23",
+      "name": "ሜታ ሮቢ / Meettaa Roobii",
+      "candidates": 1
+    },
+    "321": {
+      "slug": "oromia-hopr-25",
+      "name": "ሞያሌ / Moyaalee",
+      "candidates": 3
+    },
+    "332": {
+      "slug": "oromia-hopr-26",
+      "name": "ሮቤ / Roobee",
+      "candidates": 2
+    },
+    "337": {
+      "slug": "oromia-hopr-27",
+      "name": "ሰቃ ጨቆርሳ 1 / Saqqaa Coqorsaa 1",
+      "candidates": 2
+    },
+    "338": {
+      "slug": "oromia-hopr-27",
+      "name": "ሰቃ ጨቆርሳ 1 / Saqqaa Coqorsaa 1",
+      "candidates": 2
+    },
+    "336": {
+      "slug": "oromia-hopr-29",
+      "name": "ሰኞ ገበያ / Sangoo Gabayaa",
+      "candidates": 1
+    },
+    "335": {
+      "slug": "oromia-hopr-30",
+      "name": "ሰኮሩ / Sokorruu",
+      "candidates": 3
+    },
+    "344": {
+      "slug": "oromia-hopr-32",
+      "name": "ሲራሮ 1 / Siraaroo 1",
+      "candidates": 1
+    },
+    "345": {
+      "slug": "oromia-hopr-33",
+      "name": "ሲራሮ 2 / Siraaroo 2",
+      "candidates": 1
+    },
+    "343": {
+      "slug": "oromia-hopr-34",
+      "name": "ሲናና / Sinaanaa",
+      "candidates": 2
+    },
+    "333": {
+      "slug": "oromia-hopr-35",
+      "name": "ሳጉሬ / Saaguree",
+      "candidates": 3
+    },
+    "339": {
+      "slug": "oromia-hopr-36",
+      "name": "ሻምቡ / Shaambuu",
+      "candidates": 4
+    },
+    "340": {
+      "slug": "oromia-hopr-37",
+      "name": "ሻሸመኔ 1 / Shaashamannee 1",
+      "candidates": 7
+    },
+    "341": {
+      "slug": "oromia-hopr-38",
+      "name": "ሻሸመኔ 2 / Shaashamannee 2",
+      "candidates": 4
+    },
+    "342": {
+      "slug": "oromia-hopr-39",
+      "name": "ሽርካ / Shirkaa",
+      "candidates": 3
+    },
+    "293": {
+      "slug": "oromia-hopr-40",
+      "name": "ቀርሳ / Qarsaa",
+      "candidates": 2
+    },
+    "294": {
+      "slug": "oromia-hopr-41",
+      "name": "ቀርሳ 1 / Qarsaa 1",
+      "candidates": 2
+    },
+    "295": {
+      "slug": "oromia-hopr-42",
+      "name": "ቀርሳ 2 / Qarsaa 2",
+      "candidates": 2
+    },
+    "292": {
+      "slug": "oromia-hopr-43",
+      "name": "ቀርጫ / Qarcaa",
+      "candidates": 2
+    },
+    "290": {
+      "slug": "oromia-hopr-44",
+      "name": "ቃቄ / Qaaqee",
+      "candidates": 3
+    },
+    "291": {
+      "slug": "oromia-hopr-45",
+      "name": "ቄቤ / Qeebbee",
+      "candidates": 1
+    },
+    "217": {
+      "slug": "oromia-hopr-47",
+      "name": "በሌ / Balee",
+      "candidates": 1
+    },
+    "220": {
+      "slug": "oromia-hopr-48",
+      "name": "በረህ አለልቱ / Barah Alaltuu",
+      "candidates": 2
+    },
+    "218": {
+      "slug": "oromia-hopr-49",
+      "name": "በቆጂ 1 / Boqojjii 1",
+      "candidates": 3
+    },
+    "219": {
+      "slug": "oromia-hopr-50",
+      "name": "በቆጂ 2 / Boqojjii 2",
+      "candidates": 3
+    },
+    "212": {
+      "slug": "oromia-hopr-51",
+      "name": "በቾ / Bacho",
+      "candidates": 3
+    },
+    "213": {
+      "slug": "oromia-hopr-52",
+      "name": "በደሌ / Baddallee",
+      "candidates": 5
+    },
+    "214": {
+      "slug": "oromia-hopr-53",
+      "name": "በደኖ / Baddannoo",
+      "candidates": 1
+    },
+    "215": {
+      "slug": "oromia-hopr-54",
+      "name": "በዴሳ / Baddeessaa",
+      "candidates": 3
+    },
+    "221": {
+      "slug": "oromia-hopr-55",
+      "name": "ቢሎኖጳ / Billoo Noophaa",
+      "candidates": 1
+    },
+    "210": {
+      "slug": "oromia-hopr-57",
+      "name": "ባኮ ትቤ / Baakkoo Tibbee",
+      "candidates": 4
+    },
+    "216": {
+      "slug": "oromia-hopr-58",
+      "name": "ቤጊ / Beeggii",
+      "candidates": 2
+    },
+    "224": {
+      "slug": "oromia-hopr-59",
+      "name": "ቦረዳ / Boreedaa",
+      "candidates": 1
+    },
+    "223": {
+      "slug": "oromia-hopr-60",
+      "name": "ቦሬ / Booree",
+      "candidates": 2
+    },
+    "222": {
+      "slug": "oromia-hopr-61",
+      "name": "ቦኮ / Bokkoo",
+      "candidates": 3
+    },
+    "347": {
+      "slug": "oromia-hopr-62",
+      "name": "ተጂ / Tajjii",
+      "candidates": 3
+    },
+    "348": {
+      "slug": "oromia-hopr-63",
+      "name": "ተጆ / Tajjoo",
+      "candidates": 1
+    },
+    "324": {
+      "slug": "oromia-hopr-64",
+      "name": "ነቀምቴ / Naqamtee",
+      "candidates": 6
+    },
+    "323": {
+      "slug": "oromia-hopr-65",
+      "name": "ነጆ / Najjoo",
+      "candidates": 1
+    },
+    "322": {
+      "slug": "oromia-hopr-66",
+      "name": "ነገሌ / Nagallee",
+      "candidates": 3
+    },
+    "328": {
+      "slug": "oromia-hopr-68",
+      "name": "ኑኑ / Nuunnuu",
+      "candidates": 1
+    },
+    "325": {
+      "slug": "oromia-hopr-69",
+      "name": "ኖሌ ካባ 1 / Noolee Kaabaa 1",
+      "candidates": 2
+    },
+    "326": {
+      "slug": "oromia-hopr-70",
+      "name": "ኖሌ ካባ 2 / Noolee Kaabaa 2",
+      "candidates": 1
+    },
+    "327": {
+      "slug": "oromia-hopr-71",
+      "name": "ኖኖ / Noonnoo",
+      "candidates": 3
+    },
+    "198": {
+      "slug": "oromia-hopr-72",
+      "name": "አለም ገና 1 / Alam Ganaa 1",
+      "candidates": 7
+    },
+    "199": {
+      "slug": "oromia-hopr-73",
+      "name": "አለም ገና 2 / Alam Ganaa 2",
+      "candidates": 8
+    },
+    "200": {
+      "slug": "oromia-hopr-74",
+      "name": "አለም ጤና / Alam Xeenaa / Botee",
+      "candidates": 2
+    },
+    "201": {
+      "slug": "oromia-hopr-75",
+      "name": "አሊቦ / Aliiboo",
+      "candidates": 2
+    },
+    "202": {
+      "slug": "oromia-hopr-76",
+      "name": "አምቦ 1 / Ambo 1",
+      "candidates": 4
+    },
+    "203": {
+      "slug": "oromia-hopr-77",
+      "name": "አምቦ 2 / Ambo 2",
+      "candidates": 1
+    },
+    "205": {
+      "slug": "oromia-hopr-78",
+      "name": "አርቦዬ / Arbooyee",
+      "candidates": 2
+    },
+    "208": {
+      "slug": "oromia-hopr-79",
+      "name": "አሰላ / Asallaa",
+      "candidates": 6
+    },
+    "185": {
+      "slug": "oromia-hopr-82",
+      "name": "አቦምሳ / Abboomsaa",
+      "candidates": 1
+    },
+    "186": {
+      "slug": "oromia-hopr-83",
+      "name": "አቦቴ ደራ / Abootee Darraa",
+      "candidates": 2
+    },
+    "204": {
+      "slug": "oromia-hopr-84",
+      "name": "አኖ / Aannoo",
+      "candidates": 1
+    },
+    "209": {
+      "slug": "oromia-hopr-85",
+      "name": "አያና / Ayyaanaa",
+      "candidates": 4
+    },
+    "283": {
+      "slug": "oromia-hopr-86",
+      "name": "አይራ ጉሊሶ / Ayiraa Gullisoo",
+      "candidates": 3
+    },
+    "189": {
+      "slug": "oromia-hopr-87",
+      "name": "አደአ በርጋ / Ada'aa Bargaa",
+      "candidates": 1
+    },
+    "187": {
+      "slug": "oromia-hopr-88",
+      "name": "አደኣ 1 / Ada'aa 1",
+      "candidates": 5
+    },
+    "188": {
+      "slug": "oromia-hopr-89",
+      "name": "አደኣ 2 / Ada'aa 2",
+      "candidates": 6
+    },
+    "194": {
+      "slug": "oromia-hopr-90",
+      "name": "አዲስ አለም /ኤጀሬ/ Ejeree",
+      "candidates": 3
+    },
+    "191": {
+      "slug": "oromia-hopr-91",
+      "name": "አዳማ 1 / Adaamaa 1",
+      "candidates": 7
+    },
+    "192": {
+      "slug": "oromia-hopr-92",
+      "name": "አዳማ 2 / Adaamaa 2",
+      "candidates": 4
+    },
+    "193": {
+      "slug": "oromia-hopr-93",
+      "name": "አዳማ 3 / Adaamaa 3",
+      "candidates": 5
+    },
+    "190": {
+      "slug": "oromia-hopr-94",
+      "name": "አዳባ / Adaabbaa",
+      "candidates": 3
+    },
+    "196": {
+      "slug": "oromia-hopr-95",
+      "name": "አጉሊቾ / Aguulichoo",
+      "candidates": 3
+    },
+    "351": {
+      "slug": "oromia-hopr-97",
+      "name": "ኡራጋ / Uraagaa",
+      "candidates": 1
+    },
+    "350": {
+      "slug": "oromia-hopr-98",
+      "name": "ኡካ / Ukkaa",
+      "candidates": 4
+    },
+    "284": {
+      "slug": "oromia-hopr-99",
+      "name": "ኢተያ / Itayya",
+      "candidates": 3
+    },
+    "254": {
+      "slug": "oromia-hopr-100",
+      "name": "እናንጎ ቢላ / Inaangoo Biilaa",
+      "candidates": 1
+    },
+    "329": {
+      "slug": "oromia-hopr-101",
+      "name": "ኦሞ ናዳ 1 / Oomoonaadaa 1",
+      "candidates": 3
+    },
+    "330": {
+      "slug": "oromia-hopr-102",
+      "name": "ኦሞ ናዳ 2 / Oomoonaadaa 2",
+      "candidates": 2
+    },
+    "235": {
+      "slug": "oromia-hopr-103",
+      "name": "ከሞና / Kamoonaa",
+      "candidates": 1
+    },
+    "303": {
+      "slug": "oromia-hopr-104",
+      "name": "ኩላ / Kuula",
+      "candidates": 4
+    },
+    "304": {
+      "slug": "oromia-hopr-105",
+      "name": "ኩርፋ ጨሌ / Kurfaa Callee",
+      "candidates": 1
+    },
+    "305": {
+      "slug": "oromia-hopr-106",
+      "name": "ኩዩ / Kuyyuu",
+      "candidates": 2
+    },
+    "300": {
+      "slug": "oromia-hopr-108",
+      "name": "ኮኮሳ / Kokosaa",
+      "candidates": 2
+    },
+    "298": {
+      "slug": "oromia-hopr-109",
+      "name": "ኮፈሌ 1 / Kofalee 1",
+      "candidates": 1
+    },
+    "299": {
+      "slug": "oromia-hopr-110",
+      "name": "ኮፈሌ 2 / Kofalee 2",
+      "candidates": 1
+    },
+    "355": {
+      "slug": "oromia-hopr-112",
+      "name": "ወሊሶ 1 / Walisoo 1",
+      "candidates": 5
+    },
+    "356": {
+      "slug": "oromia-hopr-113",
+      "name": "ወሊሶ 2 / Walisoo 2",
+      "candidates": 4
+    },
+    "357": {
+      "slug": "oromia-hopr-114",
+      "name": "ወልመራ / Walmaraa",
+      "candidates": 7
+    },
+    "358": {
+      "slug": "oromia-hopr-115",
+      "name": "ወረጃርሶ / Warra Jaarsoo",
+      "candidates": 4
+    },
+    "352": {
+      "slug": "oromia-hopr-116",
+      "name": "ወንጪ / Wancii",
+      "candidates": 3
+    },
+    "353": {
+      "slug": "oromia-hopr-117",
+      "name": "ውጫሌና ጂዶ / Wucaaleennaa Jiddoo",
+      "candidates": 2
+    },
+    "362": {
+      "slug": "oromia-hopr-118",
+      "name": "ዩብዶ / Yuubdoo",
+      "candidates": 4
+    },
+    "359": {
+      "slug": "oromia-hopr-119",
+      "name": "ያቤሎ / Yaabelloo",
+      "candidates": 3
+    },
+    "361": {
+      "slug": "oromia-hopr-120",
+      "name": "ያዩ / Yaayyoo",
+      "candidates": 1
+    },
+    "245": {
+      "slug": "oromia-hopr-122",
+      "name": "ደሎ መና / Daalloo Mannaa",
+      "candidates": 3
+    },
+    "236": {
+      "slug": "oromia-hopr-123",
+      "name": "ደምቢ / Dambii",
+      "candidates": 1
+    },
+    "246": {
+      "slug": "oromia-hopr-124",
+      "name": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidates": 4
+    },
+    "241": {
+      "slug": "oromia-hopr-125",
+      "name": "ደደር 1 / Dadar 1",
+      "candidates": 1
+    },
+    "242": {
+      "slug": "oromia-hopr-126",
+      "name": "ደደር 2 / Dadar 2",
+      "candidates": 1
+    },
+    "252": {
+      "slug": "oromia-hopr-127",
+      "name": "ደገም / Dagam",
+      "candidates": 2
+    },
+    "253": {
+      "slug": "oromia-hopr-128",
+      "name": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidates": 3
+    },
+    "249": {
+      "slug": "oromia-hopr-129",
+      "name": "ዲምቱ / Diimtuu",
+      "candidates": 2
+    },
+    "248": {
+      "slug": "oromia-hopr-130",
+      "name": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidates": 2
+    },
+    "240": {
+      "slug": "oromia-hopr-131",
+      "name": "ዳሪሙ / Daarimmuu",
+      "candidates": 2
+    },
+    "237": {
+      "slug": "oromia-hopr-132",
+      "name": "ዳንዲ 1 / Dandii 1",
+      "candidates": 3
+    },
+    "238": {
+      "slug": "oromia-hopr-133",
+      "name": "ዳንዲ 2 / Dandii 2",
+      "candidates": 3
+    },
+    "239": {
+      "slug": "oromia-hopr-134",
+      "name": "ዳኖ / Daannoo",
+      "candidates": 1
+    },
+    "247": {
+      "slug": "oromia-hopr-135",
+      "name": "ዴራ / Dheerraa",
+      "candidates": 4
+    },
+    "243": {
+      "slug": "oromia-hopr-136",
+      "name": "ዴዶ 1 / Deedoo 1",
+      "candidates": 2
+    },
+    "244": {
+      "slug": "oromia-hopr-137",
+      "name": "ዴዶ 2 / Deedoo 2",
+      "candidates": 2
+    },
+    "250": {
+      "slug": "oromia-hopr-138",
+      "name": "ዶባ / Doobbaa",
+      "candidates": 1
+    },
+    "251": {
+      "slug": "oromia-hopr-139",
+      "name": "ዶዶላ / Dodolaa",
+      "candidates": 4
+    },
+    "286": {
+      "slug": "oromia-hopr-140",
+      "name": "ጀልዱ / Jalduu",
+      "candidates": 2
+    },
+    "285": {
+      "slug": "oromia-hopr-141",
+      "name": "ጃራ / Jaarraa",
+      "candidates": 4
+    },
+    "288": {
+      "slug": "oromia-hopr-142",
+      "name": "ጅማ ቀርሳ / Jimmaa Qarsaa",
+      "candidates": 2
+    },
+    "287": {
+      "slug": "oromia-hopr-143",
+      "name": "ጅማ አርጆ / Jimmaa Arjoo",
+      "candidates": 3
+    },
+    "289": {
+      "slug": "oromia-hopr-144",
+      "name": "ጅማ ከተማ / Magaalaa Jimmaa",
+      "candidates": 7
+    },
+    "257": {
+      "slug": "oromia-hopr-145",
+      "name": "ገሊላ / Galiilaa",
+      "candidates": 4
+    },
+    "261": {
+      "slug": "oromia-hopr-146",
+      "name": "ገቺ ቦርቻ / Gachii Boorechaa",
+      "candidates": 1
+    },
+    "262": {
+      "slug": "oromia-hopr-147",
+      "name": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidates": 3
+    },
+    "275": {
+      "slug": "oromia-hopr-148",
+      "name": "ጉቴ / Guutee",
+      "candidates": 2
+    },
+    "264": {
+      "slug": "oromia-hopr-149",
+      "name": "ጉይ ገነት / Gu'ii Gannat",
+      "candidates": 2
+    },
+    "266": {
+      "slug": "oromia-hopr-150",
+      "name": "ጊምቢ / Gimbii",
+      "candidates": 4
+    },
+    "268": {
+      "slug": "oromia-hopr-151",
+      "name": "ጊኒር / Gindhiir",
+      "candidates": 3
+    },
+    "265": {
+      "slug": "oromia-hopr-152",
+      "name": "ጊዳሚ / Gidaamii",
+      "candidates": 2
+    },
+    "258": {
+      "slug": "oromia-hopr-153",
+      "name": "ጋሎ / Gaaloo",
+      "candidates": 2
+    },
+    "260": {
+      "slug": "oromia-hopr-154",
+      "name": "ጋቲራ / Gaatiraa",
+      "candidates": 2
+    },
+    "263": {
+      "slug": "oromia-hopr-155",
+      "name": "ጌራ / Geeraa",
+      "candidates": 2
+    },
+    "259": {
+      "slug": "oromia-hopr-156",
+      "name": "ግራር ጃርሶ / Giraar Jaarsoo",
+      "candidates": 2
+    },
+    "269": {
+      "slug": "oromia-hopr-157",
+      "name": "ግራዋ / Giraawwaa",
+      "candidates": 1
+    },
+    "267": {
+      "slug": "oromia-hopr-158",
+      "name": "ግንደ በረት / Gindabarat",
+      "candidates": 3
+    },
+    "271": {
+      "slug": "oromia-hopr-159",
+      "name": "ጎማ 1 / Goommaa 1",
+      "candidates": 3
+    },
+    "272": {
+      "slug": "oromia-hopr-160",
+      "name": "ጎማ 2 / Goommaa 2",
+      "candidates": 3
+    },
+    "273": {
+      "slug": "oromia-hopr-161",
+      "name": "ጎሬ / Goree",
+      "candidates": 2
+    },
+    "274": {
+      "slug": "oromia-hopr-162",
+      "name": "ጎሮ/ Gooroo",
+      "candidates": 3
+    },
+    "270": {
+      "slug": "oromia-hopr-163",
+      "name": "ጎባ / Goobbaa",
+      "candidates": 4
+    },
+    "349": {
+      "slug": "oromia-hopr-164",
+      "name": "ጢቾ / Xiichoo",
+      "candidates": 1
+    },
+    "331": {
+      "slug": "oromia-hopr-165",
+      "name": "ጥቁር እንጭኒ / Xuqur Incinnii",
+      "candidates": 2
+    },
+    "226": {
+      "slug": "oromia-hopr-166",
+      "name": "ጨለንቆ 1 / Calanqoo 1",
+      "candidates": 1
+    },
+    "227": {
+      "slug": "oromia-hopr-167",
+      "name": "ጨለንቆ 2 / Calanqoo 2",
+      "candidates": 1
+    },
+    "228": {
+      "slug": "oromia-hopr-168",
+      "name": "ጨሊያ 1 / Calliya 1",
+      "candidates": 2
+    },
+    "229": {
+      "slug": "oromia-hopr-169",
+      "name": "ጨሊያ 2 / Calliya 2",
+      "candidates": 3
+    },
+    "225": {
+      "slug": "oromia-hopr-170",
+      "name": "ጫንጮ / Caancoo",
+      "candidates": 1
+    },
+    "230": {
+      "slug": "oromia-hopr-171",
+      "name": "ጭሮ 1 / Ciroo 1",
+      "candidates": 5
+    },
+    "231": {
+      "slug": "oromia-hopr-172",
+      "name": "ጭሮ 2 / Ciroo 2",
+      "candidates": 3
+    },
+    "232": {
+      "slug": "oromia-hopr-173",
+      "name": "ጭሮ 3 / Ciroo 3",
+      "candidates": 3
+    },
+    "233": {
+      "slug": "oromia-hopr-174",
+      "name": "ጮሌ / Collee",
+      "candidates": 1
+    },
+    "234": {
+      "slug": "oromia-hopr-175",
+      "name": "ጮራ / Cooraa",
+      "candidates": 4
+    },
+    "511": {
+      "slug": "sidama-hopr-0",
+      "name": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidates": 8
+    },
+    "513": {
+      "slug": "sidama-hopr-1",
+      "name": "ለኩ / Lakku",
+      "candidates": 8
+    },
+    "512": {
+      "slug": "sidama-hopr-2",
+      "name": "ሐዋሳ / Hawaasa",
+      "candidates": 16
+    },
+    "514": {
+      "slug": "sidama-hopr-3",
+      "name": "ሴኒቴሪያ / Santariya",
+      "candidates": 6
+    },
+    "515": {
+      "slug": "sidama-hopr-4",
+      "name": "ሻፍና / Shafinaa",
+      "candidates": 8
+    },
+    "502": {
+      "slug": "sidama-hopr-5",
+      "name": "በሌላ / Baleela",
+      "candidates": 9
+    },
+    "503": {
+      "slug": "sidama-hopr-6",
+      "name": "በንሳ / Bansa",
+      "candidates": 10
+    },
+    "504": {
+      "slug": "sidama-hopr-7",
+      "name": "ቡርሳ / Bursa",
+      "candidates": 10
+    },
+    "516": {
+      "slug": "sidama-hopr-8",
+      "name": "ቱላ / Tuula",
+      "candidates": 9
+    },
+    "499": {
+      "slug": "sidama-hopr-9",
+      "name": "አለታ ወንዶ / Alatta Wondo",
+      "candidates": 11
+    },
+    "500": {
+      "slug": "sidama-hopr-10",
+      "name": "አርቤጎና / Arbegoona",
+      "candidates": 9
+    },
+    "501": {
+      "slug": "sidama-hopr-11",
+      "name": "አሮሬሳ / Arooreessa",
+      "candidates": 7
+    },
+    "517": {
+      "slug": "sidama-hopr-12",
+      "name": "ይርባ / Yirba",
+      "candidates": 8
+    },
+    "507": {
+      "slug": "sidama-hopr-13",
+      "name": "ደሴ / Dessie",
+      "candidates": 9
+    },
+    "508": {
+      "slug": "sidama-hopr-14",
+      "name": "ዱባ / Duuba",
+      "candidates": 8
+    },
+    "506": {
+      "slug": "sidama-hopr-15",
+      "name": "ዳራ / Daara",
+      "candidates": 9
+    },
+    "510": {
+      "slug": "sidama-hopr-16",
+      "name": "ጉጉማ / Guguma",
+      "candidates": 7
+    },
+    "509": {
+      "slug": "sidama-hopr-17",
+      "name": "ጎርቼ / Gorchee",
+      "candidates": 6
+    },
+    "505": {
+      "slug": "sidama-hopr-18",
+      "name": "ጩኮ / Chuuko",
+      "candidates": 8
+    },
+    "377": {
+      "slug": "somali-hopr-0",
+      "name": "ሀርጌሌ / Hargeele",
+      "candidates": 3
+    },
+    "383": {
+      "slug": "somali-hopr-1",
+      "name": "ሰገግ / Sagag",
+      "candidates": 1
+    },
+    "384": {
+      "slug": "somali-hopr-2",
+      "name": "ሽንሌ / Shiniile",
+      "candidates": 2
+    },
+    "382": {
+      "slug": "somali-hopr-3",
+      "name": "ቀላፎ / Qalaafo",
+      "candidates": 4
+    },
+    "380": {
+      "slug": "somali-hopr-5",
+      "name": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidates": 2
+    },
+    "364": {
+      "slug": "somali-hopr-7",
+      "name": "አራቢ / Arabi",
+      "candidates": 4
+    },
+    "365": {
+      "slug": "somali-hopr-8",
+      "name": "አዋሬ / Awaare",
+      "candidates": 2
+    },
+    "363": {
+      "slug": "somali-hopr-9",
+      "name": "አይሻ / Cayshica",
+      "candidates": 1
+    },
+    "370": {
+      "slug": "somali-hopr-10",
+      "name": "ኤልከሬ / Ceelkare",
+      "candidates": 4
+    },
+    "371": {
+      "slug": "somali-hopr-11",
+      "name": "ኤረር / Erar",
+      "candidates": 2
+    },
+    "385": {
+      "slug": "somali-hopr-12",
+      "name": "ዋርዴር / Wardheer",
+      "candidates": 2
+    },
+    "369": {
+      "slug": "somali-hopr-13",
+      "name": "ደጋህመዶ / Dhagax Madaw",
+      "candidates": 3
+    },
+    "368": {
+      "slug": "somali-hopr-14",
+      "name": "ደጋህቡር / Dhagax Buur",
+      "candidates": 3
+    },
+    "378": {
+      "slug": "somali-hopr-15",
+      "name": "ጂግጂጋ 1 / Jigjiga 1",
+      "candidates": 5
+    },
+    "379": {
+      "slug": "somali-hopr-16",
+      "name": "ጂግጂጋ 2 / Jigjiga 2",
+      "candidates": 6
+    },
+    "374": {
+      "slug": "somali-hopr-17",
+      "name": "ገላዲን / Galadin",
+      "candidates": 2
+    },
+    "375": {
+      "slug": "somali-hopr-18",
+      "name": "ጋሻሞ / Gaashaamo",
+      "candidates": 1
+    },
+    "376": {
+      "slug": "somali-hopr-19",
+      "name": "ጎዴ / Goday",
+      "candidates": 3
+    },
+    "367": {
+      "slug": "somali-hopr-20",
+      "name": "ጨረቲ / Jarati",
+      "candidates": 4
+    },
+    "373": {
+      "slug": "somali-hopr-21",
+      "name": "ፊልቱ / Fiiltu",
+      "candidates": 2
+    },
+    "372": {
+      "slug": "somali-hopr-22",
+      "name": "ፊቅ / Fiiq",
+      "candidates": 1
+    },
+    "444": {
+      "slug": "south_ethiopia-hopr-0",
+      "name": "ሁምቦ ጠበላ",
+      "candidates": 10
+    },
+    "443": {
+      "slug": "south_ethiopia-hopr-2",
+      "name": "ሐመር ልዩ",
+      "candidates": 3
+    },
+    "469": {
+      "slug": "south_ethiopia-hopr-3",
+      "name": "መሎ ኮዛ",
+      "candidates": 6
+    },
+    "465": {
+      "slug": "south_ethiopia-hopr-4",
+      "name": "ማሌ ልዩ",
+      "candidates": 3
+    },
+    "480": {
+      "slug": "south_ethiopia-hopr-5",
+      "name": "ሶዶ ዙሪያ 1",
+      "candidates": 12
+    },
+    "481": {
+      "slug": "south_ethiopia-hopr-6",
+      "name": "ሶዶ ዙሪያ 2",
+      "candidates": 12
+    },
+    "458": {
+      "slug": "south_ethiopia-hopr-8",
+      "name": "ቁጫ",
+      "candidates": 7
+    },
+    "410": {
+      "slug": "south_ethiopia-hopr-9",
+      "name": "ቡሌ",
+      "candidates": 4
+    },
+    "411": {
+      "slug": "south_ethiopia-hopr-10",
+      "name": "ቡርጂ",
+      "candidates": 1
+    },
+    "404": {
+      "slug": "south_ethiopia-hopr-11",
+      "name": "ባስኬቶ ልዩ",
+      "candidates": 4
+    },
+    "402": {
+      "slug": "south_ethiopia-hopr-12",
+      "name": "ባኮ ጋዘር 1",
+      "candidates": 6
+    },
+    "403": {
+      "slug": "south_ethiopia-hopr-13",
+      "name": "ባኮ ጋዘር 2",
+      "candidates": 8
+    },
+    "405": {
+      "slug": "south_ethiopia-hopr-14",
+      "name": "ብርብር",
+      "candidates": 9
+    },
+    "407": {
+      "slug": "south_ethiopia-hopr-15",
+      "name": "ቦሎሶ ሶሬ 1",
+      "candidates": 7
+    },
+    "408": {
+      "slug": "south_ethiopia-hopr-16",
+      "name": "ቦሎሶ ሶሬ 2",
+      "candidates": 9
+    },
+    "409": {
+      "slug": "south_ethiopia-hopr-17",
+      "name": "ቦሎሶ ሶሬ 3",
+      "candidates": 9
+    },
+    "397": {
+      "slug": "south_ethiopia-hopr-18",
+      "name": "አማሮ ኬሌ",
+      "candidates": 3
+    },
+    "400": {
+      "slug": "south_ethiopia-hopr-19",
+      "name": "አርባ ምንጭ",
+      "candidates": 12
+    },
+    "474": {
+      "slug": "south_ethiopia-hopr-21",
+      "name": "ኦይዳ ልዩ",
+      "candidates": 4
+    },
+    "473": {
+      "slug": "south_ethiopia-hopr-22",
+      "name": "ኦፋ",
+      "candidates": 12
+    },
+    "447": {
+      "slug": "south_ethiopia-hopr-23",
+      "name": "ከምባ",
+      "candidates": 7
+    },
+    "450": {
+      "slug": "south_ethiopia-hopr-24",
+      "name": "ኪንዶ ኮይሻ 1",
+      "candidates": 9
+    },
+    "451": {
+      "slug": "south_ethiopia-hopr-25",
+      "name": "ኪንዶ ኮይሻ 2",
+      "candidates": 10
+    },
+    "453": {
+      "slug": "south_ethiopia-hopr-26",
+      "name": "ኮንሶ",
+      "candidates": 4
+    },
+    "491": {
+      "slug": "south_ethiopia-hopr-27",
+      "name": "ወናጎ 1",
+      "candidates": 5
+    },
+    "492": {
+      "slug": "south_ethiopia-hopr-28",
+      "name": "ወናጎ 2",
+      "candidates": 9
+    },
+    "493": {
+      "slug": "south_ethiopia-hopr-29",
+      "name": "ወናጎ 3",
+      "candidates": 3
+    },
+    "498": {
+      "slug": "south_ethiopia-hopr-30",
+      "name": "ዘይሴ ልዩ",
+      "candidates": 4
+    },
+    "497": {
+      "slug": "south_ethiopia-hopr-31",
+      "name": "ዛላ ዳራማሎ",
+      "candidates": 7
+    },
+    "495": {
+      "slug": "south_ethiopia-hopr-32",
+      "name": "ይርጋ ጨፌ 1",
+      "candidates": 6
+    },
+    "496": {
+      "slug": "south_ethiopia-hopr-33",
+      "name": "ይርጋጨፌ 2",
+      "candidates": 6
+    },
+    "424": {
+      "slug": "south_ethiopia-hopr-34",
+      "name": "ደራሼ ልዩ",
+      "candidates": 3
+    },
+    "423": {
+      "slug": "south_ethiopia-hopr-35",
+      "name": "ዲታ",
+      "candidates": 5
+    },
+    "420": {
+      "slug": "south_ethiopia-hopr-36",
+      "name": "ዳሞት ወይዴ 1",
+      "candidates": 9
+    },
+    "421": {
+      "slug": "south_ethiopia-hopr-36",
+      "name": "ዳሞት ወይዴ 1",
+      "candidates": 9
+    },
+    "419": {
+      "slug": "south_ethiopia-hopr-38",
+      "name": "ዳሞት ጋሌ 1",
+      "candidates": 11
+    },
+    "418": {
+      "slug": "south_ethiopia-hopr-39",
+      "name": "ዳሞት ጋሌ 2",
+      "candidates": 9
+    },
+    "422": {
+      "slug": "south_ethiopia-hopr-40",
+      "name": "ዳሰነች",
+      "candidates": 1
+    },
+    "433": {
+      "slug": "south_ethiopia-hopr-41",
+      "name": "ገረሴ",
+      "candidates": 7
+    },
+    "440": {
+      "slug": "south_ethiopia-hopr-42",
+      "name": "ገዋዳ ልዩ",
+      "candidates": 2
+    },
+    "437": {
+      "slug": "south_ethiopia-hopr-43",
+      "name": "ጊዶሌ መደበኛ",
+      "candidates": 3
+    },
+    "435": {
+      "slug": "south_ethiopia-hopr-44",
+      "name": "ጎፋ ዙሪያ 1",
+      "candidates": 7
+    },
+    "436": {
+      "slug": "south_ethiopia-hopr-45",
+      "name": "ጎፋ ዙሪያ 2",
+      "candidates": 6
+    },
+    "413": {
+      "slug": "south_ethiopia-hopr-46",
+      "name": "ጨንቻ",
+      "candidates": 10
+    },
+    "487": {
+      "slug": "south_ethiopia-hopr-47",
+      "name": "ፀማይ ልዩ",
+      "candidates": 3
+    },
+    "432": {
+      "slug": "south_ethiopia-hopr-48",
+      "name": "ፍስሀ ገነት",
+      "candidates": 6
+    },
+    "464": {
+      "slug": "south_west-hopr-0",
+      "name": "ሎማ ቦሳ",
+      "candidates": 6
+    },
+    "472": {
+      "slug": "south_west-hopr-2",
+      "name": "ሚዛን ተፈሪ",
+      "candidates": 4
+    },
+    "467": {
+      "slug": "south_west-hopr-3",
+      "name": "ማረቃ ጌና",
+      "candidates": 7
+    },
+    "468": {
+      "slug": "south_west-hopr-4",
+      "name": "ማሻ",
+      "candidates": 4
+    },
+    "412": {
+      "slug": "south_west-hopr-5",
+      "name": "ማጀት መደበኛ",
+      "candidates": 2
+    },
+    "484": {
+      "slug": "south_west-hopr-6",
+      "name": "ሱርማ ልዩ",
+      "candidates": 4
+    },
+    "476": {
+      "slug": "south_west-hopr-7",
+      "name": "ሸኮ ልዩ",
+      "candidates": 3
+    },
+    "475": {
+      "slug": "south_west-hopr-8",
+      "name": "ሼይ ቤንች",
+      "candidates": 4
+    },
+    "406": {
+      "slug": "south_west-hopr-9",
+      "name": "ቢጣ ጌሻ",
+      "candidates": 5
+    },
+    "485": {
+      "slug": "south_west-hopr-10",
+      "name": "ቴፒ",
+      "candidates": 5
+    },
+    "416": {
+      "slug": "south_west-hopr-11",
+      "name": "ናኦ ልዩ",
+      "candidates": 4
+    },
+    "395": {
+      "slug": "south_west-hopr-12",
+      "name": "አዲያ ካካ",
+      "candidates": 6
+    },
+    "445": {
+      "slug": "south_west-hopr-13",
+      "name": "ኢሰራ ቶጫ",
+      "candidates": 8
+    },
+    "454": {
+      "slug": "south_west-hopr-14",
+      "name": "ኮንታ ልዩ",
+      "candidates": 2
+    },
+    "489": {
+      "slug": "south_west-hopr-15",
+      "name": "ዋቻ",
+      "candidates": 6
+    },
+    "425": {
+      "slug": "south_west-hopr-16",
+      "name": "ዲዚ ልዩ",
+      "candidates": 3
+    },
+    "434": {
+      "slug": "south_west-hopr-17",
+      "name": "ጊምቦ",
+      "candidates": 8
+    },
+    "415": {
+      "slug": "south_west-hopr-18",
+      "name": "ጭሪ መደበኛ",
+      "candidates": 6
+    },
+    "431": {
+      "slug": "south_west-hopr-19",
+      "name": "ፈለገ ሰላም",
+      "candidates": 5
+    }
+  },
+  "rc": {
+    "129": {
+      "slug": "addis_ababa-rc-0",
+      "name": "ልደታ",
+      "candidates": 56
+    },
+    "130": {
+      "slug": "addis_ababa-rc-0",
+      "name": "ልደታ",
+      "candidates": 56
+    },
+    "131": {
+      "slug": "addis_ababa-rc-0",
+      "name": "ልደታ",
+      "candidates": 56
+    },
+    "132": {
+      "slug": "addis_ababa-rc-0",
+      "name": "ልደታ",
+      "candidates": 56
+    },
+    "120": {
+      "slug": "addis_ababa-rc-1",
+      "name": "ቂርቆስ",
+      "candidates": 53
+    },
+    "121": {
+      "slug": "addis_ababa-rc-1",
+      "name": "ቂርቆስ",
+      "candidates": 53
+    },
+    "122": {
+      "slug": "addis_ababa-rc-1",
+      "name": "ቂርቆስ",
+      "candidates": 53
+    },
+    "123": {
+      "slug": "addis_ababa-rc-1",
+      "name": "ቂርቆስ",
+      "candidates": 53
+    },
+    "124": {
+      "slug": "addis_ababa-rc-1",
+      "name": "ቂርቆስ",
+      "candidates": 53
+    },
+    "125": {
+      "slug": "addis_ababa-rc-1",
+      "name": "ቂርቆስ",
+      "candidates": 53
+    },
+    "112": {
+      "slug": "addis_ababa-rc-2",
+      "name": "ቦሌ",
+      "candidates": 122
+    },
+    "114": {
+      "slug": "addis_ababa-rc-2",
+      "name": "ቦሌ",
+      "candidates": 122
+    },
+    "133": {
+      "slug": "addis_ababa-rc-3",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "candidates": 73
+    },
+    "134": {
+      "slug": "addis_ababa-rc-3",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "candidates": 73
+    },
+    "135": {
+      "slug": "addis_ababa-rc-3",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "candidates": 73
+    },
+    "136": {
+      "slug": "addis_ababa-rc-3",
+      "name": "ንፋስ ስልክ ላፍቶ",
+      "candidates": 73
+    },
+    "109": {
+      "slug": "addis_ababa-rc-4",
+      "name": "አራዳ",
+      "candidates": 64
+    },
+    "110": {
+      "slug": "addis_ababa-rc-4",
+      "name": "አራዳ",
+      "candidates": 64
+    },
+    "111": {
+      "slug": "addis_ababa-rc-4",
+      "name": "አራዳ",
+      "candidates": 64
+    },
+    "107": {
+      "slug": "addis_ababa-rc-5",
+      "name": "አቃቂ ቃሊቲ",
+      "candidates": 87
+    },
+    "108": {
+      "slug": "addis_ababa-rc-5",
+      "name": "አቃቂ ቃሊቲ",
+      "candidates": 87
+    },
+    "101": {
+      "slug": "addis_ababa-rc-6",
+      "name": "አዲስ ከተማ",
+      "candidates": 73
+    },
+    "102": {
+      "slug": "addis_ababa-rc-6",
+      "name": "አዲስ ከተማ",
+      "candidates": 73
+    },
+    "103": {
+      "slug": "addis_ababa-rc-6",
+      "name": "አዲስ ከተማ",
+      "candidates": 73
+    },
+    "104": {
+      "slug": "addis_ababa-rc-6",
+      "name": "አዲስ ከተማ",
+      "candidates": 73
+    },
+    "105": {
+      "slug": "addis_ababa-rc-6",
+      "name": "አዲስ ከተማ",
+      "candidates": 73
+    },
+    "106": {
+      "slug": "addis_ababa-rc-6",
+      "name": "አዲስ ከተማ",
+      "candidates": 73
+    },
+    "126": {
+      "slug": "addis_ababa-rc-7",
+      "name": "ኮልፌ ቀራኒዮ",
+      "candidates": 100
+    },
+    "127": {
+      "slug": "addis_ababa-rc-7",
+      "name": "ኮልፌ ቀራኒዮ",
+      "candidates": 100
+    },
+    "128": {
+      "slug": "addis_ababa-rc-7",
+      "name": "ኮልፌ ቀራኒዮ",
+      "candidates": 100
+    },
+    "137": {
+      "slug": "addis_ababa-rc-8",
+      "name": "የካ",
+      "candidates": 112
+    },
+    "138": {
+      "slug": "addis_ababa-rc-8",
+      "name": "የካ",
+      "candidates": 112
+    },
+    "139": {
+      "slug": "addis_ababa-rc-8",
+      "name": "የካ",
+      "candidates": 112
+    },
+    "140": {
+      "slug": "addis_ababa-rc-8",
+      "name": "የካ",
+      "candidates": 112
+    },
+    "115": {
+      "slug": "addis_ababa-rc-9",
+      "name": "ጉለሌ",
+      "candidates": 57
+    },
+    "116": {
+      "slug": "addis_ababa-rc-9",
+      "name": "ጉለሌ",
+      "candidates": 57
+    },
+    "117": {
+      "slug": "addis_ababa-rc-9",
+      "name": "ጉለሌ",
+      "candidates": 57
+    },
+    "119": {
+      "slug": "addis_ababa-rc-9",
+      "name": "ጉለሌ",
+      "candidates": 57
+    },
+    "168": {
+      "slug": "afar-rc-2",
+      "name": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidates": 34
+    },
+    "151": {
+      "slug": "afar-rc-4",
+      "name": "በርሀሌ ወረዳ / Baraclê Daqaara",
+      "candidates": 8
+    },
+    "152": {
+      "slug": "afar-rc-6",
+      "name": "ቢዱ ወረዳ / Bixi Daqaara",
+      "candidates": 8
+    },
+    "170": {
+      "slug": "afar-rc-7",
+      "name": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidates": 11
+    },
+    "171": {
+      "slug": "afar-rc-8",
+      "name": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidates": 13
+    },
+    "141": {
+      "slug": "afar-rc-11",
+      "name": "አብኣላ ወረዳ / Abqaalâ Daqaara",
+      "candidates": 15
+    },
+    "149": {
+      "slug": "afar-rc-13",
+      "name": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidates": 14
+    },
+    "142": {
+      "slug": "afar-rc-15",
+      "name": "አደአር ወረዳ / Qaddaqar Daqaara",
+      "candidates": 10
+    },
+    "144": {
+      "slug": "afar-rc-16",
+      "name": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidates": 11
+    },
+    "145": {
+      "slug": "afar-rc-17",
+      "name": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidates": 12
+    },
+    "162": {
+      "slug": "afar-rc-18",
+      "name": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidates": 11
+    },
+    "160": {
+      "slug": "afar-rc-19",
+      "name": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidates": 35
+    },
+    "161": {
+      "slug": "afar-rc-20",
+      "name": "ኤረብቲ ወረዳ / Erebtî Daqaara",
+      "candidates": 5
+    },
+    "165": {
+      "slug": "afar-rc-21",
+      "name": "ኩኖባ ወረዳ / Konnabi Daqaara",
+      "candidates": 8
+    },
+    "166": {
+      "slug": "afar-rc-22",
+      "name": "ኮሪ ወረዳ / Kori Daqaara",
+      "candidates": 14
+    },
+    "172": {
+      "slug": "afar-rc-23",
+      "name": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidates": 6
+    },
+    "159": {
+      "slug": "afar-rc-24",
+      "name": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidates": 49
+    },
+    "158": {
+      "slug": "afar-rc-25",
+      "name": "ዳሉል ወረዳ / Xalol Daqaara",
+      "candidates": 16
+    },
+    "157": {
+      "slug": "afar-rc-27",
+      "name": "ዳሎቻ ወረዳ / Dullassah Daqaara",
+      "candidates": 12
+    },
+    "156": {
+      "slug": "afar-rc-28",
+      "name": "ዳዌ ወረዳ / Dawwê Daqaara",
+      "candidates": 9
+    },
+    "163": {
+      "slug": "afar-rc-29",
+      "name": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidates": 25
+    },
+    "164": {
+      "slug": "afar-rc-30",
+      "name": "ጉሊና ወረዳ / Gulinah Daqaara",
+      "candidates": 14
+    },
+    "154": {
+      "slug": "afar-rc-31",
+      "name": "ጭፍራ ወረዳ / Sifrâ Daqaara",
+      "candidates": 15
+    },
+    "261": {
+      "slug": "amhara-rc-0",
+      "name": "ለጋምቦ",
+      "candidates": 11
+    },
+    "263": {
+      "slug": "amhara-rc-1",
+      "name": "ሉማሜ",
+      "candidates": 2
+    },
+    "262": {
+      "slug": "amhara-rc-2",
+      "name": "ሊበን",
+      "candidates": 7
+    },
+    "259": {
+      "slug": "amhara-rc-4",
+      "name": "ላይ ጋይንት 1",
+      "candidates": 4
+    },
+    "260": {
+      "slug": "amhara-rc-5",
+      "name": "ላይ ጋይንት 2",
+      "candidates": 2
+    },
+    "248": {
+      "slug": "amhara-rc-6",
+      "name": "ሐብሩ",
+      "candidates": 4
+    },
+    "265": {
+      "slug": "amhara-rc-7",
+      "name": "መሐል ሜዳ",
+      "candidates": 5
+    },
+    "269": {
+      "slug": "amhara-rc-8",
+      "name": "መራኛ",
+      "candidates": 4
+    },
+    "266": {
+      "slug": "amhara-rc-11",
+      "name": "መቄት 1",
+      "candidates": 2
+    },
+    "267": {
+      "slug": "amhara-rc-12",
+      "name": "መቄት 2",
+      "candidates": 3
+    },
+    "268": {
+      "slug": "amhara-rc-13",
+      "name": "መቅደላ",
+      "candidates": 8
+    },
+    "272": {
+      "slug": "amhara-rc-14",
+      "name": "መተማ",
+      "candidates": 10
+    },
+    "264": {
+      "slug": "amhara-rc-15",
+      "name": "ማጄቴ",
+      "candidates": 4
+    },
+    "273": {
+      "slug": "amhara-rc-16",
+      "name": "ሞላሌ",
+      "candidates": 3
+    },
+    "274": {
+      "slug": "amhara-rc-17",
+      "name": "ሞጣ",
+      "candidates": 4
+    },
+    "282": {
+      "slug": "amhara-rc-18",
+      "name": "ራቤል",
+      "candidates": 1
+    },
+    "281": {
+      "slug": "amhara-rc-19",
+      "name": "ራያ ቆቦ",
+      "candidates": 15
+    },
+    "283": {
+      "slug": "amhara-rc-20",
+      "name": "ሮቢት",
+      "candidates": 4
+    },
+    "288": {
+      "slug": "amhara-rc-21",
+      "name": "ሰቆጣ",
+      "candidates": 8
+    },
+    "287": {
+      "slug": "amhara-rc-22",
+      "name": "ሰከላ",
+      "candidates": 4
+    },
+    "286": {
+      "slug": "amhara-rc-23",
+      "name": "ሰዴ",
+      "candidates": 1
+    },
+    "284": {
+      "slug": "amhara-rc-24",
+      "name": "ሳይንት 1",
+      "candidates": 6
+    },
+    "285": {
+      "slug": "amhara-rc-25",
+      "name": "ሳይንት 2",
+      "candidates": 1
+    },
+    "290": {
+      "slug": "amhara-rc-26",
+      "name": "ስማዳ 1",
+      "candidates": 3
+    },
+    "291": {
+      "slug": "amhara-rc-27",
+      "name": "ስማዳ 2",
+      "candidates": 4
+    },
+    "289": {
+      "slug": "amhara-rc-28",
+      "name": "ሾላ ገበያ",
+      "candidates": 4
+    },
+    "277": {
+      "slug": "amhara-rc-29",
+      "name": "ቀይት",
+      "candidates": 4
+    },
+    "256": {
+      "slug": "amhara-rc-30",
+      "name": "ቁይ",
+      "candidates": 2
+    },
+    "275": {
+      "slug": "amhara-rc-31",
+      "name": "ቃሉ 1",
+      "candidates": 11
+    },
+    "276": {
+      "slug": "amhara-rc-32",
+      "name": "ቃሉ 2",
+      "candidates": 9
+    },
+    "278": {
+      "slug": "amhara-rc-33",
+      "name": "ቅላጅ",
+      "candidates": 8
+    },
+    "279": {
+      "slug": "amhara-rc-34",
+      "name": "ቋሪት",
+      "candidates": 3
+    },
+    "187": {
+      "slug": "amhara-rc-36",
+      "name": "በለሳ",
+      "candidates": 9
+    },
+    "190": {
+      "slug": "amhara-rc-37",
+      "name": "ቡሬ",
+      "candidates": 5
+    },
+    "189": {
+      "slug": "amhara-rc-38",
+      "name": "ቡግና",
+      "candidates": 7
+    },
+    "185": {
+      "slug": "amhara-rc-39",
+      "name": "ባሕር ዳር ከተማ",
+      "candidates": 17
+    },
+    "186": {
+      "slug": "amhara-rc-40",
+      "name": "ባቲ",
+      "candidates": 5
+    },
+    "188": {
+      "slug": "amhara-rc-41",
+      "name": "ብቸና",
+      "candidates": 6
+    },
+    "296": {
+      "slug": "amhara-rc-44",
+      "name": "ተንታ",
+      "candidates": 11
+    },
+    "297": {
+      "slug": "amhara-rc-45",
+      "name": "ቲሊሊ",
+      "candidates": 8
+    },
+    "293": {
+      "slug": "amhara-rc-47",
+      "name": "ታች ጋይንት",
+      "candidates": 3
+    },
+    "192": {
+      "slug": "amhara-rc-48",
+      "name": "ቻግኒ",
+      "candidates": 11
+    },
+    "179": {
+      "slug": "amhara-rc-49",
+      "name": "አለም ከተማ",
+      "candidates": 2
+    },
+    "177": {
+      "slug": "amhara-rc-50",
+      "name": "አለፋ ጣቁሳ 1",
+      "candidates": 4
+    },
+    "178": {
+      "slug": "amhara-rc-51",
+      "name": "አለፋ ጣቁሳ 2",
+      "candidates": 5
+    },
+    "176": {
+      "slug": "amhara-rc-52",
+      "name": "አልቡኮ",
+      "candidates": 2
+    },
+    "180": {
+      "slug": "amhara-rc-53",
+      "name": "አማኑኤል",
+      "candidates": 3
+    },
+    "182": {
+      "slug": "amhara-rc-54",
+      "name": "አምበር",
+      "candidates": 2
+    },
+    "181": {
+      "slug": "amhara-rc-55",
+      "name": "አምባሰል",
+      "candidates": 5
+    },
+    "184": {
+      "slug": "amhara-rc-56",
+      "name": "አረርቲ",
+      "candidates": 4
+    },
+    "183": {
+      "slug": "amhara-rc-57",
+      "name": "አንኮበር",
+      "candidates": 5
+    },
+    "174": {
+      "slug": "amhara-rc-58",
+      "name": "አዲስ ቅዳም",
+      "candidates": 8
+    },
+    "175": {
+      "slug": "amhara-rc-59",
+      "name": "አዴት",
+      "candidates": 5
+    },
+    "225": {
+      "slug": "amhara-rc-60",
+      "name": "ኤፌሶን",
+      "candidates": 4
+    },
+    "227": {
+      "slug": "amhara-rc-61",
+      "name": "እሮብ ገበያ",
+      "candidates": 1
+    },
+    "228": {
+      "slug": "amhara-rc-62",
+      "name": "እስቴ 1",
+      "candidates": 4
+    },
+    "229": {
+      "slug": "amhara-rc-63",
+      "name": "እስቴ 2",
+      "candidates": 2
+    },
+    "230": {
+      "slug": "amhara-rc-64",
+      "name": "እስቴ 3",
+      "candidates": 2
+    },
+    "223": {
+      "slug": "amhara-rc-65",
+      "name": "እብናት 1",
+      "candidates": 2
+    },
+    "224": {
+      "slug": "amhara-rc-66",
+      "name": "እብናት 2",
+      "candidates": 4
+    },
+    "226": {
+      "slug": "amhara-rc-67",
+      "name": "እነዋሪ",
+      "candidates": 3
+    },
+    "252": {
+      "slug": "amhara-rc-68",
+      "name": "ከለላ",
+      "candidates": 7
+    },
+    "253": {
+      "slug": "amhara-rc-69",
+      "name": "ከምከም 1",
+      "candidates": 8
+    },
+    "254": {
+      "slug": "amhara-rc-70",
+      "name": "ከምከም 2",
+      "candidates": 4
+    },
+    "257": {
+      "slug": "amhara-rc-71",
+      "name": "ኩታበር",
+      "candidates": 6
+    },
+    "255": {
+      "slug": "amhara-rc-72",
+      "name": "ኮሶ በር",
+      "candidates": 8
+    },
+    "303": {
+      "slug": "amhara-rc-73",
+      "name": "ወምበርማ",
+      "candidates": 3
+    },
+    "304": {
+      "slug": "amhara-rc-74",
+      "name": "ወረባቦ",
+      "candidates": 3
+    },
+    "305": {
+      "slug": "amhara-rc-75",
+      "name": "ወረኢሉ",
+      "candidates": 1
+    },
+    "302": {
+      "slug": "amhara-rc-76",
+      "name": "ወይን አምባ",
+      "candidates": 6
+    },
+    "300": {
+      "slug": "amhara-rc-77",
+      "name": "ወገራ 1",
+      "candidates": 8
+    },
+    "301": {
+      "slug": "amhara-rc-78",
+      "name": "ወገራ 2",
+      "candidates": 5
+    },
+    "299": {
+      "slug": "amhara-rc-79",
+      "name": "ዋድላ",
+      "candidates": 3
+    },
+    "309": {
+      "slug": "amhara-rc-80",
+      "name": "ዘጌ መሸንቲ",
+      "candidates": 9
+    },
+    "310": {
+      "slug": "amhara-rc-81",
+      "name": "ዝቋላ አገው",
+      "candidates": 6
+    },
+    "307": {
+      "slug": "amhara-rc-82",
+      "name": "የእድ ውሃ",
+      "candidates": 2
+    },
+    "308": {
+      "slug": "amhara-rc-83",
+      "name": "የጁቤ",
+      "candidates": 2
+    },
+    "306": {
+      "slug": "amhara-rc-84",
+      "name": "የጨረቃ",
+      "candidates": 5
+    },
+    "209": {
+      "slug": "amhara-rc-85",
+      "name": "ደሀና",
+      "candidates": 14
+    },
+    "211": {
+      "slug": "amhara-rc-86",
+      "name": "ደላንታ",
+      "candidates": 7
+    },
+    "213": {
+      "slug": "amhara-rc-88",
+      "name": "ደምቢያ 1",
+      "candidates": 9
+    },
+    "214": {
+      "slug": "amhara-rc-89",
+      "name": "ደምቢያ 2",
+      "candidates": 7
+    },
+    "216": {
+      "slug": "amhara-rc-90",
+      "name": "ደራ 1",
+      "candidates": 5
+    },
+    "217": {
+      "slug": "amhara-rc-91",
+      "name": "ደራ 2",
+      "candidates": 3
+    },
+    "218": {
+      "slug": "amhara-rc-92",
+      "name": "ደሴ ከተማ",
+      "candidates": 12
+    },
+    "219": {
+      "slug": "amhara-rc-93",
+      "name": "ደሴ ዙሪያ 1",
+      "candidates": 6
+    },
+    "220": {
+      "slug": "amhara-rc-94",
+      "name": "ደሴ ዙሪያ 2",
+      "candidates": 9
+    },
+    "199": {
+      "slug": "amhara-rc-95",
+      "name": "ደባርቅ",
+      "candidates": 9
+    },
+    "202": {
+      "slug": "amhara-rc-96",
+      "name": "ደብረ ማርቆስ",
+      "candidates": 4
+    },
+    "200": {
+      "slug": "amhara-rc-97",
+      "name": "ደብረ ብርሃን",
+      "candidates": 10
+    },
+    "201": {
+      "slug": "amhara-rc-98",
+      "name": "ደብረ ኤልያስ",
+      "candidates": 1
+    },
+    "203": {
+      "slug": "amhara-rc-99",
+      "name": "ደብረ ወርቅ",
+      "candidates": 2
+    },
+    "204": {
+      "slug": "amhara-rc-100",
+      "name": "ደብረሲና",
+      "candidates": 3
+    },
+    "205": {
+      "slug": "amhara-rc-101",
+      "name": "ደብረሲና 1",
+      "candidates": 8
+    },
+    "206": {
+      "slug": "amhara-rc-102",
+      "name": "ደብረሲና 2",
+      "candidates": 9
+    },
+    "215": {
+      "slug": "amhara-rc-103",
+      "name": "ደነባ",
+      "candidates": 5
+    },
+    "210": {
+      "slug": "amhara-rc-104",
+      "name": "ደጀን",
+      "candidates": 2
+    },
+    "207": {
+      "slug": "amhara-rc-105",
+      "name": "ደጋ ዳሞት",
+      "candidates": 3
+    },
+    "208": {
+      "slug": "amhara-rc-106",
+      "name": "ደጓ ጽዮን",
+      "candidates": 2
+    },
+    "222": {
+      "slug": "amhara-rc-107",
+      "name": "ዱርቤቴ",
+      "candidates": 2
+    },
+    "196": {
+      "slug": "amhara-rc-108",
+      "name": "ዳባት",
+      "candidates": 2
+    },
+    "197": {
+      "slug": "amhara-rc-109",
+      "name": "ዳንግላ",
+      "candidates": 8
+    },
+    "198": {
+      "slug": "amhara-rc-110",
+      "name": "ዳዋ ጨፋ",
+      "candidates": 13
+    },
+    "221": {
+      "slug": "amhara-rc-111",
+      "name": "ድል ይብዛ",
+      "candidates": 4
+    },
+    "251": {
+      "slug": "amhara-rc-112",
+      "name": "ጂጋ",
+      "candidates": 2
+    },
+    "249": {
+      "slug": "amhara-rc-113",
+      "name": "ጃማ ደጎሎ",
+      "candidates": 3
+    },
+    "250": {
+      "slug": "amhara-rc-114",
+      "name": "ጃናሞራ",
+      "candidates": 8
+    },
+    "237": {
+      "slug": "amhara-rc-115",
+      "name": "ገርጨጭ",
+      "candidates": 6
+    },
+    "247": {
+      "slug": "amhara-rc-116",
+      "name": "ጉባላፍቶ",
+      "candidates": 14
+    },
+    "239": {
+      "slug": "amhara-rc-117",
+      "name": "ግምጃ ቤት",
+      "candidates": 11
+    },
+    "240": {
+      "slug": "amhara-rc-118",
+      "name": "ግንደ ወይን",
+      "candidates": 2
+    },
+    "238": {
+      "slug": "amhara-rc-119",
+      "name": "ግዳን",
+      "candidates": 4
+    },
+    "241": {
+      "slug": "amhara-rc-120",
+      "name": "ጎንደር ከተማ 1",
+      "candidates": 13
+    },
+    "242": {
+      "slug": "amhara-rc-121",
+      "name": "ጎንደር ከተማ 2",
+      "candidates": 9
+    },
+    "243": {
+      "slug": "amhara-rc-122",
+      "name": "ጎንደር ዙሪያ 3",
+      "candidates": 10
+    },
+    "244": {
+      "slug": "amhara-rc-123",
+      "name": "ጎንደር ዙሪያ 4",
+      "candidates": 8
+    },
+    "245": {
+      "slug": "amhara-rc-124",
+      "name": "ጎንጂ",
+      "candidates": 8
+    },
+    "246": {
+      "slug": "amhara-rc-125",
+      "name": "ጎዛምን",
+      "candidates": 2
+    },
+    "298": {
+      "slug": "amhara-rc-126",
+      "name": "ጢስ አባይ",
+      "candidates": 10
+    },
+    "193": {
+      "slug": "amhara-rc-127",
+      "name": "ጨፋ ሮቢት",
+      "candidates": 8
+    },
+    "191": {
+      "slug": "amhara-rc-128",
+      "name": "ጫጫ",
+      "candidates": 7
+    },
+    "194": {
+      "slug": "amhara-rc-129",
+      "name": "ጭልጋ 1",
+      "candidates": 7
+    },
+    "195": {
+      "slug": "amhara-rc-130",
+      "name": "ጭልጋ 2",
+      "candidates": 7
+    },
+    "231": {
+      "slug": "amhara-rc-131",
+      "name": "ፋርጣ 1",
+      "candidates": 7
+    },
+    "232": {
+      "slug": "amhara-rc-132",
+      "name": "ፋርጣ 2",
+      "candidates": 4
+    },
+    "233": {
+      "slug": "amhara-rc-133",
+      "name": "ፋርጣ 3",
+      "candidates": 2
+    },
+    "234": {
+      "slug": "amhara-rc-134",
+      "name": "ፍኖተ ሰላም",
+      "candidates": 3
+    },
+    "235": {
+      "slug": "amhara-rc-135",
+      "name": "ፎገራ 1",
+      "candidates": 4
+    },
+    "236": {
+      "slug": "amhara-rc-136",
+      "name": "ፎገራ 2",
+      "candidates": 4
+    },
+    "321": {
+      "slug": "benshangul_gumz-rc-0",
+      "name": "ሆሞሻ",
+      "candidates": 15
+    },
+    "326": {
+      "slug": "benshangul_gumz-rc-1",
+      "name": "መንጌ",
+      "candidates": 22
+    },
+    "324": {
+      "slug": "benshangul_gumz-rc-2",
+      "name": "ማንዱራ",
+      "candidates": 20
+    },
+    "325": {
+      "slug": "benshangul_gumz-rc-3",
+      "name": "ማኦ ኮሞ ልዩ",
+      "candidates": 24
+    },
+    "329": {
+      "slug": "benshangul_gumz-rc-6",
+      "name": "ሸርቆሌ",
+      "candidates": 21
+    },
+    "317": {
+      "slug": "benshangul_gumz-rc-7",
+      "name": "ቡለን",
+      "candidates": 23
+    },
+    "315": {
+      "slug": "benshangul_gumz-rc-9",
+      "name": "ባምባሲ",
+      "candidates": 22
+    },
+    "314": {
+      "slug": "benshangul_gumz-rc-10",
+      "name": "አሶሳ",
+      "candidates": 35
+    },
+    "322": {
+      "slug": "benshangul_gumz-rc-11",
+      "name": "ከማሺ",
+      "candidates": 12
+    },
+    "323": {
+      "slug": "benshangul_gumz-rc-12",
+      "name": "ኩርሙክ",
+      "candidates": 9
+    },
+    "331": {
+      "slug": "benshangul_gumz-rc-13",
+      "name": "ወምበራ",
+      "candidates": 31
+    },
+    "318": {
+      "slug": "benshangul_gumz-rc-16",
+      "name": "ዳንጉር",
+      "candidates": 17
+    },
+    "319": {
+      "slug": "benshangul_gumz-rc-17",
+      "name": "ድባጤ",
+      "candidates": 25
+    },
+    "320": {
+      "slug": "benshangul_gumz-rc-18",
+      "name": "ጉባ",
+      "candidates": 9
+    },
+    "328": {
+      "slug": "benshangul_gumz-rc-19",
+      "name": "ፓዊ",
+      "candidates": 14
+    },
+    "668": {
+      "slug": "central_ethiopia-rc-1",
+      "name": "ሌሞ 01",
+      "candidates": 33
+    },
+    "669": {
+      "slug": "central_ethiopia-rc-2",
+      "name": "ሌሞ 02",
+      "candidates": 27
+    },
+    "686": {
+      "slug": "central_ethiopia-rc-5",
+      "name": "ሲቄ 01",
+      "candidates": 23
+    },
+    "687": {
+      "slug": "central_ethiopia-rc-6",
+      "name": "ሲቄ 02",
+      "candidates": 22
+    },
+    "691": {
+      "slug": "central_ethiopia-rc-7",
+      "name": "ሶሮ 01",
+      "candidates": 28
+    },
+    "692": {
+      "slug": "central_ethiopia-rc-8",
+      "name": "ሶሮ 02",
+      "candidates": 28
+    },
+    "688": {
+      "slug": "central_ethiopia-rc-9",
+      "name": "ሶዶ",
+      "candidates": 10
+    },
+    "653": {
+      "slug": "central_ethiopia-rc-10",
+      "name": "ቀዲዳ ጋሜላ 1",
+      "candidates": 20
+    },
+    "654": {
+      "slug": "central_ethiopia-rc-11",
+      "name": "ቀዲዳ ጋሜላ 2",
+      "candidates": 24
+    },
+    "657": {
+      "slug": "central_ethiopia-rc-13",
+      "name": "ቅበት",
+      "candidates": 14
+    },
+    "599": {
+      "slug": "central_ethiopia-rc-14",
+      "name": "አሊቾ ወሬሮ",
+      "candidates": 14
+    },
+    "601": {
+      "slug": "central_ethiopia-rc-17",
+      "name": "አንጋጫ 1",
+      "candidates": 9
+    },
+    "602": {
+      "slug": "central_ethiopia-rc-18",
+      "name": "አንጋጫ 2",
+      "candidates": 11
+    },
+    "605": {
+      "slug": "central_ethiopia-rc-19",
+      "name": "አዘርነት በርበሬ",
+      "candidates": 13
+    },
+    "632": {
+      "slug": "central_ethiopia-rc-20",
+      "name": "እምድብር",
+      "candidates": 9
+    },
+    "633": {
+      "slug": "central_ethiopia-rc-21",
+      "name": "እነሞርና ኤነር 1",
+      "candidates": 11
+    },
+    "634": {
+      "slug": "central_ethiopia-rc-22",
+      "name": "እነሞርና ኤነር 2",
+      "candidates": 8
+    },
+    "635": {
+      "slug": "central_ethiopia-rc-23",
+      "name": "እዣ 1",
+      "candidates": 12
+    },
+    "636": {
+      "slug": "central_ethiopia-rc-24",
+      "name": "እዣ 2",
+      "candidates": 7
+    },
+    "663": {
+      "slug": "central_ethiopia-rc-25",
+      "name": "ኮንተብ 1",
+      "candidates": 17
+    },
+    "664": {
+      "slug": "central_ethiopia-rc-26",
+      "name": "ኮንተብ 2",
+      "candidates": 18
+    },
+    "665": {
+      "slug": "central_ethiopia-rc-27",
+      "name": "ኮንተብ 3",
+      "candidates": 17
+    },
+    "660": {
+      "slug": "central_ethiopia-rc-28",
+      "name": "ኮኪር",
+      "candidates": 7
+    },
+    "699": {
+      "slug": "central_ethiopia-rc-29",
+      "name": "ወልቂጤ",
+      "candidates": 18
+    },
+    "703": {
+      "slug": "central_ethiopia-rc-30",
+      "name": "የም ልዩ",
+      "candidates": 8
+    },
+    "622": {
+      "slug": "central_ethiopia-rc-31",
+      "name": "ዳሎቻ",
+      "candidates": 13
+    },
+    "647": {
+      "slug": "central_ethiopia-rc-32",
+      "name": "ጉመር 1",
+      "candidates": 10
+    },
+    "648": {
+      "slug": "central_ethiopia-rc-33",
+      "name": "ጉመር 2",
+      "candidates": 6
+    },
+    "694": {
+      "slug": "central_ethiopia-rc-34",
+      "name": "ጠምባሮ",
+      "candidates": 27
+    },
+    "333": {
+      "slug": "diredawa-rc-0",
+      "name": "01 ቀበሌ",
+      "candidates": 6
+    },
+    "334": {
+      "slug": "diredawa-rc-1",
+      "name": "02 ቀበሌ",
+      "candidates": 15
+    },
+    "335": {
+      "slug": "diredawa-rc-2",
+      "name": "03 ቀበሌ",
+      "candidates": 11
+    },
+    "336": {
+      "slug": "diredawa-rc-3",
+      "name": "04 ቀበሌ",
+      "candidates": 8
+    },
+    "337": {
+      "slug": "diredawa-rc-4",
+      "name": "05 ቀበሌ",
+      "candidates": 16
+    },
+    "338": {
+      "slug": "diredawa-rc-5",
+      "name": "06 ቀበሌ",
+      "candidates": 17
+    },
+    "339": {
+      "slug": "diredawa-rc-6",
+      "name": "07 ቀበሌ",
+      "candidates": 9
+    },
+    "340": {
+      "slug": "diredawa-rc-7",
+      "name": "08 ቀበሌ",
+      "candidates": 15
+    },
+    "341": {
+      "slug": "diredawa-rc-8",
+      "name": "09 ቀበሌ",
+      "candidates": 6
+    },
+    "361": {
+      "slug": "diredawa-rc-9",
+      "name": "ሀሎ ቡሳ",
+      "candidates": 3
+    },
+    "363": {
+      "slug": "diredawa-rc-10",
+      "name": "ሁሉል ሞጆ",
+      "candidates": 3
+    },
+    "378": {
+      "slug": "diredawa-rc-11",
+      "name": "ሁላ ሁሉል",
+      "candidates": 2
+    },
+    "373": {
+      "slug": "diredawa-rc-12",
+      "name": "ለገቢራ",
+      "candidates": 3
+    },
+    "372": {
+      "slug": "diredawa-rc-13",
+      "name": "ለገኦዳ ሚርጋ",
+      "candidates": 2
+    },
+    "371": {
+      "slug": "diredawa-rc-15",
+      "name": "ለገዲኒ",
+      "candidates": 2
+    },
+    "374": {
+      "slug": "diredawa-rc-16",
+      "name": "ለገዶል",
+      "candidates": 2
+    },
+    "365": {
+      "slug": "diredawa-rc-20",
+      "name": "ቀልአድ",
+      "candidates": 3
+    },
+    "347": {
+      "slug": "diredawa-rc-22",
+      "name": "በለዋ",
+      "candidates": 3
+    },
+    "348": {
+      "slug": "diredawa-rc-23",
+      "name": "ቢሻን በሄ",
+      "candidates": 3
+    },
+    "349": {
+      "slug": "diredawa-rc-24",
+      "name": "ቢዮ አዋሌ",
+      "candidates": 4
+    },
+    "344": {
+      "slug": "diredawa-rc-27",
+      "name": "አሰሊሶ",
+      "candidates": 3
+    },
+    "345": {
+      "slug": "diredawa-rc-28",
+      "name": "አዋሌ",
+      "candidates": 3
+    },
+    "360": {
+      "slug": "diredawa-rc-29",
+      "name": "አያሌ ጉምጉም",
+      "candidates": 3
+    },
+    "343": {
+      "slug": "diredawa-rc-30",
+      "name": "አዲጋ ፈለማ",
+      "candidates": 3
+    },
+    "342": {
+      "slug": "diredawa-rc-31",
+      "name": "አዳዳ",
+      "candidates": 3
+    },
+    "369": {
+      "slug": "diredawa-rc-34",
+      "name": "ኩላዩ",
+      "candidates": 3
+    },
+    "368": {
+      "slug": "diredawa-rc-36",
+      "name": "ኮሪሶ",
+      "candidates": 3
+    },
+    "379": {
+      "slug": "diredawa-rc-37",
+      "name": "ዋሂል",
+      "candidates": 3
+    },
+    "353": {
+      "slug": "diredawa-rc-39",
+      "name": "ዱጁማ",
+      "candidates": 3
+    },
+    "366": {
+      "slug": "diredawa-rc-40",
+      "name": "ጀሎ በሊና",
+      "candidates": 3
+    },
+    "358": {
+      "slug": "diredawa-rc-41",
+      "name": "ገርባ አነኖ",
+      "candidates": 3
+    },
+    "357": {
+      "slug": "diredawa-rc-42",
+      "name": "ገንደ ሪጌ",
+      "candidates": 3
+    },
+    "356": {
+      "slug": "diredawa-rc-43",
+      "name": "ገንደ ገበሬ",
+      "candidates": 3
+    },
+    "351": {
+      "slug": "diredawa-rc-46",
+      "name": "ጭሪ ሚቲ",
+      "candidates": 2
+    },
+    "391": {
+      "slug": "gambella-rc-0",
+      "name": "ላሬ",
+      "candidates": 24
+    },
+    "393": {
+      "slug": "gambella-rc-1",
+      "name": "መንገሺ",
+      "candidates": 14
+    },
+    "381": {
+      "slug": "gambella-rc-3",
+      "name": "አቦቦ",
+      "candidates": 15
+    },
+    "382": {
+      "slug": "gambella-rc-4",
+      "name": "አኮቦ",
+      "candidates": 21
+    },
+    "388": {
+      "slug": "gambella-rc-5",
+      "name": "ኢታንግ",
+      "candidates": 34
+    },
+    "394": {
+      "slug": "gambella-rc-6",
+      "name": "ዋንቱዋር",
+      "candidates": 27
+    },
+    "383": {
+      "slug": "gambella-rc-7",
+      "name": "ዲማ",
+      "candidates": 9
+    },
+    "389": {
+      "slug": "gambella-rc-8",
+      "name": "ጂካዎ",
+      "candidates": 25
+    },
+    "390": {
+      "slug": "gambella-rc-9",
+      "name": "ጆር",
+      "candidates": 12
+    },
+    "384": {
+      "slug": "gambella-rc-10",
+      "name": "ጋምቤላ",
+      "candidates": 23
+    },
+    "385": {
+      "slug": "gambella-rc-11",
+      "name": "ጋምቤላ ከተማ",
+      "candidates": 51
+    },
+    "386": {
+      "slug": "gambella-rc-12",
+      "name": "ጎደሬ",
+      "candidates": 41
+    },
+    "387": {
+      "slug": "gambella-rc-13",
+      "name": "ጎግ",
+      "candidates": 9
+    },
+    "396": {
+      "slug": "harari-rc-0",
+      "name": "ጀጎል ልዩ",
+      "candidates": 15
+    },
+    "397": {
+      "slug": "harari-rc-1",
+      "name": "ጀጎል መደበኛ",
+      "candidates": 6
+    },
+    "395": {
+      "slug": "harari-rc-2",
+      "name": "ጀጎል ዙሪያ እና ሁንደኔ",
+      "candidates": 46
+    },
+    "496": {
+      "slug": "oromia-rc-0",
+      "name": "ሂርና / Hiirnaa",
+      "candidates": 3
+    },
+    "521": {
+      "slug": "oromia-rc-3",
+      "name": "ሊሙ ሰቃ / Limmuu Saqqaa",
+      "candidates": 3
+    },
+    "519": {
+      "slug": "oromia-rc-4",
+      "name": "ሊሙ ኮሳ 1 / Limmuu Kossaa 1",
+      "candidates": 6
+    },
+    "520": {
+      "slug": "oromia-rc-5",
+      "name": "ሊሙ ኮሳ 2 / Limmuu Kossaa 2",
+      "candidates": 3
+    },
+    "517": {
+      "slug": "oromia-rc-6",
+      "name": "ላሎ / Laaloo",
+      "candidates": 4
+    },
+    "518": {
+      "slug": "oromia-rc-7",
+      "name": "ሌመን / Leemman",
+      "candidates": 4
+    },
+    "491": {
+      "slug": "oromia-rc-11",
+      "name": "ሐብሮ 1 / Habroo 1",
+      "candidates": 4
+    },
+    "492": {
+      "slug": "oromia-rc-13",
+      "name": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidates": 5
+    },
+    "525": {
+      "slug": "oromia-rc-14",
+      "name": "መልካ ሶዳ / Malkaa Soddaa",
+      "candidates": 6
+    },
+    "527": {
+      "slug": "oromia-rc-15",
+      "name": "መሰላ / Masalaa",
+      "candidates": 3
+    },
+    "529": {
+      "slug": "oromia-rc-16",
+      "name": "መቱ / Mattuu",
+      "candidates": 6
+    },
+    "526": {
+      "slug": "oromia-rc-17",
+      "name": "መንዲ / Mandii",
+      "candidates": 3
+    },
+    "524": {
+      "slug": "oromia-rc-19",
+      "name": "መኮ ሳቺ / Makoo Saachii",
+      "candidates": 3
+    },
+    "530": {
+      "slug": "oromia-rc-20",
+      "name": "ሚጨታ / Michataa",
+      "candidates": 3
+    },
+    "523": {
+      "slug": "oromia-rc-21",
+      "name": "ማና / Maannaa",
+      "candidates": 3
+    },
+    "528": {
+      "slug": "oromia-rc-22",
+      "name": "ሜታ ሮቢ / Meettaa Roobii",
+      "candidates": 9
+    },
+    "533": {
+      "slug": "oromia-rc-24",
+      "name": "ሞያሌ / Moyaalee",
+      "candidates": 5
+    },
+    "545": {
+      "slug": "oromia-rc-25",
+      "name": "ሮቤ / Roobee",
+      "candidates": 3
+    },
+    "2548": {
+      "slug": "oromia-rc-26",
+      "name": "ሰቃ ጨቆርሳ 1 / Saqqaa Coqorsaa 1",
+      "candidates": 4
+    },
+    "550": {
+      "slug": "oromia-rc-28",
+      "name": "ሰኞ ገበያ / Sangoo Gabayaa",
+      "candidates": 3
+    },
+    "549": {
+      "slug": "oromia-rc-29",
+      "name": "ሰኮሩ / Sokorruu",
+      "candidates": 4
+    },
+    "557": {
+      "slug": "oromia-rc-31",
+      "name": "ሲራሮ 1 / Siraaroo 1",
+      "candidates": 3
+    },
+    "558": {
+      "slug": "oromia-rc-32",
+      "name": "ሲራሮ 2 / Siraaroo 2",
+      "candidates": 3
+    },
+    "555": {
+      "slug": "oromia-rc-33",
+      "name": "ሲቡ ሲሬ / Siibuu Siree",
+      "candidates": 3
+    },
+    "556": {
+      "slug": "oromia-rc-34",
+      "name": "ሲናና / Sinaanaa",
+      "candidates": 9
+    },
+    "546": {
+      "slug": "oromia-rc-35",
+      "name": "ሳጉሬ / Saaguree",
+      "candidates": 6
+    },
+    "551": {
+      "slug": "oromia-rc-36",
+      "name": "ሻምቡ / Shaambuu",
+      "candidates": 9
+    },
+    "552": {
+      "slug": "oromia-rc-37",
+      "name": "ሻሸመኔ 1 / Shaashamannee 1",
+      "candidates": 14
+    },
+    "553": {
+      "slug": "oromia-rc-38",
+      "name": "ሻሸመኔ 2 / Shaashamannee 2",
+      "candidates": 8
+    },
+    "554": {
+      "slug": "oromia-rc-39",
+      "name": "ሽርካ / Shirkaa",
+      "candidates": 4
+    },
+    "505": {
+      "slug": "oromia-rc-40",
+      "name": "ቀርሳ / Qarsaa",
+      "candidates": 4
+    },
+    "506": {
+      "slug": "oromia-rc-41",
+      "name": "ቀርሳ 1 / Qarsaa 1",
+      "candidates": 6
+    },
+    "507": {
+      "slug": "oromia-rc-42",
+      "name": "ቀርሳ 2 / Qarsaa 2",
+      "candidates": 3
+    },
+    "544": {
+      "slug": "oromia-rc-43",
+      "name": "ቀርጫ / Qarcaa",
+      "candidates": 6
+    },
+    "504": {
+      "slug": "oromia-rc-44",
+      "name": "ቃቄ / Qaaqee",
+      "candidates": 7
+    },
+    "543": {
+      "slug": "oromia-rc-45",
+      "name": "ቄቤ / Qeebbee",
+      "candidates": 3
+    },
+    "433": {
+      "slug": "oromia-rc-47",
+      "name": "በሌ / Balee",
+      "candidates": 4
+    },
+    "434": {
+      "slug": "oromia-rc-48",
+      "name": "በረህ አለልቱ / Barah Alaltuu",
+      "candidates": 12
+    },
+    "431": {
+      "slug": "oromia-rc-49",
+      "name": "በቆጂ 1 / Boqojjii 1",
+      "candidates": 4
+    },
+    "432": {
+      "slug": "oromia-rc-50",
+      "name": "በቆጂ 2 / Boqojjii 2",
+      "candidates": 4
+    },
+    "426": {
+      "slug": "oromia-rc-51",
+      "name": "በቾ / Bacho",
+      "candidates": 6
+    },
+    "427": {
+      "slug": "oromia-rc-52",
+      "name": "በደሌ / Baddallee",
+      "candidates": 5
+    },
+    "428": {
+      "slug": "oromia-rc-53",
+      "name": "በደኖ / Baddannoo",
+      "candidates": 4
+    },
+    "429": {
+      "slug": "oromia-rc-54",
+      "name": "በዴሳ / Baddeessaa",
+      "candidates": 4
+    },
+    "435": {
+      "slug": "oromia-rc-55",
+      "name": "ቢሎኖጳ / Billoo Noophaa",
+      "candidates": 3
+    },
+    "424": {
+      "slug": "oromia-rc-57",
+      "name": "ባኮ ትቤ / Baakkoo Tibbee",
+      "candidates": 12
+    },
+    "430": {
+      "slug": "oromia-rc-58",
+      "name": "ቤጊ / Beeggii",
+      "candidates": 5
+    },
+    "438": {
+      "slug": "oromia-rc-59",
+      "name": "ቦረዳ / Boreedaa",
+      "candidates": 3
+    },
+    "437": {
+      "slug": "oromia-rc-60",
+      "name": "ቦሬ / Booree",
+      "candidates": 4
+    },
+    "436": {
+      "slug": "oromia-rc-61",
+      "name": "ቦኮ / Bokkoo",
+      "candidates": 6
+    },
+    "560": {
+      "slug": "oromia-rc-62",
+      "name": "ተጂ / Tajjii",
+      "candidates": 7
+    },
+    "561": {
+      "slug": "oromia-rc-63",
+      "name": "ተጆ / Tajjoo",
+      "candidates": 4
+    },
+    "536": {
+      "slug": "oromia-rc-64",
+      "name": "ነቀምቴ / Naqamtee",
+      "candidates": 7
+    },
+    "535": {
+      "slug": "oromia-rc-65",
+      "name": "ነጆ / Najjoo",
+      "candidates": 3
+    },
+    "534": {
+      "slug": "oromia-rc-66",
+      "name": "ነገሌ / Nagallee",
+      "candidates": 6
+    },
+    "540": {
+      "slug": "oromia-rc-68",
+      "name": "ኑኑ / Nuunnuu",
+      "candidates": 3
+    },
+    "537": {
+      "slug": "oromia-rc-69",
+      "name": "ኖሌ ካባ 1 / Noolee Kaabaa 1",
+      "candidates": 3
+    },
+    "538": {
+      "slug": "oromia-rc-70",
+      "name": "ኖሌ ካባ 2 / Noolee Kaabaa 2",
+      "candidates": 3
+    },
+    "539": {
+      "slug": "oromia-rc-71",
+      "name": "ኖኖ / Noonnoo",
+      "candidates": 9
+    },
+    "411": {
+      "slug": "oromia-rc-72",
+      "name": "አለም ገና 1 / Alam Ganaa 1",
+      "candidates": 13
+    },
+    "412": {
+      "slug": "oromia-rc-73",
+      "name": "አለም ገና 2 / Alam Ganaa 2",
+      "candidates": 16
+    },
+    "413": {
+      "slug": "oromia-rc-74",
+      "name": "አለም ጤና / Alam Xeenaa / Botee",
+      "candidates": 11
+    },
+    "414": {
+      "slug": "oromia-rc-75",
+      "name": "አሊቦ / Aliiboo",
+      "candidates": 3
+    },
+    "415": {
+      "slug": "oromia-rc-76",
+      "name": "አምቦ 1 / Ambo 1",
+      "candidates": 10
+    },
+    "416": {
+      "slug": "oromia-rc-77",
+      "name": "አምቦ 2 / Ambo 2",
+      "candidates": 8
+    },
+    "418": {
+      "slug": "oromia-rc-78",
+      "name": "አርቦዬ / Arbooyee",
+      "candidates": 4
+    },
+    "421": {
+      "slug": "oromia-rc-79",
+      "name": "አሰላ / Asallaa",
+      "candidates": 11
+    },
+    "420": {
+      "slug": "oromia-rc-80",
+      "name": "አሰኮ / Asakoo",
+      "candidates": 3
+    },
+    "398": {
+      "slug": "oromia-rc-82",
+      "name": "አቦምሳ / Abboomsaa",
+      "candidates": 3
+    },
+    "399": {
+      "slug": "oromia-rc-83",
+      "name": "አቦቴ ደራ / Abootee Darraa",
+      "candidates": 4
+    },
+    "417": {
+      "slug": "oromia-rc-84",
+      "name": "አኖ / Aannoo",
+      "candidates": 4
+    },
+    "422": {
+      "slug": "oromia-rc-85",
+      "name": "አያና / Ayyaanaa",
+      "candidates": 4
+    },
+    "423": {
+      "slug": "oromia-rc-86",
+      "name": "አይራ ጉሊሶ / Ayiraa Gullisoo",
+      "candidates": 5
+    },
+    "400": {
+      "slug": "oromia-rc-87",
+      "name": "አደአ በርጋ / Ada'aa Bargaa",
+      "candidates": 9
+    },
+    "401": {
+      "slug": "oromia-rc-88",
+      "name": "አደኣ 1 / Ada'aa 1",
+      "candidates": 11
+    },
+    "407": {
+      "slug": "oromia-rc-90",
+      "name": "አዲስ አለም /ኤጀሬ/ Ejeree",
+      "candidates": 9
+    },
+    "404": {
+      "slug": "oromia-rc-91",
+      "name": "አዳማ 1 / Adaamaa 1",
+      "candidates": 10
+    },
+    "405": {
+      "slug": "oromia-rc-92",
+      "name": "አዳማ 2 / Adaamaa 2",
+      "candidates": 12
+    },
+    "406": {
+      "slug": "oromia-rc-93",
+      "name": "አዳማ 3 / Adaamaa 3",
+      "candidates": 9
+    },
+    "403": {
+      "slug": "oromia-rc-94",
+      "name": "አዳባ / Adaabbaa",
+      "candidates": 4
+    },
+    "409": {
+      "slug": "oromia-rc-95",
+      "name": "አጉሊቾ / Aguulichoo",
+      "candidates": 5
+    },
+    "408": {
+      "slug": "oromia-rc-96",
+      "name": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
+      "candidates": 8
+    },
+    "565": {
+      "slug": "oromia-rc-97",
+      "name": "ኡራጋ / Uraagaa",
+      "candidates": 3
+    },
+    "564": {
+      "slug": "oromia-rc-98",
+      "name": "ኡካ / Ukkaa",
+      "candidates": 3
+    },
+    "498": {
+      "slug": "oromia-rc-99",
+      "name": "ኢተያ / Itayya",
+      "candidates": 4
+    },
+    "467": {
+      "slug": "oromia-rc-100",
+      "name": "እናንጎ ቢላ / Inaangoo Biilaa",
+      "candidates": 5
+    },
+    "541": {
+      "slug": "oromia-rc-101",
+      "name": "ኦሞ ናዳ 1 / Oomoonaadaa 1",
+      "candidates": 3
+    },
+    "542": {
+      "slug": "oromia-rc-102",
+      "name": "ኦሞ ናዳ 2 / Oomoonaadaa 2",
+      "candidates": 3
+    },
+    "513": {
+      "slug": "oromia-rc-103",
+      "name": "ከሞና / Kamoonaa",
+      "candidates": 4
+    },
+    "514": {
+      "slug": "oromia-rc-104",
+      "name": "ኩላ / Kuula",
+      "candidates": 3
+    },
+    "515": {
+      "slug": "oromia-rc-105",
+      "name": "ኩርፋ ጨሌ / Kurfaa Callee",
+      "candidates": 3
+    },
+    "516": {
+      "slug": "oromia-rc-106",
+      "name": "ኩዩ / Kuyyuu",
+      "candidates": 6
+    },
+    "512": {
+      "slug": "oromia-rc-108",
+      "name": "ኮኮሳ / Kokosaa",
+      "candidates": 7
+    },
+    "510": {
+      "slug": "oromia-rc-109",
+      "name": "ኮፈሌ 1 / Kofalee 1",
+      "candidates": 3
+    },
+    "511": {
+      "slug": "oromia-rc-110",
+      "name": "ኮፈሌ 2 / Kofalee 2",
+      "candidates": 4
+    },
+    "568": {
+      "slug": "oromia-rc-111",
+      "name": "ወለንጪቲ / Walancitii",
+      "candidates": 9
+    },
+    "569": {
+      "slug": "oromia-rc-112",
+      "name": "ወሊሶ 1 / Walisoo 1",
+      "candidates": 12
+    },
+    "570": {
+      "slug": "oromia-rc-113",
+      "name": "ወሊሶ 2 / Walisoo 2",
+      "candidates": 6
+    },
+    "571": {
+      "slug": "oromia-rc-114",
+      "name": "ወልመራ / Walmaraa",
+      "candidates": 14
+    },
+    "566": {
+      "slug": "oromia-rc-115",
+      "name": "ወረጃርሶ / Warra Jaarsoo",
+      "candidates": 3
+    },
+    "567": {
+      "slug": "oromia-rc-116",
+      "name": "ወንጪ / Wancii",
+      "candidates": 4
+    },
+    "572": {
+      "slug": "oromia-rc-117",
+      "name": "ውጫሌና ጂዶ / Wucaaleennaa Jiddoo",
+      "candidates": 5
+    },
+    "576": {
+      "slug": "oromia-rc-118",
+      "name": "ዩብዶ / Yuubdoo",
+      "candidates": 3
+    },
+    "573": {
+      "slug": "oromia-rc-119",
+      "name": "ያቤሎ / Yaabelloo",
+      "candidates": 6
+    },
+    "575": {
+      "slug": "oromia-rc-120",
+      "name": "ያዩ / Yaayyoo",
+      "candidates": 3
+    },
+    "459": {
+      "slug": "oromia-rc-123",
+      "name": "ደምቢ / Dambii",
+      "candidates": 4
+    },
+    "460": {
+      "slug": "oromia-rc-124",
+      "name": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidates": 6
+    },
+    "453": {
+      "slug": "oromia-rc-125",
+      "name": "ደደር 1 / Dadar 1",
+      "candidates": 4
+    },
+    "454": {
+      "slug": "oromia-rc-126",
+      "name": "ደደር 2 / Dadar 2",
+      "candidates": 3
+    },
+    "457": {
+      "slug": "oromia-rc-127",
+      "name": "ደገም / Dagam",
+      "candidates": 7
+    },
+    "466": {
+      "slug": "oromia-rc-128",
+      "name": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidates": 7
+    },
+    "463": {
+      "slug": "oromia-rc-129",
+      "name": "ዲምቱ / Diimtuu",
+      "candidates": 3
+    },
+    "462": {
+      "slug": "oromia-rc-130",
+      "name": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidates": 3
+    },
+    "452": {
+      "slug": "oromia-rc-131",
+      "name": "ዳሪሙ / Daarimmuu",
+      "candidates": 6
+    },
+    "449": {
+      "slug": "oromia-rc-132",
+      "name": "ዳንዲ 1 / Dandii 1",
+      "candidates": 8
+    },
+    "450": {
+      "slug": "oromia-rc-133",
+      "name": "ዳንዲ 2 / Dandii 2",
+      "candidates": 7
+    },
+    "451": {
+      "slug": "oromia-rc-134",
+      "name": "ዳኖ / Daannoo",
+      "candidates": 7
+    },
+    "461": {
+      "slug": "oromia-rc-135",
+      "name": "ዴራ / Dheerraa",
+      "candidates": 4
+    },
+    "455": {
+      "slug": "oromia-rc-136",
+      "name": "ዴዶ 1 / Deedoo 1",
+      "candidates": 3
+    },
+    "456": {
+      "slug": "oromia-rc-137",
+      "name": "ዴዶ 2 / Deedoo 2",
+      "candidates": 3
+    },
+    "464": {
+      "slug": "oromia-rc-138",
+      "name": "ዶባ / Doobbaa",
+      "candidates": 3
+    },
+    "465": {
+      "slug": "oromia-rc-139",
+      "name": "ዶዶላ / Dodolaa",
+      "candidates": 4
+    },
+    "499": {
+      "slug": "oromia-rc-141",
+      "name": "ጃራ / Jaarraa",
+      "candidates": 8
+    },
+    "502": {
+      "slug": "oromia-rc-142",
+      "name": "ጅማ ቀርሳ / Jimmaa Qarsaa",
+      "candidates": 4
+    },
+    "503": {
+      "slug": "oromia-rc-144",
+      "name": "ጅማ ከተማ / Magaalaa Jimmaa",
+      "candidates": 17
+    },
+    "475": {
+      "slug": "oromia-rc-145",
+      "name": "ገሊላ / Galiilaa",
+      "candidates": 7
+    },
+    "474": {
+      "slug": "oromia-rc-146",
+      "name": "ገላና አባያ / Galaana Abbayyaa",
+      "candidates": 5
+    },
+    "472": {
+      "slug": "oromia-rc-147",
+      "name": "ገቺ ቦርቻ / Gachii Boorechaa",
+      "candidates": 3
+    },
+    "473": {
+      "slug": "oromia-rc-148",
+      "name": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidates": 4
+    },
+    "489": {
+      "slug": "oromia-rc-149",
+      "name": "ጉቴ / Guutee",
+      "candidates": 3
+    },
+    "488": {
+      "slug": "oromia-rc-150",
+      "name": "ጉይ ገነት / Gu'ii Gannat",
+      "candidates": 4
+    },
+    "478": {
+      "slug": "oromia-rc-151",
+      "name": "ጊምቢ / Gimbii",
+      "candidates": 8
+    },
+    "480": {
+      "slug": "oromia-rc-152",
+      "name": "ጊኒር / Gindhiir",
+      "candidates": 9
+    },
+    "477": {
+      "slug": "oromia-rc-153",
+      "name": "ጊዳሚ / Gidaamii",
+      "candidates": 3
+    },
+    "470": {
+      "slug": "oromia-rc-154",
+      "name": "ጋሎ / Gaaloo",
+      "candidates": 5
+    },
+    "471": {
+      "slug": "oromia-rc-155",
+      "name": "ጋቲራ / Gaatiraa",
+      "candidates": 3
+    },
+    "476": {
+      "slug": "oromia-rc-156",
+      "name": "ጌራ / Geeraa",
+      "candidates": 3
+    },
+    "481": {
+      "slug": "oromia-rc-157",
+      "name": "ግራር ጃርሶ / Giraar Jaarsoo",
+      "candidates": 4
+    },
+    "482": {
+      "slug": "oromia-rc-158",
+      "name": "ግራዋ / Giraawwaa",
+      "candidates": 3
+    },
+    "484": {
+      "slug": "oromia-rc-160",
+      "name": "ጎማ 1 / Goommaa 1",
+      "candidates": 3
+    },
+    "485": {
+      "slug": "oromia-rc-161",
+      "name": "ጎማ 2 / Goommaa 2",
+      "candidates": 5
+    },
+    "486": {
+      "slug": "oromia-rc-162",
+      "name": "ጎሬ / Goree",
+      "candidates": 4
+    },
+    "487": {
+      "slug": "oromia-rc-163",
+      "name": "ጎሮ / Gooroo",
+      "candidates": 6
+    },
+    "483": {
+      "slug": "oromia-rc-164",
+      "name": "ጎባ / Goobbaa",
+      "candidates": 9
+    },
+    "562": {
+      "slug": "oromia-rc-165",
+      "name": "ጢቾ / Xiichoo",
+      "candidates": 3
+    },
+    "440": {
+      "slug": "oromia-rc-167",
+      "name": "ጨለንቆ 1 / Calanqoo 1",
+      "candidates": 3
+    },
+    "441": {
+      "slug": "oromia-rc-168",
+      "name": "ጨለንቆ 2 / Calanqoo 2",
+      "candidates": 3
+    },
+    "442": {
+      "slug": "oromia-rc-169",
+      "name": "ጨሊያ 1 / Calliya 1",
+      "candidates": 8
+    },
+    "443": {
+      "slug": "oromia-rc-170",
+      "name": "ጨሊያ 2 / Calliya 2",
+      "candidates": 8
+    },
+    "439": {
+      "slug": "oromia-rc-171",
+      "name": "ጫንጮ / Caancoo",
+      "candidates": 3
+    },
+    "444": {
+      "slug": "oromia-rc-172",
+      "name": "ጭሮ 1 / Ciroo 1",
+      "candidates": 6
+    },
+    "445": {
+      "slug": "oromia-rc-173",
+      "name": "ጭሮ 2 / Ciroo 2",
+      "candidates": 5
+    },
+    "446": {
+      "slug": "oromia-rc-174",
+      "name": "ጭሮ 3 / Ciroo 3",
+      "candidates": 4
+    },
+    "447": {
+      "slug": "oromia-rc-175",
+      "name": "ጮሌ / Collee",
+      "candidates": 3
+    },
+    "448": {
+      "slug": "oromia-rc-176",
+      "name": "ጮራ / Cooraa",
+      "candidates": 5
+    },
+    "469": {
+      "slug": "oromia-rc-177",
+      "name": "ፉኛን ቢራ / Funyaan Biraa",
+      "candidates": 3
+    },
+    "589": {
+      "slug": "sidama-rc-0",
+      "name": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidates": 77
+    },
+    "591": {
+      "slug": "sidama-rc-1",
+      "name": "ለኩ / Lakku",
+      "candidates": 55
+    },
+    "590": {
+      "slug": "sidama-rc-2",
+      "name": "ሐዋሳ / Hawaasa",
+      "candidates": 126
+    },
+    "592": {
+      "slug": "sidama-rc-3",
+      "name": "ሴኒቴሪያ / Santariya",
+      "candidates": 52
+    },
+    "593": {
+      "slug": "sidama-rc-4",
+      "name": "ሻፍና / Shafinaa",
+      "candidates": 52
+    },
+    "580": {
+      "slug": "sidama-rc-5",
+      "name": "በሌላ / Baleela",
+      "candidates": 48
+    },
+    "581": {
+      "slug": "sidama-rc-6",
+      "name": "በንሳ / Bansa",
+      "candidates": 83
+    },
+    "582": {
+      "slug": "sidama-rc-7",
+      "name": "ቡርሳ / Bursa",
+      "candidates": 67
+    },
+    "594": {
+      "slug": "sidama-rc-8",
+      "name": "ቱላ / Tuula",
+      "candidates": 81
+    },
+    "577": {
+      "slug": "sidama-rc-9",
+      "name": "አለታ ወንዶ / Alatta Wondo",
+      "candidates": 81
+    },
+    "578": {
+      "slug": "sidama-rc-10",
+      "name": "አርቤጎና / Arbegoona",
+      "candidates": 63
+    },
+    "579": {
+      "slug": "sidama-rc-11",
+      "name": "አሮሬሳ / Arooreessa",
+      "candidates": 61
+    },
+    "595": {
+      "slug": "sidama-rc-12",
+      "name": "ይርባ / Yirba",
+      "candidates": 72
+    },
+    "585": {
+      "slug": "sidama-rc-13",
+      "name": "ደሴ / Dessie",
+      "candidates": 64
+    },
+    "586": {
+      "slug": "sidama-rc-14",
+      "name": "ዱባ / Duuba",
+      "candidates": 55
+    },
+    "584": {
+      "slug": "sidama-rc-15",
+      "name": "ዳራ / Daara",
+      "candidates": 77
+    },
+    "588": {
+      "slug": "sidama-rc-16",
+      "name": "ጉጉማ / Guguma",
+      "candidates": 39
+    },
+    "587": {
+      "slug": "sidama-rc-17",
+      "name": "ጎርቼ / Gorchee",
+      "candidates": 50
+    },
+    "583": {
+      "slug": "sidama-rc-18",
+      "name": "ጩኮ / Chuuko",
+      "candidates": 78
+    },
+    "751": {
+      "slug": "somali-rc-1",
+      "name": "ሃዳጋሌ / Hadhagala",
+      "candidates": 8
+    },
+    "762": {
+      "slug": "somali-rc-2",
+      "name": "ለገሂዳ / Lagahido",
+      "candidates": 6
+    },
+    "764": {
+      "slug": "somali-rc-5",
+      "name": "መርሲን / Marsin",
+      "candidates": 7
+    },
+    "768": {
+      "slug": "somali-rc-6",
+      "name": "ሙስተሂል / Mustaxiil",
+      "candidates": 6
+    },
+    "767": {
+      "slug": "somali-rc-7",
+      "name": "ሙባረክ / Mubaarak",
+      "candidates": 10
+    },
+    "765": {
+      "slug": "somali-rc-9",
+      "name": "ሚኤሶ / Maa'Iso",
+      "candidates": 6
+    },
+    "734": {
+      "slug": "somali-rc-10",
+      "name": "ምስራቅ ኢሚ / Iimay Bari",
+      "candidates": 10
+    },
+    "779": {
+      "slug": "somali-rc-11",
+      "name": "ምዕራብ ኢሚ / Limay Galbeed",
+      "candidates": 11
+    },
+    "766": {
+      "slug": "somali-rc-12",
+      "name": "ሞያሌ / Mooyaale",
+      "candidates": 15
+    },
+    "770": {
+      "slug": "somali-rc-13",
+      "name": "ራሶ / Raaso",
+      "candidates": 10
+    },
+    "772": {
+      "slug": "somali-rc-14",
+      "name": "ሰገግ / Sagag",
+      "candidates": 8
+    },
+    "771": {
+      "slug": "somali-rc-15",
+      "name": "ሳላሃድ / Salaxaad",
+      "candidates": 6
+    },
+    "774": {
+      "slug": "somali-rc-16",
+      "name": "ሺላቦ / Shilaabo",
+      "candidates": 6
+    },
+    "773": {
+      "slug": "somali-rc-17",
+      "name": "ሼኮሽ / Shaygoosh",
+      "candidates": 3
+    },
+    "775": {
+      "slug": "somali-rc-18",
+      "name": "ሽንሌ / Shiniile",
+      "candidates": 10
+    },
+    "760": {
+      "slug": "somali-rc-19",
+      "name": "ቀላፎ / Qalaafo",
+      "candidates": 15
+    },
+    "761": {
+      "slug": "somali-rc-20",
+      "name": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidates": 5
+    },
+    "757": {
+      "slug": "somali-rc-21",
+      "name": "ቀብሪ በያህ / Qabri Bayax",
+      "candidates": 8
+    },
+    "769": {
+      "slug": "somali-rc-24",
+      "name": "ቁቢ / Qubi",
+      "candidates": 8
+    },
+    "716": {
+      "slug": "somali-rc-25",
+      "name": "ባሬ / Baarey",
+      "candidates": 10
+    },
+    "715": {
+      "slug": "somali-rc-26",
+      "name": "ባቢሌ / Baabili",
+      "candidates": 15
+    },
+    "717": {
+      "slug": "somali-rc-27",
+      "name": "ቤርአኖ / Beercaano",
+      "candidates": 7
+    },
+    "719": {
+      "slug": "somali-rc-29",
+      "name": "ቦህ / Bookh",
+      "candidates": 7
+    },
+    "776": {
+      "slug": "somali-rc-30",
+      "name": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidates": 14
+    },
+    "711": {
+      "slug": "somali-rc-31",
+      "name": "አራርሶ / Araarso",
+      "candidates": 11
+    },
+    "712": {
+      "slug": "somali-rc-32",
+      "name": "አዋሬ / Awaare",
+      "candidates": 9
+    },
+    "714": {
+      "slug": "somali-rc-34",
+      "name": "አይሻ / Cayshica",
+      "candidates": 5
+    },
+    "709": {
+      "slug": "somali-rc-35",
+      "name": "አዳድሌ / Cadaadle (Magaalo)",
+      "candidates": 7
+    },
+    "710": {
+      "slug": "somali-rc-36",
+      "name": "አፍደም / Afdem",
+      "candidates": 6
+    },
+    "777": {
+      "slug": "somali-rc-37",
+      "name": "ኡደት / Hudhet",
+      "candidates": 11
+    },
+    "735": {
+      "slug": "somali-rc-38",
+      "name": "ኤልከሬ / Ceelkare",
+      "candidates": 6
+    },
+    "736": {
+      "slug": "somali-rc-39",
+      "name": "ኤልወይኔ / Ceelweyn",
+      "candidates": 7
+    },
+    "737": {
+      "slug": "somali-rc-40",
+      "name": "ኤረር / Erer",
+      "candidates": 10
+    },
+    "778": {
+      "slug": "somali-rc-41",
+      "name": "ዋርዴር",
+      "candidates": 16
+    },
+    "729": {
+      "slug": "somali-rc-44",
+      "name": "ደራቶሌ / Daratoole",
+      "candidates": 8
+    },
+    "723": {
+      "slug": "somali-rc-45",
+      "name": "ደበወይን / Dhoobawayn",
+      "candidates": 5
+    },
+    "721": {
+      "slug": "somali-rc-46",
+      "name": "ደናን / Dhanaan",
+      "candidates": 9
+    },
+    "727": {
+      "slug": "somali-rc-47",
+      "name": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidates": 8
+    },
+    "726": {
+      "slug": "somali-rc-48",
+      "name": "ደጋህመዶ / Dhagax Madaw",
+      "candidates": 7
+    },
+    "730": {
+      "slug": "somali-rc-51",
+      "name": "ዳሮር / Daroor",
+      "candidates": 7
+    },
+    "722": {
+      "slug": "somali-rc-52",
+      "name": "ዳኖት / Dabood",
+      "candidates": 4
+    },
+    "731": {
+      "slug": "somali-rc-53",
+      "name": "ድሁን / Dhixun",
+      "candidates": 5
+    },
+    "732": {
+      "slug": "somali-rc-54",
+      "name": "ዶሎ ባይ / Doolo Bay",
+      "candidates": 8
+    },
+    "733": {
+      "slug": "somali-rc-55",
+      "name": "ዶሎ አዶ / Doolo Cado",
+      "candidates": 9
+    },
+    "755": {
+      "slug": "somali-rc-56",
+      "name": "ጂግጂጋ / Jigjiga",
+      "candidates": 25
+    },
+    "756": {
+      "slug": "somali-rc-56",
+      "name": "ጂግጂጋ / Jigjiga",
+      "candidates": 25
+    },
+    "742": {
+      "slug": "somali-rc-58",
+      "name": "ገላዲን / Galaadin",
+      "candidates": 10
+    },
+    "743": {
+      "slug": "somali-rc-59",
+      "name": "ገርቦ / Garbo",
+      "candidates": 8
+    },
+    "749": {
+      "slug": "somali-rc-60",
+      "name": "ጉራዳሞሌ / Guradhamoole",
+      "candidates": 4
+    },
+    "750": {
+      "slug": "somali-rc-61",
+      "name": "ጉርሱም / Gursum",
+      "candidates": 6
+    },
+    "748": {
+      "slug": "somali-rc-62",
+      "name": "ጉኖጎዳ / Gunagado",
+      "candidates": 8
+    },
+    "741": {
+      "slug": "somali-rc-63",
+      "name": "ጋሻሞ / Gaashaamo",
+      "candidates": 6
+    },
+    "746": {
+      "slug": "somali-rc-64",
+      "name": "ጎልጀኖ / Goljano",
+      "candidates": 7
+    },
+    "747": {
+      "slug": "somali-rc-65",
+      "name": "ጎሮ በቀቅሳ / Gooro Baqaaqsa",
+      "candidates": 5
+    },
+    "744": {
+      "slug": "somali-rc-66",
+      "name": "ጎዴ / Goday",
+      "candidates": 10
+    },
+    "745": {
+      "slug": "somali-rc-67",
+      "name": "ጎዴ ከተማ / Magaalada Goday",
+      "candidates": 11
+    },
+    "720": {
+      "slug": "somali-rc-68",
+      "name": "ጨረቲ / Jarati",
+      "candidates": 10
+    },
+    "739": {
+      "slug": "somali-rc-69",
+      "name": "ፊልቱ / Fiiltu",
+      "candidates": 9
+    },
+    "740": {
+      "slug": "somali-rc-70",
+      "name": "ፊቅ / Fiiq",
+      "candidates": 9
+    },
+    "738": {
+      "slug": "somali-rc-71",
+      "name": "ፌርፌር / Feerfeer",
+      "candidates": 7
+    },
+    "650": {
+      "slug": "south_ethiopia-rc-0",
+      "name": "ሁምቦ ጠበላ",
+      "candidates": 47
+    },
+    "649": {
+      "slug": "south_ethiopia-rc-2",
+      "name": "ሐመር ልዩ",
+      "candidates": 2
+    },
+    "677": {
+      "slug": "south_ethiopia-rc-3",
+      "name": "መሎ ኮዛ",
+      "candidates": 18
+    },
+    "681": {
+      "slug": "south_ethiopia-rc-4",
+      "name": "ሙርሲ ልዩ",
+      "candidates": 3
+    },
+    "673": {
+      "slug": "south_ethiopia-rc-5",
+      "name": "ማሌ ልዩ",
+      "candidates": 6
+    },
+    "689": {
+      "slug": "south_ethiopia-rc-6",
+      "name": "ሶዶ ዙሪያ 1",
+      "candidates": 46
+    },
+    "690": {
+      "slug": "south_ethiopia-rc-7",
+      "name": "ሶዶ ዙሪያ 2",
+      "candidates": 46
+    },
+    "666": {
+      "slug": "south_ethiopia-rc-9",
+      "name": "ቁጫ",
+      "candidates": 24
+    },
+    "615": {
+      "slug": "south_ethiopia-rc-10",
+      "name": "ቡሌ",
+      "candidates": 22
+    },
+    "616": {
+      "slug": "south_ethiopia-rc-11",
+      "name": "ቡርጂ",
+      "candidates": 6
+    },
+    "617": {
+      "slug": "south_ethiopia-rc-12",
+      "name": "ቡሳ",
+      "candidates": 5
+    },
+    "608": {
+      "slug": "south_ethiopia-rc-13",
+      "name": "ባስኬቶ ልዩ",
+      "candidates": 7
+    },
+    "606": {
+      "slug": "south_ethiopia-rc-14",
+      "name": "ባኮ ጋዘር 1",
+      "candidates": 22
+    },
+    "607": {
+      "slug": "south_ethiopia-rc-15",
+      "name": "ባኮ ጋዘር 2",
+      "candidates": 26
+    },
+    "609": {
+      "slug": "south_ethiopia-rc-16",
+      "name": "ብርብር",
+      "candidates": 32
+    },
+    "612": {
+      "slug": "south_ethiopia-rc-17",
+      "name": "ቦሎሶ ሶሬ 1",
+      "candidates": 38
+    },
+    "613": {
+      "slug": "south_ethiopia-rc-18",
+      "name": "ቦሎሶ ሶሬ 2",
+      "candidates": 43
+    },
+    "614": {
+      "slug": "south_ethiopia-rc-19",
+      "name": "ቦሎሶ ሶሬ 3",
+      "candidates": 40
+    },
+    "611": {
+      "slug": "south_ethiopia-rc-20",
+      "name": "ቦዲ ልዩ",
+      "candidates": 2
+    },
+    "644": {
+      "slug": "south_ethiopia-rc-21",
+      "name": "ኛንጋቶም ልዩ",
+      "candidates": 4
+    },
+    "600": {
+      "slug": "south_ethiopia-rc-22",
+      "name": "አማሮ ኬሌ",
+      "candidates": 13
+    },
+    "603": {
+      "slug": "south_ethiopia-rc-23",
+      "name": "አርባ ምንጭ",
+      "candidates": 42
+    },
+    "604": {
+      "slug": "south_ethiopia-rc-24",
+      "name": "አርቦሬ ልዩ",
+      "candidates": 2
+    },
+    "683": {
+      "slug": "south_ethiopia-rc-26",
+      "name": "ኦይዳ ልዩ",
+      "candidates": 11
+    },
+    "682": {
+      "slug": "south_ethiopia-rc-27",
+      "name": "ኦፋ",
+      "candidates": 45
+    },
+    "655": {
+      "slug": "south_ethiopia-rc-28",
+      "name": "ከምባ",
+      "candidates": 24
+    },
+    "658": {
+      "slug": "south_ethiopia-rc-29",
+      "name": "ኪንዶ ኮይሻ 1",
+      "candidates": 41
+    },
+    "659": {
+      "slug": "south_ethiopia-rc-30",
+      "name": "ኪንዶ ኮይሻ 2",
+      "candidates": 37
+    },
+    "661": {
+      "slug": "south_ethiopia-rc-31",
+      "name": "ኮንሶ",
+      "candidates": 12
+    },
+    "700": {
+      "slug": "south_ethiopia-rc-32",
+      "name": "ወናጎ 1",
+      "candidates": 18
+    },
+    "701": {
+      "slug": "south_ethiopia-rc-33",
+      "name": "ወናጎ 2",
+      "candidates": 26
+    },
+    "702": {
+      "slug": "south_ethiopia-rc-34",
+      "name": "ወናጎ 3",
+      "candidates": 22
+    },
+    "708": {
+      "slug": "south_ethiopia-rc-35",
+      "name": "ዘይሴ ልዩ",
+      "candidates": 7
+    },
+    "706": {
+      "slug": "south_ethiopia-rc-36",
+      "name": "ዛላ ዳራማሎ",
+      "candidates": 30
+    },
+    "704": {
+      "slug": "south_ethiopia-rc-37",
+      "name": "ይርጋጨፌ 1",
+      "candidates": 17
+    },
+    "705": {
+      "slug": "south_ethiopia-rc-38",
+      "name": "ይርጋጨፌ 2",
+      "candidates": 23
+    },
+    "628": {
+      "slug": "south_ethiopia-rc-39",
+      "name": "ደራሼ ልዩ",
+      "candidates": 6
+    },
+    "630": {
+      "slug": "south_ethiopia-rc-40",
+      "name": "ዲሜ ልዩ",
+      "candidates": 4
+    },
+    "631": {
+      "slug": "south_ethiopia-rc-41",
+      "name": "ዲታ",
+      "candidates": 17
+    },
+    "625": {
+      "slug": "south_ethiopia-rc-42",
+      "name": "ዳሞት ወይዴ 1",
+      "candidates": 33
+    },
+    "626": {
+      "slug": "south_ethiopia-rc-42",
+      "name": "ዳሞት ወይዴ 1",
+      "candidates": 33
+    },
+    "623": {
+      "slug": "south_ethiopia-rc-44",
+      "name": "ዳሞት ጋሌ 1",
+      "candidates": 44
+    },
+    "624": {
+      "slug": "south_ethiopia-rc-45",
+      "name": "ዳሞት ጋሌ 2",
+      "candidates": 31
+    },
+    "627": {
+      "slug": "south_ethiopia-rc-46",
+      "name": "ዳሰነች",
+      "candidates": 4
+    },
+    "639": {
+      "slug": "south_ethiopia-rc-47",
+      "name": "ገረሴ",
+      "candidates": 17
+    },
+    "640": {
+      "slug": "south_ethiopia-rc-48",
+      "name": "ገዋዳ ልዩ",
+      "candidates": 3
+    },
+    "641": {
+      "slug": "south_ethiopia-rc-49",
+      "name": "ጊዲቾ ልዩ",
+      "candidates": 7
+    },
+    "642": {
+      "slug": "south_ethiopia-rc-50",
+      "name": "ጊዶሌ መደበኛ",
+      "candidates": 15
+    },
+    "645": {
+      "slug": "south_ethiopia-rc-51",
+      "name": "ጎፋ ዙሪያ 1",
+      "candidates": 31
+    },
+    "646": {
+      "slug": "south_ethiopia-rc-52",
+      "name": "ጎፋ ዙሪያ 2",
+      "candidates": 20
+    },
+    "618": {
+      "slug": "south_ethiopia-rc-53",
+      "name": "ጨንቻ",
+      "candidates": 31
+    },
+    "696": {
+      "slug": "south_ethiopia-rc-54",
+      "name": "ፀማይ ልዩ",
+      "candidates": 5
+    },
+    "638": {
+      "slug": "south_ethiopia-rc-55",
+      "name": "ፍስሀ ገነት",
+      "candidates": 25
+    },
+    "671": {
+      "slug": "south_west-rc-0",
+      "name": "ሎማ ቦሳ",
+      "candidates": 63
+    },
+    "680": {
+      "slug": "south_west-rc-2",
+      "name": "ሚዛን ተፈሪ",
+      "candidates": 35
+    },
+    "674": {
+      "slug": "south_west-rc-3",
+      "name": "ማረቃ ጌና",
+      "candidates": 55
+    },
+    "675": {
+      "slug": "south_west-rc-4",
+      "name": "ማሻ",
+      "candidates": 37
+    },
+    "672": {
+      "slug": "south_west-rc-5",
+      "name": "ማጀት መደበኛ",
+      "candidates": 21
+    },
+    "693": {
+      "slug": "south_west-rc-6",
+      "name": "ሱርማ ልዩ",
+      "candidates": 6
+    },
+    "685": {
+      "slug": "south_west-rc-7",
+      "name": "ሸኮ ልዩ",
+      "candidates": 11
+    },
+    "684": {
+      "slug": "south_west-rc-8",
+      "name": "ሼይ ቤንች",
+      "candidates": 18
+    },
+    "610": {
+      "slug": "south_west-rc-9",
+      "name": "ቢጣ ጌሻ",
+      "candidates": 54
+    },
+    "695": {
+      "slug": "south_west-rc-10",
+      "name": "ቴፒ",
+      "candidates": 37
+    },
+    "651": {
+      "slug": "south_west-rc-12",
+      "name": "ኢሰራ ቶጫ",
+      "candidates": 53
+    },
+    "662": {
+      "slug": "south_west-rc-13",
+      "name": "ኮንታ ልዩ",
+      "candidates": 20
+    },
+    "698": {
+      "slug": "south_west-rc-14",
+      "name": "ዋቻ",
+      "candidates": 41
+    },
+    "707": {
+      "slug": "south_west-rc-15",
+      "name": "ዘልማም",
+      "candidates": 2
+    },
+    "629": {
+      "slug": "south_west-rc-16",
+      "name": "ዲዚ ልዩ",
+      "candidates": 6
+    },
+    "643": {
+      "slug": "south_west-rc-17",
+      "name": "ጊምቦ",
+      "candidates": 63
+    },
+    "619": {
+      "slug": "south_west-rc-18",
+      "name": "ጭሪ ልዩ",
+      "candidates": 10
+    },
+    "620": {
+      "slug": "south_west-rc-19",
+      "name": "ጭሪ ልዩ ናኦ",
+      "candidates": 11
+    },
+    "621": {
+      "slug": "south_west-rc-20",
+      "name": "ጭሪ መደበኛ",
+      "candidates": 38
+    },
+    "637": {
+      "slug": "south_west-rc-21",
+      "name": "ፈለገ ሰላም",
+      "candidates": 33
+    }
+  }
+}

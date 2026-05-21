@@ -10,7 +10,7 @@ interface Props {
 
 const {
   title = "electionwatch.et · Open data for Ethiopia's 7th General Election",
-  description = "Open datasets on Ethiopia's 7th General Election. Debates, party positions, and more. Every claim links to its source.",
+  description = "Open datasets on Ethiopia's 7th General Election: candidates, polling stations, party debates, and positions. Every record links to its source.",
   type = "website",
 } = Astro.props;
 
@@ -162,9 +162,9 @@ const glyphs = Array.from({ length: 150 }, () => {
               Disclaimer
             </h4>
             <p class="text-white/70 text-sm leading-relaxed">
-              All sources are public. Where summaries are generated
-              automatically, the citation links back to the original transcript,
-              broadcast, or filing.
+              All sources are public: National Election Board filings, debate
+              broadcasts, and party materials. Where a summary is generated
+              automatically, it links back to the original source.
             </p>
             <p class="text-white/70 text-sm leading-relaxed mt-3">
               Check the source before drawing conclusions.
@@ -172,9 +172,6 @@ const glyphs = Array.from({ length: 150 }, () => {
           </div>
         </div>
         <div class="mt-8 pt-6 border-t border-white/20 text-center space-y-2">
-          <p class="text-white/50 text-xs">
-            Source list is published with each dataset.
-          </p>
           <p class="text-white/50 text-xs">
             If you find any inaccuracies or want to contact the creators of this
             site, reach out to

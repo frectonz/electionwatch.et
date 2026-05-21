@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { datasets } from "@/data/datasets";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight, Database } from "@lucide/astro";
 ---
 
@@ -9,6 +10,7 @@ import { ArrowRight, Database } from "@lucide/astro";
   description="Open datasets on Ethiopia's 7th General Election."
 >
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs items={[{ label: "Data" }]} />
     <h1 class="font-display text-4xl sm:text-5xl mb-4">Datasets</h1>
     <p class="text-ew-text-dim text-lg max-w-2xl">
       Every entry links to its source.

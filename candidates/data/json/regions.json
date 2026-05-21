@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "addis_ababa",
+    "code": "14",
+    "name": "Addis Ababa",
+    "name_native": "አዲስ አበባ",
+    "candidates": 1016,
+    "hopr": 219,
+    "rc": 797,
+    "hopr_constituencies": 23,
+    "rc_constituencies": 10
+  },
+  {
+    "slug": "afar",
+    "code": "2",
+    "name": "Afar",
+    "name_native": "አፋር",
+    "candidates": 555,
+    "hopr": 48,
+    "rc": 507,
+    "hopr_constituencies": 8,
+    "rc_constituencies": 32
+  },
+  {
+    "slug": "amhara",
+    "code": "3",
+    "name": "Amhara",
+    "name_native": "አማራ",
+    "candidates": 1251,
+    "hopr": 494,
+    "rc": 757,
+    "hopr_constituencies": 138,
+    "rc_constituencies": 137
+  },
+  {
+    "slug": "benshangul_gumz",
+    "code": "6",
+    "name": "Benishangul-Gumuz",
+    "name_native": "ቤኒሻንጉል ጉሙዝ",
+    "candidates": 387,
+    "hopr": 31,
+    "rc": 356,
+    "hopr_constituencies": 9,
+    "rc_constituencies": 20
+  },
+  {
+    "slug": "central_ethiopia",
+    "code": "7",
+    "name": "Central Ethiopia",
+    "name_native": "ማዕከላዊ ኢትዮጵያ",
+    "candidates": 734,
+    "hopr": 164,
+    "rc": 570,
+    "hopr_constituencies": 35,
+    "rc_constituencies": 35
+  },
+  {
+    "slug": "diredawa",
+    "code": "15",
+    "name": "Dire Dawa",
+    "name_native": "ድሬዳዋ",
+    "candidates": 222,
+    "hopr": 13,
+    "rc": 209,
+    "hopr_constituencies": 2,
+    "rc_constituencies": 47
+  },
+  {
+    "slug": "gambella",
+    "code": "12",
+    "name": "Gambela",
+    "name_native": "ጋምቤላ",
+    "candidates": 343,
+    "hopr": 9,
+    "rc": 334,
+    "hopr_constituencies": 3,
+    "rc_constituencies": 14
+  },
+  {
+    "slug": "harari",
+    "code": "13",
+    "name": "Harari",
+    "name_native": "ሃረሪ",
+    "candidates": 75,
+    "hopr": 8,
+    "rc": 67,
+    "hopr_constituencies": 2,
+    "rc_constituencies": 3
+  },
+  {
+    "slug": "oromia",
+    "code": "4",
+    "name": "Oromia",
+    "name_native": "ኦሮሚያ",
+    "candidates": 1446,
+    "hopr": 458,
+    "rc": 988,
+    "hopr_constituencies": 178,
+    "rc_constituencies": 179
+  },
+  {
+    "slug": "sidama",
+    "code": "8",
+    "name": "Sidama",
+    "name_native": "ሲዳማ",
+    "candidates": 1447,
+    "hopr": 166,
+    "rc": 1281,
+    "hopr_constituencies": 19,
+    "rc_constituencies": 19
+  },
+  {
+    "slug": "somali",
+    "code": "5",
+    "name": "Somali",
+    "name_native": "ሶማሌ",
+    "candidates": 711,
+    "hopr": 61,
+    "rc": 650,
+    "hopr_constituencies": 23,
+    "rc_constituencies": 72
+  },
+  {
+    "slug": "south_ethiopia",
+    "code": "9",
+    "name": "South Ethiopia",
+    "name_native": "ደቡብ ኢትዮጵያ",
+    "candidates": 1497,
+    "hopr": 314,
+    "rc": 1183,
+    "hopr_constituencies": 49,
+    "rc_constituencies": 56
+  },
+  {
+    "slug": "south_west",
+    "code": "11",
+    "name": "South West Ethiopia",
+    "name_native": "ደቡብ ምዕራብ ኢትዮጵያ",
+    "candidates": 754,
+    "hopr": 95,
+    "rc": 659,
+    "hopr_constituencies": 20,
+    "rc_constituencies": 22
+  }
+]

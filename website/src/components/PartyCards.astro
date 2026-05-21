@@ -1,0 +1,64 @@
+---
+// Party cards that stay searchable and sortable, reusing the DataGrid engine
+// (it reorders/filters the children of [data-rows], which works for a card grid
+// just as well as a table).
+import { fmt } from "@/lib/format";
+import type { Party } from "@/data/candidates";
+import { MessageSquareQuote } from "@lucide/astro";
+
+interface Props {
+  parties: Party[];
+}
+const { parties } = Astro.props;
+---
+
+<div data-grid>
+  <div class="flex flex-wrap items-center gap-2 mb-3">
+    <input
+      type="search"
+      data-search
+      placeholder="Search parties"
+      class="flex-1 min-w-[180px] bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text placeholder:text-ew-text-muted focus:outline-none focus:border-ew-shell/50"
+    />
+    <span data-count class="text-xs text-ew-text-muted tabular-nums ml-auto"
+    ></span>
+  </div>
+
+  <div data-rows class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+    {
+      parties.map((p) => (
+        <a
+          href={`/data/candidates/party/${p.slug}`}
+          class="group flex items-center justify-between gap-3 bg-ew-card border border-ew-card-border rounded-lg px-4 py-2.5 hover:border-ew-shell/40 transition-colors"
+          data-search={p.name_en.toLowerCase()}
+          data-s0={p.name_en.toLowerCase()}
+          data-s1={String(p.candidates)}
+        >
+          <span class="min-w-0">
+            <span class="text-ew-text text-sm truncate group-hover:text-ew-shell transition-colors block">
+              {p.name_en}
+            </span>
+            {p.profile_slug && (
+              <span class="inline-flex items-center gap-1 mt-1 text-[10px] font-semibold uppercase tracking-wider text-ew-shell bg-ew-shell/10 rounded px-1.5 py-0.5">
+                <MessageSquareQuote class="w-3 h-3" />
+                Debate position profile
+              </span>
+            )}
+          </span>
+          <span class="font-mono text-sm tabular-nums text-ew-text-dim shrink-0">
+            {fmt(p.candidates)}
+          </span>
+        </a>
+      ))
+    }
+  </div>
+
+  <div data-empty class="hidden py-8 text-center text-sm text-ew-text-muted">
+    No parties match your search.
+  </div>
+</div>
+
+<script>
+  import { initDataGrids } from "@/scripts/data-grid";
+  initDataGrids();
+</script>

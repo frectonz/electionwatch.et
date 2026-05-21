@@ -8,6 +8,7 @@ import {
   formatDuration,
   type Source,
 } from "@/data";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight } from "@lucide/astro";
 ---
 
@@ -16,6 +17,9 @@ import { ArrowRight } from "@lucide/astro";
   description="Debate broadcasts from Ethiopia's 7th General Election."
 >
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs
+      items={[{ label: "Data", href: "/data" }, { label: "Debates" }]}
+    />
     <h1 class="font-display text-4xl sm:text-5xl mb-4">
       {allDebates.length} debates
     </h1>

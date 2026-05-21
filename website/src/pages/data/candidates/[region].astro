@@ -1,0 +1,220 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  candidateRegions,
+  candidateConstituencies,
+  loadCandidates,
+  partyByName,
+  BODY_LABEL,
+  type CandidateRegion,
+  type Body,
+} from "@/data/candidates";
+import { fmt, pct, BALLOT_COLORS, GOLD } from "@/lib/format";
+import StatTiles from "@/components/StatTiles.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { MapPin } from "@lucide/astro";
+
+const HOPR = BALLOT_COLORS.hopr;
+const RC = BALLOT_COLORS.rc;
+
+export function getStaticPaths() {
+  return candidateRegions.map((r) => ({
+    params: { region: r.slug },
+    props: { region: r },
+  }));
+}
+
+const { region } = Astro.props as { region: CandidateRegion };
+
+const all = [
+  ...loadCandidates(region.slug, "hopr"),
+  ...loadCandidates(region.slug, "rc"),
+];
+
+// Party breakdown within this region.
+const partyCount = new Map<string, number>();
+for (const c of all)
+  partyCount.set(c.party, (partyCount.get(c.party) ?? 0) + 1);
+const parties = [...partyCount.entries()].sort((a, b) => b[1] - a[1]);
+
+const female = all.filter((c) => c.gender === "Female").length;
+const disabled = all.filter((c) => c.disability).length;
+
+// Gender (inner) + disability (outer) concentric pie.
+const peopleChart = {
+  rings: [
+    [
+      { name: "Male", value: all.length - female, color: RC },
+      { name: "Female", value: female, color: HOPR },
+    ],
+    [
+      { name: "Has disability", value: disabled, color: GOLD },
+      {
+        name: "No disability",
+        value: all.length - disabled,
+        color: "#dfe1ea",
+      },
+    ],
+  ],
+};
+
+// Education distribution (horizontal bar), sorted by candidate count (desc).
+const eduCount = new Map<string, number>();
+for (const c of all)
+  eduCount.set(
+    c.education || "Not Specified",
+    (eduCount.get(c.education) ?? 0) + 1,
+  );
+const eduRows = [...eduCount.entries()].sort((a, b) => b[1] - a[1]);
+const eduChart = {
+  labels: eduRows.map(([k]) => k),
+  counts: eduRows.map(([, v]) => v),
+};
+
+const stats = [
+  { label: "Candidates", value: region.candidates },
+  { label: "HoPR", value: region.hopr },
+  { label: "Regional Council", value: region.rc },
+  { label: "Parties", value: parties.length },
+];
+
+// Party distribution chart (candidates per party in this region).
+const partyDist = {
+  labels: parties.map(([name]) => partyByName.get(name)?.name_en ?? name),
+  counts: parties.map(([, n]) => n),
+};
+
+// Constituency tables, one per ballot.
+const conColumns: GridColumn[] = [
+  { label: "Constituency", grow: 2.2 },
+  { label: "Polling stations", numeric: true, grow: 0.9 },
+  { label: "Candidates", numeric: true, grow: 0.7 },
+];
+const lists: { body: Body; label: string; rows: GridRow[] }[] = (
+  ["hopr", "rc"] as Body[]
+).map((body) => ({
+  body,
+  label: BODY_LABEL[body],
+  rows: candidateConstituencies(body)
+    .filter((c) => c.region_slug === region.slug)
+    .sort((a, b) => b.candidates - a.candidates)
+    .map((c) => ({
+      cells: [
+        { text: c.name, href: `/data/candidates/c/${c.slug}` },
+        { text: c.polling_stations || "", sort: c.polling_stations },
+        { text: c.candidates },
+      ],
+    })),
+}));
+---
+
+<Layout
+  title={`${region.name} candidates · electionwatch.et`}
+  description={`Candidates registered in ${region.name} for Ethiopia's 7th General Election.`}
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
+    <Breadcrumbs
+      items={[
+        { label: "Data", href: "/data" },
+        { label: "Candidates", href: "/data/candidates" },
+        { label: region.name },
+      ]}
+    />
+    <h1 class="font-display text-4xl sm:text-5xl mb-1">{region.name}</h1>
+    <p class="text-ew-text-muted">{region.name_native}</p>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6"
+    />
+    <p class="text-sm text-ew-text-muted mt-3">
+      {fmt(female)} of {fmt(region.candidates)} candidates ({
+        pct(female, region.candidates)
+      }%) are women.
+      <a
+        href={`/data/polling-stations/${region.slug}`}
+        class="text-ew-shell hover:text-ew-gold inline-flex items-center gap-1 ml-1"
+      >
+        <MapPin class="w-3.5 h-3.5" /> Polling stations in {region.name}
+      </a>
+    </p>
+  </section>
+
+  <!-- Demographics -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-4">Who the candidates are</h2>
+    <div class="grid lg:grid-cols-5 gap-4">
+      <div
+        class="bg-ew-card border border-ew-card-border rounded-xl p-5 lg:col-span-2"
+      >
+        <h3 class="font-display text-lg mb-1">Gender &amp; disability</h3>
+        <p class="text-xs text-ew-text-muted mb-1">
+          Inner ring: gender. Outer ring: disability.
+        </p>
+        <div
+          id="genderChart"
+          data-chart={JSON.stringify(peopleChart)}
+          style="height:280px"
+        >
+        </div>
+      </div>
+      <div
+        class="bg-ew-card border border-ew-card-border rounded-xl p-5 lg:col-span-3"
+      >
+        <h3 class="font-display text-lg mb-1">Education</h3>
+        <div
+          id="eduChart"
+          data-chart={JSON.stringify(eduChart)}
+          style="height:340px"
+        >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parties in region -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-4">Parties standing here</h2>
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+      <div
+        id="partyDistChart"
+        data-chart={JSON.stringify(partyDist)}
+        style={`height:${Math.max(160, parties.length * 28 + 24)}px`}
+      >
+      </div>
+    </div>
+  </section>
+
+  <!-- Constituencies (HoPR + RC) -->
+  <section
+    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 grid lg:grid-cols-2 gap-8 items-start"
+  >
+    {
+      lists.map(({ label, rows }) => (
+        <div>
+          <h2 class="font-display text-2xl mb-1">{label}</h2>
+          <p class="text-ew-text-muted text-sm mb-4">
+            {fmt(rows.length)} constituencies
+          </p>
+          <DataGrid
+            columns={conColumns}
+            rows={rows}
+            defaultSort={2}
+            defaultDir="desc"
+            searchPlaceholder="Search constituencies"
+            maxHeight="560px"
+          />
+        </div>
+      ))
+    }
+  </section>
+
+  <script>
+    import { initCandidateCharts } from "@/scripts/candidate-charts";
+    initCandidateCharts();
+  </script>
+</Layout>

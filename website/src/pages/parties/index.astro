@@ -1,23 +1,45 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { allParties } from "@/data";
-import { ArrowRight, Quote, MessagesSquare } from "@lucide/astro";
+import { candidateParties } from "@/data/candidates";
+import { fmt } from "@/lib/format";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { ArrowRight, Quote, MessagesSquare, Users } from "@lucide/astro";
 
+// Parties with a debate-position profile.
 const withPositions = allParties.filter((p) => p.positions.length > 0);
-const withoutPositions = allParties.filter((p) => p.positions.length === 0);
+const positionSlugs = new Set(withPositions.map((p) => p.slug));
+
+// The full ballot is the set of parties fielding candidates (excluding the
+// "Independent" bucket). Those without a debate profile are listed too.
+const ballotParties = candidateParties.filter((p) => p.name !== "Independent");
+const withoutPositions = ballotParties
+  .filter((p) => !(p.profile_slug && positionSlugs.has(p.profile_slug)))
+  .sort((a, b) => b.candidates - a.candidates);
+const independents = candidateParties.find((p) => p.name === "Independent");
 ---
 
 <Layout
   title="Parties · electionwatch.et"
-  description="Parties on the ballot for Ethiopia's 7th General Election."
+  description="Parties on the ballot for Ethiopia's 7th General Election, with debate positions where available."
 >
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
+    <Breadcrumbs items={[{ label: "Parties" }]} />
     <h1 class="font-display text-4xl sm:text-5xl mb-4">
-      {allParties.length} parties on the ballot
+      {fmt(ballotParties.length)} parties on the ballot
     </h1>
     <p class="text-ew-text-dim text-lg max-w-2xl">
-      {withPositions.length} have position files from debate appearances. The rest
-      are listed for completeness.
+      {withPositions.length} have position files compiled from their debate appearances.
+      The rest field candidates but haven&rsquo;t appeared in an analysed debate.
+      {
+        independents && (
+          <span>
+            {" "}
+            A further {fmt(independents.candidates)} candidates are running as
+            independents.
+          </span>
+        )
+      }
     </p>
   </section>
 
@@ -58,14 +80,27 @@ const withoutPositions = allParties.filter((p) => p.positions.length === 0);
   {
     withoutPositions.length > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-        <h2 class="font-display text-xl text-ew-text-muted uppercase tracking-wider mb-4">
-          No debate appearance yet
+        <h2 class="font-display text-xl text-ew-text-muted uppercase tracking-wider mb-1">
+          On the ballot, no debate appearance yet
         </h2>
+        <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+          These parties are fielding candidates but haven&rsquo;t appeared in an
+          analysed debate. Each links to its candidate breakdown.
+        </p>
         <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
           {withoutPositions.map((p) => (
-            <div class="bg-ew-card/60 border border-ew-card-border rounded-lg px-4 py-3 text-sm text-ew-text-dim">
-              {p.name}
-            </div>
+            <a
+              href={`/data/candidates/party/${p.slug}`}
+              class="group bg-ew-card border border-ew-card-border rounded-lg px-4 py-3 hover:border-ew-shell/40 transition-colors"
+            >
+              <div class="text-sm text-ew-text group-hover:text-ew-shell transition-colors leading-tight">
+                {p.name_en}
+              </div>
+              <div class="mt-1 text-xs text-ew-text-muted inline-flex items-center gap-1.5">
+                <Users class="w-3 h-3" />
+                {fmt(p.candidates)} candidates
+              </div>
+            </a>
           ))}
         </div>
       </section>

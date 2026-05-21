@@ -1,0 +1,43 @@
+---
+// Home › … breadcrumb trail. Pass the items after Home; the last one is the
+// current page and renders as plain text.
+import { House, ChevronRight } from "@lucide/astro";
+
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+interface Props {
+  items: Crumb[];
+  class?: string;
+}
+const { items, class: cls = "mb-8" } = Astro.props;
+---
+
+<nav class={`flex items-center flex-wrap gap-1.5 text-sm ${cls}`}>
+  <a
+    href="/"
+    class="inline-flex items-center gap-1 text-ew-text-muted hover:text-ew-shell transition-colors"
+  >
+    <House class="w-3.5 h-3.5" /> Home
+  </a>
+  {
+    items.map((c, i) => (
+      <>
+        <ChevronRight class="w-3.5 h-3.5 text-ew-text-muted/50 shrink-0" />
+        {c.href && i < items.length - 1 ? (
+          <a
+            href={c.href}
+            class="text-ew-text-muted hover:text-ew-shell transition-colors"
+          >
+            {c.label}
+          </a>
+        ) : (
+          <span class="text-ew-text font-medium truncate max-w-[60vw]">
+            {c.label}
+          </span>
+        )}
+      </>
+    ))
+  }
+</nav>

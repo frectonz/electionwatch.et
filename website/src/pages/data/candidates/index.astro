@@ -1,0 +1,345 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  candidatesIndex as idx,
+  candidateRegions,
+  candidateParties,
+  hoprCandidateConstituencies,
+  rcCandidateConstituencies,
+  BODY_LABEL,
+} from "@/data/candidates";
+import { fmt, pct, BALLOT_COLORS, GOLD } from "@/lib/format";
+import StatTiles from "@/components/StatTiles.astro";
+import BallotLegend from "@/components/BallotLegend.astro";
+import ContestedSeatCard from "@/components/ContestedSeatCard.astro";
+import PartyCards from "@/components/PartyCards.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import type { CandidateConstituency } from "@/data/candidates";
+import { ArrowRight, Landmark, Building2, MapPin } from "@lucide/astro";
+
+const HOPR = BALLOT_COLORS.hopr;
+const RC = BALLOT_COLORS.rc;
+
+const sortedRegions = [...candidateRegions].sort(
+  (a, b) => b.candidates - a.candidates,
+);
+
+const women = idx.by_gender.Female ?? 0;
+
+// Cross-link coverage: how many constituencies we matched to their polling
+// stations across the two NEBE datasets.
+const allConstituencies = [
+  ...hoprCandidateConstituencies,
+  ...rcCandidateConstituencies,
+];
+const linkedConstituencies = allConstituencies.filter(
+  (c) => c.polling_stations > 0,
+).length;
+const linkPct = pct(linkedConstituencies, allConstituencies.length);
+
+// Most contested seats: most parties competing for one constituency. A measure
+// of how crowded the race is, and a way into the constituency pages. Shown for
+// the two ballots combined, then for each on its own.
+const byContest = (list: CandidateConstituency[], n: number) =>
+  [...list]
+    .sort((a, b) => b.parties - a.parties || b.candidates - a.candidates)
+    .slice(0, n);
+
+const contestedGroups = [
+  {
+    label: "Overall",
+    items: byContest(
+      [...hoprCandidateConstituencies, ...rcCandidateConstituencies],
+      6,
+    ),
+  },
+  {
+    label: "House of People's Representatives",
+    items: byContest(hoprCandidateConstituencies, 6),
+  },
+  {
+    label: "Regional Council",
+    items: byContest(rcCandidateConstituencies, 6),
+  },
+];
+
+const stats = [
+  { label: "Candidates", value: idx.total_candidates },
+  { label: "Parties", value: idx.party_count },
+  {
+    label: "Constituencies",
+    value: idx.hopr_constituency_count + idx.rc_constituency_count,
+  },
+  { label: "Regions", value: idx.region_count },
+];
+
+const bodies = [
+  {
+    key: "hopr" as const,
+    label: BODY_LABEL.hopr,
+    short: "HoPR",
+    blurb: "The federal parliament: one chamber elected nationwide.",
+    count: idx.by_body.hopr,
+    constituencies: idx.hopr_constituency_count,
+    color: HOPR,
+    Icon: Landmark,
+  },
+  {
+    key: "rc" as const,
+    label: BODY_LABEL.rc,
+    short: "RC",
+    blurb: "Each region's own council, elected within that region.",
+    count: idx.by_body.rc,
+    constituencies: idx.rc_constituency_count,
+    color: RC,
+    Icon: Building2,
+  },
+];
+
+// Top parties by total candidates (stacked HoPR / RC).
+const topParties = candidateParties.slice(0, 15);
+const partyChart = {
+  names: topParties.map((p) => p.name_en),
+  hopr: topParties.map((p) => p.hopr),
+  rc: topParties.map((p) => p.rc),
+};
+
+// Gender + education breakdowns. Education sorted by candidate count (desc).
+const genderEntries = Object.entries(idx.by_gender);
+const eduEntries = Object.entries(idx.by_education).sort((a, b) => b[1] - a[1]);
+const eduChart = {
+  labels: eduEntries.map(([k]) => k),
+  counts: eduEntries.map(([, v]) => v),
+};
+
+const GENDER_COLOR: Record<string, string> = {
+  Male: RC,
+  Female: HOPR,
+};
+
+// Concentric pie: gender (inner ring) + disability (outer ring).
+const genderRing = genderEntries.map(([name, value]) => ({
+  name,
+  value,
+  color: GENDER_COLOR[name] ?? "#7a7d92",
+}));
+const disabilityRing = [
+  { name: "Has disability", value: idx.with_disability, color: GOLD },
+  {
+    name: "No disability",
+    value: idx.total_candidates - idx.with_disability,
+    color: "#dfe1ea",
+  },
+];
+const peopleChart = { rings: [genderRing, disabilityRing] };
+---
+
+<Layout
+  title="Candidates · electionwatch.et"
+  description="Every candidate registered for Ethiopia's 7th General Election, for the House of People's Representatives and the Regional Councils, structured by region, constituency, and party."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs
+      items={[{ label: "Data", href: "/data" }, { label: "Candidates" }]}
+    />
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">Candidates</h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      Every candidate the National Election Board cleared for the 7th General
+      Election, for the federal House of People&rsquo;s Representatives and the
+      regional councils, structured by region, constituency, and party, and
+      linked to the polling stations where each will be voted on.
+    </p>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
+    />
+    <p class="text-sm text-ew-text-muted mt-3">
+      {fmt(women)} of {fmt(idx.total_candidates)} candidates ({
+        pct(women, idx.total_candidates)
+      }%) are women.
+      <a
+        href="/data/polling-stations"
+        class="text-ew-shell hover:text-ew-gold inline-flex items-center gap-1 ml-1"
+      >
+        <MapPin class="w-3.5 h-3.5" /> See the polling stations they&rsquo;re voted
+        on at
+      </a>
+    </p>
+    <p class="text-sm text-ew-text-muted mt-1">
+      {linkPct}% of constituencies ({fmt(linkedConstituencies)} of {
+        fmt(allConstituencies.length)
+      }) are matched to their polling stations, so you can move between a seat
+      and where its votes are cast.
+    </p>
+  </section>
+
+  <!-- Bodies -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-4">Two ballots</h2>
+    <div class="grid sm:grid-cols-2 gap-4">
+      {
+        bodies.map((b) => (
+          <div class="bg-ew-card border border-ew-card-border rounded-xl p-6">
+            <div class="flex items-center gap-2 mb-3">
+              <span
+                class="w-9 h-9 rounded-lg grid place-items-center"
+                style={`background:${b.color}1a;color:${b.color}`}
+              >
+                <b.Icon class="w-5 h-5" />
+              </span>
+              <div>
+                <div class="font-display text-xl leading-tight">{b.label}</div>
+                <div class="text-ew-text-muted text-xs">{b.short}</div>
+              </div>
+            </div>
+            <p class="text-ew-text-dim text-sm mb-4">{b.blurb}</p>
+            <div class="flex items-baseline gap-4">
+              <div>
+                <span class="font-display text-3xl tabular-nums">
+                  {fmt(b.count)}
+                </span>
+                <span class="text-sm text-ew-text-muted ml-1">candidates</span>
+              </div>
+              <div class="text-sm text-ew-text-muted">
+                across {fmt(b.constituencies)} constituencies
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Parties -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Parties</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      {fmt(idx.party_count)} parties are fielding candidates. The 15 largest by candidate
+      count are charted below, with the full list beneath it. Each party links to
+      its own breakdown.
+    </p>
+    <BallotLegend class="mb-3" />
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+      <div
+        id="partyChart"
+        data-chart={JSON.stringify(partyChart)}
+        data-colors={JSON.stringify({ hopr: HOPR, rc: RC })}
+        style="height:520px"
+      >
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <PartyCards parties={candidateParties} />
+    </div>
+  </section>
+
+  <!-- Demographics -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-4">Who the candidates are</h2>
+    <div class="grid lg:grid-cols-5 gap-4">
+      <div
+        class="bg-ew-card border border-ew-card-border rounded-xl p-5 lg:col-span-2 flex flex-col"
+      >
+        <h3 class="font-display text-lg mb-1">Gender &amp; disability</h3>
+        <p class="text-xs text-ew-text-muted mb-1">
+          Inner ring: gender. Outer ring: disability.
+        </p>
+        <div
+          id="genderChart"
+          data-chart={JSON.stringify(peopleChart)}
+          style="height:280px"
+        >
+        </div>
+      </div>
+      <div
+        class="bg-ew-card border border-ew-card-border rounded-xl p-5 lg:col-span-3"
+      >
+        <h3 class="font-display text-lg mb-1">Education</h3>
+        <div
+          id="eduChart"
+          data-chart={JSON.stringify(eduChart)}
+          style="height:320px"
+        >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Most contested -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Most contested seats</h2>
+    <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
+      The crowded races: the constituencies where the most parties are
+      competing. Each links to its candidates and polling stations.
+    </p>
+    {
+      contestedGroups.map((group) => (
+        <div class="mb-6 last:mb-0">
+          <h3 class="text-[11px] uppercase tracking-wider text-ew-text-muted mb-2 font-semibold">
+            {group.label}
+          </h3>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {group.items.map((c) => (
+              <ContestedSeatCard c={c} />
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </section>
+
+  <!-- By region -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="font-display text-2xl mb-4">Browse by region</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      {
+        sortedRegions.map((r) => (
+          <a
+            href={`/data/candidates/${r.slug}`}
+            class="group bg-ew-card border border-ew-card-border rounded-xl p-4 hover:border-ew-shell/40 hover:shadow-md transition-all"
+          >
+            <div class="flex items-baseline justify-between gap-2">
+              <div>
+                <div class="text-ew-text group-hover:text-ew-shell transition-colors leading-tight">
+                  {r.name}
+                </div>
+                <div class="text-ew-text-muted text-xs">{r.name_native}</div>
+              </div>
+              <span class="font-mono text-lg tabular-nums shrink-0">
+                {fmt(r.candidates)}
+              </span>
+            </div>
+            <div class="mt-3 flex items-center justify-between text-xs text-ew-text-muted">
+              <span class="flex items-center gap-3">
+                <span class="inline-flex items-center gap-1.5">
+                  <span
+                    class="w-2 h-2 rounded-full inline-block"
+                    style={`background:${HOPR}`}
+                  />
+                  {fmt(r.hopr)} HoPR
+                </span>
+                <span class="inline-flex items-center gap-1.5">
+                  <span
+                    class="w-2 h-2 rounded-full inline-block"
+                    style={`background:${RC}`}
+                  />
+                  {fmt(r.rc)} RC
+                </span>
+              </span>
+              <span class="inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity text-ew-shell">
+                Open <ArrowRight class="w-3 h-3" />
+              </span>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <script>
+    import { initCandidateCharts } from "@/scripts/candidate-charts";
+    initCandidateCharts();
+  </script>
+</Layout>

@@ -8,5 +8,6 @@ __pycache__/
 .venv/
 .ruff_cache/
 
-# regenerable NEBE source PDFs (re-download via polling-stations/main.py)
+# regenerable NEBE source PDFs (re-download via main.py in each dataset)
 polling-stations/data/pdfs/
+candidates/data/pdfs/

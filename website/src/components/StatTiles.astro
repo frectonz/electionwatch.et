@@ -1,0 +1,39 @@
+---
+// A row of headline stat tiles, used across the candidate and dataset pages.
+import { fmt } from "@/lib/format";
+
+export interface StatTile {
+  label: string;
+  /** Pre-formatted string, or a number that will be thousands-formatted. */
+  value: string | number;
+  /** Optional sub-label under the value (e.g. a constituency name). */
+  sub?: string;
+}
+
+interface Props {
+  tiles: StatTile[];
+  /** Tailwind grid classes; defaults suit 3–4 tiles. */
+  class?: string;
+}
+
+const { tiles, class: gridClass = "grid grid-cols-2 sm:grid-cols-4 gap-4" } =
+  Astro.props;
+---
+
+<dl class={gridClass}>
+  {
+    tiles.map((s) => (
+      <div class="bg-ew-card border border-ew-card-border rounded-xl p-5">
+        <dt class="text-ew-text-muted uppercase tracking-wider text-xs mb-1">
+          {s.label}
+        </dt>
+        <dd class="font-display text-3xl tabular-nums">
+          {typeof s.value === "number" ? fmt(s.value) : s.value}
+        </dd>
+        {s.sub && (
+          <dd class="text-xs text-ew-text-muted mt-0.5 truncate">{s.sub}</dd>
+        )}
+      </div>
+    ))
+  }
+</dl>

@@ -6,6 +6,8 @@ import {
   regions,
   hoprConstituencies,
 } from "@/data/pollingStations";
+import { candidateConstituencyByStation } from "@/data/candidates";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight } from "@lucide/astro";
 
 const fmt = (n: number) => n.toLocaleString("en-US");
@@ -83,10 +85,13 @@ const sizeChart = {
   description="Map and structured data for every NEBE polling station in Ethiopia's 7th General Election."
 >
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs
+      items={[{ label: "Data", href: "/data" }, { label: "Polling Stations" }]}
+    />
     <h1 class="font-display text-4xl sm:text-5xl mb-4">Polling Stations</h1>
     <p class="text-ew-text-dim text-lg max-w-2xl">
-      Every registered polling station the National Election Board published —
-      mapped, and structured down to kebele and electoral constituency.
+      Every registered polling station the National Election Board published,
+      mapped and structured down to kebele and electoral constituency.
     </p>
 
     <dl class="grid grid-cols-3 gap-4 mt-8">
@@ -122,7 +127,7 @@ const sizeChart = {
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Registration method</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
-      How voters registered at each station — online (technology-assisted) or
+      How voters registered at each station: online (technology-assisted) or
       in-person.
     </p>
     <div class="flex flex-wrap gap-3 mb-4">
@@ -131,7 +136,7 @@ const sizeChart = {
       >
         <span
           class="w-3 h-3 rounded-full inline-block"
-          style="background:#ea580c"></span>
+          style="background:#c79a3a"></span>
         <span class="font-display text-2xl tabular-nums">{fmt(reg.online)}</span
         >
         <span class="text-sm text-ew-text-muted">
@@ -143,7 +148,7 @@ const sizeChart = {
       >
         <span
           class="w-3 h-3 rounded-full inline-block"
-          style="background:#0d9488"></span>
+          style="background:#1f2455"></span>
         <span class="font-display text-2xl tabular-nums"
           >{fmt(reg.inperson)}</span
         >
@@ -189,9 +194,9 @@ const sizeChart = {
               title={`${pct(r.digital, r.stations)}% online · ${pct(r.manual, r.stations)}% in-person`}
             >
               <div
-                style={`width:${pct(r.digital, r.stations)}%;background:#ea580c`}
+                style={`width:${pct(r.digital, r.stations)}%;background:#c79a3a`}
               />
-              <div class="flex-1" style="background:#0d9488" />
+              <div class="flex-1" style="background:#1f2455" />
             </div>
             <div class="mt-2 flex items-center justify-between text-xs text-ew-text-muted">
               <span>
@@ -213,7 +218,7 @@ const sizeChart = {
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <h2 class="font-display text-2xl mb-1">Constituencies</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
-      Polling stations grouped by their federal (HoPR) constituency —
+      Polling stations grouped by their federal (HoPR) constituency:
       {fmt(idx.hopr_constituency_count)} in total.
     </p>
 
@@ -274,22 +279,39 @@ const sizeChart = {
         <div class="mb-8 last:mb-0">
           <h3 class="font-display text-xl mb-3">{group.title}</h3>
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {group.items.map((c) => (
-              <div class="bg-ew-card border border-ew-card-border rounded-xl px-4 py-3.5">
-                <div class="text-ew-text leading-tight truncate">{c.name}</div>
-                <div class="text-ew-text-muted text-xs mt-0.5">
-                  {c.region} &middot; code {c.code}
-                </div>
-                <div class="mt-3 flex items-baseline gap-1.5">
-                  <span class="font-mono text-xl tabular-nums text-ew-text">
-                    {fmt(c.stations)}
-                  </span>
-                  <span class="text-xs text-ew-text-muted">
-                    polling stations
-                  </span>
-                </div>
-              </div>
-            ))}
+            {group.items.map((c) => {
+              const cand = candidateConstituencyByStation("hopr", c.code);
+              const Tag = cand ? "a" : "div";
+              return (
+                <Tag
+                  href={cand ? `/data/candidates/c/${cand.slug}` : undefined}
+                  class:list={[
+                    "group bg-ew-card border border-ew-card-border rounded-xl px-4 py-3.5",
+                    cand && "hover:border-ew-shell/40 transition-colors",
+                  ]}
+                >
+                  <div class="text-ew-text leading-tight truncate group-hover:text-ew-shell transition-colors">
+                    {c.name}
+                  </div>
+                  <div class="text-ew-text-muted text-xs mt-0.5">
+                    {c.region} &middot; code {c.code}
+                  </div>
+                  <div class="mt-3 flex items-baseline gap-1.5">
+                    <span class="font-mono text-xl tabular-nums text-ew-text">
+                      {fmt(c.stations)}
+                    </span>
+                    <span class="text-xs text-ew-text-muted">
+                      polling stations
+                    </span>
+                    {cand && (
+                      <span class="text-xs text-ew-shell ml-auto">
+                        {cand.candidates} candidates &rsaquo;
+                      </span>
+                    )}
+                  </div>
+                </Tag>
+              );
+            })}
           </div>
         </div>
       ))
@@ -298,6 +320,7 @@ const sizeChart = {
 
   <script>
     import * as echarts from "echarts";
+    import { grad, barShadow } from "@/scripts/chart-style";
 
     const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
     const MUTED = "#7a7d92";
@@ -370,6 +393,7 @@ const sizeChart = {
         yAxis: {
           type: "category",
           inverse: true,
+          position: "right",
           data: d.names,
           axisLabel,
           axisTick: { show: false },
@@ -381,14 +405,14 @@ const sizeChart = {
             type: "bar",
             stack: "t",
             data: d.online,
-            itemStyle: { color: "#ea580c" },
+            itemStyle: { color: grad("#c79a3a", "h"), ...barShadow },
           },
           {
             name: "In-person",
             type: "bar",
             stack: "t",
             data: d.inperson,
-            itemStyle: { color: "#0d9488" },
+            itemStyle: { color: grad("#1f2455", "h") },
           },
         ],
       });
@@ -425,7 +449,11 @@ const sizeChart = {
           {
             type: "bar",
             data: d.counts,
-            itemStyle: { color: "#1f2455", borderRadius: [3, 3, 0, 0] },
+            itemStyle: {
+              color: grad("#1f2455", "v"),
+              borderRadius: [3, 3, 0, 0],
+              ...barShadow,
+            },
           },
         ],
       });

@@ -1,0 +1,389 @@
+[
+  {
+    "name": "ብልፅግና ፓርቲ",
+    "name_en": "Prosperity Party",
+    "candidates": 2941,
+    "hopr": 461,
+    "rc": 2480,
+    "slug": "party-0",
+    "profile_slug": "prosperity-party"
+  },
+  {
+    "name": "ኢዜማ",
+    "name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+    "candidates": 1249,
+    "hopr": 293,
+    "rc": 956,
+    "slug": "party-1",
+    "profile_slug": "ethiopian-citizens-for-social-justice"
+  },
+  {
+    "name": "ትብብር ለኢትዮጵያ አንድነት",
+    "name_en": "Cooperation for Ethiopian Unity",
+    "candidates": 1053,
+    "hopr": 226,
+    "rc": 827,
+    "slug": "party-2",
+    "profile_slug": "cooperation-for-ethiopian-unity-party"
+  },
+  {
+    "name": "ነፃነትና እኩልነት ፓርቲ",
+    "name_en": "Freedom and Equality Party",
+    "candidates": 820,
+    "hopr": 164,
+    "rc": 656,
+    "slug": "party-3",
+    "profile_slug": "freedom-and-equality-party"
+  },
+  {
+    "name": "ሰላም ለኢትዮጵያ ጥምረት",
+    "name_en": "Peace for Ethiopia Coalition",
+    "candidates": 396,
+    "hopr": 67,
+    "rc": 329,
+    "slug": "party-4",
+    "profile_slug": "peace-for-ethiopia-coalition"
+  },
+  {
+    "name": "ህዳሴ ፓርቲ",
+    "name_en": "Renaissance Party",
+    "candidates": 315,
+    "hopr": 51,
+    "rc": 264,
+    "slug": "party-5",
+    "profile_slug": "renaissance-party"
+  },
+  {
+    "name": "የዎላይታ ሕዝቦች ነጻነት ንቅናቄ",
+    "name_en": "Wolaita Peoples Freedom Movement",
+    "candidates": 290,
+    "hopr": 63,
+    "rc": 227,
+    "slug": "party-6",
+    "profile_slug": null
+  },
+  {
+    "name": "ባልደራስ ለእውነተኛ ዲሞክራሲ",
+    "name_en": "Balderas for True Democracy",
+    "candidates": 250,
+    "hopr": 60,
+    "rc": 190,
+    "slug": "party-7",
+    "profile_slug": "balderas-for-true-democracy-party"
+  },
+  {
+    "name": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ",
+    "name_en": "Ethiopian Federal Democratic Unity Forum (Medrek)",
+    "candidates": 219,
+    "hopr": 27,
+    "rc": 192,
+    "slug": "party-8",
+    "profile_slug": "ethiopian-federal-democratic-unity-forum"
+  },
+  {
+    "name": "የወሎ ህዝቦች ዲሞክራሲያዊ ፓርቲ",
+    "name_en": "Wollo Peoples Democratic Party",
+    "candidates": 213,
+    "hopr": 90,
+    "rc": 123,
+    "slug": "party-9",
+    "profile_slug": "wollo-peoples-democratic-party"
+  },
+  {
+    "name": "አዲስ ትውልድ ፓርቲ",
+    "name_en": "New Generation Party",
+    "candidates": 183,
+    "hopr": 59,
+    "rc": 124,
+    "slug": "party-10",
+    "profile_slug": "new-generation-party"
+  },
+  {
+    "name": "አርጎባ አንድነት ጀበርቲ",
+    "name_en": "Argoba Unity Jeberti",
+    "candidates": 177,
+    "hopr": 39,
+    "rc": 138,
+    "slug": "party-11",
+    "profile_slug": null
+  },
+  {
+    "name": "የኦጋዴን ብሔራዊ ነፃነት ግንባር",
+    "name_en": "Ogaden National Liberation Front",
+    "candidates": 172,
+    "hopr": 7,
+    "rc": 165,
+    "slug": "party-12",
+    "profile_slug": null
+  },
+  {
+    "name": "የኢትዮጵያ ብሔራዊ አንድነት ፓርቲ",
+    "name_en": "Ethiopian National Unity Party",
+    "candidates": 167,
+    "hopr": 43,
+    "rc": 124,
+    "slug": "party-13",
+    "profile_slug": "ethiopian-national-unity-party"
+  },
+  {
+    "name": "የሲዳማ ሕዝብ አንድነት ዴሞክራሲያዊ ድርጅት",
+    "name_en": "Sidama Peoples Unity Democratic Organization",
+    "candidates": 166,
+    "hopr": 17,
+    "rc": 149,
+    "slug": "party-14",
+    "profile_slug": null
+  },
+  {
+    "name": "የአማራ ዲሞክራሲያዊ ሃይል ንቅናቄ",
+    "name_en": "Amhara Democratic Force Movement",
+    "candidates": 151,
+    "hopr": 65,
+    "rc": 86,
+    "slug": "party-15",
+    "profile_slug": "amhara-democratic-force-movement"
+  },
+  {
+    "name": "የኢትዮጵያ ዴሞክራቲክ ኅብረት",
+    "name_en": "Ethiopian Democratic Union",
+    "candidates": 141,
+    "hopr": 45,
+    "rc": 96,
+    "slug": "party-16",
+    "profile_slug": "ethiopian-democratic-union"
+  },
+  {
+    "name": "የኦሮሞ ነፃነት ግንባር",
+    "name_en": "Oromo Liberation Front",
+    "candidates": 128,
+    "hopr": 63,
+    "rc": 65,
+    "slug": "party-17",
+    "profile_slug": "oromo-liberation-front"
+  },
+  {
+    "name": "ሲዳማ አንድነት ፓርቲ",
+    "name_en": "Sidama Unity Party",
+    "candidates": 122,
+    "hopr": 15,
+    "rc": 107,
+    "slug": "party-18",
+    "profile_slug": "sidama-unity-party"
+  },
+  {
+    "name": "ኅብር ኢትዮጵያ ዲሞክራሲያዊ ፓርቲ",
+    "name_en": "Hibir Ethiopia Democratic Party",
+    "candidates": 105,
+    "hopr": 32,
+    "rc": 73,
+    "slug": "party-19",
+    "profile_slug": "hibir-ethiopia-democratic-party"
+  },
+  {
+    "name": "የአፋር ሕዝብ ፓርቲ",
+    "name_en": "Afar Peoples Party",
+    "candidates": 102,
+    "hopr": 6,
+    "rc": 96,
+    "slug": "party-20",
+    "profile_slug": "afar-peoples-party"
+  },
+  {
+    "name": "የዎላይታ ብሔራዊ ንቅናቄ",
+    "name_en": "Wolaita National Movement",
+    "candidates": 87,
+    "hopr": 16,
+    "rc": 71,
+    "slug": "party-21",
+    "profile_slug": null
+  },
+  {
+    "name": "የአፋር ነፃ አውጪ ግንባር ፓርቲ",
+    "name_en": "Afar Liberation Front Party",
+    "candidates": 84,
+    "hopr": 6,
+    "rc": 78,
+    "slug": "party-22",
+    "profile_slug": null
+  },
+  {
+    "name": "ጎጎት ለጉራጌ አንድነት እና ፍትህ ፓርቲ",
+    "name_en": "Gogot for Gurage Unity and Justice Party",
+    "candidates": 82,
+    "hopr": 21,
+    "rc": 61,
+    "slug": "party-23",
+    "profile_slug": "gogot-for-gurage-unity-and-justice-party"
+  },
+  {
+    "name": "የመላው ሲዳማ ህዝብ ዴሞክራሲያዊ አንድነት ፓርቲ",
+    "name_en": "All Sidama Peoples Democratic Unity Party",
+    "candidates": 81,
+    "hopr": 13,
+    "rc": 68,
+    "slug": "party-24",
+    "profile_slug": null
+  },
+  {
+    "name": "Independent",
+    "name_en": "Independent",
+    "candidates": 80,
+    "hopr": 25,
+    "rc": 55,
+    "slug": "party-25",
+    "profile_slug": null
+  },
+  {
+    "name": "አንድ ኢትዮጵያ ዲሞክራሲ ፓርቲ",
+    "name_en": "One Ethiopia Democracy Party",
+    "candidates": 73,
+    "hopr": 4,
+    "rc": 69,
+    "slug": "party-26",
+    "profile_slug": null
+  },
+  {
+    "name": "የቤኒሻንጉል ህዝብ ነፃነት ንቅናቄ",
+    "name_en": "Benishangul Peoples Liberation Movement",
+    "candidates": 72,
+    "hopr": 3,
+    "rc": 69,
+    "slug": "party-27",
+    "profile_slug": null
+  },
+  {
+    "name": "የአማራ ብሔራዊ ንቅናቄ",
+    "name_en": "National Movement of Amhara (NaMA)",
+    "candidates": 70,
+    "hopr": 16,
+    "rc": 54,
+    "slug": "party-28",
+    "profile_slug": "national-movement-of-amhara"
+  },
+  {
+    "name": "የዎላይታ ሕዝብ ዴሞክራሲያዊ ግንባር",
+    "name_en": "Wolaita Peoples Democratic Front",
+    "candidates": 67,
+    "hopr": 12,
+    "rc": 55,
+    "slug": "party-29",
+    "profile_slug": null
+  },
+  {
+    "name": "የጉሙዝ ሕዝብ ዴሞክራሲያዊ ንቅናቄ",
+    "name_en": "Gumuz Peoples Democratic Movement",
+    "candidates": 65,
+    "hopr": 2,
+    "rc": 63,
+    "slug": "party-30",
+    "profile_slug": null
+  },
+  {
+    "name": "የቁጫ ሕዝብ ዴሞክራሲያዊ ፓርቲ",
+    "name_en": "Kucha Peoples Democratic Party",
+    "candidates": 51,
+    "hopr": 12,
+    "rc": 39,
+    "slug": "party-31",
+    "profile_slug": "kucha-peoples-democratic-party"
+  },
+  {
+    "name": "ኅብረት ለዲሞክራሲና ለነፃነት ፓርቲ",
+    "name_en": "Union for Democracy and Freedom Party",
+    "candidates": 43,
+    "hopr": 4,
+    "rc": 39,
+    "slug": "party-32",
+    "profile_slug": null
+  },
+  {
+    "name": "የምዕራብ ሶማሌ ዲሞክራቲክ ፓርቲ",
+    "name_en": "Western Somali Democratic Party",
+    "candidates": 39,
+    "hopr": 0,
+    "rc": 39,
+    "slug": "party-33",
+    "profile_slug": null
+  },
+  {
+    "name": "የቅማንት ዴሞክራሲያዊ ፓርቲ",
+    "name_en": "Qimant Democratic Party",
+    "candidates": 35,
+    "hopr": 15,
+    "rc": 20,
+    "slug": "party-34",
+    "profile_slug": "qimant-democratic-party"
+  },
+  {
+    "name": "ጌዴኦ ሕዝብ ዴሞክራሲያዊ ድርጅት",
+    "name_en": "Gedeo Peoples Democratic Organization",
+    "candidates": 33,
+    "hopr": 7,
+    "rc": 26,
+    "slug": "party-35",
+    "profile_slug": null
+  },
+  {
+    "name": "ሱማሌ ፌደራሊስት ፓርቲ",
+    "name_en": "Somali Federalist Party",
+    "candidates": 31,
+    "hopr": 4,
+    "rc": 27,
+    "slug": "party-36",
+    "profile_slug": null
+  },
+  {
+    "name": "ራያ ራዩማ ዴሞክራሲያዊ ፓርቲ",
+    "name_en": "Raya Rayuma Democratic Party",
+    "candidates": 29,
+    "hopr": 14,
+    "rc": 15,
+    "slug": "party-37",
+    "profile_slug": "raya-rayuma-democratic-party"
+  },
+  {
+    "name": "ዶንጋ ሕዝቦች ዲሞክራሲያዊ ድርጅት",
+    "name_en": "Donga Peoples Democratic Organization",
+    "candidates": 23,
+    "hopr": 4,
+    "rc": 19,
+    "slug": "party-38",
+    "profile_slug": null
+  },
+  {
+    "name": "የኩሽ ህዝቦች ብሔራዊ ንቅናቄ",
+    "name_en": "Kush Peoples National Movement",
+    "candidates": 21,
+    "hopr": 5,
+    "rc": 16,
+    "slug": "party-39",
+    "profile_slug": "kush-peoples-national-movement-party"
+  },
+  {
+    "name": "የወለኔ ህዝብ ዴሞክራሲያዊ ፓርቲ",
+    "name_en": "Welene Peoples Democratic Party",
+    "candidates": 10,
+    "hopr": 3,
+    "rc": 7,
+    "slug": "party-40",
+    "profile_slug": null
+  },
+  {
+    "name": "አርጎባ ህዝብ ዴሞክራሲያዊ ድርጅት",
+    "name_en": "Argoba Peoples Democratic Organization",
+    "candidates": 1,
+    "hopr": 1,
+    "rc": 0,
+    "slug": "party-41",
+    "profile_slug": null
+  },
+  {
+    "name": "የሐረሪ ዴሞክራሲያዊ ድርጅት",
+    "name_en": "Harari Democratic Organization",
+    "candidates": 1,
+    "hopr": 0,
+    "rc": 1,
+    "slug": "party-42",
+    "profile_slug": null
+  }
+]

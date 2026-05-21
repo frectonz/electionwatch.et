@@ -1,0 +1,36 @@
+// Shared ECharts styling helpers so every chart on the site uses the same
+// audit.et-inspired gradient fills and soft shadows.
+import * as echarts from "echarts";
+
+/** Hex colour to an rgba() string at alpha `a`. */
+export const hexA = (hex: string, a: number) => {
+  const h = hex.replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${a})`;
+};
+
+/** Soft fill: a gradient from a translucent tint to the solid colour.
+ * `dir` is "h" (left→right, for horizontal bars) or "v" (top→bottom). */
+export const grad = (color: string, dir: "h" | "v" = "h") => {
+  const [x0, y0, x1, y1] = dir === "h" ? [0, 0, 1, 0] : [0, 0, 0, 1];
+  return new echarts.graphic.LinearGradient(x0, y0, x1, y1, [
+    { offset: 0, color: hexA(color, 0.45) },
+    { offset: 1, color },
+  ]);
+};
+
+/** Radial fill for pie slices: lighter centre, solid rim. */
+export const radial = (color: string) =>
+  new echarts.graphic.RadialGradient(0.5, 0.5, 0.9, [
+    { offset: 0, color: hexA(color, 0.7) },
+    { offset: 1, color },
+  ]);
+
+/** Subtle drop shadow shared by bar series. */
+export const barShadow = {
+  shadowBlur: 8,
+  shadowColor: "rgba(31, 36, 85, 0.12)",
+  shadowOffsetY: 2,
+};

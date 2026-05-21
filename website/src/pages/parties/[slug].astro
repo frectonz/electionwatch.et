@@ -9,8 +9,12 @@ import {
   SOURCE_LABELS,
   formatDate,
 } from "@/data";
+import { partyByProfileSlug } from "@/data/candidates";
 import { slugifyTopic } from "@/lib/format";
-import { ArrowLeft, MessagesSquare, Quote } from "@lucide/astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { MessagesSquare, Quote, Users } from "@lucide/astro";
+
+const fmtNum = (n: number) => n.toLocaleString("en-US");
 
 export function getStaticPaths() {
   return allParties.map((p) => ({ params: { slug: p.slug } }));
@@ -39,6 +43,9 @@ const hasPlayableCitations = party.positions.some((p) =>
 const debateByVideo = new Map<string, { title: string }>(
   allDebates.map((d) => [d.meta.video_id, { title: d.analysis.title }]),
 );
+
+// Link to this party's candidate breakdown, if it fields candidates.
+const candidateParty = partyByProfileSlug.get(slug);
 ---
 
 <Layout
@@ -46,13 +53,9 @@ const debateByVideo = new Map<string, { title: string }>(
   description={`Positions and debate appearances for ${party.name} during Ethiopia's 7th General Election.`}
 >
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
-    <a
-      href="/parties"
-      class="inline-flex items-center gap-1.5 text-sm text-ew-text-muted hover:text-ew-shell mb-6"
-    >
-      <ArrowLeft class="w-4 h-4" />
-      All parties
-    </a>
+    <Breadcrumbs
+      items={[{ label: "Parties", href: "/parties" }, { label: party.name }]}
+    />
     <div class="flex items-center gap-4 mb-4">
       {
         party.symbol && (
@@ -78,6 +81,17 @@ const debateByVideo = new Map<string, { title: string }>(
         <MessagesSquare class="w-4 h-4" />
         {partyDebates.length} debate appearances
       </span>
+      {
+        candidateParty && (
+          <a
+            href={`/data/candidates/party/${candidateParty.slug}`}
+            class="inline-flex items-center gap-1.5 text-ew-shell hover:text-ew-gold font-medium"
+          >
+            <Users class="w-4 h-4" />
+            {fmtNum(candidateParty.candidates)} candidates running &rsaquo;
+          </a>
+        )
+      }
     </div>
   </section>
 

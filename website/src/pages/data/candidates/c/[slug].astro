@@ -1,0 +1,177 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  hoprCandidateConstituencies,
+  rcCandidateConstituencies,
+  loadCandidates,
+  partyByName,
+  BODY_LABEL,
+  BODY_SHORT,
+  type Candidate,
+  type CandidateConstituency,
+} from "@/data/candidates";
+import { fmt } from "@/lib/format";
+import StatTiles from "@/components/StatTiles.astro";
+import CandidateTable from "@/components/CandidateTable.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { ArrowRight, MapPin } from "@lucide/astro";
+
+const partyEn = (name: string) => partyByName.get(name)?.name_en ?? name;
+
+export function getStaticPaths() {
+  const all = [...hoprCandidateConstituencies, ...rcCandidateConstituencies];
+
+  // Load each region+body candidate file once, grouped by constituency name.
+  const cache = new Map<string, Map<string, Candidate[]>>();
+  const group = (regionSlug: string, body: "hopr" | "rc") => {
+    const key = `${regionSlug}_${body}`;
+    let byName = cache.get(key);
+    if (!byName) {
+      byName = new Map();
+      for (const cand of loadCandidates(regionSlug, body)) {
+        const list = byName.get(cand.constituency) ?? [];
+        list.push(cand);
+        byName.set(cand.constituency, list);
+      }
+      cache.set(key, byName);
+    }
+    return byName;
+  };
+
+  return all.map((c) => ({
+    params: { slug: c.slug },
+    props: { c, candidates: group(c.region_slug, c.body).get(c.name) ?? [] },
+  }));
+}
+
+const { c, candidates } = Astro.props as {
+  c: CandidateConstituency;
+  candidates: Candidate[];
+};
+
+const partyCount = new Map<string, number>();
+for (const cand of candidates)
+  partyCount.set(cand.party, (partyCount.get(cand.party) ?? 0) + 1);
+const parties = [...partyCount.entries()].sort((a, b) => b[1] - a[1]);
+const partyDist = {
+  labels: parties.map(([name]) => partyEn(name)),
+  counts: parties.map(([, n]) => n),
+};
+const female = candidates.filter((x) => x.gender === "Female").length;
+
+const stats = [
+  { label: "Candidates", value: c.candidates },
+  { label: "Parties", value: c.parties },
+  { label: "Women", value: female },
+  {
+    label: "Polling stations",
+    value: c.polling_stations > 0 ? fmt(c.polling_stations) : "n/a",
+  },
+];
+---
+
+<Layout
+  title={`${c.name} candidates · electionwatch.et`}
+  description={`${BODY_LABEL[c.body]} candidates for ${c.name} in ${c.region}, Ethiopia's 7th General Election.`}
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
+    <Breadcrumbs
+      items={[
+        { label: "Data", href: "/data" },
+        { label: "Candidates", href: "/data/candidates" },
+        { label: c.region, href: `/data/candidates/${c.region_slug}` },
+        { label: c.name },
+      ]}
+    />
+    <div
+      class="flex w-fit items-center gap-2 text-xs font-semibold uppercase tracking-wider text-ew-shell bg-ew-shell/10 rounded-full px-3 py-1 mb-3"
+    >
+      {BODY_SHORT[c.body]} · {BODY_LABEL[c.body]}
+    </div>
+    <h1 class="font-display text-4xl sm:text-5xl mb-1">{c.name}</h1>
+    <p class="text-ew-text-muted">{c.region}</p>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6"
+    />
+
+    {
+      c.polling_stations > 0 ? (
+        <a
+          href={`/data/polling-stations/${c.region_slug}`}
+          class="mt-4 inline-flex items-center gap-2 text-sm text-ew-shell hover:text-ew-gold"
+        >
+          <MapPin class="w-4 h-4" />
+          These candidates are voted on at {fmt(c.polling_stations)} polling
+          stations in {c.region} &rsaquo;
+        </a>
+      ) : (
+        <p class="mt-4 text-sm text-ew-text-muted max-w-xl">
+          This constituency couldn&rsquo;t be matched to the polling-station
+          records (the two sources name it differently), so its station count
+          isn&rsquo;t shown.
+        </p>
+      )
+    }
+  </section>
+
+  <!-- Party split -->
+  {
+    /* Only meaningful when a party fields more than one candidate (RC seats are
+       multi-member; HoPR is single-member, so every party would just show 1). */
+    parties.length > 1 && parties[0][1] > 1 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+        <h2 class="font-display text-2xl mb-4">Candidates by party</h2>
+        <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+          <div
+            id="partyDistChart"
+            data-chart={JSON.stringify(partyDist)}
+            style={`height:${Math.max(160, parties.length * 30 + 24)}px`}
+          />
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Candidate data grid -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="font-display text-2xl mb-4">Candidates</h2>
+    <CandidateTable candidates={candidates} />
+  </section>
+
+  <!-- Explore next -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="font-display text-xl mb-3">Explore</h2>
+    <div class="grid sm:grid-cols-2 gap-3">
+      <a
+        href={`/data/candidates/${c.region_slug}`}
+        class="group flex items-center justify-between bg-ew-card border border-ew-card-border rounded-xl px-5 py-4 hover:border-ew-shell/40 transition-colors"
+      >
+        <span class="text-ew-text group-hover:text-ew-shell transition-colors">
+          All {c.region} candidates &amp; constituencies
+        </span>
+        <ArrowRight class="w-4 h-4 text-ew-shell shrink-0" />
+      </a>
+      {
+        c.polling_stations > 0 && (
+          <a
+            href={`/data/polling-stations/${c.region_slug}`}
+            class="group flex items-center justify-between bg-ew-card border border-ew-card-border rounded-xl px-5 py-4 hover:border-ew-shell/40 transition-colors"
+          >
+            <span class="text-ew-text group-hover:text-ew-shell transition-colors inline-flex items-center gap-2">
+              <MapPin class="w-4 h-4 text-ew-text-muted" />
+              Polling stations in {c.region}
+            </span>
+            <ArrowRight class="w-4 h-4 text-ew-shell shrink-0" />
+          </a>
+        )
+      }
+    </div>
+  </section>
+
+  <script>
+    import { initCandidateCharts } from "@/scripts/candidate-charts";
+    initCandidateCharts();
+  </script>
+</Layout>

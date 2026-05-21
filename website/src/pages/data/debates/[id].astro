@@ -11,7 +11,8 @@ import {
   formatDuration,
 } from "@/data";
 import { timestamp } from "@/lib/format";
-import { ArrowLeft, Youtube } from "@lucide/astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { Youtube } from "@lucide/astro";
 
 export function getStaticPaths() {
   return allDebates.map((d) => ({ params: { id: d.meta.video_id } }));
@@ -55,13 +56,13 @@ const questions = debate.analysis.questions.map((q, i) => {
 >
   <!-- Header -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
-    <a
-      href="/data/debates"
-      class="inline-flex items-center gap-1.5 text-sm text-ew-text-muted hover:text-ew-shell mb-6"
-    >
-      <ArrowLeft class="w-4 h-4" />
-      All debates
-    </a>
+    <Breadcrumbs
+      items={[
+        { label: "Data", href: "/data" },
+        { label: "Debates", href: "/data/debates" },
+        { label: debate.analysis.title },
+      ]}
+    />
     <div
       class="flex items-center gap-2 text-[11px] uppercase tracking-wider mb-3"
     >

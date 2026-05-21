@@ -7,7 +7,16 @@ import {
   loadStations,
   type PollingStation,
 } from "@/data/pollingStations";
-import { ArrowLeft } from "@lucide/astro";
+import {
+  candidateRegionBySlug,
+  candidateConstituencyByStation,
+} from "@/data/candidates";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { Users } from "@lucide/astro";
 
 export function getStaticPaths() {
   return regions.map((r) => ({
@@ -40,6 +49,32 @@ const pct = (n: number, of: number) =>
 const constituencies = hoprConstituencies
   .filter((c) => c.region === region.name)
   .sort((a, b) => b.stations - a.stations);
+
+// Zone + constituency tables.
+const zoneColumns: GridColumn[] = [
+  { label: "Zone", grow: 2 },
+  { label: "Polling stations", numeric: true, grow: 0.8 },
+];
+const constituencyColumns: GridColumn[] = [
+  { label: "Constituency", grow: 2 },
+  { label: "Polling stations", numeric: true, grow: 0.8 },
+];
+const zoneRows: GridRow[] = zones.map(([zone, count]) => ({
+  cells: [{ text: zone }, { text: count }],
+}));
+const constituencyRows: GridRow[] = constituencies.map((c) => {
+  const cand = candidateConstituencyByStation("hopr", c.code);
+  return {
+    cells: [
+      {
+        text: c.name,
+        sub: cand ? `#${c.code} · ${cand.candidates} candidates` : `#${c.code}`,
+        href: cand ? `/data/candidates/c/${cand.slug}` : null,
+      },
+      { text: c.stations },
+    ],
+  };
+});
 
 const stats = [
   { label: "Polling stations", value: fmt(region.stations) },
@@ -94,14 +129,27 @@ const conStats = [
   description={`Polling stations in ${region.name} for Ethiopia's 7th General Election.`}
 >
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
-    <a
-      href="/data/polling-stations"
-      class="text-sm text-ew-text-muted hover:text-ew-text inline-flex items-center gap-1 mb-4"
-    >
-      <ArrowLeft class="w-3.5 h-3.5" /> All polling stations
-    </a>
+    <Breadcrumbs
+      items={[
+        { label: "Data", href: "/data" },
+        { label: "Polling Stations", href: "/data/polling-stations" },
+        { label: region.name },
+      ]}
+    />
     <h1 class="font-display text-4xl sm:text-5xl mb-1">{region.name}</h1>
     <p class="text-ew-text-muted">{region.name_native}</p>
+    {
+      candidateRegionBySlug.has(region.slug) && (
+        <a
+          href={`/data/candidates/${region.slug}`}
+          class="mt-3 inline-flex items-center gap-2 text-sm text-ew-shell hover:text-ew-gold"
+        >
+          <Users class="w-4 h-4" />
+          {fmt(candidateRegionBySlug.get(region.slug)!.candidates)} candidates
+          standing in {region.name} &rsaquo;
+        </a>
+      )
+    }
 
     <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
       {
@@ -141,7 +189,7 @@ const conStats = [
           <div class="flex items-baseline gap-2 bg-ew-card border border-ew-card-border rounded-xl px-4 py-3">
             <span
               class="w-3 h-3 rounded-full inline-block"
-              style="background:#ea580c"
+              style="background:#c79a3a"
             />
             <span class="font-display text-2xl tabular-nums">
               {fmt(region.digital)}
@@ -157,7 +205,7 @@ const conStats = [
           <div class="flex items-baseline gap-2 bg-ew-card border border-ew-card-border rounded-xl px-4 py-3">
             <span
               class="w-3 h-3 rounded-full inline-block"
-              style="background:#0d9488"
+              style="background:#1f2455"
             />
             <span class="font-display text-2xl tabular-nums">
               {fmt(region.manual)}
@@ -206,74 +254,41 @@ const conStats = [
   </section>
 
   <section
-    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 grid lg:grid-cols-2 gap-10 lg:items-stretch"
+    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 grid lg:grid-cols-2 gap-8 items-start"
   >
-    <div class="lg:flex lg:flex-col lg:min-h-0">
+    <div>
       <h2 class="font-display text-2xl mb-4">Zones</h2>
-      <div
-        class="bg-ew-card border border-ew-card-border rounded-xl divide-y divide-ew-card-border"
-      >
-        <div
-          class="flex items-center justify-between px-4 py-2 text-[11px] uppercase tracking-wider text-ew-text-muted bg-ew-surface rounded-t-xl"
-        >
-          <span>Zone</span>
-          <span>Polling stations</span>
-        </div>
-        {
-          zones.map(([zone, count]) => (
-            <div class="flex items-center justify-between px-4 py-2.5">
-              <span class="text-ew-text text-sm truncate">{zone}</span>
-              <span class="font-mono text-sm tabular-nums text-ew-text-dim shrink-0 ml-3">
-                {fmt(count)}
-              </span>
-            </div>
-          ))
-        }
-      </div>
+      <DataGrid
+        columns={zoneColumns}
+        rows={zoneRows}
+        defaultSort={1}
+        defaultDir="desc"
+        searchPlaceholder="Search zones"
+        maxHeight="560px"
+      />
     </div>
 
-    <div class="lg:flex lg:flex-col lg:min-h-0">
+    <div>
       <h2 class="font-display text-2xl mb-4">
         Constituencies
         <span class="text-sm text-ew-text-muted font-mono font-normal">
           ({fmt(constituencies.length)})
         </span>
       </h2>
-      {
-        /* Inner list is absolutely positioned on lg so this column's intrinsic
-          height is just the heading — the row height is driven by the zones
-          list, and the constituencies list fills it and scrolls. */
-      }
-      <div class="relative lg:flex-1 lg:min-h-0">
-        <div
-          class="bg-ew-card border border-ew-card-border rounded-xl divide-y divide-ew-card-border overflow-y-auto max-h-[480px] lg:max-h-none lg:absolute lg:inset-0"
-        >
-          <div
-            class="flex items-center justify-between px-4 py-2 text-[11px] uppercase tracking-wider text-ew-text-muted bg-ew-surface sticky top-0 z-10 rounded-t-xl"
-          >
-            <span>Constituency</span>
-            <span>Polling stations</span>
-          </div>
-          {
-            constituencies.map((c) => (
-              <div class="flex items-center justify-between px-4 py-2.5">
-                <span class="text-ew-text text-sm truncate">
-                  {c.name}
-                  <span class="text-ew-text-muted text-xs ml-1">#{c.code}</span>
-                </span>
-                <span class="font-mono text-sm tabular-nums text-ew-text-dim shrink-0 ml-3">
-                  {fmt(c.stations)}
-                </span>
-              </div>
-            ))
-          }
-        </div>
-      </div>
+      <DataGrid
+        columns={constituencyColumns}
+        rows={constituencyRows}
+        defaultSort={1}
+        defaultDir="desc"
+        searchPlaceholder="Search constituencies"
+        maxHeight="560px"
+      />
     </div>
   </section>
 
   <script>
     import * as echarts from "echarts";
+    import { grad, barShadow } from "@/scripts/chart-style";
 
     const MONO = "ui-monospace, SFMono-Regular, Menlo, monospace";
     const MUTED = "#7a7d92";
@@ -340,6 +355,7 @@ const conStats = [
         yAxis: {
           type: "category",
           inverse: true,
+          position: "right",
           data: d.names,
           axisLabel,
           axisTick: { show: false },
@@ -351,14 +367,14 @@ const conStats = [
             type: "bar",
             stack: "t",
             data: d.online,
-            itemStyle: { color: "#ea580c" },
+            itemStyle: { color: grad("#c79a3a", "h"), ...barShadow },
           },
           {
             name: "In-person",
             type: "bar",
             stack: "t",
             data: d.inperson,
-            itemStyle: { color: "#0d9488" },
+            itemStyle: { color: grad("#1f2455", "h") },
           },
         ],
       });

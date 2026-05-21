@@ -1,0 +1,66 @@
+---
+// The per-constituency candidate listing, built on the generic DataGrid:
+// searchable, sortable, and filterable by party / gender / education /
+// disability (all enum columns).
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import { partyByName, type Candidate } from "@/data/candidates";
+
+interface Props {
+  candidates: Candidate[];
+}
+const { candidates } = Astro.props;
+
+const partyEn = (name: string) => partyByName.get(name)?.name_en ?? name;
+const partyHref = (name: string) => {
+  const p = partyByName.get(name);
+  return p ? `/data/candidates/party/${p.slug}` : null;
+};
+
+// Education ordered low -> high so that column sorts by level, not alphabet.
+const EDU_ORDER = [
+  "No Education",
+  "Primary School",
+  "Middle School",
+  "High School",
+  "Diploma",
+  "Bachelor of Arts",
+  "Bachelor of Science",
+  "Bachelor of Law",
+  "Master of Arts",
+  "Master of Science",
+  "Master of Law",
+  "Doctorate",
+];
+const eduRank = (e: string) =>
+  String(EDU_ORDER.indexOf(e) < 0 ? 99 : EDU_ORDER.indexOf(e)).padStart(2, "0");
+
+const columns: GridColumn[] = [
+  { label: "Name", grow: 1.6, sortable: true },
+  { label: "Party", grow: 1.6, filter: true },
+  { label: "Gender", grow: 0.7, filter: true },
+  { label: "Education", grow: 1.1, filter: true },
+  { label: "Disability", grow: 0.8, filter: true },
+];
+
+const rows: GridRow[] = candidates.map((c) => ({
+  search: `${c.full_name} ${partyEn(c.party)}`,
+  cells: [
+    { text: c.full_name },
+    { text: partyEn(c.party), href: partyHref(c.party) },
+    { text: c.gender },
+    { text: c.education, sort: eduRank(c.education) },
+    { text: c.disability ? "Yes" : "No" },
+  ],
+}));
+---
+
+<DataGrid
+  columns={columns}
+  rows={rows}
+  defaultSort={1}
+  minWidth="680px"
+  searchPlaceholder="Search name or party"
+/>

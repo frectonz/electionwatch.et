@@ -1,0 +1,241 @@
+---
+// A generic, progressively-enhanced data grid: full-text search, sortable
+// columns, and an automatic dropdown filter for any column marked `filter`.
+// Rows render server-side; src/scripts/data-grid.ts wires up the interactions.
+import { fmt } from "@/lib/format";
+
+export interface GridColumn {
+  label: string;
+  /** Render an enum filter dropdown from this column's distinct values. */
+  filter?: boolean;
+  /** Allow sorting on this column (default true). */
+  sortable?: boolean;
+  /** Right-align (use for counts). */
+  numeric?: boolean;
+  /** Flex weight for the column width (default 1). */
+  grow?: number;
+}
+
+export interface GridCell {
+  /** Display value; numbers are thousands-formatted. */
+  text: string | number;
+  /** Make the cell a link. */
+  href?: string | null;
+  /** Override the value used for sorting (e.g. an ordering rank). */
+  sort?: string | number;
+  /** Override the value used for the filter dropdown (default = text). */
+  filterValue?: string;
+  /** Small secondary line under the text. */
+  sub?: string;
+  /** Small chip shown after the text. */
+  badge?: string;
+}
+
+export interface GridRow {
+  cells: GridCell[];
+  /** Override the searchable text (default = all cell texts joined). */
+  search?: string;
+}
+
+interface Props {
+  columns: GridColumn[];
+  rows: GridRow[];
+  search?: boolean;
+  searchPlaceholder?: string;
+  /** Column index sorted by default (otherwise server order is kept). */
+  defaultSort?: number;
+  defaultDir?: "asc" | "desc";
+  /** Min width before the grid scrolls horizontally (for wide tables). */
+  minWidth?: string;
+  /** Cap the rows' height and scroll, with a sticky header. */
+  maxHeight?: string;
+}
+
+const {
+  columns,
+  rows,
+  search = true,
+  searchPlaceholder = "Search",
+  defaultSort,
+  defaultDir = "asc",
+  minWidth,
+  maxHeight,
+} = Astro.props;
+
+const template = columns.map((c) => `${c.grow ?? 1}fr`).join(" ");
+const display = (v: string | number) => (typeof v === "number" ? fmt(v) : v);
+const sortVal = (cell: GridCell) =>
+  String(cell.sort ?? cell.text).toLowerCase();
+const filterVal = (cell: GridCell) => cell.filterValue ?? String(cell.text);
+const rowSearch = (r: GridRow) =>
+  (r.search ?? r.cells.map((c) => c.text).join(" ")).toLowerCase();
+
+// Distinct values for each filterable column.
+const filterOptions = columns.map((col, i) =>
+  col.filter
+    ? [...new Set(rows.map((r) => filterVal(r.cells[i])).filter(Boolean))].sort(
+        (a, b) => a.localeCompare(b, undefined, { numeric: true }),
+      )
+    : null,
+);
+const hasFilters = filterOptions.some(Boolean);
+const sortableCols = columns
+  .map((c, i) => ({ c, i }))
+  .filter(({ c }) => c.sortable !== false);
+
+const innerStyle = minWidth ? `min-width:${minWidth}` : "";
+---
+
+<div
+  data-grid
+  data-default-sort={defaultSort != null ? String(defaultSort) : undefined}
+  data-default-dir={defaultDir}
+>
+  {
+    (search || hasFilters) && (
+      <div class="flex flex-wrap items-center gap-2 mb-3">
+        {search && (
+          <input
+            type="search"
+            data-search
+            placeholder={searchPlaceholder}
+            class="flex-1 min-w-[180px] bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text placeholder:text-ew-text-muted focus:outline-none focus:border-ew-shell/50"
+          />
+        )}
+        {columns.map((col, i) =>
+          filterOptions[i] && filterOptions[i]!.length > 1 ? (
+            <select
+              data-filter={String(i)}
+              class="bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50 max-w-[200px]"
+            >
+              <option value="">All {col.label.toLowerCase()}</option>
+              {filterOptions[i]!.map((v) => (
+                <option value={v}>{v}</option>
+              ))}
+            </select>
+          ) : null,
+        )}
+        {sortableCols.length > 0 && (
+          <select
+            data-sort-select
+            class="sm:hidden bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50"
+          >
+            <option value="">Sort by…</option>
+            {sortableCols.map(({ c, i }) => (
+              <option value={String(i)}>Sort: {c.label}</option>
+            ))}
+          </select>
+        )}
+        <span
+          data-count
+          class="text-xs text-ew-text-muted tabular-nums ml-auto"
+        />
+      </div>
+    )
+  }
+
+  <div
+    class="bg-ew-card border border-ew-card-border rounded-xl overflow-x-auto"
+  >
+    <div style={innerStyle}>
+      <!-- Header -->
+      <div
+        class="grid gap-3 px-4 py-2 bg-ew-surface sticky top-0 z-10"
+        style={`grid-template-columns:${template}`}
+      >
+        {
+          columns.map((col, i) =>
+            col.sortable !== false ? (
+              <button
+                data-sort={String(i)}
+                class:list={[
+                  "group flex items-center gap-1 text-[11px] uppercase tracking-wider text-ew-text-muted hover:text-ew-text",
+                  col.numeric ? "justify-end text-right" : "text-left",
+                ]}
+              >
+                {col.label}
+                <span data-arrow class="text-ew-shell opacity-0" />
+              </button>
+            ) : (
+              <span
+                class:list={[
+                  "text-[11px] uppercase tracking-wider text-ew-text-muted",
+                  col.numeric && "text-right",
+                ]}
+              >
+                {col.label}
+              </span>
+            ),
+          )
+        }
+      </div>
+
+      <div
+        data-rows
+        class="divide-y divide-ew-card-border"
+        style={maxHeight ? `max-height:${maxHeight};overflow-y:auto` : ""}
+      >
+        {
+          rows.map((r) => (
+            <div
+              class="grid gap-x-3 gap-y-0.5 px-4 py-2.5 items-baseline"
+              style={`grid-template-columns:${template}`}
+              data-search={rowSearch(r)}
+              {...Object.fromEntries(
+                r.cells.flatMap((cell, i) => [
+                  [`data-s${i}`, sortVal(cell)],
+                  [`data-c${i}`, filterVal(cell)],
+                ]),
+              )}
+            >
+              {r.cells.map((cell, i) => {
+                const Tag = cell.href ? "a" : "div";
+                return (
+                  <Tag
+                    href={cell.href ?? undefined}
+                    class:list={[
+                      "min-w-0 text-sm",
+                      columns[i].numeric &&
+                        "text-right font-mono tabular-nums text-ew-text-dim",
+                      cell.href
+                        ? "text-ew-text hover:text-ew-shell transition-colors"
+                        : i === 0
+                          ? "text-ew-text font-medium"
+                          : "text-ew-text-dim",
+                    ]}
+                  >
+                    <span class="truncate inline-block max-w-full align-bottom">
+                      {display(cell.text)}
+                    </span>
+                    {cell.badge && (
+                      <span class="ml-2 text-[10px] uppercase tracking-wider text-ew-shell bg-ew-shell/10 rounded px-1.5 py-0.5 align-middle">
+                        {cell.badge}
+                      </span>
+                    )}
+                    {cell.sub && (
+                      <span class="block text-xs text-ew-text-muted truncate">
+                        {cell.sub}
+                      </span>
+                    )}
+                  </Tag>
+                );
+              })}
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div
+      data-empty
+      class="hidden px-4 py-8 text-center text-sm text-ew-text-muted"
+    >
+      Nothing matches your search.
+    </div>
+  </div>
+</div>
+
+<script>
+  import { initDataGrids } from "@/scripts/data-grid";
+  initDataGrids();
+</script>

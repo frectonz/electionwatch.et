@@ -1,7 +1,7 @@
 ---
 // Reusable MapLibre map of polling stations with NEBE-published GPS coordinates.
 // Rendered as individual GPU circle dots (fast at scale). Stations NEBE left
-// without coordinates are not shown — we do not invent locations.
+// without coordinates are not shown; we do not invent locations.
 interface Props {
   /** Map data URL (global by default; pass a per-region file for region pages). */
   dataUrl?: string;
@@ -17,8 +17,9 @@ const {
 } = Astro.props;
 
 const id = "psmap-" + Math.random().toString(36).slice(2, 8);
-// Point colour by registration type: online (digital) vs in-person (manual).
-const COLORS = { online: "#ea580c", inperson: "#0d9488" };
+// Point colour by registration type: online (digital) = gold, in-person
+// (manual) = navy.
+const COLORS = { online: "#c79a3a", inperson: "#1f2455" };
 ---
 
 <link
@@ -86,32 +87,102 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
     background: currentColor;
   }
   .ps-pop-chip--online {
-    color: #c2410c;
-    background: rgba(234, 88, 12, 0.12);
+    color: #94701c;
+    background: rgba(199, 154, 58, 0.18);
   }
   .ps-pop-chip--inperson {
-    color: #0d9488;
-    background: rgba(13, 148, 136, 0.12);
+    color: #1f2455;
+    background: rgba(31, 36, 85, 0.1);
+  }
+  .ps-pop-ballots {
+    margin-top: 11px;
+    padding-top: 10px;
+    border-top: 1px solid var(--color-ew-card-border);
+  }
+  .ps-pop-ballots-head {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-ew-text-muted);
+    margin-bottom: 6px;
+  }
+  .ps-pop-ballot {
+    display: block;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid var(--color-ew-card-border);
+    margin-top: 6px;
+    transition: background 0.12s;
+  }
+  .ps-pop-ballot:hover {
+    background: rgba(31, 36, 85, 0.05);
+  }
+  .ps-pop-ballot-body {
+    display: inline-block;
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-ew-shell);
+  }
+  .ps-pop-ballot-name {
+    display: block;
+    font-size: 13px;
+    color: var(--color-ew-text);
+    line-height: 1.25;
+    margin: 1px 0;
+  }
+  .ps-pop-ballot-count {
+    display: block;
+    font-size: 11px;
+    color: var(--color-ew-text-muted);
   }
 </style>
 
 <div>
-  <div
-    id={`${id}-legend`}
-    class="flex flex-wrap gap-x-4 gap-y-1 mb-3 text-sm text-ew-text-dim"
-  >
-    <span class="inline-flex items-center gap-2">
+  <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mb-3">
+    <div
+      id={`${id}-legend`}
+      class="flex flex-wrap gap-x-4 gap-y-1 text-sm text-ew-text-dim"
+    >
+      <span class="inline-flex items-center gap-2">
+        <span
+          class="w-3 h-3 rounded-full inline-block"
+          style={`background:${COLORS.online}`}></span>
+        Online registration
+      </span>
+      <span class="inline-flex items-center gap-2">
+        <span
+          class="w-3 h-3 rounded-full inline-block"
+          style={`background:${COLORS.inperson}`}></span>
+        In-person registration
+      </span>
       <span
-        class="w-3 h-3 rounded-full inline-block"
-        style={`background:${COLORS.online}`}></span>
-      Online registration
-    </span>
-    <span class="inline-flex items-center gap-2">
-      <span
-        class="w-3 h-3 rounded-full inline-block"
-        style={`background:${COLORS.inperson}`}></span>
-      In-person registration
-    </span>
+        id={`${id}-legend-con`}
+        class="inline-flex items-center gap-2 text-ew-text-muted"
+        style="display:none"
+      >
+        Each colour is a different HoPR constituency
+      </span>
+    </div>
+    <div
+      id={`${id}-mode`}
+      class="inline-flex rounded-lg border border-ew-card-border overflow-hidden text-xs"
+    >
+      <button
+        data-mode="con"
+        class="px-3 py-1.5 font-medium bg-ew-shell text-white"
+      >
+        Constituency
+      </button>
+      <button
+        data-mode="reg"
+        class="px-3 py-1.5 font-medium bg-ew-card text-ew-text-dim hover:text-ew-text"
+      >
+        Registration
+      </button>
+    </div>
   </div>
   <div class="relative">
     <div
@@ -153,6 +224,29 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
   const dataUrl = container.dataset.url;
   const fitData = container.dataset.fit === "1";
 
+  // Categorical palette for "colour by constituency" mode (cycled by index).
+  const PALETTE = [
+    "#b91c1c",
+    "#4338ca",
+    "#1f2455",
+    "#b45309",
+    "#7c3aed",
+    "#0369a1",
+    "#be123c",
+    "#15803d",
+    "#a16207",
+    "#9333ea",
+    "#0891b2",
+    "#c2410c",
+    "#4d7c0f",
+    "#db2777",
+    "#1d4ed8",
+    "#65a30d",
+    "#9f1239",
+    "#047857",
+  ];
+  const NO_CONSTITUENCY = "#c2c6d2";
+
   const map = new maplibregl.Map({
     container: id,
     style: {
@@ -178,7 +272,7 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
   map.addControl(new maplibregl.NavigationControl(), "top-right");
 
   // Scroll-zoom only after the map is clicked, and stop again when the pointer
-  // leaves — so scrolling the page never zooms the map by accident.
+  // leaves, so scrolling the page never zooms the map by accident.
   const hint = document.getElementById(id + "-hint");
   const activate = () => {
     map.scrollZoom.enable();
@@ -198,30 +292,49 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
       document.getElementById(id + "-empty").classList.remove("hidden");
       hint.style.display = "none";
       document.getElementById(id + "-legend").style.display = "none";
+      document.getElementById(id + "-mode").style.display = "none";
       return;
     }
 
+    const hoprC = data.hoprC ?? [];
+    const rcC = data.rcC ?? [];
     const bounds = new maplibregl.LngLatBounds();
     const fc = {
       type: "FeatureCollection",
-      features: data.points.map(([lat, lon, regIdx, typeIdx, name, woreda]) => {
-        bounds.extend([lon, lat]);
-        return {
-          type: "Feature",
-          geometry: { type: "Point", coordinates: [lon, lat] },
-          properties: {
-            name,
-            woreda: woreda ?? "",
-            region: data.regions[regIdx],
-            type: typeIdx === 0 ? "digital" : "manual",
-          },
-        };
-      }),
+      features: data.points.map(
+        ([lat, lon, regIdx, typeIdx, name, woreda, hIdx, rIdx]) => {
+          bounds.extend([lon, lat]);
+          return {
+            type: "Feature",
+            geometry: { type: "Point", coordinates: [lon, lat] },
+            properties: {
+              name,
+              woreda: woreda ?? "",
+              region: data.regions[regIdx],
+              type: typeIdx === 0 ? "digital" : "manual",
+              hopr: hIdx >= 0 ? JSON.stringify(hoprC[hIdx]) : "",
+              rc: rIdx >= 0 ? JSON.stringify(rcC[rIdx]) : "",
+              ccolor:
+                hIdx >= 0 ? PALETTE[hIdx % PALETTE.length] : NO_CONSTITUENCY,
+            },
+          };
+        },
+      ),
     };
 
     if (fitData && !bounds.isEmpty()) {
       map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
     }
+
+    // digital = online, manual = in-person
+    const REG_COLOR = [
+      "match",
+      ["get", "type"],
+      "digital",
+      COLORS.online,
+      COLORS.inperson,
+    ];
+    const CON_COLOR = ["get", "ccolor"];
 
     map.addSource("stations", { type: "geojson", data: fc });
     map.addLayer({
@@ -229,14 +342,7 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
       type: "circle",
       source: "stations",
       paint: {
-        // digital = online, manual = in-person
-        "circle-color": [
-          "match",
-          ["get", "type"],
-          "digital",
-          COLORS.online,
-          COLORS.inperson,
-        ],
+        "circle-color": CON_COLOR,
         "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 2.2, 12, 5],
         "circle-stroke-color": "#fff",
         "circle-stroke-width": [
@@ -252,6 +358,37 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
       },
     });
 
+    // Colour-by toggle: registration type vs HoPR constituency.
+    const legend = document.getElementById(id + "-legend");
+    const regSpans = [...legend.querySelectorAll(":scope > span")].filter(
+      (s) => s.id !== id + "-legend-con",
+    );
+    const conNote = document.getElementById(id + "-legend-con");
+    const modeBtns = [
+      ...document.getElementById(id + "-mode").querySelectorAll("button"),
+    ];
+    const setMode = (mode) => {
+      const con = mode === "con";
+      map.setPaintProperty(
+        "station-point",
+        "circle-color",
+        con ? CON_COLOR : REG_COLOR,
+      );
+      regSpans.forEach((s) => (s.style.display = con ? "none" : ""));
+      conNote.style.display = con ? "" : "none";
+      modeBtns.forEach((b) => {
+        const active = b.dataset.mode === mode;
+        b.classList.toggle("bg-ew-shell", active);
+        b.classList.toggle("text-white", active);
+        b.classList.toggle("bg-ew-card", !active);
+        b.classList.toggle("text-ew-text-dim", !active);
+      });
+    };
+    modeBtns.forEach((b) =>
+      b.addEventListener("click", () => setMode(b.dataset.mode)),
+    );
+    setMode("con"); // constituency colouring is the default view
+
     const esc = (s) => {
       const d = document.createElement("div");
       d.textContent = s ?? "";
@@ -265,7 +402,18 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
         .join(" &middot; ");
       const online = p.type === "digital";
       const label = online ? "Online registration" : "In-person registration";
-      new maplibregl.Popup({ offset: 12, maxWidth: "300px", closeButton: true })
+      const ballotRow = (raw, body) => {
+        if (!raw) return "";
+        const c = JSON.parse(raw);
+        return `<a class="ps-pop-ballot" href="/data/candidates/c/${c.slug}">
+            <span class="ps-pop-ballot-body">${body}</span>
+            <span class="ps-pop-ballot-name">${esc(c.name)}</span>
+            <span class="ps-pop-ballot-count">${c.candidates.toLocaleString()} candidates &rsaquo;</span>
+          </a>`;
+      };
+      const ballots =
+        ballotRow(p.hopr, "HoPR") + ballotRow(p.rc, "Regional Council");
+      new maplibregl.Popup({ offset: 12, maxWidth: "320px", closeButton: true })
         .setLngLat(e.features[0].geometry.coordinates)
         .setHTML(
           `<div class="ps-pop">
@@ -275,6 +423,7 @@ const COLORS = { online: "#ea580c", inperson: "#0d9488" };
              </div>
              <div class="ps-pop-body">
                <span class="ps-pop-chip ps-pop-chip--${online ? "online" : "inperson"}">${label}</span>
+               ${ballots ? `<div class="ps-pop-ballots"><div class="ps-pop-ballots-head">On the ballot here</div>${ballots}</div>` : ""}
              </div>
            </div>`,
         )

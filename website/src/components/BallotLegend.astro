@@ -1,0 +1,24 @@
+---
+// HoPR / Regional Council colour key, shown beside the stacked ballot charts.
+import { BALLOT_COLORS } from "@/lib/format";
+
+interface Props {
+  class?: string;
+}
+const { class: cls = "" } = Astro.props;
+---
+
+<div class={`flex flex-wrap gap-x-4 gap-y-1 text-sm text-ew-text-dim ${cls}`}>
+  <span class="inline-flex items-center gap-2">
+    <span
+      class="w-3 h-3 rounded-full inline-block"
+      style={`background:${BALLOT_COLORS.hopr}`}></span>
+    HoPR
+  </span>
+  <span class="inline-flex items-center gap-2">
+    <span
+      class="w-3 h-3 rounded-full inline-block"
+      style={`background:${BALLOT_COLORS.rc}`}></span>
+    Regional Council
+  </span>
+</div>

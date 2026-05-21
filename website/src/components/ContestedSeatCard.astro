@@ -1,0 +1,38 @@
+---
+// A constituency card for the "most contested" grids: ballot badge, name,
+// region, and the party/candidate counts. Links to the constituency page.
+import { fmt } from "@/lib/format";
+import BallotBadge from "@/components/BallotBadge.astro";
+import type { CandidateConstituency } from "@/data/candidates";
+
+interface Props {
+  c: CandidateConstituency;
+}
+const { c } = Astro.props;
+---
+
+<a
+  href={`/data/candidates/c/${c.slug}`}
+  class="group bg-ew-card border border-ew-card-border rounded-xl p-4 hover:border-ew-shell/40 hover:shadow-md transition-all"
+>
+  <div class="flex items-center gap-2 mb-1">
+    <BallotBadge body={c.body} />
+    <span
+      class="text-ew-text text-sm truncate group-hover:text-ew-shell transition-colors"
+    >
+      {c.name}
+    </span>
+  </div>
+  <div class="text-ew-text-muted text-xs mb-3">{c.region}</div>
+  <div class="flex items-baseline gap-4">
+    <span>
+      <span class="font-mono text-xl tabular-nums text-ew-text">
+        {fmt(c.parties)}
+      </span>
+      <span class="text-xs text-ew-text-muted ml-1">parties</span>
+    </span>
+    <span class="text-xs text-ew-text-muted">
+      {fmt(c.candidates)} candidates
+    </span>
+  </div>
+</a>
