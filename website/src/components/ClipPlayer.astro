@@ -26,7 +26,7 @@ const initialSrc = defaultVideoId
     <div class="grid lg:grid-cols-[420px_1fr] gap-4">
       <div
         id="player-container"
-        class="aspect-video bg-ew-surface border border-ew-card-border rounded-lg overflow-hidden shrink-0 max-w-full"
+        class="relative aspect-video bg-ew-surface border border-ew-card-border rounded-lg overflow-hidden shrink-0 max-w-full"
       >
         {
           defaultVideoId ? (
@@ -48,6 +48,19 @@ const initialSrc = defaultVideoId
             </div>
           )
         }
+        <button
+          type="button"
+          id="clip-play-overlay"
+          aria-label="Play clip"
+          style="display:none"
+          class="absolute inset-0 z-10 items-center justify-center bg-ew-shell/30 hover:bg-ew-shell/40 transition-colors"
+        >
+          <span
+            class="w-14 h-14 rounded-full bg-white/90 text-ew-shell grid place-items-center shadow-lg"
+          >
+            <Play class="w-6 h-6 ml-0.5" />
+          </span>
+        </button>
       </div>
 
       <div class="min-w-0 flex flex-col gap-2">
@@ -142,6 +155,7 @@ const initialSrc = defaultVideoId
     const endedActions = document.getElementById("clip-ended-actions");
     const clipContinue = document.getElementById("clip-continue");
     const replayBtn = document.getElementById("clip-replay");
+    const playOverlay = document.getElementById("clip-play-overlay");
     const resetBtn = document.querySelector("[data-reset-player]");
     if (
       !playerContainer ||
@@ -211,6 +225,26 @@ const initialSrc = defaultVideoId
         watchUrl(c.videoId, c.start),
         "play",
       );
+    }
+
+    // A cued clip (e.g. loaded from a ?clip= link) shows our own play button
+    // over the poster, so it's obvious how to start it.
+    function showPlayOverlay() {
+      if (playOverlay) playOverlay.style.display = "flex";
+    }
+    function hidePlayOverlay() {
+      if (playOverlay) playOverlay.style.display = "none";
+    }
+    function playActiveClip() {
+      hidePlayOverlay();
+      if (!activeClip) return;
+      if (playerReady && player && player.playVideo) {
+        if (player.seekTo) player.seekTo(activeClip.start, true);
+        player.playVideo();
+        startPolling();
+      } else {
+        replayClip();
+      }
     }
 
     function clipUrl(videoId, start, end, mode) {
@@ -323,6 +357,7 @@ const initialSrc = defaultVideoId
                 // Playing.
                 startPolling();
                 hideContinue();
+                hidePlayOverlay();
               } else if (e.data === 0 && activeClip) {
                 // Ended (reached the clip's end cap): offer to keep watching.
                 stopPolling();
@@ -370,6 +405,8 @@ const initialSrc = defaultVideoId
       progressTime.textContent = "0:00 / " + fmt(end - start);
 
       const isCue = mode === "cue";
+      if (isCue) showPlayOverlay();
+      else hidePlayOverlay();
 
       if (!iframeCreated) {
         createIframe(videoId, start, end, mode);
@@ -415,6 +452,7 @@ const initialSrc = defaultVideoId
       setClipParam(null);
       stopPolling();
       hideContinue();
+      hidePlayOverlay();
       progressBox.classList.add("hidden");
       if (hasDefault) {
         label.textContent = defaultLabel;
@@ -431,6 +469,7 @@ const initialSrc = defaultVideoId
     }
 
     if (replayBtn) replayBtn.addEventListener("click", replayClip);
+    if (playOverlay) playOverlay.addEventListener("click", playActiveClip);
 
     if (hasDefault) loadYouTubeApi();
 
@@ -442,18 +481,33 @@ const initialSrc = defaultVideoId
       const vid = m[1];
       const start = parseFloat(m[2]);
       const end = parseFloat(m[3]);
-      const btn = document.querySelector(
-        '[data-clip-video-id="' +
-          vid +
-          '"][data-clip-start="' +
-          m[2] +
-          '"][data-clip-end="' +
-          m[3] +
-          '"]',
+      // The clip param stores floored/ceiled seconds, but the clip triggers
+      // carry exact (often fractional) times — so match on floor/ceil rather
+      // than an exact string, and reuse the trigger's precise times + label.
+      const sParam = Math.floor(start);
+      const eParam = Math.ceil(end);
+      let btn = null;
+      const candidates = document.querySelectorAll(
+        '[data-clip-video-id="' + vid + '"]',
       );
-      const lbl = (btn && btn.dataset && btn.dataset.clipLabel) || "Clip";
-      const yt = (btn && btn.dataset && btn.dataset.clipYoutube) || "";
-      loadClip(vid, start, end, lbl, yt, "cue");
+      for (let i = 0; i < candidates.length; i++) {
+        const s = parseFloat(candidates[i].dataset.clipStart);
+        const en = parseFloat(candidates[i].dataset.clipEnd);
+        if (
+          Number.isFinite(s) &&
+          Number.isFinite(en) &&
+          Math.floor(s) === sParam &&
+          Math.ceil(en) === eParam
+        ) {
+          btn = candidates[i];
+          break;
+        }
+      }
+      const lbl = (btn && btn.dataset.clipLabel) || "Clip";
+      const yt = (btn && btn.dataset.clipYoutube) || "";
+      const realStart = btn ? parseFloat(btn.dataset.clipStart) : start;
+      const realEnd = btn ? parseFloat(btn.dataset.clipEnd) : end;
+      loadClip(vid, realStart, realEnd, lbl, yt, "cue");
     })();
 
     document.addEventListener("click", function (e) {
