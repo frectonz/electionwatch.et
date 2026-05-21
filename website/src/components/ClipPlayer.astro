@@ -78,7 +78,7 @@ const initialSrc = defaultVideoId
           <div class="relative h-1.5 bg-ew-surface rounded overflow-hidden">
             <div
               id="clip-progress-fill"
-              class="absolute inset-y-0 left-0 bg-ew-gold transition-[width] duration-150 ease-linear"
+              class="absolute inset-y-0 left-0 bg-ew-gold"
               style="width:0%"
             >
             </div>
@@ -159,7 +159,8 @@ const initialSrc = defaultVideoId
     let iframeCreated = hasDefault;
     let pendingAfterReady = null;
     let activeClip = null;
-    let pollTimer = null;
+    let rafId = null;
+    let lastSec = -1;
 
     function fmt(s) {
       if (!Number.isFinite(s)) return "0:00";
@@ -240,22 +241,34 @@ const initialSrc = defaultVideoId
       // getCurrentTime() can return NaN for a tick right after a load.
       if (!Number.isFinite(t) || clipDur <= 0) return;
       const elapsed = Math.max(0, Math.min(clipDur, t - activeClip.start));
+      // Width updates every animation frame for a smooth bar.
       progressFill.style.width = (elapsed / clipDur) * 100 + "%";
-      progressTime.textContent = fmt(elapsed) + " / " + fmt(clipDur);
-      // Keep the "Continue on YouTube" link pointed at the live position.
-      if (openYT) openYT.setAttribute("href", watchUrl(activeClip.videoId, t));
+      // Text + link only change once per second — no need to touch them 60×/s.
+      const sec = Math.floor(elapsed);
+      if (sec !== lastSec) {
+        lastSec = sec;
+        progressTime.textContent = fmt(elapsed) + " / " + fmt(clipDur);
+        if (openYT)
+          openYT.setAttribute("href", watchUrl(activeClip.videoId, t));
+      }
       // Near the clip's end, surface the prompt to keep watching on YouTube.
       if (t >= activeClip.end - 0.4) showContinue(t);
     }
+    // Drive the progress bar off requestAnimationFrame (the player's
+    // getCurrentTime is continuous), rather than a 250ms interval that stutters.
     function startPolling() {
       stopPolling();
-      pollTimer = window.setInterval(updateProgress, 250);
-      updateProgress();
+      lastSec = -1;
+      const tick = () => {
+        updateProgress();
+        rafId = requestAnimationFrame(tick);
+      };
+      rafId = requestAnimationFrame(tick);
     }
     function stopPolling() {
-      if (pollTimer) {
-        window.clearInterval(pollTimer);
-        pollTimer = null;
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+        rafId = null;
       }
     }
 
@@ -307,12 +320,17 @@ const initialSrc = defaultVideoId
             },
             onStateChange: function (e) {
               if (e.data === 1 && activeClip) {
+                // Playing.
                 startPolling();
                 hideContinue();
               } else if (e.data === 0 && activeClip) {
                 // Ended (reached the clip's end cap): offer to keep watching.
                 stopPolling();
                 showContinue(activeClip.end);
+              } else if (e.data === 2 && activeClip) {
+                // Paused: stop the rAF loop but settle the bar at the position.
+                stopPolling();
+                updateProgress();
               }
             },
           },
