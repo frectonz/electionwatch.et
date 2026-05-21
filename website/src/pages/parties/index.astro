@@ -10,13 +10,13 @@ import { ArrowRight, Quote, MessagesSquare, Users } from "@lucide/astro";
 const withPositions = allParties.filter((p) => p.positions.length > 0);
 const positionSlugs = new Set(withPositions.map((p) => p.slug));
 
-// The full ballot is the set of parties fielding candidates (excluding the
-// "Independent" bucket). Those without a debate profile are listed too.
-const ballotParties = candidateParties.filter((p) => p.name !== "Independent");
+// The full ballot is every party fielding candidates, including the grouped
+// "Independent" bucket (individual candidates rolled up into one entry). Those
+// without a debate profile are listed below.
+const ballotParties = candidateParties;
 const withoutPositions = ballotParties
   .filter((p) => !(p.profile_slug && positionSlugs.has(p.profile_slug)))
   .sort((a, b) => b.candidates - a.candidates);
-const independents = candidateParties.find((p) => p.name === "Independent");
 ---
 
 <Layout
@@ -30,16 +30,8 @@ const independents = candidateParties.find((p) => p.name === "Independent");
     </h1>
     <p class="text-ew-text-dim text-lg max-w-2xl">
       {withPositions.length} have position files compiled from their debate appearances.
-      The rest field candidates but haven&rsquo;t appeared in an analysed debate.
-      {
-        independents && (
-          <span>
-            {" "}
-            A further {fmt(independents.candidates)} candidates are running as
-            independents.
-          </span>
-        )
-      }
+      The rest field candidates but haven&rsquo;t appeared in an analysed debate,
+      including the candidates running as independents, grouped here as one entry.
     </p>
   </section>
 
