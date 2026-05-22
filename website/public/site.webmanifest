@@ -1,6 +1,6 @@
 {
   "id": "/",
-  "name": "electionwatch.et — Open data for Ethiopia's 7th General Election",
+  "name": "electionwatch.et",
   "short_name": "electionwatch.et",
   "description": "Open datasets on Ethiopia's 7th General Election: candidates, polling stations, party debates, and positions. Every record links to its source.",
   "start_url": "/",
