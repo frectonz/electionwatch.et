@@ -286,6 +286,90 @@ export function educationChart(candidates: Candidate[]): CountChart {
   return countChart([...counts.entries()]);
 }
 
+// Education levels collapsed into ranked tiers, highest first. The raw strings
+// come from NEBE's candidate lists (see candidates/extract.py).
+export const EDU_TIERS: {
+  key: string;
+  label: string;
+  match: (e: string) => boolean;
+}[] = [
+  { key: "doctorate", label: "Doctorate", match: (e) => e === "Doctorate" },
+  { key: "masters", label: "Master's", match: (e) => e.startsWith("Master") },
+  {
+    key: "bachelors",
+    label: "Bachelor's",
+    match: (e) => e.startsWith("Bachelor"),
+  },
+  {
+    key: "highschool",
+    label: "High school",
+    match: (e) => e === "High School",
+  },
+  {
+    key: "below",
+    label: "Below high school",
+    match: (e) =>
+      e === "Middle School" || e === "Primary School" || e === "No Education",
+  },
+];
+
+export type EduByParty = {
+  order: { key: string; label: string }[];
+  /** Per tier: parties ranked by candidate count at that level (top N). */
+  byTier: Record<
+    string,
+    { labels: string[]; counts: number[]; totals: number[]; shares: number[] }
+  >;
+};
+
+/**
+ * For each education tier, rank parties by how many of their candidates hold
+ * that level (e.g. which parties field the most doctorate-holders). `totals`
+ * and `shares` carry each party's candidate total and the tier's share of it.
+ */
+export function educationTiersByParty(
+  candidates: Candidate[],
+  topN = 15,
+): EduByParty {
+  // party english name -> { total, perTier: Map<tierKey, count> }
+  const agg = new Map<string, { total: number; tiers: Map<string, number> }>();
+  for (const c of candidates) {
+    const name = partyByName.get(c.party)?.name_en ?? c.party;
+    let a = agg.get(name);
+    if (!a) {
+      a = { total: 0, tiers: new Map() };
+      agg.set(name, a);
+    }
+    a.total++;
+    const tier = EDU_TIERS.find((t) => t.match(c.education || ""));
+    if (tier) a.tiers.set(tier.key, (a.tiers.get(tier.key) ?? 0) + 1);
+  }
+
+  const byTier: EduByParty["byTier"] = {};
+  for (const tier of EDU_TIERS) {
+    const ranked = [...agg.entries()]
+      .map(([name, a]) => ({
+        name,
+        count: a.tiers.get(tier.key) ?? 0,
+        total: a.total,
+      }))
+      .filter((r) => r.count > 0)
+      .sort((a, b) => b.count - a.count || b.total - a.total)
+      .slice(0, topN);
+    byTier[tier.key] = {
+      labels: ranked.map((r) => r.name),
+      counts: ranked.map((r) => r.count),
+      totals: ranked.map((r) => r.total),
+      shares: ranked.map((r) => Math.round((r.count / r.total) * 100)),
+    };
+  }
+
+  return {
+    order: EDU_TIERS.map((t) => ({ key: t.key, label: t.label })),
+    byTier,
+  };
+}
+
 /** Candidates per party (labelled by English name), highest first. */
 export function partyDistChart(candidates: Candidate[]): CountChart {
   const counts = new Map<string, number>();

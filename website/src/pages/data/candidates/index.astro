@@ -8,6 +8,8 @@ import {
   rcCandidateConstituencies,
   peopleRings,
   countChart,
+  loadAllCandidates,
+  educationTiersByParty,
   BODY_LABEL,
 } from "@/data/candidates";
 import { fmt, pct, BALLOT_COLORS } from "@/lib/format";
@@ -108,6 +110,13 @@ const partyChart = {
 
 // Education distribution, sorted by candidate count (desc).
 const eduChart = countChart(Object.entries(idx.by_education));
+
+// Which parties field the most candidates at each education level (e.g. the
+// most doctorate-holders). Interactive: pick a tier, rank parties within it.
+const eduByParty = educationTiersByParty(loadAllCandidates());
+const eduTierWithData = eduByParty.order.filter(
+  (t) => eduByParty.byTier[t.key].labels.length > 0,
+);
 
 // Concentric pie: gender (inner ring) + disability (outer ring).
 const peopleChart = peopleRings(
@@ -247,6 +256,43 @@ const peopleChart = peopleRings(
     </div>
   </section>
 
+  <!-- Education by party -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Education by party</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Which parties field the most candidates at each education level. Pick a
+      level to rank the parties by how many of their candidates hold it. The
+      tooltip shows what share of that party&rsquo;s candidates that is.
+    </p>
+
+    <div class="flex flex-wrap items-center gap-2 mb-4" id="eduTierFilter">
+      {
+        eduTierWithData.map((t, i) => (
+          <button
+            data-tier={t.key}
+            class:list={[
+              "px-3 py-1.5 rounded-full text-sm border transition-colors",
+              i === 0
+                ? "bg-ew-shell text-white border-ew-shell"
+                : "bg-ew-card text-ew-text-dim border-ew-card-border hover:border-ew-shell/40",
+            ]}
+          >
+            {t.label}
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+      <div
+        id="eduPartyChart"
+        data-chart={JSON.stringify(eduByParty.byTier)}
+        style="height:480px"
+      >
+      </div>
+    </div>
+  </section>
+
   <!-- Most contested -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Most contested seats</h2>
@@ -321,5 +367,127 @@ const peopleChart = peopleRings(
   <script>
     import { initCandidateCharts } from "@/scripts/candidate-charts";
     initCandidateCharts();
+  </script>
+
+  <script>
+    // Education-by-party: a horizontal bar ranking parties by candidate count
+    // at the selected education level. The tier buttons re-render the chart.
+    import * as echarts from "echarts";
+    import {
+      grad,
+      barShadow,
+      offsetTooltip,
+      narrowYLabels,
+      tooltipBox,
+      tipTitle,
+      tipRow,
+      MUTED,
+      GRID,
+      INK,
+    } from "@/scripts/chart-style";
+
+    type Tier = {
+      labels: string[];
+      counts: number[];
+      totals: number[];
+      shares: number[];
+    };
+
+    const wrap = document.getElementById("eduPartyChart");
+    const filter = document.getElementById("eduTierFilter");
+    if (wrap && filter) {
+      const byTier = JSON.parse(wrap.dataset.chart!) as Record<string, Tier>;
+      const buttons = [...filter.querySelectorAll<HTMLButtonElement>("button")];
+      const chart = echarts.init(wrap);
+      let cur: Tier = byTier[buttons[0].dataset.tier!];
+
+      const render = (key: string) => {
+        cur = byTier[key];
+        chart.setOption(
+          {
+            baseOption: {
+              grid: {
+                left: 4,
+                right: 16,
+                top: 4,
+                bottom: 4,
+                containLabel: true,
+              },
+              tooltip: {
+                ...tooltipBox,
+                trigger: "axis",
+                axisPointer: { type: "shadow" },
+                confine: true,
+                position: offsetTooltip,
+                formatter: (
+                  p: { name: string; marker: string; dataIndex: number }[],
+                ) => {
+                  const i = p[0].dataIndex;
+                  return (
+                    tipTitle(p[0].name) +
+                    tipRow(
+                      "Candidates",
+                      cur.counts[i].toLocaleString(),
+                      p[0].marker,
+                    ) +
+                    tipRow("Share of party", `${cur.shares[i]}%`) +
+                    tipRow("Party total", cur.totals[i].toLocaleString())
+                  );
+                },
+              },
+              xAxis: {
+                type: "value",
+                axisLabel: { show: false },
+                axisLine: { show: false },
+                splitLine: { lineStyle: { color: GRID } },
+              },
+              yAxis: {
+                type: "category",
+                inverse: true,
+                data: cur.labels,
+                axisLabel: { color: MUTED, fontSize: 12 },
+                axisTick: { show: false },
+                axisLine: { show: false },
+              },
+              series: [
+                {
+                  type: "bar",
+                  data: cur.counts,
+                  itemStyle: {
+                    color: grad(INK, "h"),
+                    borderRadius: [0, 4, 4, 0],
+                    ...barShadow,
+                  },
+                  barWidth: "62%",
+                },
+              ],
+            },
+            media: narrowYLabels,
+          },
+          true,
+        );
+      };
+
+      render(buttons[0].dataset.tier!);
+
+      buttons.forEach((b) =>
+        b.addEventListener("click", () => {
+          render(b.dataset.tier!);
+          buttons.forEach((x) => {
+            const active = x === b;
+            x.classList.toggle("bg-ew-shell", active);
+            x.classList.toggle("text-white", active);
+            x.classList.toggle("border-ew-shell", active);
+            x.classList.toggle("bg-ew-card", !active);
+            x.classList.toggle("text-ew-text-dim", !active);
+            x.classList.toggle("border-ew-card-border", !active);
+            x.classList.toggle("hover:border-ew-shell/40", !active);
+          });
+        }),
+      );
+
+      const ro = new ResizeObserver(() => chart.resize());
+      ro.observe(wrap);
+    }
   </script>
 </Layout>
