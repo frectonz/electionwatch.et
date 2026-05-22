@@ -144,6 +144,8 @@ const appearanceChart = {
         total: number;
       };
       const chart = echarts.init(el);
+      // Leave headroom past the longest bar so it stops short of the labels.
+      const maxVal = Math.max(1, ...d.counts);
       chart.setOption({
         baseOption: {
           grid: { left: 4, right: 16, top: 4, bottom: 4, containLabel: true },
@@ -171,6 +173,7 @@ const appearanceChart = {
           },
           xAxis: {
             type: "value",
+            max: Math.ceil(maxVal * 1.08),
             axisLabel: { show: false },
             axisLine: { show: false },
             splitLine: { lineStyle: { color: GRID } },
@@ -179,8 +182,9 @@ const appearanceChart = {
           yAxis: {
             type: "category",
             inverse: true,
+            position: "right",
             data: d.labels,
-            axisLabel: { color: MUTED, fontSize: 12 },
+            axisLabel: { color: MUTED, fontSize: 12, margin: 14 },
             axisTick: { show: false },
             axisLine: { show: false },
           },
