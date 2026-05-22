@@ -59,9 +59,13 @@ export function initCandidateCharts() {
               }[],
             ) => {
               const rows = p
-                .map((x) => `${x.marker} ${x.seriesName}: ${nf(x.value)}`)
+                .map(
+                  (x) =>
+                    `${x.marker} ${x.seriesName} ballot: ${nf(x.value)} candidates`,
+                )
                 .join("<br>");
-              return `<strong>${p[0].name}</strong><br>${rows}`;
+              const total = p.reduce((a, x) => a + (x.value || 0), 0);
+              return `<strong>${p[0].name}</strong><br>${rows}<br>Total: ${nf(total)} candidates`;
             },
           },
           xAxis: {
@@ -171,7 +175,7 @@ export function initCandidateCharts() {
           trigger: "item",
           confine: true,
           formatter: (p: { name: string; value: number; percent: number }) =>
-            `${p.name}<br><strong>${nf(p.value)}</strong> · ${p.percent}%`,
+            `${p.name}<br><strong>${nf(p.value)}</strong> candidates · ${p.percent}%`,
         },
         legend: {
           bottom: 0,
