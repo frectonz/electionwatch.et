@@ -286,36 +286,26 @@ export function educationChart(candidates: Candidate[]): CountChart {
   return countChart([...counts.entries()]);
 }
 
-// Education levels collapsed into ranked tiers, highest first. The raw strings
-// come from NEBE's candidate lists (see candidates/extract.py).
-export const EDU_TIERS: {
-  key: string;
-  label: string;
-  match: (e: string) => boolean;
-}[] = [
-  { key: "doctorate", label: "Doctorate", match: (e) => e === "Doctorate" },
-  { key: "masters", label: "Master's", match: (e) => e.startsWith("Master") },
-  {
-    key: "bachelors",
-    label: "Bachelor's",
-    match: (e) => e.startsWith("Bachelor"),
-  },
-  {
-    key: "highschool",
-    label: "High school",
-    match: (e) => e === "High School",
-  },
-  {
-    key: "below",
-    label: "Below high school",
-    match: (e) =>
-      e === "Middle School" || e === "Primary School" || e === "No Education",
-  },
+// Every education level NEBE prints on the candidate lists, ordered highest to
+// lowest. The selectable filters mirror this enum exactly. "Not Specified"
+// (missing data) is omitted on purpose, as it is not an attainment level.
+export const EDU_LEVELS: string[] = [
+  "Doctorate",
+  "Master of Law",
+  "Master of Science",
+  "Master of Arts",
+  "Bachelor of Law",
+  "Bachelor of Science",
+  "Bachelor of Arts",
+  "High School",
+  "Middle School",
+  "Primary School",
+  "No Education",
 ];
 
 export type EduByParty = {
   order: { key: string; label: string }[];
-  /** Per tier: parties ranked by candidate count at that level (top N). */
+  /** Per level: parties ranked by candidate count at that level (top N). */
   byTier: Record<
     string,
     { labels: string[]; counts: number[]; totals: number[]; shares: number[] }
@@ -323,40 +313,41 @@ export type EduByParty = {
 };
 
 /**
- * For each education tier, rank parties by how many of their candidates hold
- * that level (e.g. which parties field the most doctorate-holders). `totals`
- * and `shares` carry each party's candidate total and the tier's share of it.
+ * For each education level, rank parties by how many of their candidates hold
+ * it (e.g. which parties field the most doctorate-holders). `totals` and
+ * `shares` carry each party's candidate total and the level's share of it.
  */
 export function educationTiersByParty(
   candidates: Candidate[],
   topN = 15,
 ): EduByParty {
-  // party english name -> { total, perTier: Map<tierKey, count> }
-  const agg = new Map<string, { total: number; tiers: Map<string, number> }>();
+  const levels = new Set(EDU_LEVELS);
+  // party english name -> { total, perLevel: Map<level, count> }
+  const agg = new Map<string, { total: number; levels: Map<string, number> }>();
   for (const c of candidates) {
     const name = partyByName.get(c.party)?.name_en ?? c.party;
     let a = agg.get(name);
     if (!a) {
-      a = { total: 0, tiers: new Map() };
+      a = { total: 0, levels: new Map() };
       agg.set(name, a);
     }
     a.total++;
-    const tier = EDU_TIERS.find((t) => t.match(c.education || ""));
-    if (tier) a.tiers.set(tier.key, (a.tiers.get(tier.key) ?? 0) + 1);
+    const e = c.education || "";
+    if (levels.has(e)) a.levels.set(e, (a.levels.get(e) ?? 0) + 1);
   }
 
   const byTier: EduByParty["byTier"] = {};
-  for (const tier of EDU_TIERS) {
+  for (const level of EDU_LEVELS) {
     const ranked = [...agg.entries()]
       .map(([name, a]) => ({
         name,
-        count: a.tiers.get(tier.key) ?? 0,
+        count: a.levels.get(level) ?? 0,
         total: a.total,
       }))
       .filter((r) => r.count > 0)
       .sort((a, b) => b.count - a.count || b.total - a.total)
       .slice(0, topN);
-    byTier[tier.key] = {
+    byTier[level] = {
       labels: ranked.map((r) => r.name),
       counts: ranked.map((r) => r.count),
       totals: ranked.map((r) => r.total),
@@ -365,7 +356,7 @@ export function educationTiersByParty(
   }
 
   return {
-    order: EDU_TIERS.map((t) => ({ key: t.key, label: t.label })),
+    order: EDU_LEVELS.map((l) => ({ key: l, label: l })),
     byTier,
   };
 }
