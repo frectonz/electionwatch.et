@@ -13,6 +13,7 @@ import {
 import { fmt } from "@/lib/format";
 import StatTiles from "@/components/StatTiles.astro";
 import CandidateTable from "@/components/CandidateTable.astro";
+import ConstituencyStationMap from "@/components/ConstituencyStationMap.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight, MapPin } from "@lucide/astro";
 
@@ -106,6 +107,20 @@ const stats = [
       )
     }
   </section>
+
+  <!-- Polling-station map -->
+  {
+    c.polling_stations > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+        <h2 class="font-display text-2xl mb-1">Polling stations</h2>
+        <p class="text-ew-text-muted text-sm mb-4 max-w-2xl">
+          Where these candidates are voted on. Only stations NEBE published GPS
+          coordinates for are mapped.
+        </p>
+        <ConstituencyStationMap slug={c.slug} />
+      </section>
+    )
+  }
 
   <!-- Party split -->
   {

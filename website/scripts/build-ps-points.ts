@@ -9,10 +9,16 @@ const CAND_JSON = path.resolve(__dirname, "../../candidates/data/json");
 const SRC = path.join(PS_JSON, "stations");
 const DEST_DIR = path.resolve(__dirname, "../public/data");
 const REGION_DIR = path.join(DEST_DIR, "polling-stations-map");
+const CONSTITUENCY_DIR = path.join(REGION_DIR, "constituencies");
 
 interface RegionMeta {
   name: string;
   slug: string;
+}
+
+interface ConstituencyRecord {
+  slug: string;
+  polling_stations: number;
 }
 
 interface StationRecord {
@@ -65,6 +71,19 @@ export function buildPollingStationPoints() {
   const slugByName = new Map(regionMeta.map((r) => [r.name, r.slug]));
   const stationLinks = loadStationLinks();
 
+  // Every candidate constituency that matched a polling station, so we can emit
+  // a (possibly empty) file for each one — the constituency page fetches by slug
+  // and must not 404 when NEBE published no GPS coordinates for its stations.
+  const constituenciesFile = JSON.parse(
+    fs.readFileSync(path.join(CAND_JSON, "constituencies.json"), "utf-8"),
+  ) as { hopr: ConstituencyRecord[]; rc: ConstituencyRecord[] };
+  const constituencySlugs = [
+    ...constituenciesFile.hopr,
+    ...constituenciesFile.rc,
+  ]
+    .filter((c) => c.polling_stations > 0)
+    .map((c) => c.slug);
+
   const makeScope = (): Scope => ({
     regions: [],
     points: [],
@@ -73,6 +92,15 @@ export function buildPollingStationPoints() {
   });
   const all = makeScope();
   const perRegion = new Map<string, Scope>();
+  const perConstituency = new Map<string, Scope>();
+  const constituencyScope = (slug: string): Scope => {
+    let s = perConstituency.get(slug);
+    if (!s) {
+      s = makeScope();
+      perConstituency.set(slug, s);
+    }
+    return s;
+  };
 
   const tableIdx = (
     table: ConstituencyRef[],
@@ -130,6 +158,12 @@ export function buildPollingStationPoints() {
         if (!perRegion.has(slug)) perRegion.set(slug, makeScope());
         add(perRegion.get(slug)!, r, lat, lon, hoprRef, rcRef);
       }
+      // Each station belongs to one HoPR and one RC candidate constituency; emit
+      // it into both, keyed by the candidate-side slug the page is built on.
+      if (hoprRef)
+        add(constituencyScope(hoprRef.slug), r, lat, lon, hoprRef, rcRef);
+      if (rcRef)
+        add(constituencyScope(rcRef.slug), r, lat, lon, hoprRef, rcRef);
     }
   }
 
@@ -153,12 +187,22 @@ export function buildPollingStationPoints() {
     );
   }
 
+  fs.mkdirSync(CONSTITUENCY_DIR, { recursive: true });
+  for (const slug of constituencySlugs) {
+    const scope = perConstituency.get(slug) ?? makeScope();
+    fs.writeFileSync(
+      path.join(CONSTITUENCY_DIR, `${slug}.json`),
+      JSON.stringify(serialize(scope)),
+    );
+  }
+
   const kb = (
     fs.statSync(path.join(DEST_DIR, "polling-stations-map.json")).size / 1024
   ).toFixed(0);
   console.log(
     `[ps-map] ${all.points.length} GPS-located points -> ` +
-      `polling-stations-map.json (${kb} KB) + ${slugByName.size} region files`,
+      `polling-stations-map.json (${kb} KB) + ${slugByName.size} region files` +
+      ` + ${constituencySlugs.length} constituency files`,
   );
 }
 
