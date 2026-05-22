@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import {
   allDebates,
+  allParties,
   SOURCES,
   SOURCE_LABELS,
   formatDate,
@@ -10,6 +11,19 @@ import {
 } from "@/data";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight } from "@lucide/astro";
+
+// Parties ranked by how many of the analysed debates they took part in.
+const appearanceParties = allParties
+  .filter((p) => p.debateCount > 0)
+  .sort(
+    (a, b) => b.debateCount - a.debateCount || a.name.localeCompare(b.name),
+  );
+const appearanceChart = {
+  labels: appearanceParties.map((p) => p.name),
+  counts: appearanceParties.map((p) => p.debateCount),
+  slugs: appearanceParties.map((p) => p.slug),
+  total: allDebates.length,
+};
 ---
 
 <Layout
@@ -27,6 +41,26 @@ import { ArrowRight } from "@lucide/astro";
       Every claim links to its YouTube timestamp.
     </p>
   </section>
+
+  <!-- Parties by appearance -->
+  {
+    appearanceParties.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+        <h2 class="font-display text-2xl mb-1">Parties by appearance</h2>
+        <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+          How many of the {allDebates.length} analysed debates each party took
+          part in. Select a bar to open that party&rsquo;s profile.
+        </p>
+        <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+          <div
+            id="appearanceChart"
+            data-chart={JSON.stringify(appearanceChart)}
+            style={`height:${Math.max(220, appearanceParties.length * 28 + 24)}px`}
+          />
+        </div>
+      </section>
+    )
+  }
 
   {
     SOURCES.map((source: Source) => {
@@ -83,4 +117,97 @@ import { ArrowRight } from "@lucide/astro";
       );
     })
   }
+
+  <script>
+    // Horizontal bar of parties by debate appearances. Clicking a bar opens
+    // the party's profile.
+    import * as echarts from "echarts";
+    import {
+      grad,
+      barShadow,
+      offsetTooltip,
+      narrowYLabels,
+      tooltipBox,
+      tipTitle,
+      tipRow,
+      MUTED,
+      GRID,
+      INK,
+    } from "@/scripts/chart-style";
+
+    const el = document.getElementById("appearanceChart");
+    if (el) {
+      const d = JSON.parse(el.dataset.chart!) as {
+        labels: string[];
+        counts: number[];
+        slugs: string[];
+        total: number;
+      };
+      const chart = echarts.init(el);
+      chart.setOption({
+        baseOption: {
+          grid: { left: 4, right: 16, top: 4, bottom: 4, containLabel: true },
+          tooltip: {
+            ...tooltipBox,
+            trigger: "axis",
+            axisPointer: { type: "shadow" },
+            confine: true,
+            position: offsetTooltip,
+            formatter: (
+              p: { name: string; value: number; marker: string }[],
+            ) => {
+              const n = p[0].value;
+              const share = Math.round((n / d.total) * 100);
+              return (
+                tipTitle(p[0].name) +
+                tipRow(
+                  "Debates",
+                  `${n.toLocaleString()} of ${d.total.toLocaleString()}`,
+                  p[0].marker,
+                ) +
+                tipRow("Share", `${share}%`)
+              );
+            },
+          },
+          xAxis: {
+            type: "value",
+            axisLabel: { show: false },
+            axisLine: { show: false },
+            splitLine: { lineStyle: { color: GRID } },
+            minInterval: 1,
+          },
+          yAxis: {
+            type: "category",
+            inverse: true,
+            data: d.labels,
+            axisLabel: { color: MUTED, fontSize: 12 },
+            axisTick: { show: false },
+            axisLine: { show: false },
+          },
+          series: [
+            {
+              type: "bar",
+              data: d.counts,
+              cursor: "pointer",
+              itemStyle: {
+                color: grad(INK, "h"),
+                borderRadius: [0, 4, 4, 0],
+                ...barShadow,
+              },
+              barWidth: "62%",
+            },
+          ],
+        },
+        media: narrowYLabels,
+      });
+
+      chart.on("click", (params: { dataIndex: number }) => {
+        const slug = d.slugs[params.dataIndex];
+        if (slug) window.location.href = `/parties/${slug}`;
+      });
+
+      const ro = new ResizeObserver(() => chart.resize());
+      ro.observe(el);
+    }
+  </script>
 </Layout>
