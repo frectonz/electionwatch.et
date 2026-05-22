@@ -81,3 +81,33 @@ export const barShadow = {
   shadowColor: "rgba(31, 36, 85, 0.12)",
   shadowOffsetY: 2,
 };
+
+// --- Tooltips -------------------------------------------------------------
+// A single look for every chart tooltip: a soft white card with a hairline
+// border and lifted shadow, a bold heading over a divider, then label/value
+// rows (muted label on the left, mono value on the right). Spread `tooltipBox`
+// into a chart's `tooltip` config and build the body with `tipTitle`/`tipRow`.
+
+/** Card chrome for the tooltip container. */
+export const tooltipBox = {
+  backgroundColor: "rgba(255, 255, 255, 0.98)",
+  borderColor: "rgba(0, 0, 0, 0.08)",
+  borderWidth: 1,
+  padding: [10, 12] as [number, number],
+  textStyle: { color: INK, fontSize: 12, fontFamily: MONO },
+  extraCssText:
+    "border-radius:10px; box-shadow:0 10px 28px rgba(31,36,85,0.14);",
+};
+
+/** Bold heading with an optional muted suffix, followed by a divider. */
+export const tipTitle = (title: string, sub?: string) =>
+  `<div style="font-family:system-ui,sans-serif;font-weight:600;font-size:13px;color:${INK}">${title}` +
+  (sub ? ` <span style="color:${MUTED};font-weight:400">${sub}</span>` : "") +
+  `</div><div style="margin:7px 0;border-top:1px solid rgba(0,0,0,0.08)"></div>`;
+
+/** Label/value row: muted label left, mono value right. `marker` is the
+ * series colour dot ECharts passes in axis tooltips (pass "" otherwise). */
+export const tipRow = (label: string, value: string, marker = "") =>
+  `<div style="display:flex;justify-content:space-between;gap:20px;line-height:1.7">` +
+  `<span style="font-family:system-ui,sans-serif;color:${MUTED}">${marker}${label}</span>` +
+  `<span style="font-weight:600">${value}</span></div>`;

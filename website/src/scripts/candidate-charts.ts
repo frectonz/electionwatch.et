@@ -8,6 +8,9 @@ import {
   barShadow,
   offsetTooltip,
   narrowYLabels,
+  tooltipBox,
+  tipTitle,
+  tipRow,
   MONO,
   MUTED,
   GRID,
@@ -50,6 +53,7 @@ export function initCandidateCharts() {
             enterable: false,
             transitionDuration: 0.2,
             position: offsetTooltip,
+            ...tooltipBox,
             formatter: (
               p: {
                 name: string;
@@ -58,14 +62,17 @@ export function initCandidateCharts() {
                 marker: string;
               }[],
             ) => {
-              const rows = p
-                .map(
-                  (x) =>
-                    `${x.marker} ${x.seriesName} ballot: ${nf(x.value)} candidates`,
-                )
-                .join("<br>");
               const total = p.reduce((a, x) => a + (x.value || 0), 0);
-              return `<strong>${p[0].name}</strong><br>${rows}<br>Total: ${nf(total)} candidates`;
+              const rows = p
+                .map((x) =>
+                  tipRow(`${x.seriesName} ballot`, nf(x.value), x.marker),
+                )
+                .join("");
+              return (
+                tipTitle(p[0].name) +
+                rows +
+                tipRow("Total candidates", nf(total))
+              );
             },
           },
           xAxis: {
@@ -120,8 +127,9 @@ export function initCandidateCharts() {
             axisPointer: { type: "shadow" },
             confine: true,
             position: offsetTooltip,
+            ...tooltipBox,
             formatter: (p: { name: string; value: number }[]) =>
-              `${p[0].name}<br><strong>${nf(p[0].value)}</strong> candidates`,
+              tipTitle(p[0].name) + tipRow("Candidates", nf(p[0].value)),
           },
           xAxis: {
             type: "value",
@@ -174,8 +182,16 @@ export function initCandidateCharts() {
         tooltip: {
           trigger: "item",
           confine: true,
-          formatter: (p: { name: string; value: number; percent: number }) =>
-            `${p.name}<br><strong>${nf(p.value)}</strong> candidates · ${p.percent}%`,
+          ...tooltipBox,
+          formatter: (p: {
+            name: string;
+            value: number;
+            percent: number;
+            marker: string;
+          }) =>
+            tipTitle(p.name) +
+            tipRow("Candidates", nf(p.value), p.marker) +
+            tipRow("Share", `${p.percent}%`),
         },
         legend: {
           bottom: 0,

@@ -323,6 +323,9 @@ const sizeChart = {
       barShadow,
       offsetTooltip,
       narrowYLabels,
+      tooltipBox,
+      tipTitle,
+      tipRow,
       MONO,
       MUTED,
       GRID,
@@ -354,6 +357,7 @@ const sizeChart = {
             enterable: false,
             transitionDuration: 0.2,
             position: offsetTooltip,
+            ...tooltipBox,
             formatter: (
               params: {
                 name: string;
@@ -364,12 +368,19 @@ const sizeChart = {
             ) => {
               const total = params.reduce((a, p) => a + (p.value || 0), 0);
               const rows = params
-                .map(
-                  (p) =>
-                    `${p.marker} ${p.seriesName}: ${(p.value || 0).toLocaleString()}`,
+                .map((p) =>
+                  tipRow(
+                    p.seriesName,
+                    (p.value || 0).toLocaleString(),
+                    p.marker,
+                  ),
                 )
-                .join("<br>");
-              return `<strong>${params[0].name}</strong><br>${rows}<br>Total: ${total.toLocaleString()}`;
+                .join("");
+              return (
+                tipTitle(params[0].name) +
+                rows +
+                tipRow("Total stations", total.toLocaleString())
+              );
             },
           },
           xAxis: {
@@ -422,8 +433,10 @@ const sizeChart = {
           axisPointer: { type: "shadow" },
           confine: true,
           transitionDuration: 0.3,
+          ...tooltipBox,
           formatter: (p: { name: string; value: number }[]) =>
-            `Constituencies with ${p[0].name} polling stations<br><strong>${p[0].value.toLocaleString()}</strong>`,
+            tipTitle(`${p[0].name} polling stations`) +
+            tipRow("Constituencies", p[0].value.toLocaleString()),
         },
         xAxis: {
           type: "category",
