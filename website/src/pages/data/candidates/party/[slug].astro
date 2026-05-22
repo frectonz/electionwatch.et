@@ -350,7 +350,7 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
                   <Tag
                     href={r.slug ? `/data/candidates/c/${r.slug}` : undefined}
                     class:list={[
-                      "seat group bg-ew-card border border-ew-card-border rounded-lg px-4 py-3",
+                      "seat group min-w-0 bg-ew-card border border-ew-card-border rounded-lg px-4 py-3",
                       r.slug && "hover:border-ew-shell/40 transition-colors",
                     ]}
                     data-body={r.body}
