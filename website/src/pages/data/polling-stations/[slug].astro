@@ -180,7 +180,11 @@ const conStats = [
 
   <!-- Registration method -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
-    <h2 class="font-display text-2xl mb-4">Registration method</h2>
+    <h2 class="font-display text-2xl mb-1">Registration method</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Polling stations grouped by how voters registered there. These are counts
+      of stations, not voters.
+    </p>
     <div class="flex flex-wrap gap-3 mb-4">
       {
         region.digital > 0 && (
@@ -193,7 +197,7 @@ const conStats = [
               {fmt(region.digital)}
             </span>
             <span class="text-sm text-ew-text-muted">
-              online · {pct(region.digital, region.stations)}%
+              online stations · {pct(region.digital, region.stations)}%
             </span>
           </div>
         )
@@ -209,7 +213,7 @@ const conStats = [
               {fmt(region.manual)}
             </span>
             <span class="text-sm text-ew-text-muted">
-              in-person · {pct(region.manual, region.stations)}%
+              in-person stations · {pct(region.manual, region.stations)}%
             </span>
           </div>
         )
@@ -308,7 +312,7 @@ const conStats = [
         baseOption: {
           grid: { left: 8, right: 16, top: 30, bottom: 8, containLabel: true },
           legend: {
-            data: ["Online", "In-person"],
+            data: ["Online stations", "In-person stations"],
             top: 0,
             textStyle: { color: MUTED },
           },
@@ -356,14 +360,14 @@ const conStats = [
           },
           series: [
             {
-              name: "Online",
+              name: "Online stations",
               type: "bar",
               stack: "t",
               data: d.online,
               itemStyle: { color: grad(GOLD, "h"), ...barShadow },
             },
             {
-              name: "In-person",
+              name: "In-person stations",
               type: "bar",
               stack: "t",
               data: d.inperson,
