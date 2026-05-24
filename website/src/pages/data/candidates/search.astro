@@ -1,0 +1,125 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { candidatesIndex as idx } from "@/data/candidates";
+import { fmt } from "@/lib/format";
+import StatTiles from "@/components/StatTiles.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { ArrowRight, Search } from "@lucide/astro";
+
+const stats = [
+  { label: "Candidates", value: idx.total_candidates },
+  { label: "Parties", value: idx.party_count },
+  {
+    label: "Constituencies",
+    value: idx.hopr_constituency_count + idx.rc_constituency_count,
+  },
+  { label: "Regions", value: idx.region_count },
+];
+
+const selectClass =
+  "w-full bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50";
+---
+
+<Layout
+  title="Search candidates · electionwatch.et"
+  description="Search every candidate registered for Ethiopia's 7th General Election by name, party, region, constituency, gender, and education."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs
+      items={[
+        { label: "Data", href: "/data" },
+        { label: "Candidates", href: "/data/candidates" },
+        { label: "Search" },
+      ]}
+    />
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">Search candidates</h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      Every one of the {fmt(idx.total_candidates)} candidates the National Election
+      Board cleared for the 7th General Election. Search by name or party, and narrow
+      by region, ballot, gender, or education.
+    </p>
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
+    />
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <div id="candidate-search">
+      <!-- Search -->
+      <div class="relative mb-3">
+        <Search
+          class="w-4 h-4 text-ew-text-muted absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"
+        />
+        <input
+          type="search"
+          data-search
+          placeholder="Search name or party"
+          class="w-full bg-ew-card border border-ew-card-border rounded-lg h-10 pl-9 pr-3 text-sm text-ew-text placeholder:text-ew-text-muted focus:outline-none focus:border-ew-shell/50"
+        />
+      </div>
+
+      <!-- Filters -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-4">
+        <select data-filter="region" class={selectClass}>
+          <option value="">All regions</option>
+        </select>
+        <select data-filter="body" class={selectClass}>
+          <option value="">Both ballots</option>
+          <option value="hopr">House of People&rsquo;s Representatives</option>
+          <option value="rc">Regional Council</option>
+        </select>
+        <select data-filter="party" class={selectClass}>
+          <option value="">All parties</option>
+        </select>
+        <select data-filter="gender" class={selectClass}>
+          <option value="">All genders</option>
+        </select>
+        <select data-filter="education" class={selectClass}>
+          <option value="">All education</option>
+        </select>
+        <select data-filter="disability" class={selectClass}>
+          <option value="">Disability: any</option>
+          <option value="1">Has disability</option>
+          <option value="0">No disability</option>
+        </select>
+      </div>
+
+      <p id="cand-count" class="text-xs text-ew-text-muted tabular-nums mb-3">
+      </p>
+
+      <div class="bg-ew-card border border-ew-card-border rounded-xl">
+        <p
+          id="cand-status"
+          class="px-4 py-8 text-center text-sm text-ew-text-muted"
+        >
+          Loading candidates&hellip;
+        </p>
+        <div id="cand-results" class="divide-y divide-ew-card-border"></div>
+        <p
+          id="cand-empty"
+          class="hidden px-4 py-8 text-center text-sm text-ew-text-muted"
+        >
+          No candidates match your search.
+        </p>
+      </div>
+
+      <p class="text-xs text-ew-text-muted mt-3">
+        Showing up to 100 matches at a time. Add a filter or refine your search
+        to narrow the list. Looking for a whole seat?
+        <a
+          href="/data/candidates"
+          class="text-ew-shell hover:text-ew-gold inline-flex items-center gap-1"
+        >
+          Browse by region, party, or constituency
+          <ArrowRight class="w-3.5 h-3.5" />
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <script>
+    import { initCandidateSearch } from "@/scripts/candidate-search";
+    initCandidateSearch();
+  </script>
+</Layout>

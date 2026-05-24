@@ -19,7 +19,7 @@ import ContestedSeatCard from "@/components/ContestedSeatCard.astro";
 import PartyCards from "@/components/PartyCards.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import type { CandidateConstituency } from "@/data/candidates";
-import { ArrowRight, Landmark, Building2, MapPin } from "@lucide/astro";
+import { ArrowRight, Landmark, Building2, MapPin, Search } from "@lucide/astro";
 
 const HOPR = BALLOT_COLORS.hopr;
 const RC = BALLOT_COLORS.rc;
@@ -142,6 +142,13 @@ const peopleChart = peopleRings(
       regional councils, structured by region, constituency, and party, and
       linked to the polling stations where each will be voted on.
     </p>
+
+    <a
+      href="/data/candidates/search"
+      class="inline-flex items-center gap-2 mt-6 px-5 py-2.5 rounded-lg bg-ew-shell text-white font-medium text-sm hover:bg-ew-shell-soft transition-colors"
+    >
+      <Search class="w-4 h-4" /> Search all {fmt(idx.total_candidates)} candidates
+    </a>
 
     <StatTiles
       tiles={stats}
