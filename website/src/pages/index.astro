@@ -134,6 +134,76 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
     </div>
   </section>
 
+  <!-- Election countdown -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+    <div
+      id="election-countdown"
+      data-target="2026-06-01T00:00:00+03:00"
+      class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 bg-ew-shell text-white rounded-xl p-5 sm:p-6"
+    >
+      <div class="flex-1">
+        <p
+          class="text-xs font-semibold uppercase tracking-wider text-ew-gold-soft mb-1"
+        >
+          Election day
+        </p>
+        <p class="font-display text-xl sm:text-2xl leading-tight">
+          Monday, June 1, 2026
+        </p>
+      </div>
+      <div
+        class="flex gap-3 sm:gap-5 tabular-nums"
+        role="timer"
+        aria-live="off"
+      >
+        <div class="text-center">
+          <span
+            data-unit="days"
+            class="block font-mono text-3xl sm:text-4xl font-bold text-white"
+            >--</span
+          >
+          <span
+            class="block text-xs font-medium uppercase tracking-wide text-ew-gold-soft mt-1"
+            >Days</span
+          >
+        </div>
+        <div class="text-center">
+          <span
+            data-unit="hours"
+            class="block font-mono text-3xl sm:text-4xl font-bold text-white"
+            >--</span
+          >
+          <span
+            class="block text-xs font-medium uppercase tracking-wide text-ew-gold-soft mt-1"
+            >Hours</span
+          >
+        </div>
+        <div class="text-center">
+          <span
+            data-unit="minutes"
+            class="block font-mono text-3xl sm:text-4xl font-bold text-white"
+            >--</span
+          >
+          <span
+            class="block text-xs font-medium uppercase tracking-wide text-ew-gold-soft mt-1"
+            >Min</span
+          >
+        </div>
+        <div class="text-center">
+          <span
+            data-unit="seconds"
+            class="block font-mono text-3xl sm:text-4xl font-bold text-white"
+            >--</span
+          >
+          <span
+            class="block text-xs font-medium uppercase tracking-wide text-ew-gold-soft mt-1"
+            >Sec</span
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Datasets -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="flex items-end justify-between mb-6">
@@ -240,3 +310,42 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
     </div>
   </section>
 </Layout>
+
+<script>
+  const root = document.getElementById("election-countdown");
+  if (root) {
+    const target = new Date(root.dataset.target!).getTime();
+    const units = ["days", "hours", "minutes", "seconds"] as const;
+    const els = Object.fromEntries(
+      units.map((u) => [
+        u,
+        root.querySelector<HTMLElement>(`[data-unit="${u}"]`),
+      ]),
+    ) as Record<(typeof units)[number], HTMLElement>;
+
+    const pad = (n: number) => String(n).padStart(2, "0");
+
+    const render = () => {
+      const diff = target - Date.now();
+      if (diff <= 0) {
+        els.days.textContent = "00";
+        els.hours.textContent = "00";
+        els.minutes.textContent = "00";
+        els.seconds.textContent = "00";
+        return false;
+      }
+      const totalSeconds = Math.floor(diff / 1000);
+      els.days.textContent = String(Math.floor(totalSeconds / 86400));
+      els.hours.textContent = pad(Math.floor((totalSeconds % 86400) / 3600));
+      els.minutes.textContent = pad(Math.floor((totalSeconds % 3600) / 60));
+      els.seconds.textContent = pad(totalSeconds % 60);
+      return true;
+    };
+
+    if (render()) {
+      const timer = setInterval(() => {
+        if (!render()) clearInterval(timer);
+      }, 1000);
+    }
+  }
+</script>
