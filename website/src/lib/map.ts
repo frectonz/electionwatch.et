@@ -5,6 +5,7 @@
 import {
   Map as MlMap,
   NavigationControl,
+  GeolocateControl,
   type StyleSpecification,
   type CircleLayerSpecification,
   type ExpressionSpecification,
@@ -48,6 +49,15 @@ export function createMap(containerId: string): MlMap {
     scrollZoom: false, // don't hijack page scroll; enabled on click below
   });
   map.addControl(new NavigationControl(), "top-right");
+  // Let visitors jump to their own location and explore outward from there.
+  map.addControl(
+    new GeolocateControl({
+      positionOptions: { enableHighAccuracy: true },
+      trackUserLocation: true,
+      showUserLocation: true,
+    }),
+    "top-right",
+  );
   return map;
 }
 
