@@ -1,0 +1,293 @@
+---
+// Map of uncontested seats: every GPS-located polling station, coloured by the
+// single party standing unopposed in the constituency voted on there. Stations
+// in contested constituencies fade to faint grey, so the dominance of one party
+// across the uncontested races reads at a glance. A ballot toggle switches
+// between the HoPR and Regional Council races. Reuses the global map JSON built
+// by build-ps-points.ts.
+
+export interface UncontestedParty {
+  /** Stable key (the party's Amharic name) used to match dots to colours. */
+  key: string;
+  /** English label shown in the legend and popups. */
+  label: string;
+  color: string;
+}
+interface Props {
+  parties: UncontestedParty[];
+  /** Constituency slug -> party key, for each ballot's uncontested seats. */
+  hopr: Record<string, string>;
+  rc: Record<string, string>;
+  height?: string;
+}
+const { parties, hopr, rc, height = "68vh" } = Astro.props;
+
+const id = "ucmap-" + Math.random().toString(36).slice(2, 8);
+const GREY = "#d4d7e1"; // faint "contested" dots
+// Always open on the HoPR ballot; the toggle switches to the Regional Council.
+const startMode: "hopr" | "rc" = "hopr";
+const config = {
+  grey: GREY,
+  parties,
+  sets: { hopr, rc },
+  startMode,
+};
+---
+
+<style is:global>
+  .uc-pop-status {
+    font-size: 13px;
+    color: var(--color-ew-text);
+    line-height: 1.35;
+  }
+  .uc-pop-status strong {
+    color: var(--color-ew-shell);
+  }
+  .uc-pop-link {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-ew-shell);
+    text-decoration: none;
+  }
+  .uc-pop-link:hover {
+    color: var(--color-ew-gold);
+  }
+</style>
+
+<div>
+  <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mb-3">
+    <div class="flex flex-wrap gap-x-3 gap-y-1 text-sm text-ew-text-dim">
+      {
+        parties.map((p) => (
+          <span class="inline-flex items-center gap-1.5">
+            <span
+              class="w-3 h-3 rounded-full inline-block"
+              style={`background:${p.color}`}
+            />
+            {p.label}
+          </span>
+        ))
+      }
+      <span class="inline-flex items-center gap-1.5">
+        <span
+          class="w-3 h-3 rounded-full inline-block"
+          style={`background:${GREY}`}></span>
+        Contested
+      </span>
+    </div>
+    <div
+      id={`${id}-mode`}
+      class="inline-flex rounded-lg border border-ew-card-border overflow-hidden text-xs shrink-0"
+    >
+      <button
+        data-mode="hopr"
+        class="px-3 py-1.5 font-medium bg-ew-shell text-white"
+      >
+        HoPR
+      </button>
+      <button
+        data-mode="rc"
+        class="px-3 py-1.5 font-medium bg-ew-card text-ew-text-dim hover:text-ew-shell"
+      >
+        Regional Council
+      </button>
+    </div>
+  </div>
+  <div class="relative">
+    <div
+      id={id}
+      class="uc-map-root w-full rounded-xl border border-ew-card-border overflow-hidden bg-ew-card"
+      style={`height:${height};min-height:360px;`}
+      data-config={JSON.stringify(config)}
+    >
+    </div>
+    <div
+      id={`${id}-hint`}
+      class="absolute inset-0 grid place-items-center pointer-events-none transition-opacity duration-200"
+    >
+      <span
+        class="bg-ew-text/70 text-white text-sm rounded-full px-4 py-2 backdrop-blur-sm"
+      >
+        Click the map to zoom
+      </span>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { Popup, type ExpressionSpecification } from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
+  import {
+    createMap,
+    initScrollZoom,
+    wireModeToggle,
+    wireCursor,
+    esc,
+    CIRCLE_PAINT_BASE,
+    type MapData,
+  } from "@/lib/map";
+
+  interface UcParty {
+    key: string;
+    label: string;
+    color: string;
+  }
+  interface UcConfig {
+    grey: string;
+    parties: UcParty[];
+    sets: { hopr: Record<string, string>; rc: Record<string, string> };
+    startMode: "hopr" | "rc";
+  }
+  interface UcProps {
+    name: string;
+    woreda: string;
+    region: string;
+    phopr: string;
+    prc: string;
+    hslug: string;
+    hname: string;
+    rslug: string;
+    rname: string;
+  }
+
+  document
+    .querySelectorAll<HTMLElement>(".uc-map-root")
+    .forEach((container) => {
+      const id = container.id;
+      const { grey, parties, sets, startMode }: UcConfig = JSON.parse(
+        container.dataset.config!,
+      );
+      const label = new Map(parties.map((p) => [p.key, p.label]));
+      const prop = (mode: string) => (mode === "hopr" ? "phopr" : "prc");
+
+      const map = createMap(id);
+      initScrollZoom(map, container, id);
+
+      // A categorical "match" expression: party key -> its colour, else grey.
+      const colorFor = (mode: string): ExpressionSpecification => {
+        const pairs: string[] = [];
+        for (const p of parties) pairs.push(p.key, p.color);
+        return [
+          "match",
+          ["get", prop(mode)],
+          ...pairs,
+          grey,
+        ] as unknown as ExpressionSpecification;
+      };
+      // Uncontested (coloured) dots draw above the grey contested ones.
+      const sortFor = (mode: string): ExpressionSpecification => [
+        "case",
+        ["==", ["get", prop(mode)], ""],
+        0,
+        1,
+      ];
+
+      async function load() {
+        const data = (await fetch("/data/polling-stations-map.json").then((r) =>
+          r.json(),
+        )) as MapData;
+        const { hoprC, rcC } = data;
+
+        const fc: GeoJSON.FeatureCollection = {
+          type: "FeatureCollection",
+          features: data.points.map(
+            ([
+              lat,
+              lon,
+              regIdx,
+              ,
+              name,
+              woreda,
+              hIdx,
+              rIdx,
+            ]): GeoJSON.Feature => {
+              const h = hIdx >= 0 ? hoprC[hIdx] : null;
+              const r = rIdx >= 0 ? rcC[rIdx] : null;
+              const props: UcProps = {
+                name,
+                woreda: woreda ?? "",
+                region: data.regions[regIdx],
+                phopr: (h && sets.hopr[h.slug]) || "",
+                prc: (r && sets.rc[r.slug]) || "",
+                hslug: h ? h.slug : "",
+                hname: h ? h.name : "",
+                rslug: r ? r.slug : "",
+                rname: r ? r.name : "",
+              };
+              return {
+                type: "Feature",
+                geometry: { type: "Point", coordinates: [lon, lat] },
+                properties: props,
+              };
+            },
+          ),
+        };
+
+        map.addSource("stations", { type: "geojson", data: fc });
+        map.addLayer({
+          id: "station-point",
+          type: "circle",
+          source: "stations",
+          layout: { "circle-sort-key": sortFor(startMode) },
+          paint: { "circle-color": colorFor(startMode), ...CIRCLE_PAINT_BASE },
+        });
+
+        let mode = startMode;
+        wireModeToggle(id, (m) => {
+          mode = m as "hopr" | "rc";
+          map.setPaintProperty("station-point", "circle-color", colorFor(m));
+          map.setLayoutProperty("station-point", "circle-sort-key", sortFor(m));
+        });
+
+        map.on("click", "station-point", (e) => {
+          const f = e.features![0];
+          const p = f.properties as UcProps;
+          const where = [p.woreda, p.region]
+            .filter(Boolean)
+            .map(esc)
+            .join(" &middot; ");
+          const partyKey = mode === "hopr" ? p.phopr : p.prc;
+          const conName = mode === "hopr" ? p.hname : p.rname;
+          const conSlug = mode === "hopr" ? p.hslug : p.rslug;
+          const bodyLabel = mode === "hopr" ? "HoPR" : "Regional Council";
+          let status: string;
+          if (!conName) {
+            status = `No ${bodyLabel} constituency is linked to this station.`;
+          } else if (partyKey) {
+            status =
+              `<strong>${esc(label.get(partyKey) ?? "One party")}</strong> ` +
+              `stands unopposed here for ${bodyLabel} in ${esc(conName)}.`;
+          } else {
+            status = `${esc(conName)} is contested for ${bodyLabel} (more than one party stands).`;
+          }
+          const link =
+            conSlug && conName
+              ? `<a class="uc-pop-link" href="/data/candidates/c/${conSlug}">See this constituency &rsaquo;</a>`
+              : "";
+          new Popup({ offset: 12, maxWidth: "300px", closeButton: true })
+            .setLngLat(
+              (f.geometry as GeoJSON.Point).coordinates as [number, number],
+            )
+            .setHTML(
+              `<div>
+             <div class="ew-pop-head">
+               <div class="ew-pop-title">${esc(p.name)}</div>
+               ${where ? `<div class="ew-pop-sub">${where}</div>` : ""}
+             </div>
+             <div class="ew-pop-body">
+               <p class="uc-pop-status">${status}</p>
+               ${link}
+             </div>
+           </div>`,
+            )
+            .addTo(map);
+        });
+        wireCursor(map, "station-point");
+      }
+
+      if (map.loaded()) load();
+      else map.on("load", load);
+    });
+</script>

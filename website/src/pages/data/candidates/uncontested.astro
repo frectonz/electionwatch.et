@@ -1,0 +1,258 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import {
+  hoprCandidateConstituencies,
+  rcCandidateConstituencies,
+  loadAllCandidates,
+  partyByName,
+  partyUrlSlug,
+  BODY_SHORT,
+  type CandidateConstituency,
+} from "@/data/candidates";
+import { fmt, pct } from "@/lib/format";
+import StatTiles from "@/components/StatTiles.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import UncontestedMap from "@/components/UncontestedMap.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+
+const allConstituencies = [
+  ...hoprCandidateConstituencies,
+  ...rcCandidateConstituencies,
+];
+
+// The single party standing in each constituency, keyed by ballot+region+name.
+// A constituency is "uncontested" when only one party fields candidates there
+// (parties === 1); this map tells us which party that is.
+const partyByKey = new Map<string, string>();
+for (const cand of loadAllCandidates()) {
+  partyByKey.set(
+    `${cand.body}|${cand.region}|${cand.constituency}`,
+    cand.party,
+  );
+}
+
+type UncontestedRow = {
+  c: CandidateConstituency;
+  partyName: string;
+  partyEn: string;
+  partySlug: string | null;
+};
+const uncontested: UncontestedRow[] = allConstituencies
+  .filter((c) => c.parties === 1)
+  .map((c) => {
+    const partyName = partyByKey.get(`${c.body}|${c.region}|${c.name}`) ?? "";
+    const party = partyByName.get(partyName);
+    return {
+      c,
+      partyName,
+      partyEn: party?.name_en ?? partyName,
+      partySlug: party ? partyUrlSlug(party) : null,
+    };
+  });
+
+const hoprCount = uncontested.filter((u) => u.c.body === "hopr").length;
+const rcCount = uncontested.length - hoprCount;
+
+const stats = [
+  { label: "Uncontested seats", value: uncontested.length },
+  {
+    label: "HoPR",
+    value: hoprCount,
+    sub: `${pct(hoprCount, hoprCandidateConstituencies.length)}% of constituencies`,
+  },
+  {
+    label: "Regional Council",
+    value: rcCount,
+    sub: `${pct(rcCount, rcCandidateConstituencies.length)}% of constituencies`,
+  },
+];
+
+// Uncontested runs by party, split HoPR / RC. The dominant story is one party
+// winning the large majority of these races outright.
+type PartyTally = {
+  name: string;
+  nameEn: string;
+  slug: string | null;
+  hopr: number;
+  rc: number;
+  total: number;
+};
+const tallies = new Map<string, PartyTally>();
+for (const u of uncontested) {
+  let t = tallies.get(u.partyName);
+  if (!t) {
+    t = {
+      name: u.partyName,
+      nameEn: u.partyEn,
+      slug: u.partySlug,
+      hopr: 0,
+      rc: 0,
+      total: 0,
+    };
+    tallies.set(u.partyName, t);
+  }
+  t[u.c.body]++;
+  t.total++;
+}
+const byParty = [...tallies.values()].sort(
+  (a, b) => b.total - a.total || b.rc - a.rc,
+);
+const maxPartyTotal = byParty[0]?.total ?? 1;
+
+// Map colouring: one distinct colour per party (keyed by Amharic name, the
+// stable join key), assigned in order of how many uncontested seats they hold.
+const PALETTE = [
+  "#2d3370",
+  "#c79a3a",
+  "#3f8f5b",
+  "#b4503f",
+  "#7a5fb0",
+  "#d98324",
+  "#3f7fae",
+  "#9c6b8e",
+];
+const mapParties = byParty.map((p, i) => ({
+  key: p.name,
+  label: p.nameEn,
+  color: PALETTE[i % PALETTE.length],
+}));
+// Constituency slug -> party key, per ballot, for the dots on the map.
+const mapHopr: Record<string, string> = {};
+const mapRc: Record<string, string> = {};
+for (const u of uncontested) {
+  (u.c.body === "hopr" ? mapHopr : mapRc)[u.c.slug] = u.partyName;
+}
+
+// Full, searchable list of every uncontested constituency.
+const columns: GridColumn[] = [
+  { label: "Constituency", grow: 2 },
+  { label: "Region", grow: 1.1, filter: true },
+  { label: "Ballot", grow: 0.7, filter: true },
+  { label: "Party", grow: 1.8, filter: true },
+  { label: "Seats", numeric: true, grow: 0.6 },
+];
+const rows: GridRow[] = uncontested
+  .sort(
+    (a, b) =>
+      b.c.body.localeCompare(a.c.body) ||
+      a.c.region.localeCompare(b.c.region) ||
+      a.c.name.localeCompare(b.c.name),
+  )
+  .map((u) => ({
+    cells: [
+      { text: u.c.name, href: `/data/candidates/c/${u.c.slug}` },
+      { text: u.c.region },
+      { text: BODY_SHORT[u.c.body] },
+      {
+        text: u.partyEn,
+        href: u.partySlug ? `/data/candidates/party/${u.partySlug}` : null,
+      },
+      {
+        text:
+          u.c.seats == null
+            ? ""
+            : u.c.seats_estimated
+              ? `~${u.c.seats}`
+              : u.c.seats,
+        sort: u.c.seats ?? 0,
+      },
+    ],
+  }));
+---
+
+<Layout
+  title="Uncontested seats · electionwatch.et"
+  description="Constituencies in Ethiopia's 7th General Election where only one party is standing, by ballot and party."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
+    <Breadcrumbs
+      items={[
+        { label: "Data", href: "/data" },
+        { label: "Candidates", href: "/data/candidates" },
+        { label: "Uncontested" },
+      ]}
+    />
+    <h1 class="font-display text-4xl sm:text-5xl mb-3">Uncontested seats</h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      Constituencies where only one party fielded candidates, so it stands
+      without a rival party on the ballot.
+    </p>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8"
+    />
+  </section>
+
+  <!-- By party -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Uncontested runs by party</h2>
+    <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
+      How many uncontested seats each party holds, split between the House of
+      People&rsquo;s Representatives and the Regional Councils.
+    </p>
+    <div
+      class="bg-ew-card border border-ew-card-border rounded-xl divide-y divide-ew-card-border"
+    >
+      {
+        byParty.map((p) => (
+          <div class="flex items-center gap-4 px-4 py-3">
+            <div class="min-w-0 flex-1">
+              {p.slug ? (
+                <a
+                  href={`/data/candidates/party/${p.slug}`}
+                  class="text-ew-text hover:text-ew-shell transition-colors truncate block"
+                >
+                  {p.nameEn}
+                </a>
+              ) : (
+                <span class="text-ew-text truncate block">{p.nameEn}</span>
+              )}
+              <div class="mt-1.5 h-1.5 rounded-full bg-ew-shell/15 overflow-hidden">
+                <div
+                  class="h-full bg-ew-shell rounded-full"
+                  style={`width:${Math.max(2, (p.total / maxPartyTotal) * 100)}%`}
+                />
+              </div>
+            </div>
+            <div class="shrink-0 flex items-baseline gap-3 text-sm tabular-nums">
+              <span class="text-ew-text-muted text-xs">
+                {fmt(p.hopr)} HoPR · {fmt(p.rc)} RC
+              </span>
+              <span class="font-mono text-lg text-ew-text w-10 text-right">
+                {fmt(p.total)}
+              </span>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Where the uncontested races are</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Each polling station, coloured by the party standing unopposed in its
+      constituency. Stations in contested constituencies are grey. Switch
+      ballots to compare the HoPR and Regional Council races.
+    </p>
+    <UncontestedMap parties={mapParties} hopr={mapHopr} rc={mapRc} />
+  </section>
+
+  <!-- Full list -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="font-display text-2xl mb-4">Every uncontested constituency</h2>
+    <DataGrid
+      columns={columns}
+      rows={rows}
+      defaultSort={4}
+      defaultDir="desc"
+      searchPlaceholder="Search constituencies"
+      maxHeight="640px"
+    />
+  </section>
+</Layout>

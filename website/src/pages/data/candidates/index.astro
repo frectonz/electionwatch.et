@@ -19,7 +19,14 @@ import ContestedSeatCard from "@/components/ContestedSeatCard.astro";
 import PartyCards from "@/components/PartyCards.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import type { CandidateConstituency } from "@/data/candidates";
-import { ArrowRight, Landmark, Building2, MapPin, Search } from "@lucide/astro";
+import {
+  ArrowRight,
+  Landmark,
+  Building2,
+  MapPin,
+  Search,
+  Flag,
+} from "@lucide/astro";
 
 const HOPR = BALLOT_COLORS.hopr;
 const RC = BALLOT_COLORS.rc;
@@ -41,22 +48,24 @@ const linkedConstituencies = allConstituencies.filter(
 ).length;
 const linkPct = pct(linkedConstituencies, allConstituencies.length);
 
-// Most contested seats: most parties competing for one constituency. A measure
-// of how crowded the race is, and a way into the constituency pages. Shown for
-// the two ballots combined, then for each on its own.
+// Contestedness is measured by the number of parties competing for a
+// constituency, not the candidate count (RC constituencies are multi-member, so
+// a candidate count would just track seats). Shown for the two ballots combined,
+// then for each on its own.
+const allConstituenciesForContest = [
+  ...hoprCandidateConstituencies,
+  ...rcCandidateConstituencies,
+];
+// Most contested: most parties competing first. Ties break by name so the list
+// is stable rather than candidate-count driven. (The opposite end, uncontested
+// races, has its own page since it's almost entirely single-party seats.)
 const byContest = (list: CandidateConstituency[], n: number) =>
   [...list]
-    .sort((a, b) => b.parties - a.parties || b.candidates - a.candidates)
+    .sort((a, b) => b.parties - a.parties || a.name.localeCompare(b.name))
     .slice(0, n);
 
 const contestedGroups = [
-  {
-    label: "Overall",
-    items: byContest(
-      [...hoprCandidateConstituencies, ...rcCandidateConstituencies],
-      6,
-    ),
-  },
+  { label: "Overall", items: byContest(allConstituenciesForContest, 6) },
   {
     label: "House of People's Representatives",
     items: byContest(hoprCandidateConstituencies, 6),
@@ -66,6 +75,10 @@ const contestedGroups = [
     items: byContest(rcCandidateConstituencies, 6),
   },
 ];
+// Count of single-party races, for the link to the uncontested-seats page.
+const uncontestedCount = allConstituenciesForContest.filter(
+  (c) => c.parties === 1,
+).length;
 
 const stats = [
   { label: "Candidates", value: idx.total_candidates },
@@ -143,12 +156,24 @@ const peopleChart = peopleRings(
       linked to the polling stations where each will be voted on.
     </p>
 
-    <a
-      href="/data/candidates/search"
-      class="inline-flex items-center gap-2 mt-6 px-5 py-2.5 rounded-lg bg-ew-shell text-white font-medium text-sm hover:bg-ew-shell-soft transition-colors"
-    >
-      <Search class="w-4 h-4" /> Search all {fmt(idx.total_candidates)} candidates
-    </a>
+    <div class="flex flex-wrap items-center gap-3 mt-6">
+      <a
+        href="/data/candidates/search"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-ew-shell text-white font-medium text-sm hover:bg-ew-shell-soft transition-colors"
+      >
+        <Search class="w-4 h-4" /> Search all {fmt(idx.total_candidates)} candidates
+      </a>
+      <a
+        href="/data/candidates/uncontested"
+        class="group inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-ew-gold/50 bg-ew-gold/10 text-ew-text font-medium text-sm hover:bg-ew-gold/20 transition-colors"
+      >
+        <Flag class="w-4 h-4 text-ew-gold" />
+        {fmt(uncontestedCount)} seats are uncontested
+        <ArrowRight
+          class="w-4 h-4 text-ew-gold group-hover:translate-x-0.5 transition-transform"
+        />
+      </a>
+    </div>
 
     <StatTiles
       tiles={stats}
