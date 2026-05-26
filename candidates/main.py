@@ -98,7 +98,9 @@ def download_seat_pdf(client: httpx.Client, region: str, path: str) -> None:
     resp = client.get(url, follow_redirects=True)
     resp.raise_for_status()
     dest.write_bytes(resp.content)
-    console.print(f"[green]wrote[/green] seats/{dest.name} ({len(resp.content):,} bytes)")
+    console.print(
+        f"[green]wrote[/green] seats/{dest.name} ({len(resp.content):,} bytes)"
+    )
 
 
 def main() -> None:
