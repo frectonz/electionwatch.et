@@ -9,8 +9,9 @@ import {
   BODY_SHORT,
   type CandidateConstituency,
 } from "@/data/candidates";
-import { fmt, pct } from "@/lib/format";
+import { pct, BALLOT_COLORS } from "@/lib/format";
 import StatTiles from "@/components/StatTiles.astro";
+import BallotLegend from "@/components/BallotLegend.astro";
 import DataGrid, {
   type GridColumn,
   type GridRow,
@@ -100,7 +101,12 @@ for (const u of uncontested) {
 const byParty = [...tallies.values()].sort(
   (a, b) => b.total - a.total || b.rc - a.rc,
 );
-const maxPartyTotal = byParty[0]?.total ?? 1;
+// Stacked HoPR/RC bar chart of uncontested seats per party.
+const partyChart = {
+  names: byParty.map((p) => p.nameEn),
+  hopr: byParty.map((p) => p.hopr),
+  rc: byParty.map((p) => p.rc),
+};
 
 // Map colouring: one distinct colour per party (keyed by Amharic name, the
 // stable join key), assigned in order of how many uncontested seats they hold.
@@ -190,45 +196,23 @@ const rows: GridRow[] = uncontested
   <!-- By party -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Uncontested runs by party</h2>
-    <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
+    <p class="text-ew-text-dim text-sm mb-3 max-w-2xl">
       How many uncontested seats each party holds, split between the House of
       People&rsquo;s Representatives and the Regional Councils.
     </p>
-    <div
-      class="bg-ew-card border border-ew-card-border rounded-xl divide-y divide-ew-card-border"
-    >
-      {
-        byParty.map((p) => (
-          <div class="flex items-center gap-4 px-4 py-3">
-            <div class="min-w-0 flex-1">
-              {p.slug ? (
-                <a
-                  href={`/data/candidates/party/${p.slug}`}
-                  class="text-ew-text hover:text-ew-shell transition-colors truncate block"
-                >
-                  {p.nameEn}
-                </a>
-              ) : (
-                <span class="text-ew-text truncate block">{p.nameEn}</span>
-              )}
-              <div class="mt-1.5 h-1.5 rounded-full bg-ew-shell/15 overflow-hidden">
-                <div
-                  class="h-full bg-ew-shell rounded-full"
-                  style={`width:${Math.max(2, (p.total / maxPartyTotal) * 100)}%`}
-                />
-              </div>
-            </div>
-            <div class="shrink-0 flex items-baseline gap-3 text-sm tabular-nums">
-              <span class="text-ew-text-muted text-xs">
-                {fmt(p.hopr)} HoPR · {fmt(p.rc)} RC
-              </span>
-              <span class="font-mono text-lg text-ew-text w-10 text-right">
-                {fmt(p.total)}
-              </span>
-            </div>
-          </div>
-        ))
-      }
+    <BallotLegend class="mb-3" />
+    <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+      <div
+        id="uncontestedPartyChart"
+        data-chart={JSON.stringify(partyChart)}
+        data-colors={JSON.stringify({
+          hopr: BALLOT_COLORS.hopr,
+          rc: BALLOT_COLORS.rc,
+        })}
+        data-unit="uncontested seats"
+        style={`height:${Math.max(160, byParty.length * 34 + 24)}px`}
+      >
+      </div>
     </div>
   </section>
 
@@ -255,4 +239,9 @@ const rows: GridRow[] = uncontested
       maxHeight="640px"
     />
   </section>
+
+  <script>
+    import { initCandidateCharts } from "@/scripts/candidate-charts";
+    initCandidateCharts();
+  </script>
 </Layout>

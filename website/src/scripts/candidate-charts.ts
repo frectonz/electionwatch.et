@@ -42,6 +42,9 @@ export function initCandidateCharts() {
     mount(id, (el) => {
       const d = JSON.parse(el.dataset.chart!) as Stacked;
       const c = JSON.parse(el.dataset.colors!) as { hopr: string; rc: string };
+      // What each bar counts (e.g. "candidates", "uncontested seats"), shown in
+      // the tooltip total. Defaults to candidates for the existing breakdowns.
+      const unit = el.dataset.unit ?? "candidates";
       const chart = echarts.init(el);
       chart.setOption({
         baseOption: {
@@ -69,9 +72,7 @@ export function initCandidateCharts() {
                 )
                 .join("");
               return (
-                tipTitle(p[0].name) +
-                rows +
-                tipRow("Total candidates", nf(total))
+                tipTitle(p[0].name) + rows + tipRow(`Total ${unit}`, nf(total))
               );
             },
           },
@@ -234,6 +235,7 @@ export function initCandidateCharts() {
     });
 
   stackedBar("partyChart", true);
+  stackedBar("uncontestedPartyChart", true);
   stackedBar("regionChart");
   donut("genderChart");
   histBar("eduChart");
