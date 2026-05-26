@@ -52,13 +52,18 @@ const partyDist = partyDistChart(all);
 const stats = [
   { label: "Candidates", value: region.candidates },
   { label: "HoPR", value: region.hopr },
-  { label: "Regional Council", value: region.rc },
+  {
+    label: "Regional Council",
+    value: region.rc,
+    sub: `${fmt(region.rc_seats)} seats`,
+  },
   { label: "Parties", value: partyDist.counts.length },
 ];
 
 // Constituency tables, one per ballot.
 const conColumns: GridColumn[] = [
   { label: "Constituency", grow: 2.2 },
+  { label: "Seats", numeric: true, grow: 0.6 },
   { label: "Polling stations", numeric: true, grow: 0.9 },
   { label: "Candidates", numeric: true, grow: 0.7 },
 ];
@@ -73,6 +78,12 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
     .map((c) => ({
       cells: [
         { text: c.name, href: `/data/candidates/c/${c.slug}` },
+        {
+          // RC is multi-member; "~" flags a seat count estimated from candidates.
+          text:
+            c.seats == null ? "" : c.seats_estimated ? `~${c.seats}` : c.seats,
+          sort: c.seats ?? 0,
+        },
         { text: c.polling_stations || "", sort: c.polling_stations },
         { text: c.candidates },
       ],
@@ -171,7 +182,7 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
           <DataGrid
             columns={conColumns}
             rows={rows}
-            defaultSort={2}
+            defaultSort={3}
             defaultDir="desc"
             searchPlaceholder="Search constituencies"
             maxHeight="560px"

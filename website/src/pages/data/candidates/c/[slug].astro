@@ -51,8 +51,23 @@ const { c, candidates } = Astro.props as {
 const partyDist = partyDistChart(candidates);
 const female = candidates.filter((x) => x.gender === "Female").length;
 
+// Seats this constituency returns. HoPR is single-member; RC is multi-member,
+// which is why a party fields several candidates here. `seats_estimated` marks
+// RC constituencies NEBE's seat table didn't list under a matching name.
+const seatSub =
+  c.body === "hopr"
+    ? "single-member"
+    : c.seats_estimated
+      ? "estimated by largest party slate"
+      : "multi-member";
 const stats = [
   { label: "Candidates", value: c.candidates },
+  {
+    label: "Seats",
+    value:
+      c.seats == null ? "n/a" : c.seats_estimated ? `~${c.seats}` : c.seats,
+    sub: c.seats == null ? undefined : seatSub,
+  },
   { label: "Parties", value: c.parties },
   { label: "Women", value: female },
   {
@@ -85,7 +100,7 @@ const stats = [
 
     <StatTiles
       tiles={stats}
-      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6"
+      class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-6"
     />
 
     {

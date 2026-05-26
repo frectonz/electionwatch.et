@@ -40,6 +40,8 @@ export type CandidateRegion = {
   rc: number;
   hopr_constituencies: number;
   rc_constituencies: number;
+  /** Total Regional Council seats across the region (multi-member constituencies). */
+  rc_seats: number;
 };
 
 export type Party = {
@@ -67,6 +69,12 @@ export type CandidateConstituency = {
   name: string;
   candidates: number;
   parties: number;
+  /** Council seats this constituency returns. HoPR is always 1 (single-member);
+   * RC constituencies are multi-member. From NEBE's seat-allocation tables, or
+   * estimated from the largest party slate when the name couldn't be matched. */
+  seats: number | null;
+  /** True when `seats` is the candidate-count estimate, not the official figure. */
+  seats_estimated: boolean;
   /** Polling stations in this constituency (0 when no station match was found). */
   polling_stations: number;
   /** Matched polling-station constituency codes (join key to that dataset). */
