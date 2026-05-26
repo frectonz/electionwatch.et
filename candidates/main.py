@@ -15,6 +15,7 @@ from rich.console import Console
 BASE_URL = "https://nebe.org.et"
 DATA_DIR = Path(__file__).parent / "data"
 PDF_DIR = DATA_DIR / "pdfs"
+SEAT_DIR = DATA_DIR / "seats"
 
 console = Console()
 
@@ -51,6 +52,26 @@ CANDIDATE_PDFS = [
     ("south_west", "rc", "/sites/default/files/RC_SWE_Final_EN.pdf"),
 ]
 
+# Per-region seat-allocation tables from https://nebe.org.et/en/7th-General-Election:
+# each lists every constituency with its number of council seats. HoPR is always
+# single-member; Regional Council constituencies are multi-member, which is why a
+# party fields several RC candidates per constituency. (region_slug, source_path)
+SEAT_PDFS = [
+    ("addis_ababa", "/sites/default/files/Addis%20Ababa_0.pdf"),
+    ("afar", "/sites/default/files/Afar_4.pdf"),
+    ("amhara", "/sites/default/files/Amhara_0.pdf"),
+    ("benshangul_gumz", "/sites/default/files/Benshangul%20Gumuz.pdf"),
+    ("central_ethiopia", "/sites/default/files/Central%20Ethiopia.pdf"),
+    ("diredawa", "/sites/default/files/DireDawa.pdf"),
+    ("gambella", "/sites/default/files/Gambella_0.pdf"),
+    ("harari", "/sites/default/files/Harari.pdf"),
+    ("oromia", "/sites/default/files/Oromiya_0.pdf"),
+    ("sidama", "/sites/default/files/Sidama_1.pdf"),
+    ("somali", "/sites/default/files/Somali_1.pdf"),
+    ("south_ethiopia", "/sites/default/files/South%20Ethiopia.pdf"),
+    ("south_west", "/sites/default/files/South%20West%20Ethiopia.pdf"),
+]
+
 
 def download_pdf(client: httpx.Client, region: str, body: str, path: str) -> None:
     dest = PDF_DIR / f"{region}_{body}.pdf"
@@ -66,14 +87,34 @@ def download_pdf(client: httpx.Client, region: str, body: str, path: str) -> Non
     console.print(f"[green]wrote[/green] {dest.name} ({len(resp.content):,} bytes)")
 
 
+def download_seat_pdf(client: httpx.Client, region: str, path: str) -> None:
+    dest = SEAT_DIR / f"{region}.pdf"
+    if dest.exists():
+        console.print(f"[dim]skip[/dim] seats/{dest.name} (already downloaded)")
+        return
+
+    url = BASE_URL + path
+    console.print(f"[cyan]GET[/cyan] {url}")
+    resp = client.get(url, follow_redirects=True)
+    resp.raise_for_status()
+    dest.write_bytes(resp.content)
+    console.print(f"[green]wrote[/green] seats/{dest.name} ({len(resp.content):,} bytes)")
+
+
 def main() -> None:
     PDF_DIR.mkdir(parents=True, exist_ok=True)
+    SEAT_DIR.mkdir(parents=True, exist_ok=True)
     with httpx.Client(timeout=120) as client:
         for region, body, path in CANDIDATE_PDFS:
             try:
                 download_pdf(client, region, body, path)
             except httpx.HTTPError as exc:
                 console.print(f"[red]error[/red] {region}_{body}: {exc}")
+        for region, path in SEAT_PDFS:
+            try:
+                download_seat_pdf(client, region, path)
+            except httpx.HTTPError as exc:
+                console.print(f"[red]error[/red] seats/{region}: {exc}")
 
 
 if __name__ == "__main__":

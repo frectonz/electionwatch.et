@@ -8,7 +8,8 @@
     "hopr": 219,
     "rc": 797,
     "hopr_constituencies": 23,
-    "rc_constituencies": 10
+    "rc_constituencies": 10,
+    "rc_seats": 153
   },
   {
     "slug": "afar",
@@ -19,7 +20,8 @@
     "hopr": 48,
     "rc": 507,
     "hopr_constituencies": 8,
-    "rc_constituencies": 32
+    "rc_constituencies": 32,
+    "rc_seats": 140
   },
   {
     "slug": "amhara",
@@ -30,7 +32,8 @@
     "hopr": 494,
     "rc": 757,
     "hopr_constituencies": 138,
-    "rc_constituencies": 137
+    "rc_constituencies": 137,
+    "rc_seats": 291
   },
   {
     "slug": "benshangul_gumz",
@@ -41,7 +44,8 @@
     "hopr": 31,
     "rc": 356,
     "hopr_constituencies": 9,
-    "rc_constituencies": 20
+    "rc_constituencies": 20,
+    "rc_seats": 152
   },
   {
     "slug": "central_ethiopia",
@@ -52,7 +56,8 @@
     "hopr": 164,
     "rc": 570,
     "hopr_constituencies": 35,
-    "rc_constituencies": 35
+    "rc_constituencies": 35,
+    "rc_seats": 175
   },
   {
     "slug": "diredawa",
@@ -63,7 +68,8 @@
     "hopr": 13,
     "rc": 209,
     "hopr_constituencies": 2,
-    "rc_constituencies": 47
+    "rc_constituencies": 47,
+    "rc_seats": 186
   },
   {
     "slug": "gambella",
@@ -74,7 +80,8 @@
     "hopr": 9,
     "rc": 334,
     "hopr_constituencies": 3,
-    "rc_constituencies": 14
+    "rc_constituencies": 14,
+    "rc_seats": 202
   },
   {
     "slug": "harari",
@@ -85,7 +92,8 @@
     "hopr": 8,
     "rc": 67,
     "hopr_constituencies": 2,
-    "rc_constituencies": 3
+    "rc_constituencies": 3,
+    "rc_seats": 34
   },
   {
     "slug": "oromia",
@@ -96,7 +104,8 @@
     "hopr": 458,
     "rc": 988,
     "hopr_constituencies": 178,
-    "rc_constituencies": 179
+    "rc_constituencies": 179,
+    "rc_seats": 537
   },
   {
     "slug": "sidama",
@@ -107,7 +116,8 @@
     "hopr": 166,
     "rc": 1281,
     "hopr_constituencies": 19,
-    "rc_constituencies": 19
+    "rc_constituencies": 19,
+    "rc_seats": 190
   },
   {
     "slug": "somali",
@@ -118,7 +128,8 @@
     "hopr": 61,
     "rc": 650,
     "hopr_constituencies": 23,
-    "rc_constituencies": 72
+    "rc_constituencies": 72,
+    "rc_seats": 272
   },
   {
     "slug": "south_ethiopia",
@@ -129,7 +140,8 @@
     "hopr": 314,
     "rc": 1183,
     "hopr_constituencies": 49,
-    "rc_constituencies": 56
+    "rc_constituencies": 56,
+    "rc_seats": 229
   },
   {
     "slug": "south_west",
@@ -140,6 +152,7 @@
     "hopr": 95,
     "rc": 659,
     "hopr_constituencies": 20,
-    "rc_constituencies": 22
+    "rc_constituencies": 22,
+    "rc_seats": 171
   }
 ]

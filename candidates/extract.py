@@ -16,10 +16,16 @@ polling-stations dataset) so the two datasets join on region. Constituencies
 join by (region, body, constituency name): for HoPR the name is the electoral
 district ("የምርጫ ክልል N"); for RC it is the sub-region name.
 
+Seats per constituency come from NEBE's separate seat-allocation tables (one PDF
+per region, under data/seats/). HoPR is single-member; Regional Council
+constituencies are multi-member, which is why a party fields several RC candidates
+in one constituency. Each RC constituency is matched to its seat count by name;
+unmatched ones fall back to the largest party slate as a lower-bound estimate.
+
 Output (all under data/json/):
   - candidates/{region}_{body}.json  normalized candidate records, one per PDF
   - regions.json                     per-region candidate + constituency counts
-  - constituencies.json              hopr / rc constituencies with stable slugs
+  - constituencies.json              hopr / rc constituencies with stable slugs + seats
   - parties.json                     party -> candidate counts (overall + body)
   - index.json                       dataset totals
 """
@@ -36,6 +42,7 @@ from rich.console import Console
 
 DATA_DIR = Path(__file__).parent / "data"
 PDF_DIR = DATA_DIR / "pdfs"
+SEAT_DIR = DATA_DIR / "seats"
 JSON_DIR = DATA_DIR / "json"
 CANDIDATES_DIR = JSON_DIR / "candidates"
 
@@ -306,6 +313,89 @@ def join_polling_stations(constituencies: dict[str, list[dict]]) -> dict:
     return links
 
 
+# --- Seats per constituency (NEBE seat-allocation tables) ------------------
+# https://nebe.org.et/en/7th-General-Election publishes one table per region
+# listing every constituency and how many council seats it returns. HoPR is
+# always single-member (one seat), so each party fields exactly one candidate;
+# Regional Council constituencies are multi-member, which is why a party fields
+# several RC candidates in the same constituency. We read the authoritative RC
+# seat count here and attach it to each RC constituency.
+#
+# Layout: a ruled table whose last three columns are the RC constituency name
+# (English, then in the regional language/Amharic) and its seat count. The Addis
+# Ababa sheet lists HoPR only (no RC columns) and is skipped.
+
+
+# Generic administrative-unit words that one source appends and the other omits
+# (e.g. candidate "መጋሌ ወረዳ" vs seat-table "መጋሌ"); dropped so names compare bare.
+SEAT_STOPWORDS = {"ወረዳ", "ልዩ"}
+
+
+def seat_norm(value: str) -> str:
+    """Match key for joining seat names to candidate names: keep only Ethiopic
+    letters and digits (an RC name's identity), dropping the Latin transliteration
+    (including accented forms like î/ê that a plain [A-Za-z] strip would leave
+    behind), the bilingual '/' separator, punctuation, and generic admin words."""
+    text = re.sub(r"[^ሀ-፿0-9\s]", " ", value or "")
+    tokens = [t for t in text.split() if t not in SEAT_STOPWORDS]
+    return " ".join(tokens)
+
+
+def load_rc_seats() -> dict[str, dict[str, int]]:
+    """region_slug -> {seat_norm(name) -> seats} for Regional Council constituencies."""
+    seats: dict[str, dict[str, int]] = {}
+    if not SEAT_DIR.exists():
+        console.print("[yellow]warning[/yellow] seat-allocation PDFs not found")
+        return seats
+
+    for pdf in sorted(SEAT_DIR.glob("*.pdf")):
+        region_slug = pdf.stem
+        by_name: dict[str, int] = {}
+        doc = pymupdf.open(pdf)
+        for page in doc:
+            for table in page.find_tables().tables:
+                if table.col_count < 7:  # HoPR-only sheet (e.g. Addis Ababa)
+                    continue
+                for row in table.extract():
+                    seat, name = row[-1], row[-2]
+                    if name and seat and str(seat).strip().isdigit():
+                        key = seat_norm(name)
+                        if key:
+                            by_name.setdefault(key, int(seat))
+        doc.close()
+        if by_name:
+            seats[region_slug] = by_name
+    return seats
+
+
+def attach_seats(constituencies: dict[str, list[dict]], party_index: dict) -> None:
+    """Set `seats` + `seats_estimated` on every constituency. HoPR is always 1
+    (single-member). RC uses the authoritative seat table; where a constituency
+    can't be matched by name, it falls back to the largest number of candidates
+    any single party fields there (an RC party runs one candidate per seat, so
+    that is a sound lower-bound estimate)."""
+    rc_seats = load_rc_seats()
+    matched = 0
+    for c in constituencies["hopr"]:
+        c["seats"] = 1
+        c["seats_estimated"] = False
+    for c in constituencies["rc"]:
+        authoritative = rc_seats.get(c["region_slug"], {}).get(seat_norm(c["name"]))
+        if authoritative is not None:
+            c["seats"] = authoritative
+            c["seats_estimated"] = False
+            matched += 1
+        else:
+            parties = party_index[c["region_slug"]]["rc"][c["name"]]
+            c["seats"] = max(parties.values(), default=0) or None
+            c["seats_estimated"] = c["seats"] is not None
+    total = len(constituencies["rc"])
+    console.print(
+        f"[cyan]seats[/cyan] {matched}/{total} RC constituencies matched to the "
+        f"seat tables ({total - matched} estimated from candidate counts)"
+    )
+
+
 def build_record(region: dict[str, str], body: str, cells: dict[int, str]) -> dict:
     get = lambda i: clean(cells.get(i, ""))  # noqa: E731
     return {
@@ -389,6 +479,11 @@ def main() -> None:
                     }
                 )
     station_links = join_polling_stations(constituencies)
+    attach_seats(constituencies, constituency_index)
+    # Per-region RC seat totals (resolved value, incl. estimates), for regions.json.
+    rc_seat_totals: dict[str, int] = defaultdict(int)
+    for c in constituencies["rc"]:
+        rc_seat_totals[c["region_slug"]] += c["seats"] or 0
     (JSON_DIR / "constituencies.json").write_text(
         json.dumps(constituencies, ensure_ascii=False, indent=2), encoding="utf-8"
     )
@@ -417,6 +512,7 @@ def main() -> None:
                 "rc": region_totals[region_slug]["rc"],
                 "hopr_constituencies": len(idx["hopr"]),
                 "rc_constituencies": len(idx["rc"]),
+                "rc_seats": rc_seat_totals[region_slug],
             }
         )
     regions_out.sort(key=lambda r: r["name"])

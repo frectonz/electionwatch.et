@@ -9,7 +9,7 @@ An independent civic project publishing open data for Ethiopia's 7th General Ele
 Everything comes from material published by the National Election Board of Ethiopia (NEBE). The repository is split into the data pipelines that prepare it and the website that presents it:
 
 - `transcripts/` — official party debates: transcribed, then analysed into per-party positions with citations back to the source video.
-- `candidates/` — the full HoPR and Regional Council candidate lists, parsed from NEBE's PDFs and cross-linked to parties and polling stations.
+- `candidates/` — the full HoPR and Regional Council candidate lists, parsed from NEBE's PDFs, cross-linked to parties and polling stations, and annotated with the number of council seats each constituency returns (HoPR is single-member; Regional Council constituencies are multi-member).
 - `polling-stations/` — every registered polling station, with NEBE-published GPS coordinates where available.
 - `symbols/` — the ballot symbols matched to each party.
 - `website/` — the Astro site that renders all of the above.

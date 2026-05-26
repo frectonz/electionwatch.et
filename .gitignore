@@ -11,3 +11,4 @@ __pycache__/
 # regenerable NEBE source PDFs (re-download via main.py in each dataset)
 polling-stations/data/pdfs/
 candidates/data/pdfs/
+candidates/data/seats/
