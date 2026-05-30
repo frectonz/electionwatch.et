@@ -48,6 +48,15 @@ importers:
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.4.0(jiti@2.7.0))
+      '@fontsource/instrument-serif':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/lora':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/noto-sans-ethiopic':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@types/node':
         specifier: ^25.6.0
         version: 25.9.0
@@ -1030,6 +1039,15 @@ packages:
   '@eslint/plugin-kit@0.7.1':
     resolution: {integrity: sha512-rZAP3aVgB9ds9KOeUSL+zZ21hPmo8dh6fnIFwRQj5EAZl9gzR7wxYbYXYysAM8CTqGmUGyp2S4kUdV17MnGuWQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
+
+  '@fontsource/instrument-serif@5.2.8':
+    resolution: {integrity: sha512-s+bkz+syj2rO00Rmq9g0P+PwuLig33DR1xDR8pTWmovH1pUjwnncrFk++q9mmOex8fUQ7oW80gPpPDaw7V1MMw==}
+
+  '@fontsource/lora@5.2.8':
+    resolution: {integrity: sha512-AQlfsHw4TP1x/eb2IZ6VjQ70ctKa39m9JN9A4zlvDOeKYLrCs+GaYIEQ86Y6YfSPGHn01bErXkRcyktOW0LOPQ==}
+
+  '@fontsource/noto-sans-ethiopic@5.2.7':
+    resolution: {integrity: sha512-Co2bpNTpQ7hBZb00z8/FQOwQZjhu1KM8cucwgLPgyRaK91pmnPC25Q+RGghXP2SZlUuPOIj1UjY8NXCaJFgGLQ==}
 
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
@@ -5454,6 +5472,12 @@ snapshots:
     dependencies:
       '@eslint/core': 1.2.1
       levn: 0.4.1
+
+  '@fontsource/instrument-serif@5.2.8': {}
+
+  '@fontsource/lora@5.2.8': {}
+
+  '@fontsource/noto-sans-ethiopic@5.2.7': {}
 
   '@humanfs/core@0.19.2':
     dependencies:

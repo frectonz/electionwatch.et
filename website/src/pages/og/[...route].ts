@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { createRequire } from "node:module";
 import type { APIRoute, GetStaticPaths } from "astro";
 import satori from "satori";
 import { Resvg } from "@resvg/resvg-js";
@@ -9,27 +11,22 @@ const SHELL_DEEP = "#15172a";
 const GOLD = "#c79a3a";
 const PAPER = "#eeeff5";
 
-// --- Fonts: fetched once at build time ---
-async function loadFont(url: string): Promise<ArrayBuffer> {
-  const res = await fetch(url);
-  return res.arrayBuffer();
+// --- Fonts: read from the @fontsource packages at build time ---
+const require = createRequire(import.meta.url);
+function loadFont(pkgPath: string): Buffer {
+  return readFileSync(require.resolve(pkgPath));
 }
 
-const [instrumentSerif, loraRegular, loraBold, notoEthiopic] =
-  await Promise.all([
-    loadFont(
-      "https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-normal.ttf",
-    ),
-    loadFont(
-      "https://cdn.jsdelivr.net/fontsource/fonts/lora@latest/latin-400-normal.ttf",
-    ),
-    loadFont(
-      "https://cdn.jsdelivr.net/fontsource/fonts/lora@latest/latin-700-normal.ttf",
-    ),
-    loadFont(
-      "https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-ethiopic@latest/ethiopic-400-normal.ttf",
-    ),
-  ]);
+const instrumentSerif = loadFont(
+  "@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff",
+);
+const loraRegular = loadFont(
+  "@fontsource/lora/files/lora-latin-400-normal.woff",
+);
+const loraBold = loadFont("@fontsource/lora/files/lora-latin-700-normal.woff");
+const notoEthiopic = loadFont(
+  "@fontsource/noto-sans-ethiopic/files/noto-sans-ethiopic-ethiopic-400-normal.woff",
+);
 
 // --- Markup builder ---
 function buildMarkup(page: OgPage) {
