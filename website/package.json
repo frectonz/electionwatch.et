@@ -37,6 +37,8 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
     "@eslint/js": "^10.0.1",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "@fontsource-variable/lora": "^5.2.8",
     "@fontsource/instrument-serif": "^5.2.8",
     "@fontsource/lora": "^5.2.8",
     "@fontsource/noto-sans-ethiopic": "^5.2.7",
