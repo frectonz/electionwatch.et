@@ -1,4 +1,3 @@
-// @ts-check
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
@@ -7,7 +6,6 @@ import AstroPWA from "@vite-pwa/astro";
 import { syncSymbols } from "./scripts/sync-symbols.ts";
 import { buildPollingStationPoints } from "./scripts/build-ps-points.ts";
 
-// Copies party symbol images into public/ before dev and build.
 function symbolAssets() {
   return {
     name: "symbol-assets",
@@ -17,7 +15,6 @@ function symbolAssets() {
   };
 }
 
-// Builds the compact polling-station map dataset into public/ before dev/build.
 function pollingStationMap() {
   return {
     name: "polling-station-map",
@@ -27,22 +24,15 @@ function pollingStationMap() {
   };
 }
 
-// Workbox-generated service worker and the web app manifest.
 function pwa() {
   return AstroPWA({
     registerType: "autoUpdate",
-    // Astro renders its own pages, so the registration isn't auto-injected;
-    // Layout.astro loads the emitted /registerSW.js.
     injectRegister: "script",
     workbox: {
-      // Precache only the offline fallback page; the rest is runtime-cached.
       globPatterns: ["offline/index.html", "manifest.webmanifest"],
-      // No SPA-style fallback: this is a multi-page site.
       navigateFallback: undefined,
       runtimeCaching: [
         {
-          // Page navigations: serve from cache, refresh in the background, and
-          // show the offline page only when the network is unreachable.
           urlPattern: ({ request }) => request.mode === "navigate",
           handler: "StaleWhileRevalidate",
           options: {
@@ -51,7 +41,6 @@ function pwa() {
           },
         },
         {
-          // Same-origin assets and data: stale-while-revalidate.
           urlPattern: ({ sameOrigin }) => sameOrigin,
           handler: "StaleWhileRevalidate",
           options: { cacheName: "electionwatch-et-assets" },
@@ -149,7 +138,6 @@ function pwa() {
   });
 }
 
-// https://astro.build/config
 export default defineConfig({
   site: "https://electionwatch.et",
   integrations: [
