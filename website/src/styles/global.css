@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "@fontsource/instrument-serif/400.css";
-@import "@fontsource-variable/lora/index.css";
 @import "@fontsource-variable/jetbrains-mono/index.css";
 
 @theme {
@@ -20,8 +18,8 @@
   --color-ew-text-dim: #3c3f55;
   --color-ew-text-muted: #7a7d92;
 
-  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
-  --font-body: "Lora Variable", Georgia, "Times New Roman", serif;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: Georgia, "Times New Roman", serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
 }
 

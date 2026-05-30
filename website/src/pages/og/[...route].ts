@@ -17,13 +17,12 @@ function loadFont(pkgPath: string): Buffer {
   return readFileSync(require.resolve(pkgPath));
 }
 
-const instrumentSerif = loadFont(
-  "@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff",
+const gelasioRegular = loadFont(
+  "@fontsource/gelasio/files/gelasio-latin-400-normal.woff",
 );
-const loraRegular = loadFont(
-  "@fontsource/lora/files/lora-latin-400-normal.woff",
+const gelasioBold = loadFont(
+  "@fontsource/gelasio/files/gelasio-latin-700-normal.woff",
 );
-const loraBold = loadFont("@fontsource/lora/files/lora-latin-700-normal.woff");
 const notoEthiopic = loadFont(
   "@fontsource/noto-sans-ethiopic/files/noto-sans-ethiopic-ethiopic-400-normal.woff",
 );
@@ -184,7 +183,7 @@ function buildMarkup(page: OgPage) {
                         style: {
                           fontSize: "30px",
                           color: GOLD,
-                          fontFamily: "Instrument Serif",
+                          fontFamily: "Gelasio",
                           letterSpacing: "0.02em",
                         },
                         children: "electionwatch.et",
@@ -210,7 +209,7 @@ function buildMarkup(page: OgPage) {
                         style: {
                           fontSize: page.title.length > 30 ? "52px" : "66px",
                           color: PAPER,
-                          fontFamily: "Instrument Serif",
+                          fontFamily: "Gelasio",
                           lineHeight: "1.12",
                         },
                         children: page.title,
@@ -224,7 +223,7 @@ function buildMarkup(page: OgPage) {
                               style: {
                                 fontSize: "26px",
                                 color: PAPER,
-                                fontFamily: "Lora",
+                                fontFamily: "Gelasio",
                                 lineHeight: "1.5",
                                 opacity: 0.8,
                               },
@@ -287,14 +286,8 @@ async function renderOgImage(page: OgPage) {
     width: 1200,
     height: 630,
     fonts: [
-      {
-        name: "Instrument Serif",
-        data: instrumentSerif,
-        weight: 400,
-        style: "normal",
-      },
-      { name: "Lora", data: loraRegular, weight: 400, style: "normal" },
-      { name: "Lora", data: loraBold, weight: 700, style: "normal" },
+      { name: "Gelasio", data: gelasioRegular, weight: 400, style: "normal" },
+      { name: "Gelasio", data: gelasioBold, weight: 700, style: "normal" },
       {
         name: "Noto Sans Ethiopic",
         data: notoEthiopic,
