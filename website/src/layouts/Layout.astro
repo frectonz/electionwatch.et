@@ -3,17 +3,20 @@ import "../styles/global.css";
 import { House, Landmark, Database, Info } from "@lucide/astro";
 import { Icon } from "astro-icon/components";
 import { ogImageFor } from "@/lib/og-pages";
+import { pwaInfo } from "virtual:pwa-info";
 
 interface Props {
   title?: string;
   description?: string;
   type?: string;
+  centerContent?: boolean;
 }
 
 const {
   title = "electionwatch.et · Open data for Ethiopia's 7th General Election",
   description = "Open datasets on Ethiopia's 7th General Election: candidates, polling stations, party debates, and positions. Every record links to its source.",
   type = "website",
+  centerContent = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -61,7 +64,7 @@ const glyphs = Array.from({ length: 150 }, () => {
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="electionwatch.et" />
@@ -120,14 +123,7 @@ const glyphs = Array.from({ length: 150 }, () => {
       })}
     />
     <slot name="head" />
-    {
-      import.meta.env.PROD && (
-        <script
-          is:inline
-          set:html={`if("serviceWorker" in navigator){window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js",{scope:"/",updateViaCache:"none"}).catch(()=>{});});}`}
-        />
-      )
-    }
+    {import.meta.env.PROD && <script is:inline src="/registerSW.js" />}
   </head>
   <body
     class="bg-ew-bg font-body min-h-screen flex flex-col antialiased relative"
@@ -193,7 +189,9 @@ const glyphs = Array.from({ length: 150 }, () => {
       </div>
     </nav>
 
-    <main class="flex-1 relative z-10">
+    <main
+      class:list={["flex-1 relative z-10", centerContent && "flex flex-col"]}
+    >
       <slot />
     </main>
 
