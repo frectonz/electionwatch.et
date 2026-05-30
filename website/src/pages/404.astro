@@ -1,0 +1,49 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { House, Database, Landmark, Compass } from "@lucide/astro";
+
+const links = [
+  { href: "/data", label: "Browse the data", Icon: Database },
+  { href: "/parties", label: "Parties", Icon: Landmark },
+  { href: "/", label: "Home", Icon: House },
+];
+---
+
+<Layout
+  title="Page not found · electionwatch.et"
+  description="Page not found."
+  centerContent
+>
+  <section
+    class="w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex-1 text-center flex flex-col items-center justify-center"
+  >
+    <div
+      class="w-14 h-14 rounded-xl bg-ew-shell/10 flex items-center justify-center mb-6"
+    >
+      <Compass class="w-7 h-7 text-ew-shell" />
+    </div>
+    <h1 class="font-display text-4xl sm:text-5xl text-ew-text mb-3">
+      Page not found
+    </h1>
+    <p class="text-ew-text-dim text-lg max-w-md mb-8">
+      That page doesn&rsquo;t exist, or it may have moved. Try one of these
+      instead.
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-3">
+      {
+        links.map(({ href, label, Icon }, i) => (
+          <a
+            href={href}
+            class={
+              i === 0
+                ? "inline-flex items-center gap-1.5 bg-ew-shell text-white px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-ew-shell/90 transition-colors"
+                : "inline-flex items-center gap-1.5 border border-ew-card-border text-ew-text px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-ew-card transition-colors"
+            }
+          >
+            <Icon class="w-4 h-4" /> {label}
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
