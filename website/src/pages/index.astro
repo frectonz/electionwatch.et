@@ -167,7 +167,15 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
           Monday, June 1, 2026
         </p>
       </div>
+      <p
+        data-ended
+        hidden
+        class="font-display text-xl sm:text-2xl leading-tight text-ew-gold-soft"
+      >
+        Voting has concluded.
+      </p>
       <div
+        data-timer
         class="flex gap-3 sm:gap-5 tabular-nums"
         role="timer"
         aria-live="off"
@@ -341,13 +349,14 @@ const partiesWithPositions = allParties.filter((p) => p.positions.length > 0);
 
     const pad = (n: number) => String(n).padStart(2, "0");
 
+    const timerEl = root.querySelector<HTMLElement>("[data-timer]");
+    const ended = root.querySelector<HTMLElement>("[data-ended]");
+
     const render = () => {
       const diff = target - Date.now();
       if (diff <= 0) {
-        els.days.textContent = "00";
-        els.hours.textContent = "00";
-        els.minutes.textContent = "00";
-        els.seconds.textContent = "00";
+        if (timerEl) timerEl.hidden = true;
+        if (ended) ended.hidden = false;
         return false;
       }
       const totalSeconds = Math.floor(diff / 1000);
