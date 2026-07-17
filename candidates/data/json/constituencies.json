@@ -551,8 +551,10 @@
       "name": "ላይ አርማጭሆ",
       "candidates": 6,
       "parties": 6,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "131"
+      ],
+      "polling_stations": 92,
       "seats": 1,
       "seats_estimated": false
     },
@@ -645,8 +647,10 @@
       "name": "መርዓዊ",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "143"
+      ],
+      "polling_stations": 112,
       "seats": 1,
       "seats_estimated": false
     },
@@ -659,8 +663,10 @@
       "name": "መርጦ ለማርያም",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "144"
+      ],
+      "polling_stations": 105,
       "seats": 1,
       "seats_estimated": false
     },
@@ -1057,8 +1063,10 @@
       "name": "ቋራ ማጠቢያ",
       "candidates": 5,
       "parties": 5,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "154"
+      ],
+      "polling_stations": 64,
       "seats": 1,
       "seats_estimated": false
     },
@@ -1167,8 +1175,10 @@
       "name": "ተሁለደሬ 1",
       "candidates": 4,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "168"
+      ],
+      "polling_stations": 50,
       "seats": 1,
       "seats_estimated": false
     },
@@ -1181,8 +1191,10 @@
       "name": "ተሁለደሬ 2",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "169"
+      ],
+      "polling_stations": 35,
       "seats": 1,
       "seats_estimated": false
     },
@@ -1897,8 +1909,10 @@
       "name": "ደምበጫ",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "76"
+      ],
+      "polling_stations": 95,
       "seats": 1,
       "seats_estimated": false
     },
@@ -2837,8 +2851,10 @@
       "name": "ላንፋሮ",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "463"
+      ],
+      "polling_stations": 77,
       "seats": 1,
       "seats_estimated": false
     },
@@ -3163,8 +3179,10 @@
       "name": "እነሞርና እነር 1",
       "candidates": 4,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "427"
+      ],
+      "polling_stations": 60,
       "seats": 1,
       "seats_estimated": false
     },
@@ -3177,8 +3195,10 @@
       "name": "እነሞርና እነር 2",
       "candidates": 2,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "428"
+      ],
+      "polling_stations": 44,
       "seats": 1,
       "seats_estimated": false
     },
@@ -3491,8 +3511,10 @@
       "name": "'ሲቡ ሲሬ / Siibuu Siree",
       "candidates": 2,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "334"
+      ],
+      "polling_stations": 62,
       "seats": 1,
       "seats_estimated": false
     },
@@ -3535,8 +3557,10 @@
       "name": "ሉሜ / ሞጆ / Luumee / Mojoo",
       "candidates": 4,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "311"
+      ],
+      "polling_stations": 168,
       "seats": 1,
       "seats_estimated": false
     },
@@ -3629,8 +3653,10 @@
       "name": "ሐረዋጫ / Haraawachaa",
       "candidates": 1,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "281"
+      ],
+      "polling_stations": 333,
       "seats": 1,
       "seats_estimated": false
     },
@@ -3783,8 +3809,10 @@
       "name": "መኢሶ / Mi'eessoo",
       "candidates": 1,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "320"
+      ],
+      "polling_stations": 83,
       "seats": 1,
       "seats_estimated": false
     },
@@ -4211,8 +4239,10 @@
       "name": "ቅምቢቢት / Qimbibiit",
       "candidates": 2,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "297"
+      ],
+      "polling_stations": 123,
       "seats": 1,
       "seats_estimated": false
     },
@@ -4369,8 +4399,10 @@
       "name": "ባቱ / ዝዋይ / Baatuu / Ziwaay",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "211"
+      ],
+      "polling_stations": 183,
       "seats": 1,
       "seats_estimated": false
     },
@@ -4749,8 +4781,10 @@
       "name": "አሰኮ / Asakoo",
       "candidates": 1,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "207"
+      ],
+      "polling_stations": 56,
       "seats": 1,
       "seats_estimated": false
     },
@@ -4763,8 +4797,10 @@
       "name": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "197"
+      ],
+      "polling_stations": 241,
       "seats": 1,
       "seats_estimated": false
     },
@@ -5001,8 +5037,10 @@
       "name": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "195"
+      ],
+      "polling_stations": 95,
       "seats": 1,
       "seats_estimated": false
     },
@@ -5237,8 +5275,10 @@
       "name": "ወለንጪቲ / Walancitii",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "354"
+      ],
+      "polling_stations": 155,
       "seats": 1,
       "seats_estimated": false
     },
@@ -6273,8 +6313,10 @@
       "name": "ፉኛን ቢራ / Funyaan Biraa",
       "candidates": 1,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "256"
+      ],
+      "polling_stations": 283,
       "seats": 1,
       "seats_estimated": false
     },
@@ -6287,8 +6329,10 @@
       "name": "ፊንጫ / Finca'aa",
       "candidates": 5,
       "parties": 5,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "255"
+      ],
+      "polling_stations": 174,
       "seats": 1,
       "seats_estimated": false
     },
@@ -6669,8 +6713,10 @@
       "name": "ቀብሪ በያህ / Qabri Bayax",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "381"
+      ],
+      "polling_stations": 438,
       "seats": 1,
       "seats_estimated": false
     },
@@ -6699,8 +6745,10 @@
       "name": "ቦህ ዳኖት / Bookh Danood",
       "candidates": 1,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "366"
+      ],
+      "polling_stations": 52,
       "seats": 1,
       "seats_estimated": false
     },
@@ -6985,8 +7033,10 @@
       "name": "ላስካ/ባስኬቶ መደበኛ",
       "candidates": 2,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "414"
+      ],
+      "polling_stations": 14,
       "seats": 1,
       "seats_estimated": false
     },
@@ -7079,8 +7129,10 @@
       "name": "ቀይ አፈር መደበኛ",
       "candidates": 4,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "448"
+      ],
+      "polling_stations": 110,
       "seats": 1,
       "seats_estimated": false
     },
@@ -7285,8 +7337,10 @@
       "name": "ኡባ ደብረ ጸሐይ",
       "candidates": 4,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "488"
+      ],
+      "polling_stations": 54,
       "seats": 1,
       "seats_estimated": false
     },
@@ -7765,8 +7819,10 @@
       "name": "መኤኒት ልዩ",
       "candidates": 3,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "466"
+      ],
+      "polling_stations": 85,
       "seats": 1,
       "seats_estimated": false
     },
@@ -8257,8 +8313,10 @@
       "name": "ሓዳሌኤላ ወረዳ / Caxxale Qeeli Daqaara",
       "candidates": 6,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "143"
+      ],
+      "polling_stations": 57,
       "seats": 3,
       "seats_estimated": false
     },
@@ -8301,8 +8359,10 @@
       "name": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
       "candidates": 8,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "169"
+      ],
+      "polling_stations": 49,
       "seats": 3,
       "seats_estimated": false
     },
@@ -8407,8 +8467,10 @@
       "name": "አርጎባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
       "candidates": 11,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "147"
+      ],
+      "polling_stations": 21,
       "seats": 3,
       "seats_estimated": false
     },
@@ -8467,8 +8529,10 @@
       "name": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
       "candidates": 40,
       "parties": 10,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "150"
+      ],
+      "polling_stations": 65,
       "seats": 7,
       "seats_estimated": true
     },
@@ -8657,8 +8721,10 @@
       "name": "ዳሊፋጌ ወረዳ / Xalefaageh Daqaara",
       "candidates": 6,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "155"
+      ],
+      "polling_stations": 41,
       "seats": 3,
       "seats_estimated": true
     },
@@ -8893,8 +8959,10 @@
       "name": "መርዓዊ",
       "candidates": 5,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "270"
+      ],
+      "polling_stations": 112,
       "seats": 2,
       "seats_estimated": true
     },
@@ -8907,8 +8975,10 @@
       "name": "መርጦ ለማርያም",
       "candidates": 3,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "271"
+      ],
+      "polling_stations": 105,
       "seats": 2,
       "seats_estimated": false
     },
@@ -9305,8 +9375,10 @@
       "name": "ቋራ ማጠቢያ",
       "candidates": 5,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "280"
+      ],
+      "polling_stations": 64,
       "seats": 2,
       "seats_estimated": false
     },
@@ -9415,8 +9487,10 @@
       "name": "ተሁለደሬ 1",
       "candidates": 7,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "294"
+      ],
+      "polling_stations": 50,
       "seats": 2,
       "seats_estimated": false
     },
@@ -9429,8 +9503,10 @@
       "name": "ተሁለደሬ 2",
       "candidates": 6,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "295"
+      ],
+      "polling_stations": 35,
       "seats": 2,
       "seats_estimated": false
     },
@@ -10129,8 +10205,10 @@
       "name": "ደምበጫ",
       "candidates": 2,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "212"
+      ],
+      "polling_stations": 95,
       "seats": 2,
       "seats_estimated": false
     },
@@ -11237,8 +11315,10 @@
       "name": "ላንፋሮ",
       "candidates": 13,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "670"
+      ],
+      "polling_stations": 77,
       "seats": 5,
       "seats_estimated": true
     },
@@ -11423,8 +11503,10 @@
       "name": "ቃጫቢራ",
       "candidates": 29,
       "parties": 10,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "652"
+      ],
+      "polling_stations": 77,
       "seats": 5,
       "seats_estimated": false
     },
@@ -12009,8 +12091,10 @@
       "name": "ለገኦዳ ጉንፈታ",
       "candidates": 2,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "375"
+      ],
+      "polling_stations": 8,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12055,8 +12139,10 @@
       "name": "ሐርላ",
       "candidates": 3,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "362"
+      ],
+      "polling_stations": 4,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12069,8 +12155,10 @@
       "name": "መልካ ቀሮ",
       "candidates": 2,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "376"
+      ],
+      "polling_stations": 4,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12083,8 +12171,10 @@
       "name": "ሙዲ አነኖ",
       "candidates": 3,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "377"
+      ],
+      "polling_stations": 1,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12113,8 +12203,10 @@
       "name": "ቃሊቻ",
       "candidates": 3,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "367"
+      ],
+      "polling_stations": 2,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12283,8 +12375,10 @@
       "name": "ኢልሀመር",
       "candidates": 2,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "354"
+      ],
+      "polling_stations": 2,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12297,8 +12391,10 @@
       "name": "ኢጃአነኒ",
       "candidates": 3,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "364"
+      ],
+      "polling_stations": 2,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12327,8 +12423,10 @@
       "name": "ኩርቱ",
       "candidates": 3,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "370"
+      ],
+      "polling_stations": 4,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12373,8 +12471,10 @@
       "name": "ደበሌይ",
       "candidates": 3,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "352"
+      ],
+      "polling_stations": 3,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12481,8 +12581,10 @@
       "name": "ጎል አደግ",
       "candidates": 2,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "359"
+      ],
+      "polling_stations": 1,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12543,8 +12645,10 @@
       "name": "ማኩዌይ",
       "candidates": 29,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "392"
+      ],
+      "polling_stations": 25,
       "seats": 14,
       "seats_estimated": false
     },
@@ -12811,8 +12915,10 @@
       "name": "ሉሜ / ሞጆ / Luumee / Mojoo",
       "candidates": 8,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "522"
+      ],
+      "polling_stations": 168,
       "seats": 3,
       "seats_estimated": false
     },
@@ -12905,8 +13011,10 @@
       "name": "ሐረዋጫ / Haraawachaa",
       "candidates": 4,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "495"
+      ],
+      "polling_stations": 333,
       "seats": 3,
       "seats_estimated": true
     },
@@ -13059,8 +13167,10 @@
       "name": "መኢሶ / Mi'eessoo",
       "candidates": 3,
       "parties": 1,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "531"
+      ],
+      "polling_stations": 83,
       "seats": 3,
       "seats_estimated": false
     },
@@ -13501,8 +13611,10 @@
       "name": "ቅምቢቢት / Qimbibiit",
       "candidates": 5,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "509"
+      ],
+      "polling_stations": 123,
       "seats": 3,
       "seats_estimated": false
     },
@@ -13659,8 +13771,10 @@
       "name": "ባቱ / ዝዋይ / Baatuu / Ziwaay",
       "candidates": 8,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "425"
+      ],
+      "polling_stations": 183,
       "seats": 3,
       "seats_estimated": false
     },
@@ -14055,8 +14169,10 @@
       "name": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
       "candidates": 8,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "410"
+      ],
+      "polling_stations": 246,
       "seats": 3,
       "seats_estimated": false
     },
@@ -14705,8 +14821,10 @@
       "name": "ደሎ መና / Dalloo Mannaa",
       "candidates": 7,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "458"
+      ],
+      "polling_stations": 138,
       "seats": 3,
       "seats_estimated": false
     },
@@ -14991,8 +15109,10 @@
       "name": "ጀልዱ / Jalduu",
       "candidates": 9,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "500"
+      ],
+      "polling_stations": 87,
       "seats": 3,
       "seats_estimated": false
     },
@@ -15037,8 +15157,10 @@
       "name": "ጅማ አርጆ / Jimmaa Arjoo",
       "candidates": 3,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "501"
+      ],
+      "polling_stations": 49,
       "seats": 3,
       "seats_estimated": false
     },
@@ -15291,8 +15413,10 @@
       "name": "ግንደ በረት / Gindabarat",
       "candidates": 8,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "479"
+      ],
+      "polling_stations": 105,
       "seats": 3,
       "seats_estimated": false
     },
@@ -15401,8 +15525,10 @@
       "name": "ጥቁር እንጭኒ / Xuqur Incinnii",
       "candidates": 9,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "563"
+      ],
+      "polling_stations": 117,
       "seats": 3,
       "seats_estimated": false
     },
@@ -15591,8 +15717,10 @@
       "name": "ፊንጫ / Finca'aa",
       "candidates": 4,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "468"
+      ],
+      "polling_stations": 174,
       "seats": 3,
       "seats_estimated": true
     },
@@ -15909,8 +16037,10 @@
       "name": "ሀርጌሌ / Hargeele",
       "candidates": 8,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "753"
+      ],
+      "polling_stations": 56,
       "seats": 3,
       "seats_estimated": false
     },
@@ -15955,8 +16085,10 @@
       "name": "ሐመሮ / Xamaro",
       "candidates": 5,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "752"
+      ],
+      "polling_stations": 36,
       "seats": 3,
       "seats_estimated": true
     },
@@ -15969,8 +16101,10 @@
       "name": "ሐርሺን / Xarshin",
       "candidates": 5,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "754"
+      ],
+      "polling_stations": 85,
       "seats": 3,
       "seats_estimated": false
     },
@@ -16031,8 +16165,10 @@
       "name": "ሙዩ ሙሉቄ / Mayo Muluqe",
       "candidates": 7,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "763"
+      ],
+      "polling_stations": 37,
       "seats": 3,
       "seats_estimated": true
     },
@@ -16253,8 +16389,10 @@
       "name": "ቀብሪ ደሀር / Qabri Dahar",
       "candidates": 8,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "758"
+      ],
+      "polling_stations": 68,
       "seats": 4,
       "seats_estimated": false
     },
@@ -16345,8 +16483,10 @@
       "name": "ብርቆት / Birqod",
       "candidates": 8,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "718"
+      ],
+      "polling_stations": 33,
       "seats": 4,
       "seats_estimated": false
     },
@@ -16423,8 +16563,10 @@
       "name": "አውበሬ / Awbare",
       "candidates": 19,
       "parties": 6,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "713"
+      ],
+      "polling_stations": 191,
       "seats": 6,
       "seats_estimated": false
     },
@@ -16565,8 +16707,10 @@
       "name": "ዩአሌ / Yocaale",
       "candidates": 9,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "780"
+      ],
+      "polling_stations": 38,
       "seats": 4,
       "seats_estimated": false
     },
@@ -16673,8 +16817,10 @@
       "name": "ደጋህቡር / Dhagaxbuur",
       "candidates": 8,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "724"
+      ],
+      "polling_stations": 62,
       "seats": 5,
       "seats_estimated": false
     },
@@ -16687,8 +16833,10 @@
       "name": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
       "candidates": 15,
       "parties": 7,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "725"
+      ],
+      "polling_stations": 38,
       "seats": 4,
       "seats_estimated": true
     },
@@ -17052,8 +17200,10 @@
       "name": "ላስካ/ባስኬቶ መደበኛ",
       "candidates": 17,
       "parties": 4,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "667"
+      ],
+      "polling_stations": 14,
       "seats": 5,
       "seats_estimated": false
     },
@@ -17162,8 +17312,10 @@
       "name": "ቀይ አፈር መደበኛ",
       "candidates": 10,
       "parties": 3,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "656"
+      ],
+      "polling_stations": 28,
       "seats": 5,
       "seats_estimated": false
     },
@@ -17432,8 +17584,10 @@
       "name": "ኡባ ደብረ ጸሐይ",
       "candidates": 14,
       "parties": 6,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "697"
+      ],
+      "polling_stations": 54,
       "seats": 5,
       "seats_estimated": false
     },
@@ -17944,8 +18098,10 @@
       "name": "መኤኒት ልዩ",
       "candidates": 6,
       "parties": 2,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "676"
+      ],
+      "polling_stations": 85,
       "seats": 3,
       "seats_estimated": false
     },
@@ -18102,8 +18258,10 @@
       "name": "አዲያ ካካ",
       "candidates": 39,
       "parties": 6,
-      "polling_station_codes": [],
-      "polling_stations": 0,
+      "polling_station_codes": [
+        "596"
+      ],
+      "polling_stations": 84,
       "seats": 10,
       "seats_estimated": false
     },

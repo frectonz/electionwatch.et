@@ -246,7 +246,10 @@ def slugify(value: str) -> str:
 #   1. strip Latin transliteration, compare the bare Amharic names;
 #   2. failing that, drop a trailing split-number and compare again, except for
 #      the federal "የምርጫ ክልል N" districts, whose number is their identity and
-#      which already match exactly.
+#      which already match exactly;
+#   3. failing that, match on homophone-folded spellings (ሐረዋጫ/ሀረዋጫ), then
+#      vowel-stripped skeletons, then a small edit distance — accepted only when
+#      exactly one still-unclaimed station constituency in the region fits.
 ETHIOPIC_RE = re.compile(r"[ሀ-፿]")
 DISTRICT_PHRASE = "ክልል"  # "የምርጫ ክልል N" (never digit-stripped)
 
@@ -257,6 +260,66 @@ def norm_name(value: str) -> str:
 
 def strip_trailing_number(value: str) -> str:
     return re.sub(r"\s*\d+$", "", value).strip()
+
+
+ETHIOPIC_LO, ETHIOPIC_HI = 0x1200, 0x1380
+
+# Homophone families folded onto one base (family start -> replacement start),
+# preserving the vowel order within the family.
+FAMILY_FOLDS = [
+    (0x1210, 0x1200),  # ሐ -> ሀ
+    (0x1280, 0x1200),  # ኀ -> ሀ
+    (0x12B8, 0x1200),  # ኸ -> ሀ
+    (0x1220, 0x1230),  # ሠ -> ሰ
+    (0x12D0, 0x12A0),  # ዐ -> አ
+    (0x1340, 0x1338),  # ፀ -> ጸ
+]
+
+
+def am_fold(value: str) -> str:
+    """Ethiopic letters + digits only, homophone families folded."""
+    kept = []
+    for ch in value or "":
+        cp = ord(ch)
+        if ETHIOPIC_LO <= cp < ETHIOPIC_HI:
+            for src, dst in FAMILY_FOLDS:
+                if src <= cp < src + 8:
+                    ch = chr(dst + (cp - src))
+                    break
+            kept.append(ch)
+        elif ch.isdigit() or ch.isspace():
+            kept.append(ch)
+        else:
+            kept.append(" ")
+    return " ".join("".join(kept).split())
+
+
+def am_skeleton(value: str) -> str:
+    """am_fold with every syllable reduced to its base (first) order, so
+    vowel-variant spellings like ጀጎል/ጅጎል collide."""
+    out = []
+    for ch in am_fold(value):
+        cp = ord(ch)
+        if ETHIOPIC_LO <= cp < ETHIOPIC_HI:
+            out.append(chr(cp - ((cp - ETHIOPIC_LO) % 8)))
+        else:
+            out.append(ch)
+    return "".join(out)
+
+
+def edit_distance(a: str, b: str, limit: int) -> int:
+    """Levenshtein distance, giving up (returning limit + 1) past limit."""
+    if abs(len(a) - len(b)) > limit:
+        return limit + 1
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        if min(cur) > limit:
+            return limit + 1
+        prev = cur
+    return prev[-1]
 
 
 def candidate_segments(name: str) -> list[str]:
@@ -293,14 +356,53 @@ def join_polling_stations(constituencies: dict[str, list[dict]]) -> dict:
         for cc in constituencies[body]:
             region = cc["region"]
             codes: list[str] = []
+            # Full name first, slash intact; a trailing መደበኛ (regular) is
+            # dropped by the station list. ልዩ (special) is never stripped:
+            # the unqualified name is the regular constituency.
+            full = norm_name(cc["name"])
+            for variant in (full, re.sub(r"\s*መደበኛ$", "", full)):
+                codes += primary[region].get(variant, [])
             for seg in candidate_segments(cc["name"]):
                 codes += primary[region].get(seg, [])
             if not codes:
                 for seg in candidate_segments(cc["name"]):
                     if DISTRICT_PHRASE not in seg:
                         codes += secondary[region].get(strip_trailing_number(seg), [])
-            codes = sorted(set(codes), key=lambda c: int(c))
-            cc["polling_station_codes"] = codes
+            cc["polling_station_codes"] = sorted(set(codes), key=lambda c: int(c))
+
+        # Fuzzy second pass over the region's still-unclaimed station
+        # constituencies; only a unique fit at the strongest matching tier is
+        # accepted, so an ambiguous name stays unlinked rather than guessed.
+        claimed = {
+            code for cc in constituencies[body] for code in cc["polling_station_codes"]
+        }
+        unclaimed = [c for c in ps[body] if c["code"] not in claimed]
+        for cc in constituencies[body]:
+            if cc["polling_station_codes"]:
+                continue
+            fold = am_fold(norm_name(cc["name"]))
+            skel = am_skeleton(cc["name"])
+            tiers: list[list[str]] = [[], [], []]
+            for c in unclaimed:
+                if c["region"] != cc["region"]:
+                    continue
+                cfold = am_fold(norm_name(c["name"]))
+                if not cfold:
+                    continue
+                if cfold == fold:
+                    tiers[0].append(c["code"])
+                elif am_skeleton(c["name"]) == skel:
+                    tiers[1].append(c["code"])
+                elif edit_distance(fold, cfold, 2) <= 2:
+                    tiers[2].append(c["code"])
+            hit = next((t for t in tiers if t), None)
+            if hit and len(hit) == 1:
+                cc["polling_station_codes"] = hit
+                claimed.add(hit[0])
+                unclaimed = [c for c in unclaimed if c["code"] != hit[0]]
+
+        for cc in constituencies[body]:
+            codes = cc["polling_station_codes"]
             cc["polling_stations"] = sum(stations_by_code.get(c, 0) for c in codes)
             ref = {
                 "slug": cc["slug"],

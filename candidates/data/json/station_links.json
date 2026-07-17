@@ -165,6 +165,11 @@
       "name": "ሊበን",
       "candidates": 3
     },
+    "131": {
+      "slug": "amhara-hopr-3",
+      "name": "ላይ አርማጭሆ",
+      "candidates": 6
+    },
     "132": {
       "slug": "amhara-hopr-4",
       "name": "ላይ ጋይንት 1",
@@ -189,6 +194,16 @@
       "slug": "amhara-hopr-8",
       "name": "መራኛ",
       "candidates": 1
+    },
+    "143": {
+      "slug": "amhara-hopr-9",
+      "name": "መርዓዊ",
+      "candidates": 3
+    },
+    "144": {
+      "slug": "amhara-hopr-10",
+      "name": "መርጦ ለማርያም",
+      "candidates": 3
     },
     "139": {
       "slug": "amhara-hopr-11",
@@ -310,6 +325,11 @@
       "name": "ቋሪት",
       "candidates": 2
     },
+    "154": {
+      "slug": "amhara-hopr-35",
+      "name": "ቋራ ማጠቢያ",
+      "candidates": 5
+    },
     "66": {
       "slug": "amhara-hopr-36",
       "name": "በለሳ",
@@ -339,6 +359,16 @@
       "slug": "amhara-hopr-41",
       "name": "ብቸና",
       "candidates": 5
+    },
+    "168": {
+      "slug": "amhara-hopr-42",
+      "name": "ተሁለደሬ 1",
+      "candidates": 4
+    },
+    "169": {
+      "slug": "amhara-hopr-43",
+      "name": "ተሁለደሬ 2",
+      "candidates": 3
     },
     "170": {
       "slug": "amhara-hopr-44",
@@ -553,6 +583,11 @@
     "89": {
       "slug": "amhara-hopr-87",
       "name": "ደላንታ",
+      "candidates": 3
+    },
+    "76": {
+      "slug": "amhara-hopr-88",
+      "name": "ደምበጫ",
       "candidates": 3
     },
     "90": {
@@ -840,6 +875,11 @@
       "name": "ዳለቲ",
       "candidates": 1
     },
+    "463": {
+      "slug": "central_ethiopia-hopr-0",
+      "name": "ላንፋሮ",
+      "candidates": 3
+    },
     "461": {
       "slug": "central_ethiopia-hopr-1",
       "name": "ሌሞ 01",
@@ -919,6 +959,16 @@
       "slug": "central_ethiopia-hopr-20",
       "name": "እምድብር",
       "candidates": 4
+    },
+    "427": {
+      "slug": "central_ethiopia-hopr-21",
+      "name": "እነሞርና እነር 1",
+      "candidates": 4
+    },
+    "428": {
+      "slug": "central_ethiopia-hopr-22",
+      "name": "እነሞርና እነር 2",
+      "candidates": 2
     },
     "429": {
       "slug": "central_ethiopia-hopr-23",
@@ -1005,10 +1055,20 @@
       "name": "ጀጎል ዙሪያ እና ሁንደኔ",
       "candidates": 6
     },
+    "334": {
+      "slug": "oromia-hopr-0",
+      "name": "'ሲቡ ሲሬ / Siibuu Siree",
+      "candidates": 2
+    },
     "282": {
       "slug": "oromia-hopr-1",
       "name": "ሂርና / Hiirnaa",
       "candidates": 1
+    },
+    "311": {
+      "slug": "oromia-hopr-3",
+      "name": "ሉሜ / ሞጆ / Luumee / Mojoo",
+      "candidates": 4
     },
     "310": {
       "slug": "oromia-hopr-4",
@@ -1034,6 +1094,11 @@
       "slug": "oromia-hopr-8",
       "name": "ሌመን / Leemman",
       "candidates": 3
+    },
+    "281": {
+      "slug": "oromia-hopr-9",
+      "name": "ሐረዋጫ / Haraawachaa",
+      "candidates": 1
     },
     "278": {
       "slug": "oromia-hopr-12",
@@ -1063,6 +1128,11 @@
     "315": {
       "slug": "oromia-hopr-18",
       "name": "መንዲ / Mandii",
+      "candidates": 1
+    },
+    "320": {
+      "slug": "oromia-hopr-19",
+      "name": "መኢሶ / Mi'eessoo",
       "candidates": 1
     },
     "313": {
@@ -1185,6 +1255,11 @@
       "name": "ቄቤ / Qeebbee",
       "candidates": 1
     },
+    "297": {
+      "slug": "oromia-hopr-46",
+      "name": "ቅምቢቢት / Qimbibiit",
+      "candidates": 2
+    },
     "217": {
       "slug": "oromia-hopr-47",
       "name": "በሌ / Balee",
@@ -1229,6 +1304,11 @@
       "slug": "oromia-hopr-55",
       "name": "ቢሎኖጳ / Billoo Noophaa",
       "candidates": 1
+    },
+    "211": {
+      "slug": "oromia-hopr-56",
+      "name": "ባቱ / ዝዋይ / Baatuu / Ziwaay",
+      "candidates": 3
     },
     "210": {
       "slug": "oromia-hopr-57",
@@ -1340,6 +1420,16 @@
       "name": "አሰላ / Asallaa",
       "candidates": 6
     },
+    "207": {
+      "slug": "oromia-hopr-80",
+      "name": "አሰኮ / Asakoo",
+      "candidates": 1
+    },
+    "197": {
+      "slug": "oromia-hopr-81",
+      "name": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
+      "candidates": 3
+    },
     "185": {
       "slug": "oromia-hopr-82",
       "name": "አቦምሳ / Abboomsaa",
@@ -1410,6 +1500,11 @@
       "name": "አጉሊቾ / Aguulichoo",
       "candidates": 3
     },
+    "195": {
+      "slug": "oromia-hopr-96",
+      "name": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
+      "candidates": 3
+    },
     "351": {
       "slug": "oromia-hopr-97",
       "name": "ኡራጋ / Uraagaa",
@@ -1474,6 +1569,11 @@
       "slug": "oromia-hopr-110",
       "name": "ኮፈሌ 2 / Kofalee 2",
       "candidates": 1
+    },
+    "354": {
+      "slug": "oromia-hopr-111",
+      "name": "ወለንጪቲ / Walancitii",
+      "candidates": 3
     },
     "355": {
       "slug": "oromia-hopr-112",
@@ -1790,6 +1890,16 @@
       "name": "ጮራ / Cooraa",
       "candidates": 4
     },
+    "256": {
+      "slug": "oromia-hopr-176",
+      "name": "ፉኛን ቢራ / Funyaan Biraa",
+      "candidates": 1
+    },
+    "255": {
+      "slug": "oromia-hopr-177",
+      "name": "ፊንጫ / Finca'aa",
+      "candidates": 5
+    },
     "511": {
       "slug": "sidama-hopr-0",
       "name": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
@@ -1905,10 +2015,20 @@
       "name": "ቀላፎ / Qalaafo",
       "candidates": 4
     },
+    "381": {
+      "slug": "somali-hopr-4",
+      "name": "ቀብሪ በያህ / Qabri Bayax",
+      "candidates": 3
+    },
     "380": {
       "slug": "somali-hopr-5",
       "name": "ቀብሪ ደሀር / Qabri Dahar",
       "candidates": 2
+    },
+    "366": {
+      "slug": "somali-hopr-6",
+      "name": "ቦህ ዳኖት / Bookh Danood",
+      "candidates": 1
     },
     "364": {
       "slug": "somali-hopr-7",
@@ -1995,6 +2115,11 @@
       "name": "ሁምቦ ጠበላ",
       "candidates": 10
     },
+    "414": {
+      "slug": "south_ethiopia-hopr-1",
+      "name": "ላስካ/ባስኬቶ መደበኛ",
+      "candidates": 2
+    },
     "443": {
       "slug": "south_ethiopia-hopr-2",
       "name": "ሐመር ልዩ",
@@ -2019,6 +2144,11 @@
       "slug": "south_ethiopia-hopr-6",
       "name": "ሶዶ ዙሪያ 2",
       "candidates": 12
+    },
+    "448": {
+      "slug": "south_ethiopia-hopr-7",
+      "name": "ቀይ አፈር መደበኛ",
+      "candidates": 4
     },
     "458": {
       "slug": "south_ethiopia-hopr-8",
@@ -2079,6 +2209,11 @@
       "slug": "south_ethiopia-hopr-19",
       "name": "አርባ ምንጭ",
       "candidates": 12
+    },
+    "488": {
+      "slug": "south_ethiopia-hopr-20",
+      "name": "ኡባ ደብረ ጸሐይ",
+      "candidates": 4
     },
     "474": {
       "slug": "south_ethiopia-hopr-21",
@@ -2224,6 +2359,11 @@
       "slug": "south_west-hopr-0",
       "name": "ሎማ ቦሳ",
       "candidates": 6
+    },
+    "466": {
+      "slug": "south_west-hopr-1",
+      "name": "መኤኒት ልዩ",
+      "candidates": 3
     },
     "472": {
       "slug": "south_west-hopr-2",
@@ -2507,10 +2647,20 @@
       "name": "ጉለሌ",
       "candidates": 57
     },
+    "143": {
+      "slug": "afar-rc-0",
+      "name": "ሓዳሌኤላ ወረዳ / Caxxale Qeeli Daqaara",
+      "candidates": 6
+    },
     "168": {
       "slug": "afar-rc-2",
       "name": "ሚሌ ወረዳ / Millê Daqaara",
       "candidates": 34
+    },
+    "169": {
+      "slug": "afar-rc-3",
+      "name": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidates": 8
     },
     "151": {
       "slug": "afar-rc-4",
@@ -2532,6 +2682,11 @@
       "name": "ቴሩ ወረዳ / Teeri Daqaara",
       "candidates": 13
     },
+    "147": {
+      "slug": "afar-rc-10",
+      "name": "አርጎባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidates": 11
+    },
     "141": {
       "slug": "afar-rc-11",
       "name": "አብኣላ ወረዳ / Abqaalâ Daqaara",
@@ -2541,6 +2696,11 @@
       "slug": "afar-rc-13",
       "name": "አውራ ወረዳ / Awrâ Daqaara",
       "candidates": 14
+    },
+    "150": {
+      "slug": "afar-rc-14",
+      "name": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidates": 40
     },
     "142": {
       "slug": "afar-rc-15",
@@ -2596,6 +2756,11 @@
       "slug": "afar-rc-25",
       "name": "ዳሉል ወረዳ / Xalol Daqaara",
       "candidates": 16
+    },
+    "155": {
+      "slug": "afar-rc-26",
+      "name": "ዳሊፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidates": 6
     },
     "157": {
       "slug": "afar-rc-27",
@@ -2661,6 +2826,16 @@
       "slug": "amhara-rc-8",
       "name": "መራኛ",
       "candidates": 4
+    },
+    "270": {
+      "slug": "amhara-rc-9",
+      "name": "መርዓዊ",
+      "candidates": 5
+    },
+    "271": {
+      "slug": "amhara-rc-10",
+      "name": "መርጦ ለማርያም",
+      "candidates": 3
     },
     "266": {
       "slug": "amhara-rc-11",
@@ -2782,6 +2957,11 @@
       "name": "ቋሪት",
       "candidates": 3
     },
+    "280": {
+      "slug": "amhara-rc-35",
+      "name": "ቋራ ማጠቢያ",
+      "candidates": 5
+    },
     "187": {
       "slug": "amhara-rc-36",
       "name": "በለሳ",
@@ -2810,6 +2990,16 @@
     "188": {
       "slug": "amhara-rc-41",
       "name": "ብቸና",
+      "candidates": 6
+    },
+    "294": {
+      "slug": "amhara-rc-42",
+      "name": "ተሁለደሬ 1",
+      "candidates": 7
+    },
+    "295": {
+      "slug": "amhara-rc-43",
+      "name": "ተሁለደሬ 2",
       "candidates": 6
     },
     "296": {
@@ -3021,6 +3211,11 @@
       "slug": "amhara-rc-86",
       "name": "ደላንታ",
       "candidates": 7
+    },
+    "212": {
+      "slug": "amhara-rc-87",
+      "name": "ደምበጫ",
+      "candidates": 2
     },
     "213": {
       "slug": "amhara-rc-88",
@@ -3342,6 +3537,11 @@
       "name": "ፓዊ",
       "candidates": 14
     },
+    "670": {
+      "slug": "central_ethiopia-rc-0",
+      "name": "ላንፋሮ",
+      "candidates": 13
+    },
     "668": {
       "slug": "central_ethiopia-rc-1",
       "name": "ሌሞ 01",
@@ -3386,6 +3586,11 @@
       "slug": "central_ethiopia-rc-11",
       "name": "ቀዲዳ ጋሜላ 2",
       "candidates": 24
+    },
+    "652": {
+      "slug": "central_ethiopia-rc-12",
+      "name": "ቃጫቢራ",
+      "candidates": 29
     },
     "657": {
       "slug": "central_ethiopia-rc-13",
@@ -3557,6 +3762,11 @@
       "name": "ለገኦዳ ሚርጋ",
       "candidates": 2
     },
+    "375": {
+      "slug": "diredawa-rc-14",
+      "name": "ለገኦዳ ጉንፈታ",
+      "candidates": 2
+    },
     "371": {
       "slug": "diredawa-rc-15",
       "name": "ለገዲኒ",
@@ -3567,9 +3777,29 @@
       "name": "ለገዶል",
       "candidates": 2
     },
+    "362": {
+      "slug": "diredawa-rc-17",
+      "name": "ሐርላ",
+      "candidates": 3
+    },
+    "376": {
+      "slug": "diredawa-rc-18",
+      "name": "መልካ ቀሮ",
+      "candidates": 2
+    },
+    "377": {
+      "slug": "diredawa-rc-19",
+      "name": "ሙዲ አነኖ",
+      "candidates": 3
+    },
     "365": {
       "slug": "diredawa-rc-20",
       "name": "ቀልአድ",
+      "candidates": 3
+    },
+    "367": {
+      "slug": "diredawa-rc-21",
+      "name": "ቃሊቻ",
       "candidates": 3
     },
     "347": {
@@ -3612,9 +3842,24 @@
       "name": "አዳዳ",
       "candidates": 3
     },
+    "354": {
+      "slug": "diredawa-rc-32",
+      "name": "ኢልሀመር",
+      "candidates": 2
+    },
+    "364": {
+      "slug": "diredawa-rc-33",
+      "name": "ኢጃአነኒ",
+      "candidates": 3
+    },
     "369": {
       "slug": "diredawa-rc-34",
       "name": "ኩላዩ",
+      "candidates": 3
+    },
+    "370": {
+      "slug": "diredawa-rc-35",
+      "name": "ኩርቱ",
       "candidates": 3
     },
     "368": {
@@ -3625,6 +3870,11 @@
     "379": {
       "slug": "diredawa-rc-37",
       "name": "ዋሂል",
+      "candidates": 3
+    },
+    "352": {
+      "slug": "diredawa-rc-38",
+      "name": "ደበሌይ",
       "candidates": 3
     },
     "353": {
@@ -3652,6 +3902,11 @@
       "name": "ገንደ ገበሬ",
       "candidates": 3
     },
+    "359": {
+      "slug": "diredawa-rc-45",
+      "name": "ጎል አደግ",
+      "candidates": 2
+    },
     "351": {
       "slug": "diredawa-rc-46",
       "name": "ጭሪ ሚቲ",
@@ -3666,6 +3921,11 @@
       "slug": "gambella-rc-1",
       "name": "መንገሺ",
       "candidates": 14
+    },
+    "392": {
+      "slug": "gambella-rc-2",
+      "name": "ማኩዌይ",
+      "candidates": 29
     },
     "381": {
       "slug": "gambella-rc-3",
@@ -3742,6 +4002,11 @@
       "name": "ሂርና / Hiirnaa",
       "candidates": 3
     },
+    "522": {
+      "slug": "oromia-rc-2",
+      "name": "ሉሜ / ሞጆ / Luumee / Mojoo",
+      "candidates": 8
+    },
     "521": {
       "slug": "oromia-rc-3",
       "name": "ሊሙ ሰቃ / Limmuu Saqqaa",
@@ -3765,6 +4030,11 @@
     "518": {
       "slug": "oromia-rc-7",
       "name": "ሌመን / Leemman",
+      "candidates": 4
+    },
+    "495": {
+      "slug": "oromia-rc-8",
+      "name": "ሐረዋጫ / Haraawachaa",
       "candidates": 4
     },
     "491": {
@@ -3795,6 +4065,11 @@
     "526": {
       "slug": "oromia-rc-17",
       "name": "መንዲ / Mandii",
+      "candidates": 3
+    },
+    "531": {
+      "slug": "oromia-rc-18",
+      "name": "መኢሶ / Mi'eessoo",
       "candidates": 3
     },
     "524": {
@@ -3917,6 +4192,11 @@
       "name": "ቄቤ / Qeebbee",
       "candidates": 3
     },
+    "509": {
+      "slug": "oromia-rc-46",
+      "name": "ቅምቢቢት / Qimbibiit",
+      "candidates": 5
+    },
     "433": {
       "slug": "oromia-rc-47",
       "name": "በሌ / Balee",
@@ -3961,6 +4241,11 @@
       "slug": "oromia-rc-55",
       "name": "ቢሎኖጳ / Billoo Noophaa",
       "candidates": 3
+    },
+    "425": {
+      "slug": "oromia-rc-56",
+      "name": "ባቱ / ዝዋይ / Baatuu / Ziwaay",
+      "candidates": 8
     },
     "424": {
       "slug": "oromia-rc-57",
@@ -4076,6 +4361,11 @@
       "slug": "oromia-rc-80",
       "name": "አሰኮ / Asakoo",
       "candidates": 3
+    },
+    "410": {
+      "slug": "oromia-rc-81",
+      "name": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
+      "candidates": 8
     },
     "398": {
       "slug": "oromia-rc-82",
@@ -4262,6 +4552,11 @@
       "name": "ያዩ / Yaayyoo",
       "candidates": 3
     },
+    "458": {
+      "slug": "oromia-rc-122",
+      "name": "ደሎ መና / Dalloo Mannaa",
+      "candidates": 7
+    },
     "459": {
       "slug": "oromia-rc-123",
       "name": "ደምቢ / Dambii",
@@ -4347,6 +4642,11 @@
       "name": "ዶዶላ / Dodolaa",
       "candidates": 4
     },
+    "500": {
+      "slug": "oromia-rc-140",
+      "name": "ጀልዱ / Jalduu",
+      "candidates": 9
+    },
     "499": {
       "slug": "oromia-rc-141",
       "name": "ጃራ / Jaarraa",
@@ -4356,6 +4656,11 @@
       "slug": "oromia-rc-142",
       "name": "ጅማ ቀርሳ / Jimmaa Qarsaa",
       "candidates": 4
+    },
+    "501": {
+      "slug": "oromia-rc-143",
+      "name": "ጅማ አርጆ / Jimmaa Arjoo",
+      "candidates": 3
     },
     "503": {
       "slug": "oromia-rc-144",
@@ -4432,6 +4737,11 @@
       "name": "ግራዋ / Giraawwaa",
       "candidates": 3
     },
+    "479": {
+      "slug": "oromia-rc-159",
+      "name": "ግንደ በረት / Gindabarat",
+      "candidates": 8
+    },
     "484": {
       "slug": "oromia-rc-160",
       "name": "ጎማ 1 / Goommaa 1",
@@ -4461,6 +4771,11 @@
       "slug": "oromia-rc-165",
       "name": "ጢቾ / Xiichoo",
       "candidates": 3
+    },
+    "563": {
+      "slug": "oromia-rc-166",
+      "name": "ጥቁር እንጭኒ / Xuqur Incinnii",
+      "candidates": 9
     },
     "440": {
       "slug": "oromia-rc-167",
@@ -4516,6 +4831,11 @@
       "slug": "oromia-rc-177",
       "name": "ፉኛን ቢራ / Funyaan Biraa",
       "candidates": 3
+    },
+    "468": {
+      "slug": "oromia-rc-178",
+      "name": "ፊንጫ / Finca'aa",
+      "candidates": 4
     },
     "589": {
       "slug": "sidama-rc-0",
@@ -4612,6 +4932,11 @@
       "name": "ጩኮ / Chuuko",
       "candidates": 78
     },
+    "753": {
+      "slug": "somali-rc-0",
+      "name": "ሀርጌሌ / Hargeele",
+      "candidates": 8
+    },
     "751": {
       "slug": "somali-rc-1",
       "name": "ሃዳጋሌ / Hadhagala",
@@ -4621,6 +4946,16 @@
       "slug": "somali-rc-2",
       "name": "ለገሂዳ / Lagahido",
       "candidates": 6
+    },
+    "752": {
+      "slug": "somali-rc-3",
+      "name": "ሐመሮ / Xamaro",
+      "candidates": 5
+    },
+    "754": {
+      "slug": "somali-rc-4",
+      "name": "ሐርሺን / Xarshin",
+      "candidates": 5
     },
     "764": {
       "slug": "somali-rc-5",
@@ -4636,6 +4971,11 @@
       "slug": "somali-rc-7",
       "name": "ሙባረክ / Mubaarak",
       "candidates": 10
+    },
+    "763": {
+      "slug": "somali-rc-8",
+      "name": "ሙዩ ሙሉቄ / Mayo Muluqe",
+      "candidates": 7
     },
     "765": {
       "slug": "somali-rc-9",
@@ -4702,6 +5042,11 @@
       "name": "ቀብሪ በያህ / Qabri Bayax",
       "candidates": 8
     },
+    "758": {
+      "slug": "somali-rc-22",
+      "name": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidates": 8
+    },
     "769": {
       "slug": "somali-rc-24",
       "name": "ቁቢ / Qubi",
@@ -4722,6 +5067,11 @@
       "name": "ቤርአኖ / Beercaano",
       "candidates": 7
     },
+    "718": {
+      "slug": "somali-rc-28",
+      "name": "ብርቆት / Birqod",
+      "candidates": 8
+    },
     "719": {
       "slug": "somali-rc-29",
       "name": "ቦህ / Bookh",
@@ -4741,6 +5091,11 @@
       "slug": "somali-rc-32",
       "name": "አዋሬ / Awaare",
       "candidates": 9
+    },
+    "713": {
+      "slug": "somali-rc-33",
+      "name": "አውበሬ / Awbare",
+      "candidates": 19
     },
     "714": {
       "slug": "somali-rc-34",
@@ -4782,6 +5137,11 @@
       "name": "ዋርዴር",
       "candidates": 16
     },
+    "780": {
+      "slug": "somali-rc-42",
+      "name": "ዩአሌ / Yocaale",
+      "candidates": 9
+    },
     "729": {
       "slug": "somali-rc-44",
       "name": "ደራቶሌ / Daratoole",
@@ -4806,6 +5166,16 @@
       "slug": "somali-rc-48",
       "name": "ደጋህመዶ / Dhagax Madaw",
       "candidates": 7
+    },
+    "724": {
+      "slug": "somali-rc-49",
+      "name": "ደጋህቡር / Dhagaxbuur",
+      "candidates": 8
+    },
+    "725": {
+      "slug": "somali-rc-50",
+      "name": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
+      "candidates": 15
     },
     "730": {
       "slug": "somali-rc-51",
@@ -4917,6 +5287,11 @@
       "name": "ሁምቦ ጠበላ",
       "candidates": 47
     },
+    "667": {
+      "slug": "south_ethiopia-rc-1",
+      "name": "ላስካ/ባስኬቶ መደበኛ",
+      "candidates": 17
+    },
     "649": {
       "slug": "south_ethiopia-rc-2",
       "name": "ሐመር ልዩ",
@@ -4946,6 +5321,11 @@
       "slug": "south_ethiopia-rc-7",
       "name": "ሶዶ ዙሪያ 2",
       "candidates": 46
+    },
+    "656": {
+      "slug": "south_ethiopia-rc-8",
+      "name": "ቀይ አፈር መደበኛ",
+      "candidates": 10
     },
     "666": {
       "slug": "south_ethiopia-rc-9",
@@ -5026,6 +5406,11 @@
       "slug": "south_ethiopia-rc-24",
       "name": "አርቦሬ ልዩ",
       "candidates": 2
+    },
+    "697": {
+      "slug": "south_ethiopia-rc-25",
+      "name": "ኡባ ደብረ ጸሐይ",
+      "candidates": 14
     },
     "683": {
       "slug": "south_ethiopia-rc-26",
@@ -5182,6 +5567,11 @@
       "name": "ሎማ ቦሳ",
       "candidates": 63
     },
+    "676": {
+      "slug": "south_west-rc-1",
+      "name": "መኤኒት ልዩ",
+      "candidates": 6
+    },
     "680": {
       "slug": "south_west-rc-2",
       "name": "ሚዛን ተፈሪ",
@@ -5226,6 +5616,11 @@
       "slug": "south_west-rc-10",
       "name": "ቴፒ",
       "candidates": 37
+    },
+    "596": {
+      "slug": "south_west-rc-11",
+      "name": "አዲያ ካካ",
+      "candidates": 39
     },
     "651": {
       "slug": "south_west-rc-12",
