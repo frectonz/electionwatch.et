@@ -6,15 +6,17 @@ import DataGrid, {
   type GridColumn,
   type GridRow,
 } from "@/components/DataGrid.astro";
-import SeatPie from "@/components/SeatPie.astro";
+import SeatGrid from "@/components/SeatGrid.astro";
 import {
   resultBodies,
+  leadingParty,
   partyResultByKey,
   partyOfSlug,
   partyResultHref,
   resultsElected,
   type PartyResult,
   type RegionSeats,
+  type SeatBlock,
 } from "@/data/results";
 import {
   BODY_LABEL,
@@ -23,7 +25,14 @@ import {
   candidateRegions,
   type Body,
 } from "@/data/candidates";
-import { fmt, pct, OTHER_COLOR } from "@/lib/format";
+import {
+  fmt,
+  shareLabel,
+  LEADER_COLOR,
+  INDEPENDENT_COLOR,
+  SEAT_HUES,
+  OTHER_COLOR,
+} from "@/lib/format";
 import { ArrowRight, Users } from "@lucide/astro";
 
 export function getStaticPaths() {
@@ -88,6 +97,40 @@ elected.sort(
     a.row.candidate.localeCompare(b.row.candidate),
 );
 
+// Seat tiles for one body, coloured like the national chamber: incumbent
+// navy, independents their own colour, every other party a distinct hue.
+const seatBlocksFor = (b: BodyBlock): SeatBlock[] => {
+  let hue = 0;
+  const out: SeatBlock[] = b.rows.map(({ party, seats }) => {
+    const incumbent = party.key === leadingParty.key;
+    const color = incumbent
+      ? LEADER_COLOR
+      : party.independent
+        ? INDEPENDENT_COLOR
+        : SEAT_HUES[hue++ % SEAT_HUES.length];
+    return {
+      party: party.partyName,
+      seats,
+      color,
+      href: partyResultHref(party),
+      incumbent,
+    };
+  });
+  if (
+    b.seats.council_seats != null &&
+    b.seats.council_seats > b.seats.decided_seats
+  ) {
+    out.push({
+      party: "Undecided",
+      seats: b.seats.council_seats - b.seats.decided_seats,
+      color: OTHER_COLOR,
+      href: null,
+      incumbent: false,
+    });
+  }
+  return out;
+};
+
 const partyColumns: GridColumn[] = [
   { label: "Party", grow: 2, sortable: true },
   { label: "Seats", grow: 0.6, numeric: true, sortable: true },
@@ -100,7 +143,7 @@ const partyRowsFor = (b: BodyBlock): GridRow[] =>
       { text: r.party.partyName, href: partyResultHref(r.party) },
       { text: fmt(r.seats), sort: r.seats },
       {
-        text: `${pct(r.seats, b.seats.decided_seats)}%`,
+        text: `${shareLabel(r.seats, b.seats.decided_seats)}%`,
         sort: r.seats / b.seats.decided_seats,
       },
     ],
@@ -160,8 +203,8 @@ const stats = [
     <p class="text-ew-text-dim text-lg max-w-2xl mt-4">
       {
         winner
-          ? `${winner.partyName} took the most seats in ${region.name}, of ${fmt(decided)} decided across both councils.`
-          : `${fmt(decided)} seats decided across both councils.`
+          ? `${winner.partyName} took the most seats in ${region.name}, of ${fmt(decided)} decided across both ballots.`
+          : `${fmt(decided)} seats decided across both ballots.`
       }
     </p>
 
@@ -205,27 +248,8 @@ const stats = [
           </span>
         </div>
 
-        <div class="grid lg:grid-cols-[minmax(280px,340px)_1fr] gap-6 items-start">
-          <SeatPie
-            slices={[
-              ...b.rows.map((r) => ({
-                name: r.party.partyName,
-                value: r.seats,
-                color: r.party.color,
-              })),
-              ...(b.seats.council_seats != null &&
-              b.seats.council_seats > b.seats.decided_seats
-                ? [
-                    {
-                      name: "Undecided",
-                      value: b.seats.council_seats - b.seats.decided_seats,
-                      color: OTHER_COLOR,
-                    },
-                  ]
-                : []),
-            ]}
-            center={b.seats.decided_seats}
-          />
+        <div class="grid lg:grid-cols-[minmax(300px,420px)_1fr] gap-6 items-start">
+          <SeatGrid blocks={seatBlocksFor(b)} />
           <DataGrid
             columns={partyColumns}
             rows={partyRowsFor(b)}

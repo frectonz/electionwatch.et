@@ -1,15 +1,18 @@
 ---
-// The chamber drawn as its seats: one tile per seat, grouped by who holds it.
+// A chamber drawn as its seats: one tile per seat, grouped by who holds it.
 import { seatBlocks, type SeatBlock } from "@/data/results";
-import { fmt, pct } from "@/lib/format";
+import { fmt, shareLabel } from "@/lib/format";
 import type { Body } from "@/data/candidates";
 
 interface Props {
-  body: Body;
+  /** Ballot whose national chamber to draw; ignored when blocks is given. */
+  body?: Body;
+  /** Explicit seat blocks, e.g. one region's council. */
+  blocks?: SeatBlock[];
 }
-const { body } = Astro.props;
+const { body, blocks: given } = Astro.props;
 
-const blocks: SeatBlock[] = seatBlocks(body);
+const blocks: SeatBlock[] = given ?? seatBlocks(body!);
 const total = blocks.reduce((n, b) => n + b.seats, 0);
 
 // Tiles are built on the client: 2,681 seats as markup would weigh more than
@@ -42,7 +45,7 @@ const config = blocks.map((b) => ({
             <span class="text-ew-text-dim">{b.party}</span>
           )}
           <span class="text-ew-text-muted tabular-nums">
-            {fmt(b.seats)} · {pct(b.seats, total)}%
+            {fmt(b.seats)} · {shareLabel(b.seats, total)}%
           </span>
         </li>
       ))
