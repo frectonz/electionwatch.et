@@ -263,11 +263,13 @@ const regionRows: GridRow[] = candidateRegions
             Won by another party or an independent
           </li>
         </ul>
-        <div
-          id="chart-share"
-          class="w-full h-[280px] sm:h-[320px]"
-          data-dots={JSON.stringify(dots)}
-        />
+        <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
+          <div
+            id="chart-share"
+            class="w-full h-[280px] sm:h-[320px]"
+            data-dots={JSON.stringify(dots)}
+          />
+        </div>
       </section>
     )
   }
