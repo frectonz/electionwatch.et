@@ -13,9 +13,20 @@ interface Props {
   rc: Record<string, SeatOutcome>;
   /** Show only this party's seats in gold, everything else muted. */
   focusParty?: string;
+  /** Map data URL (global by default; pass a per-region file for region pages). */
+  dataUrl?: string;
+  /** Fit the view to the data bounds instead of the default Ethiopia view. */
+  fitData?: boolean;
   height?: string;
 }
-const { hopr, rc, focusParty, height = "70vh" } = Astro.props;
+const {
+  hopr,
+  rc,
+  focusParty,
+  dataUrl = "/data/polling-stations-map.json",
+  fitData = false,
+  height = "70vh",
+} = Astro.props;
 
 const id = "wmap-" + Math.random().toString(36).slice(2, 8);
 const config = {
@@ -27,6 +38,8 @@ const config = {
   },
   leaderName: leadingParty.partyName,
   focusParty: focusParty ?? null,
+  dataUrl,
+  fitData,
 };
 
 // No-result stations dissolve into the base map by design, so a legend swatch
@@ -133,7 +146,11 @@ const legend = [
 </div>
 
 <script>
-  import { Popup, type ExpressionSpecification } from "maplibre-gl";
+  import {
+    Popup,
+    LngLatBounds,
+    type ExpressionSpecification,
+  } from "maplibre-gl";
   import "maplibre-gl/dist/maplibre-gl.css";
   import {
     createMap,
@@ -151,6 +168,8 @@ const legend = [
     colors: Record<Outcome, string>;
     leaderName: string;
     focusParty: string | null;
+    dataUrl: string;
+    fitData: boolean;
   }
 
   document
@@ -175,11 +194,13 @@ const legend = [
         ] as unknown as ExpressionSpecification;
 
       async function load() {
-        const data = (await fetch("/data/polling-stations-map.json").then((r) =>
+        const data = (await fetch(cfg.dataUrl).then((r) =>
           r.json(),
         )) as MapData;
         const points = data.points;
         const { hoprC, rcC } = data;
+        const bounds = new LngLatBounds();
+        for (const [lat, lon] of points) bounds.extend([lon, lat]);
 
         const fc: GeoJSON.FeatureCollection = {
           type: "FeatureCollection",
@@ -216,6 +237,10 @@ const legend = [
             },
           ),
         };
+
+        if (cfg.fitData && !bounds.isEmpty()) {
+          map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
+        }
 
         map.addSource("st", { type: "geojson", data: fc });
         map.addLayer({
