@@ -19,8 +19,15 @@ zone assignments. Pairs the matcher cannot resolve are pinned in OVERRIDES.
 import csv
 import re
 from pathlib import Path
+from typing import TypedDict
 
 GAZETTEER_PATH = Path(__file__).parent / "data" / "gazetteer" / "eth_admin3_gzt.csv"
+
+
+class Override(TypedDict):
+    woredas: list[tuple[str, str]]
+    note: str
+
 
 # NEBE zone strings (including clipped-column variants) -> gazetteer zone.
 ZONE_MAP = {
@@ -45,7 +52,7 @@ ZONE_MAP = {
 
 # Hand-adjudicated pairs, keyed by the exact printed (zone, woreda) strings.
 # Targets are gazetteer (zone, woreda) rows; multiple targets average.
-OVERRIDES = {
+OVERRIDES: dict[tuple[str, str], Override] = {
     ("ማዕከላዊ ጎንደ", "ጭልጋ"): {
         "woredas": [("Central Gondar", "Chilga 1"), ("Central Gondar", "Chilga 2")],
         "note": "NEBE keeps Chilga as one woreda; the gazetteer splits it in "
