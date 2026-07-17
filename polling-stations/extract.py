@@ -11,6 +11,10 @@ The raw PDFs have several quirks this script normalizes:
     `region_code`, and `ps_type`. Region identity is recovered from the file name
     (authoritative); `ps_type` is reduced to its trailing digits.
   - `latitude`/`longitude` are blank or `0` when missing; those become null.
+    Amhara publishes no coordinates at all; its stations get approximate
+    woreda-centroid positions instead (see geocode.py), recorded with
+    `coordinate_source: "woreda_centroid"` so they are never mistaken for
+    NEBE-published GPS.
 
 Output (all under data/json/):
   - stations/{region}_{type}.json  normalized station records, one array per PDF
@@ -26,6 +30,8 @@ from pathlib import Path
 
 import pymupdf
 from rich.console import Console
+
+from geocode import Geocoder
 
 DATA_DIR = Path(__file__).parent / "data"
 PDF_DIR = DATA_DIR / "pdfs"
@@ -201,6 +207,27 @@ def extract_pdf(path: Path, region: dict[str, str], file_type: str) -> list[dict
     return records
 
 
+def fill_woreda_centroids(records: list[dict], geocoder: Geocoder) -> None:
+    """Place stations NEBE published without GPS at their woreda centroid."""
+    unresolved = set()
+    for r in records:
+        if r["latitude"] is not None:
+            continue
+        loc = geocoder.locate(r["zone"], r["woreda"])
+        if loc is None:
+            unresolved.add((r["zone"], r["woreda"]))
+            continue
+        r["latitude"], r["longitude"] = round(loc[0], 6), round(loc[1], 6)
+        r["coordinate_source"] = "woreda_centroid"
+    if unresolved:
+        for zone, woreda in sorted(unresolved):
+            console.print(f"[red]unresolved woreda[/red] {zone} | {woreda}")
+        raise SystemExit(
+            f"{len(unresolved)} Amhara woreda names failed to geocode; "
+            "extend geocode.OVERRIDES"
+        )
+
+
 def best_name(counter: Counter) -> str:
     """Pick the most common name for a code; break ties by longest (least clipped)."""
     return max(counter.items(), key=lambda kv: (kv[1], len(kv[0])))[0]
@@ -208,6 +235,7 @@ def best_name(counter: Counter) -> str:
 
 def main() -> None:
     STATIONS_DIR.mkdir(parents=True, exist_ok=True)
+    geocoder = Geocoder()
 
     file_summaries: list[dict] = []
     region_stats: dict[str, dict] = {}
@@ -225,6 +253,8 @@ def main() -> None:
         region = REGIONS[region_slug]
         console.print(f"[cyan]extracting[/cyan] {pdf.name} ...")
         records = extract_pdf(pdf, region, file_type)
+        if region_slug == "amhara":
+            fill_woreda_centroids(records, geocoder)
 
         (STATIONS_DIR / f"{stem}.json").write_text(
             json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8"

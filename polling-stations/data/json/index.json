@@ -4,11 +4,12 @@
     "digital": 4477,
     "manual": 45649
   },
-  "with_coordinates": 29486,
-  "without_coordinates": 20640,
+  "with_coordinates": 41507,
+  "without_coordinates": 8619,
   "coordinate_sources": {
     "nebe": 29486,
-    "none": 20640
+    "none": 8619,
+    "woreda_centroid": 12021
   },
   "region_count": 13,
   "hopr_constituency_count": 509,
@@ -33,14 +34,14 @@
       "region": "Amhara",
       "registration_type": "digital",
       "stations": 595,
-      "with_coordinates": 0
+      "with_coordinates": 595
     },
     {
       "file": "amhara_manual",
       "region": "Amhara",
       "registration_type": "manual",
       "stations": 11426,
-      "with_coordinates": 0
+      "with_coordinates": 11426
     },
     {
       "file": "benshangul_gumz_manual",
