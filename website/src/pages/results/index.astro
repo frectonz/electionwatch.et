@@ -1,0 +1,444 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import StatTiles from "@/components/StatTiles.astro";
+import WinnerMap from "@/components/WinnerMap.astro";
+import SeatGrid from "@/components/SeatGrid.astro";
+import BallotToggle from "@/components/BallotToggle.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import {
+  resultsSummary,
+  electedDemographics,
+  resultsSeats,
+  resultBodies,
+  partyResults,
+  leadingParty,
+  seatOutcomes,
+  races,
+  seatDots,
+  partyResultHref,
+  type Race,
+} from "@/data/results";
+import { candidateRegions, type Body } from "@/data/candidates";
+import { fmt, pct, LEADER_COLOR, CHALLENGER_COLOR } from "@/lib/format";
+import { ArrowRight } from "@lucide/astro";
+
+const BALLOTS: Body[] = ["hopr", "rc"];
+
+const decided = resultBodies.reduce((n, b) => n + b.data.decided_seats, 0);
+const council = resultBodies.reduce((n, b) => n + b.data.council_seats, 0);
+const pending = council - decided;
+const independentSeats = resultBodies.reduce(
+  (n, b) => n + b.data.independents.seats,
+  0,
+);
+
+// The two ballots are separate elections; no view pools them.
+const racesBy: Record<Body, Race[]> = {
+  hopr: races("hopr"),
+  rc: races("rc"),
+};
+const measured = BALLOTS.some((b) => racesBy[b].length > 0);
+
+const median = (rs: Race[]) => {
+  if (!rs.length) return 0;
+  const s = [...rs].sort((a, b) => a.share - b.share);
+  return s[Math.floor(s.length / 2)].share;
+};
+const summaryOf = (b: Body) => {
+  const rs = racesBy[b];
+  return {
+    total: rs.length,
+    median: median(rs),
+    decisive: rs.filter((r) => r.share >= 90).length,
+    close: rs.filter((r) => r.margin !== null && r.margin < 10).length,
+  };
+};
+
+const dots = {
+  hopr: seatDots(racesBy.hopr),
+  rc: seatDots(racesBy.rc),
+};
+
+const closestBy = Object.fromEntries(
+  BALLOTS.map((b) => [
+    b,
+    [...racesBy[b]]
+      .filter((r) => r.marginVotes !== null)
+      .sort((x, y) => (x.marginVotes ?? 0) - (y.marginVotes ?? 0))
+      .slice(0, 6),
+  ]),
+) as Record<Body, Race[]>;
+
+const demographics = {
+  hopr: electedDemographics("hopr"),
+  rc: electedDemographics("rc"),
+};
+
+const outcomes = { hopr: seatOutcomes("hopr"), rc: seatOutcomes("rc") };
+const beaten = Object.fromEntries(
+  BALLOTS.map((b) => [
+    b,
+    Object.values(outcomes[b]).filter((o) => o === "challenger").length,
+  ]),
+) as Record<Body, number>;
+
+const stats = [
+  {
+    label: "Seats decided",
+    value: decided,
+    sub: `${fmt(resultsSeats.hopr.decided_seats)} HoPR and ${fmt(
+      resultsSeats.rc.decided_seats,
+    )} RC`,
+  },
+  {
+    label: "Votes cast",
+    value: fmt(resultsSummary.votes_cast),
+    sub: `of ${fmt(resultsSummary.registered_voters)} registered`,
+  },
+  {
+    label: "Parties with seats",
+    value: partyResults.length - 1,
+    sub: `plus ${fmt(independentSeats)} ${
+      independentSeats === 1 ? "independent" : "independents"
+    } elected`,
+  },
+  {
+    label: "Seats pending",
+    value: pending,
+    sub: pending > 0 ? "recounts and re-runs" : undefined,
+  },
+];
+
+const partyColumns: GridColumn[] = [
+  { label: "Party", grow: 2, sortable: true },
+  { label: "Seats", grow: 0.6, numeric: true, sortable: true },
+  { label: "HoPR", grow: 0.6, numeric: true, sortable: true },
+  { label: "Regional Council", grow: 0.9, numeric: true, sortable: true },
+  { label: "Regions", grow: 0.6, numeric: true, sortable: true },
+];
+const partyRows: GridRow[] = partyResults.map((p) => ({
+  search: `${p.partyName} ${p.party}`,
+  cells: [
+    {
+      text: p.partyName,
+      href: partyResultHref(p),
+      sub: p.independent ? "elected without a party" : p.party,
+    },
+    { text: fmt(p.seats), sort: p.seats },
+    {
+      text: p.byBody.hopr ? fmt(p.byBody.hopr) : "—",
+      sort: p.byBody.hopr ?? 0,
+    },
+    { text: p.byBody.rc ? fmt(p.byBody.rc) : "—", sort: p.byBody.rc ?? 0 },
+    { text: String(p.regions.length), sort: p.regions.length },
+  ],
+}));
+
+const seatsOf = (body: Body, slug: string) =>
+  resultsSeats[body].regions.find((r) => r.region_slug === slug);
+
+const regionColumns: GridColumn[] = [
+  { label: "Region", grow: 1.6, sortable: true },
+  { label: "HoPR", grow: 0.7, numeric: true, sortable: true },
+  { label: "Regional Council", grow: 0.9, numeric: true, sortable: true },
+  { label: "Won by incumbent", grow: 0.9, numeric: true, sortable: true },
+  { label: "Won by others", grow: 0.9, numeric: true, sortable: true },
+];
+const wonBy = (slug: string, incumbent: boolean) =>
+  BALLOTS.reduce(
+    (n, b) =>
+      n +
+      (seatsOf(b, slug)?.won ?? [])
+        .filter(
+          (w) =>
+            ((w.independent ? "independent" : (w.party_slug ?? w.party)) ===
+              leadingParty.key) ===
+            incumbent,
+        )
+        .reduce((s, w) => s + w.seats, 0),
+    0,
+  );
+const regionRows: GridRow[] = candidateRegions
+  .filter((r) => seatsOf("hopr", r.slug) || seatsOf("rc", r.slug))
+  .map((r) => {
+    const h = seatsOf("hopr", r.slug);
+    const c = seatsOf("rc", r.slug);
+    const incumbent = wonBy(r.slug, true);
+    const others = wonBy(r.slug, false);
+    return {
+      search: `${r.name} ${r.name_native}`,
+      cells: [
+        { text: r.name, href: `/results/region/${r.slug}`, sub: r.name_native },
+        { text: h ? fmt(h.decided_seats) : "—", sort: h?.decided_seats ?? 0 },
+        { text: c ? fmt(c.decided_seats) : "—", sort: c?.decided_seats ?? 0 },
+        { text: fmt(incumbent), sort: incumbent },
+        { text: fmt(others), sort: others },
+      ],
+    };
+  });
+---
+
+<Layout
+  title="Results · electionwatch.et"
+  description="The declared results of Ethiopia's 7th General Election: the seats each party took, the margins they were decided by, and where the leading party was beaten."
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs items={[{ label: "Results" }]} />
+    <h1 class="font-display text-4xl sm:text-5xl mb-4">Results</h1>
+    <p class="text-ew-text-dim text-lg max-w-2xl">
+      The declared outcome of Ethiopia&rsquo;s 7th General Election, as
+      published by the National Election Board. {fmt(decided)} seats were decided
+      across the federal House of People&rsquo;s Representatives and the regional
+      councils.
+    </p>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
+    />
+    {
+      pending > 0 && (
+        <p class="text-sm text-ew-text-muted mt-3">
+          The board excludes constituencies still undergoing a recount or a
+          re-run, so {fmt(pending)} of {fmt(council)} seats are not yet
+          attributed.
+        </p>
+      )
+    }
+  </section>
+
+  {
+    measured && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <div class="flex items-start justify-between gap-4 flex-wrap mb-1">
+          <h2 class="font-display text-2xl">How the seats were won</h2>
+          <BallotToggle target="share" />
+        </div>
+        {BALLOTS.map((b) => {
+          const s = summaryOf(b);
+          return (
+            <p
+              data-ballot-panel="share"
+              data-ballot-value={b}
+              hidden={b !== "hopr"}
+              class="text-ew-text-dim text-sm mb-6 max-w-2xl"
+            >
+              {s.total === 0 ? (
+                <>Vote counts for this ballot are not published yet.</>
+              ) : (
+                <>
+                  One dot per seat, placed by the share of the vote its winner
+                  took there. The median winner took{" "}
+                  <strong class="text-ew-text">{s.median.toFixed(1)}%</strong>,
+                  and {fmt(s.decisive)} of {fmt(s.total)} seats were won with
+                  more than 90% of the vote.
+                  {s.close > 0 && (
+                    <>
+                      {" "}
+                      Only {fmt(s.close)} were decided by less than ten points.
+                    </>
+                  )}
+                </>
+              )}
+            </p>
+          );
+        })}
+        <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm text-ew-text-dim mb-2">
+          <li class="inline-flex items-center gap-2">
+            <span
+              class="w-3 h-3 rounded-full inline-block shrink-0"
+              style={`background:${LEADER_COLOR}`}
+            />
+            Won by the incumbent
+          </li>
+          <li class="inline-flex items-center gap-2">
+            <span
+              class="w-3 h-3 rounded-full inline-block shrink-0"
+              style={`background:${CHALLENGER_COLOR}`}
+            />
+            Won by another party or an independent
+          </li>
+        </ul>
+        <div
+          id="chart-share"
+          class="w-full h-[280px] sm:h-[320px]"
+          data-dots={JSON.stringify(dots)}
+        />
+      </section>
+    )
+  }
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-1">
+      <h2 class="font-display text-2xl">The chamber</h2>
+      <BallotToggle target="chamber" />
+    </div>
+    <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
+      Every seat in the council, one tile each, grouped by who holds it. The
+      incumbent {leadingParty.partyName} holds {
+        pct(leadingParty.seats, decided)
+      }% of the seats decided across the two councils.
+    </p>
+    {
+      BALLOTS.map((b) => (
+        <div
+          data-ballot-panel="chamber"
+          data-ballot-value={b}
+          hidden={b !== "hopr"}
+        >
+          <SeatGrid body={b} />
+        </div>
+      ))
+    }
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-1">
+      <h2 class="font-display text-2xl">Who was elected</h2>
+      <BallotToggle target="people" />
+    </div>
+    <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
+      Gender and disability of the elected members, as recorded on their
+      candidate registrations.
+    </p>
+    {
+      BALLOTS.map((b) => {
+        const d = demographics[b];
+        return (
+          <div
+            data-ballot-panel="people"
+            data-ballot-value={b}
+            hidden={b !== "hopr"}
+          >
+            <StatTiles
+              tiles={[
+                {
+                  label: "Women elected",
+                  value: fmt(d.women),
+                  sub: `${pct(d.women, d.matched)}% of members`,
+                },
+                {
+                  label: "Men elected",
+                  value: fmt(d.men),
+                  sub: `${pct(d.men, d.matched)}% of members`,
+                },
+                {
+                  label: "With a disability",
+                  value: fmt(d.disabled),
+                  sub: `${pct(d.disabled, d.matched)}% of members`,
+                },
+              ]}
+              class="grid grid-cols-2 sm:grid-cols-3 gap-4"
+            />
+          </div>
+        );
+      })
+    }
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <h2 class="font-display text-2xl mb-1">Where the incumbent was beaten</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      The {fmt(beaten.hopr)} federal and {fmt(beaten.rc)} regional seats that went
+      to another party or an independent. Click a station for the result there.
+    </p>
+    <WinnerMap hopr={outcomes.hopr} rc={outcomes.rc} />
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <div class="flex items-start justify-between gap-4 flex-wrap mb-1">
+      <h2 class="font-display text-2xl">The closest races</h2>
+      <BallotToggle target="closest" />
+    </div>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Ranked by the gap between the last candidate elected there and the first
+      to miss a seat. Regional Council seats return several members, so that gap
+      can sit well below first place.
+    </p>
+    {
+      BALLOTS.map((b) => (
+        <div
+          data-ballot-panel="closest"
+          data-ballot-value={b}
+          hidden={b !== "hopr"}
+        >
+          {closestBy[b].length === 0 ? (
+            <p class="text-sm text-ew-text-muted">
+              Vote counts for this ballot are not published yet, so the margins
+              cannot be shown.
+            </p>
+          ) : (
+            <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {closestBy[b].map((r) => (
+                <a
+                  href={`/data/candidates/c/${r.constituencySlug}`}
+                  class="group bg-ew-card border border-ew-card-border rounded-xl p-4 hover:border-ew-shell/40 transition-colors"
+                >
+                  <span class="flex items-baseline justify-between gap-2">
+                    <span class="font-medium truncate text-ew-shell group-hover:text-ew-gold transition-colors">
+                      {r.constituency}
+                    </span>
+                    <span class="font-display text-xl tabular-nums shrink-0">
+                      {fmt(r.marginVotes ?? 0)}
+                      <span class="text-xs text-ew-text-muted ml-0.5">
+                        {r.marginVotes === 1 ? "vote" : "votes"}
+                      </span>
+                    </span>
+                  </span>
+                  <span class="block text-sm text-ew-text-dim mt-2 truncate">
+                    {r.marginWinner}
+                    {r.seats > 1 && (
+                      <span class="text-ew-text-muted">
+                        {" "}
+                        · last of {r.seats} seats
+                      </span>
+                    )}
+                  </span>
+                  <span class="block text-xs text-ew-text-muted truncate">
+                    {r.marginWinnerParty?.partyName ?? "—"} · ahead of{" "}
+                    {r.marginLoser}
+                  </span>
+                  <span class="mt-2 inline-flex items-center gap-1 text-xs text-ew-shell">
+                    See the result
+                    <ArrowRight class="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                  </span>
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      ))
+    }
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <h2 class="font-display text-2xl mb-4">Every party that took a seat</h2>
+    <DataGrid
+      columns={partyColumns}
+      rows={partyRows}
+      defaultSort={1}
+      defaultDir="desc"
+      minWidth="720px"
+      searchPlaceholder="Search parties"
+    />
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+    <h2 class="font-display text-2xl mb-4">Every region</h2>
+    <DataGrid
+      columns={regionColumns}
+      rows={regionRows}
+      minWidth="680px"
+      searchPlaceholder="Search regions"
+    />
+  </section>
+</Layout>
+
+<script>
+  import { initResultCharts } from "@/scripts/result-charts";
+  initResultCharts();
+</script>

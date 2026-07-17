@@ -1,0 +1,253 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import StatTiles from "@/components/StatTiles.astro";
+import WinnerMap from "@/components/WinnerMap.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import {
+  partyResults,
+  resultBodies,
+  seatOutcomesFor,
+  resultsElected,
+  type PartyResult,
+} from "@/data/results";
+import {
+  BODY_SHORT,
+  candidateParties,
+  partyUrlSlug,
+  candidateRegionBySlug,
+  type Body,
+} from "@/data/candidates";
+import { fmt, pct } from "@/lib/format";
+import { MessageSquareQuote, Users, ArrowRight } from "@lucide/astro";
+
+export function getStaticPaths() {
+  return partyResults.map((p) => ({
+    params: { slug: p.urlSlug },
+    props: { p },
+  }));
+}
+const { p } = Astro.props as { p: PartyResult };
+
+const BODIES: Body[] = ["hopr", "rc"];
+
+type RegionRow = {
+  slug: string;
+  name: string;
+  nameNative: string;
+  seats: Partial<Record<Body, number>>;
+  total: number;
+};
+const regionMap = new Map<string, RegionRow>();
+for (const { key: body, data } of resultBodies) {
+  for (const region of data.regions) {
+    for (const won of region.won) {
+      const key = won.independent
+        ? "independent"
+        : (won.party_slug ?? won.party);
+      if (key !== p.key) continue;
+      const meta = candidateRegionBySlug.get(region.region_slug);
+      const row = regionMap.get(region.region_slug) ?? {
+        slug: region.region_slug,
+        name: region.region,
+        nameNative: meta?.name_native ?? region.region_native,
+        seats: {},
+        total: 0,
+      };
+      row.seats[body] = (row.seats[body] ?? 0) + won.seats;
+      row.total += won.seats;
+      regionMap.set(region.region_slug, row);
+    }
+  }
+}
+const regionRows = Array.from(regionMap.values()).sort(
+  (a, b) => b.total - a.total || a.name.localeCompare(b.name),
+);
+
+type SeatRow = {
+  body: Body;
+  constituencySlug: string | null;
+  constituency: string;
+  region: string;
+  candidate: string;
+  candidateId: string | null;
+};
+const seatsWon: SeatRow[] = [];
+for (const body of BODIES) {
+  for (const row of resultsElected?.[body] ?? []) {
+    const key = row.party_slug ?? row.party;
+    const isMine = p.independent ? row.party === "Independent" : key === p.key;
+    if (!isMine) continue;
+    const meta = candidateRegionBySlug.get(row.region_slug);
+    seatsWon.push({
+      body,
+      constituencySlug: row.constituency_slug,
+      constituency: row.constituency,
+      region: meta?.name ?? row.region_slug,
+      candidate: row.candidate,
+      candidateId: row.candidate_id,
+    });
+  }
+}
+seatsWon.sort(
+  (a, b) =>
+    a.region.localeCompare(b.region) ||
+    a.constituency.localeCompare(b.constituency),
+);
+
+const outcomes = {
+  hopr: seatOutcomesFor("hopr", p.key),
+  rc: seatOutcomesFor("rc", p.key),
+};
+
+const candidateParty = p.partySlug
+  ? candidateParties.find((c) => c.slug === p.partySlug)
+  : undefined;
+
+const stats = [
+  { label: "Seats taken", value: p.seats },
+  ...resultBodies.map(({ key, data }) => ({
+    label: `${BODY_SHORT[key]} seats`,
+    value: p.byBody[key] ?? 0,
+    sub: `${pct(p.byBody[key] ?? 0, data.decided_seats)}% of the council`,
+  })),
+  { label: "Regions with a seat", value: p.regions.length },
+];
+
+const regionColumns: GridColumn[] = [
+  { label: "Region", grow: 1.6, sortable: true },
+  { label: "HoPR", grow: 0.7, numeric: true, sortable: true },
+  { label: "Regional Council", grow: 0.9, numeric: true, sortable: true },
+  { label: "Total", grow: 0.6, numeric: true, sortable: true },
+];
+const regionGridRows: GridRow[] = regionRows.map((r) => ({
+  search: `${r.name} ${r.nameNative}`,
+  cells: [
+    { text: r.name, href: `/results/region/${r.slug}`, sub: r.nameNative },
+    { text: r.seats.hopr ? fmt(r.seats.hopr) : "—", sort: r.seats.hopr ?? 0 },
+    { text: r.seats.rc ? fmt(r.seats.rc) : "—", sort: r.seats.rc ?? 0 },
+    { text: fmt(r.total), sort: r.total },
+  ],
+}));
+
+const seatColumns: GridColumn[] = [
+  { label: "Elected member", grow: 1.6, sortable: true },
+  { label: "Seat", grow: 1.6, sortable: true },
+  { label: "Region", grow: 1, filter: true },
+  { label: "Ballot", grow: 0.6, filter: true },
+];
+const seatGridRows: GridRow[] = seatsWon.map((s) => ({
+  search: `${s.candidate} ${s.constituency} ${s.region}`,
+  cells: [
+    { text: s.candidate },
+    {
+      text: s.constituency,
+      href: s.constituencySlug
+        ? `/data/candidates/c/${s.constituencySlug}`
+        : null,
+    },
+    { text: s.region },
+    { text: BODY_SHORT[s.body] },
+  ],
+}));
+---
+
+<Layout
+  title={`${p.partyName} · Results · electionwatch.et`}
+  description={`Where ${p.partyName} won in Ethiopia's 7th General Election: ${p.seats} seats across ${p.regions.length} regions.`}
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs
+      items={[{ label: "Results", href: "/results" }, { label: p.partyName }]}
+    />
+    <div class="min-w-0">
+      <h1 class="font-display text-4xl sm:text-5xl mb-1">{p.partyName}</h1>
+      {!p.independent && <p class="text-ew-text-muted text-lg">{p.party}</p>}
+    </div>
+
+    <p class="text-ew-text-dim text-lg max-w-2xl mt-4">
+      {
+        p.independent
+          ? `${fmt(p.seats)} candidates won a seat without standing for any party, across ${p.regions.length} ${p.regions.length === 1 ? "region" : "regions"}.`
+          : `${p.partyName} won ${fmt(p.seats)} ${p.seats === 1 ? "seat" : "seats"} across ${p.regions.length} ${p.regions.length === 1 ? "region" : "regions"}.`
+      }
+    </p>
+
+    <div class="flex flex-wrap items-center gap-3 mt-6">
+      {
+        p.profileSlug && (
+          <a
+            href={`/parties/${p.profileSlug}`}
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-ew-shell text-white font-medium text-sm hover:bg-ew-shell-soft transition-colors"
+          >
+            <MessageSquareQuote class="w-4 h-4" /> What they said in the debates
+          </a>
+        )
+      }
+      {
+        candidateParty && (
+          <a
+            href={`/data/candidates/party/${partyUrlSlug(candidateParty)}`}
+            class="group inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-ew-card-border bg-ew-card font-medium text-sm hover:border-ew-shell/40 transition-colors"
+          >
+            <Users class="w-4 h-4 text-ew-text-muted" />
+            All {fmt(candidateParty.candidates)} candidates they fielded
+            <ArrowRight class="w-4 h-4 text-ew-text-muted group-hover:translate-x-0.5 transition-transform" />
+          </a>
+        )
+      }
+    </div>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
+    />
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-1">Where their seats are</h2>
+    <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+      Every polling station in a seat {p.partyName} won. Click a station for the result
+      there.
+    </p>
+    <WinnerMap
+      hopr={outcomes.hopr}
+      rc={outcomes.rc}
+      focusParty={p.partyName}
+      height="60vh"
+    />
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="font-display text-2xl mb-4">Seats by region</h2>
+    <DataGrid
+      columns={regionColumns}
+      rows={regionGridRows}
+      defaultSort={3}
+      defaultDir="desc"
+      minWidth="620px"
+      searchPlaceholder="Search regions"
+    />
+  </section>
+
+  {
+    seatsWon.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <h2 class="font-display text-2xl mb-1">Members elected</h2>
+        <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+          Every member elected for {p.partyName}. Open a seat to see the full
+          result there, including everyone else who stood.
+        </p>
+        <DataGrid
+          columns={seatColumns}
+          rows={seatGridRows}
+          minWidth="700px"
+          searchPlaceholder="Search member, seat or region"
+        />
+      </section>
+    )
+  }
+</Layout>

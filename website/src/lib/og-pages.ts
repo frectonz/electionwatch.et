@@ -58,6 +58,13 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ],
   [
+    "results",
+    {
+      title: "Results",
+      description: `The declared results of ${TAGLINE}: the seats each party won in the federal and regional councils.`,
+    },
+  ],
+  [
     "data/polling-stations",
     {
       title: "Polling Stations",

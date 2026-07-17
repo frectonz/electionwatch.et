@@ -7,11 +7,16 @@ import DataGrid, {
   type GridRow,
 } from "@/components/DataGrid.astro";
 import { partyByName, partyUrlSlug, type Candidate } from "@/data/candidates";
+import { fmt } from "@/lib/format";
 
 interface Props {
   candidates: Candidate[];
+  /** candidate_id -> votes received, once the result is published. Candidates
+   * without an entry (no matched vote row) show a dash. */
+  votes?: Map<string, number | null>;
 }
-const { candidates } = Astro.props;
+const { candidates, votes } = Astro.props;
+const hasVotes = votes != null && votes.size > 0;
 
 const partyEn = (name: string) => partyByName.get(name)?.name_en ?? name;
 const partyHref = (name: string) => {
@@ -43,24 +48,32 @@ const columns: GridColumn[] = [
   { label: "Gender", grow: 0.7, filter: true },
   { label: "Education", grow: 1.1, filter: true },
   { label: "Disability", grow: 0.8, filter: true },
+  ...(hasVotes
+    ? [{ label: "Votes", grow: 0.7, numeric: true, sortable: true }]
+    : []),
 ];
 
-const rows: GridRow[] = candidates.map((c) => ({
-  search: `${c.full_name} ${partyEn(c.party)}`,
-  cells: [
-    { text: c.full_name },
-    { text: partyEn(c.party), href: partyHref(c.party) },
-    { text: c.gender },
-    { text: c.education, sort: eduRank(c.education) },
-    { text: c.disability ? "Yes" : "No" },
-  ],
-}));
+const rows: GridRow[] = candidates.map((c) => {
+  const v = votes?.get(c.candidate_id);
+  return {
+    search: `${c.full_name} ${partyEn(c.party)}`,
+    cells: [
+      { text: c.full_name },
+      { text: partyEn(c.party), href: partyHref(c.party) },
+      { text: c.gender },
+      { text: c.education, sort: eduRank(c.education) },
+      { text: c.disability ? "Yes" : "No" },
+      ...(hasVotes ? [{ text: v != null ? fmt(v) : "—", sort: v ?? -1 }] : []),
+    ],
+  };
+});
 ---
 
 <DataGrid
   columns={columns}
   rows={rows}
-  defaultSort={1}
-  minWidth="680px"
+  defaultSort={hasVotes ? 5 : 1}
+  defaultDir={hasVotes ? "desc" : "asc"}
+  minWidth={hasVotes ? "740px" : "680px"}
   searchPlaceholder="Search name or party"
 />

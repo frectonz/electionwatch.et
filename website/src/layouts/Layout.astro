@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { House, Landmark, Database, Info } from "@lucide/astro";
+import { House, Landmark, Database, Info, ChartColumn } from "@lucide/astro";
 import { Icon } from "astro-icon/components";
 import { ogImageFor } from "@/lib/og-pages";
 import { pwaInfo } from "virtual:pwa-info";
@@ -156,6 +156,10 @@ const glyphs = Array.from({ length: 150 }, () => {
           <a href="/" class={navLink("/")}>
             <House class="w-4 h-4" />
             <span class="hidden sm:inline">Home</span>
+          </a>
+          <a href="/results" class={navLink("/results")}>
+            <ChartColumn class="w-4 h-4" />
+            <span class="hidden sm:inline">Results</span>
           </a>
           <a href="/data" class={navLink("/data")}>
             <Database class="w-4 h-4" />

@@ -1,0 +1,39 @@
+---
+// The HoPR / Regional Council switch.
+interface Props {
+  /** Ties the buttons to the section that listens for them. */
+  target: string;
+  /** Which ballot is shown first. */
+  start?: "hopr" | "rc";
+  class?: string;
+}
+const { target, start = "hopr", class: cls = "" } = Astro.props;
+
+const base = "px-3 py-1.5 font-medium transition-colors";
+const on = "bg-ew-shell text-white";
+const off = "bg-ew-card text-ew-text-dim hover:text-ew-shell";
+---
+
+<div
+  data-ballot-toggle={target}
+  class={`inline-flex rounded-lg border border-ew-card-border overflow-hidden text-xs shrink-0 ${cls}`}
+  role="group"
+  aria-label="Choose a ballot"
+>
+  <button
+    type="button"
+    data-ballot="hopr"
+    aria-pressed={start === "hopr"}
+    class:list={[base, start === "hopr" ? on : off]}
+  >
+    HoPR
+  </button>
+  <button
+    type="button"
+    data-ballot="rc"
+    aria-pressed={start === "rc"}
+    class:list={[base, start === "rc" ? on : off]}
+  >
+    Regional Council
+  </button>
+</div>

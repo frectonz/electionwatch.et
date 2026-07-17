@@ -198,13 +198,21 @@ const innerStyle = minWidth ? `min-width:${minWidth}` : "";
                       columns[i].numeric &&
                         "text-right font-mono tabular-nums text-ew-text-dim",
                       cell.href
-                        ? "text-ew-text hover:text-ew-shell transition-colors"
+                        ? "group/link text-ew-shell font-medium hover:text-ew-gold transition-colors"
                         : i === 0
                           ? "text-ew-text font-medium"
                           : "text-ew-text-dim",
                     ]}
                   >
-                    <span class="truncate inline-block max-w-full align-bottom">
+                    {/* text-decoration does not propagate into the
+                         inline-block truncating span, so it lives there. */}
+                    <span
+                      class:list={[
+                        "truncate inline-block max-w-full align-bottom",
+                        cell.href &&
+                          "underline decoration-ew-shell/50 underline-offset-2 group-hover/link:decoration-ew-gold",
+                      ]}
+                    >
                       {display(cell.text)}
                     </span>
                     {cell.badge && (

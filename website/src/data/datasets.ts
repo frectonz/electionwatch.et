@@ -1,3 +1,4 @@
+// Results are a nav section of their own, not a dataset card.
 import { allDebates, allParties } from "./index";
 import { pollingStationsIndex } from "./pollingStations";
 import { candidatesIndex } from "./candidates";

@@ -1,0 +1,90 @@
+---
+// The result in one constituency: who was elected, and how the vote divided.
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import { votesFor, partyOfSlug, partyResultHref } from "@/data/results";
+import { fmt, shareLabel } from "@/lib/format";
+import type { Body } from "@/data/candidates";
+
+interface Props {
+  regionSlug: string;
+  constituencySlug: string;
+  body: Body;
+  /** Seats this constituency returns; RC seats are multi-member. */
+  seats: number | null;
+}
+const { regionSlug, constituencySlug, body, seats } = Astro.props;
+
+const rows = votesFor(regionSlug, body)
+  .filter((r) => r.constituency_slug === constituencySlug)
+  .sort((a, b) => (b.votes ?? -1) - (a.votes ?? -1));
+
+const totalVotes = rows.reduce((n, r) => n + (r.votes ?? 0), 0);
+const elected = rows.filter((r) => r.elected);
+const runnerUp = rows.find((r) => !r.elected && r.votes !== null);
+const top = elected[0];
+
+// A margin only means something in a single-member race.
+const margin =
+  body === "hopr" && top?.votes != null && runnerUp?.votes != null
+    ? top.votes - runnerUp.votes
+    : null;
+
+const columns: GridColumn[] = [
+  { label: "Candidate", grow: 1.7, sortable: true },
+  { label: "Party", grow: 1.6, filter: true },
+  { label: "Votes", grow: 0.7, numeric: true, sortable: true },
+  { label: "Share", grow: 0.6, numeric: true, sortable: true },
+];
+
+const gridRows: GridRow[] = rows.map((r) => {
+  const party = partyOfSlug(r.party_slug);
+  return {
+    search: `${r.candidate} ${party?.partyName ?? r.party ?? ""}`,
+    cells: [
+      { text: r.candidate, badge: r.elected ? "Elected" : undefined },
+      {
+        text: party?.partyName ?? r.party ?? "Not matched",
+        href: party ? partyResultHref(party) : null,
+      },
+      { text: r.votes != null ? fmt(r.votes) : "—", sort: r.votes ?? -1 },
+      {
+        text: r.votes != null ? `${shareLabel(r.votes, totalVotes)}%` : "—",
+        sort: r.votes != null && totalVotes > 0 ? r.votes / totalVotes : -1,
+      },
+    ],
+  };
+});
+---
+
+{
+  rows.length > 0 && (
+    <section class="mb-10">
+      <h2 class="font-display text-2xl mb-1">The result</h2>
+      <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+        {seats && seats > 1
+          ? `This seat returns ${seats} members, so the ${seats} candidates with the most votes were elected.`
+          : "A single member is elected here: the candidate with the most votes."}
+        {margin !== null && totalVotes > 0 && (
+          <span>
+            {" "}
+            The margin over the runner-up was {fmt(margin)}{" "}
+            {margin === 1 ? "vote" : "votes"}, or{" "}
+            {shareLabel(margin, totalVotes)} points.
+          </span>
+        )}{" "}
+        {fmt(totalVotes)} votes were counted across {rows.length}{" "}
+        {rows.length === 1 ? "candidate" : "candidates"}.
+      </p>
+
+      <DataGrid
+        columns={columns}
+        rows={gridRows}
+        minWidth="620px"
+        searchPlaceholder="Search candidate or party"
+      />
+    </section>
+  )
+}

@@ -1,0 +1,261 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import StatTiles from "@/components/StatTiles.astro";
+import DataGrid, {
+  type GridColumn,
+  type GridRow,
+} from "@/components/DataGrid.astro";
+import SeatPie from "@/components/SeatPie.astro";
+import {
+  resultBodies,
+  partyResultByKey,
+  partyOfSlug,
+  partyResultHref,
+  resultsElected,
+  type PartyResult,
+  type RegionSeats,
+} from "@/data/results";
+import {
+  BODY_LABEL,
+  BODY_SHORT,
+  candidateRegionBySlug,
+  candidateRegions,
+  type Body,
+} from "@/data/candidates";
+import { fmt, pct, OTHER_COLOR } from "@/lib/format";
+import { ArrowRight, Users } from "@lucide/astro";
+
+export function getStaticPaths() {
+  const slugs = new Set(
+    resultBodies.flatMap(({ data }) => data.regions.map((r) => r.region_slug)),
+  );
+  return candidateRegions
+    .filter((r) => slugs.has(r.slug))
+    .map((r) => ({ params: { slug: r.slug } }));
+}
+
+const { slug } = Astro.params as { slug: string };
+const region = candidateRegionBySlug.get(slug)!;
+
+type BodyBlock = {
+  body: Body;
+  seats: RegionSeats;
+  rows: { party: PartyResult; seats: number }[];
+};
+
+const blocks: BodyBlock[] = [];
+for (const { key: body, data } of resultBodies) {
+  const seats = data.regions.find((r) => r.region_slug === slug);
+  if (!seats) continue;
+  const rows = seats.won
+    .map((won) => ({
+      party: partyResultByKey.get(
+        won.independent ? "independent" : (won.party_slug ?? won.party),
+      ),
+      seats: won.seats,
+    }))
+    .filter((r): r is { party: PartyResult; seats: number } =>
+      Boolean(r.party),
+    );
+
+  // Independents pool into one row.
+  const merged = new Map<string, { party: PartyResult; seats: number }>();
+  for (const r of rows) {
+    const found = merged.get(r.party.key);
+    if (found) found.seats += r.seats;
+    else merged.set(r.party.key, { ...r });
+  }
+  blocks.push({
+    body,
+    seats,
+    rows: Array.from(merged.values()).sort((a, b) => b.seats - a.seats),
+  });
+}
+
+const decided = blocks.reduce((n, b) => n + b.seats.decided_seats, 0);
+const council = blocks.reduce((n, b) => n + (b.seats.council_seats ?? 0), 0);
+const winner = blocks[0]?.rows[0]?.party ?? null;
+
+const elected = (["hopr", "rc"] as Body[]).flatMap((body) =>
+  (resultsElected?.[body] ?? [])
+    .filter((row) => row.region_slug === slug)
+    .map((row) => ({ body, row })),
+);
+elected.sort(
+  (a, b) =>
+    a.row.constituency.localeCompare(b.row.constituency) ||
+    a.row.candidate.localeCompare(b.row.candidate),
+);
+
+const partyColumns: GridColumn[] = [
+  { label: "Party", grow: 2, sortable: true },
+  { label: "Seats", grow: 0.6, numeric: true, sortable: true },
+  { label: "Share", grow: 0.6, numeric: true, sortable: true },
+];
+const partyRowsFor = (b: BodyBlock): GridRow[] =>
+  b.rows.map((r) => ({
+    search: r.party.partyName,
+    cells: [
+      { text: r.party.partyName, href: partyResultHref(r.party) },
+      { text: fmt(r.seats), sort: r.seats },
+      {
+        text: `${pct(r.seats, b.seats.decided_seats)}%`,
+        sort: r.seats / b.seats.decided_seats,
+      },
+    ],
+  }));
+
+const electedColumns: GridColumn[] = [
+  { label: "Elected member", grow: 1.6, sortable: true },
+  { label: "Party", grow: 1.5, filter: true },
+  { label: "Seat", grow: 1.5, sortable: true },
+  { label: "Ballot", grow: 0.6, filter: true },
+];
+const electedRows: GridRow[] = elected.map(({ body, row }) => {
+  const party = partyOfSlug(row.party_slug);
+  return {
+    search: `${row.candidate} ${party?.partyName ?? ""} ${row.constituency}`,
+    cells: [
+      { text: row.candidate },
+      {
+        text: party?.partyName ?? "Not matched",
+        href: party ? partyResultHref(party) : null,
+      },
+      {
+        text: row.constituency,
+        href: row.constituency_slug
+          ? `/data/candidates/c/${row.constituency_slug}`
+          : null,
+      },
+      { text: BODY_SHORT[body] },
+    ],
+  };
+});
+
+const stats = [
+  { label: "Seats decided", value: decided },
+  ...blocks.map((b) => ({
+    label: `${BODY_SHORT[b.body]} seats`,
+    value: b.seats.decided_seats,
+  })),
+  {
+    label: "Parties with seats",
+    value: new Set(blocks.flatMap((b) => b.rows.map((r) => r.party.key))).size,
+  },
+];
+---
+
+<Layout
+  title={`${region.name} · Results · electionwatch.et`}
+  description={`The 7th General Election result in ${region.name}: seats won by each party in the federal and regional councils.`}
+>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
+    <Breadcrumbs
+      items={[{ label: "Results", href: "/results" }, { label: region.name }]}
+    />
+    <h1 class="font-display text-4xl sm:text-5xl mb-1">{region.name}</h1>
+    <p class="text-ew-text-muted text-lg">{region.name_native}</p>
+
+    <p class="text-ew-text-dim text-lg max-w-2xl mt-4">
+      {
+        winner
+          ? `${winner.partyName} took the most seats in ${region.name}, of ${fmt(decided)} decided across both councils.`
+          : `${fmt(decided)} seats decided across both councils.`
+      }
+    </p>
+
+    <div class="flex flex-wrap items-center gap-3 mt-6">
+      <a
+        href={`/data/candidates/${slug}`}
+        class="group inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-ew-card-border bg-ew-card font-medium text-sm hover:border-ew-shell/40 transition-colors"
+      >
+        <Users class="w-4 h-4 text-ew-text-muted" />
+        Everyone who stood in {region.name}
+        <ArrowRight
+          class="w-4 h-4 text-ew-text-muted group-hover:translate-x-0.5 transition-transform"
+        />
+      </a>
+    </div>
+
+    <StatTiles
+      tiles={stats}
+      class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8"
+    />
+    {
+      council > decided && (
+        <p class="text-sm text-ew-text-muted mt-3">
+          {fmt(council - decided)} of {fmt(council)} seats here are still
+          undecided, pending a recount or a re-run.
+        </p>
+      )
+    }
+  </section>
+
+  {
+    blocks.map((b) => (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+        <div class="flex items-baseline gap-3 flex-wrap mb-3">
+          <h2 class="font-display text-2xl">{BODY_LABEL[b.body]}</h2>
+          <span class="text-sm text-ew-text-muted tabular-nums">
+            {fmt(b.seats.decided_seats)}
+            {b.seats.council_seats != null &&
+              ` of ${fmt(b.seats.council_seats)}`}{" "}
+            seats decided
+          </span>
+        </div>
+
+        <div class="grid lg:grid-cols-[minmax(280px,340px)_1fr] gap-6 items-start">
+          <SeatPie
+            slices={[
+              ...b.rows.map((r) => ({
+                name: r.party.partyName,
+                value: r.seats,
+                color: r.party.color,
+              })),
+              ...(b.seats.council_seats != null &&
+              b.seats.council_seats > b.seats.decided_seats
+                ? [
+                    {
+                      name: "Undecided",
+                      value: b.seats.council_seats - b.seats.decided_seats,
+                      color: OTHER_COLOR,
+                    },
+                  ]
+                : []),
+            ]}
+            center={b.seats.decided_seats}
+          />
+          <DataGrid
+            columns={partyColumns}
+            rows={partyRowsFor(b)}
+            defaultSort={1}
+            defaultDir="desc"
+            minWidth="480px"
+            searchPlaceholder="Search parties"
+          />
+        </div>
+      </section>
+    ))
+  }
+
+  {
+    elected.length > 0 && (
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <h2 class="font-display text-2xl mb-1">
+          Members elected in {region.name}
+        </h2>
+        <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
+          Open a seat to see the full result, including everyone else who stood
+          there.
+        </p>
+        <DataGrid
+          columns={electedColumns}
+          rows={electedRows}
+          minWidth="700px"
+          searchPlaceholder="Search member, party or seat"
+        />
+      </section>
+    )
+  }
+</Layout>

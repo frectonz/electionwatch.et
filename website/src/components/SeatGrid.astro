@@ -1,0 +1,109 @@
+---
+// The chamber drawn as its seats: one tile per seat, grouped by who holds it.
+import { seatBlocks, type SeatBlock } from "@/data/results";
+import { fmt, pct } from "@/lib/format";
+import type { Body } from "@/data/candidates";
+
+interface Props {
+  body: Body;
+}
+const { body } = Astro.props;
+
+const blocks: SeatBlock[] = seatBlocks(body);
+const total = blocks.reduce((n, b) => n + b.seats, 0);
+
+// Tiles are built on the client: 2,681 seats as markup would weigh more than
+// the rest of the page.
+const config = blocks.map((b) => ({
+  party: b.party,
+  seats: b.seats,
+  color: b.color,
+  href: b.href,
+}));
+---
+
+<div class="seat-grid-root" data-seat-grid={JSON.stringify(config)}>
+  <ul class="flex flex-wrap gap-x-4 gap-y-1.5 mb-4 text-sm">
+    {
+      blocks.map((b) => (
+        <li class="inline-flex items-center gap-2">
+          <span
+            class="w-3 h-3 rounded-[3px] inline-block shrink-0"
+            style={`background:${b.color}`}
+          />
+          {b.href ? (
+            <a
+              href={b.href}
+              class="text-ew-shell underline decoration-ew-shell/30 underline-offset-2 hover:text-ew-gold hover:decoration-ew-gold transition-colors"
+            >
+              {b.party}
+            </a>
+          ) : (
+            <span class="text-ew-text-dim">{b.party}</span>
+          )}
+          <span class="text-ew-text-muted tabular-nums">
+            {fmt(b.seats)} · {pct(b.seats, total)}%
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+
+  <div
+    class="seat-grid bg-ew-card border border-ew-card-border rounded-xl p-4"
+    role="img"
+    aria-label={`${fmt(total)} seats: ${blocks
+      .map((b) => `${b.party} ${b.seats}`)
+      .join(", ")}`}
+  >
+  </div>
+</div>
+
+<style is:global>
+  .seat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9px, 1fr));
+    gap: 3px;
+  }
+  .seat-grid span {
+    aspect-ratio: 1;
+    border-radius: 2px;
+    transition: transform 0.08s ease;
+  }
+  .seat-grid span:hover {
+    transform: scale(1.6);
+    z-index: 1;
+  }
+  @media (min-width: 640px) {
+    .seat-grid {
+      grid-template-columns: repeat(auto-fill, minmax(11px, 1fr));
+      gap: 4px;
+    }
+  }
+</style>
+
+<script>
+  interface Block {
+    party: string;
+    seats: number;
+    color: string;
+    href: string | null;
+  }
+
+  document.querySelectorAll<HTMLElement>(".seat-grid-root").forEach((root) => {
+    const blocks: Block[] = JSON.parse(root.dataset.seatGrid!);
+    const grid = root.querySelector<HTMLElement>(".seat-grid");
+    if (!grid) return;
+
+    const frag = document.createDocumentFragment();
+    for (const b of blocks) {
+      for (let i = 0; i < b.seats; i++) {
+        const tile = document.createElement("span");
+        tile.style.background = b.color;
+        tile.title = `${b.party} — seat ${i + 1} of ${b.seats}`;
+        frag.appendChild(tile);
+      }
+    }
+    grid.appendChild(frag);
+  });
+</script>
