@@ -23,13 +23,7 @@ import {
   type Race,
 } from "@/data/results";
 import { candidateRegions, type Body } from "@/data/candidates";
-import {
-  fmt,
-  pct,
-  shareLabel,
-  LEADER_COLOR,
-  CHALLENGER_COLOR,
-} from "@/lib/format";
+import { fmt, shareLabel, LEADER_COLOR, CHALLENGER_COLOR } from "@/lib/format";
 import { ArrowRight } from "@lucide/astro";
 
 const BALLOTS: Body[] = ["hopr", "rc"];
@@ -284,10 +278,9 @@ const regionRows: GridRow[] = candidateRegions
       <BallotToggle target="chamber" />
     </div>
     <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
-      Every seat in the council, one tile each, grouped by who holds it. The
-      incumbent {leadingParty.partyName} holds {
-        pct(leadingParty.seats, decided)
-      }% of the seats decided across the two councils.
+      Every decided seat, one tile each, grouped by who holds it. The incumbent
+      {leadingParty.partyName} holds {shareLabel(leadingParty.seats, decided)}%
+      of the seats decided across both ballots.
     </p>
     {
       BALLOTS.map((b) => (

@@ -21,7 +21,7 @@ import {
   candidateRegionBySlug,
   type Body,
 } from "@/data/candidates";
-import { fmt, pct } from "@/lib/format";
+import { fmt, shareLabel } from "@/lib/format";
 import { MessageSquareQuote, Users, ArrowRight } from "@lucide/astro";
 
 export function getStaticPaths() {
@@ -112,7 +112,9 @@ const stats = [
   ...resultBodies.map(({ key, data }) => ({
     label: `${BODY_SHORT[key]} seats`,
     value: p.byBody[key] ?? 0,
-    sub: `${pct(p.byBody[key] ?? 0, data.decided_seats)}% of the council`,
+    sub: `${shareLabel(p.byBody[key] ?? 0, data.decided_seats)}% of ${
+      key === "hopr" ? "the house" : "all RC seats"
+    }`,
   })),
   { label: "Regions with a seat", value: p.regions.length },
 ];
