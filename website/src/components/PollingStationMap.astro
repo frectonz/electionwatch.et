@@ -1,7 +1,9 @@
 ---
-// Reusable MapLibre map of polling stations with NEBE-published GPS coordinates.
-// Rendered as individual GPU circle dots (fast at scale). Stations NEBE left
-// without coordinates are not shown; we do not invent locations.
+// Reusable MapLibre map of polling stations, rendered as individual GPU circle
+// dots (fast at scale). Most positions are NEBE-published GPS; Amhara's
+// stations, which NEBE published without coordinates, are scattered
+// deterministically around their woreda's centre and their popups say so.
+// Stations with no coordinates at all are not shown.
 interface Props {
   /** Map data URL (global by default; pass a per-region file for region pages). */
   dataUrl?: string;
@@ -203,6 +205,8 @@ const config = { colors: COLORS, dataUrl, fitData };
     hopr: string;
     rc: string;
     ccolor: string;
+    /** 1 when the position is randomized around the woreda's centre. */
+    derived: number;
   }
 
   // Categorical palette for "colour by constituency" mode (cycled by index).
@@ -264,6 +268,7 @@ const config = { colors: COLORS, dataUrl, fitData };
               woreda,
               hIdx,
               rIdx,
+              srcIdx,
             ]): GeoJSON.Feature => {
               bounds.extend([lon, lat]);
               const props: PsProps = {
@@ -275,6 +280,7 @@ const config = { colors: COLORS, dataUrl, fitData };
                 rc: rIdx >= 0 ? JSON.stringify(rcC[rIdx]) : "",
                 ccolor:
                   hIdx >= 0 ? PALETTE[hIdx % PALETTE.length] : NO_CONSTITUENCY,
+                derived: srcIdx === 1 ? 1 : 0,
               };
               return {
                 type: "Feature",
@@ -347,6 +353,9 @@ const config = { colors: COLORS, dataUrl, fitData };
           };
           const ballots =
             ballotRow(p.hopr, "HoPR") + ballotRow(p.rc, "Regional Council");
+          const note = p.derived
+            ? `<div class="ew-pop-note">Placed at random around the centre of ${esc(p.woreda)} woreda because NEBE published no GPS coordinates for this station.</div>`
+            : "";
           new Popup({ offset: 12, maxWidth: "320px", closeButton: true })
             .setLngLat(
               (f.geometry as GeoJSON.Point).coordinates as [number, number],
@@ -359,6 +368,7 @@ const config = { colors: COLORS, dataUrl, fitData };
              </div>
              <div class="ew-pop-body">
                <span class="ps-pop-chip ps-pop-chip--${online ? "online" : "inperson"}">${label}</span>
+               ${note}
                ${ballots ? `<div class="ps-pop-ballots"><div class="ps-pop-ballots-head">On the ballot here</div>${ballots}</div>` : ""}
              </div>
            </div>`,

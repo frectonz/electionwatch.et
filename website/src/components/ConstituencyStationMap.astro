@@ -2,9 +2,11 @@
 // Map of the polling stations in a single candidate constituency. Points come
 // from a per-constituency dataset (public/data/polling-stations-map/
 // constituencies/{slug}.json) keyed by the candidate-side slug, built by
-// scripts/build-ps-points.ts. Only stations NEBE published GPS coordinates for
-// are shown; we never invent locations. Coloured by registration type — every
-// dot here belongs to the same constituency, so there is nothing to toggle.
+// scripts/build-ps-points.ts. Most positions are NEBE-published GPS; Amhara's
+// stations, which NEBE published without coordinates, are scattered around
+// their woreda's centre and their popups say so. Coloured by registration
+// type — every dot here belongs to the same constituency, so there is nothing
+// to toggle.
 interface Props {
   /** Candidate constituency slug, used to fetch its station dataset. */
   slug: string;
@@ -123,6 +125,8 @@ const config = {
     woreda: string;
     region: string;
     type: string;
+    /** 1 when the position is randomized around the woreda's centre. */
+    derived: number;
   }
 
   document
@@ -150,13 +154,24 @@ const config = {
         const fc: GeoJSON.FeatureCollection = {
           type: "FeatureCollection",
           features: data.points.map(
-            ([lat, lon, regIdx, typeIdx, name, woreda]): GeoJSON.Feature => {
+            ([
+              lat,
+              lon,
+              regIdx,
+              typeIdx,
+              name,
+              woreda,
+              ,
+              ,
+              srcIdx,
+            ]): GeoJSON.Feature => {
               bounds.extend([lon, lat]);
               const props: CsProps = {
                 name,
                 woreda: woreda ?? "",
                 region: data.regions[regIdx],
                 type: typeIdx === 0 ? "digital" : "manual",
+                derived: srcIdx === 1 ? 1 : 0,
               };
               return {
                 type: "Feature",
@@ -199,6 +214,9 @@ const config = {
           const label = online
             ? "Online registration"
             : "In-person registration";
+          const note = p.derived
+            ? `<div class="ew-pop-note">Placed at random around the centre of ${esc(p.woreda)} woreda because NEBE published no GPS coordinates for this station.</div>`
+            : "";
           new Popup({ offset: 12, maxWidth: "300px", closeButton: true })
             .setLngLat(
               (f.geometry as GeoJSON.Point).coordinates as [number, number],
@@ -211,6 +229,7 @@ const config = {
              </div>
              <div class="ew-pop-body">
                <span class="ps-pop-chip ps-pop-chip--${online ? "online" : "inperson"}">${label}</span>
+               ${note}
              </div>
            </div>`,
             )

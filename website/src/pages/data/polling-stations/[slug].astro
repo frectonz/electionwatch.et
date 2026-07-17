@@ -43,6 +43,9 @@ for (const s of stations) {
 const zones = [...zoneCount.entries()].sort((a, b) => b[1] - a[1]);
 
 const located = stations.filter((s) => s.coordinate_source === "nebe").length;
+const derived = stations.filter(
+  (s) => s.coordinate_source === "woreda_centroid",
+).length;
 
 const constituencies = hoprConstituencies
   .filter((c) => c.region === region.name)
@@ -164,18 +167,20 @@ const conStats = [
   </section>
 
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
-    <p class="text-sm text-ew-text-muted mb-3">
-      {
-        located === 0
-          ? "NEBE published no GPS coordinates for this region's stations."
-          : `${fmt(located)} of ${fmt(region.stations)} stations (${pct(located, region.stations)}%) have GPS coordinates published by NEBE; the rest are not shown.`
-      }
-    </p>
     <PollingStationMap
       dataUrl={`/data/polling-stations-map/${region.slug}.json`}
       height="60vh"
       fitData
     />
+    <p class="text-xs text-ew-text-muted mt-2">
+      {
+        located === 0 && derived > 0
+          ? "Dots are placed at random around the centre of each station's woreda because NEBE published no GPS coordinates for this region."
+          : located === 0
+            ? "NEBE published no GPS coordinates for this region's stations."
+            : `${fmt(located)} of ${fmt(region.stations)} stations (${pct(located, region.stations)}%) have GPS coordinates published by NEBE. The rest are not shown.`
+      }
+    </p>
   </section>
 
   <!-- Registration method -->

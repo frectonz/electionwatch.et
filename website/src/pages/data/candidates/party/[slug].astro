@@ -230,16 +230,20 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
         <h2 class="font-display text-2xl mb-1">On the map</h2>
         <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
-          Every GPS-located polling station, coloured by whether {party.name_en}{" "}
+          Every locatable polling station, coloured by whether {party.name_en}{" "}
           fields candidates in the constituency that votes there. Switch ballots
-          to compare its HoPR and Regional Council footprint. Constituencies
-          NEBE left without coordinates are not shown.
+          to compare its HoPR and Regional Council footprint.
         </p>
         <PartyFootprintMap
           contestedHopr={contestedHopr}
           contestedRc={contestedRc}
           partyName={party.name_en}
         />
+        <p class="text-xs text-ew-text-muted mt-2">
+          The Amhara region's dots are placed at random around their woreda's
+          centre because NEBE published no GPS coordinates for them. Stations
+          without coordinates elsewhere are not shown.
+        </p>
       </section>
     )
   }

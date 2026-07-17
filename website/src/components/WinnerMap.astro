@@ -1,7 +1,9 @@
 ---
 // Where the leading party was beaten, painted through polling stations: the
 // station is the finest geography NEBE publishes coordinates for, and
-// constituency borders do not exist as open data.
+// constituency borders do not exist as open data. Amhara's stations, which
+// NEBE published without coordinates, are scattered around their woreda's
+// centre and their popups say so.
 import { LEADER_COLOR, CHALLENGER_COLOR, NO_RESULT_COLOR } from "@/lib/format";
 import { leadingParty, type SeatOutcome } from "@/data/results";
 
@@ -176,11 +178,12 @@ const legend = [
         const data = (await fetch("/data/polling-stations-map.json").then((r) =>
           r.json(),
         )) as MapData;
+        const points = data.points;
         const { hoprC, rcC } = data;
 
         const fc: GeoJSON.FeatureCollection = {
           type: "FeatureCollection",
-          features: data.points.map(
+          features: points.map(
             ([
               lat,
               lon,
@@ -190,6 +193,7 @@ const legend = [
               woreda,
               hIdx,
               rIdx,
+              srcIdx,
             ]): GeoJSON.Feature => {
               const h = hIdx >= 0 ? hoprC[hIdx] : null;
               const r = rIdx >= 0 ? rcC[rIdx] : null;
@@ -206,6 +210,7 @@ const legend = [
                   hname: h?.name ?? "",
                   rslug: r?.slug ?? "",
                   rname: r?.name ?? "",
+                  derived: srcIdx === 1 ? 1 : 0,
                 },
               };
             },
@@ -266,6 +271,9 @@ const legend = [
           const link = cslug
             ? `<a class="wm-pop-link" href="/data/candidates/c/${cslug}">See the full result &rsaquo;</a>`
             : "";
+          const note = Number(p.derived)
+            ? `<div class="ew-pop-note">Placed at random around the centre of ${esc(p.woreda)} woreda because NEBE published no GPS coordinates for this station.</div>`
+            : "";
 
           new Popup({ offset: 12, maxWidth: "300px", closeButton: true })
             .setLngLat(e.lngLat)
@@ -277,6 +285,7 @@ const legend = [
                 </div>
                 <div class="ew-pop-body">
                   <p class="wm-pop-status">${dot}${status}</p>
+                  ${note}
                   ${link}
                 </div>
               </div>`,

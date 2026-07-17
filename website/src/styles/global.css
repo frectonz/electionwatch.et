@@ -93,3 +93,10 @@
   padding: 11px 14px;
   background: var(--color-ew-card);
 }
+/* Disclosure for stations placed at random around their woreda's centre. */
+.ew-pop-note {
+  margin-top: 9px;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--color-ew-text-muted);
+}

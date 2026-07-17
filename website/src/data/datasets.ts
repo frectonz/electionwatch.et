@@ -58,7 +58,7 @@ export const datasets: DatasetMeta[] = [
     id: "polling-stations",
     title: "Polling Stations",
     blurb:
-      "Every registered polling station for the 7th General Election, structured by region, zone, woreda, kebele, and electoral constituency, with coordinates where the board published them.",
+      "Every registered polling station for the 7th General Election, structured by region, zone, woreda, kebele, and electoral constituency, with coordinates where the board published them and approximate woreda centres for Amhara, which it published without GPS.",
     href: "/data/polling-stations",
     status: "live",
     records: pollingStationsIndex.total_stations,

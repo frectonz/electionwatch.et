@@ -1,6 +1,8 @@
 ---
-// Map of one party's footprint: every GPS-located polling station, coloured by
+// Map of one party's footprint: every locatable polling station, coloured by
 // whether this party fields candidates in the constituency voted on there.
+// Amhara's stations, which NEBE published without coordinates, are scattered
+// around their woreda's centre and their popups say so.
 // "Running here" dots take the ballot colour; the rest fade to faint grey, so a
 // single glance shows where the party stands and where it leaves a gap. A ballot
 // toggle switches between the HoPR and Regional Council races, whose coverage
@@ -149,6 +151,8 @@ const config = {
     hname: string;
     rslug: string;
     rname: string;
+    /** 1 when the position is randomized around the woreda's centre. */
+    derived: number;
   }
 
   document
@@ -169,11 +173,12 @@ const config = {
         const data = (await fetch("/data/polling-stations-map.json").then((r) =>
           r.json(),
         )) as MapData;
+        const points = data.points;
         const { hoprC, rcC } = data;
 
         const fc: GeoJSON.FeatureCollection = {
           type: "FeatureCollection",
-          features: data.points.map(
+          features: points.map(
             ([
               lat,
               lon,
@@ -183,6 +188,7 @@ const config = {
               woreda,
               hIdx,
               rIdx,
+              srcIdx,
             ]): GeoJSON.Feature => {
               const h = hIdx >= 0 ? hoprC[hIdx] : null;
               const r = rIdx >= 0 ? rcC[rIdx] : null;
@@ -196,6 +202,7 @@ const config = {
                 hname: h ? h.name : "",
                 rslug: r ? r.slug : "",
                 rname: r ? r.name : "",
+                derived: srcIdx === 1 ? 1 : 0,
               };
               return {
                 type: "Feature",
@@ -261,6 +268,9 @@ const config = {
             conSlug && conName
               ? `<a class="pf-pop-link" href="/data/candidates/c/${conSlug}">See this constituency &rsaquo;</a>`
               : "";
+          const note = Number(p.derived)
+            ? `<div class="ew-pop-note">Placed at random around the centre of ${esc(p.woreda)} woreda because NEBE published no GPS coordinates for this station.</div>`
+            : "";
           new Popup({ offset: 12, maxWidth: "300px", closeButton: true })
             .setLngLat(
               (f.geometry as GeoJSON.Point).coordinates as [number, number],
@@ -273,6 +283,7 @@ const config = {
              </div>
              <div class="ew-pop-body">
                <p class="pf-pop-status">${status}</p>
+               ${note}
                ${link}
              </div>
            </div>`,

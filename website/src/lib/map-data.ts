@@ -12,7 +12,10 @@ export interface ConstituencyRef {
 
 /** A single point row:
  *  [lat, lon, regionIdx, registrationType(0=digital,1=manual), name, woreda,
- *   hoprConstituencyIdx, rcConstituencyIdx]. Indices of -1 mean "none". */
+ *   hoprConstituencyIdx, rcConstituencyIdx, srcIdx]. Indices of -1 mean
+ *  "none". srcIdx 0 is a NEBE-published GPS position; srcIdx 1 is a station
+ *  NEBE published without coordinates, placed at random around its woreda's
+ *  centre (Amhara). */
 export type MapPoint = [
   lat: number,
   lon: number,
@@ -22,6 +25,7 @@ export type MapPoint = [
   woreda: string,
   hoprIdx: number,
   rcIdx: number,
+  srcIdx: number,
 ];
 
 /** The compact dataset the maps fetch at runtime (one global + per-region). */

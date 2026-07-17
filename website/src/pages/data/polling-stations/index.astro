@@ -107,17 +107,15 @@ const sizeChart = {
 
   <!-- Map -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-    <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
-      <h2 class="font-display text-2xl">Map</h2>
-      <p class="text-sm text-ew-text-muted">
-        {fmt(idx.with_coordinates)} of {fmt(idx.total_stations)} stations ({
-          pct(idx.with_coordinates, idx.total_stations)
-        }%) have GPS coordinates published by NEBE. The remaining {
-          fmt(idx.without_coordinates)
-        } have none and are not shown.
-      </p>
-    </div>
+    <h2 class="font-display text-2xl mb-3">Map</h2>
     <PollingStationMap height="64vh" />
+    <p class="text-xs text-ew-text-muted mt-2">
+      {fmt(idx.coordinate_sources.nebe)} stations have NEBE-published GPS positions.
+      The Amhara region's {fmt(idx.coordinate_sources.woreda_centroid ?? 0)} are placed
+      at random around their woreda's centre because NEBE published none. {
+        fmt(idx.without_coordinates)
+      } stations without coordinates are not shown.
+    </p>
   </section>
 
   <!-- Registration method -->

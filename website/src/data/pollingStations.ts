@@ -32,8 +32,11 @@ export type PollingStation = {
   name: string;
   latitude: number | null;
   longitude: number | null;
-  /** "nebe" when NEBE published a coordinate for the station, else null. */
-  coordinate_source: "nebe" | null;
+  /** "nebe" when NEBE published a coordinate for the station,
+   * "woreda_centroid" when the position is the approximate centre of the
+   * station's woreda (derived from OCHA admin boundaries; Amhara publishes no
+   * GPS), else null. */
+  coordinate_source: "nebe" | "woreda_centroid" | null;
   registration_type: RegistrationType;
 };
 
