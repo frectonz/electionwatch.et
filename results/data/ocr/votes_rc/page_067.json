@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 67,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ወሊሶ 2 / Walisoo 2",
+      "candidate": "ጫልቱ ጉታ አንጋሳ",
+      "votes": 100999
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ወሊሶ 2 / Walisoo 2",
+      "candidate": "ተሾመ ተስፋዬ ጉዲሳ",
+      "votes": 254
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ወሊሶ 2 / Walisoo 2",
+      "candidate": "ሞቱማ ሃረቆሳ ተሬሳ",
+      "votes": 227
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ወሊሶ 2 / Walisoo 2",
+      "candidate": "ዘለቀ ከበደ ተሬሳ",
+      "votes": 208
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "መኮንን ታደሰ ተሊላ",
+      "votes": 104426
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "መሱቱ አለሙ ቆሬ",
+      "votes": 103403
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "አስካለ ንጉሱ ቱሉ",
+      "votes": 101897
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "ንጉሴ ሀይሉ ገመዳ",
+      "votes": 1683
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "አብረሃም መለሰ ኪያኔቃሉ",
+      "votes": 1422
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "ታፈሱ አያሌው ካሳ",
+      "votes": 1289
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "ሚልኪ ሽመልስ አለሙ",
+      "votes": 1112
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "ማርታ ቡላ ዳባ",
+      "votes": 532
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "አሸናፊ አጀማ ድሪብሳ",
+      "votes": 86841
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "አሚና ኢንኩሺ ኢጋቶ",
+      "votes": 85188
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "አለማየሁ ቱሉ ቢፍቱ",
+      "votes": 84944
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "ትርንጎ አይቼው የገራው",
+      "votes": 742
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "መአዲ ሰሎሞን ተስፋዬ",
+      "votes": 706
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "ሀብታሙ ተሰማ ታቦተጊዮርጊስ",
+      "votes": 680
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "ተሊላ ቄምቤ ገዳ",
+      "votes": 573
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "ሰናይት በላይ አበበ",
+      "votes": 536
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "አለሙ ጉደታ ድልቦ",
+      "votes": 533
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "በቀለ በዳዳ ሀዋስ",
+      "votes": 530
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "ዮናስ ንጉሴ ለማ",
+      "votes": 443
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "ኢብራሂም አሰነ ገብሬ",
+      "votes": 336
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "Takele Uma Banti",
+      "votes": 60343
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "ደጀኔ ተረፈ ፊላ",
+      "votes": 58900
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "መስከረም መገርሳ ደለሣ",
+      "votes": 57919
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "ዮንሳን ታደሰ ዋሪ",
+      "votes": 902
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "እሸቱ ከንፌ ጉቱ",
+      "votes": 613
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "ጋሮምሳ ብርሃኑ አጀማ",
+      "votes": 568
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "ኤባ ዳንደና ጭሬ",
+      "votes": 129
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "ኤፍትሆም ቀጀላ ሉሉ",
+      "votes": 113
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በቆጂ 2 / Boqojjii 2",
+      "candidate": "ሸምስያ አብደላ ገልገሉ",
+      "votes": 90203
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በቆጂ 2 / Boqojjii 2",
+      "candidate": "ሱልጣን ፋቶ ዌኒ",
+      "votes": 88741
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በቆጂ 2 / Boqojjii 2",
+      "candidate": "አብዲ ዳቱ ዋቆ",
+      "votes": 86567
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በቆጂ 2 / Boqojjii 2",
+      "candidate": "ጌቱ ገብረመዲን መስቀሉ",
+      "votes": 152
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨለንቆ 2 / Calanqoo 2",
+      "candidate": "ሰአዳ አብዱረህማን ሀቢቤ",
+      "votes": 88623
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨለንቆ 2 / Calanqoo 2",
+      "candidate": "አብዲ ዩያ አህመድ",
+      "votes": 84758
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨለንቆ 2 / Calanqoo 2",
+      "candidate": "አብዱረዛቅ አህመድ ሀሰን",
+      "votes": 84571
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ጭምዶ አንጫላ ቡልቻ",
+      "votes": 61763
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ሙሉ ፈጡማ ሀርጌሳ",
+      "votes": 61667
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ወርቂቱ ዲሪባ መንገሻ",
+      "votes": 60968
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ለቸሳ ነጋሳ ኢዶሳ",
+      "votes": 288
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "አብኔዘር ጆቦቴ ዱጋሳ",
+      "votes": 194
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ጴጥሮስ ፈይሳ ቡሣ",
+      "votes": 158
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ቡርቃ ለማ ከባ",
+      "votes": 135
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ማርታ አሰፋ ኢያና",
+      "votes": 106
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጭሮ 2 / Ciroo 2",
+      "candidate": "አመዲን መሀመድ ሁሴን",
+      "votes": 93000
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጭሮ 2 / Ciroo 2",
+      "candidate": "አህመድ ሞሀመድ ኢብሮ",
+      "votes": 93000
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጭሮ 2 / Ciroo 2",
+      "candidate": "አሚና አብራሂም አደም",
+      "votes": 93000
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጭሮ 2 / Ciroo 2",
+      "candidate": "መሀመድ ኢድሪስ አብዱረማን",
+      "votes": 0
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጭሮ 2 / Ciroo 2",
+      "candidate": "ጋሻው ደጀን ፋንታዬ",
+      "votes": 0
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳደር 2 / Dadar 2",
+      "candidate": "ተሚማ አህመድ አቢበከር",
+      "votes": 97846
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳደር 2 / Dadar 2",
+      "candidate": "መሀሙዲን ከቢርሁሴን ከቢርመሀመድ",
+      "votes": 97666
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳደር 2 / Dadar 2",
+      "candidate": "ኢሳቅ አብዲ መሀመድ",
+      "votes": 97566
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ሽመልስ አብዲሳ አልፋታ",
+      "votes": 50489
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ብዙ ባይሳ አርጌሳ",
+      "votes": 50066
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ጉደታ ኤረርሳ ማንደሳ",
+      "votes": 49569
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ደጀኔ ፊይሳ ሰሪ",
+      "votes": 1404
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ተሾመ ወጊ አርኮ",
+      "votes": 126
+    }
+  ]
+}

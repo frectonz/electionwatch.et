@@ -1,0 +1,74 @@
+{
+  "pdf": "votes_hopr",
+  "page": 32,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አሸብር ወልደጊዮርጊስ ጋዮ",
+      "votes": 44062
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ሰብለቤ ማሞ በነጎ",
+      "votes": 831
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ተክሌ ወልደሚካኤል የቦ",
+      "votes": 753
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ውለታ ሉቃስ የቦ",
+      "votes": 425
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "በዕለቱ አሸብር ኃይሌ",
+      "votes": 393
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ምስጥሬ ካሳ ተክሌ",
+      "votes": 225
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "አስካለ ገብረሚካኤል ገብረፃዲቅ",
+      "votes": 55479
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ወይንቱ አካሉ ገብረኪዳን",
+      "votes": 1087
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "አንጻርጌ ኢጦ ወልደማርያም",
+      "votes": 665
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ምንትዋብ ምትኩ መሸሻ",
+      "votes": 82
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ፋሩስ ሁሴን አሳሳምቢ",
+      "votes": 76
+    }
+  ]
+}

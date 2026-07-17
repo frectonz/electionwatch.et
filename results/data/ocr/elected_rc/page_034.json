@@ -1,0 +1,223 @@
+{
+  "pdf": "elected_rc",
+  "page": 34,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁሉል ሞጆ",
+      "candidate": "አህመድ አብደላ ቃሲም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁሉል ሞጆ",
+      "candidate": "ነኢማ አህመድ ሞሊድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁሉል ሞጆ",
+      "candidate": "ሸምሱዲን አሚን ኢብራሂም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁላ ሁሉል",
+      "candidate": "አህመድ ያቁሜ አብራሻ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁላ ሁሉል",
+      "candidate": "ሱልጣን አሊይ አብዱላ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገአዳ ሚርጋ",
+      "candidate": "መሀመድ አሜ ሼኪ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገአዳ ሚርጋ",
+      "candidate": "ከዲያ አብራሂም ሳሊ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገአዳ ጉንፈታ",
+      "candidate": "ሙሉካ መሀመድ ሁሴን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገአዳ ጉንፈታ",
+      "candidate": "አደም ኡስማን አሊ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "መልካ ቀሮ",
+      "candidate": "መፍቱሃ አሚን ኡመሬ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "መልካ ቀሮ",
+      "candidate": "አብዱላሂ አደም ዩሱፍ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሙዲ አነኖ",
+      "candidate": "አህመድ አብዶ ሃሜ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሙዲ አነኖ",
+      "candidate": "ጀማል ኢብራሂም ጎድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሙዲ አነኖ",
+      "candidate": "አፍራህ ኡስማን ወላድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢሻን ባሄ",
+      "candidate": "ኢብሮ ዩያ አብራሂም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢሻን ባሄ",
+      "candidate": "ተሚማ መሀመድ ኢብሮ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢሻን ባሄ",
+      "candidate": "አኒሳ መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢዮ አዋሌ",
+      "candidate": "ኢብራሂም ዩሱፍ አህመድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢዮ አዋሌ",
+      "candidate": "አህመድ መሀመድ ሙኒር"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢዮ አዋሌ",
+      "candidate": "አብዱላህ ፋራህ መሀመድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቦረን ጅጅጋ",
+      "candidate": "አህመድ አዋሌ አደን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቦረን ጅጅጋ",
+      "candidate": "ለይላ ሰምሬ ጌሌ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አያሌ ጉምጉም",
+      "candidate": "ኡባህ አብዱላሂ ራጌ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አያሌ ጉምጉም",
+      "candidate": "ጀማል አሚን አሜ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አያሌ ጉምጉም",
+      "candidate": "ፋአድ መሀመድ ማይደኔ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዲጋ ፈለማ",
+      "candidate": "አሊያ ናዲ ሱሌማን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዲጋ ፈለማ",
+      "candidate": "አብዲ አብደላ ኢብራሂም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዲጋ ፈለማ",
+      "candidate": "ቤዛ የማነ በርሄ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጀለቦ በሌና",
+      "candidate": "አብዲ ታጁሬ ኢድሪስ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጀለቦ በሌና",
+      "candidate": "አማጅድ አብደላ መሀመድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጀለቦ በሌና",
+      "candidate": "ረመዳን መሀመድ ሰኢድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገርባ አነኖ",
+      "candidate": "ኡስማን አሊ ሀሰን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገርባ አነኖ",
+      "candidate": "ሐርቢ ብሀ ወርሰሜ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገርባ አነኖ",
+      "candidate": "ሀይደር ሀጅቶር ኡመር"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ሪቄ",
+      "candidate": "ከሪማ አሊ ሮባ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ሪቄ",
+      "candidate": "ፋአድ ከማል አህመድ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ሪቄ",
+      "candidate": "መይሙና ዳዊድ ሀሰን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ገበሬ",
+      "candidate": "ፋቲያ ኢስማኤል ሁሴን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ገበሬ",
+      "candidate": "ጉሌድ ኢስማኤል ሀሰን"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ገበሬ",
+      "candidate": "ኢሊያስ አሊይ አብዱልከሪም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጉዳን ሳሮ",
+      "candidate": "ያሲን አህመድ ሙሳ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጉዳን ሳሮ",
+      "candidate": "ኡስማን አህመድ ሙሳ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጉዳን ሳሮ",
+      "candidate": "መሀመድ ሙሴ ኡስማን"
+    }
+  ]
+}

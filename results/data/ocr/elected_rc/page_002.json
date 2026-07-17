@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 2,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ፃዲቁ ባጢሶ ባዊሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዝናሽ ሸማሎ ጉርሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አሸሌ ዳንኤል ብራሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አለማየሁ አሰፋ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አበበች ቃዋቶ ረቅዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ምንትዋብ ገብረመስቀል ጋቼኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ተስፋዬ ደነቀ ጋብሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሂታሞ ሂግሶ ጋቼኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዳዊት ሃየሶ ቦርሳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አዳነ ሹብሾ ሀማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አክሊሉ አዱላ ያዬ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "በየነ ባራሳ ባሰንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሀይሌ ሀርሲሳ ሀሮ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "የኃላሸት በቀለ ቃሬ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አበራሽ ቃርፋፋ ቦኮ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ታፈሰ ማቴዎስ ካሮ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ብርሌ ብርሃኑ ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አለሙ አለንቦ አሩሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ታደለች ዮሀንስ ወቲቻ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ከተማ ከበደ ካሶሶ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "መስፍን በላይ ቶጋ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "መለሰ ድኬ ወጃጎ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "አሸናፊ ደበበ ሂርጳቶ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ዘነበ ሙንጣሻ ያዴ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ጤናዬ ሳንባቶ ልማሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ጀጎ አገኘሁ ዬቴራ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ፀሐይ ገሬሙ ጋምቤ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "አማኑኤል መንግስቱ ቦሮጄ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "በረከት ጎኔ ዳባሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "መንግሻ ሃናቆ እትሶ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ታርኮ ተሾመ ሩካሶ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ብርቱካን ቦንዴሮ አሳሮ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ሲንጣ ሲዳ ስቡ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኢዮብ ማሩፋ ወበሳ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኢያሱ ሜሳ ጌዶ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ታረቀኝ ዮሴፍ ሳማነ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ፀሐይነሽ ተክሌ አሌ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ትግስት ሊዮስ ሹምቦሎ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ማቲዎስ በየነ ከልባዬ"
+    },
+    {
+      "region": "",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "አድሎ አብርሃም ኃይሌ"
+    }
+  ]
+}

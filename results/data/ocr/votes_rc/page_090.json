@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 90,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ፋጢማ ይመር አባተ",
+      "votes": 3950
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሀሊፋ ያሲን ሀዲ",
+      "votes": 3915
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አወል ሰይድ አህመድ",
+      "votes": 3869
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "የሺ መላኩ ጌቶ",
+      "votes": 3796
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "እኑር አብዳላ ሀምዳን",
+      "votes": 3790
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ብርሀኑ ጌታነህ ላቀው",
+      "votes": 3741
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "መሀመድአጅብ አልማሃድ አልበሽር",
+      "votes": 3610
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አለምወርቅ በዛብህ ዳምጤ",
+      "votes": 3534
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "በላይነሽ ፈንታው መኮነን",
+      "votes": 3258
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አስማኢል ሀሊድ አብደላ",
+      "votes": 2752
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ፍጹል ሙሳ ባበክር",
+      "votes": 2550
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ፈይሰል አኑዋር ሀሊፋ",
+      "votes": 2143
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ብጅጋ ፃፈዮ ኩቺ",
+      "votes": 4634
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ገ ርቢ አሻካ",
+      "votes": 4576
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ደረጃ ቀረንሶ በራና",
+      "votes": 4113
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ሙሉነሽ ዘዉዴ ባሹራ",
+      "votes": 3806
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ጌጤ ቴሶ ለበታ",
+      "votes": 3770
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ዮሴፍ እንጀፋታ መንገሻ",
+      "votes": 3707
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ዋቅቶላ ኩኩ ዴዴ",
+      "votes": 2113
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ሂካ ፈይሳ ጋልቻ",
+      "votes": 1854
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ጌታቸዉ አዶሣ ኮርሜ",
+      "votes": 1849
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ታመነ ሂካ ባንጉ",
+      "votes": 1582
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ወንድሙ ወርዳ ባንጉ",
+      "votes": 1494
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "ላልሴ አምሩ ብጫቃ",
+      "votes": 1474
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "መሀመድ አብዱላዚዝ አኑር",
+      "votes": 9968
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ከማል መሀመድ ሆጀሌ",
+      "votes": 9599
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ኡመር አብዱልቃድር አፉዲ",
+      "votes": 9470
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "መሀመድ አልማሂ አኑሜሪ",
+      "votes": 8813
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "አልወያ ሃሚድ ሰሌማን",
+      "votes": 8534
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ተውፊቅ አብዱልቀዩም አብዱልጀሊል",
+      "votes": 8321
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "አብዱልመኔአም አደም ሀሚስ",
+      "votes": 7993
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ራበሃ ረዝቅ አብደላ",
+      "votes": 7660
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ሀሊል አርባብ ሀሚስ",
+      "votes": 853
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ቀልቤሳ ወልጅራ እመንቴ",
+      "votes": 7530
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ትዕግስት ዲቢሳ ሰሪቃ",
+      "votes": 7268
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ተፈሪ አበበ በገዊ",
+      "votes": 7092
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "አሰፋ ጉታ ጋዛዋ",
+      "votes": 6678
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "መልካሙ ጁራ ሮቢ",
+      "votes": 6620
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "አበያ ፈረደ ጉተማ",
+      "votes": 6606
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ፀሐይነሽ ያደሳ ጁራ",
+      "votes": 6509
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ጋሹ ዱጋዝ አጌ",
+      "votes": 6461
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "አቡሽ ቲሳ ባልቦ",
+      "votes": 2223
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ሀፋ ቴሰሳ ደሴ",
+      "votes": 2165
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ተፈሪ ቢራቱ ሞቢዮ",
+      "votes": 2029
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ኡስማን ቴሰሳ ነገዎ",
+      "votes": 2016
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ጥላሁን መኮነን ደላ",
+      "votes": 1894
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "መለሰ ምንዳር ባሚጂ",
+      "votes": 1890
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ኩሰኒ ዲሪሳ ያደታ",
+      "votes": 1774
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "አያሩ አለማየሁ ወራቡ",
+      "votes": 1277
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ደሳለው አይናለም አስረስ",
+      "votes": 998
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "መራ ምትኩ ሞገስ",
+      "votes": 487
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ደሳለኝ አረጋ አብዲ",
+      "votes": 469
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ሰማልኝ ሙሉጌታ ቦጋለ",
+      "votes": 430
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "መኳንንት የሽዋስ ተሰማ",
+      "votes": 372
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ጫሊ ሞርካ ቡሩሶ",
+      "votes": 362
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "አዱኛዉ ሉሉ አስረስ",
+      "votes": 352
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "አብርሃም ትዛዙ ዘሪሁን",
+      "votes": 351
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ግዛቱ ብርሃኑ አዋየ",
+      "votes": 342
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "መልሰች ማቲዎስ ሰድቶ",
+      "votes": 266
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ወምበራ",
+      "candidate": "ግዳይ መኮንን ማቁሬ",
+      "votes": 178
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "registered_voters": 54057861,
+  "votes_cast": 51734193,
+  "turnout_pct": 95.0,
+  "abstained_pct": 5.0,
+  "ballots_used": 51705279,
+  "ballots_unused": 11334944,
+  "ballots_invalid": 320781,
+  "excludes_recounts_and_reruns": true,
+  "source_url": "https://nebe.org.et/am/7th-general-election-result-summary",
+  "published": "2026-07-08"
+}

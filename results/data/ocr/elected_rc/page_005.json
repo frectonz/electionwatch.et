@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 5,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ጥራቱ በየነ ቢልቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ማራዶና ዘለቀ ማርሣሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ተስፋዬ ሾንዶላ ዮቱላ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፍትህ ወልደሰንበት ዘበርጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ይመኙሻል ታደሰ ስርሚሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ደምሴ ዳንጌሶ ኮንፎሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ዎላንሳ ኢንጋሞ ሀንጣጣ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሱፊያ ኑሪ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ካሰች ተፈራ ገመዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሰብለወርቅ ሸለመ ቆንቁማ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ደምሴ እሳቱ ዶቄ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ብሩክ ሰለሞን ባሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ነጻነት ሸንኮራ ኤጋሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መድሃኒት ከበደ ለገሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አሰፋ ፎና ደበሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አብዮት ሳሙኤል ኑኡሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ማትዎስ ሆያሞ ጎሶማ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሳሙኤል ሮዶሶ ባራ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ፀጋነሽ ቱሞቻ ሹሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "እስቴር ገሪሙ ብንቤሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ተመስገን ተረፈ ጨብሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታደሰ ታሾቴ መዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ብዙነሽ ሻፎ ሀሪሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታሪኩ ለማ ዋቃዮ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዋሪሳ ዳርሞ ቢንባዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ምናሉሽ ፋኑኤል ፋንቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "በላይ በልጉዳ ናሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ካሱ አሩሳ ቦቼ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ደበሣ ዳካ ዳላቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ንዋይ ንጉሴ ዋርሳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋርዴር",
+      "candidate": "መሀመድ ዩሱፍ መአሊን"
+    },
+    {
+      "region": "",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዱልፈታህ ሼክ ቢሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋርዴር",
+      "candidate": "አህመድ ሀሰን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋርዴር",
+      "candidate": "መሀመድ ሻፊ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "ኡመር ሃጂ ወርፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዲረዛቅ አዊል ሙሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዱላሂ ሙሀመድ ፋራህ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "ባሼ መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "መሀመድ አብዳላህ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ኑር ኢሣቅ አደን"
+    },
+    {
+      "region": "",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ሻርማርኬ ሸሪፍ ቡሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "አሊ ፋርህ አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ሀቢባ ዲሪዬ ካሚል"
+    },
+    {
+      "region": "",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ፋን አህመድ አሊ"
+    }
+  ]
+}

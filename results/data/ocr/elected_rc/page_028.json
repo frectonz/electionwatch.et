@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 28,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "መቱ / Mattuu",
+      "candidate": "ተሻለ ኤጀርሶ ጉርሜሳ"
+    },
+    {
+      "region": "",
+      "constituency": "መቱ / Mattuu",
+      "candidate": "ግርማ ረጋሳ ቡላ"
+    },
+    {
+      "region": "",
+      "constituency": "መቱ / Mattuu",
+      "candidate": "የትምወርቅ ለማ ቱሉ"
+    },
+    {
+      "region": "",
+      "constituency": "መኢሶ / Mi'eessoo",
+      "candidate": "ሸምሰዲን አብዱልመጅድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መኢሶ / Mi'eessoo",
+      "candidate": "አሙ ኑሬ አብዶ"
+    },
+    {
+      "region": "",
+      "constituency": "መኢሶ / Mi'eessoo",
+      "candidate": "አብደላ አብራሂም አደሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ሚጨታ / Michataa",
+      "candidate": "አነሰ አሊዪ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሚጨታ / Michataa",
+      "candidate": "አህመድ አቡበከር ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ሚጨታ / Michataa",
+      "candidate": "ሙነ አህመድ ርሺድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Moyaalee",
+      "candidate": "ዴንጌ ቦሩ ቆቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Moyaalee",
+      "candidate": "ሹኩት ሀቃ ዱላቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Moyaalee",
+      "candidate": "ሀሊማ ኢሳቅ ሱራ"
+    },
+    {
+      "region": "",
+      "constituency": "ነገሌ / Nagallee",
+      "candidate": "ጉዮ ዋሪዮ ጎዳና"
+    },
+    {
+      "region": "",
+      "constituency": "ነገሌ / Nagallee",
+      "candidate": "ዱሬ ቡዴ ገበና"
+    },
+    {
+      "region": "",
+      "constituency": "ነገሌ / Nagallee",
+      "candidate": "አብዱራዛቅ ሁሴን ጂብሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ነጆ / Najjoo",
+      "candidate": "ተሊላ ተረፋ ቴሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ነጆ / Najjoo",
+      "candidate": "ኤባ ገርባ አብዲሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ነጆ / Najjoo",
+      "candidate": "አያንቱ ሳሙኤል ደፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ነቀምቴ / Naqamtee",
+      "candidate": "መስፍን መላኩ ባለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ነቀምቴ / Naqamtee",
+      "candidate": "ኮከቤ ዲዳ ዲሳሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ነቀምቴ / Naqamtee",
+      "candidate": "ነመራ ቡሊ ያደታ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖኖ / Noonnoo",
+      "candidate": "ሸፈራዉ መቼሳ መልሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖኖ / Noonnoo",
+      "candidate": "ተፈራ አራርሳ ገርባ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖኖ / Noonnoo",
+      "candidate": "ገነት ከበደ ከተማ"
+    },
+    {
+      "region": "",
+      "constituency": "ኑኑ / Nuunnuu",
+      "candidate": "ባጩ ተስፋዬ ሀምቢሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ኑኑ / Nuunnuu",
+      "candidate": "ሀጅመሀመድኑር በቀለ አማንታ"
+    },
+    {
+      "region": "",
+      "constituency": "ኑኑ / Nuunnuu",
+      "candidate": "አስፋዉ ሚደክሳ ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "ቃቄ / Qaaqee",
+      "candidate": "ኩሊኒ በፍቃዱ ገለታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃቄ / Qaaqee",
+      "candidate": "ዮሐንስ መንገሻ ያደታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃቄ / Qaaqee",
+      "candidate": "ማልከቱ አበበ ቶላ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርጫ / Qarcaa",
+      "candidate": "ቲዚታ ጉዬ ገልጄ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርጫ / Qarcaa",
+      "candidate": "ሞኮና ባሊ ቦሪሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርጫ / Qarcaa",
+      "candidate": "ጋምቤላ ጭሬ ቂንዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ / Qarsaa",
+      "candidate": "ወዩሳ ዴከማ ሹከሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ / Qarsaa",
+      "candidate": "ደራርቱ ጃንቦ ዲዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ / Qarsaa",
+      "candidate": "ኑሬ ምንዱሮ ወቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ቄቤ / Qeebbee",
+      "candidate": "ነብዩ ረጋ ዳባ"
+    },
+    {
+      "region": "",
+      "constituency": "ቄቤ / Qeebbee",
+      "candidate": "ገመቹ ጉርሜሣ ሥርና"
+    },
+    {
+      "region": "",
+      "constituency": "ቄቤ / Qeebbee",
+      "candidate": "ብርቄ ተሰማ ሞርዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅምቢቢት / Qimbibiit",
+      "candidate": "ፍቅሬ አበራ ሮቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅምቢቢት / Qimbibiit",
+      "candidate": "ሮማን አበበዉ ጋሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅምቢቢት / Qimbibiit",
+      "candidate": "ገብርዬ ታምሩ አበራ"
+    },
+    {
+      "region": "",
+      "constituency": "ሮቤ / Roobee",
+      "candidate": "መሀመድ ሀሰን ሳኒ"
+    },
+    {
+      "region": "",
+      "constituency": "ሮቤ / Roobee",
+      "candidate": "አበቡ ሀቢቤ ማሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ሮቤ / Roobee",
+      "candidate": "ፋት ሀይሉ ተሰማ"
+    }
+  ]
+}

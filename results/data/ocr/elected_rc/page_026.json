@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 26,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዲምቱ / Diimtuu",
+      "candidate": "ሲራጁዲን ከድር አባዋሪ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዲምቱ / Diimtuu",
+      "candidate": "ረሂማ አባራራ አባፈጣ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዲምቱ / Diimtuu",
+      "candidate": "አየሉ ረጋሣ ፈይሣ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዶዶላ / Dodolaa",
+      "candidate": "ከድር ማሞ ሂኮ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዶዶላ / Dodolaa",
+      "candidate": "አህመድ ሐጅ ፈቶ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዶዶላ / Dodolaa",
+      "candidate": "ጀማል ከድር ገልገሉ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዶባ / Doobbaa",
+      "candidate": "ህኪማ ዘከሪያ ሙሜ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዶባ / Doobbaa",
+      "candidate": "ሳርቱ ጀማል አብዱላ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዶባ / Doobbaa",
+      "candidate": "አህመድ አሊማም ሰኢድ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ፊንጫ / Finca'aa",
+      "candidate": "ኢፋ ሙለታ ቦሩ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ፊንጫ / Finca'aa",
+      "candidate": "ቡልቶሣ ሂርኮ ለበታ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ፊንጫ / Finca'aa",
+      "candidate": "ሻሽቱ ጎንፋ ኢዴሳ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጋሎ / Gaaloo",
+      "candidate": "በየነ አትቻ በቀለ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጋሎ / Gaaloo",
+      "candidate": "ማቴዎስ ሰቦቃ ረጋሣ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጋሎ / Gaaloo",
+      "candidate": "አልማዝ መንገሻ ቀነዓ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጋቲራ / Gaatiraa",
+      "candidate": "ማሐመድ ማሓመድኑር ዑማር"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጋቲራ / Gaatiraa",
+      "candidate": "ዳባ በየነ ሞሰሳ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጋቲራ / Gaatiraa",
+      "candidate": "ዛቢባ ቃሲም ሁሴን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገሊላ / Galiilaa",
+      "candidate": "ደሱ ለሚ ገላን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገሊላ / Galiilaa",
+      "candidate": "ሴና ዱጋሣ ቴሶ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገሊላ / Galiilaa",
+      "candidate": "ፈቀደ ከተማ ጅባት"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጌራ / Geeraa",
+      "candidate": "ሻፊ ሁሴን አህመድ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጌራ / Geeraa",
+      "candidate": "ዩሱፍ ሻሮ ሙሳ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጌራ / Geeraa",
+      "candidate": "መሠረት ኃይሉ ገሪቢ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊዳሚ / Gidaamii",
+      "candidate": "በላይነሽ በቀለ ኩምሳ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊዳሚ / Gidaamii",
+      "candidate": "ዋቅጋሪ ደበላ ወዮሣ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊዳሚ / Gidaamii",
+      "candidate": "ሀሩን ክዳኔ አንጌሎ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊምቢ / Gimbii",
+      "candidate": "ገመቹስ ተመስገን ዴሬሣ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊምቢ / Gimbii",
+      "candidate": "ሱራፌ አለማየው ዱጉማ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊምቢ / Gimbii",
+      "candidate": "ሁርጌ ማርቆስ ሞሲሳ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊንዲር / Gindhiir",
+      "candidate": "ወርቅያ ሱልጣን ሀሰን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊንዲር / Gindhiir",
+      "candidate": "ሀይሌ በላቸው በደሾ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጊንዲር / Gindhiir",
+      "candidate": "ፋጡማ ከማል ሁሴን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግራዋ / Giraawwaa",
+      "candidate": "ሰኢዳ አብራሂም ሀሰን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግራዋ / Giraawwaa",
+      "candidate": "ነቢያ መሀመድ ቃሲም"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግራዋ / Giraawwaa",
+      "candidate": "ሀብታሙ ተስፋዬ ወልደማሪያም"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎባ / Goobbaa",
+      "candidate": "አለማየሁ ቱሉ ገመዳ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎባ / Goobbaa",
+      "candidate": "ሰሚራ ኢስማኤል አማን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎባ / Goobbaa",
+      "candidate": "መኮ አብደላ ከዲር"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎሮ / Gooroo",
+      "candidate": "አብዱልከሪም አልዬ ሀሰን"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎሮ / Gooroo",
+      "candidate": "ሳዲያ አብደላ አሊ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎሮ / Gooroo",
+      "candidate": "ኑሪያ በከር ሱሌ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎሬ / Goree",
+      "candidate": "ጫልቱ አገኘሁ ሀይሌ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎሬ / Goree",
+      "candidate": "አይናለም ጌታቸው ልማድ"
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ጎሬ / Goree",
+      "candidate": "ዮሐንስ ጌታቸው ሹሩሙ"
+    }
+  ]
+}

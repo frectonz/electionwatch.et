@@ -12,3 +12,4 @@ __pycache__/
 polling-stations/data/pdfs/
 candidates/data/pdfs/
 candidates/data/seats/
+results/data/pdfs/

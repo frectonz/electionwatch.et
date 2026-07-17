@@ -1,0 +1,218 @@
+{
+  "pdf": "elected_rc",
+  "page": 8,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሶማሌ",
+      "constituency": "አዳድሌ / Cadaadle (Magaalo)",
+      "candidate": "ቀብዲድ አብድ ኡመር"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አዳድሌ / Cadaadle (Magaalo)",
+      "candidate": "አብዱላሂ አሊ ሃጂ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አዳድሌ / Cadaadle (Magaalo)",
+      "candidate": "ሮዳ መሀዲ ኢጋዝ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "መሀመድ አብዶሽ ሃጅ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "መሐመድ ጣሂር ዲሪዬ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "ኢብራሂም አህመድ ቡህ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልካሬ / Ceelkare",
+      "candidate": "አህመድ ኢርሻድ አሊኑር"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልካሬ / Ceelkare",
+      "candidate": "መርየን መሀመድ ሲራጅ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልካሬ / Ceelkare",
+      "candidate": "ሹክሪ ሀሰን ባሬ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "አብዲቃዲር መሀመድ ሀሰን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "ፈርሂያ መሀመድ አብዲ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "አሚን ሁሴን አሊ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "ከዲር አላይ መሀመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "ፈይሰል ረሺድ ኡመር"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "አህመድያሲን ኢብራሂም አብዲ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "ፋጡማ መሐመድ ዩሱፍ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "መሐመድ አደን እስማዕል"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "አህመድ አብዱላሂ ሁሰን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "ራቢአ አህመድ ዩሱፍ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "ሰሚራ መሀመድ ሙሁመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "ከድራ ሁሴን እስማኤል"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "መሀመድ ኑር ኢሴ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "መሀሙድ ሀሰን ሁሴን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "ሙሴ አህመድ ኢብራሂም"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "አብዲፈታህ ሀጂኡመር አሬ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "መሀመድ አደን ቢሌ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደናን / Dhanaan",
+      "candidate": "አብዱላሂ ሁሴን አብዲኑር"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደናን / Dhanaan",
+      "candidate": "አብዲሰላም ሙቃዲ መሀመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደናን / Dhanaan",
+      "candidate": "ኢብራሂም መሀመድ ሁሴን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "መሀመድ ጣሂር ሃሺ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "አየን አብዲ መክተል"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "ማኪ ሀጂ አብዲቃኒ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "መሀመድ ፋታህ መሀመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "ዴክ ከይድሰኔ ፋራህ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "ነጅማ አብዲቃድር ሁሴን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erer",
+      "candidate": "ኢብራሂም ዑስማን ፋራህ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erer",
+      "candidate": "መሀመድ አብድረህማን ኡመር"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erer",
+      "candidate": "ሼርማርኬ ጀማል አማር"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erer",
+      "candidate": "ረያሌ ሀውድ አህመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፌርፌር / Feerfeer",
+      "candidate": "ዘምዘም ሙሁመድ ፋራህ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፌርፌር / Feerfeer",
+      "candidate": "ሃሬድ ዋሊ መሀመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፌርፌር / Feerfeer",
+      "candidate": "ABDIHAKAM HAJI SADIK"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 45,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሴቆ 02",
+      "candidate": "መለሰ ዓለሙ ሕርቦሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴቆ 02",
+      "candidate": "መሳይ ተስፋዬ ሚናሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴቆ 02",
+      "candidate": "ዳዊት ሆይሶ ሁሉቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴቆ 02",
+      "candidate": "እልፍነሽ ሚልክያስ ወዕመነ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴቆ 02",
+      "candidate": "ኤርምያስ ጃዕሙሌ ዲላሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶሮ 02",
+      "candidate": "ዲላሞ አቶሬ ፈረንጄ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶሮ 02",
+      "candidate": "ማቴዎስ አኒዮ ሺሾሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶሮ 02",
+      "candidate": "ተመስገን ካሳ ዋጨንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶሮ 02",
+      "candidate": "ታደለች አማኑኤል ባቦሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶሮ 02",
+      "candidate": "ትሬዛ አለሙ ባሙዶ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 1",
+      "candidate": "አንተነህ ፈቃዱ ወልደሰንበት"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 1",
+      "candidate": "አረጋ እሸቱ ደሳለኝ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ትግሉ መለሰ አላንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ግርማ ካለቾ ድንቅሶ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ዳንኤል ዳምጠው አንጭሶ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 1",
+      "candidate": "ዘውዱ ዱላ ክፍሌ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 1",
+      "candidate": "ከድጃ ተማም ሙዘየን"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 1",
+      "candidate": "ፍቅሬ ግዛው ዝርጓ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 1",
+      "candidate": "ናስር ሀሰን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 1",
+      "candidate": "ቤዛአለም ድንቁ ዋሪሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታብ 1",
+      "candidate": "ስንታየሁ ወልደሚካኤል ባርካቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታብ 1",
+      "candidate": "ዳርጌ ተክሉ ሳቤሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታብ 1",
+      "candidate": "አምሳል ሹበሩ ጫኪሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታብ 1",
+      "candidate": "ሂርናወርቅ አለሙ አደሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታብ 1",
+      "candidate": "ዝናሽ ዋቲሮ ሚጣኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 1",
+      "candidate": "መስፍን ተካ ሸማጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 1",
+      "candidate": "ረሺድ መሃጃ ቦንጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 1",
+      "candidate": "ሀና ወርቁ ንዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 1",
+      "candidate": "ጥሩነሽ ምኑታ ዝርጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 1",
+      "candidate": "ዳንኤል ይልማ ቸነገ"
+    },
+    {
+      "region": "",
+      "constituency": "አላባ 2",
+      "candidate": "መሀመድ ኑርዬ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "አላባ 2",
+      "candidate": "ሂክማ ከይረዲን መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አላባ 2",
+      "candidate": "መካቱ ሙንዲኖ ኢሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አላባ 2",
+      "candidate": "መሀመድከማል ኑርዬ ሙንዲኖ"
+    },
+    {
+      "region": "",
+      "constituency": "አላባ 2",
+      "candidate": "አንደአለም አየሊዉ እሸቱ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ምስጋና ማቴዎስ አርፍጮ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ምህረቱ ዮሴፍ ጋቼኖ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ማናዬ ዳንኤል አንጋሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ተክሌ ሥዩም አዳሬ"
+    },
+    {
+      "region": "",
+      "constituency": "አንጋጫ 2",
+      "candidate": "አዲሴ አያሌው ጋዬ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 2",
+      "candidate": "አለማየሁ ገብረመስቀል ጉኒ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 2",
+      "candidate": "ጀማል አለሙ ዙቤር"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 2",
+      "candidate": "ሴቲ አብዱር መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 2",
+      "candidate": "ይግለጡ አብዛ ማሮ"
+    },
+    {
+      "region": "",
+      "constituency": "አዣ 2",
+      "candidate": "አዲሱ ካሳ ዝርጋ"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 4,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አብርሃም ማርሻሎ ኢቲሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ባንጉ በቀለ ቶሾነ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አንዳሻው እስራኤል ካሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "መቅደስ አሸናፊ ሳሳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ኃይሉ የትራ ባራሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "መሠረት አሊቶ አጋሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ዳዊት ትግሮ ሺማኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ፀሐይነሽ ታደሰ ሴዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ትዕግስት ሙጦ ሀንቂቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ታጁ ታሎ ጋርሳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "መንግስቱ በቀለ ባራሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ደረሰ አለሙ ብረጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ያምሮት ሀይሌ ሀዬሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "አበበች ክፍሌ ጋጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ታሪኩ ዱካሞ ዱጉና"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ንብረት ለማ ግዴሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ማቴዎስ ዳንኤል ሲርቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ዘገዬ ኩይሳ ጣንቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ከበደ ካኬ ዱክዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሽታዬ የመራ ዱቃቃ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ፍሊጶስ ናሆም ላፎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ተስፋዬ ኤርሚያስ ወማ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ላሊማ ገለልቻ ጉታ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "መድሃንት ማትዎስ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ብርሃኑ ሀንካራ ሐጢያ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ገነት ዮሐንስ ሌጋሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ከበደ ጋዳሌ ቲሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ንግስት እስራኤል ዳዊት"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ሹባረ ጲጢሶስ ውጃጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ታፈሰ ቤቴ ባልቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ደስታ ሌዳሞ ቡላሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "በለጠች ፍሰሃ ደለና"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ቡርቃ ቡጦላ ባቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ዱሬሳ ሌዳሞ ታሬቃ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ኤልያስ ቲሮ ቲኬሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አልማዝ ሀዋሞ ዮንቆሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ጎሳዬ ጎዳና ዋሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "መላኩ ማርቆስ ሳሚሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "በላይነሽ ግርማ ቃንቄሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አበዛሽ አበበ ሌዲሶ"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 93,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ንፁህ አየለ አሰፋ",
+      "votes": 44887
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አታለለች በሀይሉ በየነ",
+      "votes": 14271
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "መሰረት ሸዋረጋ ከማል",
+      "votes": 13218
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሞገስ አሰፋ ይነሱ",
+      "votes": 11300
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ጋሻሁን ብርሃኑ ደበላ",
+      "votes": 10648
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "መኮንን ብርሃኔ ወልደሚካኤል",
+      "votes": 10615
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አህመድ ሀሰን አባገሮ",
+      "votes": 10508
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ጌታቸው ደረሰ ዳኜ",
+      "votes": 10149
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሰብለወርቅ ፅጌ ተክሌ",
+      "votes": 9948
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "መለሰ ፈለቀ መኩተ",
+      "votes": 9623
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "መሃመድ አወል ያሲን",
+      "votes": 9160
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አጉማስ ታደሰ መንገሻ",
+      "votes": 8659
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሳሙኤል ደርቤ አበበ",
+      "votes": 7716
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ይሄይስ አብዬ እንግዳ",
+      "votes": 7690
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ላዋይሽ ደሳለኝ በለጠ",
+      "votes": 5525
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ጌቱ ፍቃዱ ወልዴ",
+      "votes": 4596
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ፀጋነሽ መኮንን ዲንቃ",
+      "votes": 4467
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ኤልያስ ደምሴ በየነ",
+      "votes": 4299
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ናትናኤል ክፍያለው ክፍሌ",
+      "votes": 4136
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ካሳሁን ወንዱ ሌንዴ",
+      "votes": 4075
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ኤፍሬም መገርሳ ወልደማርያም",
+      "votes": 4004
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ቶኒ ዘርአይ ሀይሌ",
+      "votes": 3876
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ታደሰ ከበደ ቀልቤሳ",
+      "votes": 3735
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ዘላለም ተካ ነዲ",
+      "votes": 2095
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "መሀመድኑር አድሪስ አሜም",
+      "votes": 2002
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ዮናስ አሰፋ ገብሩ",
+      "votes": 1947
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አህመድ ሁሴን አብዱረዛቅ",
+      "votes": 1810
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አርጋቸው ደሲሳ ረጋሳ",
+      "votes": 1785
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አንዋር ሰኢድ አማማስ",
+      "votes": 1703
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "የኔነሽ ደሳለኝ ታደሰ",
+      "votes": 1619
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ቃሲም አሊ መሀመድ",
+      "votes": 1534
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ስርጉት አመርጋ ተጎሳይ",
+      "votes": 1455
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ገነት ባሰሮ ኢርታሞ",
+      "votes": 1404
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ታሪኩ ሙሉ አስፋው",
+      "votes": 1381
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ፍቃዱ ጌታቸው ቶላ",
+      "votes": 1265
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "መሀመድ ዋበላ አህመድ",
+      "votes": 1259
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ተመስገን ሰንሰ አብዲ",
+      "votes": 1156
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ዘርገሁን ተፈራ ደስታ",
+      "votes": 1026
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አማረ ወዳጆ ፍቅሩ",
+      "votes": 950
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሀብተወልድ ወርቁ ዘነበ",
+      "votes": 853
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አመሀ ተሾመ ኀይለመሳቀል",
+      "votes": 840
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሰብለ ኢዶአ ጅሩ",
+      "votes": 821
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ደገፋ ፍሪሳ ቃዲ",
+      "votes": 815
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ፍቃዱ በላይ ተመስገን",
+      "votes": 766
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ወንድሙ ቢቂላ ጫሊ",
+      "votes": 746
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ማስረሻ ጫኔ ንንጉል",
+      "votes": 702
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ዮሀንስ ማቲዎስ ጌታቸው",
+      "votes": 658
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ምስክር ነጋሽ በታው",
+      "votes": 46166
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ዳግማዊት ግርማ ታምራት",
+      "votes": 45613
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ምስክር አግዘው አፍራታ",
+      "votes": 45463
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ኤልሳ ነጋሽ ገሜሳ",
+      "votes": 44715
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ይመር ከበደ ይማም",
+      "votes": 44615
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ራሄል ዘወንጌል ሀብተጽዮን",
+      "votes": 44419
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "መሪማ ደሊል ሸሊል",
+      "votes": 44394
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "መለሰ አባተ አጥናፉ",
+      "votes": 43775
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አድፍርስ ኮራ በዳኔ",
+      "votes": 43213
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ኢያሱ ኤልያስ ፋንታሁን",
+      "votes": 42561
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ቤዛዊት ግርማ ወንድሙ",
+      "votes": 17007
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ጽዮን ደረጀ ኃይሌ",
+      "votes": 16316
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ቴዎድሮስ ካሳሁን ኤልያስ",
+      "votes": 15173
+    }
+  ]
+}

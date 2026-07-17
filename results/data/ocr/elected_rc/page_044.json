@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 44,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 1",
+      "candidate": "አሹቱ ከበደ ጌቶሮ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 1",
+      "candidate": "ተሾመ ሄራሞ ሀብተማሪያም"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 1",
+      "candidate": "ግዛቸው ዋሌራ ሸራንጎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 1",
+      "candidate": "ከበቡሽ ማቲዎስ ዳታጎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 1",
+      "candidate": "ውብነሽ በጅጎ መዶሎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 1",
+      "candidate": "ምስጋኑ አርጋ ሞጆቾ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 1",
+      "candidate": "አበራ ወንድሙ ሀብቴ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 1",
+      "candidate": "ሪህና ዲነካ ሐቢብ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 1",
+      "candidate": "ሚነወር ሀያቱ አብደላ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 1",
+      "candidate": "አሚና ሁሴን ሀሠን"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "ጀማል አማሮ ኮከሶ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "አሰፋ ደቼ ቀጼ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "ሴቲ ሙስጠፋ አህመድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "ዮዲት አህመድ መሀመድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "መሀመድ ሰብራላ አህመድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "ሠላሙ አማዶ ዋጨንጎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "ውብእየሁ በቀለ አኑሎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "አሸብር ሳቀው ሌሊሾ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "አብናት ዴላሞ አለምቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "ደረበ ዘውዴ ደርበቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 2",
+      "candidate": "ነጂባ አክመል መሀመድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 2",
+      "candidate": "ኤልያስ ሸኩር ቢሊድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 2",
+      "candidate": "ልክነሽ ስርገማ ገብረህይወት"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 2",
+      "candidate": "ፋሪስ ደሊል የሱፍ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አካሞርና ኤነር 2",
+      "candidate": "ደገፉ አለሙ ኤርቤቶ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 01",
+      "candidate": "ተፈራ ሞላ ሀብተየስ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 01",
+      "candidate": "ታምራት ግዛዉ ደቦጭ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 01",
+      "candidate": "ሳሙኤል ሽጉጤ ወልደሰማያት"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 01",
+      "candidate": "ሂሩት ተሾመ አቡቴ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 01",
+      "candidate": "ምህረተአብ ሎባንጆ ወልደሚካኤል"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ገብሬ ጋኔ ጊዴቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ዘዉድነሽ ደገሞ አጅቼ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ምስራች ኃይለማሪያም ሚሲቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ሣረ ዮሐንስ ለምቤቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ሉቃስ ኤልያስ ዱካቶ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ይድነቃቸው ደደቸው ጎኔ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ሀብታሙ ደስታ ፎርሲዶ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ኤርጌጌ ተስፋዬ ወልደመስቀል"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ፀጋው ወልደማርያም ገደቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ማሻዋ አየለ አኑሎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ጌታቸው ሌሊሾ ሄላሞ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ሮማን ሰይድ ዴሬሞ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "አለሚቱ ብርሃኑ አጋጎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ማሻሜ ኤርሚያስ ማሴቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ዳዊት ግርማ ሌዕላጎ"
+    }
+  ]
+}

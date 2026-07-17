@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 30,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲላሂ መሀመድ ሆሽ",
+      "votes": 166029
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲረዛቅ እስማን አብዲላሂ",
+      "votes": 157017
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "መሀሙድ ሀሰን ኢብራሂም",
+      "votes": 102983
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ጦሀ ኑርዬ አባተ",
+      "votes": 1379
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "መሀመድ ሀሰን ሃሽ",
+      "votes": 993
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ጃፈር አብዲ ሰኢድ",
+      "votes": 138
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዱልፈታህ እስማን አብዲ",
+      "votes": 136
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አህመድ መሀመድ አብዲ",
+      "votes": 120
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ማህዲ መሀመድ አብዲላሂ",
+      "votes": 104
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ሙስጠፋ መሐመድ አብዱላሂ",
+      "votes": 102
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ፋይሰል መሀመድ አብዲወሊ",
+      "votes": 94
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ሙክታር ያሲን አብዲ",
+      "votes": 80
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ሱላማን አብዲ መሀመድ",
+      "votes": 13
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲዋኒ ሲያድ ሁሴን",
+      "votes": 6
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ጌጡ ይበል ደረበ",
+      "votes": 4
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ሊባን መሀመድ አብዲ",
+      "votes": 4
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲ ሐሰን ሐሴን",
+      "votes": 3
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዱላሂ መሀመድ አብዱላሂ",
+      "votes": 1
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ካሊድ መሀመድ መሀሙድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲወሃብ ሁሴን ሙሁመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "አብዲላሂ ዩሱፍ አብዲዋሃብ",
+      "votes": 50815
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "ራቂያ አህመድ መሀመድ",
+      "votes": 50806
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "አብዲዋሃብ መሀመድ ራጌ",
+      "votes": 50806
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "አብዲሰላን መሃመድ ሃሰን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "አህመድ ደቅ ኢብራሂም",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "መሀመድ ሙስጠፌ ሱሌማን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሚኢሶ / Maa'lso",
+      "candidate": "ሸርማርኬ መሐሙድ ሐሰን",
+      "votes": 53192
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሚኢሶ / Maa'lso",
+      "candidate": "መሀዶ አደን አህመድ",
+      "votes": 51951
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሚኢሶ / Maa'lso",
+      "candidate": "አብዱላሂ ዋበሪ አቦዌ",
+      "votes": 50993
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሚኢሶ / Maa'lso",
+      "candidate": "አህመድ ኢብራሂም አብዲ",
+      "votes": 882
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሚኢሶ / Maa'lso",
+      "candidate": "አሊ ሙሴ አህመድ",
+      "votes": 799
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሚኢሶ / Maa'lso",
+      "candidate": "ሙሴ መሀመድ ኢብራሂም",
+      "votes": 57
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "አብድረሽድ ኑር ሙሀመድ",
+      "votes": 37313
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "ሳህራ አብዲፈታህ ኡመር",
+      "votes": 37000
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "መሀመድአሽሪ አብዲረህማን ሙባረክ",
+      "votes": 36800
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "ዋርዲ አዳሚ ሻፊዬ",
+      "votes": 36500
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "አብዲኑር አብዲላሂ ፋራህ",
+      "votes": 27213
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "አብዲራሺድ አሊ በሺር",
+      "votes": 98
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "አብዲራህማን ጠይብ ሙሁመድ",
+      "votes": 65
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "መሀመድ አሊ መሀመድ",
+      "votes": 216905
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ሀኖን አብዶ መሀመድ",
+      "votes": 216900
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አሊ ዳለቻ አሊ",
+      "votes": 216897
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ፈርዶሳ ዩሱፍ ኢብራሂም",
+      "votes": 216890
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አሊኑር መሐመድ እስማን",
+      "votes": 216883
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ኤደን ኢብራሂም ኤደን",
+      "votes": 216872
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አብዱሰላድ አብዱላሂ መሀመድ",
+      "votes": 75
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ከመሪያ ራሺድ እስማን",
+      "votes": 11
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አብዶ አብራሂም አብዶ",
+      "votes": 10
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አብዱላሂ አህመድ መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አሊ አብዱሎ ሁሴን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ኑርኪ መሐመድ ኢብራሂም",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ኤደን ኢብራን ኤደን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ሀሰን ኢሳቅ መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አብዲረዛቅ ኢብራሂም እስማን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "መሀመድ ቢሎው ሀሰን",
+      "votes": 46889
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "ሀቢቦ አብዲ ሀጂ",
+      "votes": 46685
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "ኢሳቅ ሀሰን ሀሾ",
+      "votes": 46487
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "ኑራኒ ኢብራሂም ሀሰን",
+      "votes": 30444
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "መሀመድ መሀሙድ ኢብራሂም",
+      "votes": 17338
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "አብዲአዚዝ አብዱላሂ ዲክ",
+      "votes": 4321
+    }
+  ]
+}

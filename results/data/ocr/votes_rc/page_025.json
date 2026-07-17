@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 25,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "አህመድ አሊ ነገዬ",
+      "votes": 177632
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "አብዱረህማን ኢድ ጣሂር",
+      "votes": 174781
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "ሱዋር ሁሴን መሀሙድ",
+      "votes": 7144
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "ኢድሪስ ዳይብ አብዲ",
+      "votes": 6236
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብድረህማን አህመድ ሀሰን",
+      "votes": 85732
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "ሻፊ ሙሁመድ አብዲ",
+      "votes": 76301
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብዲረሺድ መሀመድ ኡመር",
+      "votes": 75444
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "ሸሪፎ ሼክ መሀመድ",
+      "votes": 73729
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "ሙክታር መሀመድ አብዲ",
+      "votes": 1641
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አህመድ ጣሂር ሁሴን",
+      "votes": 1526
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብዲፈታህ አህመድ ገማዲድ",
+      "votes": 835
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "ነዋል አረብ ሀሺ",
+      "votes": 508
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "በሽር ሁሴን ኢልሚ",
+      "votes": 36428
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "መሀመድ አብዲረህማን ኢብራሂም",
+      "votes": 36366
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "ሙሳ ኢስማን ኢብራሂም",
+      "votes": 36366
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "አብዱላሂ አሊ መሀመድ",
+      "votes": 776
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "በሽር ሀሰን ኢብራሂም",
+      "votes": 751
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ኒሞ ዩሱፍ አቢብ",
+      "votes": 88696
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሀሰን መሀሙድ ሊባን",
+      "votes": 81540
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አብድጀባር ጁክማደር ራጌ",
+      "votes": 78590
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አህመድወሊ ሀሁን ሸርማርኬ",
+      "votes": 74710
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አህመድ አብዲ አሊ",
+      "votes": 1000
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አብዲሀኪን ዩሱፍ መሀሙድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሊባን መሀመድ መሀሙድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሰይድ ሙሴ አህመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "መሀመድ ሀሩን ሀሰን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ኢብራሂም ሀሰን መሀሙድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሩድዋን አብዲ አሊ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሲአድ አደን ኑር",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሁሴን አዜ አሊ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አህመድ ዩሱፍ ኤጌ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ኢድሪስ ሙሴ አብዲ",
+      "votes": 60616
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ኢዲሪስ ጅብሪል ሮብሌ",
+      "votes": 58669
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ራህማ ዳድር አዋዌ",
+      "votes": 51769
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ፈድሊ አባስ አሊ",
+      "votes": 602
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "አብዱላሂ ዲሪዬ ኡመር",
+      "votes": 534
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ኡመር ሀሰን ፋራህ",
+      "votes": 229
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "አያን አብዲ መሀመድ",
+      "votes": 62391
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "አብዱልፈታህ አብዱላሂ ሀሰን",
+      "votes": 62386
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "መሀመድ ዩሱፍ ሮብሌ",
+      "votes": 62375
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "ሙክታር ዩሱፍ ሙሴ",
+      "votes": 62368
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "በሽር ሼክአብዲረህማን ኑር",
+      "votes": 54437
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "ጀማአሊ መሀመድ ሙሁመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "ኢድ ከሊፍ ኢብራሂን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "ሰመተር አብዲ ጃፌ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "ሁሴን ገይድ አህመድ",
+      "votes": 266296
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አሊያ አብዱላሂ ኢላቤ",
+      "votes": 265793
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "ሐሰን መሀሙድ አዱር",
+      "votes": 265590
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "ኒሞ ዳኡድ ያሲን",
+      "votes": 265296
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አብዲቃድር አብዳላሂ አህመድ",
+      "votes": 265296
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አብድካድር መሀመድ አደን",
+      "votes": 265296
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አዩብ መሀድ መሀመድ",
+      "votes": 1196
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አብዱላሂ ፋራህ አህመድ",
+      "votes": 2
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አብድረህማን ኢብራሂም ፋራህ",
+      "votes": 1
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አብድካድር ኢስማኤል ሀርሲ",
+      "votes": 1
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "ሙና አብዲ ኡመር",
+      "votes": 1
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "ዩሱብ ኢስማኤል ሂርሲ",
+      "votes": 1
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "ዩሱፍ መሀመድ አሊ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አስካግ መሀመድ ሱጌ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አውብሬ / Awbare",
+      "candidate": "አብዲሳላም ባዴ ሙሁመድ",
+      "votes": 0
+    }
+  ]
+}

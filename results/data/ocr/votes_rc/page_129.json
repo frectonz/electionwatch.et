@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 129,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሙሉቀን እንድሻው ሌሱ",
+      "votes": 389
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ታፈሰ ሻንቆ ሣልፋቆ",
+      "votes": 379
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ክፍታሁን ትፋሼ ሚናሞ",
+      "votes": 372
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ደምሴ ዳና ዳርታ",
+      "votes": 365
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "መሸሻ ጨምአ ማዳ",
+      "votes": 358
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አስገደች አሞሼ አንፌ",
+      "votes": 344
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ብርሃኑ ዳራቾ ዳንጌሶ",
+      "votes": 336
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ባትሣ በላይነህ ፋላሆ",
+      "votes": 329
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ደጉ ደጀኔ ዳርታ",
+      "votes": 326
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተስፋዬ አያና አማዶ",
+      "votes": 325
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "መክብብ ደነቀ ደርጩ",
+      "votes": 325
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሰለሞን መስፍን ኬቶ",
+      "votes": 314
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ምስጋና ሀይለማሪያም ቦቦና",
+      "votes": 276
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ካሌብ አሞሼ አሎሎ",
+      "votes": 248
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አስናቀች እንጀሎ ዋቻሞ",
+      "votes": 248
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ፈለቀ አልታዬ ዲዳና",
+      "votes": 245
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አብርሃም ሳንኩሬ ዋልኤ",
+      "votes": 223
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አብርሃም ደባንቾ ኩርፌ",
+      "votes": 217
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሕዝቅል አባቴ አበበ",
+      "votes": 195
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ትዕግስት ባሳ ዳጎ",
+      "votes": 180
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ማቴዎስ አገኖ ሌኮ",
+      "votes": 171
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አንዱአለም በደቀ በላቸው",
+      "votes": 145
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አላኖ እንጀሎ ኮልባይ",
+      "votes": 125
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ፋድዮ ሳፒ ወትራሻ",
+      "votes": 47923
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ታምሩ ቦኒ ቶቡራ",
+      "votes": 45655
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ትዕግስት አለሙ አቤተው",
+      "votes": 42031
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ዘላለም ኬላኔ ሾሎዋ",
+      "votes": 9298
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "አብርሃም ግርማ ኮመደ",
+      "votes": 9116
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ዘነበች ጋሹን ጌለቡሽ",
+      "votes": 6873
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ፍቅሬ አማን ጋዛ",
+      "votes": 84091
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ሀብታሙ ክፍትን ዓባ",
+      "votes": 83875
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ዘማች በዛብህ ሼል",
+      "votes": 82101
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጨነቁ ኮንታር ባሬጋስ",
+      "votes": 80700
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ፍርድአወቅ አለሙ ከበደ",
+      "votes": 79232
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "አስገደች ወልደየስ ወልደማርያም",
+      "votes": 77548
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ተስፋዬ ጌስካር ጋስያስ",
+      "votes": 76841
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ገነት ዳምጤ አይኔማር",
+      "votes": 74797
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጴጥሮስ ድርካ ናይከን",
+      "votes": 12521
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጥላሁን ሰምቱት ሳድጎስ",
+      "votes": 12290
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "አደም ሰይድ ሀሴን",
+      "votes": 11984
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ወንድሙ ኮይ ኮይና",
+      "votes": 11476
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ማርታ ደስታ ባሬጋስ",
+      "votes": 10920
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ተክሌ ሻሊ ጋሞስ",
+      "votes": 9255
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "መኮንን አለማየሁ መሀመድ",
+      "votes": 9005
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ናርዶስ አለማየሁ ማሞ",
+      "votes": 8966
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "በላይ አንዱአ ለገሰ",
+      "votes": 8097
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ወንድማገኝ ወልደጊዮርጊስ አድማሱ",
+      "votes": 7942
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ማስረሻ ጥላሁን መደልቾ",
+      "votes": 7635
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ተክለማርያም አይሼ ኮሬ",
+      "votes": 6078
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ደጀኔ ባይኩዳ ጋስቴት",
+      "votes": 3118
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ሀብታሙ ወልደሰንበት አዶ",
+      "votes": 2970
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ተስፋዬ ፋጃዋስ ኪያኮ",
+      "votes": 2856
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ቻለው ተገኝ ግሩም",
+      "votes": 2502
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ተስፋዬ ሰርጌስ ያይታ",
+      "votes": 2126
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "መንግስቱ እሸቱ አጪ",
+      "votes": 1717
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "አሸናፊ አሸንጎ ናኔ",
+      "votes": 1672
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጌታሁን ሀይሉ ዘውዴ",
+      "votes": 1664
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ደሳለኝ ኬና ዘርገንገስ",
+      "votes": 1643
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ገረመው አስረስ አለሙ",
+      "votes": 1616
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ሙሉቀን በሪሁን ገበየሁ",
+      "votes": 1397
+    }
+  ]
+}

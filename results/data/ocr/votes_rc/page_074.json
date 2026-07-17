@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 74,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኮንግ ቾል ውል",
+      "votes": 2767
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አጅሉ አሙሉ ኤቻንግ",
+      "votes": 2553
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጁሙስ ኞች አባንባን",
+      "votes": 2532
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኞን ቾል ሉዋል",
+      "votes": 2422
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አኬሎ አዋር ኤቻላ",
+      "votes": 2146
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ቦል ጎኝ ቦንኪር",
+      "votes": 2049
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "መፅናናት ኩላ ነፃነት",
+      "votes": 1903
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኛኮኒ ጆክ ጎርባ",
+      "votes": 1771
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኡቹኒ አፓይ አንደሬስ",
+      "votes": 1709
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኮንግ ዮት ኛንግ",
+      "votes": 1617
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጁል ናንጋል ዶል",
+      "votes": 1530
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጆን ጋደባንግ ቢይ",
+      "votes": 1426
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኩዊት ላረ ኮር",
+      "votes": 1250
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ሆት ጋትኮት ዊዉ",
+      "votes": 1239
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጁይት ሉዋል ጋትቻይ",
+      "votes": 1210
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ቢያ ወል ፑክ",
+      "votes": 1174
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኡቾዎኒ አጉዋ አወኖድ",
+      "votes": 607
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አጉድ ኡቲይንግ ንጉዋ",
+      "votes": 548
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ሰንደይ ኩቲ አቺት",
+      "votes": 523
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አጅሉ ኡኩም ቸር",
+      "votes": 523
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አማን ኡቴቲ ኡጁሉ",
+      "votes": 522
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ማቤል ፑት ኞድ",
+      "votes": 499
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጋች ቱት ባንዶንግ",
+      "votes": 471
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ፕላም ፖል ቱሎው",
+      "votes": 421
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ፕሎዋክ ያት ቶንባይክ",
+      "votes": 365
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ደቢድ ሯች ታንግ",
+      "votes": 34456
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጃምስ ዴንግ ቾል",
+      "votes": 32750
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቸንኮት ዴቢድ ቪዲት",
+      "votes": 31578
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኡላንግ ጋች ጉር",
+      "votes": 23020
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቦምኮት ፓኖም ጉት",
+      "votes": 19130
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ሞክ ቱት ጋር",
+      "votes": 18125
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቶክ ቾት ቶሃን",
+      "votes": 17186
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ላም ታንግ ዚያች",
+      "votes": 16608
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ታን ጉዋ ቢየይ",
+      "votes": 15274
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኛቶክ ቱት ኮር",
+      "votes": 15108
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኛሊዊት ፖል ጉክ",
+      "votes": 14878
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጅማይሽ ከበደ መሐመድ",
+      "votes": 12025
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኮቦ ቴር ሬት",
+      "votes": 7333
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጋትሉዋክ ጋትቤል ቱት",
+      "votes": 6120
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ሪክ ሙት ቢያል",
+      "votes": 6078
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኮንግ ኒያል ጋትሉዋክ",
+      "votes": 4957
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቾል ቴም ንንዴንግ",
+      "votes": 4205
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጃምስ ኒያል ማትያንግ",
+      "votes": 3871
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጃምስ ቢል ቶት",
+      "votes": 3798
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቾት ተር ቾል",
+      "votes": 3445
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቴር ዴንግ ዳንግ",
+      "votes": 2919
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኛኮች ኮንግ ጊሎ",
+      "votes": 2789
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ንቦት ጋች ኮንግ",
+      "votes": 2321
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጋትሉዋክ ጆክ ቦዝ",
+      "votes": 2092
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ፕሪያል ሮት ሬት",
+      "votes": 1951
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቡክ ዴንግ ኩዊት",
+      "votes": 1596
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቦይ ጆን ጆክ",
+      "votes": 1521
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አምቢበል ሀይሌ ጊዮርጊስ",
+      "votes": 14254
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ኡቶር ኡኩጉ ኡጁሉ",
+      "votes": 14049
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አጁሉ ባዶክ አበላ",
+      "votes": 14025
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አበንግ ኤጋል አጣን",
+      "votes": 13541
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ጊሎ አሞድ ኡቶው",
+      "votes": 12810
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አጁሉ ሜዶ ቻም",
+      "votes": 12745
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ቶር ኡዳንግ አሞድ",
+      "votes": 12660
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ኡባንግ ኡጁሉ አበላ",
+      "votes": 11872
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 11,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "ዚያድ አብዲ አቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አብዲወሊ ኡመር ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አብድኑር መሀመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "አህመድ አብዲ መሐሙድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "አህመድ አሊ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "ፈርደውሳ መሀመድ ጄፊድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼኮሽ / Shaygoosh",
+      "candidate": "መሐመድ ኑር ጋዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼኮሽ / Shaygoosh",
+      "candidate": "ሩቂያ ሹክሪ አርቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼኮሽ / Shaygoosh",
+      "candidate": "አበዱላሂ መሀመድ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺላቦ / Shilaabo",
+      "candidate": "ኢድማን መሀሙድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺላቦ / Shilaabo",
+      "candidate": "መሀመድ ዱለኔ ጉሌድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺላቦ / Shilaabo",
+      "candidate": "አብዲረዛቅ ስርሀዬ መሀሙድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺንሌ / Shiniile",
+      "candidate": "ዮሱፍ መሃመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺንሌ / Shiniile",
+      "candidate": "ሰፊዶ ኡመር ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ሺንሌ / Shiniile",
+      "candidate": "ኢብረሂም ሮብሌ ሙሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺንሌ / Shiniile",
+      "candidate": "ፈትያ አህመድ ሺሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሺንሌ / Shiniile",
+      "candidate": "ሰአዳ ኢብራሂም ደራር"
+    },
+    {
+      "region": "",
+      "constituency": "ሐመሮ / Xamaro",
+      "candidate": "አብድረህማን ኑር አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐመሮ / Xamaro",
+      "candidate": "አብዱላሂ ሻፊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐመሮ / Xamaro",
+      "candidate": "ሃሊሞ መሃመድ ካሊፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ዮአሌ / Yocaale",
+      "candidate": "በድሪ አብዱላሂ ጌዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ዮአሌ / Yocaale",
+      "candidate": "ፋአድ ጣሂር ሁሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ዮአሌ / Yocaale",
+      "candidate": "ሀያት ፋርሀን ባዳል"
+    },
+    {
+      "region": "",
+      "constituency": "ዮአሌ / Yocaale",
+      "candidate": "መሀመድ ዳሂር አልሀዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊጋምቦ",
+      "candidate": "አደም አሰን ሞትማ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊጋምቦ",
+      "candidate": "ሮዛ ጌታቸው የሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊጋምቦ",
+      "candidate": "እያሱ አባይ ከብረት"
+    },
+    {
+      "region": "",
+      "constituency": "ሉማሜ",
+      "candidate": "ሙሉነሽ ዉብቴ መኩሪያው"
+    },
+    {
+      "region": "",
+      "constituency": "ሉማሜ",
+      "candidate": "መብት አድማስ ድንቁ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊበን",
+      "candidate": "ሰብለወርቅ እስማማው አረጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊበን",
+      "candidate": "ሀብታም አውደው ገበያው"
+    },
+    {
+      "region": "",
+      "constituency": "ሐቡሩ",
+      "candidate": "አራጌ ይመር መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "ሐቡሩ",
+      "candidate": "ፈንታየ ጥበቡ ያለው"
+    },
+    {
+      "region": "",
+      "constituency": "ሐቡሩ",
+      "candidate": "ዘምዘም ኑርየ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "መራኛ",
+      "candidate": "መሰረት እሸቴ አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "መራኛ",
+      "candidate": "አብዱ አባቡ አወቀ"
+    },
+    {
+      "region": "",
+      "constituency": "መርዓዊ",
+      "candidate": "ማተብ ታፈረ ገደፈው"
+    },
+    {
+      "region": "",
+      "constituency": "መርዓዊ",
+      "candidate": "ዘዉዲቱ አገኘሁ ጌታሁን"
+    },
+    {
+      "region": "",
+      "constituency": "መቅደላ",
+      "candidate": "ዘሪሁን ፍቅሩ መላኩ"
+    },
+    {
+      "region": "",
+      "constituency": "መቅደላ",
+      "candidate": "እንዳልካቸው አረጋ አባተ"
+    },
+    {
+      "region": "",
+      "constituency": "መተማ",
+      "candidate": "እያሱ ይላቅ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "መተማ",
+      "candidate": "ከሸን ወልዴ መንግስቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ማጄቴ",
+      "candidate": "ሰአዳ ኢብራሂም አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ማጄቴ",
+      "candidate": "እታገኝ ቦጋለ ታፈስ ታፈ"
+    }
+  ]
+}

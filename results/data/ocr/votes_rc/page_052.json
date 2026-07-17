@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 52,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ዋራ ሀቢብ ሀቴ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ቢዳሩ ኡመር ዋሬ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ኢሉ ሁመድ ሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "ሀሰን መሀመድ ሀሰን",
+      "votes": 39550
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "አስማ አብደላ ዱባ",
+      "votes": 37919
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "አይዳሂስ አይን አይዳሂስ",
+      "votes": 36356
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "ጦይብ አህሀብ ሰይድ",
+      "votes": 1813
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "ሁመድ መሀመድ ሁመድ",
+      "votes": 779
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "አወሎ አሊ ኬድር",
+      "votes": 642
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አሊ መሀመድ ማህሙድ",
+      "votes": 110232
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሀሊማ ማህሙድ አሊ",
+      "votes": 110232
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሉሊ ማህሙድ ኢላማ",
+      "votes": 110232
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሁመድ አብደላ ሁመድ",
+      "votes": 110232
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "መሀመድ ሳሊህ አሊ",
+      "votes": 46178
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ኢብራሂም መሀመድ አሊ",
+      "votes": 2866
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ፋጡማ አህመድ መሀመድ",
+      "votes": 1652
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሁሴን አህመድ አደር",
+      "votes": 1533
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሙክታር ኢብራሂም ዳውድ",
+      "votes": 1165
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "መሀመድ ሲፋ ኢብራሂም",
+      "votes": 1109
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ኢብራሂም አሊ አብደላ",
+      "votes": 584
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አድሪስ መሀመድ አብራሂም",
+      "votes": 460
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አብራሂም ኡስማን ሀቢብ",
+      "votes": 403
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አደም እስማኤል አህመድ",
+      "votes": 365
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አብራሂም አህመድ መሀመድ",
+      "votes": 304
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አህመድ መሀመድ ናኩዳ",
+      "votes": 54
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "ሁሴን መሃመድ ዛሀብ",
+      "votes": 43096
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "ከውሰር ሀጂ ሁሴን",
+      "votes": 42842
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "አይሻ ኡስማን አይኒስ",
+      "votes": 42699
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "ሱንዳህ ሀሰን ዋሴ",
+      "votes": 25
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "ሀጂ ደገራ ሞሚን",
+      "votes": 19
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "አብዱ መሀመድ ሁሴን",
+      "votes": 6
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "መኮንን ይልማ ጣሞ",
+      "votes": 86828
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "ፋኖስ ለማ ጋረዶ",
+      "votes": 86190
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "ያሬድ ግርማ ለማ",
+      "votes": 86037
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "ተስፋዬ ማሞ ፈይሳ",
+      "votes": 381
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ምልካ ፈጤ ሩዳ",
+      "votes": 62743
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "በለጠች በየነ ካሳ",
+      "votes": 56152
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ሉሉ ቂጣታ ጉታታ",
+      "votes": 55636
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ሀና ያደታ በየነ",
+      "votes": 2136
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ፋንታዬ አለማየሁ ቶለሳ",
+      "votes": 1749
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "መሊሃ አሚ ኡስማን",
+      "votes": 171141
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "ጀማል ዮንስ ወዳይ",
+      "votes": 171068
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "መዋርዲ ሙስጠፋ አህመድ",
+      "votes": 170995
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "ዙቤር ከሊፍ እስማኤል",
+      "votes": 3
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ትዕግስት ግርማ ታፈሰ",
+      "votes": 147479
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ጉግሳ ደጀኔ ጉርሙ",
+      "votes": 146507
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ተስፋዬ ቱሉ መልካ",
+      "votes": 146046
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "አየለ ደምሴ ደገፋ",
+      "votes": 1861
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ደረጃ መገርሳ አዱኛ",
+      "votes": 1814
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ዳናኤል ተገኑ ጉደታ",
+      "votes": 1757
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ገዙ ሙሉ ታደሰ",
+      "votes": 615
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ተሾመ ቦጋለ ደምሴ",
+      "votes": 547
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "አፀዴ ሞቱማ ናዶ",
+      "votes": 532
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "አንበሳ ንጉሴ ሀብተዮሃንስ",
+      "votes": 480
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ፈጠነ ከበደ ሀይሉ",
+      "votes": 409
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ቢሊሱማ ለጅሳ ገለታ",
+      "votes": 264
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ዳኜ ቦጋለ አለሙ",
+      "votes": 232
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidate": "ቁማላ በሪሶ ዱቤ",
+      "votes": 164541
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidate": "ትግስት ገመቹ ባናታ",
+      "votes": 161771
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidate": "አኖ ባሪሶ ባሳዬ",
+      "votes": 161155
+    }
+  ]
+}

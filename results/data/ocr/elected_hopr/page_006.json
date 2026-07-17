@@ -1,0 +1,273 @@
+{
+  "pdf": "elected_hopr",
+  "page": 6,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ወንጪ / Wancii",
+      "candidate": "አለማየሁ እጅጉ ኩምሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ወረጃርሶ / Warra Jaarsoo",
+      "candidate": "መለሰ ኢጃራ ደሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ጢቾ / Xiichoo",
+      "candidate": "ጌቱ ወዩሳ ቶላ"
+    },
+    {
+      "region": "",
+      "constituency": "ያቤሎ / Yaabelloo",
+      "candidate": "ቲያ ሚዮ አርሳዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ያዮ / Yaayyoo",
+      "candidate": "አዲሱ አረጋ ቅጤሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ዩብዶ / Yuubdoo",
+      "candidate": "ደረጃ ደበላ ሰንበቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ደደር 1 / Dadar 1",
+      "candidate": "ፈትህያ መሐመድ አብደላ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳአ 1 / Ada'aa 1",
+      "candidate": "ለማ አበራ ሂርጳ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳማ 1 / Adaamaa 1",
+      "candidate": "ለሚ ጉታ እንያደኔ"
+    },
+    {
+      "region": "",
+      "constituency": "አምቦ 1 / Ambo 1",
+      "candidate": "ከበደ ዲሲሳ ዲሪባ"
+    },
+    {
+      "region": "",
+      "constituency": "በቆጂ 1 / Boqojjii 1",
+      "candidate": "ኢሉባቦር ቡኖ ጤኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨለንቆ 1 / Calanqoo 1",
+      "candidate": "አብዲ መሐመድ ሐሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ጨሊያ 1 / Calliya 1",
+      "candidate": "ዛራ መሀመድ አዳና"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሮ 1 / Ciroo 1",
+      "candidate": "አዲኛ አህመድ ኡሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንዲ 1 / Dandii 1",
+      "candidate": "አራራ ሞሲሳ ኢቲሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴዶ 1 / Deedoo 1",
+      "candidate": "አይሻ ሸህሽፋ አብዱረህማን"
+    },
+    {
+      "region": "",
+      "constituency": "ጎማ 1 / Goommaa 1",
+      "candidate": "ሞጋ አባቡልጉ አባካሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐብሮ 1 / Habroo 1",
+      "candidate": "ፋሩቅ አልይ ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐሮማያ 1 / Haroomaayaa 1",
+      "candidate": "ሮዛ ኡመር አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮፈሌ 1 / Kofalee 1",
+      "candidate": "ወዮ ሮባ አከኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ 1 / Qarsaa 1",
+      "candidate": "አያቱ ቶሬቅ አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻሸመኔ 1 / Shaashamannee 1",
+      "candidate": "አብደላ አማን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሲራሮ 1 / Siraaroo 1",
+      "candidate": "ሩቅያ አርጎ ዋሪኦ"
+    },
+    {
+      "region": "",
+      "constituency": "ወሊሶ 1 / Walisoo 1",
+      "candidate": "ፍሬህይወት ፍቃዱ ውቃው"
+    },
+    {
+      "region": "",
+      "constituency": "ደደር 2 / Dadar 2",
+      "candidate": "አራርሶ ቢቂላ ኤሌሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻሸመኔ 2 / Shaashamannee 2",
+      "candidate": "ቃሲም ኪሞ ቄበሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሲራሮ 2 / Siraaroo 2",
+      "candidate": "ወርቅነሽ ዋርዮ ባፋዮ"
+    },
+    {
+      "region": "",
+      "constituency": "ወሊሶ 2 / Walisoo 2",
+      "candidate": "ገመቹ አራርሳ ረጋሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳአ 2 / Ada'aa 2",
+      "candidate": "ዳዲ ወዳጆ ሰንበቱ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳማ 2 / Adaamaa 2",
+      "candidate": "አዲስ ምትኩ ደስታ"
+    },
+    {
+      "region": "",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "ሙሉወርቅ አመና ኢችማ"
+    },
+    {
+      "region": "",
+      "constituency": "በቆጂ 2 / Boqojjii 2",
+      "candidate": "ሥንታየሁ ጥላሁን አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨለንቆ 2 / Calanqoo 2",
+      "candidate": "መሐመድ አህመድ ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨሊያ 2 / Calliya 2",
+      "candidate": "ፍቃዱ ሆረታ አቤራ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሮ 2 / Ciroo 2",
+      "candidate": "መሀመድኑር አህመድ ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ዘለቀ ተመስገን ቦሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴዶ 2 / Deedoo 2",
+      "candidate": "ሜልቱ ሞሀመድ አብዱራህማን"
+    },
+    {
+      "region": "",
+      "constituency": "ጎማ 2 / Goommaa 2",
+      "candidate": "አብይ አህመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐብሮ 2 / Habroo 2",
+      "candidate": "በድሪያ መሀመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ሐሮማያ 2 / Haroomaayaa 2",
+      "candidate": "ፈይፋዛ አብዱማሊክ ዳዊድ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮፈሌ 2 / Kofalee 2",
+      "candidate": "ሰለሞን ታደሰ ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ 2 / Qarsaa 2",
+      "candidate": "መሊይካ ሻፊ ሙመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳማ 3 / Adaamaa 3",
+      "candidate": "በሻቱ ዲነግዴ ተሊላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሮ 3 / Ciroo 3",
+      "candidate": "አብዱራህማን አብደላ አደም"
+    },
+    {
+      "region": "",
+      "constituency": "ሲቡ ሲሬ / Siibuu Siree",
+      "candidate": "አብዲ ዳባ ሙለታ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎሮ/ Gooroo",
+      "candidate": "አብራሂም ኡመር አልይ"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ድሬ ዳዋ 1",
+      "candidate": "ከዲር ጁሀር አብራሂም"
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ድሬ ዳዋ 2",
+      "candidate": "ቢፍቱ መሐመድ አብዱ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ላሬ",
+      "candidate": "ታርፎያት ደበል ሉል"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ",
+      "candidate": "ሰናይ አኩዌር አቻላ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎዴሬ",
+      "candidate": "መሰረት ማቴዎስ ኬቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ላንተሮ",
+      "candidate": "አሊ መሀመድ እስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ",
+      "candidate": "አፀገነት መንግስቱ ዘለቀ"
+    }
+  ]
+}

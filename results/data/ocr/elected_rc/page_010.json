@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 10,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ሂርሲ መሀመድ ዶል"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ትሪክ መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ከልቱን ሀጂ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ሙክታር አሊ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "ራህማ አብዲራሺድ አደን"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲላሂ መሀሙድ ሆሽ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "አብዲረዛቅ እስማን አብዲላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጅጋ / Jigjiga",
+      "candidate": "መሀሙድ ሀሰን ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "አብዲላሂ ዩሱፍ አብዲዋሃብ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "ራቂያ አህመድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገሂዳ / Lagahido",
+      "candidate": "አብዲዋሃብ መሀመድ ራጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ሚኤሶ / Maa'lso",
+      "candidate": "ሸርማርኬ መሐሙድ ሐሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሚኤሶ / Maa'lso",
+      "candidate": "መሀዶ አደን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሚኤሶ / Maa'lso",
+      "candidate": "አብዱላሂ ዋበሪ አሶዌ"
+    },
+    {
+      "region": "",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "አብድረሽድ ኑር ሙሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "ሳህራ አብዲፈታህ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "መሀመድአሻሪ አብዲረህማን ሙባረክ"
+    },
+    {
+      "region": "",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "ዋርዲ አልሚ ሻሬፍ"
+    },
+    {
+      "region": "",
+      "constituency": "መርሲን / Marsin",
+      "candidate": "አብዲኑር አብዲላሂ ፋራህ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "መሀመድ አሊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ሀናን አብዶ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አሊ ዳለቻ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ፈርዶሳ ዩሱፍ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "አሊኑር መሐመድ እስማን"
+    },
+    {
+      "region": "",
+      "constituency": "ሞያሌ / Mooyaale",
+      "candidate": "ኤደን ኢብራሂም ኤደን"
+    },
+    {
+      "region": "",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "መሀመድ ቢሎው ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "ሀቢባ አብዲ ሀጂ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "ኢሳቅ ሀሰን ሁሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "ኑራኒ ኢብራሂም ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "አብዲ አህመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ዚያድ ባይሪ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ቃሊ አብዱላሂ ሂሬይ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "መሀመድ አህመድ ሂረሲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ሙህዲን አብዲ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብዱራህማን ሰላድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብድ ኡመር ዲባላው"
+    },
+    {
+      "region": "",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "መሀመድ አሊ ዲሂር"
+    },
+    {
+      "region": "",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "ከድር ሹግሪ ሙሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "አያ መውሊድ በደል"
+    },
+    {
+      "region": "",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "መሀመድ ከሊፍ እስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ሂቦ አህመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "አሚን ዩሱፍ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ከድር መሀመድ ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "አህመድ አብዲናስር ዳውድ"
+    }
+  ]
+}

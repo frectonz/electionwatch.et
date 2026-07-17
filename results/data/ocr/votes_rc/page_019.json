@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 19,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አስፋው ገብረሚካኤል ብላታ",
+      "votes": 865
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ጀመረ ጊቦሬ ሲቦ",
+      "votes": 837
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ናትናኤል አብይ መልካሙ",
+      "votes": 818
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ስሳይ አበበ ነጋሽ",
+      "votes": 813
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መስፍን ሰርሳ ሜጋሮ",
+      "votes": 811
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ለማ ሆያቶ ባሬዶ",
+      "votes": 809
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ኤርሚያስ ኤቢቦ ቢሊሶ",
+      "votes": 802
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሊድያ አቻ ሰገሠ",
+      "votes": 795
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ስንታየሁ ወድነህ ጥላሁን",
+      "votes": 779
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ደገፈች ኤያሞ ገልዲዳ",
+      "votes": 771
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ተስፋዬ ጃታና ማልዳዬ",
+      "votes": 759
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፈቅሬ አበበ ተስፋዬ",
+      "votes": 753
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ደግፌ አዲሱ ቱላ",
+      "votes": 736
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ገዛኸኝ ማዴቦ ማጃ",
+      "votes": 733
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሙሉቀን ደምሴ ዳንኪራ",
+      "votes": 704
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሻሌቦ ሻንካ ማለቆ",
+      "votes": 676
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አየለ ሰግዶ የሱ",
+      "votes": 674
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ካሰች ጉቱ አሰፋ",
+      "votes": 666
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አለምቱ አሳያስ ሰማጎ",
+      "votes": 664
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መስፍን መንግስቱ ሴንዳዶ",
+      "votes": 664
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሱራፌል ተስፋዬ አርባሞ",
+      "votes": 663
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ታሪኩ ዬማዮ ዩኮ",
+      "votes": 641
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አንዳዓለም እወቀ ጫኔ",
+      "votes": 627
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አክሊሉ ባሣ ሳኒቦ",
+      "votes": 606
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ጴጥሮስ ጌታቸው ከንባቶ",
+      "votes": 602
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ዮሐንስ ኤልያስ ሮዳ",
+      "votes": 595
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ማርቆስ ላላሞ ናሮ",
+      "votes": 573
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ዎጣ ድራጎ ድቃሶ",
+      "votes": 565
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ምንተስኖት ተስፋዬ አርባሞ",
+      "votes": 557
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ማርታ ደሳለኝ ርብሶ",
+      "votes": 526
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አበቡ ከበደ ሻኒ",
+      "votes": 511
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መሰረት አስፋው አጋሞ",
+      "votes": 473
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ታደሰ ታሴ ቤንቴሬ",
+      "votes": 446
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መብራት ደግፌ ድንጋቶ",
+      "votes": 442
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ቲሞትዎስ አዩኤል ላንቃሞ",
+      "votes": 436
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሐዋስ አለሙ እመሎ",
+      "votes": 430
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ቡባ አሎ ሠንዴና",
+      "votes": 420
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ደሰለኝ ዮናስ ቢጋቤ",
+      "votes": 416
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፍሬው ጀጎ ገባሮ",
+      "votes": 404
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ደግፌ ዋዩ ዋንሳሞ",
+      "votes": 394
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሰለሞን ናዩ ቦርዳ",
+      "votes": 389
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፍሬህይወት ወዶ ወኔ",
+      "votes": 386
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አድሱ ጳውሎስ ሎሳሞ",
+      "votes": 384
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሃፍቱ ሞላ ተስፋዬ",
+      "votes": 383
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መልካሙ ሙሴ ሾንኩራ",
+      "votes": 372
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መብራት ዳንጌሶ ጃላዋ",
+      "votes": 366
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አማረች ወንድሙ ምምቦቶ",
+      "votes": 364
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ጥጋቡ አበበ አየለ",
+      "votes": 363
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሁርሳ ሀርቃ ሀቃቆ",
+      "votes": 348
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ካሣ ጋጎ ሴቄ",
+      "votes": 332
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "በሀይሉ በቀለ ናሬ",
+      "votes": 329
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ተዘራ ቱማቶ ዱሞ",
+      "votes": 323
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ተከተል ጳውሎስ ጣልታሞ",
+      "votes": 316
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሳሙኤል በቀለ ናሬ",
+      "votes": 294
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሮማን ታምሩ ታደሰ",
+      "votes": 285
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አስራት ዳሳለ ሳሞ",
+      "votes": 285
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሀረገወይን ማሞ ሀይለማሪያም",
+      "votes": 277
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "በቀለች በሪሶ ቦርጆ",
+      "votes": 264
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ታረቀኝ ኤዴታ ካሳ",
+      "votes": 251
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አለምሰገድ ፈሩ አበበ",
+      "votes": 239
+    }
+  ]
+}

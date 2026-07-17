@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 11,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ባቢሶ ባርታ ዱሣ",
+      "votes": 64711
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አስናቀች ጴጥሮስ ሀልቻዬ",
+      "votes": 64298
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ግርማ ግንቦ ቦሮጄ",
+      "votes": 64173
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ፋኖሴ ጋንጌ ዮንቦ",
+      "votes": 63834
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዮንቤ ጨቡቆ ባሬዶ",
+      "votes": 62055
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ምኮንን ሀሎ ሰሬቦ",
+      "votes": 1240
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በነራ የኡራ ጆላ",
+      "votes": 1187
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ተከሌ ቱንሰሳ ጨቡቃ",
+      "votes": 1138
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ሮኒ አዴላ አርጎ",
+      "votes": 1133
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አለማየሁ ቶዬ ሞርካ",
+      "votes": 1089
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አየለ አርፋሶ ቡካ",
+      "votes": 1070
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አዳኔ አላዎ አሩሳ",
+      "votes": 1038
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አልታሞ ወጃጎ ናጆ",
+      "votes": 1014
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዘላለም ፈጠኔ ሻጡ",
+      "votes": 983
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዳንኤል ደበሣ ጅሎ",
+      "votes": 899
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ባዩሽ በቀለ ባርታ",
+      "votes": 870
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ደምሴ ዳሣ ፋሉሣ",
+      "votes": 847
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በቀሌ ቤጠና ቦኤ",
+      "votes": 814
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ታመነች ሲዳ ሴራሮ",
+      "votes": 748
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አሻግሬ ሮራቶ ሮዳ",
+      "votes": 712
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ሀምሳለዉ ሀማሮ ሀመሶ",
+      "votes": 712
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ላሬማ ያንካራ ያንቦ",
+      "votes": 703
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ለማ የተራ ርቄ",
+      "votes": 687
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አሰራቴ ወራሳ ትሮ",
+      "votes": 664
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ተስፋዬ ሐሰና ሐንቃሎ",
+      "votes": 653
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አየለ ቦሮዳ ጎብሌ",
+      "votes": 651
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አደራ ቃንጫኖ ርቆ",
+      "votes": 649
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ግርማ መኮንን እንድሳ",
+      "votes": 618
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አለሙ ጅሎ ባርታ",
+      "votes": 613
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በቀለ ሸለ ደበሳ",
+      "votes": 598
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዳቃማ ዳንጉራ ሆርሳ",
+      "votes": 593
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዘርቱ ሰላሞን የመቃ",
+      "votes": 576
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዳኛቸዉ ደበበ ቡንሳ",
+      "votes": 575
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ተስፋዬ ኤቲሶ ኡፉራ",
+      "votes": 542
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አየለች ኤኬ ግንቦ",
+      "votes": 485
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "መሰለች ዌና ባሌ",
+      "votes": 469
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ግርማ አለማየሁ ቅልሳ",
+      "votes": 468
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አሻግሬ ደብሶ ማጋ",
+      "votes": 401
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "መስፍን ዋቄራ ኡቱራ",
+      "votes": 209
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ገዛኸኝ ገብሬ ዱሣ",
+      "votes": 202
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አየለ ተሻለ ማቴ",
+      "votes": 200
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ፋናጋ ዩና ዩኩራ",
+      "votes": 194
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አስፋዉ አላካ ኡሣ",
+      "votes": 194
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አብይ ለማ ባንቃሞ",
+      "votes": 185
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ቡናቃ ኩማሎ ገመዳ",
+      "votes": 165
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ወንድሙ ሹንዴ ገንዳ",
+      "votes": 164
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ጌቱ ግርማ ሮማ",
+      "votes": 148
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ማትዎስ መለሰ ጣሞ",
+      "votes": 129
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ማርቆስ ወልዴ ቡቴ",
+      "votes": 115
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ቡንካ ገረሙ ሁጃሞ",
+      "votes": 88
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "መንግስቱ ሀሚሶ አሴሌ",
+      "votes": 81
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በዛብህ በላይነህ ዩኤኑ",
+      "votes": 70
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዳቃማ ሆርሶ ርቆ",
+      "votes": 66
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "መንግስቱ ጅሎ ኡኩማ",
+      "votes": 64
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አለሙ ዳሜ ደበልቄ",
+      "votes": 63
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ታምራት ታፈሰ ዳኬሮ",
+      "votes": 62
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ወንዳቸዉ ዳዊት ለጋሞ",
+      "votes": 60
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ቡዛነሽ ሾኔ ዲኬ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አስናቀች አጋሮ ፍታ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ከበደ ካራፎ ሐምቦ",
+      "votes": 53
+    }
+  ]
+}

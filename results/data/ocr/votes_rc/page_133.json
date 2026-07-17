@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 133,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አለሙ አባይ የሾ",
+      "votes": 8413
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ማትዮስ መንገሻ ማሞ",
+      "votes": 7702
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አክሊሉ አሰፋ ቆጭቶ",
+      "votes": 7684
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ወንድሙ ኬሮ ወልደማርያም",
+      "votes": 7627
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ታረቀኝ አሰፋ ገብሬ",
+      "votes": 7623
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አክሊሉ አበራ ማገቶ",
+      "votes": 7559
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ገብረየስ ገዛኸኝ ጋይክሾ",
+      "votes": 7162
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አብርሃም ሀብታሙ የርክሾ",
+      "votes": 7162
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ኢያሱ አትርሴ አቱሞ",
+      "votes": 6058
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ይርጋለም ከበደ ኃይለማርያም",
+      "votes": 3151
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አድሉ መንገሻ ማርቶ",
+      "votes": 2778
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "መብራቱ መለሰ መኩሪያ",
+      "votes": 2232
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ታምሩ ሳህሌ ሻከቦ",
+      "votes": 2037
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "በላቸው በቀለ አነቶ",
+      "votes": 1844
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ቅድስት መክቴ አምቶ",
+      "votes": 1844
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ገረመው ገብረሚካኤል ባዬ",
+      "votes": 1694
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አዲሱ ኃዲሳ ገምበሮ",
+      "votes": 1655
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አዳነች አደመ ወልደማርያም",
+      "votes": 1512
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አስራት ገብሬ ገብረስላሴ",
+      "votes": 1508
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ከሮ ተክለ ገብረማሪያም",
+      "votes": 1486
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አጥናፉ የርክሾ ሀይሌ",
+      "votes": 1387
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አብርሃም ተስፋዬ ታደሰ",
+      "votes": 1329
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ሚካኤል ገሮ ተፈራ",
+      "votes": 940
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ጌታቸው ገረመው ገብረፃዲቅ",
+      "votes": 871
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ሀገሩ ንጉሴ ደረሰ",
+      "votes": 742
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ታምሩ ተካ ገብሬ",
+      "votes": 717
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ባህሩ ገብረመስቀል ገብረአብ",
+      "votes": 711
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ምንተስኖት አበበ ፍሬሁን",
+      "votes": 133
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "መላኩ ተረፈ ከበዴ",
+      "votes": 35772
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ፈቃዱ ወልደሩፋኤል ይርጉ",
+      "votes": 35557
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ተስፋዬ ባንጉ ኮቾ",
+      "votes": 35477
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አስፋዉ ደሳለኝ መንገሻ",
+      "votes": 35304
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ብሩክ አረባ እኮ",
+      "votes": 35162
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አላየነች ካንባቶ ሻሹ",
+      "votes": 34909
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ሰለሞን ተክሌ ሀርጋን",
+      "votes": 34831
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ካሣች ታዬ ወዳጆ",
+      "votes": 34150
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ብርሃኔ ከፈኔ ቶጃሞ",
+      "votes": 33425
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ፀጋዬ ደምሴ ዳርታ",
+      "votes": 13671
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ወልዴ ወዳጆ ባላንጎ",
+      "votes": 13668
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "መስፍን መለሎ ወጄ",
+      "votes": 13565
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ንጉሴ ገትሣ ገንበሮ",
+      "votes": 13114
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "መለሎ መንገሻ ማሞ",
+      "votes": 12849
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አማሩ አየለ አዳሬ",
+      "votes": 12815
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አለማየሁ አጫ ድልቦ",
+      "votes": 12388
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ማራ አረሩ አደቆ",
+      "votes": 12243
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ካሣ ጌታሁን ገብረፃድቅ",
+      "votes": 12012
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አማሊ አንቴ መጉቱ",
+      "votes": 11883
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "መሠረት ደስታ አቦ",
+      "votes": 2256
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ሄኖክ ደጀኔ ዳርታ",
+      "votes": 2173
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አብርሃም አዳሞ አሞሾ",
+      "votes": 2136
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ብንያም ባንጉ አንዳሌ",
+      "votes": 2048
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ታምራት ገብሬ ገሉ",
+      "votes": 2042
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አማኑኤል ደሉላ ምኖታ",
+      "votes": 2023
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ዳዊት ደፋር ደራ",
+      "votes": 1725
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "አረጋሽ ተገኝ ከበቡ",
+      "votes": 804
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ዘነበ አሰፋ አድማሱ",
+      "votes": 644
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ምንተስኖት ምትኩ ወልደሚካኤል",
+      "votes": 614
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ማታወርቅ ገበየሁ ገሠሠ",
+      "votes": 589
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "የትናየት ተፈራ አይሳ",
+      "votes": 586
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢሰሬ ቶጫ",
+      "candidate": "ሸግቱ መለሰ ባሹ",
+      "votes": 584
+    }
+  ]
+}

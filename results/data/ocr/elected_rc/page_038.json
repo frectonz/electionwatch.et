@@ -1,0 +1,153 @@
+{
+  "pdf": "elected_rc",
+  "page": 38,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኡጉል ኩዋድ አዋክ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኡኬሎ አሞድ ኡቶው"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኡቶው ኡኮት ኡቡዎዶ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኡጀሆ ኡቻጎ ገሊ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "አዲሱ ሀለቆ ሀሊሶ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ከርምስ ሌሮ ጉዌል"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኪጃክ ኡኮክ ኡላይ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "አኩቹዋች አጉዋ አበላ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኡዋንግ አለሙ ኡሉቲ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "አቤን ድዱሙ አጉቱ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ሜራ አሞድ ኖንግ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ኩራን ግምት አማረ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ዮሐንስ ጌታቸው ዮሊን"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቦ",
+      "candidate": "ካሳሁን አስፋው መኮነን"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ጃክ ጆሴፍ ሚዮንግ"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ኮንግ ኩላንግ ፖት"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ዊዮዋል ያት ኳኝ"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ቦም ኮክ ቾል"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ሎክ ዮይ ጉዋንዶንግ"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ፕዲንግ ዴንግ ቶን"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ሳይሞን ሆት ቾል"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ቦት ጋች ዶች"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ዳግማዊት ጆን ጋች"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ኒያል ታጥ ማሌት"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ኛሞች ዮሀ ዎል"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "አሪያት ኤችክ ጊሎ"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ኮር ቾት ጆክ"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ኡማን ኢጋላ ኢዳይ"
+    },
+    {
+      "region": "",
+      "constituency": "አኮቦ",
+      "candidate": "ጋትራይ ቾል ቦል"
+    }
+  ]
+}

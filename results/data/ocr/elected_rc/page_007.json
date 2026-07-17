@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 7,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብድረህማን አህመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "ሻፊ ሙሁመድ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብዲረሺድ መሀመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "ሸሪፎ ሼክ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "በሽር ሁሴን ኢልሚ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "መሀመድ አብዲረህማን ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ ዱላ / Qarsadhulaaqq",
+      "candidate": "ሙሳ ኡስማን ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ኒሞ ዩሱፍ አቢብ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "ሀሰን መሀሙድ ሊባን"
+    },
+    {
+      "region": "",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አብድጀባር ሼክጣሂር ራጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቱሉ ጉሌድ / Tuliguuleed",
+      "candidate": "አህመድወሊ ሀሠን ሸርማርኬ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ኢድሪስ መሤ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ኢዲሪስ ጂብሪል ሮብሌ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍደም / Afdem",
+      "candidate": "ራህማ ድሪር አሶዌ"
+    },
+    {
+      "region": "",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "አያን አብዲ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "አብዱልፈታህ አብዱላሂ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "መሀመድ ዩሱፍ ሮብሌ"
+    },
+    {
+      "region": "",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "ሙክታር ዩሱፍ ሙሴ"
+    },
+    {
+      "region": "",
+      "constituency": "አራርሶ / Araarso",
+      "candidate": "በሽር ሼክአብዲረህማን ኑር"
+    },
+    {
+      "region": "",
+      "constituency": "አውባሬ / Awbare",
+      "candidate": "ሁሴን ገይድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አውባሬ / Awbare",
+      "candidate": "አሲያ አብዱላሂ ኢላቤ"
+    },
+    {
+      "region": "",
+      "constituency": "አውባሬ / Awbare",
+      "candidate": "ሐሰን መሀሙድ አዱር"
+    },
+    {
+      "region": "",
+      "constituency": "አውባሬ / Awbare",
+      "candidate": "ኒሞ ዳኡድ ያሲን"
+    },
+    {
+      "region": "",
+      "constituency": "አውባሬ / Awbare",
+      "candidate": "አብዲካድር መሀመድ አድን"
+    },
+    {
+      "region": "",
+      "constituency": "አውባሬ / Awbare",
+      "candidate": "አብዲቃድር አብዱላሂ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ባቢሌ / Baabili",
+      "candidate": "አብድማሊቅ ሃሺ ናሲር"
+    },
+    {
+      "region": "",
+      "constituency": "ባቢሌ / Baabili",
+      "candidate": "ከማል መሀመድ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ባቢሌ / Baabili",
+      "candidate": "RAABI SHEIK RASHID"
+    },
+    {
+      "region": "",
+      "constituency": "ባቢሌ / Baabili",
+      "candidate": "ፊልሰን ኡመር ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ባሬ / Baarey",
+      "candidate": "አብዲ ሙሁመድ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሬ / Baarey",
+      "candidate": "አብዲረሺድ አሊ ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሬ / Baarey",
+      "candidate": "መሀመድ ሰይድ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ባሬ / Baarey",
+      "candidate": "ሆኒ መሀመድ ሼር"
+    },
+    {
+      "region": "",
+      "constituency": "ቤርአኖ / Beercaano",
+      "candidate": "ኡመር መሀመድ ባሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤርአኖ / Beercaano",
+      "candidate": "ዚያድ ኑር አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤርአኖ / Beercaano",
+      "candidate": "ፈርደውሳ ካዲር አደን"
+    },
+    {
+      "region": "",
+      "constituency": "ቤርአኖ / Beercaano",
+      "candidate": "አብዲ አረብ ቃሲም"
+    },
+    {
+      "region": "",
+      "constituency": "ብርቆት / Birqod",
+      "candidate": "አብድሀኪስ ሼክ አብዱህማን"
+    },
+    {
+      "region": "",
+      "constituency": "ብርቆት / Birqod",
+      "candidate": "ሁሴን አህመድኑር ባዱድ"
+    },
+    {
+      "region": "",
+      "constituency": "ብርቆት / Birqod",
+      "candidate": "ከድር መሀመድ ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ብርቆት / Birqod",
+      "candidate": "ኢፋራህ አብዲራህማን መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦህ / Bookh",
+      "candidate": "አያን አደን ፋራህ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦህ / Bookh",
+      "candidate": "አብዱላሂ አብዲ ቡራሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦህ / Bookh",
+      "candidate": "አህመድ አሊ ሰና"
+    }
+  ]
+}

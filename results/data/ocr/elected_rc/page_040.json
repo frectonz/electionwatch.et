@@ -1,0 +1,193 @@
+{
+  "pdf": "elected_rc",
+  "page": 40,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "አንድሮው ቱት መት"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ሞክ ያንግ ጋትሏክ"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ኮአት ጂንግ ሪክ"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ቱት ቶት ላትጀር"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ቶክ ፑልደንግ ሩዋይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ኛጃል ፖል ሞንግ"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ኮንግ ጋች ዊው"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ኛሞች ጊል ቴም"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ቱት ንዑት ቱዋል"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ካን ጋልዋክ ኬት"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ኛኩም ሙን ኪር"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ማርሣ ኛሆስ ዶስ"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "ሜር ጎኝ ዩት"
+    },
+    {
+      "region": "",
+      "constituency": "ጂካዎ",
+      "candidate": "አካች ቱት ሉዋክ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡቶጆሆ ኡፒየዉ ኡጁሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡበንግ ኡጉታ አድው"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡጁሉ ኡጁሉ ኩዎት"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡሌም አብላ አቢይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡጁሉ አሞድ ዋላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡኬሎ አለሙ ንነዎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "ኡፒየው ኡሎክ ኡፒየው"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "አበንግ አጉዋ አጉዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "አሪዖት አበንግ ኡኬሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጆር",
+      "candidate": "አዋር ኡጁሉ ኡሎክ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ኡጁሉ አሞድ ኡቻላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ኡጁሉ አባይ ኩዎት"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ኡጁሉ ኡቻን ኡቻን"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ላኬዴር ላካባ ብርሃኑ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "አጌም ኡጁሉ አሞድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "አበንግ ኡቡይ አበላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ናሆም ደፋር ተፈሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "አኳይ አተርፋ ሙስጠፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ቻት ኡጁሉ ማርቆስ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ሻኬዉ ጊሎ ኡጁሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "አንድነት አረጋ ወጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "አጁሉ ኡጁሉ አበላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ",
+      "candidate": "ናትናኤል አቼዋ ካዋዋ"
+    }
+  ]
+}

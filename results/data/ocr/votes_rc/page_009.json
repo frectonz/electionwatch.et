@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 9,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ዘገየ ዳጆ ቱማቶ",
+      "votes": 5673
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ምልዮን ሽብሩ ፈንገሻ",
+      "votes": 5570
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ሳርምሶ ሌሞ ንዋና",
+      "votes": 5484
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኢያሱ ዳንኤል ሹሬ",
+      "votes": 5231
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ለማ አዳላ እኔሮ",
+      "votes": 3230
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ቶማስ ሆሾሌ ሆርሴ",
+      "votes": 1345
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ማትዎስ መልክሙ ጨቦ",
+      "votes": 1206
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኢዮብ ወጋሶ መንጃ",
+      "votes": 1203
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ፀጋዬ ካምሳ ሻዋ",
+      "votes": 828
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኤርምያስ ሳሙኤል ባራሳ",
+      "votes": 748
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ዝናሽ ዳሩሳ ጨንቻ",
+      "votes": 738
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ዱባለ ሉጌ አማሮ",
+      "votes": 691
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ጴጥሮስ ዬማካ ቱቡሉ",
+      "votes": 662
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "እስራኤል ካያሞ ቃምሶ",
+      "votes": 658
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "አየለ ቃቄ ዳንግሶ",
+      "votes": 656
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ሙሳ ማሩፋ ሃመሶ",
+      "votes": 645
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ማንግሬታ ማርቆስ ሽብሩ",
+      "votes": 642
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "በላይነሽ ዳጄ ዶሎ",
+      "votes": 583
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ማንጋሻ ፋራ ካምሶ",
+      "votes": 574
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ታደሴ ባሶ ዳያሶ",
+      "votes": 567
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "አኔሮ አልቶ ቦንጃ",
+      "votes": 518
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ጴጥሮስ በባሶ ቦረሳ",
+      "votes": 480
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ሀይሉ ሀላላ ቡአ",
+      "votes": 471
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ብልሉ አራሻ አራሳ",
+      "votes": 446
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "አማኑኤ ዩፓ ዴብሳ",
+      "votes": 350
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ገነት ያዕቆብ ካንባታ",
+      "votes": 202
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ሳሙኤል ከርቾ ተርጠቦ",
+      "votes": 195
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኤልያስ ሐማሮ ሐጥያ",
+      "votes": 150
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ተሾመ ቶርባ ኮልባዬ",
+      "votes": 99
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "አስራት ሾዳዬ ባታሬ",
+      "votes": 95
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "መልካሙ ዙፋን ኤርምያስ",
+      "votes": 86
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ማትዎስ ዮሴፍ ደበሌ",
+      "votes": 81
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ኤልሳዕ ጴዉሎስ ሻቃ",
+      "votes": 79
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አስፋው ንኔሶ ነመሬ",
+      "votes": 210361
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዳዊት ዳንጌሶ ሆርሳ",
+      "votes": 209097
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አየለች ተክሉ ዳቶሌ",
+      "votes": 209093
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አሰይ ሰለሞን ሺና",
+      "votes": 208999
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "መሳይ ኃይሉ ዳንጌሶ",
+      "votes": 208690
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተናኝ ታምሩ ሐሜሶ",
+      "votes": 208689
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ቆንጅት ወቴ ገዳና",
+      "votes": 207482
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደለለኝ ዳንቾ ቦሰቃ",
+      "votes": 206143
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በላይነሽ ባካዬ ጉበሌ",
+      "votes": 205620
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተሾመ ደበበ ቶርሜ",
+      "votes": 2569
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ከበደ ካሳ ተሰማ",
+      "votes": 1485
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዳዊት ኪአ ብርቦ",
+      "votes": 1366
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አሸናፊ ዌና የትራ",
+      "votes": 1352
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ከነድ ከበደ ሞቶሳ",
+      "votes": 1336
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደበበ ዌና ባሼ",
+      "votes": 1294
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ምንተስኖት ተስፋዬ ብርሃኑ",
+      "votes": 1279
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "መርጋ ከበደ ሞቶሳ",
+      "votes": 1225
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዘሪሁን ለማ ለግዬ",
+      "votes": 1169
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደብርቱ ሀጥያ ሼኖ",
+      "votes": 1162
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተፈራ ተጫኔ አርባሞ",
+      "votes": 985
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዳንኤል ዳካ ሌዳ",
+      "votes": 715
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አንዳሻ ሀንቃሞ ሻበ",
+      "votes": 712
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ገዲቦ ጎቦና ገበሮ",
+      "votes": 712
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ገነነ ሻላሞ ሻንኮ",
+      "votes": 708
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "መሰለች አድሎ አመለ",
+      "votes": 704
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደጀን ዮና ኑቄቦ",
+      "votes": 692
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሰለሞን ሻንቆሞ ወላጫ",
+      "votes": 682
+    }
+  ]
+}

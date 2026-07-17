@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 56,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሙርሲ ልዩ",
+      "candidate": "አሊቱላ አሊቡይ አሊኮሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙርሲ ልዩ",
+      "candidate": "ሎላቡ ካላመደሪ መድረሆሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሌ ልዩ",
+      "candidate": "ማዕከል ማሊኮ ጎሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሌ ልዩ",
+      "candidate": "ንጋቱ ዳንሳ ሙሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ባስኬቶ ልዩ",
+      "candidate": "አለማየሁ አያቶ ተረፈ"
+    },
+    {
+      "region": "",
+      "constituency": "ባስኬቶ ልዩ",
+      "candidate": "ኃይለማርያም ዴንቦ ገበርማርያም"
+    },
+    {
+      "region": "",
+      "constituency": "ቦዲ ልዩ",
+      "candidate": "ባናና ጠብልጉ ኪፖ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦዲ ልዩ",
+      "candidate": "ታውጊ ሞዴ ቶሮጵለጂ"
+    },
+    {
+      "region": "",
+      "constituency": "ኛንጋቶም ልዩ",
+      "candidate": "አማሪ ሎጂኮ ሎሚሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኛንጋቶም ልዩ",
+      "candidate": "ኤካል ነጉር ኤኬንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ይያሞ ዳሴ ዳጋ"
+    },
+    {
+      "region": "",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ጠቅላይ ጫንቴ ዓሎ"
+    },
+    {
+      "region": "",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ሺፈራው ኮቻ ሎንቄ"
+    },
+    {
+      "region": "",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ዜናነህ አዱላ አሬቶ"
+    },
+    {
+      "region": "",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ታረቀኝ በቀለ ወልደፃድቅ"
+    },
+    {
+      "region": "",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ጥላሁን ከበደ ወልዴ"
+    },
+    {
+      "region": "",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ብርሀኑ ዘውዴ ዘታ"
+    },
+    {
+      "region": "",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ደምሴ አድማሱ ጨሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ሊዲያ ከንቲባ ካራ"
+    },
+    {
+      "region": "",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "እንድልቡ ጎአ ዮታ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቦሬ ልዩ",
+      "candidate": "ባርጆሌ ጊኖ አቻባሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቦሬ ልዩ",
+      "candidate": "ሻሮ ጌታቸው ቶሮጭ"
+    },
+    {
+      "region": "",
+      "constituency": "አይዳ ልዩ",
+      "candidate": "አብድሳ አበበ አሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "አይዳ ልዩ",
+      "candidate": "ይስሐቅ ክንፌ አልቲ"
+    },
+    {
+      "region": "",
+      "constituency": "ዘይሴ ልዩ",
+      "candidate": "ጥሩሰው ሽፈራው እንዳሻው"
+    },
+    {
+      "region": "",
+      "constituency": "ዘይሴ ልዩ",
+      "candidate": "ጎቴ ጎቦና ጎባ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛላ ዳራማሎ",
+      "candidate": "ገዛኸኝ ጋሞ አይሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛላ ዳራማሎ",
+      "candidate": "በላቸው ቦኮቾ ሀላላ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛላ ዳራማሎ",
+      "candidate": "ዳግማዊ አየለ አጌና"
+    },
+    {
+      "region": "",
+      "constituency": "ዛላ ዳራማሎ",
+      "candidate": "አልማዝ አባይነህ አዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛላ ዳራማሎ",
+      "candidate": "ተስፋዬ ደጌ ደዲኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ደራሼ ልዩ",
+      "candidate": "ግንኙነት ኪታሞ ኪታይታ"
+    },
+    {
+      "region": "",
+      "constituency": "ደራሼ ልዩ",
+      "candidate": "ምስራቅ ቢኖ ዳትሱ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲሜ ልዩ",
+      "candidate": "ታደሰ ጋልጆ ሻልሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲሜ ልዩ",
+      "candidate": "አበባ ሰፍታዬ መሄል"
+    },
+    {
+      "region": "",
+      "constituency": "ገዋዳ ልዩ",
+      "candidate": "ውድነሽ ሹቱ ሸናቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ገዋዳ ልዩ",
+      "candidate": "አርሻሎ አርካሌ አይጋጣ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ራሔል ሞላ ሀርኮሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ተፈሪ ሀቱዬ ሄላቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ጅማነህ ከበደ ኬልላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ዳቲካ ታዬ መንገሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ገንዘብ ካርቴ ቦንካቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ዘበኛ ባይዶቶ ጋጣኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ተስፋዬ ስንታየሁ ወልደዮሐንስ"
+    }
+  ]
+}

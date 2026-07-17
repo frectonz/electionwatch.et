@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 92,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ደባጤ",
+      "candidate": "ውዴ ዳኛው ካሳሁን",
+      "votes": 399
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ደባጤ",
+      "candidate": "በላይነሽ ወንድምአገኝ አስፈራው",
+      "votes": 370
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ደባጤ",
+      "candidate": "መቅደስ ገነት ተሻለ",
+      "votes": 342
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ደባጤ",
+      "candidate": "ዮሐንስ ዘገየ ይማም",
+      "votes": 341
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ቱጃኒ አደም አሊ",
+      "votes": 5269
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ሀይሰም ባቦስ ጅብሪሊድ",
+      "votes": 4980
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "አህመድ ኩምሰሪ አልሀሰን",
+      "votes": 4963
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ቢሰና ረጀብ አልገመር",
+      "votes": 4641
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ሸይብ መሀመድ ሸይብ",
+      "votes": 864
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ዘመኑ ባቾች ታዬ",
+      "votes": 825
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ባንቱ ፓሊስ ብፈሪ",
+      "votes": 644
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "ይሳቅ ገመድ ባውካ",
+      "votes": 598
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጉባ",
+      "candidate": "መድና አማሪ ኢሳ",
+      "votes": 592
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ይርጋ አሰፋ ሰጠኝ",
+      "votes": 12819
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "አበበ እንድሪስ ግዛው",
+      "votes": 12074
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "የሽመቤት ማንደፍሮ ተሰማ",
+      "votes": 11770
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "አብረሐም ሎዳሞ ወቴ",
+      "votes": 11732
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ወጤ አናጋው መኮነን",
+      "votes": 11008
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "አልጋነሽ ይሄነው ወንድሜ",
+      "votes": 1311
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ሀብታሙ አጋሉ አለሙ",
+      "votes": 1193
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ተሻገር ሙሉነህ ወርቁ",
+      "votes": 1170
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ወርቅነሽ ሙሉነሽ ወርቁ",
+      "votes": 1084
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ሀብታሙ ገደፋው ሙሉነህ",
+      "votes": 1017
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "አጠቃ አሳየ መንግስቱ",
+      "votes": 472
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ካሳነሽ እንዳለው ተካ",
+      "votes": 463
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ተስፋዬ ሻሮ ማዘን",
+      "votes": 289
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ፓዌ",
+      "candidate": "ዋድም ባንዲራ መካ",
+      "votes": 242
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ኢስቅ አብድልቃድር ሌንጮ",
+      "votes": 21919
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ከማል አድሪስ ዋክኔ",
+      "votes": 21852
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሚስኪያ አብደላ ሶሶ",
+      "votes": 21102
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ዚይድ አብዱላሂ ዓለሚን",
+      "votes": 21065
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ራመዳን ሀሩን ካያ",
+      "votes": 21037
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሱዲያ ኡስማኤል መሀሙድ",
+      "votes": 20443
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "አጠይብ አወድ መሀመድ",
+      "votes": 20256
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ማይከል ግደማርያም ናስር",
+      "votes": 20201
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "መሀመድ ሀብቴ ናስር",
+      "votes": 20022
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ኢብራሂም ፍሊል ዝባ",
+      "votes": 19963
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ዱሌ ሀሰን ሰድቅ",
+      "votes": 19885
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሩቅያ መሀመድከርም ኡስማን",
+      "votes": 19602
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "አርዶና ሳሊያ ጽደባ",
+      "votes": 19222
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "በግር ደሽ ዳልማን",
+      "votes": 170
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሳዲቅ ኡላን በራ",
+      "votes": 145
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ጋልዋክ ባንቲ ዋሀድ",
+      "votes": 139
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ኑራ አደም ጉዳ",
+      "votes": 127
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ተረፈ አብዱላሂ አዛዚ",
+      "votes": 123
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "አገኘሁሽ መኩታር ፀጉር",
+      "votes": 123
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ኤልያስ ሳቢ ዋክለ",
+      "votes": 117
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ዋሽ ቱኩር አሰበ",
+      "votes": 116
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ድብሽብ አቆት ከዶክ",
+      "votes": 108
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ከማል አዩብ አልማዲ",
+      "votes": 104
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሙጃሂድ ገለታቻ ሳቢ",
+      "votes": 102
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሊዲያ ግርማ ወንድሙ",
+      "votes": 50511
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሃቢብ ሲራጅ በቀለ",
+      "votes": 49029
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ጥላሁን ወርቁ ሮቢ",
+      "votes": 48644
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አለምፀሀይ ጳውሎስ አትሞ",
+      "votes": 47541
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ልእልት ግደይ ረዳ",
+      "votes": 47440
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ሁሪያ አሊ ማህዲ",
+      "votes": 47010
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ፈትለወርቅ ሀይሉ ታደሰ",
+      "votes": 46900
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "አብዱልቃድር መሀመድ ዩሱፍ",
+      "votes": 46787
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ልደታ",
+      "candidate": "ኤደን ታደሰ ገመዳ",
+      "votes": 45638
+    }
+  ]
+}

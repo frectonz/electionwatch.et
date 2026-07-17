@@ -1,0 +1,188 @@
+{
+  "pdf": "elected_rc",
+  "page": 61,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ፍቅሬ አማን ጋካ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ሀብታሙ ካፍትን ፃባ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ዘማች በዛብህ ሼል"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጨነቁ ኮንታር በፈንሰ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ፍርድአወቅ አለሙ ከበደ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "አስገደች ወልደየስ ወልደማርያም"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ተስፋዬ ጊስካር ጋስያብ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ገነት ዳምጤ አያኔማር"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጴጥሮስ ድርካ ናይከን"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ጥላሁን ሰምቴት ሳይንሰ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ነጋሽ ዋጊሾ አሜንቾ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "እስራኤል አታሮ አቶሮ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "አዲስ ዘለቀ ሁሉቃ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ታሪኩ አካሉ አላንቼ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ዳዊት ገበየሁ ገሉ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ደረሰ ቲቲሳ ጋሙ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ተክሌ ተሰማ ኮንኤ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ፀሐይ ዳርጫ ሚታ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ተስፋዬ በላይነህ አባንጃም"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማረቃ ጌና",
+      "candidate": "ጌታቸው መኮንን ሞጋሌ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "ቢደሉ መዓዛ ፍሬው"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "መልኬ ኬላጌ ኮሩሙት"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "ሺፈራው ማናባ ኪራ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "አሰናቀች ተስፋዬ አሰፋው"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "የአለም በሪሁን ጌች"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "ገመዳ ከይዳድ ካርታሳኝ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "ትደነቅ ጉልዱ ፀደቀ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "በልዩ ታምራት ሜርጌስ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "ባርቶን አልቂላ አሊሲርዋ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጅት መደበኛ",
+      "candidate": "ዳልካ አሊታ ሚርሰሞይ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሱርማ ልዩ",
+      "candidate": "ባርዶላ አሌዶሌ ኢያ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሱርማ ልዩ",
+      "candidate": "አርጎሎኝ አሌከቦ መካኒ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሱርማ ልዩ",
+      "candidate": "ብርሃኑ ጌታሁን ወርቁ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሸኮ ልዩ",
+      "candidate": "ወንድሙ ኩርጋ ቱርባብ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሸኮ ልዩ",
+      "candidate": "አሪ ጎርሙ ጎተብ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሸኮ ልዩ",
+      "candidate": "ደማሬ ኩድጓ መንገሻ"
+    }
+  ]
+}

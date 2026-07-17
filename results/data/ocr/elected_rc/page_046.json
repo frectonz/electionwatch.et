@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 46,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ኮንሶ 2",
+      "candidate": "አያሌው ዝና ቱኬ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 2",
+      "candidate": "ማቴዎስ ሎምባሶ ቃልቲሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 2",
+      "candidate": "ሙላቱ ጫኬ ግላጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 2",
+      "candidate": "ብርሃነሸ ኤርጡሞ ሌለቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 2",
+      "candidate": "ተመስገን አንሼቦ ከፋቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 2",
+      "candidate": "ፈይሰል ሀሰን አብራር"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 2",
+      "candidate": "ከበደ ሀይሌ ፈረጃ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 2",
+      "candidate": "ከማል አህመድ በረካ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 2",
+      "candidate": "አብዶ ድንቁ ሽሊል"
+    },
+    {
+      "region": "",
+      "constituency": "ጉመር 2",
+      "candidate": "ኢብራሂም አህመድ አንዴታ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 3",
+      "candidate": "እቴነሸ ሙሉጌታ አጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 3",
+      "candidate": "አለማየሁ ተረፈ ሌሬቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 3",
+      "candidate": "ታመነ ገብሬ ባያሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 3",
+      "candidate": "አያኖ ሻንቆ ካልቴቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ 3",
+      "candidate": "ሞገስ ኃይሌ ሀይዴቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "መሃሙድ አልበሂት አልሃጅ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "ዩሱፍ ሀሚድ ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "ካሚል ሀመድ ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "ሙሣ ሀሚድ ሙሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "ኡስማን አህመድ ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "አስያራ አሊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "ሙና ከርማላ አፉድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሞሾ",
+      "candidate": "ዩሱፍ ሐሰን ሸረፈዲን"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "ኢብራሂም መንሱር ጃዴን"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "ሀሩን አመር መበጠፋ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "አህመድ አጠይብ ሻውሺ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "ታጁዲን አልጂሊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "ማልሀሰን ባሻ ሆጀሌ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "አሸረፍ ሃይአኑር ሃሚድ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "ላይላ ዑስማን መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "ለሊያ ራህማ ሰይድ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "አረሸድ አጠይብ አዩብ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "መሀመድ አቡድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መንጌ",
+      "candidate": "አብዱሰላም ሻግላ አልሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ማንዶራ",
+      "candidate": "አለምነሽ ይባስ ጉቅ"
+    },
+    {
+      "region": "",
+      "constituency": "ማንዶራ",
+      "candidate": "የረሰውርቅ መሠረት ፅዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ማንዶራ",
+      "candidate": "መለሰ ኪያ ጃኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ማንዶራ",
+      "candidate": "ቤዋ ቡልት ጋንቾካ"
+    },
+    {
+      "region": "",
+      "constituency": "ማንዶራ",
+      "candidate": "አስፋው ወርቅነህ ሀብቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ማንዶራ",
+      "candidate": "አምሳሉ ላህዋጅ በስህ"
+    }
+  ]
+}

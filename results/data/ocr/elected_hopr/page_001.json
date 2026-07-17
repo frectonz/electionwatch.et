@@ -1,0 +1,273 @@
+{
+  "pdf": "elected_hopr",
+  "page": 1,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሊጋምቦ",
+      "candidate": "አባተ አረጋ አታላይ"
+    },
+    {
+      "region": "",
+      "constituency": "ሉማሜ",
+      "candidate": "ስመኘሽ ሳህሉ ጥላም"
+    },
+    {
+      "region": "",
+      "constituency": "ሊበን",
+      "candidate": "ጌታሁን ልመንህ አበጋዝ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐብሩ",
+      "candidate": "ሰኢድ ኑሩ ዓሊ"
+    },
+    {
+      "region": "",
+      "constituency": "መራኛ",
+      "candidate": "ፍሰሀ አበበ ወንድምአገኝ"
+    },
+    {
+      "region": "",
+      "constituency": "መርዓዊ",
+      "candidate": "ተዋቸው አበበ ይመር"
+    },
+    {
+      "region": "",
+      "constituency": "መቅደላ",
+      "candidate": "ሉባባ ሰይድ ሊጋስ"
+    },
+    {
+      "region": "",
+      "constituency": "መተማ",
+      "candidate": "ፋሲካ ሻንቆ አሰናቀው"
+    },
+    {
+      "region": "",
+      "constituency": "ማጄቴ",
+      "candidate": "ደምስ አበራ ባያሌው"
+    },
+    {
+      "region": "",
+      "constituency": "ምላሌ",
+      "candidate": "መርሻ ኃይሉ ወልደኪሮስ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞጣ",
+      "candidate": "ተመስገን ዘውዴ ንጋቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ራቤል",
+      "candidate": "አለሙ ዳምጠው አሸናፊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሮቢት",
+      "candidate": "ሉባባ መኮንን ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቆጣ",
+      "candidate": "ፋንታይቱ ካሴ ፈለቀ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰከላ",
+      "candidate": "ገዙ ምናዬ ቸኮል"
+    },
+    {
+      "region": "",
+      "constituency": "ቀይት",
+      "candidate": "አታለማሁ ይምታቱ በየነ"
+    },
+    {
+      "region": "",
+      "constituency": "ቂይ",
+      "candidate": "ማዕዛ አሰማረ አብተው"
+    },
+    {
+      "region": "",
+      "constituency": "ቅላጅ",
+      "candidate": "አቡኔ አለም ተመስገን"
+    },
+    {
+      "region": "",
+      "constituency": "ቋሪት",
+      "candidate": "ሙጬ ደመቀ መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "በለሳ",
+      "candidate": "ጀምበር አያልነህ ብሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ",
+      "candidate": "ዳኛቸው አስረስ አስራት"
+    },
+    {
+      "region": "",
+      "constituency": "ቡግና",
+      "candidate": "ሙሉጌታ ገብረማርያም ደሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ባቲ",
+      "candidate": "አሚናት ሁሴን አብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ብቸና",
+      "candidate": "አስቻለ አለምሬ መላሠ"
+    },
+    {
+      "region": "",
+      "constituency": "ተንታ",
+      "candidate": "ሀብተማርያም መኮንን አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ቲሊሊ",
+      "candidate": "ቀለመ ሙላነህ አምሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ቻግኒ",
+      "candidate": "መስከረም አበበ ወርቅነህ"
+    },
+    {
+      "region": "",
+      "constituency": "አልቡኮ",
+      "candidate": "ሀረገወይን ይመር አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አማኑኤል",
+      "candidate": "ዮሃንስ ጥላሁን ጌቴ"
+    },
+    {
+      "region": "",
+      "constituency": "አምበር",
+      "candidate": "ተሾመ ዋላ ገሠሠ"
+    },
+    {
+      "region": "",
+      "constituency": "አረርቲ",
+      "candidate": "በጋሻው ተክሉ አለማየሁ"
+    },
+    {
+      "region": "",
+      "constituency": "አንኮበር",
+      "candidate": "የማታወርቅ ደባስ ወሰኔ"
+    },
+    {
+      "region": "",
+      "constituency": "አዴት",
+      "candidate": "የሩቅሰው ይታየህ ታፈረ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤፌሶን",
+      "candidate": "አየለች እሸቴ ወልደሰማያት"
+    },
+    {
+      "region": "",
+      "constituency": "እነዋሪ",
+      "candidate": "ታለፍ ፍታወቅ እንጀራው"
+    },
+    {
+      "region": "",
+      "constituency": "ከለላ",
+      "candidate": "መሰፍን ዳኜ ታፈሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩታበር",
+      "candidate": "የሱፍ አብራሂም ሸፋው"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበርማ",
+      "candidate": "አጥማቄ አንትነህ ውቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ወረባቦ",
+      "candidate": "ሉባባ ኢብራሂም አሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ወረኢሉ",
+      "candidate": "ደበበ አድማሱ ይልማ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋድላ",
+      "candidate": "ፈንታው አያሁ መለሰ"
+    },
+    {
+      "region": "",
+      "constituency": "የጁቤ",
+      "candidate": "ዘላለም ታደሰ አያሌው"
+    },
+    {
+      "region": "",
+      "constituency": "የጨረቃ",
+      "candidate": "ወይንሸት ነጋ አሰነ"
+    },
+    {
+      "region": "",
+      "constituency": "ደህና",
+      "candidate": "ወርቅሰው ጣሞ መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "ደላንታ",
+      "candidate": "አያሌው በሪሁን ተሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምበጫ",
+      "candidate": "ያየህ አዲስ ደለለ"
+    },
+    {
+      "region": "",
+      "constituency": "ደባርቅ",
+      "candidate": "አምሳል አማረ አቡተ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና",
+      "candidate": "መሰረት ሀይሌ ማሰረሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ደነባ",
+      "candidate": "ደረጀ ተክለማርያም ገብረመስቀል"
+    },
+    {
+      "region": "",
+      "constituency": "ደጀን",
+      "candidate": "ሙሉቀን አድማሱ አምሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱርቤቴ",
+      "candidate": "ማንጠግቦሽ ቸኮል አምባየ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንግላ",
+      "candidate": "የሺሀሳብ ፀጋው ወላላው"
+    },
+    {
+      "region": "",
+      "constituency": "ጂጋ",
+      "candidate": "የዝና ደስታ ቦጋለ"
+    }
+  ]
+}

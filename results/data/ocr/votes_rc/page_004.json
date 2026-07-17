@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 4,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ጌታሁን ጋትሶ ሄዋሞ",
+      "votes": 2560
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ካሱ ጩአ ሼቤ",
+      "votes": 2559
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ባራሳ ቄሮ ዊጋ",
+      "votes": 2524
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አረጋሽ ካዌ ብላቴ",
+      "votes": 2516
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ማትዎስ መራሳ ጋኖሌ",
+      "votes": 227
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሙሉቀን በየነ ጋብሶ",
+      "votes": 221
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አሻግሬ መኮንን ጌጋሮ",
+      "votes": 218
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አዳነ አሽናፊ ሙቄራ",
+      "votes": 209
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አርጋታ ጤቶ ዮቶኑ",
+      "votes": 207
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ፍጥነት አብርሃም አርጋው",
+      "votes": 206
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "መለሰ ማልኮ ማሞ",
+      "votes": 203
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አርጋው ሙሉጌታ ቃንቄራ",
+      "votes": 203
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ወጣቴ ለማ ፋልሶ",
+      "votes": 197
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አብይ አባይነህ አበበ",
+      "votes": 196
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሀሙሴ በራሳ ፍስሃ",
+      "votes": 195
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ናትናኤል ቱጁራ ቄንቄማ",
+      "votes": 194
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ማርታ በየነ ባላንጎ",
+      "votes": 194
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ክፍያለው ካንባታ አርጌሳ",
+      "votes": 192
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አስፋው አለሙ ድናጌ",
+      "votes": 189
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሚልኪያስ ተፈራ ሾአ",
+      "votes": 188
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አለሙ ፈጣ ጅሎ",
+      "votes": 186
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ክፍያለው ሱንሳ ጎብሌ",
+      "votes": 181
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አሰፋ ትሮ ስርባ",
+      "votes": 159
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ዳዊት ዮሐንስ ዮተ",
+      "votes": 158
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሀብታሙ ደሳለኝ ሹሬ",
+      "votes": 139
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አስቻለው አወቀ ዱሬሳ",
+      "votes": 139
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ታርኩ ሐሰሳ ጋቸኖ",
+      "votes": 137
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ኢሳያስ ተፈራ ድዳሞ",
+      "votes": 89
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አስቻለው ገንዘቤ ቴሬቦ",
+      "votes": 74
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "መስፍን መለሰ መንጌሼ",
+      "votes": 72
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አዱሱ ሙሉጌታ ሙቻ",
+      "votes": 70
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "መንገሻ ሀይሉ ሙሉሽ",
+      "votes": 67
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ፀጋዬ ጫሊ ቡንቴ",
+      "votes": 60
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ድንቅነሽ ደግፌ ዳዉሎ",
+      "votes": 59
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አለማየሁ አስፋው ቃልሞ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ገርምነሽ ግዛው ጁላ",
+      "votes": 54
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሐሳሞ ኃይሉ ሙሉሹ",
+      "votes": 53
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "በየነች ቦጋለ በረና",
+      "votes": 82718
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "መስፍን ቂጤሳ ቀቀቦ",
+      "votes": 80765
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "አገረጽዮን አበበ ቦኤ",
+      "votes": 80647
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ፍፁም በላይነህ አሬራ",
+      "votes": 79644
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ዘገዬ ሀሜሶ ሀንጣሎ",
+      "votes": 79536
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ስኳሬ ኪአሞ ካርቻ",
+      "votes": 78952
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ዘነበ ዘርፉ ሂዶ",
+      "votes": 78636
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ሐርሶ ብልሶ ሥራቴ",
+      "votes": 78200
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ሀጅ ሙሉጌታ ናስር",
+      "votes": 77154
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ታፈሰ ላንቃሞ ላምሶ",
+      "votes": 4270
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ተስፋጊዮርጊስ ንጉሴ ሲሳይ",
+      "votes": 4081
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ተሰማ በርሳሞ ቦደና",
+      "votes": 2950
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ናዳሞ ሆራሞ ሆቸሳ",
+      "votes": 2770
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ጡዬ አማጄ ሻታ",
+      "votes": 2647
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ቦጋለ ድካ ዱቾሾ",
+      "votes": 2433
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ዘበበ ወላሃ ባናታ",
+      "votes": 2378
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "አማሬ ዳንኤል ሐንቃ",
+      "votes": 2302
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ማትዎስ ሀሚሶ ሀጂጆ",
+      "votes": 2237
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ዳዊት አደሞ ማጎ",
+      "votes": 1106
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ሳሙኤል ሮራቶ ሮዳ",
+      "votes": 1086
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "በቀለ መጣሹ ገመና",
+      "votes": 1072
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "መስከረም ይልማ ሀንዴ",
+      "votes": 1064
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "ፈቀደ ሁቹላ ሙራሳ",
+      "votes": 1062
+    }
+  ]
+}

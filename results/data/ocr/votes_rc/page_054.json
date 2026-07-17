@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 54,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "አልማዝ ደመቀ ታደሰ",
+      "votes": 139415
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ፍቃዱ ተሱ ከተማ",
+      "votes": 137157
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ጀማል ኢብራሂም ሰይድ",
+      "votes": 3752
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ሩዶልፍ አምሩ ሞላ",
+      "votes": 2732
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ከንፈአራኤል ሳምሶን ለማ",
+      "votes": 2563
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ሁምኔ አለሙ አበዬ",
+      "votes": 2322
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ናፋህለት ተርፋ ከበበ",
+      "votes": 2167
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "አከልሉ ሽፋረው ስዋያ",
+      "votes": 1940
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "አሸናፊ አሰፋ ክልሌ",
+      "votes": 1725
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "አበበ ብርሃኔ ሀይሌ",
+      "votes": 1550
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "በረህ አልልቱ / Barah Alaltuu",
+      "candidate": "ሙሉ አመሲሳ ኤርባ",
+      "votes": 1146
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ሙነወራ አድሪስ ገነሞ",
+      "votes": 250069
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ኡመር ሙሃመድ ገልቹ",
+      "votes": 247336
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ኡመር አብዶ ባቲ",
+      "votes": 246296
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ሙስጠፋ ኢብራሂም ሞሐመድ",
+      "votes": 70
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "አደም አማን ሰኢድ",
+      "votes": 42
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "አብዱረዛቅ አብዱቄ አብዳ",
+      "votes": 36
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "አብደልወዱድ ሱፋያን ሰኢድ",
+      "votes": 19
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ግርማ ደንገላ ሪንጎ",
+      "votes": 107844
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ጫልቱ ተረፈ ቱቾ",
+      "votes": 105670
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "በላይነሽ ፋፋ ኢጆ",
+      "votes": 103123
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "አንግዳ ቄቢ ዳዶ",
+      "votes": 6313
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ሞሰሳ ዳቃ ኤጋ",
+      "votes": 5562
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ሉቱ ዮሐንስ ገነት",
+      "votes": 3371
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ሀይሉ ደበላ አብዲሤ",
+      "votes": 134224
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ዋቅጋሪ ነገራ ዱፌራ",
+      "votes": 134179
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ጫልቱ ጊዲሳ ጉቱ",
+      "votes": 134137
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "ጉራቻ ፈሪሳ ባብሳ",
+      "votes": 90133
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "ቶላ በሪሶ ገዳ",
+      "votes": 89432
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "መሰረት ጉድታ ቱፋ",
+      "votes": 89025
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "ማሚቱ ገለቱ አኔ",
+      "votes": 340
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "በለጠ ሰሎሞን ሀይሉ",
+      "votes": 236
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "አበበ ጥላሁን ሰይፉ",
+      "votes": 221
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "ሁሉቃ ዋቃዮ ራጎ",
+      "votes": 207
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ፉኛን ቢራ / Funyaan Biraa",
+      "candidate": "ጀማል ሙሳ ዑሶ",
+      "votes": 439155
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ፉኛን ቢራ / Funyaan Biraa",
+      "candidate": "ኑሬ መሀመድ ሀሰን",
+      "votes": 436856
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ፉኛን ቢራ / Funyaan Biraa",
+      "candidate": "ዲኖ አሚን ቃሲም",
+      "votes": 436696
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገቺ ቦረቻ / Gachii Boorechaa",
+      "candidate": "አማን ዳኑ ዲንቃ",
+      "votes": 115347
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገቺ ቦረቻ / Gachii Boorechaa",
+      "candidate": "ኬሪያ ቃስም አብዲሳ",
+      "votes": 115343
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገቺ ቦረቻ / Gachii Boorechaa",
+      "candidate": "ሙሀባ ጀማል ወርጄ",
+      "votes": 115340
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidate": "በኮና ጉታ ጉመር",
+      "votes": 155702
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidate": "ሩቂያ አብራሂም ሄቦ",
+      "votes": 154302
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidate": "ሙስጠፋ ከድር ጅሎ",
+      "votes": 154212
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidate": "ከሊል ባሪሶ ደበሶ",
+      "votes": 0
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገላና አባያ / Galaana Abbayyaa",
+      "candidate": "አዱላ ሀርባዬ ገሊዬ",
+      "votes": 194701
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገላና አባያ / Galaana Abbayyaa",
+      "candidate": "ሹቦ ሱሩ ኢሌማ",
+      "votes": 190734
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገላና አባያ / Galaana Abbayyaa",
+      "candidate": "ፍሬነሽ ሸፈራው መኮንን",
+      "votes": 190305
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገላና አባያ / Galaana Abbayyaa",
+      "candidate": "ታምሩ ገበና ዋሬ",
+      "votes": 55
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ገላና አባያ / Galaana Abbayyaa",
+      "candidate": "ማሞ ሆጴሳ ቦኪ",
+      "votes": 46
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ተስፋዬ ከበበው ጅሩ",
+      "votes": 136534
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "አዲስ አለም ሰንበታ",
+      "votes": 135013
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ጋደሴ ንጉፋ ሀርአ",
+      "votes": 124215
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ሳበንቱ ተማና በንት",
+      "votes": 1562
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ባይሳ ኬቤ ታዬ",
+      "votes": 1253
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ዋርቅነሽ ባዳኔ በቀለ",
+      "votes": 765
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ጉደታ ከበደ ነጋሳ",
+      "votes": 530
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "ታደሰ ንጉፋ ብሩ",
+      "votes": 326
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግራር ጃርሶ / Giraar Jaarsoo",
+      "candidate": "ደረጃ አበራ ኡዳኛ",
+      "votes": 93809
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግራር ጃርሶ / Giraar Jaarsoo",
+      "candidate": "መስከረም መግሬ መኩሪያ",
+      "votes": 93278
+    },
+    {
+      "region": "ኦሮሚያ",
+      "constituency": "ግራር ጃርሶ / Giraar Jaarsoo",
+      "candidate": "ብርሀኑ በቀለ ንጉሴ",
+      "votes": 92642
+    }
+  ]
+}

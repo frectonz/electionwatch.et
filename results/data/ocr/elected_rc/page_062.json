@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 62,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ግርማ ባሻ ማሸኩ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "መስፍን ጉብላ ከይሱቲ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ፍቅሪቱ ወልዴ ካሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ወርቅነሽ ባድንሰ ቶንካ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ተመስገን ከበደ ወልዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ተረፈ ስንቡል ያርንባብ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ካሳሁን ናይከን ሻሽ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "መስፍን መንገሻ ጃሹ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ክፍሌ መልካሙ ሱርያብ"
+    },
+    {
+      "region": "",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ሻንበል ኮይንስ ጋዎ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "ማስረሻ በላቸው ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "አጥናፉ ሀይሌ ቆጭቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "በላይ ባደገ ገብሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "ተክለዓብ ቡሎ ቡሺ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "ህብረት ተካ ዘለቀ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "ሀብታሙ ዓለሙ ኃይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "አፈወርቅ ዓለሙ ገብረሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "ታደለች ማሩ ገብሬሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "እሸቱ ወጋሳ ወዲቲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "አሰናቀች ኃይለየሱስ ወልደሰንበት"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "በየነ በላቸው ገብረማርያም"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "እንዳሻዉ ከበደ ጊጆ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አማረ ብርሃኑ ገብረመስቀል"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ሙሉነሽ ሸንበሾ የሾ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ትዕግስት በላይ ሀይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አልማዝ ታደሰ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "በላይነህ አሪሞ አቲሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "አሸብር ፊካሎ አምቦ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ወንድሙ ወዶሮ አሸቦ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ታምሩ ተክሌ ተሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "መላኩ ተፈራ ከበዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ፈቃዱ ወልደሩፋኤል ይርጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ተስፋዬ ባንጉ ኮቾ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "አስፋዉ ደሳለኝ መንገሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ብሩክ አረባ አኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "አሳየነች ካንባቶ ሻሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ሰላምን ተክሌ ሀርገን"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ካሣች ታዬ ወዳጆ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ብርሃኔ ከፈኔ ቶጃሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "ፀጋዬ ደምሴ ዳርታ"
+    }
+  ]
+}

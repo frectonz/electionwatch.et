@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 95,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ዮናስ አለማየሁ አለሙ",
+      "votes": 125053
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አባንግ ኩሞዳን ኡሞድ",
+      "votes": 125044
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ናስረዲን ሻፊ ሙሰጠፋ",
+      "votes": 123511
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አፍሪኬ ማሄ ሰዴቦ",
+      "votes": 16475
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አለማየሁ ነጋሳ ሰሜሳ",
+      "votes": 15873
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሰውአለ ሽመልስ አለሙ",
+      "votes": 15323
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ክፍያለው በቀለ ደረሰ",
+      "votes": 14753
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሌሊሳ አዳሙ ታደሰ",
+      "votes": 14710
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ታምሩ ጅማ ሰኔ",
+      "votes": 13637
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ዘለለም ታምራት ግዴለውም",
+      "votes": 13604
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አበበ ንጋቱ ባሣ",
+      "votes": 12944
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ቅድስት ሀይልዬ ለማ",
+      "votes": 12852
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ግሩም ዓለሙ አቡ",
+      "votes": 12660
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ማስረሻ ከተማ ወልደፃዲቅ",
+      "votes": 12549
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ብርክ ቤተማርያም ተሰማ",
+      "votes": 11749
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ብዙነህ ታደሰ ሽፈራው",
+      "votes": 11737
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ታደሳ ሽፈራው አሉላ",
+      "votes": 11736
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ማሙሽ ለብሶ በንጃ",
+      "votes": 11494
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ታጠቅ አሰፋ ተሻለ",
+      "votes": 11446
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሀብታሙ ደመቀ ወልደሩፋኤል",
+      "votes": 11399
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሽፈራው ገብረማርያም ገብረሚካኤል",
+      "votes": 11340
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ፉርኖ ግርማ ሙሉታ",
+      "votes": 11256
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ንጉሴ ተሾመ ባህሩ",
+      "votes": 11113
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ቤተማርያም ተሰማ ገብረማርያም",
+      "votes": 11040
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ይስሐቅ በሽር ሽርቃ",
+      "votes": 10927
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ምስጋን ደርበው ሽበሽ",
+      "votes": 10904
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሄኖክ ታደሰ ሽፈራው",
+      "votes": 10803
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ካሳ ፋንታው አየለ",
+      "votes": 10792
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ገበያው ተመቸ ረዱ",
+      "votes": 10770
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ደሳለኝ ገብሬ አሊጋዝ",
+      "votes": 10651
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ቢያድም ተሰማ ሔራሞ",
+      "votes": 10597
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ጌቱ ቦጋለ ተሰማ",
+      "votes": 10558
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ታምራት ቶሩ ቶጋ",
+      "votes": 10438
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ወንድምነው አድማስ መኩሪያው",
+      "votes": 10371
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አንተነህ መንግስት ተሰማ",
+      "votes": 10349
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሰንሰ ወልደሀና ጥላሁን",
+      "votes": 10340
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ደርበው ገላው ደቡሩ",
+      "votes": 10294
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አንተነህ ርዕቱ ላቀዉ",
+      "votes": 10185
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሙሉእመቤት አብርሃም ማሞ",
+      "votes": 10167
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ቀለመወርቅ አበበ ለገሰ",
+      "votes": 10129
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሰላም ሞገስ አሰፋ",
+      "votes": 10110
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ክብረት ኃይሉ ቡሊ",
+      "votes": 10098
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አዲስ መኩሪያ ወንድሙ",
+      "votes": 9748
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ብፅአት ገብረኪዳን ገብረመድህን",
+      "votes": 9727
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አንተነህ ተስፋዬ ዋቢሁን",
+      "votes": 9720
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ታደሰ መላክ ዘነበ",
+      "votes": 9442
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ስይፉ ኪሮስጣ ዱንዳ",
+      "votes": 9253
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ህይወት መለሰ አሰፋ",
+      "votes": 9217
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ጥላሁን ተክስተ ብርሀኑ",
+      "votes": 8641
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አቤል ሙሉ ባንቴ",
+      "votes": 8590
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ረመዳን ክብረት አባተ",
+      "votes": 8573
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "መሰረት ወንድምነው ለገሰ",
+      "votes": 8222
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "መሪማ ይመር አረፋው",
+      "votes": 8070
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ፀጋዬ ሐይሉ አካል",
+      "votes": 7923
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ጥላሁን ሀይለሚካኤል ቡልቻ",
+      "votes": 7906
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሙሉቀን በላይ ሞላ",
+      "votes": 7895
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሀሊማ መሀመድ አህመድ",
+      "votes": 7874
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ብሩክ አወቀ ደጀኔ",
+      "votes": 7846
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሲሳይ ነጋሽ ሐዋሽ",
+      "votes": 7841
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ኢብራሂም አብዱሰላላም ገብሬ",
+      "votes": 7805
+    }
+  ]
+}

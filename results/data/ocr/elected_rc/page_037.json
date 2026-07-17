@@ -1,0 +1,213 @@
+{
+  "pdf": "elected_rc",
+  "page": 37,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ፖል ጆክ ውንዲድ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ኖዊች ዶልክ ሮም"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ዋቸንባ ታንባ ዴፓ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ሬስ ቶል ራንባ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ጎአነር ጆክ ጀኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ፖክ ካዊች ቤቲየን"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ቢይ ሙድ ዊው"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ፖል ቢየል ታርጃት"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ኡጋራ ኡኩኝ ኦፒያው"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "መሀመድ በሽር ቸሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ማክ ኻጣዎ ኡቶዉ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ፒኻማው ቶል ቶክ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ኛንደል ጋትላንባ ዊው"
+    },
+    {
+      "region": "",
+      "constituency": "ላሬ",
+      "candidate": "ጋል ሬክ ሉል"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "አሸኔ አስቲን ቲቶይክ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ትሁት ቶቤል ኮንዴ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "መምሳኤል ጋምፖር ሮቤ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ኤልያስ ገዳሙ ደመነ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "እናታ አቤል ቱብታክ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ካም ይማም ፋሪስ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ሀሰን አኒድሪስ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ብሩክ አማን ማንካር"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ሙሴ ጋጂት ዳሸን"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ትሁትና ቢያም በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ኤልካ አልቆስ ነገሬ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ማቲዮስ ሰኘ ፔፔቴ"
+    },
+    {
+      "region": "",
+      "constituency": "መንገሺ",
+      "candidate": "ታምሩ ጋንኪሎ ለከዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ዱዋች ጋትሉአክ ቢያች"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ሳይመን ሙን ዉል"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ቢያል ቢያች ዋን"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ቦም ዋንባ ጋት"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ጋትዴን ኛቾም ሉዋል"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ኛሞች ጆምስ ዶጥ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ኡቴዮል ማብቴች ዉል"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ኳን ሉክ ጆክ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ዴቪድ ካን ኩን"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ኛንክ ቴም ማካር"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ካሰች ማሞ ወላሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ጆኩው ጋትዌች ዱጥ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ኛረል ኩነን ቦራክ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኩዌይ",
+      "candidate": "ኛቡይ ቱት ቡሞን"
+    }
+  ]
+}

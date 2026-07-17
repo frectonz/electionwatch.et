@@ -1,0 +1,218 @@
+{
+  "pdf": "elected_rc",
+  "page": 6,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ዶሎ ባይ / Doolo Bay",
+      "candidate": "አባስ አሕመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ዶሎ ባይ / Doolo Bay",
+      "candidate": "ሲዶ ኢሳቅ ደይብ"
+    },
+    {
+      "region": "",
+      "constituency": "ዶሎ ባይ / Doolo Bay",
+      "candidate": "መሀመድ ገአሌ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ዶሎ አዶ / Doolo Cado",
+      "candidate": "መሀመድ ሻለ አሳክ"
+    },
+    {
+      "region": "",
+      "constituency": "ዶሎ አዶ / Doolo Cado",
+      "candidate": "አብዱላሂ ዩሱፍ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ዶሎ አዶ / Doolo Cado",
+      "candidate": "አህመድ አሊ ከይናን"
+    },
+    {
+      "region": "",
+      "constituency": "ዶሎ አዶ / Doolo Cado",
+      "candidate": "ፋጡማ አብዱረዛቅ አዶው"
+    },
+    {
+      "region": "",
+      "constituency": "ጎሮ በቀቃሳ / Gooro Baqaaqsa",
+      "candidate": "ሀብሳ አብዲ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎሮ በቀቃሳ / Gooro Baqaaqsa",
+      "candidate": "ሀሊማ መሀመድ ቃሲም"
+    },
+    {
+      "region": "",
+      "constituency": "ጎሮ በቀቃሳ / Gooro Baqaaqsa",
+      "candidate": "ሰይኑብ ሀሰን ሹሪዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ኢሚ / Iimay Bari",
+      "candidate": "ሀዋ ሳሌባን ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ኢሚ / Iimay Bari",
+      "candidate": "ነኢማ አብዱላሂ ራሽድ"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ኢሚ / Iimay Bari",
+      "candidate": "መሀሙድ አብዱላሂ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ምዕራብ ኢሚ / Limay Galbeed",
+      "candidate": "አሊ አብድ ዳለማር"
+    },
+    {
+      "region": "",
+      "constituency": "ምዕራብ ኢሚ / Limay Galbeed",
+      "candidate": "ሹክሪ ካሊፍ ሙሁመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ምዕራብ ኢሚ / Limay Galbeed",
+      "candidate": "መሀመድናጂ መሀመድ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "አህመድ ሹክሪ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "ኢፍራህ መሀመድ ኢማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "ሻፊ አህመድ መአሊን"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "ዩሩብ ሙሁመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "ነቢሪ አህመድ ጃማ"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "መሀመድ አደም ማሂር"
+    },
+    {
+      "region": "",
+      "constituency": "ጅግጂጋ ከተማ / Magaalada Jigjiga",
+      "candidate": "አብዲሀኪም ሀሰን አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
+      "candidate": "ሙስጠፌ ሙሁመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
+      "candidate": "መሀመድ መሀሙድ ሱጉሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
+      "candidate": "መሀመድ ሸሪፍ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
+      "candidate": "አምረን መሀመድ ሙሁመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋህቡር ከተማ / Magaalada Dhagaxbuur",
+      "candidate": "ሙሀመድ በደሪ አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ ከተማ / Magaalada Goday",
+      "candidate": "አሕመድ ሚራድ ለይሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ ከተማ / Magaalada Goday",
+      "candidate": "አብድ ኢብራሂም ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ ከተማ / Magaalada Goday",
+      "candidate": "መሀመድ ቢደል አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ ከተማ / Magaalada Goday",
+      "candidate": "አያን ሸሪፍ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ ከተማ / Magaalada Goday",
+      "candidate": "አብዲ ኑር ሙሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙዩ ሙሉቄ / Mayo Muluqe",
+      "candidate": "አብዲ አደን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙዩ ሙሉቄ / Mayo Muluqe",
+      "candidate": "ፈርደውሳ መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሙዩ ሙሉቄ / Mayo Muluqe",
+      "candidate": "አያን አብዱላሂ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "ኒምአ አህመድ ዌሊር"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "ሙባሺር ዲቢድ ራጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "ኒምአን ኢብራሂን አረብ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "ሰአዳ ኢብራሂም ሂርሲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "አህመድ አሊ ነጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "አብዱረህማን ኢድ ማሂር"
+    }
+  ]
+}

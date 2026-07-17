@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 17,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "መቄት 2",
+      "candidate": "መካሺ አያሌው አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "መቄት 2",
+      "candidate": "መቅደስ ተከታይ አሰናቀ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳይንት 2",
+      "candidate": "ይታጠቁ ዉበቱ ምትኩ"
+    },
+    {
+      "region": "",
+      "constituency": "ስማዳ 2",
+      "candidate": "አስራት ዓፀዳወይን አንዳርጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ስማዳ 2",
+      "candidate": "መሰረት በላይ ወንድወሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሉ 2",
+      "candidate": "ሙህዲን አህመድ ሰኢድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሉ 2",
+      "candidate": "መሀመድ ኑር አብዱ"
+    },
+    {
+      "region": "",
+      "constituency": "ተሁለደሬ 2",
+      "candidate": "መሀመድ አሊ ሙሄ"
+    },
+    {
+      "region": "",
+      "constituency": "ተሁለደሬ 2",
+      "candidate": "አሰለፍ ፀጋው አወል"
+    },
+    {
+      "region": "",
+      "constituency": "እስቴ 2",
+      "candidate": "ደስታ አስራቴ ካሴ"
+    },
+    {
+      "region": "",
+      "constituency": "እስቴ 2",
+      "candidate": "ገቢያ ተስፋ ደሴ"
+    },
+    {
+      "region": "",
+      "constituency": "እብናት 2",
+      "candidate": "ሲሳይ ዳምጤ አበበዬ"
+    },
+    {
+      "region": "",
+      "constituency": "እብናት 2",
+      "candidate": "ባንቻየሁ ይግዛው አለሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምከም 2",
+      "candidate": "ሀብታምነሽ መልክ ይርዳው"
+    },
+    {
+      "region": "",
+      "constituency": "ከምከም 2",
+      "candidate": "ንብረት ብሩ ታየ"
+    },
+    {
+      "region": "",
+      "constituency": "ወገራ 2",
+      "candidate": "ማረቱ ታረቀኝ ጎሸ"
+    },
+    {
+      "region": "",
+      "constituency": "ወገራ 2",
+      "candidate": "ባንችአለም ስጦታው ተገኘ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢያ 2",
+      "candidate": "ዘውዱ ማለደ በላይ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢያ 2",
+      "candidate": "አሰናቁ ደረሰ ላየሁ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና 2",
+      "candidate": "አሊ መኮነን አስፋው"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ሰርኬ አለሙ አስፋው"
+    },
+    {
+      "region": "",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ሠርካለም ሊጋባው ደምሰው"
+    },
+    {
+      "region": "",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ሰላምን እያየ ገድሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 2",
+      "candidate": "አወቀ ዘመነ ጎሹ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 2",
+      "candidate": "ሰናይት ተገኝ መንግስቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ፎገራ 2",
+      "candidate": "መደፈሪያሽ ኃይለየሱስ ተፈራ"
+    },
+    {
+      "region": "",
+      "constituency": "ፎገራ 2",
+      "candidate": "ያምላክ አርቅ አስፋው"
+    },
+    {
+      "region": "",
+      "constituency": "እስቴ 3",
+      "candidate": "ካሳ አበበው ወንድማገኝ"
+    },
+    {
+      "region": "",
+      "constituency": "እስቴ 3",
+      "candidate": "ሳቢላ ፍቃድ ፈንቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 3",
+      "candidate": "ደሴ መኮነን ደመወዝ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 3",
+      "candidate": "ሶፎንያስ ባየ አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ሞሚና ዴታ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ዩሱፍ ሀሰን ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ጎዳና አህዶ ዳታ"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ፋጡማ መሀመድ ያሲን"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ቃሲም አቢቶ ሙካ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ወልአ አይቲሌ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "አዶ ሀሰን መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ኒና ሙሳ አብዱ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ጎልቤ ሲሌ ጎልቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ፋጡማ መሀመድ ሀጂ"
+    },
+    {
+      "region": "",
+      "constituency": "አርጎባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "አሊ ዘይኑ አብዱሰመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አርጎባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "መርየም መሀመድአሚን ሲራጅ"
+    },
+    {
+      "region": "",
+      "constituency": "አርጎባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ሲሊሀት አህመድ ሁሴን"
+    }
+  ]
+}

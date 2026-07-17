@@ -1,0 +1,118 @@
+{
+  "pdf": "elected_hopr",
+  "page": 9,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ወናጎ 3",
+      "candidate": "ታደሰ ወራሳ ጎዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሰካ/ባስኬቶ መደበኛ",
+      "candidate": "ካሳሁን ደለነ ደያሳ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማሻ",
+      "candidate": "አዝመራ እንድሞ ከሎ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ቴፒ",
+      "candidate": "ተስፋዬ እንዳሻው መኩርያ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ዋቻ",
+      "candidate": "አስቴር ወልደሚካኤል ጋዎ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ሄለን ደበበ ወልደጊዮርጊስ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተፈራ ጀበሮ አባሮ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ማቲዮስ ያዙ ሎኛ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሚዛን ተፈሪ",
+      "candidate": "ወሰነት ቶማስ ያሹ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማሬቃ ጌና",
+      "candidate": "ገነት መኩሪያ ገብረማሪያም"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ማጀት መደበኛ",
+      "candidate": "ብርሃኑ ሚስል ጳሳጋላ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሱርማ ልዩ",
+      "candidate": "ሜሪ ገርሲ ፈጠነ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሸኮ ልዩ",
+      "candidate": "አገኘሁ ወርቁ ቦሪያብ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሼይ ቤንች",
+      "candidate": "ተፈፈ ታደሰ ጎዲ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ቢጣ ጌሻ",
+      "candidate": "ሰለሞን አየለ አምቢ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ናኦ ልዩ",
+      "candidate": "ነገሰ ግዛው የቦ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "አዲያ ካካ",
+      "candidate": "ታከለ ታምሩ ዉዶ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኢስራ ቶጫ",
+      "candidate": "የማታለም ቸኮል ጎሳሎ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ኢያሱ ሳላ ጋንጃላ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ዲዚ ልዩ",
+      "candidate": "እሸቱ ገብረማርያም ጎል"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭሬ መደበኛ",
+      "candidate": "አሸብር ወልደጊዮርጊስ ጋዮ"
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "አስካለ ገብረሚካኤል ገብረፃዲቅ"
+    }
+  ]
+}

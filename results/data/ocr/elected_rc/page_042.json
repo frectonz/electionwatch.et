@@ -1,0 +1,213 @@
+{
+  "pdf": "elected_rc",
+  "page": 42,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጋልዋክ ሮን ጃል"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሉል ቦል ኩዌት"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ወል ቦል ሪክ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሯች ባየክ ጃኖን"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሮት ጆዮች ቱት"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "አስሬ ኤፍሬም በዳሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡመድ አስፋ አከኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሪያል ጂንጋ ፖል"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኪዊች ዊው አባቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኝጉዎ ጋላ ኝጉዎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡጁሉ ኡዶል ኡጋላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ታቢታ አርዮሚ ኢሞድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ገብረመስቀል አስፋ ኪዳነማሪያም"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሊድያ ተስፋዬ አሪሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ገዛኸኝ ገብረሚካኤል ፎንቃሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "መቅደስ ጀሞበሩ እምሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "አምቢሣ ያይታ አንቾ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ደስታ አለማየሁ ልግዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ስራጅ በንቲ ብራቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "መሠረት ኤርሚያስ ዲላሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ታምራት አበበ ደበላ"
+    },
+    {
+      "region": "",
+      "constituency": "ላንፋሮ",
+      "candidate": "መዘረዲን ሁሴን ሙክታር"
+    },
+    {
+      "region": "",
+      "constituency": "ላንፋሮ",
+      "candidate": "ሸረፉ ሌንሦ ዲባቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ላንፋሮ",
+      "candidate": "ደማ ዲልሰቦ ገኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ላንፋሮ",
+      "candidate": "ኡስማን ሱሩር ሲራጅ"
+    },
+    {
+      "region": "",
+      "constituency": "ላንፋሮ",
+      "candidate": "ሳፊ አህመድ ረዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ",
+      "candidate": "አንዳሻው ጣሰው ገብረጊዮርጊስ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ",
+      "candidate": "ጀማሉ ጀንበር በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ",
+      "candidate": "አማረች ሚደቅሳ በዳዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ",
+      "candidate": "ሙሉቀን አማረ አድነው"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ",
+      "candidate": "እሹቱ ኃይሌ ደስታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ግርማ ጌታዋ ዋርሲዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ባየሽ ተስፋዬ አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ምህረት ዮሴፍ ድብሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አበበ አበሞ ሚልኬሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃጫቢራ",
+      "candidate": "እሸቱ ተከተል ባቄኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅበት",
+      "candidate": "ሙፈሪያት ካሚል አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅበት",
+      "candidate": "ጀማል ረዲ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅበት",
+      "candidate": "አብዱልፈታ የሱፍ ያሲን"
+    },
+    {
+      "region": "",
+      "constituency": "ቅበት",
+      "candidate": "ለይላ መሀመድ ኢሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅበት",
+      "candidate": "ሳሊያ ሀሰን አብደላ"
+    }
+  ]
+}

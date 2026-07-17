@@ -1,0 +1,218 @@
+{
+  "pdf": "elected_rc",
+  "page": 50,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ፓዊ",
+      "candidate": "ይርጋ አሰፋ ሰጠኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ፓዊ",
+      "candidate": "አበበ እንድሪስ ግዛው"
+    },
+    {
+      "region": "",
+      "constituency": "ፓዊ",
+      "candidate": "የሸመቤት ማንደፍሮ ተሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ፓዊ",
+      "candidate": "አብረሐም ሎዳሞ ወቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ፓዊ",
+      "candidate": "ወጤ አናጋው መኮነን"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ኢሳቅ አብድልቃድር ሌንጮ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ከማል አድሪስ ዋክኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሚስኪያ አብደላ ሶሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ዚያድ አብዱላሂ ዓለሚን"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ራመዳን ሀሩን ካያ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሱዲያ እስማኤል መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "አጠይብ አወድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ማይከል ግደማርያም ናስር"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "መሀመድ ሀብቴ ናስር"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ኢብራሂም ፍሌል ዝባ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ዱሌ ሀሰን ሰድቅ"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሩቅያ መሀመድከሮም ኡሱማን"
+    },
+    {
+      "region": "",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "አርዶና ሳሊያ ጽያባ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ሊዲያ ግርማ ወንድሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ሃቢባ ሱራጅ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ጥላሁን ወርቁ ሮቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "አለማፀሀይ ጳውሎስ አትሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ልእልት ግደይ ረዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ሁሪያ አሊ ማህዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ፊትለወርቅ ሀይሉ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "አብዱልቃድር መሀመድ ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ኤደን ታደሰ ገመዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "ንፁህ አየለ አሰፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "አታለለች በሀይሉ በየነ"
+    },
+    {
+      "region": "",
+      "constituency": "ልደታ",
+      "candidate": "መሰረት ሸዋረጋ ከማል"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ምስክር ነጋሽ ቢተው"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ዳግማዊት ግርማ ታምራት"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ምስክር አግዘው ኤፍሬታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ኤልሳ ነጋሽ ገሜሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ይመር ከበደ ይማም"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ራሄል ዘወንጌል ሀብተጽዮን"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "መሪማ ደሊል ሻሊል"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "መለሰ አባተ አጥናፉ"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "አይድርኮስ ኮሬ ባዳኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ኢያሱ ኬልያስ ፋንታሁን"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ቤዛዊት ግርማ ወንድሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ቂርቆስ",
+      "candidate": "ጽዮን ደረጀ ኃይሌ"
+    }
+  ]
+}

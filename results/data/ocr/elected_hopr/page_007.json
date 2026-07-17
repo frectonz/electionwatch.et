@@ -1,0 +1,273 @@
+{
+  "pdf": "elected_hopr",
+  "page": 7,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ዝክር አብዱልወሀብ ኮርሴራ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ላሜ ጋሩማ ቸገን"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "ነጅቢያ ማህሙድ አህመድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሙዓዝ በድሩ ሁሴን"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "አበባ ሳዲቅ ቡሴር"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫ ቢራ",
+      "candidate": "ማርታ ሉዊጂ አንተነህ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አሊቾ ወሬሮ",
+      "candidate": "መሀመድ ሸኩር ሙሳ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እዘርነት በርበሬ",
+      "candidate": "ብሩክ ኬድር መሀመድ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "የም ልዩ",
+      "candidate": "ተክሌ ዲዱ ሙራሰ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 1",
+      "candidate": "አባስ ሀሰን የሱፍ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 1",
+      "candidate": "መንደሬ ጌታሁን አያሴ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አነሞርና አነር 1",
+      "candidate": "አርሰቱ ይርዳ ወሎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "መለሰ ጡሚሶ አሸሞ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "ብሩክ ላምቢሶ ሞሢሾ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አነሞርና አነር 2",
+      "candidate": "ደግፍ ተመስገን ሽኩሮ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 01",
+      "candidate": "በላቸው አንሺሶ ኬንቤጫ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቃ 01",
+      "candidate": "አብርሃም ዓለማየሁ ለበና"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ደገሰ ኤርገና ዶኔ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቃ 02",
+      "candidate": "ነቢያት ጥላሁን ጫዕሚሶ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "በረከት ማርቆስ ደሪሎ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 1",
+      "candidate": "ሰዉዳ ሃምዲኖ ያሲን"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ሀብቴ ፈታሞ አርፍጮ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አዣ 1",
+      "candidate": "መኩሪያ ኃይሌ ተክለማርያም"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንታብ 1",
+      "candidate": "ጥላሁን ኤርፋኖ ሀንቄቦ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 1",
+      "candidate": "ሽሰማ ገብረስላሴ ወራንጋ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 2",
+      "candidate": "ነጃት ግርማ ዋቅጅራ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ጌታሁን ታገሠ ኑራሞ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አዣ 2",
+      "candidate": "መሠረት አመርጋ መኩሪያ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንታብ 2",
+      "candidate": "ዜና ማርቆስ ታደሰ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 2",
+      "candidate": "ሲቲ ርጅዋን ብዛ"
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንታብ 3",
+      "candidate": "ሙሉነሽ ላሞሬ ኡሼ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "ባይታ ባውዲ ዘንጌ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አልዲያህ ሀመድአሊ አህመድ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ነፊሳ አልማህዲ አልአትብ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "መኮንን ጎሳየ ባጅትስ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ዳንጉር",
+      "candidate": "ፀዳለ አበራ ነጋሪ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሺናሻ ልዩ",
+      "candidate": "ፍሬህይወት አበበ ገበና"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆሣ",
+      "candidate": "ሙሳ አህመድ ባበከር"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "መናሂል አምዲን አንደርስ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ረሚታል መሳሳ ቶላ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ጌዲዮን ጢሞቴዎስ ሄሴቦን"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ሰላማዊት ዳዊት ካማሴ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "አበባ ገመቹ ሌንጮ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "መቅደስ ዳባ ፈይሳ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "ደስዬ ቃቢታ ሁርሳ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "አይሻ መሀመድ አደን"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "እናትዓለም መለሰ ሚደቅሳ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "ኢዮብ መሳፍንት ኃይለማሪያም"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ሰላማዊት ካሳ ወዳጄነህ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ዳንኤል ክብረት ብርሃኔ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 20",
+      "candidate": "ወርቁ ጋቸና ነገሬ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 21 እና 22",
+      "candidate": "አክሊሉ ታደሰ ገብሬ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 23",
+      "candidate": "ንጋቱ ወልዴ አሰፋው"
+    }
+  ]
+}

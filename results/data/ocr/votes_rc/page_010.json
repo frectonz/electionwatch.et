@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 10,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ጡሩነሽ ማጋኔ ሻሮ",
+      "votes": 663
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በላይቸው በንሳ ግከሶ",
+      "votes": 612
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አሰፋ ቃረሶ ኑአ",
+      "votes": 584
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ታደሌ ኑኮ ማጃ",
+      "votes": 539
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ማርሚሬ ማሞ ካልፎ",
+      "votes": 337
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሽፈራው ቶማስ ዱሞ",
+      "votes": 328
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተስፋየ ሕሳዮ ባልቻ",
+      "votes": 314
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተካለኝ ተሾመ ቱና",
+      "votes": 311
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ፀጋዬ ቶና ሴሴ",
+      "votes": 302
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አበበ ድዳሞ ሰማኖ",
+      "votes": 299
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ግምቦ ስሎ ድጋሳ",
+      "votes": 299
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በቀለ ጋብሶ ጤሻ",
+      "votes": 293
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "እሹቱ እሸኔ ዳሳ",
+      "votes": 290
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "መሰለ ማንሳ ዩና",
+      "votes": 290
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አሸናፍ አምደሚካኤል ኪአሞ",
+      "votes": 279
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አበበ እታሮ ባሴ",
+      "votes": 279
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "እጅጉ ሆጮቃ ጎበሮ",
+      "votes": 275
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ኃይሌ ሐሜሶ ዲካሴ",
+      "votes": 267
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ግርማ ግዛው ማሞ",
+      "votes": 264
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አየለ ባደሳ ቅጤሳ",
+      "votes": 262
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ጩሉቃ ቡኔ ዱዶ",
+      "votes": 260
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ታገሰ ቡሹራ ሁሩሞ",
+      "votes": 258
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ታምሬ ሎጌሶ ዶዶሞ",
+      "votes": 253
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ታምሩ ሙንጣሻ ሙዴ",
+      "votes": 252
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሰገሰ ርብሶ ርቄ",
+      "votes": 248
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ኢያሱ በቀለ ጎባሮ",
+      "votes": 247
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አእምሮ ወናጎ ወትቻ",
+      "votes": 236
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሲታሞ ቦታ ጃጎ",
+      "votes": 223
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ታርኩ ርባቶ ርቅዋ",
+      "votes": 220
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደሳለኝ ተሰማ ሙርሙሮ",
+      "votes": 218
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በየነ ባብሶ ወትራ",
+      "votes": 214
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዳንኤል ዳላየ ዳንጉራ",
+      "votes": 213
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደግፌ ደበሳ ቱላ",
+      "votes": 204
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተክሉ ተስፋዬ ቦሮዳ",
+      "votes": 173
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አብርሃም ጋጣ ጋቻኖ",
+      "votes": 167
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በላቸው ጋብሶ ጋልጋሎ",
+      "votes": 153
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አብድ ሌራጅ ከድር",
+      "votes": 149
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሀብታሙ ሀመሶ ሀጥያ",
+      "votes": 135
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ብሩ ሮራቶ ያኬ",
+      "votes": 134
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በላሞ በቀለ ማሬጮ",
+      "votes": 118
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አለሙ አሙካ ማታ",
+      "votes": 112
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ብሩክ ሹሬ ዳቃሞ",
+      "votes": 110
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አርጋዬ ደምሴ አበበ",
+      "votes": 109
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሰማኝ ሳራቦ ዬሞ",
+      "votes": 99
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዳንኤል ዳቃሞ በዛሬ",
+      "votes": 92
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደረሰ ፍሰሃ ያኬ",
+      "votes": 88
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ምትኩ ከበደ በዳሳ",
+      "votes": 84
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አያሌው አሸናፍ አሰፋ",
+      "votes": 82
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ብርሃነሽ ዋሳ ካዬሶ",
+      "votes": 81
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሰገሠ ዲማ ጋልጋሎ",
+      "votes": 79
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተሾመ ርቅዋ ጉበሌ",
+      "votes": 65
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተስፋዬ ታደሰ ቃዋቶ",
+      "votes": 62
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "መልካሙ ማትዎስ አራዶ",
+      "votes": 44
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ገነት ይጥና ጋብሶ",
+      "votes": 32
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተስፋዬ ዋሳ ካየሶ",
+      "votes": 28
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዝናሽ ዞናው ሱሪባሞ",
+      "votes": 21
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አምረች በቀለ ላሊሞ",
+      "votes": 66467
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አዳነች ቃሞሶ ጋልዲዳ",
+      "votes": 65640
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አዲሱ ሙጫ ሻላማ",
+      "votes": 65569
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ወይንሸት መንገሻ ሲንታሌ",
+      "votes": 65280
+    }
+  ]
+}

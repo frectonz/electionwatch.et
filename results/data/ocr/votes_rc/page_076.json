@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 76,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ",
+      "candidate": "ኮንማ ቢል ሉክ",
+      "votes": 264
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አብርሃም ማይከል ሸሽፍ",
+      "votes": 5468
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ፍቅሬ ተፈራ ፈዴ",
+      "votes": 5317
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አቤል አሰፋ ዙጊ",
+      "votes": 5266
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ዮናስ ተኩምሳ ኩም",
+      "votes": 5174
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ምንያምር ብርሃኑ ተካልኝ",
+      "votes": 4912
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "በልባ ይሁዳ ሶርሱ",
+      "votes": 4839
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ቤቴል ዳዊት አድማሱ",
+      "votes": 4832
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ትሁት ሃዋሪያት ሪተ",
+      "votes": 4753
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ዳግም ምላሽን ምሾክ",
+      "votes": 4562
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ቶማስ የማሎ ሲጋምይ",
+      "votes": 4548
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አስቴር ኖህ ዶሮፒያ",
+      "votes": 4485
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ኤትሰን ጀመኮይ ቢረጋ",
+      "votes": 4300
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ይስሐቅ አብርሃም ቦልታ",
+      "votes": 4260
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ዮናስ አበበ ተሰን",
+      "votes": 4126
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ክፍያለው ታዬ አዳሞ",
+      "votes": 4077
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ኢታገኝ ጫኔ ታደሰ",
+      "votes": 4040
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ጀማል አብራሂም አሊ",
+      "votes": 4032
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ንግስት ገብረስላሴ ባሻይ",
+      "votes": 3688
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ብርሃኔ አየለ ሮባ",
+      "votes": 2777
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ካሳሁን ካኪሎ መኖ",
+      "votes": 2765
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አስረስ አየለ ገብረሚካኤል",
+      "votes": 2763
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ወርቅነሽ አንገሎ አካኮ",
+      "votes": 2739
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ታምሩ አምቦሎ ገራቶ",
+      "votes": 2710
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አፈወርቅ አባተ ገልቶ",
+      "votes": 2463
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ከተማ ዱባለ ጨኖ",
+      "votes": 2453
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "መንግስቱ ቲጂ ዎጋ",
+      "votes": 2368
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አሸናፊ ከበደ ረጋሳ",
+      "votes": 2113
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ሰለሞን ሽበየሁ ሻውኖ",
+      "votes": 1984
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ሉቃስ መኮንን ኩምሳ",
+      "votes": 1926
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "መሰለ ሰልፋን አንሎ",
+      "votes": 1892
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "አብዲሳ አዲሱ አጋጅ",
+      "votes": 1884
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ዘላለም ብርሃኑ ሸነኖ",
+      "votes": 1884
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ሳምሶን እስማኤል መርየን",
+      "votes": 1878
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ጳውሎስ ጀቢ ደወያ",
+      "votes": 1765
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ያኬት ታንኬት ሮፒ",
+      "votes": 1765
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ፋሪስ የዊጃ ካይበብ",
+      "votes": 1672
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ጴጥሮስ ዋሪካን ኤሌሌ",
+      "votes": 1460
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ዋጅኔ ታሮ የርከ",
+      "votes": 1447
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ቢኒያም አለማየሁ ዘውዴ",
+      "votes": 1407
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ሮቤል አለማየሁ ሀይሌ",
+      "votes": 1229
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎደሬ",
+      "candidate": "ማርቆስ ሻሞር በልዴን",
+      "votes": 1193
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "አለሚቱ ኡሞድ ኡጁሉ",
+      "votes": 6431
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ፖል ዴቢዲ ኡዱላ",
+      "votes": 5340
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ኡሞድ አኙዋሃ ኡካኝ",
+      "votes": 5181
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ኡኮክ ኡሞድ አኳይ",
+      "votes": 5126
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ማክባዲ ኡቻን ኦፒው",
+      "votes": 5034
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ኡጁሉ ኡጁሉ አብጋን",
+      "votes": 5022
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "አጁሉ አብይ ኡሱራ",
+      "votes": 4789
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ቻም ኦቻር ኡጁሉ",
+      "votes": 4613
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጎግ",
+      "candidate": "ፔን ኡጁሉ ኡትዋል",
+      "votes": 4458
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጋልዋክ ሮን ጃል",
+      "votes": 16498
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሉል ባል ኩዌት",
+      "votes": 11742
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ወል ባል ሪክ",
+      "votes": 11456
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሯች ባየክ ጃኛማ",
+      "votes": 11312
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሮት ጆሮት ቱት",
+      "votes": 10601
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "አስሬ ኤፍሬም ባዳሣ",
+      "votes": 9300
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡመድ አሰፋ አከኔ",
+      "votes": 9121
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሪያል ጂንግ ፖል",
+      "votes": 8852
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኪዊች ዋው አባቦ",
+      "votes": 8692
+    }
+  ]
+}

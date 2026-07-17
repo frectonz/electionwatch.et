@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 3,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ኃይሉ ሐማሮ ባላንጎ",
+      "votes": 260
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ተዋበች ኖና ሉቴ",
+      "votes": 240
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ክብሩ አልቦ አዱሌ",
+      "votes": 212
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "አድሱ ድንቃ ሁሶ",
+      "votes": 158
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ስንታየሁ ደመቀ በላይ",
+      "votes": 152
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሳሙኤል ቤላሞ ባዳ",
+      "votes": 152
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "በረከት ዮሐንስ የማሞ",
+      "votes": 137
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መንግሻ ኃይሌ ኮንታሞ",
+      "votes": 135
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "አርጋው ሙቄራ ሀንፋቶ",
+      "votes": 114
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሙሉነሽ አሰፋ ፀጋዬ",
+      "votes": 114
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሀይሌ ሙኤ ድማ",
+      "votes": 113
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ታመነ መራሳ አድቆ",
+      "votes": 109
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "አባይነህ ዮማ አዳሞ",
+      "votes": 108
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ስማቸው ገነነ ሀሜሶ",
+      "votes": 104
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መስፍን ታደሠ ድንቄሳ",
+      "votes": 101
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሀይሉ ሀምጦ ዳኮ",
+      "votes": 84
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "በሪሁን ኢሳያስ ዩኢቻ",
+      "votes": 77
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ኢሳያስ ዳኒሶ ደበሳ",
+      "votes": 66
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ተስፋዬ ቡርቃ ቡሎ",
+      "votes": 61
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ትዕግስት ዳንጌሶ ደበላ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ቻይና ፈለቀ አምብሬ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ወርቁ ብርሃኑ ካሳ",
+      "votes": 55
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "አስቴር ሪቢሶ ይካሞ",
+      "votes": 54
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ቸርነት ወርቁ ሀላሞ",
+      "votes": 54
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ተስፋዬ ሻላሞ ፍቼ",
+      "votes": 53
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሲንዱ ሲሳይ ማርያም",
+      "votes": 53
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ደግፌ ዳዋና ደበቆ",
+      "votes": 52
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መሰለ ሙቄራ በዶዮ",
+      "votes": 52
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ፍፁም ሽታዬ ጋንሱሎ",
+      "votes": 52
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሀብታሙ መኮንን ሲልሳሞ",
+      "votes": 51
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "አስራት ሀማሮ ሀመሶ",
+      "votes": 49
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መሰረት መኮንን ሲርሳሞ",
+      "votes": 49
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ተሻለ ተስፋዬ ጎንሳሞ",
+      "votes": 48
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ዘሪሁን ብርሀኑ ጎንሳሞ",
+      "votes": 44
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ምርትነሽ በቀለ ፎጦቃ",
+      "votes": 42
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ታዬ ታማኖ ታፊሰ",
+      "votes": 32
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ልሣነወርቅ በላይነህ ቱሌ",
+      "votes": 29
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ፍቃዱ ታምሬ ወልደጊዮርጊስ",
+      "votes": 28
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሊሊ ፀጋዬ ጫሌ",
+      "votes": 27
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ዘርፉ ገብሬመድህን ሞንጎሬ",
+      "votes": 25
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መንግስተአብ በላይነህ ቱሌ",
+      "votes": 25
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ቤተልሄም አደሙ ሺበሺ",
+      "votes": 24
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ይስሐቅ ሞንጌ ኪሚሮ",
+      "votes": 23
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መሰፍንጣ ጣሞ ጣኔ",
+      "votes": 21
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ነቢቡ ጥላሁን ሄሊሶ",
+      "votes": 19
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ወርቅነህ ፍላቴ ዳንሳሞ",
+      "votes": 54922
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "በቀለ ሞጦቃ ማኮሶ",
+      "votes": 54126
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አንበሴ አበበ ጋርሴ",
+      "votes": 53900
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ትሸጋገር ግርማ ፈቃደ",
+      "votes": 53786
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ወይንሸት ድንጋሞ ዳዳዬ",
+      "votes": 53640
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ጠጅቱ ሮማ ሐላማ",
+      "votes": 53557
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሚሊዮን ዮሳ ሳምቤ",
+      "votes": 53524
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ብዙነሽ ሀሪሶ ቃንቄ",
+      "votes": 53520
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አበበው ያዕቆብ አታራ",
+      "votes": 53498
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "የትናየት አሹቴ መለሰ",
+      "votes": 2795
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አበራሽ አበበ አዳሞ",
+      "votes": 2657
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ቱኩሌ ብርሃኑ ፉቴ",
+      "votes": 2642
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሀሪሶ ወንጌቶ አሳካ",
+      "votes": 2626
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አበበ መኬሎ ወላሞ",
+      "votes": 2606
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ተስፋዬ ቆሮ ዋጋ",
+      "votes": 2604
+    }
+  ]
+}

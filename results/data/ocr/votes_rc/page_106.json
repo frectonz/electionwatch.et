@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 106,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "እመቤት አድላ አገቦ",
+      "votes": 2245
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "በላይነሽ ሞላ አሰሌ",
+      "votes": 2175
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ብርሀኑ ዋዳ ዋቻሞ",
+      "votes": 1957
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መሰለ መምህሩ መርፃ",
+      "votes": 1939
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዘመርኩ ጌታ አንጁሎ",
+      "votes": 1939
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ጎሰንታ መንግስቴ ታ",
+      "votes": 1897
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዳዊት ሴታ አላሮ",
+      "votes": 1867
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ምህረት ተስፋዬ ሌባ",
+      "votes": 1817
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "መስፍን መንዛ ማሞ",
+      "votes": 72475
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ዳንኤል ደሳለኝ ዳኮ",
+      "votes": 72446
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ኩሪባቸው ታንቱ ሳባ",
+      "votes": 72295
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ቱማ አየለ ያዳ",
+      "votes": 70964
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ወርቅነሽ ሎማና አየለ",
+      "votes": 9616
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ሀብታሙ ኃይለጊዮርጊስ አይዛ",
+      "votes": 2366
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ባንደራ በላቸው ግርማሼ",
+      "votes": 2001
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ጌድዎን ጌታቸው አንዳቦ",
+      "votes": 1940
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ሻምበል ሽዋ ሻመና",
+      "votes": 1867
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ደመቀች ስም ደግሰው",
+      "votes": 1835
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ሕዝቅኤል ሞላ ጋማዳ",
+      "votes": 331
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "መሠለ ማሞ ማንዳ",
+      "votes": 303
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ምኑኩ አይቻ አሎባ",
+      "votes": 292
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አማኑኤል ማሞ ደሌ",
+      "votes": 241
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አይናለም አለማየሁ መርዕድ",
+      "votes": 230
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ኤልሳበጥ ጋንታ ማይዛ",
+      "votes": 194
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ብርሃኑ ጋዴቦ ከንፌ",
+      "votes": 171
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ግብሬ ብሩክ ካሳሌ",
+      "votes": 170
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አሮን ሣጌ ሣላቶ",
+      "votes": 138
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አበሻ ኮይሻ ኮይራ",
+      "votes": 137
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አለማየሁ ፋንታ አለሆ",
+      "votes": 89
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ክብሬፀዳል አበራ ቦጄ",
+      "votes": 82
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ካፒታል ካሣሁን ካልቤ",
+      "votes": 69
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ከበደ ካንዶ ካስኬ",
+      "votes": 48
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "አድስአለም ገብና ሀርባዬ",
+      "votes": 26993
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "አሰናቀች ሐሌቻዬ በደቻ",
+      "votes": 26837
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ክፋያለች ዋቀዬሁ ቦራ",
+      "votes": 26471
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "አብርሃም መኩሪያ ቆንቢ",
+      "votes": 25808
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ገመቹ ጃርሶ ሕርባዬ",
+      "votes": 6135
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ታሪኩ በቀለ ደንቢ",
+      "votes": 6042
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ፀሐይነሽ ለማ ባሊ",
+      "votes": 6024
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ዮሴፍ መንገሻ ደያሶ",
+      "votes": 5862
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ብርቅነሽ ዳንኤል ወልደማርያም",
+      "votes": 1834
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ታምራት ተሰማ በራሶ",
+      "votes": 1597
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ዘርሁን ዘለቀ ጀቦ",
+      "votes": 1577
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ተስፋዬ ኃይሉ ጨበሶ",
+      "votes": 1501
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ሠለሞን ደበበ ሰበቃ",
+      "votes": 1413
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ሰለሞን ጅማ ሐሶ",
+      "votes": 1008
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ብርሃኑ እሼ ሀያሶ",
+      "votes": 967
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ይታገስ ከዳኔ ወልደፃድቅ",
+      "votes": 777
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ደሳለኝ ግርማ አርባ",
+      "votes": 659
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "መሠረት ሠለሞን ሀብተማርያም",
+      "votes": 624
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ተሾመ ደዬ ዌሴ",
+      "votes": 593
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ሰለሞን ኤዲሳ ግለቹ",
+      "votes": 590
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ዳዊት በቀለ በራቆ",
+      "votes": 554
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ጥግነህ እጅጉ አብዲ",
+      "votes": 525
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "አየለ አዳነ አይሌ",
+      "votes": 11281
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ኡራጎ ገበየሁ ኡራጎ",
+      "votes": 9753
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ማሬ አለማየሁ ማሬ",
+      "votes": 9177
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ሀጌ ባሌ ጮታ",
+      "votes": 9011
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ዳንኤል ደስታ አይማሎ",
+      "votes": 818
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ቃለ ሚዳ ፆታ",
+      "votes": 688
+    }
+  ]
+}

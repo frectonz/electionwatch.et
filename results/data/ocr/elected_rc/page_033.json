@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 33,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ቃሊቻ",
+      "candidate": "መሀመድ ሙሂር ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሊቻ",
+      "candidate": "ያሲን መሀመድ ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሊቻ",
+      "candidate": "ፎዚያ መሀመድ አደም"
+    },
+    {
+      "region": "",
+      "constituency": "በለዋ",
+      "candidate": "ሰፎ አህመድ ሙመድ"
+    },
+    {
+      "region": "",
+      "constituency": "በለዋ",
+      "candidate": "መህዲ መሀመድ ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "በለዋ",
+      "candidate": "መህዲ መሀመድ አሊዪ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኪሃሎ",
+      "candidate": "ሐንዲ ረሺድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኪሃሎ",
+      "candidate": "ሳሚያ አብዱላዚዝ መሃመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኪሃሎ",
+      "candidate": "አብዱረህማን ሙሳ አደን"
+    },
+    {
+      "region": "",
+      "constituency": "አሰሊሶ",
+      "candidate": "ከድር አብራሂም ወዳይ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰሊሶ",
+      "candidate": "በድርያ አብራሂም አብዳሾ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰሊሶ",
+      "candidate": "ጫልቱ ሁሴን ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሴ",
+      "candidate": "ሰኒያ ሙስጠፋ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሴ",
+      "candidate": "ሙራድ ሙክታር አሚን"
+    },
+    {
+      "region": "",
+      "constituency": "አዋሴ",
+      "candidate": "ኒብራስ መሀመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "አዳዳ",
+      "candidate": "አብዱሰላም መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "አዳዳ",
+      "candidate": "ፈቲያ ኡመር አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳዳ",
+      "candidate": "ፌኑስ አብዱልጀባር መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢልሀመር",
+      "candidate": "ፈጡማ መሀመድ ዳዌ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢልሀመር",
+      "candidate": "አህመድ ካፋ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ኢጃአነኒ",
+      "candidate": "ጁንዲ አብዱላሂ ወዳይ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢጃአነኒ",
+      "candidate": "አብዶ ሙሡ ዩያ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢጃአነኒ",
+      "candidate": "ባሻ መሀመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ኩላዩ",
+      "candidate": "ሙሳ አሊይ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ኩላዩ",
+      "candidate": "መሀመድ አደም አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩላዩ",
+      "candidate": "ሙህያዲን አብዱረህማን አደም"
+    },
+    {
+      "region": "",
+      "constituency": "ኩርቱ",
+      "candidate": "ኢክራም አህመድከሊል አብዲወሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩርቱ",
+      "candidate": "አብዱልፈታህ መሀመድ ጀማል"
+    },
+    {
+      "region": "",
+      "constituency": "ኩርቱ",
+      "candidate": "ጀማል ኡመር ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ኮሪሶ",
+      "candidate": "አሚኑ ጠሃ አባቦር"
+    },
+    {
+      "region": "",
+      "constituency": "ኮሪሶ",
+      "candidate": "ሀሊማ አብደላ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ኮሪሶ",
+      "candidate": "ቴድሮስ አሰፋው መኩሪያ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋሂል",
+      "candidate": "አብዲ ኑሬ አብደላ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋሂል",
+      "candidate": "ሻርቱ አህመድ ሙሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋሂል",
+      "candidate": "አብደላ በከር ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ደበሌይ",
+      "candidate": "አብድልሰላም አህመድ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ደበሌይ",
+      "candidate": "ሚስኪ ዩሱፍ መሃመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ደበሌይ",
+      "candidate": "ረመዳን መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱጃማ",
+      "candidate": "ሰይፈዲን አብዱረህማን ሳሊህ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱጃማ",
+      "candidate": "በድሪ ጀማል ሳኒ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱጃማ",
+      "candidate": "ሁሴን መሀመድሳኒ ቃሲም"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሎ ቡሳ",
+      "candidate": "አህመድ አብዱረህማን ዳዳቾ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሎ ቡሳ",
+      "candidate": "ሚስኪ አብደላ ሰኢድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀሎ ቡሳ",
+      "candidate": "አብዲ ሙሳ ሙመድ"
+    }
+  ]
+}

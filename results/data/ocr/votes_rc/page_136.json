@@ -1,0 +1,122 @@
+{
+  "pdf": "votes_rc",
+  "page": 136,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ታደሰ ተመስጌን ቆጭቶ",
+      "votes": 171
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "አጥናፉ አትረሴ አዳሬ",
+      "votes": 165
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ታርኩ ወልደጊዮርጊስ የሾ",
+      "votes": 163
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "መሳይ ገበየሁ ገብረስላሴ",
+      "votes": 155
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "አብዮት አለዮ ገብሬ",
+      "votes": 145
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ሀሩት ገብሬ ጊቦ",
+      "votes": 135
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "በረከት ሀይሉ ወልደሚካኤል",
+      "votes": 25
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈለገ ሰላም",
+      "candidate": "ጠይቦ መሀመድ ሀሰን",
+      "votes": 2
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "አስራት አዳሮ ወልደሚካኤል",
+      "votes": 3688
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "ንጉሴ ባዩ ጊንዶ",
+      "votes": 3687
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "እታለም ከበደ ጎበና",
+      "votes": 3682
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "አለማማው አስራት አየለ",
+      "votes": 6
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "መንግስቱ መኩሪያ ጊንዶ",
+      "votes": 6
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "ጀማል ጊቦ አሂሮ",
+      "votes": 3
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "አንድነት አየለ ኡቁሞ",
+      "votes": 1
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "ውድነሽ ታመነ ግዛው",
+      "votes": 1
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "ዘኪሪ ሱልጣን አባዋሪ",
+      "votes": 1
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "መለሰ መኩሪያ አስፋው",
+      "votes": 1
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ ልዩ ናአ",
+      "candidate": "ወንድማገኝ ገብረሚካኤል አባጊዣ",
+      "votes": 0
+    }
+  ]
+}

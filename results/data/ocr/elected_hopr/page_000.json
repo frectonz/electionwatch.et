@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_hopr",
+  "page": 0,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጀጎል ልዩ",
+      "candidate": "ፈትሂ ማህዲ ወዚር"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጀጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ሙፍቲህ አሊዪ አህመድ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መሠለች ካዊሶ ካዬ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሐጅ ካዊሶ ብዙነህ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሻፍና / Shafinaa",
+      "candidate": "መሰረት ማሞ ጋሙሮ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አዳነች ናሹራ ሣማጎ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "በቀለ ፎሌ ሳሬ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "በሌላ / Baleela",
+      "candidate": "ዳካ ሱጋሞ ዬታ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዝናሽ ፀጋዬ ካሎ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በቀለ በላቸው ጉዬ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አለሚቱ አበበ ኢቲሳ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሚሊዮን ማቲዎስ ኮርሲሳ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሰለሞን ላሌ ካሎ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ደምሴ ሰኳሬ ሳኩማ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አያኖ በራሶ ሁላ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፍፁም አሠፋ አዴላ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "እኔሳ መልክ ሄበሮ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሰገሰ ላንቃሞ ፋሬሶ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቦህ ዳኖት / Bookh Danood",
+      "candidate": "ዘምዘም አህመድ ጃማ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ በያህ / Qabri Bayax",
+      "candidate": "አብዲዋስ አብድላህ በዴ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብዲከሪም አቂብ አደም"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራቢ / Arabi",
+      "candidate": "አብዲ አደም ኢጌ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አዋሬ / Awaare",
+      "candidate": "አብዱቃዲር መሀመድ ሹክሪ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "አያን አሊ ሙሳ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "ሀሰን ሸክ ዩሱፍ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህቡር / Dhagax Buur",
+      "candidate": "ሀሰን ሙሁመድ ሙአሊን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህመዶ / Dhagax Madaw",
+      "candidate": "መሀመድ ሼክ ኢብራሂም"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erar",
+      "candidate": "ዛህራ ሰማዲ ጌሌ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "ኢክራም መሀድ አደን"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፊቅ / Fiiq",
+      "candidate": "ፈርዶሳ አህመድ መሐሙድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጋሻሞ / Gaashaamo",
+      "candidate": "ሀሊሞ መሀሙድ አብዲ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ገላዲን / Galadin",
+      "candidate": "አብድላሂ መሀመድ ሙሴ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጎዴ / Goday",
+      "candidate": "ፋይሰል አዶዋ አብዲ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሀርጌሌ / Hargeele",
+      "candidate": "ጉሌድ አህመድ አሊ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጨረቲ / Jarati",
+      "candidate": "አህመድ ሺዴ መሀመድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "ከድራ በሺር መሀሙድ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሽንሌ / Shiniile",
+      "candidate": "አደም ፋራሕ ኢብራሂም"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር / Wardheer",
+      "candidate": "ጀማል በከር አብዱላ"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ 1 / Jigjiga 1",
+      "candidate": "ዩሱፍ ሁሴን አደም"
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጅግጅጋ 2 / Jigjiga 2",
+      "candidate": "ሀሊሞ ሀሰን መሀሙድ"
+    }
+  ]
+}

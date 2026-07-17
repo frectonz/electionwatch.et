@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 79,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "ኸይሩ መሀመድ አላንዶ",
+      "votes": 41428
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "አለማየሁ ሃይሌ ጫሳ",
+      "votes": 1061
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "ዘይዳ ርጋ ታላባን",
+      "votes": 1025
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "ቀመርያ በያን ሙክታር",
+      "votes": 945
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሙራድ ከድር መሀመድ",
+      "votes": 142146
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ዙልፉ አለዊ ነጋሽ",
+      "votes": 140370
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ካሳዬ ተክሌ ሴራ",
+      "votes": 139866
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "መሀመድአሚን በደዊ ነጋሽ",
+      "votes": 139743
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ካሱ ጁሀር ስንክርታ",
+      "votes": 139589
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ማዕረግ ፍቃዱ ናማጋ",
+      "votes": 2725
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ፍቃዱ ጠንክር ኬርጋ",
+      "votes": 2710
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "አንተንህ ኮሬ አጨው",
+      "votes": 2421
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "አንተነህ ተስፋዬ ገብረስላሴ",
+      "votes": 2381
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "አብዱልአዚዝ ሙሰማ ሀሰን",
+      "votes": 2198
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ዳኔል ወልደጊርጊስ ወጋየሁ",
+      "votes": 2117
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሂከማ አብደራህማን አረጋ",
+      "votes": 2069
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ፈድሉ አህመድ በሽር",
+      "votes": 1935
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሳራ ጀማል ሻፊ",
+      "votes": 1209
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሰማን አብደላ አህመድ",
+      "votes": 1040
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "መሀብ ባሪኝ ሻፊ",
+      "votes": 872
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "አህመድ ጀማል ሚረኝ",
+      "votes": 478
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሙክታር መኪ ነጋሽ",
+      "votes": 269
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ነኢማ ሙኒር ከሊል",
+      "votes": 77315
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ፋጤ ስርሞሎ ኡስማን",
+      "votes": 76673
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ከድር አብደላ መሀመድ",
+      "votes": 76659
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ሱልጣን መሀመድ ሀሰን",
+      "votes": 76573
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ኑረዲን ሻፎ ቡሴር",
+      "votes": 5222
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "አበስ ከድር አህመድ",
+      "votes": 3205
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ሙሀዲን አከማል መሀመድ",
+      "votes": 2786
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ሱምታታ ከድር ሄጎኖ",
+      "votes": 2494
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ዲንቃባ ኬዳ ሲራጅ",
+      "votes": 1822
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ያሲን ኑረዲን ኡስማን",
+      "votes": 1757
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ታደሰ ታምሬ ብርሀኔ",
+      "votes": 1693
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ከይሬ ኑሬ ሁሴን",
+      "votes": 1490
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ዳሎቻ",
+      "candidate": "ኮርማ ከሶሮ አህመድ",
+      "votes": 1318
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "አሰለፈች ሃይሌ ሄመዶ",
+      "votes": 43302
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "መኮንን መኔዶ ቆልበሬ",
+      "votes": 43237
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ሀብታሙ በላይነህ ሀይሌ",
+      "votes": 42978
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "መኮንን ወርቄ ደጊሶ",
+      "votes": 42791
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ሰላሙ ሱላሞ አምባሞ",
+      "votes": 42384
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ተድላ አጭቆ አንጀሎ",
+      "votes": 1729
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "አብርሃም ኤርምያስ ቡላ",
+      "votes": 1718
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ደነቀ ድድጎ ሎምቤቦ",
+      "votes": 1701
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "አሞነሰ አኒቶ አዶሬ",
+      "votes": 1664
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ኤርምያስ ደመቀ ዶዮሬ",
+      "votes": 1609
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "መሰለች ሀንቅስቦ ፊልቆሞ",
+      "votes": 1564
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ተከተል ጌናሞ ኤልሴቦ",
+      "votes": 1375
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "አባይነሽ ቦጋለ አሼቦ",
+      "votes": 1083
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ተሻለ ለምቤቦ ቶሪሚሳ",
+      "votes": 735
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ሰንደቦ ታደሰ አብቦ",
+      "votes": 377
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ኤልያስ ደበጭ ቼጌ",
+      "votes": 346
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ማብራቱ ማኬሶ ማንደሮ",
+      "votes": 313
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ድሣለኝ አጋኖ አበሮ",
+      "votes": 308
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "መቅደስ ተስፋዬ ሳሌቶ",
+      "votes": 308
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ተፈራ ኤልዕቦ ኬምዕሶ",
+      "votes": 305
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ሲሳይ ከበደ ማሴቦ",
+      "votes": 288
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ግርማ ዮሴፍ አያቦ",
+      "votes": 273
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ጥላሁን ሙሉጌታ ወንድሙ",
+      "votes": 265
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ጥጋቡ ዓለሙ አርቅሶ",
+      "votes": 251
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጠምባሮ",
+      "candidate": "ታደሰ ዴብሶ አርሽቦ",
+      "votes": 191
+    }
+  ]
+}

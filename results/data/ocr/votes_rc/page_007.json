@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 7,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "መንግሻ ዋቃዮ ሱሩሬ",
+      "votes": 2205
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "መምሩ ሀንካርሶ ሁጃዋ",
+      "votes": 2104
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ዳዊት ዶጋሮ ቦኤ",
+      "votes": 2082
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ተፋራ ፍራሞ ባጌ",
+      "votes": 2082
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሀጥናፉ ላግዴ ጣሮ",
+      "votes": 2072
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ደግነሽ ዳንኤል ዳንሶ",
+      "votes": 1993
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሰገሰ ሳልማ ጋረ",
+      "votes": 1655
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አበበ ሳልማ ጉራቻ",
+      "votes": 1655
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሀና ሀማሞ ሀመሶ",
+      "votes": 1638
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ዘርሁን ተሾመ ሾፎኔ",
+      "votes": 1587
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሻላሞ ሻካኖ ቱኬ",
+      "votes": 947
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "መለሰ ሻውላ ቢንቦ",
+      "votes": 918
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሻቦላ ሻላሞ ሻካኖ",
+      "votes": 902
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ማሹራ ግያ ሹሮ",
+      "votes": 870
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አንድርያስ አንትሌ ዶያሞ",
+      "votes": 758
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አርቅነሽ ታርኩ ቆራሻ",
+      "votes": 728
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ጌቱ ሰገሠ ብሊሶ",
+      "votes": 697
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ደሪሴ በላይነህ ዲሬ",
+      "votes": 690
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ብርሃኑ ኤልያስ ሙኑሰ",
+      "votes": 678
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አበራ አለሙ ወንጀላ",
+      "votes": 649
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ፅጌ ጭራቶ ሀርቦራ",
+      "votes": 648
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "መለሰ ሀርቃ ወራሳ",
+      "votes": 633
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ደምሳ ቦሮጄ ዶባ",
+      "votes": 591
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ስጦታ ጉርቤ ቡራቆ",
+      "votes": 541
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ካሚሶ ካሳ በቼ",
+      "votes": 520
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አብርሃም ባራሳ ዳኮሴ",
+      "votes": 368
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሰገሠ ሱጁራ ማጫ",
+      "votes": 340
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አገኘዉ ጋቲሶ ገመዳ",
+      "votes": 333
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አበራ አብርሃም ዳካ",
+      "votes": 313
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ቡዋ ቡና ቦሮጄ",
+      "votes": 311
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አሸናፍ ዮሐንስ አብርሃም",
+      "votes": 294
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ወርቅነህ ከበደ ዳሳ",
+      "votes": 283
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "መንግስቱ ማንሳ ሌጋሞ",
+      "votes": 279
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አየለ ወግሸ አኖለ",
+      "votes": 277
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አበራ ቃምሶ ደበሳ",
+      "votes": 275
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አገኘሁ አጣሎ ፍሬ",
+      "votes": 229
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ለማ ለዳ ራካቦ",
+      "votes": 214
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ኩዳኔ ክፍሌ ሶሌ",
+      "votes": 154
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አየለ ደበቆ ዮንካ",
+      "votes": 149
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ቦጋለ ቦነ ስዳ",
+      "votes": 71
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ነፃነት አሠፋ አርፋኔ",
+      "votes": 62
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሳንባቶ ቃዋቶ ሆዴ",
+      "votes": 53
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ርባቶ ርቄ ቱኬ",
+      "votes": 45
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ነህምያ ሹማ በዋራ",
+      "votes": 38
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "መስፍን በላይ ቶጋ",
+      "votes": 151306
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "መለሰ ድኪ ወጃጎ",
+      "votes": 150973
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "አሸናፊ ደበበ ሂርዳቶ",
+      "votes": 150786
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ዘነበ ሙንገደና ያደ",
+      "votes": 150740
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ጤናዬ ሳንባቶ ልማሳ",
+      "votes": 150603
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ጃጎ አገኘሁ ዬቴራ",
+      "votes": 150019
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ፀሐይ ገሬሙ ጋምቤ",
+      "votes": 149622
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "አማኑኤል መንግስቱ ቦሮጄ",
+      "votes": 149432
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "በረከት ጎኔ ዳባሳ",
+      "votes": 148474
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "መንግሻ ሃናቆ አትሶ",
+      "votes": 15235
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "አክሊሉ ጨዳ ባጨላ",
+      "votes": 3217
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ፋንቱ አማሎ ጎሶማ",
+      "votes": 3187
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "አየለ አዳቶ እጁቱ",
+      "votes": 3162
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "በየነ ባሻሎ ኡፈሳ",
+      "votes": 3126
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ዮሐንስ አርጋታ ሐሳና",
+      "votes": 3034
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አሮሬሳ / Arooreessa",
+      "candidate": "ካሳ እንዳለ ይግለ",
+      "votes": 2997
+    }
+  ]
+}

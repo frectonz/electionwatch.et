@@ -1,0 +1,223 @@
+{
+  "pdf": "elected_rc",
+  "page": 49,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "ቀልቤሳ ወልጅራ እመጉቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "ትዕግስት ዲቢሳ ስሪቃ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "ተፈሪ አበበ በገዊ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "አሰፋ ጉታ ጋዝኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "መልካሙ ጃራ ሮቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "አበያ ፈረደ ጉተማ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "ፀሐይነሽ ያደሳ ጃራ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "ጋሹ ዱጋዝ አጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "አቡሽ ቲሳ ባልቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ወምበራ",
+      "candidate": "ሀፋ ቴሲሳ ደሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛይ",
+      "candidate": "ወልተጅ በጋሎ ባንጅሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛይ",
+      "candidate": "አማኑ ዴሬሣ ቡባ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛይ",
+      "candidate": "ኢዶሳ ጎሹ ኩርማኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛይ",
+      "candidate": "ግሪሻ ጉይታ ዲዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛይ",
+      "candidate": "መስቀሌ እመጉቴ ገሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "ዛይ",
+      "candidate": "መስቀሌ ዱበ ቆና"
+    },
+    {
+      "region": "",
+      "constituency": "ደጎቤ",
+      "candidate": "በንቲ አበሹ ዲኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጎቤ",
+      "candidate": "ገመቺስ ጉተማ ሞርካ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጎቤ",
+      "candidate": "ዋና ዱጉማ ገመቹ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጎቤ",
+      "candidate": "ማራሜ ሞሲሳ ፋሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጎቤ",
+      "candidate": "እንድሪያስ ወልዴ ዳሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጎቤ",
+      "candidate": "ጉይታ ቦሩ ሻንኩሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንጉር",
+      "candidate": "እናነነሽ ማሩ ዝሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንጉር",
+      "candidate": "ጥላሁን ጃኔ ባኬ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንጉር",
+      "candidate": "ገብረሚካኤል ጉድሬ ላው"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንጉር",
+      "candidate": "አንደሽ ሰብሰቤ ንሳፄ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንጉር",
+      "candidate": "ፕሮቫዊ ኡስማን ባሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንጉር",
+      "candidate": "አላየ አለሺ ይስማው"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "መለሰ በየነ አብሸኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "ድንቅነሽ ማሞ ሀይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "መላኩ ታደሰ ገመዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "ሙሉአለም ዋውያ ክንዱ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "አወቀ አይሸሽም ብርሃኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "በቀለ አንበሳ ቱፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "መሰረቱ ሂካ መንጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "ሰፈረች ጥላሁን ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "ደበሊ በልጋድ በጋሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ድባጤ",
+      "candidate": "ሚሊሻ ቅሌጬ ወሊአ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉባ",
+      "candidate": "ቱጃኔ ኢዶም አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉባ",
+      "candidate": "ሀይሰም ባባ ጀብሪል"
+    },
+    {
+      "region": "",
+      "constituency": "ጉባ",
+      "candidate": "አህመድ ኩምሳራ አልሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ጉባ",
+      "candidate": "ቢሲና ረጀብ አልገመር"
+    },
+    {
+      "region": "",
+      "constituency": "ጉባ",
+      "candidate": "ሹይብ መሀመድ ሹይብ"
+    }
+  ]
+}

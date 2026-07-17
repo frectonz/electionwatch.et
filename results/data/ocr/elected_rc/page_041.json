@@ -1,0 +1,158 @@
+{
+  "pdf": "elected_rc",
+  "page": 41,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "አብርሃም ማይከል ሸሽፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ፍቅሬ ተፈራ ፈዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "አቤል አሰፋ ዙጊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ዮናስ ተኩምሳ ኩም"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ምንዳምር ብርሃኑ ተካልኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "በልባ ይሁዳ ሶርሱ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ቤቴል ዳዊት አድማሱ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ትሁት ሃዋሪያት ሪተ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ዳግም ምላሽን ዎኖክ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ቶማስ የማሎ ስጋሞይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "አስቴር ኖህ ዶሮፒያ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ኤትሰን ጄመኮይ ቢረጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ይስሐቅ አብርሃም ቦልታ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ዮናስ አበበ ተሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ክፍያለው ታዬ አዳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ኢታገኝ ጫኔ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ጀማል አብራሂም አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ንግስት ገብረስላሴ ባሻይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ብርሃኔ አየለ ሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "ካሳሁን ካኪሎ መኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎደሬ",
+      "candidate": "አስረስ አየለ ገብረሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "አለሚቱ ኡሞድ ኡጁሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ፖል ዴቪድ ኡዱፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ኡሞድ አችዋሃ ኡኳኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ኡኩክ ኡሞድ አኳይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ማክባዲ ኢታን አፒሮው"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ኡጁሉ ኡጁሉ አብጋግ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "አጁሉ አብዩ ኡቡራ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ቻም አቻር ኡጁሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎግ",
+      "candidate": "ፔን ኡጁሉ ኡጉዋል"
+    }
+  ]
+}

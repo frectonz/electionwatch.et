@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 0,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አርዲን ባደሪ ሀምድኝ",
+      "votes": 33404
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ካሊድ አልዋን አህጭ",
+      "votes": 33307
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ሙክታር ሳሊህ ኢብራሂም",
+      "votes": 33053
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አሚና አብዱልከሪም መሐመድ",
+      "votes": 33014
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አሪፍ መሀመድ አዱስ",
+      "votes": 32854
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አብዱልሐኪም ኡመር አብራሂም",
+      "votes": 32520
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ሙሀዲን አህመድ ሐሰን",
+      "votes": 32319
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ኢሬት በርከድሌ አሊ",
+      "votes": 32019
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "መሊካ ዘካሪያ አቡበከር",
+      "votes": 31670
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ሀምዲ ሰለሃዲን አብዱልዋሲ",
+      "votes": 31275
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አማን መሀመድ ኢብራሂም",
+      "votes": 30926
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ነቢል ዩሱፍ አብራሂም",
+      "votes": 30708
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "ሃሰነት ሙጫ አብዱልአዚዝ",
+      "votes": 22963
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አብዱልሀረዝ አህመድ አብዱሱብሀን",
+      "votes": 22170
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ልዩ",
+      "candidate": "አዲል አደም እስማኤል",
+      "votes": 3689
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል መደበኛ",
+      "candidate": "ተወለዳ አብዶሽ አህመድ",
+      "votes": 16905
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል መደበኛ",
+      "candidate": "ነቢላ መሀዲ ኢድሪስ",
+      "votes": 16520
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል መደበኛ",
+      "candidate": "ዚነት ዩሱፍ መሀመድ",
+      "votes": 16379
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል መደበኛ",
+      "candidate": "ጆርዳን ኢሳቅ መሀመድ",
+      "votes": 15958
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል መደበኛ",
+      "candidate": "አዩኤል አበበ ሲሳይ",
+      "votes": 1465
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል መደበኛ",
+      "candidate": "አስራት በለጠ መኮንን",
+      "votes": 1189
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ሱልጣን አብዱሰላም አህምድ",
+      "votes": 117260
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ቶፊቅ መሀመድ ዩዮ",
+      "votes": 113287
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ፈርሃን ዚያድ አብዲ",
+      "votes": 111608
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ኢክራም አብዱልቃድር አህመድ",
+      "votes": 111236
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አንዋር ሸምሹዲን መሀመድ",
+      "votes": 111005
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ራቲያ ሳኒ ኡመር",
+      "votes": 110673
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ጃፈር ሱፊያን አብራሂም",
+      "votes": 110336
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ኩዲጃ ባከር አህመድ",
+      "votes": 109246
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ኢብሳ ኢብራሂም አብዱላሂ",
+      "votes": 109215
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ኪሚያ እስማኤል ዩሱፍ",
+      "votes": 109084
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አይቱ ተስፋዬ ዲባባ",
+      "votes": 107659
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አሻ አሊ አደም",
+      "votes": 107431
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ሙስጠፋ ኢሊያስ ሙመድ",
+      "votes": 106160
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ረሃ ፋኡድ አብዱረህማን",
+      "votes": 105645
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አብማል ዩሱፍ አህመድ",
+      "votes": 104847
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ያሲን አብዱላሂ ኡስማን",
+      "votes": 95368
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ጀማል አባቦር አህመድ",
+      "votes": 57335
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ሁሴን ሱለይማን ኡመር",
+      "votes": 54021
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ሙሉነህ ሰላቶ ሲጋሮ",
+      "votes": 11123
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ቡራራ አበበ ይልማ",
+      "votes": 10918
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "መኳንንት ሙብሬ ዳኛው",
+      "votes": 10564
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "መስፍን አክሊሉ ወልደሚካኤል",
+      "votes": 10441
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ዳንኤል ዳኛው ኃይለማርያም",
+      "votes": 10303
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ይስማሸዋ ጌታቸው ሁንዴ",
+      "votes": 9755
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "እስክንድሮስ አለሙ ጣሞ",
+      "votes": 9550
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ሲሳይ ቱሉ ወዳጆ",
+      "votes": 9024
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አቤል መስፍን ተስፋዬ",
+      "votes": 8977
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አሸናፊ ሞላ ብሩ",
+      "votes": 8869
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "በላይነሽ ማሩ ፍሬው",
+      "votes": 8593
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ሲሳይ ፈታና ጉርሜሳ",
+      "votes": 8211
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ቡዝነሽ ንጉሴ ለማ",
+      "votes": 7933
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ዳዊት አበበ ዲያና",
+      "votes": 7579
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ናዲያ አሊይ ሀሰን",
+      "votes": 7465
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "በእምነት አብዮት ሙሉጌታ",
+      "votes": 6698
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ረመዳን አሊ መሐመድ",
+      "votes": 5964
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አታላይ ዘለቀ ዳኛው",
+      "votes": 5810
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "አፈንዲ በከር ሹኔ",
+      "votes": 5690
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ማሂር መርዋን አደም",
+      "votes": 5529
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅግል ዙሪያ እና ሀንዳኔ",
+      "candidate": "ራጂህ አፈንዲ መሀዲ",
+      "votes": 5329
+    }
+  ]
+}

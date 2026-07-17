@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 45,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "መሀመድኑር አሊ አብደላ",
+      "votes": 57
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ኤሻ መሀመድ ሞሚን",
+      "votes": 51
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "መሀመድ አሊ አባሳአል",
+      "votes": 43
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "መሀመድ ሀምዛ መሀመድ",
+      "votes": 43
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ማንዱ ሰከና ሰኢድ",
+      "votes": 42
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "አብዶ አቡበከር ሙሳ",
+      "votes": 27
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ጀማል ሀይደራ ሙሳ",
+      "votes": 24
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ኡመር መሀመድ ሞሚን",
+      "votes": 23
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ሁመድ አቢቶ አብደላ",
+      "votes": 15
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ወልአ አይቲሌ ሁሴን",
+      "votes": 84050
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "አዶ ሀሰን መሀመድ",
+      "votes": 75650
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ኒና ሙሳ አብዱ",
+      "votes": 75214
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ጎልቤ ሲሌ ጎልቤ",
+      "votes": 73663
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ፋጡማ መሀመድ ሀጂ",
+      "votes": 72483
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ሁሴን አሊ አህመድ",
+      "votes": 208
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ሙሳ መሀመድ ህመድ",
+      "votes": 138
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ሮቢ ጉራ አድሬ",
+      "votes": 130
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "አሊ አይቲሌ ሁመድ",
+      "votes": 129
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "ማሂር መስጠፋ ተቤ",
+      "votes": 111
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቡሬ ሞዳይቱ ወረዳ / Buuremudaytoh Daqaara",
+      "candidate": "መሀመድ ደሀር መሀመድ",
+      "votes": 49
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "አሊ ዘይኑ አብዱሰመድ",
+      "votes": 27909
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "መርየም መሀመድአሚን ሲራጅ",
+      "votes": 27478
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ሷሊሀት አህመድ ሁሴን",
+      "votes": 18486
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ጡባ አህመድ መሃመድ",
+      "votes": 519
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "አሚኑ አሊዬ መሀመድ",
+      "votes": 271
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ዳውድ ኢብራሂም መሀመድ",
+      "votes": 182
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ኑሩ አባ መሀመድኑር",
+      "votes": 115
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ከማል መሀመድ አሚን",
+      "votes": 101
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "አህመድ መሀመድ በሽር",
+      "votes": 82
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "አህመድ መሀመድ ኑር",
+      "votes": 53
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አርገባ ልዩ ወረዳ / Qargubbah Baxsa le Daqaara",
+      "candidate": "ከድር አህመድመሀመድ መሀመድኑር",
+      "votes": 49
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "አራይቲ አላሊታ አብራሂም",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "መሀመድ ሙሳ አሊ",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ሀሰን አብደላ አባስ",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ዓሊ ጊልሳ አህመድ",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ኑር ሙሳ አሊ",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "አባህና ኑር ሲዲ",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ጦይብ አብዱ መሀመድ",
+      "votes": 84970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ሀጂ መሀመድ ሰኢድ",
+      "votes": 252
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ኑር አብራሂም ደረሳ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ሱሌይማን አህመድ መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ጣሀር አድርርሰ መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ሳቢር በሽር ንጉስ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ኢብራሂም ያህያ ሁሴን",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "አንዋር አብደላ አባስ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "አብደላ ሀሰን ሳሊህ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ዘይነባ ሀጂ መሀመድ",
+      "votes": 60273
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ኡመር ሀቢብ መሀመድ",
+      "votes": 59936
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ከማል ቀውዱ ሀምዛ",
+      "votes": 59854
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ሀመድ ሀንፍሬ ያዮ",
+      "votes": 12
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "አሊ ያዬ መንደል",
+      "votes": 10
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "አሚናት ይማም ሰይድ",
+      "votes": 7
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "በረከት አሊ ሀመድ",
+      "votes": 5
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "አንደሪስ ኡመር አንደሪስ",
+      "votes": 5
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "አሊ መሃመድ ሲራጅ",
+      "votes": 5
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "መሀመድ አብዱ አሊ",
+      "votes": 3
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ከቢር መሀመድ ከቢር",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "መሀመድ አለው መሀመድ",
+      "votes": 51253
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "መሀመድ ያዮ አሊ",
+      "votes": 49613
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ጀማል ያሲን ሙሳ",
+      "votes": 46826
+    }
+  ]
+}

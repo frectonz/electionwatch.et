@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 43,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "አምድብር",
+      "candidate": "ትብለጥ እስጢፋኖስ ፍቅረእየሱስ"
+    },
+    {
+      "region": "",
+      "constituency": "አምድብር",
+      "candidate": "ዘይቱና ኢብራሂም ሰይድ"
+    },
+    {
+      "region": "",
+      "constituency": "አምድብር",
+      "candidate": "አብዶ ሀሰን ሞሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አምድብር",
+      "candidate": "ዳንኤል ሺፈታ አርጋው"
+    },
+    {
+      "region": "",
+      "constituency": "አምድብር",
+      "candidate": "ኸይሩ ከዲር ኸሊል"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኪር",
+      "candidate": "ሚፍታ ሁሴን አማን"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኪር",
+      "candidate": "ፈኑያ መሀዲ አርግብ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኪር",
+      "candidate": "አብዱልሀፊዝ ሁሴን አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኪር",
+      "candidate": "ኸይሩ መሀመድ አላንዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኪር",
+      "candidate": "አለማየሁ ሃይሌ ጫሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልቂጤ",
+      "candidate": "ሙራድ ከድር መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልቂጤ",
+      "candidate": "ዙልፋ አላዊ ነጋሽ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልቂጤ",
+      "candidate": "ካሳዬ ተክሌ ስራ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልቂጤ",
+      "candidate": "መሀመድአሚን በደዊ ነጋሽ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልቂጤ",
+      "candidate": "ካሱ ጁሀር ስንክርታ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎቻ",
+      "candidate": "ነኢማ ሙኒር ከሊል"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎቻ",
+      "candidate": "ፋጡ ስርሞሎ ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎቻ",
+      "candidate": "ከድር አብደላ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎቻ",
+      "candidate": "ሱልጣን መሀመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎቻ",
+      "candidate": "ኑረዲን ሻፎ ቡሴር"
+    },
+    {
+      "region": "",
+      "constituency": "ጠምባሮ",
+      "candidate": "አስለፈች ሃይሌ ሄመዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጠምባሮ",
+      "candidate": "መኮንን መኔዶ ቀልቦሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ጠምባሮ",
+      "candidate": "ሀብታሙ በላይነህ ሀይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ጠምባሮ",
+      "candidate": "መኮንን ወጮሬ ደጊሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጠምባሮ",
+      "candidate": "ሰለሙ ሱላሞ አምባሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቾ ወሬሮ",
+      "candidate": "መሀዲያ ሀሰን ዩሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቾ ወሬሮ",
+      "candidate": "አብዱልዋሪስ ጀማል ላሌ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቾ ወሬሮ",
+      "candidate": "ሰይፉ ረዲ አምድያ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቾ ወሬሮ",
+      "candidate": "ሪሃና አላዊ ሱሌ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቾ ወሬሮ",
+      "candidate": "አብዱልማሊክ ጀማል አብዱልሰላም"
+    },
+    {
+      "region": "",
+      "constituency": "አዘርነት በርበሬ",
+      "candidate": "ዘይኔ ቢሲክ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አዘርነት በርበሬ",
+      "candidate": "ታሊባ ኑሬ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "አዘርነት በርበሬ",
+      "candidate": "ሬድዋን ሁሴን ሬመቶ"
+    },
+    {
+      "region": "",
+      "constituency": "አዘርነት በርበሬ",
+      "candidate": "ድልገ ሺፋ ሉቹሮ"
+    },
+    {
+      "region": "",
+      "constituency": "አዘርነት በርበሬ",
+      "candidate": "ፈድሉ ጁሀር አወል"
+    },
+    {
+      "region": "",
+      "constituency": "የም ልዩ",
+      "candidate": "ሞገስ ባልቻ ገብረመድህን"
+    },
+    {
+      "region": "",
+      "constituency": "የም ልዩ",
+      "candidate": "ይሁን አሰፋ ጀበር"
+    },
+    {
+      "region": "",
+      "constituency": "የም ልዩ",
+      "candidate": "አብርሃም ዝናብ ቦሴን"
+    },
+    {
+      "region": "",
+      "constituency": "የም ልዩ",
+      "candidate": "ሙና አደም ዳላቻ"
+    },
+    {
+      "region": "",
+      "constituency": "የም ልዩ",
+      "candidate": "በረከት ይግዛው ፊጣ"
+    },
+    {
+      "region": "",
+      "constituency": "መስቃንና ማረቆ 1",
+      "candidate": "ሙስጠፋ ሀሰን አብደላ"
+    },
+    {
+      "region": "",
+      "constituency": "መስቃንና ማረቆ 1",
+      "candidate": "አህመድ ኑሬ ሳሊህ"
+    },
+    {
+      "region": "",
+      "constituency": "መስቃንና ማረቆ 1",
+      "candidate": "ነጅሚያ አህመድ ኬሬታ"
+    },
+    {
+      "region": "",
+      "constituency": "መስቃንና ማረቆ 1",
+      "candidate": "ቶፊቅ ሱረጅ ኬሬሎ"
+    },
+    {
+      "region": "",
+      "constituency": "መስቃንና ማረቆ 1",
+      "candidate": "ሙሉቀን አህመዲን ሸህበሽሩ"
+    }
+  ]
+}

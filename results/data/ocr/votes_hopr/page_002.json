@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 2,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሺቢሺ መኮንን ተካ",
+      "votes": 2449
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ገዛኸኝ አረጌሶ ቤቼቻ",
+      "votes": 1230
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አቻ ለገሰ ዱሞ",
+      "votes": 1179
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አንጻርጋቸው ሙሉጌታ ሜንሳ",
+      "votes": 1034
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መስፍን ዮሀንስ ቦራ",
+      "votes": 861
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሀይሉ ሸለሞ አርፋሶ",
+      "votes": 855
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መሰለ መልካሙ ማቴ",
+      "votes": 849
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መላፍንት ዋለልኝ ዋቀዮ",
+      "votes": 535
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፀጋዬ ገብረጊዮርጊስ ጎሎማ",
+      "votes": 498
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መክብብ ሃይሉ ማናርጋ",
+      "votes": 350
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ነቢየልዑል ብርሃኑ ተስፋይ",
+      "votes": 283
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ማቲዎስ መምህሩ ማዳልቾ",
+      "votes": 258
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አኔሳ መልክ ሄበሮ",
+      "votes": 66249
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሳንበቴ ባጥሶ ሄላሞ",
+      "votes": 441
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ይስሃቅ ገለቱ ሐሜሶ",
+      "votes": 288
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ባርሶ ኤያሞ ቱሌ",
+      "votes": 275
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ቃጀላ ሐዊሶ ኮቃ",
+      "votes": 192
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ተስፋዬ ፍጡራ ባልቻ",
+      "votes": 156
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ቶማስ ቶሼ ጋቢሶ",
+      "votes": 117
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሎሜ ዮናስ ኩኩሞ",
+      "votes": 74
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ለገሰ ላጌቃሞ ፋሬሶ",
+      "votes": 76563
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ጥጋቡ በላይ ደርበው",
+      "votes": 10497
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሀይሌ ሀረሞ ገንደሌ",
+      "votes": 9454
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ቤቴልሄም ዋለልኝ ዋቃዮ",
+      "votes": 2289
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ቹቹ አለሙ ከበደ",
+      "votes": 2201
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ይስሐቅ መርከነህ ጌታ",
+      "votes": 1469
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ተፈሪ ታፈሰ ሐሚሶ",
+      "votes": 890
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አደላ ፈአ ወሰንጎ",
+      "votes": 749
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ምርትነሽ ጳውሎስ ቦኤ",
+      "votes": 718
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቦህ ዳኖት / Bookh Danood",
+      "candidate": "ዘምዘም አህመድ ጃማ",
+      "votes": 70040
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ባያህ / Qabri Bayax",
+      "candidate": "አብዲዋስ አብደላህ ባዴ",
+      "votes": 505275
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ባያህ / Qabri Bayax",
+      "candidate": "መሀድ ዳውድ ሀሰን",
+      "votes": 25629
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ባያህ / Qabri Bayax",
+      "candidate": "ሱልዳን መሀመድ አህመድ",
+      "votes": 11208
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አብዲከሪም አቲብ አደም",
+      "votes": 299554
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር / Qabri Dahar",
+      "candidate": "አሊባሺ ዲሒር አብዲ",
+      "votes": 1918
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራቢ / Arabi",
+      "candidate": "አብዲ አደም ኢጌ",
+      "votes": 356372
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራቢ / Arabi",
+      "candidate": "መሀሙድ መሀመድ ሀሰን",
+      "votes": 12446
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራቢ / Arabi",
+      "candidate": "ሀሰንኑር መሀመድ ኑር",
+      "votes": 439
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አራቢ / Arabi",
+      "candidate": "ከድር ኑር ኢልሚ",
+      "votes": 281
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አዋሬ / Awaare",
+      "candidate": "አብዱቃዲር መሀመድ ጅብሪ",
+      "votes": 187921
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አዋሬ / Awaare",
+      "candidate": "አህመድናስር አብዲ ሙሴ",
+      "votes": 4385
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "አያን አሊ መሓ",
+      "votes": 55319
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "ሀሰን ሸክ ዩሱፍ",
+      "votes": 172449
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "መሀዲ ዳሒድ ሀሰን",
+      "votes": 25115
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "አብዲ ዑመር አብዱሊ",
+      "votes": 2202
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "ህዝቄል ዮሃንስ ጆርጌ",
+      "votes": 14
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህቡር / Dhagax Buur",
+      "candidate": "ሀሰን ሙሁመድ መአሊን",
+      "votes": 223264
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህቡር / Dhagax Buur",
+      "candidate": "አብዱላአዚዝ ፈረህ ኡመር",
+      "votes": 1030
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህቡር / Dhagax Buur",
+      "candidate": "መውሊድ አህመድ ጃማ",
+      "votes": 880
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህመዶ / Dhagax Madaw",
+      "candidate": "መሀመድ ሼክ ኢብራሂም",
+      "votes": 62417
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህመዶ / Dhagax Madaw",
+      "candidate": "ሙስጠፋ መሀመድ ኢጋል",
+      "votes": 1576
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋህመዶ / Dhagax Madaw",
+      "candidate": "ሹክሪ አህመድ አደን",
+      "votes": 1312
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erar",
+      "candidate": "ዛህራ ሰማሬ ጌሌ",
+      "votes": 208040
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤረር / Erar",
+      "candidate": "አደን አካዲር ሮብሌ",
+      "votes": 8617
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "ኢክራም መሀድ አደን",
+      "votes": 539524
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "አሳማ አብዱላህ መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ፊቅ / Fiiq",
+      "candidate": "ፈርዶሳ አህመድ መሐሙድ",
+      "votes": 358396
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጋሻሞ / Gaashaamo",
+      "candidate": "ሀሊሞ መሀሙድ አብዲ",
+      "votes": 59056
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ገላዲን / Galadin",
+      "candidate": "አብድላሂ መሀመድ ሙሴ",
+      "votes": 27359
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ገላዲን / Galadin",
+      "candidate": "ካሊድ አብዱል ዋርሳሜ",
+      "votes": 235
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ጎዴ / Goday",
+      "candidate": "ፋይሰል አደም አብዲ",
+      "votes": 309533
+    }
+  ]
+}

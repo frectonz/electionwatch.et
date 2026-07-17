@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 31,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "አብዲ ኑሮው አብዲራህማን",
+      "votes": 328
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "አሳማ አብዲራህማን ሙቃታር",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "መሀመድ ዶሮው መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙባረክ / Mubaarak",
+      "candidate": "መሀመድ ኢሳቅ አሊ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "አብዲ አህመድ ሀሰን",
+      "votes": 59724
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ዚያድ ባኔይ አሊ",
+      "votes": 58646
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ቃሊ አብዱላሂ ሂሬይ",
+      "votes": 57922
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ሳኢድ አሊ ኑር",
+      "votes": 395
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ሙፍታህ አብዱላሂ አህመድ",
+      "votes": 25
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሙስተሂል / Mustaxiil",
+      "candidate": "ዴከ ካሂ ዩሱፍ",
+      "votes": 9
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "መሀመድ አህመድ ሂረሲ",
+      "votes": 46326
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ሙሀዲን አብዲ ሁሴን",
+      "votes": 45114
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብዱራህማን ሰላድ መሀመድ",
+      "votes": 43532
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብድ አመር ዲግላው",
+      "votes": 39561
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብዱልማሊክ ኑር መሀመድ",
+      "votes": 2218
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ሹክሪ አብዲአዚዝ ጀማል",
+      "votes": 2207
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ዩሱፍ አህመድ አብዲ",
+      "votes": 2149
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "መሀመድ አብዱከሪም ወሊድ",
+      "votes": 2105
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ሼክነዲር እስማን ጌዲ",
+      "votes": 199
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብዲከዲር አብዱላሂ አብዲ",
+      "votes": 29
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ፋራህ ኡመር ሃሺ",
+      "votes": 21
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ሳዳም ሁሴን ዲርዬ",
+      "votes": 18
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "ሙአሊም አብዲቃዲር አብዱላሂ",
+      "votes": 13
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አብሺር ሙስተፋ መሀመድ",
+      "votes": 11
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀላፎ / Qalaafo",
+      "candidate": "አህመድ ሙሀመድ ጋራድ",
+      "votes": 6
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "መሀመድ አሊ ዳሂር",
+      "votes": 26396
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "ከድር ሹግሪ ሙሴ",
+      "votes": 26146
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "አዎ መውሊድ በደል",
+      "votes": 25957
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "መሀመድ ከሊፍ ኢስማኤል",
+      "votes": 25723
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "መሰላህ ከድር ፋራህ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "በሺር አህመድ ነብዲድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "ሙክታር አሊ ሀሰን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቁቢ / Qubi",
+      "candidate": "በሺር ዩሱፍ ዳውድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ሂቦ አህመድ ኡመር",
+      "votes": 33250
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "አሚን ዩሱፍ አህመድ",
+      "votes": 31564
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ከድር መሀመድ ዩሱፍ",
+      "votes": 30565
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "አህመድ አብዲናስር ዳውድ",
+      "votes": 28565
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ሙክታር ኡመር አሊ",
+      "votes": 2610
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "አብዲቃዲር መሀመድ ሀሰን",
+      "votes": 1489
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "መሀመድ አብዲረህማን መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ሱልዳን ፋራህ አህመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "በሺር መውሊድ አብዱላሂ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ራሶ / Raaso",
+      "candidate": "ሙሀመድ አህመድ አሊ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "ዚያድ አብዲ አሊ",
+      "votes": 38842
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አብዲወሊ ኡመር ኡስማን",
+      "votes": 37557
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አብድኑር መሀመድ ሀሰን",
+      "votes": 32535
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አብዲ ኑር አራብ",
+      "votes": 7786
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አህመድ አብዲ ሀሰን",
+      "votes": 7654
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "አብዲቃድር ኢስማኤል መሀመድ",
+      "votes": 6
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "ኢቢዶ መሀመድ አሊ",
+      "votes": 4
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሰገግ / Sagag",
+      "candidate": "ሙክታር አብዲ ጋይድ",
+      "votes": 1
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "አህመድ አብዲ መሐሙድ",
+      "votes": 40754
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "አህመድ አሊ ሁሴን",
+      "votes": 40562
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "ፈርደውስ መሀመድ ጅሬድ",
+      "votes": 39062
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "ኢብራሂም መሀመድ ዩሱፍ",
+      "votes": 3257
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "መሃመድ አሊ አብዱራህማን",
+      "votes": 24
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሳላሃድ / Salaxaad",
+      "candidate": "ሱምአ ሹክሪ ቆረኔ",
+      "votes": 13
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሸጎሽ / Shaygoosh",
+      "candidate": "መሐመድ ኑር ጋዴ",
+      "votes": 58536
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሸጎሽ / Shaygoosh",
+      "candidate": "ሩቂያ ሹክሪ አርቤ",
+      "votes": 54970
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ሸጎሽ / Shaygoosh",
+      "candidate": "አብዱላሂ መሀመድ አብዲ",
+      "votes": 54248
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 88,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ምሻጋ",
+      "candidate": "ግርማ ፈይሳ ጅሎ",
+      "votes": 2780
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ምሻጋ",
+      "candidate": "ተስፋዬ ንጉሴ ሮሮ",
+      "votes": 2694
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ምሻጋ",
+      "candidate": "ማትዮስ ገለታ ጋላ",
+      "votes": 1461
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ምሻጋ",
+      "candidate": "ታከሌ ተሰማ ደሬሳ",
+      "votes": 457
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ምሻጋ",
+      "candidate": "በቀለ ጢጣ አበርቢ",
+      "votes": 247
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "ቢኒያም መንገሻ ፊምጩ",
+      "votes": 5762
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "አስፓኮ ጨጨቋ በላቸው",
+      "votes": 5667
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "አደመ ሊካሳ አባንዳሪ",
+      "votes": 5595
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "ሀዋ ጃለታ መርዳሳ",
+      "votes": 5140
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "ዋየስ ካሳ ጀናር",
+      "votes": 1653
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "መገርሳ ልካሳ ባዝጉም",
+      "votes": 1223
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "ኩመራ ጉንድ ጭሳ",
+      "votes": 1100
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሰዳል",
+      "candidate": "ሠንበቶ አያና ድኒዴ",
+      "votes": 845
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አሰር ኢብራሂም አጃድሊ",
+      "votes": 7501
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አጀሊ ሙሳ አቶም",
+      "votes": 7485
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ናስር መሀመድ አልመኪ",
+      "votes": 7374
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አሰማኒ ሀሰን መሀሙድ",
+      "votes": 7100
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ሰሌማን አቡጅድ አቁሸን",
+      "votes": 6978
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ከማል አልያስ ድርድር",
+      "votes": 5778
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "መሪየም አብዱራህማን አህመድ",
+      "votes": 5149
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ፋጥና ሀሰፉ ኢብራሂም",
+      "votes": 4778
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አብዱራሂም በዳዊ ጅማ",
+      "votes": 2403
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "መሀመድ በላ ታጅዲን",
+      "votes": 2065
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ፈንታሁን ብርሃኑ ከልካይ",
+      "votes": 2001
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አቤድ ማነቢ ሳደላ",
+      "votes": 1974
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ጃፋር ገመር መዳዊ",
+      "votes": 1973
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ራቲያ ሀሊፋ ደጃስ",
+      "votes": 1942
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ቢተልሙላ አልቀሲም አብዱረሂም",
+      "votes": 1903
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አረሽድ ፈጡር አብዱልቃን",
+      "votes": 1890
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አብዱላሂ ኢብራሂም ሀሚድ",
+      "votes": 1796
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አሊ ኡስማን አፉድ",
+      "votes": 1770
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አዙሀር አሰማኒ ሀንጉግ",
+      "votes": 1612
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ከማል መሀመድ ናሲር",
+      "votes": 1520
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አልሀዲ ሰቢጥ ጣሀ",
+      "votes": 1458
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ተመስገን ዲሳሳ ማሩ",
+      "votes": 7926
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ስኳሬ ተፈራ ፍሬው",
+      "votes": 7322
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "አስካለች አልበሮ ዳባስ",
+      "votes": 7304
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ሐብታሙ አለነ በማንጅ",
+      "votes": 7249
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "እመነቴ ገሺ ተፈራ",
+      "votes": 7184
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ሺበሺ ባሬዳ ዳንጎ",
+      "votes": 7109
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ቢኒያም ጃንዶ ወድም",
+      "votes": 6905
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ጌታቸው ወዳጆ ገዳዲ",
+      "votes": 3461
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ቀልቤሳ አምሳለቃ ዘልቆ",
+      "votes": 1716
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "አለማየው አርጋታ አልጌሶ",
+      "votes": 1529
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ተስፋዬ ዳቦ ባረከ",
+      "votes": 1394
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "አለማየሁ አገኘሁ አልጅራ",
+      "votes": 1130
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ሀብታሙ አስማረ ጌታቸው",
+      "votes": 1041
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "መልካሙ መርዳሳ አሬና",
+      "votes": 898
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "አለሚቱ አሰፋ ደረሳ",
+      "votes": 320
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ሙሉቱ ቶለሳ ጉጂ",
+      "votes": 318
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "አለማየው ሻዊ ጉራቻ",
+      "votes": 295
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ገበየ አሰፋ ጫሊ",
+      "votes": 275
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ወንዳሰ ሞርኮ ወንበሮ",
+      "votes": 261
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ያለው በየነ ወንድም",
+      "votes": 249
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "መላኩ ሀብቴ ዱሜሶ",
+      "votes": 210
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ቢቂላ አያና አልጋ",
+      "votes": 210
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቡለን",
+      "candidate": "ቢቂላ መልካሙ ታደሰ",
+      "votes": 172
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቤልጅግ/ጉባ",
+      "candidate": "አጃድሊ ሃሰን አልአጃብ",
+      "votes": 18345
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቤልጅግ/ጉባ",
+      "candidate": "ሀጅራ አብራሂም መሀመድ",
+      "votes": 17475
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቤልጅግ/ጉባ",
+      "candidate": "በከሪ አብዱላሂ ቶሬን",
+      "votes": 17287
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pdf": "summary_all",
+  "page": 0,
+  "pages": 1,
+  "model": "gemini-3.1-pro-preview",
+  "registered_voters": 54057861,
+  "votes_cast": 51734193,
+  "turnout_pct": 95.0,
+  "abstained_pct": 5.0,
+  "ballots_used": 51705279,
+  "ballots_unused": 11334944,
+  "ballots_invalid": 320781
+}

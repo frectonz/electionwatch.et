@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 58,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ዳንኤል ዳሴ አሊቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ዘካሪያስ ጃታ ጀጊሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ተስፋዬ ጎአ ሙንኤ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "መቅደስ ደስታ ጃገሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ስሳይ ዳንኤል ሳርሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 1",
+      "candidate": "አክሊሉ አዳኝ ከፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 1",
+      "candidate": "ያዕቆብ ደበላ ዳሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 1",
+      "candidate": "ቡዙነሽ ዘውዴ ዘማላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 1",
+      "candidate": "ሰላምነሽ እንግዳ ይመር"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 1",
+      "candidate": "ኢያሱ በላቸው መርፉ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "እታገኝ ሀይለማርያም ስሳይ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "ብርሃነፀሀይ ተክለወልድ ተክለማርያም"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "አፀደ አይዛ አላሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "ድልነሳው እስራኤል ጭናሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "ካሰች ኤልያስ ወዕማጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሶ ጋዛር 2",
+      "candidate": "አለማየሁ ባዉዲ ሞላ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሶ ጋዛር 2",
+      "candidate": "አፌዶ ወርቁ ባሊባይሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሶ ጋዛር 2",
+      "candidate": "እይሩሳሌም አልቅማዮ ጉቺ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሶ ጋዛር 2",
+      "candidate": "አብርሃም አታ ዴኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሶ ጋዛር 2",
+      "candidate": "ሰላሞን አህመድ ዝጋዞ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሎሶ ሶሬ 2",
+      "candidate": "ብርሃኑ ዋጃ ዋሪቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሎሶ ሶሬ 2",
+      "candidate": "ሳሙኤል ተሰማ ታንቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሎሶ ሶሬ 2",
+      "candidate": "ቦልጥቾ ኡኑ አሎሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሎሶ ሶሬ 2",
+      "candidate": "ሙሉቀን መሸሻ ቱጋታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሎሶ ሶሬ 2",
+      "candidate": "ሀብታሙ ሀንጃሎ ሀላቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ኪንዶ ኮይሻ 2",
+      "candidate": "መና መኩሪያ መቻሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኪንዶ ኮይሻ 2",
+      "candidate": "ሀና ጨመር አሼቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ኪንዶ ኮይሻ 2",
+      "candidate": "አመነች ዴሌ አሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኪንዶ ኮይሻ 2",
+      "candidate": "ተስፋዬ ይገዙ ክልካይ"
+    },
+    {
+      "region": "",
+      "constituency": "ኪንዶ ኮይሻ 2",
+      "candidate": "ዮሐንስ ቶማ ሎሃ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ወይዴ 2",
+      "candidate": "ተስፋሁን ታዴዎስ ኮሸሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ወይዴ 2",
+      "candidate": "ዘካሪያስ ወንታሞ ዶልሳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ወይዴ 2",
+      "candidate": "ፍቅሬ ኤላሞ አይማሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ወይዴ 2",
+      "candidate": "አንድሪያስ ያዕቆብ ጅንጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ወይዴ 2",
+      "candidate": "አሸናፊ ተስፋዬ ናና"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 2",
+      "candidate": "ገብረመስቀል ጫካ ሞጣሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 2",
+      "candidate": "መክብብ ኃይለስላሴ ዋይሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 2",
+      "candidate": "አለማየሁ ባርጌ ኮይራ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 2",
+      "candidate": "ባዛ ኬንቾ አሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሞት ጋሌ 2",
+      "candidate": "ሞገስ ሄልሶ ባጆሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 2",
+      "candidate": "ይሁን ደምሴ በላይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 2",
+      "candidate": "ተፈሪ አበበ ሻሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 2",
+      "candidate": "አማረች በየነ በዛብህ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 2",
+      "candidate": "አትናሽ ተስፋዬ ገብረፃድቅ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎፋ ዙሪያ 2",
+      "candidate": "አሊያ አልበነ አሸኔ"
+    }
+  ]
+}

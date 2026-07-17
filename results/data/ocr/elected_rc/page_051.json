@@ -1,0 +1,203 @@
+{
+  "pdf": "elected_rc",
+  "page": 51,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ዲና ሙፍቲ ሲድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ያበባል አዲስ ንበዙ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አለማፀሀይ ሽፈራው ዋቄ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "መስንበት ሽንቁጤ አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ሃፍታይ ገብረእግዚአብሔር አለማየሁ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አድማሱ ደቻሳ ጦና"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ቴዎድሮስ ግዛው ገብረየስ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ሀዊ ባጫ ቡልቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "እሸቱ ለማ አደራ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አብዱልሃሚድ መሀመድ አብዱልወሃብ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አቶሚ አበበ መቼ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ሀብታሙ ተገኘ ደስታዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ፈናን ግሰላ ዘውዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አዋሌ መሀመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ፋኢዛ መሀመድ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ሜላ አሰፋ ዳዋ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ዳርዳር ብርሃኑ ወልደአብ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ወልደሚካኤል ከበደ ተክሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አባይነህ አመረጎ ጎታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ዮናስ ከበደ ሎራቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ዮናስ አለማየሁ አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አባንግ ኩሞዳን አሞድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ናስረዲን ሻፊ ሙስጠፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አፍሪኬ ማሄ ሰዴቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "አለማየሁ ነጋሳ ለማሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ሰውአለ ሾመልስ አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሌ",
+      "candidate": "ክፍያለው በቀለ ደረሰ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ብሩክታዊት አደራ ባዬ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ነብዩ ባዬ ንጋቱ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ወንድሙ ኡመር ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ዮሐንስ ሜላ ወርቁ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ኢቲሳ ደሜ በዳኔ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ሙሉወርቅ ደረሰ ድማሳው"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ሸታዬ መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ዮሴፍ ቤኮ ዱቢ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ፍስሃ ይታገሱ ማንገሻ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "አስራት ንጉሴ ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "ሱራፌል እሸቱ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "አራዳ",
+      "candidate": "እመቤት ቢራራ አመኘው"
+    }
+  ]
+}

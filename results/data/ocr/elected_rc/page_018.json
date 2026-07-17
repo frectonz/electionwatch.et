@@ -1,0 +1,203 @@
+{
+  "pdf": "elected_rc",
+  "page": 18,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ዓሊ ጊልሳ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "አባህና ኑር ሲዲ"
+    },
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ኑር ሙሳ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ጦይብ አብዱ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "መሀመድ ሙሣ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "አራይቲ ኢላልታ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "አብአላ ወረዳ / Abqaalâ Daqaara",
+      "candidate": "ሀሰን አብደላ አባስ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ዘይነባ ሀጂ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ኡመር ሀቢብ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋምቦ ወረዳ / Afambô Daqaara",
+      "candidate": "ከማል ቀመሩ ሀምዛ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "መሀመድ አልዩ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "መሀመድ ያዮ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ጀማል ያሲን ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "አስያ አብዱ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "አሊ መሀመድ ሳሊህ"
+    },
+    {
+      "region": "",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ኡመር ኑር አርባ"
+    },
+    {
+      "region": "",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "እብራሂም ሁመድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ኤይሳ ማሂር ያሲን"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አህመድ ኑር ሳሊም"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ነቡር አዳ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አሲያ አብዱልቃድር በረከት"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ፋጡማ ገዶ ሀምሎ"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀንፈሬ አላሚራህ ሀንፈሬ"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሃመድ ዳውድ ማሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሃይሰማ አሊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "በርሀሌ ወረዳ / Baraclê Daqaara",
+      "candidate": "ከድጃ መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "በርሀሌ ወረዳ / Baraclê Daqaara",
+      "candidate": "ያሲን አሊ ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "በርሀሌ ወረዳ / Baraclê Daqaara",
+      "candidate": "መሀመድ ሁሴን አሊሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢዱ ወረዳ / Bixi Daqaara",
+      "candidate": "አህመድ ሻሚ ዑመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቢዱ ወረዳ / Bixi Daqaara",
+      "candidate": "መይረም መሀመድ አህዉ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢዱ ወረዳ / Bixi Daqaara",
+      "candidate": "ጀማል አሊ አሃው"
+    },
+    {
+      "region": "",
+      "constituency": "ሓዳእሌ ወረዳ / Caxxale Qeeli Daqaara",
+      "candidate": "አሊ ማቴ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ሓዳእሌ ወረዳ / Caxxale Qeeli Daqaara",
+      "candidate": "ራዲያ አሊ ኩላይ"
+    },
+    {
+      "region": "",
+      "constituency": "ሓዳእሌ ወረዳ / Caxxale Qeeli Daqaara",
+      "candidate": "መይረም መሀመድ ያይሲ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዌ ወረዳ / Dawwê Daqaara",
+      "candidate": "አህመድ መሀመድ በዳኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዌ ወረዳ / Dawwê Daqaara",
+      "candidate": "መይረም ዳውድ ኤሊያስ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዌ ወረዳ / Dawwê Daqaara",
+      "candidate": "ሀመዱ ሁመድ አላሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዌ ወረዳ / Dawwê Daqaara",
+      "candidate": "አሊ ኢብራሂም ቃሲም"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዌ ወረዳ / Dawwê Daqaara",
+      "candidate": "ኡመር አስሀብ መሀመድ"
+    }
+  ]
+}

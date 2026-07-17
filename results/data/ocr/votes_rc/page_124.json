@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 124,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ሚሚ ተሰማ አበራ",
+      "votes": 3613
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "መለሰ ዮታ ደይ",
+      "votes": 3284
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "እሸቱ ብርሃኑ ኤብዶ",
+      "votes": 3257
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ፍቅሩ ሙሉቱ ነጋሽ",
+      "votes": 3256
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "አማረች ባንጦሬ ዱቤ",
+      "votes": 3138
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "መሃመድ ንጉሴ ዳምጠው",
+      "votes": 3059
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ታደሰ ሂዳ ቄያ",
+      "votes": 2649
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "መቅደስ መኮንን ገዳ",
+      "votes": 2430
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "አየሩ አበራ አንጃሎ",
+      "votes": 2336
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ልደት ቦጋለ ጠቆቦ",
+      "votes": 2205
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ሊዲያ ወልደጊዮርጊስ ሂርባዬ",
+      "votes": 1479
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ስንታየሁ ደገፌ ወጃጎ",
+      "votes": 1343
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ልጅአለም ፀጋዬ አለማየሁ",
+      "votes": 1332
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "አስፋው ፊጋ ሲዴ",
+      "votes": 1296
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ብዙአየሁ ሳፋዮ ታንቱ",
+      "votes": 1231
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "መላኩ ዘላለም ሆሮ",
+      "votes": 1179
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ዳንኤል ሀጢያ ሰረቦ",
+      "votes": 1085
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ሲሳይ በርገና ባንጫ",
+      "votes": 853
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "አብርሃም አገዜ ቢሳ",
+      "votes": 56363
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ተመስገን ጥላሁን ገበና",
+      "votes": 55916
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ዳዊት ቡኔ ኩርሴ",
+      "votes": 54978
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ዜና ጅግሳ ናና",
+      "votes": 49714
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ታምሩ ቄጡሞ ብፍቱ",
+      "votes": 6137
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ታደሴ ጅግሳ ቦር",
+      "votes": 5316
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "አበበ ማሮ ዎላሶ",
+      "votes": 5288
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ትብለጥ ሎሌ ዌዶ",
+      "votes": 5047
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ደጀኔ ፈቀደ ተረጋ",
+      "votes": 1980
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ተካባ አበራ ጆቦ",
+      "votes": 1940
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "መላኩ ሻሚጥ ጣሰው",
+      "votes": 1934
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ሀናን ገረሙ ገመቹ",
+      "votes": 1684
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "አንተነህ አስራት ጥላሁን",
+      "votes": 1568
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ጌታቸው ኃይሌ ሙጎሬ",
+      "votes": 1069
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ተኩ ቦጋለ ቦሌ",
+      "votes": 880
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "አካሉ ተሾመ ማሞ",
+      "votes": 865
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ተፈራ አዶሾ በራቆ",
+      "votes": 764
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ንጋቱ ግርማ ቤጆ",
+      "votes": 763
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ሳሙኤል ታደሰ ቃንቆ",
+      "votes": 742
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ሣሙኤል ታደሰ ላባደ",
+      "votes": 660
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "መሰረት ፀጋዬ በራኔ",
+      "votes": 656
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "አይናለም ንጉሴ ኡዶ",
+      "votes": 603
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ታምራት ለማ ገመዴ",
+      "votes": 573
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ብርሃኑ ተካዬ ደንቢ",
+      "votes": 40753
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ተወልደ ተስፋዬ ሆርዶፋ",
+      "votes": 40708
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "አበራሽ ተሰማ ቱሮ",
+      "votes": 40604
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ቦጋለ ጠቆቦ ጤሮ",
+      "votes": 40248
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ጉድነሽ ካሳዬ ቦሌ",
+      "votes": 39091
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ሳሙኤል ሮቤ ጋልቹ",
+      "votes": 3782
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ህይወት በየነ ሆሮ",
+      "votes": 3760
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ዘርሁን ታምሩ አለንቦ",
+      "votes": 3713
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "በቀለ ጉሚ ዳያሶ",
+      "votes": 3590
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ብርሃኑ ዶሬ ዳሳማ",
+      "votes": 3396
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "አብርሃም ሸፈራው ጥላሁን",
+      "votes": 1598
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ብርሃኑ ጥላሁን ወላሶ",
+      "votes": 1034
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "በድሉ ገመዳ ሀርሴ",
+      "votes": 974
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ለማ ገመዴ ኤዴዴ",
+      "votes": 924
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ደለለኝ ፈለቀ ገመደ",
+      "votes": 904
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ታመኔ ደስታ ጉዬ",
+      "votes": 815
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ወይንሸት በዛብህ ወልደፃድቅ",
+      "votes": 703
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ሜሩ ሹብሳ ገዶ",
+      "votes": 703
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 3",
+      "candidate": "ተፈራ ገበና ዶሬ",
+      "votes": 620
+    }
+  ]
+}

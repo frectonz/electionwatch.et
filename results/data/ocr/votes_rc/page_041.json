@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 41,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ሁሴን መሀመድ አህመድ",
+      "votes": 2887
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ሁሴን አሸቱ ሁሴን",
+      "votes": 1881
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ሙሀመድ ይመር ሀሰን",
+      "votes": 1727
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ቻላቸው ዳኘው ከበደ",
+      "votes": 64354
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ዘላለም ልጃለም አሰፋ",
+      "votes": 60389
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አባይ መጋቢያው ሞላ",
+      "votes": 4665
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ምናሉ መከተ አምበሌ",
+      "votes": 4176
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ኤርማስ ጌታሁን ተፈራ",
+      "votes": 3500
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ፍሬወይን ደግሰው በዛብህ",
+      "votes": 3235
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ሙሉጌታ አያሌው መሀሪ",
+      "votes": 2034
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ረታ አበራ ሃጎስ",
+      "votes": 1535
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ምህረት መስፍን ሲሳይ",
+      "votes": 1486
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ወርቄ አሰነ ከበደ",
+      "votes": 1420
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አብዱሰመድ ሰይድ መሀመድ",
+      "votes": 1222
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "የዝባለም ታፈረ ዘገየ",
+      "votes": 1144
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ምህረቱ ለውጤ አንዳርጌ",
+      "votes": 941
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 2",
+      "candidate": "ይርጋ ሲሳይ ቅጣው",
+      "votes": 56910
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 2",
+      "candidate": "ተመስገን ዳኘው መቆያ",
+      "votes": 54657
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "ታሪክ ክፍያለው አሻግሬ",
+      "votes": 56742
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "ማሬ ሽፈራው ገዜ",
+      "votes": 55991
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "አትሁን ስጦታው ሽባባው",
+      "votes": 3369
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "መብራቱ አዲሱ መንግስቴ",
+      "votes": 2818
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "አወቀ አሰፈራ ሀጎኛው",
+      "votes": 105309
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "አማረ ሰጤ ነጋሽ",
+      "votes": 103168
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "ቸኮለች ባሻ ባላቸው",
+      "votes": 3073
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "ጊዜወርቅ ብርሃኑ ታገለ",
+      "votes": 1816
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "ፀጋዬ ባሻ መሰለ",
+      "votes": 1134
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አብራሂም አሰን ዩሱፍ",
+      "votes": 86860
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ጥሩየ አያሌው ሁሴን",
+      "votes": 85977
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ሸምሰዲን ዳውድ አሰፋው",
+      "votes": 331
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ዩሱፍ አራጋው ይመር",
+      "votes": 256
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አሊ ይመር አህመድ",
+      "votes": 236
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ሰላማዊት በላይ ተሰማ",
+      "votes": 157
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ቢኒያሚን ሰይድ ፊንቴ",
+      "votes": 151
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አብደላ ቡሹራ ይመር",
+      "votes": 133
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ሸጋ ምስጋናው ሽፈራው",
+      "votes": 129
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ሞላ መልካሙ ከበደ",
+      "votes": 82771
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ባንቺይርጋ መላሠ ሻሹ",
+      "votes": 81981
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ግዛቸው አዳነ ጥሩነህ",
+      "votes": 5407
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "መልካሙ ቻላቸው ዳኘው",
+      "votes": 4845
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "አንዳላው አድማሱ በላይ",
+      "votes": 4796
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ነጋ ወርቁ መኮንን",
+      "votes": 4562
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ሙሉቀን መላኩ ውብነህ",
+      "votes": 3708
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ትግስት አበየ ዘገየ",
+      "votes": 3683
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ገብረፃድቅ ማንደፍሮ መኳንት",
+      "votes": 3576
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "ብርሃኑ ማምለለው ከበደ",
+      "votes": 52791
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "አብታ ሰውመሆን ተክሉ",
+      "votes": 52271
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "ኃይለማርያም ደበበ አበሻ",
+      "votes": 4309
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "ሀብታሙ ግዛቸው ተመስገን",
+      "votes": 2033
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "ፍሬህይወት አሰፋው ነጋ",
+      "votes": 1833
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "ቢኒአም አሰማረ ሰንሰ",
+      "votes": 1798
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "መታደል መስፍን አዱኛ",
+      "votes": 1796
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "አምባቸው አሊ ሀይሉ",
+      "votes": 1412
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "የሻረግ ዘለቀ ተገኝ",
+      "votes": 1101
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "አጣናው ተገኝ ሳልሰው",
+      "votes": 652
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "አባይነሽ ታደሰ ኪዳኑ",
+      "votes": 28284
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "ደሳለኝ ጣሰው አስረስ",
+      "votes": 27859
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "ፀዳለ አሰፋው ነጋ",
+      "votes": 4320
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "ሳቂያ ፈንታ ዮኋስ",
+      "votes": 3799
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "አበበ አሰፋ ጥላሁን",
+      "votes": 1080
+    }
+  ]
+}

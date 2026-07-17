@@ -1,0 +1,178 @@
+{
+  "pdf": "elected_rc",
+  "page": 52,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "እመቤት ገዛኸኝ ይታይልኝ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "በሻቱ ቶለማርያም ተረፈ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አስፋው ተክሌ አህመድ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ካሙዙ ካሳ ላሌ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሹሜ ግዛው በንቲ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ጋትዌች ዎር ዲየው"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ፍፁም ሀይሌ ተፈሪ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ኒዕመተላህ ከበደ አሰፋ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ቡዜና አልከድር ሐጅዙሊ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "መሐመድ እንድርሰ አሊ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሙሉጌታ አየለ ሐሊቦ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ፀሐይ ኪባሞ አቆቾ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አብዱልቃድር ሬድዋን ከማል"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ፍፁም ዘገዬ በዬቻ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ንጉስ ታደሰ በሼ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሞላ ንጉስ ፈንታቢል"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ብሩክ ታዬ ገመዳ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ቃልኪዳን የማነ ሀይሉ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ከበደ አለሙ ወልደሃና"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ደሳለኝ ሙሉጌታ ግርማይ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ማሾ ወላና ቡልቶ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ግዛቸው አይካ አልቤ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "በላይ ደጀን ጨመረ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ትዕግስት ሀሚድ መሀመድ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ጌታቸው አዳሙ ዘሪሁን"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ዓለማየሁ አረዳ በየነ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ወርቅነሽ ምትኩ ፈይሳ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ወልዴ ወገኔ ናአ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "አያልነሽ ሀብተማርያም ዲዶ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ሙሉመቤት ታደሰ ረታ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ተሠማ አብሸሮ ብዛ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ሚኢሳ ኢለማ ሮቤ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ሙሉጌታ አበበ ጎሹ"
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ጉለሌ",
+      "candidate": "ዜና ፈረደ ተክሌ"
+    }
+  ]
+}

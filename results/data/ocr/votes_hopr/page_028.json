@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 28,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "ተስፋዬ ዮናስ አፈድ",
+      "votes": 872
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አብ ደብረ ጸሐይ",
+      "candidate": "ጋሻያው ጋላ ጋላዳ",
+      "votes": 14530
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አብ ደብረ ጸሐይ",
+      "candidate": "ዋላልኝ አለሙ አዛኝ",
+      "votes": 9979
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አብ ደብረ ጸሐይ",
+      "candidate": "እያሱ አዳላ ኬታ",
+      "votes": 990
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አብ ደብረ ጸሐይ",
+      "candidate": "ምህረት አህመድ ሰይድ",
+      "votes": 955
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "አስቴር ዳዊት ጦሼ",
+      "votes": 52915
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ሰይፉ አላሮ አሻንጎ",
+      "votes": 5743
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ሉሉ ጌታ ጋኔቦ",
+      "votes": 3454
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ሳሙኤል ጴጥሮስ ጉንታ",
+      "votes": 1612
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ቡንጌ ቡሩንጄ ቡናሮ",
+      "votes": 1525
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ማቱሳል ማሳቆ ማንዳዶ",
+      "votes": 1196
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ዓለሙ ገልዳ ገሻና",
+      "votes": 581
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ትዕግስት ጳውሎስ ሀንቼ",
+      "votes": 533
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "አብርሃም ጦና መንታ",
+      "votes": 393
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "አንድነት ሞጋ ሊንጫ",
+      "votes": 380
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "አበራ መንገሻ ማላቦ",
+      "votes": 377
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "ኤርሚያስ ታምሩ መልክ",
+      "votes": 220
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "ወልደየስ ደበበ ደልኪ",
+      "votes": 47825
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "ኤስምዳኪ ግዛቸው ግራአዝማችቆልሸች",
+      "votes": 12585
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "አማኑኤል ማርቆስ አሙኑ",
+      "votes": 2063
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "ታሪኩ ገረሱ ጭሊ",
+      "votes": 1835
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "መርከብ ሰርጎ ሰርኬ",
+      "votes": 986
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "ባንቲ በርገና ማዴቦ",
+      "votes": 957
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "አልማዝ አሳሌ ኤርጋዶ",
+      "votes": 26503
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "ወለቦ ዮሐንስ አሳ",
+      "votes": 5508
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "ሳሙኤል ግዴቦ ጋይቦ",
+      "votes": 1600
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "አበል ገርሙ ካቻሌ",
+      "votes": 676
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "ኤፍሬም ኤርምያስ ጆርጌ",
+      "votes": 300
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "ገዛኸኝ ጋታሮ ጋርማሞ",
+      "votes": 297
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦሶሶ ሶሬ 1",
+      "candidate": "ቃልኪዳን አሰፋ አቡቴ",
+      "votes": 293
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "አንድርያስ ጌታ ቤልዲዳ",
+      "votes": 59875
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "ወርቁ ደጊሶ ዶኮ",
+      "votes": 3288
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "ዮናስ ኤልያስ ሜኪሶ",
+      "votes": 2724
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "አብርሃም ሰማ ታደሰ",
+      "votes": 760
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "ደመቀች ደሳለኝ ዳርጫ",
+      "votes": 526
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "አልሰ አታሎ ዱጋ",
+      "votes": 292
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "ወንድሙ ካጮ ካማ",
+      "votes": 290
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "ፈረጀ ዳንጬ ጌቸሬ",
+      "votes": 256
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "ዘካሪያስ ፋልቶ ኡፎ",
+      "votes": 215
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋ ጨፌ 1",
+      "candidate": "ከበበሽ ሸፈራው ሮቤ",
+      "votes": 23263
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋ ጨፌ 1",
+      "candidate": "ገዛሀኝ ዮሃንስ ዳላቻ",
+      "votes": 1870
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋ ጨፌ 1",
+      "candidate": "ጨንቆ ማሞ ቤኑ",
+      "votes": 431
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋ ጨፌ 1",
+      "candidate": "ደበበ ዓለማየሁ ካሳ",
+      "votes": 272
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋ ጨፌ 1",
+      "candidate": "ተመስገን ተፈራ ሱሴ",
+      "votes": 224
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ይርጋ ጨፌ 1",
+      "candidate": "ዮሴፍ ጴጥሮስ ረይሳ",
+      "votes": 214
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "ተሾመ ታከለ ጨሜዳ",
+      "votes": 43725
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "አለምፀሐይ አብርሃም አላሮ",
+      "votes": 3465
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "ማስተዋል ታከለ ዱባ",
+      "votes": 1270
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "ረታ አንጄሎ ሕሡቶ",
+      "votes": 996
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "አማኑኤል ሞኒሶ ጌጃ",
+      "votes": 960
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "መስፍን መንግስቱ ጥላሁን",
+      "votes": 767
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "አድሱ ባልቻ ዋባሞ",
+      "votes": 464
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "ውብቱ አንጃሞ አልታሞ",
+      "votes": 294
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "ተገኝ ዋርካዬ አንዳቦ",
+      "votes": 190
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ዳጋቶ ኩምቤ ቆልቻ",
+      "votes": 56554
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ወልደማርያም ልሳኑ ቦቤ",
+      "votes": 5879
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ተስፋዬ አርቃቶ መጃ",
+      "votes": 1126
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ታመነች ታዴዎስ ጭናኖ",
+      "votes": 892
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ካሌብ ሞርካ ገበየሁ",
+      "votes": 886
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ተመስገን ቶራ ካጬ",
+      "votes": 740
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "በላይ በጋሻው አንዱላ",
+      "votes": 507
+    }
+  ]
+}

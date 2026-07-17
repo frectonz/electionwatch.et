@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 34,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አማራ",
+      "constituency": "ቅላጅ",
+      "candidate": "ጌታባለው ብርሃኑ መለሰ",
+      "votes": 1761
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቅላጅ",
+      "candidate": "ሙሉነሽ ብርሃኑ ማኔ",
+      "votes": 1546
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቅላጅ",
+      "candidate": "ዋኘው በላይ በዛብህ",
+      "votes": 1359
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቋሪት",
+      "candidate": "መኳንንት ወርቅነህ ከበደ",
+      "votes": 106478
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቋሪት",
+      "candidate": "ትግስት ጌትነት ሀረገወይን",
+      "votes": 102918
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቋሪት",
+      "candidate": "እስክዳር አማኛው ዘውዴ",
+      "votes": 2063
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "ግዛት አብዩ ጌታው",
+      "votes": 106562
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "አረጋኸኝ አበራ እንግዳ",
+      "votes": 83078
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "ቤተልሄም ካሴ አበበ",
+      "votes": 78094
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "ውብናት ጉቸ ካሴ",
+      "votes": 1739
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "አብርሀም መሳፍንት አቡየ",
+      "votes": 1244
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "ካሳው ቀናው ፍሬው",
+      "votes": 661
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "አክሊ ተገኘ ቸኮለ",
+      "votes": 499
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "ተመስገን አዘዘ ተክሉ",
+      "votes": 483
+    },
+    {
+      "region": "አማራ",
+      "constituency": "በለሳ",
+      "candidate": "ወርቄ ካሳው ታደሰ",
+      "votes": 246
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡሬ",
+      "candidate": "አክሊለ ዘማነህ ጥሩየ",
+      "votes": 111325
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡሬ",
+      "candidate": "መስፍን አበጀ ተፈራ",
+      "votes": 11301
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡሬ",
+      "candidate": "ሞላ ሰፈፈ ሁነኛው",
+      "votes": 828
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡሬ",
+      "candidate": "ሰላምይሁን መኮንን አይነኩሉ",
+      "votes": 758
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡሬ",
+      "candidate": "መድሀኒት በላይነህ አባት",
+      "votes": 748
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ተስፋው ባታብል ደመቀ",
+      "votes": 127004
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ዮርዳኖስ መርሻ ዳምጠው",
+      "votes": 126399
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ንብረት ባህሩ አያሌው",
+      "votes": 112735
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ዳሳሽ ባዩ ከተማው",
+      "votes": 5255
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ጌታዬ ወዳጀነው ገበየሁ",
+      "votes": 4640
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ይርበቡ ሞላ ድካዉ",
+      "votes": 3112
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቡግና",
+      "candidate": "ደጉ ድረባ ከበደ",
+      "votes": 109
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባቲ",
+      "candidate": "ዑመር የህያ መሀመድ",
+      "votes": 84473
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባቲ",
+      "candidate": "ሀዋ አደም አብራሂም",
+      "votes": 84352
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባቲ",
+      "candidate": "ሁሴን መሃመድ አሊ",
+      "votes": 739
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባቲ",
+      "candidate": "ፈርዶስ አህመድ መሀመድ",
+      "votes": 560
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባቲ",
+      "candidate": "ሰይድ እንድሪስ ሰይድ",
+      "votes": 294
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ብቸና",
+      "candidate": "አደም ሙሀመድ የሱፍ",
+      "votes": 54944
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ብቸና",
+      "candidate": "ንፁህ አለማየሁ ውበት",
+      "votes": 54453
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ብቸና",
+      "candidate": "አንደኛው ጸጋ ይግዛው",
+      "votes": 1512
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ብቸና",
+      "candidate": "ሞላ ይርሳው ይብሬ",
+      "votes": 863
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ብቸና",
+      "candidate": "ረህማ አደም ሙሀመድ",
+      "votes": 668
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ብቸና",
+      "candidate": "ሙሉቀን አሰፋ አለሙ",
+      "votes": 231
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ጥላሁን ሽመልስ ተገኝ",
+      "votes": 97555
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሀና አለባቸው አሊ",
+      "votes": 97053
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ወርቅነሽ ረታ ሰንሰ",
+      "votes": 96378
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሙሀመድ ኡመር አደም",
+      "votes": 728
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሰይድ ዳምጠው አሰን",
+      "votes": 666
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሰይድ ይመር አህመድ",
+      "votes": 566
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ከሚላ እንድሪስ አሊ",
+      "votes": 538
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ኢብራሂም አቡተ ካሳው",
+      "votes": 489
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሙሀመድ በጋለ ሞላ",
+      "votes": 378
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሰይድ እንድሪስ ሁሴን",
+      "votes": 305
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ተንታ",
+      "candidate": "ሰይድ ስጦታው ቸሬ",
+      "votes": 113
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "ግዛቸው ሙሉነህ አበበ",
+      "votes": 49974
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "ዘውዲቱ ወርቄ ወልደጊዮርጊስ",
+      "votes": 48613
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "የሻምበል አለምረው ወልደማርያም",
+      "votes": 2169
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "ተስፋዬ አያሌው ተገኝ",
+      "votes": 1982
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "የሽወርቅ ጎላ ፀጋ",
+      "votes": 1754
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "ፍቅር መብራቴ ስመኝ",
+      "votes": 1751
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "ብዙዓየሁ ስንታየሁ ይርዳው",
+      "votes": 1640
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቲሊሊ",
+      "candidate": "ሻምበል አደም ይመር",
+      "votes": 1230
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቻግኒ",
+      "candidate": "ቴዎድሮስ አንዳላው ትኩ",
+      "votes": 56610
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቻግኒ",
+      "candidate": "የሺሀረግ አበበ ለማነህ",
+      "votes": 54487
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ቻግኒ",
+      "candidate": "አማረ ተስፋነኝ አናጋው",
+      "votes": 6285
+    }
+  ]
+}

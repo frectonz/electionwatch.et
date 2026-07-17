@@ -1,0 +1,273 @@
+{
+  "pdf": "elected_hopr",
+  "page": 3,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "አብናት 1",
+      "candidate": "ህሊና አክለው ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምከም 1",
+      "candidate": "የመንግስት ፀጋው ዋለልኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ወገራ 1",
+      "candidate": "መስፍን አርካቤ ምራጭ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢያ 1",
+      "candidate": "በላይ ገበያው አበራ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና 1",
+      "candidate": "ጌታቸው ወድ ይመር"
+    },
+    {
+      "region": "",
+      "constituency": "ጭልጋ 1",
+      "candidate": "አላምረው አበራ አያሌው"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 1",
+      "candidate": "ዮሐንስ መስፍን ገበየሁ"
+    },
+    {
+      "region": "",
+      "constituency": "ፎገራ 1",
+      "candidate": "ጥላሁን ደጀኔ ታከለ"
+    },
+    {
+      "region": "",
+      "constituency": "መቄት 2",
+      "candidate": "ፍቅር አባይ አናውጥ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳይንት 2",
+      "candidate": "መሃመድ ቡሽራ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ስማዳ 2",
+      "candidate": "ጋሻው ዳኘው ላቀው"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሉ 2",
+      "candidate": "ፋጡማ ይማም አብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ተሁለደሬ 2",
+      "candidate": "ደመቁ አበበ ክብረት"
+    },
+    {
+      "region": "",
+      "constituency": "እስቴ 2",
+      "candidate": "ስለናት በሪሁን ቢሰውር"
+    },
+    {
+      "region": "",
+      "constituency": "አብናት 2",
+      "candidate": "አስብለው መብራት ተሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምከም 2",
+      "candidate": "አዲኛ ጥጋቡ መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "ወገራ 2",
+      "candidate": "ፅጌ የሽበር ደጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢያ 2",
+      "candidate": "ባዜን ሽባባው አለማየሁ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና 2",
+      "candidate": "አይናለም ንጉሴ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ታከለ ደርሶ በላይ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 2",
+      "candidate": "መሰረት ሞላ ካሳሁን"
+    },
+    {
+      "region": "",
+      "constituency": "ፎገራ 2",
+      "candidate": "ደጅድጥኑ አሰነ ዘውዴ"
+    },
+    {
+      "region": "",
+      "constituency": "እስቴ 3",
+      "candidate": "ደሴ አሰሜ ምትኩ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 3",
+      "candidate": "ሂሩት ካሳው ወንድም"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ቡሬ ሞዳይቱ / Gawwaani Buremoodayto",
+      "candidate": "ኤሜሴ ሀመዱ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ / Awaash Fanti Qazle",
+      "candidate": "ሙሳ አደም ዑመር"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አብአላ / Abqaala",
+      "candidate": "አይሻ መሀመድ ሙሣ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳይታ / Aysaqiita",
+      "candidate": "ፋጡማ አወል ዊቲካ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ / Dubti",
+      "candidate": "ሐሰን አብዱልቃድር በርከት"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጉሊና / Golina",
+      "candidate": "ሐመዱ ገአስ መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አሚባራ / Qammi baxa",
+      "candidate": "አብዱ ሀሰን መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዳሌፋጌ / xaaleefaage",
+      "candidate": "በርአ ሀሰን በርአ"
+    },
+    {
+      "region": "",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "ከተማ በቀለ ዳዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ዘሪሁን ፋይራ ተመስገን"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "ነጅህ አህመድ አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "አብዲሳ ይልማ ትኪ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ / Bulee Horaa",
+      "candidate": "ጉሚ ቦሩ ጌዶ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቴ ደራ / Abootee Darraa",
+      "candidate": "እመቤት መኮነን ዋቅጅራ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳአ በርጋ / Ada'aa Bargaa",
+      "candidate": "ናኦል አበበ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
+      "candidate": "ኢሳ ሀሰን ሙሃመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ጤና / ቦቴ / Alam Xeenaa / Botee",
+      "candidate": "ሜላ ለማ አርጌ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
+      "candidate": "ሺፈራው ተሊላ ሰንበቱ"
+    },
+    {
+      "region": "",
+      "constituency": "አይራ ጉሊሶ / Ayiraa Gullisoo",
+      "candidate": "ኤፍሬም ተሰማ ታፈሠ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኮ ቲቤ / Baakkoo Tibbee",
+      "candidate": "ራሔል ነገሮ ጉቱ"
+    },
+    {
+      "region": "",
+      "constituency": "በረህ አለልቱ / Barah Alaltuu",
+      "candidate": "ፍቃዱ ተሰማ ደገፉ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎ መና / Daalloo Mannaa",
+      "candidate": "ሙሀመድ አብዶ ቱኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ገመቹ ፋፋ ማመዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ታደለች ተስፋ ጫላ"
+    },
+    {
+      "region": "",
+      "constituency": "ዱግዳ መቂ / Dugdaa Maqii",
+      "candidate": "ሎሚ በዶ ቄምቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ፉኛን ቢራ / Funyaan Biraa",
+      "candidate": "ሲራጅ አብዱላሂ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ገቺ ቦረቻ / Gachii Boorechaa",
+      "candidate": "ልድያ ጫሊ አርጋታ"
+    },
+    {
+      "region": "",
+      "constituency": "ገደብ ሀሳሳ / Gadab Hasaasaa",
+      "candidate": "ሩቅያ አልይ ካዎ"
+    },
+    {
+      "region": "",
+      "constituency": "ግንደ በረት / Gindabarat",
+      "candidate": "በይሳ በዳዳ በዳሳ"
+    }
+  ]
+}

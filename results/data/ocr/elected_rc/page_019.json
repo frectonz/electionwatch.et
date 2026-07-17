@@ -1,0 +1,223 @@
+{
+  "pdf": "elected_rc",
+  "page": 19,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "አወል አብዱ አወል"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "መሀመድ ሀሰን መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "መሀመድ አወል አምአሶ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "ፋጡማ መሀመድ አብራሂም"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "ፋጡማ አብዱ አሲያይቱ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "ዛህራ ሐመድ ዓሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "ናስር ሀመዱ ናስር"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "አብዱ ሙሳ ሁሴን"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱብቲ ወረዳ / Dubtî Daqaara",
+      "candidate": "አለሚራህ መሀመድ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱሎቻ ወረዳ / Dullassah Daqaara",
+      "candidate": "መሀመድ አስኬር ደቦ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱሎቻ ወረዳ / Dullassah Daqaara",
+      "candidate": "ከዲጋ አደን አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ዱሎቻ ወረዳ / Dullassah Daqaara",
+      "candidate": "አሲያ ከማል ዩሱፍ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤረብቲ ወረዳ / Erebtî Daqaara",
+      "candidate": "ሷሊህ አሊዩ ሷሊህ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤረብቲ ወረዳ / Erebtî Daqaara",
+      "candidate": "ጣህራ አወል ቡሁስ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤረብቲ ወረዳ / Erebtî Daqaara",
+      "candidate": "ኡስማን መሀመድ ኡማዳ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ሀመዱ አሊ ሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ማቴ ሁመድ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "መሐመድ ሀሙዱ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ጌኤር አልዮ ሁሴን"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ኡርጉያ ያይሰ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ፋጡማ ሁመድ ሃሎ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "አብዶ አሊ አቡበከር"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ኡመር መሀመድ ሁሴን"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ገዋኔ ወረዳ / Gawwaanih Daqaara",
+      "candidate": "ጣሂሮ አብደላ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጉሊና ወረዳ / Gulinah Daqaara",
+      "candidate": "ፋጡማ መሀመድ ሙሳ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጉሊና ወረዳ / Gulinah Daqaara",
+      "candidate": "ጀማል ሮብሌ ጋይታ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጉሊና ወረዳ / Gulinah Daqaara",
+      "candidate": "መአር ሁመድ መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኩናባ ወረዳ / Konnabi Daqaara",
+      "candidate": "መሀመድ ሁሴን ኢድሪስ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኩናባ ወረዳ / Konnabi Daqaara",
+      "candidate": "ፋጡማ ሙሳ መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኩናባ ወረዳ / Konnabi Daqaara",
+      "candidate": "ኤይጃ መሀመድ አብደላ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኮሪ ወረዳ / Kori Daqaara",
+      "candidate": "አህመድ አብዱልቃድር መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኮሪ ወረዳ / Kori Daqaara",
+      "candidate": "አሲያ ሀለዮ መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኮሪ ወረዳ / Kori Daqaara",
+      "candidate": "ሰዲቅ አህመድ መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "መጋሌ ወረዳ / Magaalê Daqaara",
+      "candidate": "እድሪስ ፋሩዴ መኬምያ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "መጋሌ ወረዳ / Magaalê Daqaara",
+      "candidate": "መዲና ሙሳ ሳሊህ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "መጋሌ ወረዳ / Magaalê Daqaara",
+      "candidate": "አሊ ኢብራሂም ያህያ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "ቢላይ አህመድ ቢላይ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "ወለአ ቂቲካ አንዴ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "ፋጡማ አደም ዩሱፍ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "አሲያ ቦልኮ መሀመድ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "አሳወካ ሀይስ አሊ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "አህመድ መሀመድ ሀይስማ"
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "ዘሀራ ከድር ሀይስማ"
+    }
+  ]
+}

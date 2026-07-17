@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 98,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ንጉስ ታደሰ በሼ",
+      "votes": 105381
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሞላ ንጉስ ፈንታቢል",
+      "votes": 102372
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ብሩክ ታዬ ገመዳ",
+      "votes": 100620
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ቃልኪዳን የማነ ሀይሉ",
+      "votes": 28926
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ከበደ አለሙ ወልደሃና",
+      "votes": 28847
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ደሳለኝ ሙሉጌታ ግርማይ",
+      "votes": 28738
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ዘሪሁን አሰራት አርጋው",
+      "votes": 28406
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሙላት ባንቴ ደፈሪ",
+      "votes": 26031
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "እፀገነት ረጋሳ መገናሳ",
+      "votes": 23525
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አፈወርቅ ካሣ አየለ",
+      "votes": 23411
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ዮሴፍ አሻግሬ መብሬ",
+      "votes": 22572
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተስፋው አያሌው እምሩ",
+      "votes": 22189
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሰለሞን አሰፋ ካሳ",
+      "votes": 22065
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ስርጉት ግርማ ባልቻ",
+      "votes": 21017
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተስፋዬ ይማም ከበደ",
+      "votes": 20937
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "እስክንድር ሲሳይ በየነ",
+      "votes": 20655
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አላዛር አለማየሁ ገመዳ",
+      "votes": 18956
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተክለማርያም ተሾመ ኪዳኔ",
+      "votes": 13770
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ቅድስት አሰራት ከበደ",
+      "votes": 13172
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሚላት ሞላ እንዳርጌ",
+      "votes": 13080
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ክፍያለው ብዙነህ መርዕድ",
+      "votes": 12980
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ታደሰ ሹሜ ኃይሉ",
+      "votes": 12129
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ልኡልሰገድ ይማም እንድሪስ",
+      "votes": 11876
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "መቅደስ ኤልሳ አደአ",
+      "votes": 11094
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ገረመው አያሌው በቀለ",
+      "votes": 10946
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሱራፌል ተገኝ ነጋሳ",
+      "votes": 10799
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሮብሰን መኮንን ሞሲሳ",
+      "votes": 10405
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "መላኩ አናግሬ ፈለቀ",
+      "votes": 10399
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ናስር አድሪስ ኢብራሂም",
+      "votes": 10351
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ትጉ ልቤ በሻህ",
+      "votes": 10099
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ይርጋዓለም ወልደየሱስ ኃምዛ",
+      "votes": 10088
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ዮሴፍ ወዳጄ ደስታ-ማዱ",
+      "votes": 10038
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ቶሎሳ አደሬ ገንፋ",
+      "votes": 9581
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሀሊና በልሁ በሻውረድ",
+      "votes": 9483
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ወንድም መውደዱ ይመር",
+      "votes": 9236
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ወንደሰን ተፈራ በላይነህ",
+      "votes": 9179
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አብርሃም ዘውዴ ሣህሌ",
+      "votes": 8977
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሀብታሙ ዳኛው ተሾመ",
+      "votes": 8922
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ከንዴ ካሴ ዳኛው",
+      "votes": 8913
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "መዝገቡ አይናበበ ብርሃኑ",
+      "votes": 8818
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ጌታቸው አበበ ጥላሁን",
+      "votes": 8664
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ብሩክ ኪዳኔ ገብረጊዮርጊስ",
+      "votes": 8581
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ዘሪሁን ደመቀ ዳምጠው",
+      "votes": 8466
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "መሰረት መለሰ አሰፋ",
+      "votes": 8225
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ንጉሴ ገብሬ ካብቲይመር",
+      "votes": 8214
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ብሩክ አየለ አፍን",
+      "votes": 8192
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሳባ መለሰ ተስፋዬ",
+      "votes": 7947
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሴንሳ ተፈሪ መኮንን",
+      "votes": 7893
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አንደኛው አምሻው ተምትም",
+      "votes": 7818
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተመስገን ታደሰ አለማየሁ",
+      "votes": 7647
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አንተነህ ንጉሴ ክንፉ",
+      "votes": 7565
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ረሺድ ሀሰን ይመር",
+      "votes": 7450
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ጌትነት ወርቁ ተሾመ",
+      "votes": 7430
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ላሎቴ መንግሥቱ አለሙ",
+      "votes": 7417
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሰለሞን ገብረሃና ደምሴ",
+      "votes": 7331
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተፈራ ቢኒ ባዩሳ",
+      "votes": 7270
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተሻለ ወዳጄ ጂጃ",
+      "votes": 7081
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሞገስ ሀይለሚካኤል ፈለቀ",
+      "votes": 6802
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ተሰማ ዘርጋው እኩራጋ",
+      "votes": 6704
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ኤልያስ ታምራት ስዩም",
+      "votes": 6644
+    }
+  ]
+}

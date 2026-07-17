@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 14,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አማራ",
+      "constituency": "ዳርቤቴ",
+      "candidate": "ጎሹ እንዳላማው ወንድምአገኝ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ዳርቤቴ",
+      "candidate": "አሰፋ ጥላሁን በየነ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ዳንግላ",
+      "candidate": "ጥላሁን ወርቅነህ ተክሌ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ዳንግላ",
+      "candidate": "አጀበ ስንሻው ጓዴ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጃጋ",
+      "candidate": "ስርክአዲስ አታሌ ገሠሠ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጃጋ",
+      "candidate": "አሳየ ምህረቴ ካሳ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጃናሞራ",
+      "candidate": "አባይ መንግስቴ ሰላምሰው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጃናሞራ",
+      "candidate": "ዞማ ደርሶ ተስፋ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጃናሞራ",
+      "candidate": "አንኮይ ጌጋቴ መርሻ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ገርጨጭ",
+      "candidate": "በላይ ወንድማገኝ አየነው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ገርጨጭ",
+      "candidate": "ካሳየ ግርማ ሹቴ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጉባላፍቶ",
+      "candidate": "ጋሻው አወቀ ትኩዬ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጉባላፍቶ",
+      "candidate": "ለምለም ሲሳይ ማርዬ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጉባላፍቶ",
+      "candidate": "አስናቀች ኃይሌ ከበደ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግዳን",
+      "candidate": "ጋሻው አስማሚ ምህረቱ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግዳን",
+      "candidate": "ታምራት ንጋቱ ጣሰው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንጂ",
+      "candidate": "ጋሻው ሙጬ አለምነው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንጂ",
+      "candidate": "ደመቀ መላኩ ሀይሉ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንጂ",
+      "candidate": "ላቀው ንጋቱ ቢተው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎዛምን",
+      "candidate": "መሰሌ ሞትባይኖር ከብቴ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎዛምን",
+      "candidate": "ሀይሌ አበበ ብዙአየሁ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጫጫ",
+      "candidate": "ነጋሽ ሀይለልኡል ገብረፃድቅ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጫጫ",
+      "candidate": "ይትባረክ ትርፌ ወርቄ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ አርማጭሆ",
+      "candidate": "ብርቱካን ሲሳይ እንየው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ አርማጭሆ",
+      "candidate": "እናና ዮሐንስ ኀላ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "መሐል ሜዳ",
+      "candidate": "ተክለየስ በለጠ አሸናፊ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "መሐል ሜዳ",
+      "candidate": "አፀደ ተሾመ ማናዬ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "መሐል ሜዳ",
+      "candidate": "ቤተልሄም አበራ ላቀ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "መርጦ ለማርያም",
+      "candidate": "አበባው በለጠ መንገሻ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "መርጦ ለማርያም",
+      "candidate": "ስመኘው አጥናፉ ሸፈራው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ራያ ቆቦ",
+      "candidate": "ከድር ሙስጠፋ ሙሀመድ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ራያ ቆቦ",
+      "candidate": "መንግሻ አየነ እጅጉ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ራያ ቆቦ",
+      "candidate": "መንግሻ ፈንታው ንጋቱ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ሾላ ገበያ",
+      "candidate": "መካሻ አለማየሁ ግዛው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ሾላ ገበያ",
+      "candidate": "አስናቀች ግርማ ተክሌ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች ጋይንት",
+      "candidate": "መንበር አፈራው ታደሰ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች ጋይንት",
+      "candidate": "ስናይት አስፈራው ከበደ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለም ከተማ",
+      "candidate": "ሐረገወይን ገለታ ተጫኔ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለም ከተማ",
+      "candidate": "መነን ደጀን ወዳጀ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አዲስ ቅዳም",
+      "candidate": "ዘለቀ ክፋለ ወርቅነህ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አዲስ ቅዳም",
+      "candidate": "መሰረት በሌ ሞገስ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ኮሶ በር",
+      "candidate": "አለሙ ሰውነት ላቀው"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ኮሶ በር",
+      "candidate": "አየን ብርሃን አበበ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወይን አምባ",
+      "candidate": "እሸቱ የሱፍ አየለ"
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወይን አምባ",
+      "candidate": "አረጋሽ በላይ ዘለቀ"
+    }
+  ]
+}

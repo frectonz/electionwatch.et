@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 27,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጉቴ / Guutee",
+      "candidate": "ፍቃዱ ገመዳ ጎሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉቴ / Guutee",
+      "candidate": "ገልገሌ ታደሰ ክትላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉቴ / Guutee",
+      "candidate": "ዳሙ ፋዬራ ጊና"
+    },
+    {
+      "region": "",
+      "constituency": "ሐረዋጫ / Haraawachaa",
+      "candidate": "አሊዪ መሀመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ሐረዋጫ / Haraawachaa",
+      "candidate": "ሼ ኢብረሂም አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐረዋጫ / Haraawachaa",
+      "candidate": "አዚዛ ዳውድ የሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ሂርና / Hiirnaa",
+      "candidate": "ጫልቱ ሳኒ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ሂርና / Hiirnaa",
+      "candidate": "ሙና አህመድ ደሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ሂርና / Hiirnaa",
+      "candidate": "አህመድ አድሪስ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ኢታያ / Itayya",
+      "candidate": "ስሜ ፀጋዬ ባጅጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢታያ / Itayya",
+      "candidate": "ሻሎ አለሙ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ኢታያ / Itayya",
+      "candidate": "ጠይባ ሁሴን ሌንጂሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጃራ / Jaarraa",
+      "candidate": "ኢዘዲን አቡበከር ኬድር"
+    },
+    {
+      "region": "",
+      "constituency": "ጃራ / Jaarraa",
+      "candidate": "ሙናወራ ኢብሮ ሳሊስ"
+    },
+    {
+      "region": "",
+      "constituency": "ጃራ / Jaarraa",
+      "candidate": "ብዙነሽ በቀለ ደበሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጀልዱ / Jalduu",
+      "candidate": "ድዳ ጉዳታ ደባላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጀልዱ / Jalduu",
+      "candidate": "ወርቅነሽ በርሲሳ ቡልቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጀልዱ / Jalduu",
+      "candidate": "አጀማ ጎንዶል ዋሚ"
+    },
+    {
+      "region": "",
+      "constituency": "ከሞና / Kamoonaa",
+      "candidate": "ሙርቴሳ መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ከሞና / Kamoonaa",
+      "candidate": "አሚን መሀመድ ዮኒስ"
+    },
+    {
+      "region": "",
+      "constituency": "ከሞና / Kamoonaa",
+      "candidate": "አሻ መሀመድ ሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኮሳ / Kokosaa",
+      "candidate": "ሱቦ ንጋቱ ቃባቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኮሳ / Kokosaa",
+      "candidate": "ጎበኔ አንሻ ቶርቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮኮሳ / Kokosaa",
+      "candidate": "አብዲ ሁሴ ሣዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩላ / Kuula",
+      "candidate": "ተማማ ተማም አማን"
+    },
+    {
+      "region": "",
+      "constituency": "ኩላ / Kuula",
+      "candidate": "ሰይፉ አብዲላ ኩርኩሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩላ / Kuula",
+      "candidate": "ታደሰ ንጉሴ አዬቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩዩ / Kuyyuu",
+      "candidate": "አቢ ተፈራ ቶላ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩዩ / Kuyyuu",
+      "candidate": "የሺ ጅማ ጣፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ኩዩ / Kuyyuu",
+      "candidate": "አደሬ ንጉሴ አቦሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሎ / Laaloo",
+      "candidate": "ትግስት ፋፋ ኒካሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሎ / Laaloo",
+      "candidate": "ገመቹ ዋቅጅራ ገበሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ላሎ / Laaloo",
+      "candidate": "ሹሜ ካሜ ጫዋቃ"
+    },
+    {
+      "region": "",
+      "constituency": "ሌመን / Leemman",
+      "candidate": "ይታሳ በየነ ዳበላ"
+    },
+    {
+      "region": "",
+      "constituency": "ሌመን / Leemman",
+      "candidate": "ወርቅነህ ተፈራ ሆርዶፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ሌመን / Leemman",
+      "candidate": "ስንታየሁ ለገሰ ታፈሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ማና / Maannaa",
+      "candidate": "ሰምረዲን አህመድ ያሲን"
+    },
+    {
+      "region": "",
+      "constituency": "ማና / Maannaa",
+      "candidate": "አይሻ ጀበል አባሚሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ማና / Maannaa",
+      "candidate": "ሮዛ ቢያ አባመጫ"
+    },
+    {
+      "region": "",
+      "constituency": "መንዲ / Mandii",
+      "candidate": "ለሊሴ ኢታና ጅማ"
+    },
+    {
+      "region": "",
+      "constituency": "መንዲ / Mandii",
+      "candidate": "ደበሊ ተሰማ ባዬታ"
+    },
+    {
+      "region": "",
+      "constituency": "መንዲ / Mandii",
+      "candidate": "ዳንኤል ቸርነት ሸፈራው"
+    },
+    {
+      "region": "",
+      "constituency": "መሰላ / Masalaa",
+      "candidate": "ሸምሱዲን አብራሂም አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መሰላ / Masalaa",
+      "candidate": "መፍቲሃ አሊይ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "መሰላ / Masalaa",
+      "candidate": "ፉርዶሳ ጣህር አህመድ"
+    }
+  ]
+}

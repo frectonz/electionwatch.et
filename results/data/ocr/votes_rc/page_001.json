@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 1,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "መሳይ ሙሉነህ ሳላቶ",
+      "votes": 4977
+    },
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ማህሌት ዘውዱ በቀለ",
+      "votes": 4436
+    },
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ዕንረዳ ሚኪያስ ወርቃለማሁ",
+      "votes": 3665
+    },
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "አህመድ በከሪ መሀመድ",
+      "votes": 3636
+    },
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ምስራቅ የማነብርሃን ብርሃኑ",
+      "votes": 3610
+    },
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ተረፈ ሽማልስ ለማ",
+      "votes": 3559
+    },
+    {
+      "region": "ሃረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ዝናቡ አየለ ወልደማርያም",
+      "votes": 3270
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዳመነ ደባልቄ ጉጃ",
+      "votes": 59749
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዮሐንስ ዮና ሴኒዴ",
+      "votes": 59679
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "መምሩ ሞኬ ደበቆ",
+      "votes": 59399
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ማዘንጊያ ሸንቶክ ሀሪሶ",
+      "votes": 58790
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ገነት ዌና ቱሌ",
+      "votes": 58048
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "መንገሻ ቤና ጅሎ",
+      "votes": 58009
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዋርቄ ሻላ ቃሬ",
+      "votes": 57447
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አዳነች አርሹ ድጋሎ",
+      "votes": 57263
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ፍሰሀ ፍቾላ ባኩሎ",
+      "votes": 56405
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ቡንቱክ ዳንጉራ ዳዋሳ",
+      "votes": 3113
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ሹሬ በየነ ፋቴ",
+      "votes": 2086
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ኢያሱ ወርቄ ትሮ",
+      "votes": 1978
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ሓሮዬ ሃየሶ አደመ",
+      "votes": 1944
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አሻግሬ ቡጡጣ ቱሩ",
+      "votes": 1919
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ምትኩ ኮርጆ ጉታ",
+      "votes": 1889
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ድርሻዬ ደስታ ደጌታ",
+      "votes": 1876
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "እሸቱ ሾናቃ ጉራቻ",
+      "votes": 1873
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ክፍለ ባርሶ ኩቶ",
+      "votes": 1816
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዮሀንስ ዮና ዳኬሮ",
+      "votes": 1664
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ጃጃሳ ጃጎ ዳሣ",
+      "votes": 1544
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "በቀለች ቴከ ሀንጦሳ",
+      "votes": 1514
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ትረፌ ገታቸው ኪአሞ",
+      "votes": 1486
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አማኑኤል አስፋው አዳሞ",
+      "votes": 1473
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አለሊረች አዳሞ ቦሩ",
+      "votes": 1453
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አለማየሁ ጮኮ ጎብሴ",
+      "votes": 1451
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ስጦታ ኃይለማርያም ጨአ",
+      "votes": 1448
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አሸናፊ ጫሳ ደካሴ",
+      "votes": 1359
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አይናለም አስፋው አዳሞ",
+      "votes": 1329
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አዳነች አድሱ ማንዳፉሮ",
+      "votes": 1329
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ተሻለ ቴንጋሞ አለልቻ",
+      "votes": 1297
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ሰገሰ ናታ ሚሾ",
+      "votes": 1295
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ታምሩ መልመላ ፋቴ",
+      "votes": 1279
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ካሳ ዩኩራ ዮና",
+      "votes": 1267
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ታረቀኝ ታፈሰ አዴሶ",
+      "votes": 1255
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ተዘራ ታመነ ወሴ",
+      "votes": 1240
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ክፍሌ ሀዴ ብሩ",
+      "votes": 1222
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ጀምበር ዘውዴ ሀሜሴ",
+      "votes": 1182
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "መሰለች መንጋሻ ማሞ",
+      "votes": 1155
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ቦዮ ቱኬ ቱራ",
+      "votes": 1151
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ሻውላ ፋና ጉጃ",
+      "votes": 1144
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ታረቀኝ ታዬ ኪአ",
+      "votes": 1139
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዘውዴ ሐጋያ ሐሮ",
+      "votes": 1129
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ፅጌ ሄዊሶ ያንቦ",
+      "votes": 1124
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ድንብሾ ፀጋዬ አበበ",
+      "votes": 1123
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ሮዳ ሰለሞን አማዶ",
+      "votes": 1119
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ሰገሰ ቡቼ ዳሊቻ",
+      "votes": 1110
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ኤልያስ ጋዳ ገረሙ",
+      "votes": 1094
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ታፈሰ ፍሰሃ ሎሚሶ",
+      "votes": 1088
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ፀጋዬ ጂሎ ገበሮ",
+      "votes": 731
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ለገሠ በርሳሞ ቦሮጆ",
+      "votes": 688
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አየለ አድሱ አሱፋ",
+      "votes": 669
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አብርሃም ጂሎ ግባሮ",
+      "votes": 655
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ቡሎሞ ቡካ ቦሮጆ",
+      "votes": 606
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 78,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሰዶ",
+      "candidate": "ዘለቀ አያሌው ደንበል",
+      "votes": 5959
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሰዶ",
+      "candidate": "ነጋልኝ መኩርያ ፈለቀ",
+      "votes": 5556
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሰዶ",
+      "candidate": "ትጉነህ ትዕዛዙ ወልደሀረጋይ",
+      "votes": 5290
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሰዶ",
+      "candidate": "እምወድሽ አድነው ወልዴ",
+      "votes": 5243
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሰዶ",
+      "candidate": "ከንፈ ግዛው አለማየሁ",
+      "votes": 4385
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ግርማ ጌቻሞ ዋርሲዶ",
+      "votes": 51450
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ባዩሽ ተስፋዬ አየለ",
+      "votes": 51442
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ምህረት ዮሴፍ ድብሎ",
+      "votes": 51125
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አበበ አበሞ ሚልክሶ",
+      "votes": 50497
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "እሼቱ ተከተል ባቴኖ",
+      "votes": 6634
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ዮናስ አማኑኤል አናሞ",
+      "votes": 611
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ተስፈዬ ሄሬጎ ደአሞ",
+      "votes": 534
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አለምቱ አየለ ገብሬ",
+      "votes": 525
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አበዛሽ ብርሃኑ ዋሾሞ",
+      "votes": 520
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አብነት ዳዊት ቦዳ",
+      "votes": 506
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አልማዝ ደስታ ስኔቦ",
+      "votes": 506
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ምህርት በየና አማጆ",
+      "votes": 493
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አለባቸው ታደሰ ቦቄ",
+      "votes": 463
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "መሙሽ አበራ አበሜ",
+      "votes": 461
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ማቴዎስ አርፍጮ ሚቻቶ",
+      "votes": 405
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ካሣ ኤረንጎ አማዶ",
+      "votes": 404
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "በለጠ መኮሬ አላሆ",
+      "votes": 395
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ይስሐቅ ዎቻሞ ቦጅጎ",
+      "votes": 391
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ተስፍሁን ታደሰ ገብሬ",
+      "votes": 369
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ታደሰ ኤልያስ ኤርጋኖ",
+      "votes": 311
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "አማረች ኃይሌ ጎጋሞ",
+      "votes": 291
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ዳንኤል ባዝልዮስ ጌጄቦ",
+      "votes": 260
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ጴጥሮስ ሳምቤቦ ዶዕሰሞ",
+      "votes": 234
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ተረፈ ወርቁ መኔቦ",
+      "votes": 232
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ሰለሞን አንሼቦ ሲዕሲሶ",
+      "votes": 221
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ገነት ኅይሉ ሀደሮ",
+      "votes": 168
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ሰነይት ኤልያስ ጀበሬ",
+      "votes": 138
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "መስፍን መለቁ ሄገና",
+      "votes": 135
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቃጫቢራ",
+      "candidate": "ወንድሙ ጤሰቦ ዋዳሬ",
+      "votes": 126
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ሙፈሪሃት ካሚል አህመድ",
+      "votes": 102345
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ጀማል ረዲ መሀሙድ",
+      "votes": 101952
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አብዱልፈታ ዩሱፍ ያሲን",
+      "candidate": "አብዱልፈታ ዩሱፍ ያሲን",
+      "votes": 101596
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ሰይላ መሀመድ ኢሳ",
+      "votes": 101392
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ሳሊያ ሀሰን አብደላ",
+      "votes": 101266
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ሰመሩ ሙሉጌታ ነጋሽ",
+      "votes": 5039
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ከድር ሹሬ አሚር",
+      "votes": 4606
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ፉአድ ሀይረዲን አደም",
+      "votes": 4547
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ናስር ዴታሞ አህመድ",
+      "votes": 4472
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ባይረዲን ይርጋ አሰፋው",
+      "votes": 3995
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "ሳቢር ጀማል አብዱረህማን",
+      "votes": 1432
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "አሊዬ ሁሴን ሀሰን",
+      "votes": 1377
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "በክሪ ዲልሰቦ ጁሀር",
+      "votes": 1174
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ቅበት",
+      "candidate": "አብዱልፈታ መሀመድ ቆታላ",
+      "votes": 1157
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ትብለጥ አስጠራጥስ ፍቅረእየሱስ",
+      "votes": 59654
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ዘይቱና አብራሂም ሰይድ",
+      "votes": 59329
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "አብዶ ሀሰን ሞሳ",
+      "votes": 59221
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ዳንኤል ሺፈታ አርጋው",
+      "votes": 59137
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ኸይሩ ከዲር ኸሊል",
+      "votes": 2192
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ሰይድ ታጁ ሸሪፍ",
+      "votes": 1155
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ገብረወልድ ሱተቶ ሚርጃ",
+      "votes": 1073
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "ሀይደር ሰበኔ ኬርጋ",
+      "votes": 854
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እምድብር",
+      "candidate": "አየለ ፍቅሬ ተረዳ",
+      "votes": 835
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "ሚፍታ ሁሴን አማን",
+      "votes": 42200
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "ፈትያ መሀዲ አርግብ",
+      "votes": 42131
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮኪር",
+      "candidate": "አብዱልሀኪም ሁሴን አሊ",
+      "votes": 42113
+    }
+  ]
+}

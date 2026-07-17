@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 77,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኝጉዎ ጋላ ኝጉዎ",
+      "votes": 8673
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡጁሉ ኡዶል ኡጋላ",
+      "votes": 8360
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ታቢታ ኡርሞኒ ኢሞድ",
+      "votes": 8084
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ገብረመስቀል አሰፋ ኪዳነማሪያም",
+      "votes": 7995
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሊድያ ተስፋዬ አሪሶ",
+      "votes": 7524
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ገዛኸኝ ገብረሚካኤል ፎንቃሞ",
+      "votes": 7374
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "መቅደስ ጀምበሩ አምሩ",
+      "votes": 7268
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "አምቢሣ ያይታ አንቾ",
+      "votes": 6743
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ደስታ አለማየሁ ልግዲ",
+      "votes": 6731
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሰራጅ በንቲ ብራቱ",
+      "votes": 3462
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "መሠረት ኤርሚያስ ዳላሞ",
+      "votes": 3454
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ታምራት አበበ ደበላ",
+      "votes": 3287
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጅሬኛ አብደታ በርኪ",
+      "votes": 3276
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ደበላ አመንቴ ዋቅጅራ",
+      "votes": 2950
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጂሴፍ ማሎዋል ሎል",
+      "votes": 2847
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ቢል ያንግ ኮር",
+      "votes": 2775
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡኔን ኪሩ ኢቻቲ",
+      "votes": 2593
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሬክ ሞክ ቶአል",
+      "votes": 2522
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡኩዌር አበላ ኝጎዎ",
+      "votes": 2458
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኩን ቾል ጎዲንግ",
+      "votes": 2296
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኡባንግ ኢጆሆ ቦያ",
+      "votes": 2291
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኘጉዌር ሪክ ዋት",
+      "votes": 2122
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኝቻን ቾል ምንግ",
+      "votes": 2074
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጃምስ ኮንደይ ቾል",
+      "votes": 2037
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጋች ጊል ዱፐ",
+      "votes": 1973
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጋትቤል ቦል ዊያንግ",
+      "votes": 1948
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኛክቾ ጆምስ ያክ",
+      "votes": 1897
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሜሪ ኛዛን ላም",
+      "votes": 1821
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ጋች ኮንግ ጆክ",
+      "votes": 1672
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ፓኖም ጃኝ ዶት",
+      "votes": 1636
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "በቀለ ባሌ ኮቦቶ",
+      "votes": 1532
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሬት ቶን ጉዌም",
+      "votes": 1495
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኛንቴት ጋች ቲቾ",
+      "votes": 1438
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ቦምኩት ቢየል ባዴንግ",
+      "votes": 1422
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ቶር ጋ'ክ ኞት",
+      "votes": 1413
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ቡክ ጋች ላርጉን",
+      "votes": 1388
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኘኮንግ ንጉውን ሙት",
+      "votes": 1384
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "አባይነህ መጋቦ መካሶ",
+      "votes": 1347
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኝጌሎ ኡኩሙ ኡኮም",
+      "votes": 1323
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ኮር ጋትዴት ሯች",
+      "votes": 1134
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ሉካ ፒተር ሬት",
+      "votes": 1069
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ጋምቤላ ከተማ",
+      "candidate": "ከላይህ ለማ አጉድ",
+      "votes": 997
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "መዘረዲን ሁሴን ሙከታር",
+      "votes": 63435
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ሸረፋ ሌንሦ ዲባቦ",
+      "votes": 63357
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ደማ ዲልሰቦ ገኔ",
+      "votes": 63319
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ኡስማን ሱሩር ሲራጅ",
+      "votes": 63193
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ሳፊ አህመድ ረዲ",
+      "votes": 4733
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ሸፊ አብዶ አህመድ",
+      "votes": 2678
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ደኑር ተማም መሀመድ",
+      "votes": 2645
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ቃስም ዳልሰቃ አነኖ",
+      "votes": 2630
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ባምረካ ሱምታላ አመር",
+      "votes": 2309
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ሱልጣን ባራቶ ከሲሳ",
+      "votes": 1483
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ገሌቶ ጀማል ሁሴን",
+      "votes": 1164
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ሱንከሞ ተማም በለንገ",
+      "votes": 1131
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ላንቁሮ",
+      "candidate": "ሸይቾ ሹክሬ መሀመድ",
+      "votes": 1116
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶዶ",
+      "candidate": "አንዳሻው ጣሰው ገብረጊዮርጊስ",
+      "votes": 36509
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶዶ",
+      "candidate": "ጀማሉ ጀንበር በቀለ",
+      "votes": 35753
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶዶ",
+      "candidate": "አማረች ሚደቅሳ በዳዳ",
+      "votes": 34710
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶዶ",
+      "candidate": "ሙሉቀን አማረ አድነው",
+      "votes": 33473
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶዶ",
+      "candidate": "አሸቱ ኃይሌ ደስታ",
+      "votes": 6686
+    }
+  ]
+}

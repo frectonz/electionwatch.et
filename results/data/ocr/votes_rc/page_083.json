@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 83,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ትዕግስት ማቴዎስ አበሜ",
+      "votes": 744
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "መምህሩ ደገፉ ሴንደኖ",
+      "votes": 727
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "አማኑኤል አቡዬ ሄኬሶ",
+      "votes": 727
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ብዙአየው አጥሶ አቡኔ",
+      "votes": 707
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ፀደቀ ዮሐንስ ዋቆጮ",
+      "votes": 689
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "በየነ ባራና ወንታሞ",
+      "votes": 656
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ደርቤ ሰልሾ ኡልሰዶ",
+      "votes": 328
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ሩት አድሴ አሾሬ",
+      "votes": 273
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ተመስገን ኤልያስ ላሎቶ",
+      "votes": 271
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ተመስገን ተስፋዬ ተፈሪ",
+      "votes": 250
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ጌታሁን ኤልያስ ሆዤሶ",
+      "votes": 228
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሲቄ 01",
+      "candidate": "ቸርነት አለማየሁ ሄገና",
+      "votes": 123
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ይድነቃቸው ደደቸው ገኔ",
+      "votes": 59826
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ሀብታሙ ደስታ ፎርሲዶ",
+      "votes": 59590
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ኤርገኔ ተስፋዬ ወልደመስቀል",
+      "votes": 59440
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ፀጋው ወልደማርያም ገደቦ",
+      "votes": 53337
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ሚሻሞ አየለ አኑሎ",
+      "votes": 9823
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ኤርሚያስ ኤርጀቦ ሴፌቦ",
+      "votes": 3717
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "አበራ ሞሊቶ ቡባሞ",
+      "votes": 1659
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ተከልኝ ሲኒቦ መኒዶ",
+      "votes": 1448
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "መንግስቱ ኤርጀቦ ኤርጀቦ",
+      "votes": 1225
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "አሳይያስ ተማም ከድር",
+      "votes": 1171
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "በረከት ካሳ ድዕለሞ",
+      "votes": 1168
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ሀብታሙ ታምራት ድጃሞ",
+      "votes": 810
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ዝናሽ አበበ አጋ",
+      "votes": 795
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ታገሰች ላቶሬ መጎሬ",
+      "votes": 741
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "አባይነህ ተረፈ ገዕዳሬ",
+      "votes": 736
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ሰለሞን ኤርዶሎ ሉዳጎ",
+      "votes": 675
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ደሳለች ቱኬ አጋ",
+      "votes": 674
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ደዳቸው መኮሬ ጋሼ",
+      "votes": 559
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ዳንኤል ጥበሁን ኡርጅኖ",
+      "votes": 483
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ገነት ደመቀ ደሰሰኝ",
+      "votes": 468
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "እስራኤል ከበደ ኤሮሞ",
+      "votes": 339
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ዳመቀች አዳሞ ማዴ",
+      "votes": 241
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ታዬ ጫፋሞ አግዴ",
+      "votes": 240
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "መቅደስ ዱከቶ ሀያቦጬ",
+      "votes": 239
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ዘለቀ ሻፋሞ ግዕምሶ",
+      "votes": 233
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ደገፈ ከባሞ ኡክቦ",
+      "votes": 210
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ታምራት ዋንታሞ ኤርቴቦ",
+      "votes": 183
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 01",
+      "candidate": "ብርቱካን ሲራንጎ ጀዊሶ",
+      "votes": 163
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ጌታቸው ሊሊሾ ሄላሞ",
+      "votes": 56261
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ሮማን ሰዶሮ ዲራሞ",
+      "votes": 56245
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "አለሚቱ ብርሃኑ አጋጎ",
+      "votes": 56169
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ሚሻሜ ኤርሚያስ ማኬቦ",
+      "votes": 56007
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ዳዊት ግርማ ሰዕላጎ",
+      "votes": 258
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ወንዱ ከበደ ተሰማ",
+      "votes": 257
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "በቀለ በዛብህ እሸቦ",
+      "votes": 233
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "አማረ ተመስገን ዓለሙ",
+      "votes": 227
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ሶዴ ሰዕሶ አዮልቼ",
+      "votes": 225
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "አስማማሽ ሃሙኤል ሻማና",
+      "votes": 171
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "በረከት መኮሮ ቱራጎ",
+      "votes": 110
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ሙሉነህ አቡዬ ቲርካሶ",
+      "votes": 107
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ጌታሁን አበሜ ጡቶሬ",
+      "votes": 101
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ጊሆን ፍቅሬ ላንቦሬ",
+      "votes": 99
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "አበዬ አርታቦ አርፎ",
+      "votes": 99
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ምስጋና ኮርማ ሀንዶቶ",
+      "votes": 93
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ገነት ደበሮ ጫዕሞሶ",
+      "votes": 87
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ፈሰቃች ታምሬ አለሙ",
+      "votes": 81
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "በቀለ አጫሞ ሄቦቶ",
+      "votes": 66
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "እፀገነት ፍቅረአብ ሰዶሮ",
+      "votes": 33
+    }
+  ]
+}

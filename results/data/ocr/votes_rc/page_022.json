@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 22,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ወንድሙ ሽፈራው ዱካሞ",
+      "votes": 20
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ቡዋ ታደሰ ርቅዋ",
+      "votes": 19
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ደግፌ በለጠ ጠድሶ",
+      "votes": 19
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "መላኩ ቶማስ ባራርሳ",
+      "votes": 17
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አማረች ሞክሼ ሀጥሶ",
+      "votes": 17
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሙሉነሽ ተስፋዬ ዶጎማ",
+      "votes": 14
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዳንኤል ዱካሞ ዳቤ",
+      "votes": 14
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዮርዳኖስ ዮሐንስ አርጎ",
+      "votes": 13
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታምራት ኤልያስ ኤያሞ",
+      "votes": 13
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሸምሰያ ሀንቃና ሀርሶ",
+      "votes": 12
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዋለልኝ ዋቀዮ ገረመው",
+      "votes": 12
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዳምጤ ዳንጌሶ ኦሮሞ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ተመስገን ሹጌ ዋይቻ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አያሉ ሮባ ኮሮሶ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሆሳዕና ዋሌልኝ ዋቃዮ",
+      "votes": 8
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አለምነው ባዩ ሽፈራው",
+      "votes": 8
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አያሉ መሼ አናሞ",
+      "votes": 7
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ጥሩነሽ አጋንሳ ዳዋሳ",
+      "votes": 7
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሙሴ አገና ዳዋሳ",
+      "votes": 6
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታረቀኝ ምርጫና ቱላ",
+      "votes": 6
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ኤርምያስ ያዕቆብ ቦዳ",
+      "votes": 5
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አልተ ታምሩ ደጉ",
+      "votes": 4
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሙሴ ታምሩ ደጉ",
+      "votes": 4
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሮቤል ዋለልኝ ዋቀዮ",
+      "votes": 3
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ገሰሰ ሻሻሞ መጣ",
+      "votes": 3
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "በዛብህ ባረሞ ናኤ",
+      "votes": 2
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ተመስገን ታምሩ ታደሰ",
+      "votes": 1
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ፍቅሬ አበበ ሐሚጦ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "መሀሙድ ዩሱፍ መአሊን",
+      "votes": 62456
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዱልፈታህ ሼክ ቢሂ",
+      "votes": 61963
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አህመድ ሀሰን አህመድ",
+      "votes": 61581
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "መሀመድ ሸሪ አብዲ",
+      "votes": 40627
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "ሰኢድ ጅማል ጅማ",
+      "votes": 22973
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዲ ፋራህ ሙሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "መሀመድ አብዲቃድር ሁሴን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አንደዲን አብዱራህማን መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አህመድ መሀመድ አብዲ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዲሀኪም አብዱላሂ ፋራህ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አያሌ አብዲ አብዱላሂ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዱላሂ አደን ሁሴን",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዲ መሀመድ ጋረዬ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "አብዱላሂ መሀመድ አብዲ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "ሲያድ ኡኩን ፋራህ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዋርዴር",
+      "candidate": "ሙስተፌ ማሂር ፖሼ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "ኡመር ሃጂ ወርፋ",
+      "votes": 43898
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዲራዛቅ አዊል ሙሀመድ",
+      "votes": 43403
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዱላሂ ሙሀመድ ፋራህ",
+      "votes": 43397
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "ባሼ መሀመድ አህመድ",
+      "votes": 42930
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "መሀመድ አብዱላህ ሁሴን",
+      "votes": 42683
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዱላሂ ሁሴን ሂርሲ",
+      "votes": 867
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አንዋር አህመድ ዳሂር",
+      "votes": 673
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዱራህማን መሀመድ አሊ",
+      "votes": 629
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አህመድ አብዱላሂ አሊ",
+      "votes": 610
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ቀብሪ ደሀር ከተማ / Magaalada Qabri Dahar",
+      "candidate": "አብዲቃድር አብዱላሂ ዩሱፍ",
+      "votes": 547
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ኑር ኢዛቅ አደን",
+      "votes": 44443
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ሻርማርኬ ሸሪፍ ቡሌ",
+      "votes": 44408
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "አሊ ፋርሀ አብዱላሂ",
+      "votes": 44404
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ሀቢባ ዲሪዬ ካሚል",
+      "votes": 44385
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "ናን አህመድ አሊ",
+      "votes": 44131
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደካ ሱፍቱ / Dhaka Suuftu",
+      "candidate": "መሀሙድ ሀሰን ቡሌ",
+      "votes": 0
+    }
+  ]
+}

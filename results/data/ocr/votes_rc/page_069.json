@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 69,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ባዚሃሎ",
+      "candidate": "ሳሚያ አብዱላዚዝ መሃመድ",
+      "votes": 1641
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ባዚሃሎ",
+      "candidate": "አብዱረህማን ሙሳ አደን",
+      "votes": 958
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አሰሌሶ",
+      "candidate": "ከድር አብራሂም ወዳይ",
+      "votes": 1562
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አሰሌሶ",
+      "candidate": "በድርያ አብራሂም አብዳሾ",
+      "votes": 1405
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አሰሌሶ",
+      "candidate": "ጫልቱ ሁሴን ኡስማን",
+      "votes": 1290
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዋሌ",
+      "candidate": "ሰኒያ ሙስጠፋ ኢብራሂም",
+      "votes": 3841
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዋሌ",
+      "candidate": "ሙራድ ሙከታር አሚን",
+      "votes": 3629
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዋሌ",
+      "candidate": "ኒብራስ መሀመድ ኡመር",
+      "votes": 493
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዳዳ",
+      "candidate": "አብዱሰላም መሀመድ ኢብራሂም",
+      "votes": 5681
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዳዳ",
+      "candidate": "ፈቲያ ኡመር አህመድ",
+      "votes": 5667
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዳዳ",
+      "candidate": "ፈኑስ አብዱልጀባር መሀመድ",
+      "votes": 5664
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኢልሀመር",
+      "candidate": "ፈጡማ መሀመድ ዳዌ",
+      "votes": 2686
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኢልሀመር",
+      "candidate": "አህመድ ካፋ ሀሰን",
+      "votes": 2685
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኢጃአነኒ",
+      "candidate": "ጁንዲ አብዱላሂ ወዳይ",
+      "votes": 3010
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኢጃአነኒ",
+      "candidate": "አብድ ሙሣ ዩያ",
+      "votes": 2921
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኢጃአነኒ",
+      "candidate": "ባሻ መሀመድ ሀሰን",
+      "votes": 2707
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኩላዩ",
+      "candidate": "ሙሀያዲን አብዱረህማን አደም",
+      "votes": 4500
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኩላዩ",
+      "candidate": "መሀመድ አደም አህመድ",
+      "votes": 4500
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኩላዩ",
+      "candidate": "ሙሳ አሊይ ሀሰን",
+      "votes": 4500
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኩርቱ",
+      "candidate": "ኢክራም አህመድከቢፍ አብዲዉሊ",
+      "votes": 2204
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኩርቱ",
+      "candidate": "አብዱልፈታህ መሀመድ ጀማል",
+      "votes": 2204
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኩርቱ",
+      "candidate": "ጀማል ኡመር ኢብራሂም",
+      "votes": 25
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኮሪሶ",
+      "candidate": "አሚኑ ጠሃ አበበር",
+      "votes": 2097
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኮሪሶ",
+      "candidate": "ሀሊማ አብደላ ኢብራሂም",
+      "votes": 1977
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ኮሪሶ",
+      "candidate": "ቴድሮስ አስፋው መኩሪያ",
+      "votes": 134
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ዋሂል",
+      "candidate": "ሻርቱ አህመድ ሙሜ",
+      "votes": 6556
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ዋሂል",
+      "candidate": "አብደላ በከር ሙሳ",
+      "votes": 6556
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ዋሂል",
+      "candidate": "አብዲ ኑሬ አብደላ",
+      "votes": 6556
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ደበሌይ",
+      "candidate": "አብድልሰላም አህመድ ኢብራሂም",
+      "votes": 5133
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ደበሌይ",
+      "candidate": "ሚስራ ዩሱፍ መሃመድ",
+      "votes": 5133
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ደበሌይ",
+      "candidate": "ፈዉዛን መሀመድ አህመድ",
+      "votes": 5133
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ዱጁማ",
+      "candidate": "ሰይፈዲን አብዱረህማን ሳሊህ",
+      "votes": 2971
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ዱጁማ",
+      "candidate": "ሁሴን መሀመድሳኒ ቃሲም",
+      "votes": 2968
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ዱጁማ",
+      "candidate": "በድሪ ጀማል ሳኒ",
+      "votes": 2968
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሀሎ ቡሳ",
+      "candidate": "አህመድ አብዱረህማን ዳዳቶ",
+      "votes": 3011
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሀሎ ቡሳ",
+      "candidate": "አብዲ ሙሳ ሙመድ",
+      "votes": 3011
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሀሎ ቡሳ",
+      "candidate": "ሚስኪ አብደላ ሰኢድ",
+      "votes": 3011
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁሉል ሞጆ",
+      "candidate": "ነኢማ አህመድ ዋሊድ",
+      "votes": 3675
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁሉል ሞጆ",
+      "candidate": "ሽምሱዲን አሚን ኢብራሂም",
+      "votes": 3675
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁሉል ሞጆ",
+      "candidate": "አህመድ አብደላ ቃሲም",
+      "votes": 3675
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁላ ሁሉል",
+      "candidate": "አህመድ ያቁብ አብራሽ",
+      "votes": 3757
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሁላ ሁሉል",
+      "candidate": "ሱልጣን አሊይ አብዱላ",
+      "votes": 3757
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገሀዳ ጫርጋ",
+      "candidate": "መሀመድ አሚ ጂቢ",
+      "votes": 6500
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገሀዳ ጫርጋ",
+      "candidate": "ከዲያ አብራሂም ሳሊ",
+      "votes": 4699
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገሀዳ ጉንፈታ",
+      "candidate": "ሙሉካ መሀመድ ሁሴን",
+      "votes": 7458
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ለገሀዳ ጉንፈታ",
+      "candidate": "አደም ኡስማን አሊ",
+      "votes": 6944
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "መልካ ጀቦ",
+      "candidate": "መፍቱሃ አሚን እመሬ",
+      "votes": 3803
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "መልካ ጀቦ",
+      "candidate": "አብዱላሂ አደም ዩሱፍ",
+      "votes": 3803
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሙዲ አነኖ",
+      "candidate": "አህመድ አብዶ ሃሜ",
+      "votes": 1098
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሙዲ አነኖ",
+      "candidate": "ጀማል ኢብራሂም ጎና",
+      "votes": 1098
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ሙዲ አነኖ",
+      "candidate": "አፍራህ ኡስማን ወለዬ",
+      "votes": 1098
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢሽን ባሄ",
+      "candidate": "ኢብሮ ዩያ አብራሂም",
+      "votes": 4144
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢሽን ባሄ",
+      "candidate": "ተሚማ መሀመድ ኢብሮ",
+      "votes": 3971
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢሽን ባሄ",
+      "candidate": "አኒሳ መሀመድ ኢብራሂም",
+      "votes": 3780
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢያ አዋሌ",
+      "candidate": "ኢብራሂም ዩሱፍ አህመድ",
+      "votes": 4469
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢያ አዋሌ",
+      "candidate": "አህመድ መሀመድ ሙዲር",
+      "votes": 3870
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢያ አዋሌ",
+      "candidate": "አብዱላህ ፋራህ መሀመድ",
+      "votes": 1675
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቢያ አዋሌ",
+      "candidate": "በሃር አበስ አህመድ",
+      "votes": 14
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቦረን ጀልዴ",
+      "candidate": "አህመድ አዋሌ አደን",
+      "votes": 3485
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ቦረን ጀልዴ",
+      "candidate": "ለይላ ሰምሬ ጌሌ",
+      "votes": 2747
+    }
+  ]
+}

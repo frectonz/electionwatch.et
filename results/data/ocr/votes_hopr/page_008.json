@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 8,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አማራ",
+      "constituency": "ጃማ ደንሳ",
+      "candidate": "መሀመድ ጫኔ አሊ",
+      "votes": 1421
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጃማ ደንሳ",
+      "candidate": "አንጓርጌ አየለ አደም",
+      "votes": 861
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "ጌትነት ታደሰ ተፈራ",
+      "votes": 112239
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "አዲሱ መኮንን ፈንታ",
+      "votes": 6484
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "አድማስ ምህረቴ ከበደ",
+      "votes": 1365
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "እንዳላማው አያሌው ታምር",
+      "votes": 909
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ግንደ ወይን",
+      "candidate": "አንደግ አዳነ ይታየው",
+      "votes": 11725
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጢስ አባይ",
+      "candidate": "አማዋይሽ አለሙ ደመላሽ",
+      "votes": 47412
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጢስ አባይ",
+      "candidate": "ይከተል አለኸኝ ተገኘ",
+      "votes": 1836
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጢስ አባይ",
+      "candidate": "አህመድ ሱሌማን ሙሀመድ",
+      "votes": 1048
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጢስ አባይ",
+      "candidate": "አቤነዘር ቸኮል ሙቀት",
+      "votes": 699
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጨፋ ሮቢት",
+      "candidate": "ጀማል አሊ አህመድ",
+      "votes": 123298
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጨፋ ሮቢት",
+      "candidate": "አንሻ አወሉ ኑራ",
+      "votes": 434
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፍኖተ ሰላም",
+      "candidate": "አናትነሽ በዛብህ ምህረቴ",
+      "votes": 87245
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፍኖተ ሰላም",
+      "candidate": "አስቻለው ሽታሁን መንግስቴ",
+      "votes": 3430
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፍኖተ ሰላም",
+      "candidate": "ሞላልኝ አያሌው ታደሰ",
+      "votes": 2317
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፍኖተ ሰላም",
+      "candidate": "ዘምዘም አብዴ ሙሀመድ",
+      "votes": 1324
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "ተመስገን ጥሩነህ ድንቁ",
+      "votes": 168787
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "ኃይለማርያም ብርሃኑ በላይ",
+      "votes": 2624
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "መላኩ በላይ አምባየ",
+      "votes": 1671
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "አብዱልከሪም አሊ ዑመር",
+      "votes": 1080
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "ደሳለኝ ሞላ ባዜ",
+      "votes": 942
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "ደርበው ደረጀ ከበደ",
+      "votes": 665
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "አበባ ሁሴን ሙሀመድ",
+      "votes": 489
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 1",
+      "candidate": "መልካሙ ፀጋዬ ገላው",
+      "votes": 56606
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 1",
+      "candidate": "አበባው አሻግሬ ወንድም",
+      "votes": 2341
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 1",
+      "candidate": "ራሰወርቅ መላኩ ተሰማ",
+      "votes": 2270
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 1",
+      "candidate": "ሳሙኤል ጌትነት መኮነን",
+      "votes": 2065
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 1",
+      "candidate": "አለውያ ሠሀር አደም",
+      "votes": 86641
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 1",
+      "candidate": "የሻንበል ግዛቸው ዳኛው",
+      "votes": 979
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 1",
+      "candidate": "ጥጋብ አምሳሉ ተገኘ",
+      "votes": 716
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ራህመት አወል መሀመድ",
+      "votes": 31448
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ኢዲያሚን ሰይድ አሊ",
+      "votes": 1410
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "አብዱ ሰይድ መሀመድ",
+      "votes": 1345
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ነሲማ መሀመድ አህመድ",
+      "votes": 771
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "አሊ ሰይድ ወሌ",
+      "votes": 671
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ተፈራ ሙሃመድ አራጋው",
+      "votes": 598
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አገኘሁ ተሻገር ገሠሠ",
+      "votes": 64345
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አውግቸው ማለደ ታደገ",
+      "votes": 4762
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ዝናህቢርቅ ታደሰ አለላ",
+      "votes": 3862
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አሌክሳንደር ታደገ መንግሻ",
+      "votes": 1823
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ደሴ አለሙ ተፈራ",
+      "votes": 1355
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አንዳዓለም ካሳው አያሌ",
+      "votes": 1186
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ሃያት ጀማል ሰኢድ",
+      "votes": 1110
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "አለበል ዋሴ አዳነ",
+      "votes": 901
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 2",
+      "candidate": "አልማው ጥጋቡ መላሠ",
+      "votes": 55441
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ላይ ጋይንት 2",
+      "candidate": "ያየውሰው ደሴ ሽፈራው",
+      "votes": 1703
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "ትርንጎ ተገኘ ጓዴ",
+      "votes": 58609
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "አበባው ተስፋሁን አበው",
+      "votes": 2930
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 2",
+      "candidate": "ገበየ ተገኘ ተስራ",
+      "votes": 107932
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 2",
+      "candidate": "አቤ ከበዱ ጩቁን",
+      "votes": 2489
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 2",
+      "candidate": "የሽመቤት ምስጋናው ሀይሌ",
+      "votes": 1741
+    },
+    {
+      "region": "አማራ",
+      "constituency": "አለፋ ጠቁሳ 2",
+      "candidate": "ሞስብወርቅ አባይ ተሾመ",
+      "votes": 785
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ጀማል መሀመድ አህመድ",
+      "votes": 80592
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አብዱ መሀመድ አራጋው",
+      "votes": 1679
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "መሀመድ አህመድ ሁሴን",
+      "votes": 682
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አንደሬ ይማም ሙሃመድ",
+      "votes": 601
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አሚኑ አደም መሀመድ",
+      "votes": 245
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "መሀመድ አድሪስ መሀመድ",
+      "votes": 88361
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ግዛቴ አወቀ ንጉሱ",
+      "votes": 5553
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "አስፋው ደግፍ ተገኘ",
+      "votes": 5131
+    }
+  ]
+}

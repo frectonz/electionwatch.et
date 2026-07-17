@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 59,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ቦሶሶ ሶሬ 3",
+      "candidate": "መሪሁን ፍቅሩ መጃ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሶሶ ሶሬ 3",
+      "candidate": "ጥበቡ ሳሙኤል ሃላቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሶሶ ሶሬ 3",
+      "candidate": "ወንድሙ ሴታ ዳጠሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሶሶ ሶሬ 3",
+      "candidate": "አድማሱ አወቀ ሞታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሶሶ ሶሬ 3",
+      "candidate": "በላይነሽ አማንቾ አይማሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 1",
+      "candidate": "ዝናቡ ወልዴ ሐጢያ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 1",
+      "candidate": "አበባየሁ ታደሰ ጉሚ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 1",
+      "candidate": "ፀሀይ ወራሳ ባሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 1",
+      "candidate": "ጌነት ሣሙኤል ሀመሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 1",
+      "candidate": "ትንሣኤ ሸጠራ ሊቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 1",
+      "candidate": "ተስፋነሽ ጥላሁን በራሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 1",
+      "candidate": "አብዮት ደምሴ ዋዳሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 1",
+      "candidate": "አበባየሁ ኢሳያስ ሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 1",
+      "candidate": "ብርሃኑ ቡጡሹ ሹጡ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 1",
+      "candidate": "ነጋሽ ጤኮ ቱኑ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 2",
+      "candidate": "ሌንጃ አየለ ጀቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 2",
+      "candidate": "አበበ ቀቀቦ ሾታ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 2",
+      "candidate": "መስፍን ደምሴ ዱካሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 2",
+      "candidate": "ምስጋና ዋቃየሁ ጤኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 2",
+      "candidate": "ደሳለኝ ደያሶ ሀርቦር"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "አብርሃም አዝጌ ቤሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ተመስገን ጥላሁን ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ዳዊት ቡኔ ኩርሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ዜና ጅማሶ ናና"
+    },
+    {
+      "region": "",
+      "constituency": "ይርጋጨፌ 2",
+      "candidate": "ታምሩ ቁጡዮ ብፍቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 3",
+      "candidate": "ብርሃኑ ተካዬ ደንቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 3",
+      "candidate": "ተወለደ ተስፋዬ ሆርዶፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 3",
+      "candidate": "አበራሽ ተሰማ ቱሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 3",
+      "candidate": "ቦጋለ ጠቀቦ ጤሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ወናጎ 3",
+      "candidate": "ጉድነሽ ካሳዬ ቦሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳሳ/ባስኬቶ መደበኛ",
+      "candidate": "ሳሙኤል ደሳለኝ ወልደማሪያም"
+    },
+    {
+      "region": "",
+      "constituency": "ሳሳ/ባስኬቶ መደበኛ",
+      "candidate": "ፍሬሕይወት ዱባለ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳሳ/ባስኬቶ መደበኛ",
+      "candidate": "ዱዴ ታምሩ መሃመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳሳ/ባስኬቶ መደበኛ",
+      "candidate": "ወይንቱ መልኩ በለጠ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳሳ/ባስኬቶ መደበኛ",
+      "candidate": "አምናስ አሻግሬ ደንቀ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "የሺዋስ ዓለሙ እቶም"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "አበበ ማሞ መካቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "መዓዛ ካመቶ ብሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "አብይ አንደሞ ከታቾ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "ትዕግስት ከበደ ደንበሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "መስፍን ወዳጆ ወልደማሪያም"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "ግርማ ሸፈራው ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "ፀሐይነሽ አበራ ኃይሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "አበበ ወልዴ አያኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ማሻ",
+      "candidate": "ዮሐንስ ገቦ ዉሎ"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 17,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ራዋ ሊንቄ አሜዶ",
+      "votes": 608
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ለገሰ ሀንቃሞ ፈቼ",
+      "votes": 605
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ሾና ዳሳ ጋርማሞ",
+      "votes": 594
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ሳቶ ሞርካታ ሃጥያ",
+      "votes": 590
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ቡርቴካን ታዳሌ ዮማ",
+      "votes": 585
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "በላይነህ ባራርሳ ባላ",
+      "votes": 583
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ታሾመ ሾና ሀንቃሞ",
+      "votes": 571
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ኃይለዮሐንስ ነጌሶ ወልደማሪያም",
+      "votes": 190
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ሰለሞን ቱንሲሳ ሻላሞ",
+      "votes": 164
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ኪያ አሸቱ ገዳ",
+      "votes": 159
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ጠናዬ ለገሠ አንደኛው",
+      "votes": 156
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ደረጃ ማርሳ ቡሌ",
+      "votes": 146
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ስጦታ አሸግሬ ራኪሶ",
+      "votes": 146
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ንጋቷ ሙሉጌታ ዱሞ",
+      "votes": 136
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ኤፍሬም ካሳ ፀጋዬ",
+      "votes": 133
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "አበበ ዳቄ ሉክቻ",
+      "votes": 108
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ዳንኤል በቀለ ተበጀ",
+      "votes": 96
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ደርቤ ዳንጉራ ሱጣ",
+      "votes": 92
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "አዳኔ ጉዬ ቢያ",
+      "votes": 90
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ቱንሻ ዲኬ አታራ",
+      "votes": 80
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ዮናስ ዮሴፍ ሰናራ",
+      "votes": 76
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "አለሙ ደጉማ ዶቶራ",
+      "votes": 69
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ቡግሳ ኤብሶ ኤያሞ",
+      "votes": 63
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ሎሻ ሄቆጨ ሆጠሳ",
+      "votes": 58
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ዮሴፍ ሳንበቶ ሱጣ",
+      "votes": 32
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ቱሮ ቱና ማጋነ",
+      "votes": 22
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ሳሙኤል ሰንበቶ ሳጣ",
+      "votes": 22
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ደስታ ሲዳሞ ቡላሞ",
+      "votes": 55006
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "በለጠች ፍሰሃ ደለና",
+      "votes": 53959
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ቡርቃ ቡጡላ ባቶ",
+      "votes": 53875
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ዱሬሳ ሲዳሞ ታረቃ",
+      "votes": 53837
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ኤልያስ ቲሮ ቴከሎ",
+      "votes": 53528
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አለማዝ ሀያሞ ዮንቆራ",
+      "votes": 53483
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ጎሳዬ ጎዳና ዋሬ",
+      "votes": 52756
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "መልኩ ማርቆስ ሳሚሮ",
+      "votes": 52215
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "በላይነሽ ግርማ ቃንቄሶ",
+      "votes": 51114
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አበዛሽ አበበ ሲዲሶ",
+      "votes": 996
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ኤርሚያስ ገቲሶ ኪአ",
+      "votes": 843
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ደሳለኝ ካዊሶ ካይሞ",
+      "votes": 825
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ኤያሞ ኤዳኦ ኮሮሶ",
+      "votes": 780
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ምልክያስ ዳናኤል ሲዳሞ",
+      "votes": 772
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ማኒሳ ማሞ ሀኖ",
+      "votes": 763
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አያሌ አንድርያስ ኤያሞ",
+      "votes": 755
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ማርታ ይራራ ቴሙላ",
+      "votes": 737
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ሀርፄ ደዊሶ ገበሮ",
+      "votes": 725
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አለሙ አላካ ፍቼ",
+      "votes": 715
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ዮሴፍ ሁሴን ባርሶ",
+      "votes": 708
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ጢሞትዎስ ሲዳሞ ቡልቡሎ",
+      "votes": 691
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ሰለሞን ፍላቶ ሱዳሬ",
+      "votes": 681
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ናኮ ናጌሶ ጡሙራ",
+      "votes": 668
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ዘካሪያስ ዋሪቆ ካይሞ",
+      "votes": 584
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ሐልካኔ ባኑ ዳዲያ",
+      "votes": 469
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ኤርሚያስ የኔታ ጃንጊርሳ",
+      "votes": 347
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አየለ አልባሶ አማላ",
+      "votes": 246
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "መላፍንት ዳፉርሳ ኪኒሶ",
+      "votes": 235
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ኪረሶ ደውሶ ባካላ",
+      "votes": 234
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ጋዳላ ጋብሶ ጡንሳ",
+      "votes": 222
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ሲራጅ ያዕቆብ ቡታ",
+      "votes": 206
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አለማየሁ ሐዊሶ ጀበሳ",
+      "votes": 205
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አልቶ አየለ አሰፋ",
+      "votes": 174
+    }
+  ]
+}

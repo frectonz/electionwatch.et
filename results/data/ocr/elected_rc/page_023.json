@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 23,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "መልክ ሶዳ / Malkaa Soddaa",
+      "candidate": "ነዲ ጋልቼ ጉዳና"
+    },
+    {
+      "region": "",
+      "constituency": "መልክ ሶዳ / Malkaa Soddaa",
+      "candidate": "አበራ ቡኖ አዱላ"
+    },
+    {
+      "region": "",
+      "constituency": "መልክ ሶዳ / Malkaa Soddaa",
+      "candidate": "ጋሪ ገመዴ ኮራቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሜታ ሮቢ / Meettaa Roobii",
+      "candidate": "ጉታ ገዳ ጂማ"
+    },
+    {
+      "region": "",
+      "constituency": "ሜታ ሮቢ / Meettaa Roobii",
+      "candidate": "መንግስቱ በቀለ ሁሪሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሜታ ሮቢ / Meettaa Roobii",
+      "candidate": "ልኬለሽ በይ ጉተማ"
+    },
+    {
+      "region": "",
+      "constituency": "ነገሌ አርሲ / Nagellee Arsii",
+      "candidate": "አሰፋ ቶሎሳ እሼቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ነገሌ አርሲ / Nagellee Arsii",
+      "candidate": "አሚና ከድር አልይ"
+    },
+    {
+      "region": "",
+      "constituency": "ነገሌ አርሲ / Nagellee Arsii",
+      "candidate": "ሳምሶን ጉቱ ወትቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰንጎ ገበያ / Sangoo Gabayaa",
+      "candidate": "በንቲ ቶሊና ጥልቂ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰንጎ ገበያ / Sangoo Gabayaa",
+      "candidate": "ጽዮን ታዬ ባይሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰንጎ ገበያ / Sangoo Gabayaa",
+      "candidate": "አብረሃም ሞሲሳ ደለሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሲቡ ሲሬ / Siibuu Siree",
+      "candidate": "አያለች ገመቹ ጉደቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሲቡ ሲሬ / Siibuu Siree",
+      "candidate": "ኤብሴ ባጫ አየና"
+    },
+    {
+      "region": "",
+      "constituency": "ሲቡ ሲሬ / Siibuu Siree",
+      "candidate": "ባጂ ሞሲሳ ሀተሁ"
+    },
+    {
+      "region": "",
+      "constituency": "ውጫሌና ጂዶ / Wucaaleennaa Jiddoo",
+      "candidate": "ከፈለው አደሬ ገረሱ"
+    },
+    {
+      "region": "",
+      "constituency": "ውጫሌና ጂዶ / Wucaaleennaa Jiddoo",
+      "candidate": "ዘኒበ አደም ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ውጫሌና ጂዶ / Wucaaleennaa Jiddoo",
+      "candidate": "መሠረት ብርሃኑ ሞላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጥቁር እንጭኒ / Xuqur Incinnii",
+      "candidate": "ሲሳይ ዴጋጋ ሙለታ"
+    },
+    {
+      "region": "",
+      "constituency": "ጥቁር እንጭኒ / Xuqur Incinnii",
+      "candidate": "ቢሊሱማ ብሪኑ አራርሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ጥቁር እንጭኒ / Xuqur Incinnii",
+      "candidate": "ጉተታ ደገፋ ቡታ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ አለም /ኤጀሬ/ Ejeree",
+      "candidate": "ጸሐይ ሀይሉ አትቻ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ አለም /ኤጀሬ/ Ejeree",
+      "candidate": "ጌቱ ገመቹ ኤጀርሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ አለም /ኤጀሬ/ Ejeree",
+      "candidate": "ሽመልስ አብዲ በለጠ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ገና 1 / Alam Ganaa 1",
+      "candidate": "ጀርጎ ሸንተማ ፍቃዱ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ገና 1 / Alam Ganaa 1",
+      "candidate": "ሜዳ አዳሬ ደበሱ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ገና 1 / Alam Ganaa 1",
+      "candidate": "ወርቅነህ ሚደቅሳ በጂጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊሙ ኮሳ 1 / Limmuu Kossaa 1",
+      "candidate": "ሀብታሙ ካሳ ተከተል"
+    },
+    {
+      "region": "",
+      "constituency": "ሊሙ ኮሳ 1 / Limmuu Kossaa 1",
+      "candidate": "መሀመድ ኑረዲን ሐጂ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊሙ ኮሳ 1 / Limmuu Kossaa 1",
+      "candidate": "ፎዚያ ኢሳ አባቡሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖሌ ካባ 1 / Noolee Kaabaa 1",
+      "candidate": "እንዳልካቸው ሰሎሞን ዱሬራ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖሌ ካባ 1 / Noolee Kaabaa 1",
+      "candidate": "በላይነሽ ዱላ ዴሬሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖሌ ካባ 1 / Noolee Kaabaa 1",
+      "candidate": "ደረጀ አበራ ነጋሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ኦሞ ናዳ 1 / Oomoonaadaa 1",
+      "candidate": "አብዱልሀሚድ አባኢ አባጎንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኦሞ ናዳ 1 / Oomoonaadaa 1",
+      "candidate": "አህመዲን ዘይኑዲን አባቡልጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ኦሞ ናዳ 1 / Oomoonaadaa 1",
+      "candidate": "ጫልቱ በቀለ ጋሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቃ ጮቆርሳ 1 / Saqqaa Coqorsaa 1",
+      "candidate": "ጫልቱ አወል አባጅማ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቃ ጮቆርሳ 1 / Saqqaa Coqorsaa 1",
+      "candidate": "ሰመረዲን መሀመድዘይን ተማም"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቃ ጮቆርሳ 1 / Saqqaa Coqorsaa 1",
+      "candidate": "ዝናሽ ዝናብ አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ገና 2 / Alam Ganaa 2",
+      "candidate": "ጉዮ ገልገሎ ቦሩ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ገና 2 / Alam Ganaa 2",
+      "candidate": "አሸናፊ ንጉሴ ባቶ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ገና 2 / Alam Ganaa 2",
+      "candidate": "ፀሀይ ደቢሳ ሆርዶፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊሙ ኮሳ 2 / Limmuu Kossaa 2",
+      "candidate": "ናስር ድሪባ አምዴሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊሙ ኮሳ 2 / Limmuu Kossaa 2",
+      "candidate": "አዚዛ አደም ቱጂ"
+    },
+    {
+      "region": "",
+      "constituency": "ሊሙ ኮሳ 2 / Limmuu Kossaa 2",
+      "candidate": "አጫሉ ጣሞ ካልቻ"
+    }
+  ]
+}

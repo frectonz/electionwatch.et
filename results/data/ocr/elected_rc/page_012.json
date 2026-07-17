@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 12,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሞላሌ",
+      "candidate": "ይመኙሻል ልውጤ ካሳዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞላሌ",
+      "candidate": "ደረጀ ማንደፍሮ ዳመነ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞጣ",
+      "candidate": "አብርሃም አያሌው እጅጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ሞጣ",
+      "candidate": "ወርቄ ቢያለው ጠቢያው"
+    },
+    {
+      "region": "",
+      "constituency": "ራቤል",
+      "candidate": "አበራ ፋንታሁን አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "ሮቢት",
+      "candidate": "ኤልያስ አበበ በንበረ"
+    },
+    {
+      "region": "",
+      "constituency": "ሮቢት",
+      "candidate": "አስገደች ሃይለስላሴ ሃይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቆጣ",
+      "candidate": "ኃይሉ ግርማይ አዳነ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቆጣ",
+      "candidate": "ሸታው አዳነ ሃጎስ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቆጣ",
+      "candidate": "ኪሮሱ ገብሩ ተላ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰከላ",
+      "candidate": "ሽታሁን ወርቁ ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰከላ",
+      "candidate": "አየሁ ደሴ ደሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀይት",
+      "candidate": "ዝናሽ ደምሴ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀይት",
+      "candidate": "ዓይነኩሉ አበበ ሣህሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ቁይ",
+      "candidate": "ንፁህ ጌትነት አየነው"
+    },
+    {
+      "region": "",
+      "constituency": "ቁይ",
+      "candidate": "አለምረው ደመወዝ ታከለ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅላጅ",
+      "candidate": "አለፈች ደመላሽ ወለሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ቅላጅ",
+      "candidate": "አስፈራው የኔአባት ሳቀው"
+    },
+    {
+      "region": "",
+      "constituency": "ቋሪት",
+      "candidate": "መኳንንት ወርቅነህ ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ቋሪት",
+      "candidate": "ትግስት ጌትነት ሀረገወይን"
+    },
+    {
+      "region": "",
+      "constituency": "ቋሪት",
+      "candidate": "እስክዳር አማኛው ዘውዴ"
+    },
+    {
+      "region": "",
+      "constituency": "በለሳ",
+      "candidate": "ግዛት አብዩ ጌታው"
+    },
+    {
+      "region": "",
+      "constituency": "በለሳ",
+      "candidate": "አረጋሽኝ አበራ እንግዳ"
+    },
+    {
+      "region": "",
+      "constituency": "በለሳ",
+      "candidate": "ቤተልሄም ካሴ አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ",
+      "candidate": "አክሊለ ዞማነህ ጥሩየ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሬ",
+      "candidate": "መስፍን አበጀ ተፈራ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡግና",
+      "candidate": "ተስፋው ባታብል ደመቀ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡግና",
+      "candidate": "ዮርዳኖስ መርሻ ዳግመው"
+    },
+    {
+      "region": "",
+      "constituency": "ቡግና",
+      "candidate": "ንብረት ባህሩ አያሌው"
+    },
+    {
+      "region": "",
+      "constituency": "ባቲ",
+      "candidate": "ዑመር የህያ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ባቲ",
+      "candidate": "ሀዋ አደም አብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ብቸና",
+      "candidate": "አደም መሀመድ የሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ብቸና",
+      "candidate": "ንፁህ አለማየሁ ዉበት"
+    },
+    {
+      "region": "",
+      "constituency": "ተንታ",
+      "candidate": "ጥላሁን ሸመልስ ተገኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ተንታ",
+      "candidate": "ሀና አላባቸው አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ተንታ",
+      "candidate": "ወርቅነሽ ረታ ለገሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ቲሊሊ",
+      "candidate": "ግዛቸው ሙሉነህ አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "ቲሊሊ",
+      "candidate": "ዘውዲቱ ወርቁ ወልደጊዮርጊስ"
+    },
+    {
+      "region": "",
+      "constituency": "ቻግኒ",
+      "candidate": "ቴዎድሮስ እንዳለው ትኩ"
+    },
+    {
+      "region": "",
+      "constituency": "ቻግኒ",
+      "candidate": "የሺሀረግ አበበ ሰማነህ"
+    },
+    {
+      "region": "",
+      "constituency": "አልበኮ",
+      "candidate": "ደምስ እንድሪስ ይማም"
+    },
+    {
+      "region": "",
+      "constituency": "አልበኮ",
+      "candidate": "ፀሀይነሽ ገብረስላሴ ወልደማሪያም"
+    },
+    {
+      "region": "",
+      "constituency": "አማኑኤል",
+      "candidate": "በላይነሽ አሊበል አያሌው"
+    },
+    {
+      "region": "",
+      "constituency": "አማኑኤል",
+      "candidate": "ይግዛው እንድሪያም ደሴ"
+    }
+  ]
+}

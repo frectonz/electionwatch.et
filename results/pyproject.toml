@@ -1,0 +1,19 @@
+[project]
+name = "results"
+version = "0.1.0"
+description = "Download and structure NEBE 7th General Election results (HoPR + RC)"
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=1.2.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.10.0",
+    "pymupdf>=1.27.2.3",
+    "python-dotenv>=1.0.1",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.13",
+    "ty>=0.0.38",
+]

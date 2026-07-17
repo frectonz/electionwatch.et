@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 15,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ፍሊጶስ ዮሐንስ ወርቄ",
+      "votes": 440
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አድሱ ዋቻሞ ቅጠሳ",
+      "votes": 427
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አበራ አልቶ አሰፋ",
+      "votes": 426
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ዳንጉራ ዳቼ ላንቃሞ",
+      "votes": 349
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ምንዳዬ ደምሴ አሮሞ",
+      "votes": 289
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "በረከት በለጠ ሀሚጦ",
+      "votes": 245
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ዮሴፍ በቀለ ቦኤ",
+      "votes": 218
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ማንሳ ቡርሶ ቡቼ",
+      "votes": 178
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሽመልስ መንግስቱ ላሊማ",
+      "votes": 144
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አበራ አሸናፍ ቃታ",
+      "votes": 104
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አስያቅ አልዩ ቆርሳ",
+      "votes": 101
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አጋንጃ ባላሞ ሹሎ",
+      "votes": 98
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ማትዎስ ሾዴ ቃቃም",
+      "votes": 92
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ጠጅቱ ወልቅሳ ፋሶ",
+      "votes": 92
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "መሰለ ሹርቤ አሮሞ",
+      "votes": 92
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አኒኖ አዮብ ቶጃ",
+      "votes": 91
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ናገሶ ሻንኮ ስአቶ",
+      "votes": 90
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አደላ አሻንጎ አርጌሶ",
+      "votes": 89
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አመርጋ ኤረቦ ባሶሬ",
+      "votes": 84
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሀግሪቱ ሳቁተ ቦርሳሞ",
+      "votes": 81
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ገንዘቤ ጌታቸው አጣሞ",
+      "votes": 80
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ስዩም ሆጆካ አላንቦ",
+      "votes": 72
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ይስሐቅ አለማየሁ አስረስ",
+      "votes": 59
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አርፋቸው ዘለቀ ሐንቃ",
+      "votes": 51
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ኢዮብ አላሮ አናቶ",
+      "votes": 49
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ማርቆስ ሀጃሞ ደባ",
+      "votes": 48
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሙቂራ ዋርቆ ዋንሶ",
+      "votes": 48
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ስዩም ላምሶ ሻማና",
+      "votes": 45
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ጴጥሮስ ቃዋ ሀሳሮ",
+      "votes": 44
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ካርጎሬ ከበደ ካሎ",
+      "votes": 44
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አመነ አለማየሁ አስረስ",
+      "votes": 44
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ምሉን ሞኮንን ደበሳ",
+      "votes": 44
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ቱማቶ ዋንቻ ቡትዬ",
+      "votes": 43
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ይሁን ቃሊሞ ቃርዳማ",
+      "votes": 27
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ኤልሳበጥ ዱብሲ ዱካሞ",
+      "votes": 26
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አንድነት ረጋሳ ላምሶ",
+      "votes": 24
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ግዛቸው ዎካጄ ቃሳሞ",
+      "votes": 22
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ካሊብ ካሳሁን ካቻራ",
+      "votes": 7
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ዳግም ለገሰ ባራሳ",
+      "votes": 5
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አያሌው አበበ ሐምቦ",
+      "votes": 4
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሀብታሙ ብርሃኑ ቶርባ",
+      "votes": 3
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ጴጥሮስ ካሳ ኩንሱራ",
+      "votes": 3
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "መንግስቱ በቀለ ባራሳ",
+      "votes": 81713
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ደረሰ አለሙ ብረጋ",
+      "votes": 80575
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ያምሮት ሀይሌ ሀዬሶ",
+      "votes": 80329
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "አበበች ክፍሌ ጋጋ",
+      "votes": 80094
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ታሪኩ ዱካሞ ዱጉና",
+      "votes": 79945
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ንብረት ለማ ግዴሳ",
+      "votes": 79801
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ማቴዎስ ዳንኤል ሲደቦ",
+      "votes": 79631
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ዘገዬ ኩይሳ ጣንቆ",
+      "votes": 79513
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ከበደ ካሴ ዳቆዬ",
+      "votes": 79296
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሽታዬ የሙራ ዱቃታ",
+      "votes": 78754
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ኤርሚያስ ጌታቸው ባራሞ",
+      "votes": 634
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሐይሉ ሀየሶ ሀገዬ",
+      "votes": 632
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ታሽሌ ዳቦ ብርሃኑ",
+      "votes": 604
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ጋማዳ ሆሶ ሰኔ",
+      "votes": 601
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "አረጋሽ ሰለሞን ደበሮ",
+      "votes": 594
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ኡራጎ ኡዶ ደዊሶ",
+      "votes": 593
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ዳሰ ሻላሞ ገሠሠ",
+      "votes": 587
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ገዛኸኝ ገመዳ ሆሶ",
+      "votes": 580
+    }
+  ]
+}

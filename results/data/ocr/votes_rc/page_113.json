@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 113,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገዋዳ ልዩ",
+      "candidate": "ውድነሽ ሹቱ ሸናቴ",
+      "votes": 12470
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገዋዳ ልዩ",
+      "candidate": "አርሻሎ አርካሌ አይጋማ",
+      "votes": 11904
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገዋዳ ልዩ",
+      "candidate": "ፋሲካ አማረ አለሙ",
+      "votes": 7833
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ራሔል ሞላ ሀርኮሌ",
+      "votes": 2876
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ተፈሪ ሀቱዬ ሄላቴ",
+      "votes": 2873
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ሶፎንያስ ባሩ ሐላቴ",
+      "votes": 24
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ኢሳያስ ካሣዬ ቶልቻ",
+      "votes": 14
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "መንበሯ ተስፋዬ ረዳ",
+      "votes": 9
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "ደጀነ ዳልጌ ዳንቻ",
+      "votes": 5
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዲቾ ልዩ",
+      "candidate": "በረከት መስቀሌ ሻንካ",
+      "votes": 4
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ጀማነህ ከበደ ክፈሰ",
+      "votes": 4324
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ዳቲኮ ታዬ መንገሻ",
+      "votes": 4101
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ገንዘቤ ካርቴ ቦንካቻ",
+      "votes": 4056
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ዘበኛ ባዳይቶ ጋማኖ",
+      "votes": 3955
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ተስፋዬ ስንታየሁ ወልደዮሐንስ",
+      "votes": 3942
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ሰላምነሽ ዘሪሁን ሀይሌ",
+      "votes": 3922
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "አሸና ገረሱ ጋይዴ",
+      "votes": 3884
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ቦጋለ ቦቴ ጨሌሆ",
+      "votes": 3879
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ካታሻ ካንታሎ ካሻላ",
+      "votes": 3753
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ተስፋሚካኤል ዘከዮስ ኩጨርቦ",
+      "votes": 3608
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ወንድሙ ቡቼ ገበና",
+      "votes": 1116
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ገልገሎ ጉይታ ኡቲኖ",
+      "votes": 1100
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "አብርሃም ኩሴ ግንግኖ",
+      "votes": 1090
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ደምቱ ዳንኤል ኩኖ",
+      "votes": 1073
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ፈይሳ ገልገሎ ጉይታ",
+      "votes": 1042
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፀማይ ልዩ",
+      "candidate": "የምስራች አልዮ አይኬ",
+      "votes": 7713
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፀማይ ልዩ",
+      "candidate": "ዶቦ አዉኖ አባቃ",
+      "votes": 7577
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፀማይ ልዩ",
+      "candidate": "ቦዶ ሀይሎ ጋርሞ",
+      "votes": 557
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፀማይ ልዩ",
+      "candidate": "ቢንያም ቱንኮ ቢሮ",
+      "votes": 457
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፀማይ ልዩ",
+      "candidate": "ማትዮስ መስቀሌ አሶ",
+      "votes": 395
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ዳዊት ጀቦ ዴበላ",
+      "votes": 105561
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ወርቅነህ ሀይለሚካኤል ሚሶ",
+      "votes": 105364
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ፍሬነሽ አየለ ዱማሮ",
+      "votes": 104672
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ኃይለማርያም ተስፋዬ ደንበቢ",
+      "votes": 104670
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ደሳለች አበበ ሊቦ",
+      "votes": 103274
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ተክለማሪያም ጅማላ ሂንጃ",
+      "votes": 19422
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ወንድሙ አለሙ ኡዶ",
+      "votes": 9098
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ዳንኤል ሐይሌ አዳማ",
+      "votes": 8961
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ታምሩ ኢደማ ጅጎ",
+      "votes": 8487
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ደረጃ ኃይሉ ቱሱ",
+      "votes": 8308
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ደያሶ ኩሪሴ ደዶሴ",
+      "votes": 7575
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ሻምበል በቀለ ገናሌ",
+      "votes": 1528
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ሀብታሙ በየነ ከበደ",
+      "votes": 1418
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ዮሴፍ ገበየሁ ቄጡ",
+      "votes": 1320
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ትብለጥ ታደሰ ገልቻ",
+      "votes": 1277
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ሳሙኤል መንገሻ ገመደ",
+      "votes": 1242
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "መልካሙ አለሙ ቂልጡ",
+      "votes": 1204
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ተፈራ ገበየሁ ሀልቹ",
+      "votes": 1130
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ሸታዬ መንገሻ ቱጎ",
+      "votes": 993
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ደገፌ በራሶ ሳፋ",
+      "votes": 945
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ዴርጌ ሐይለ ሆርዶፋ",
+      "votes": 740
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "መንግስቱ ጥላሁን አየለ",
+      "votes": 732
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ታምራት ሕጂ ዳማ",
+      "votes": 711
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "ታምራት ገዶቾ ጅጎ",
+      "votes": 626
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍሰሀ ገነት",
+      "candidate": "አሸናፍ በየነ ጉሜ",
+      "votes": 480
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "ደም በዛብህ ቤንቶ",
+      "votes": 17128
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "ታደሰ ጋያ ግሬ",
+      "votes": 15498
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "ላሊ ላቤኮ ዚኖ",
+      "votes": 13645
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "ፍስሀስ ኑሩሰቦ አቦ",
+      "votes": 12791
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "አሸናፊ ሎግራይድ ናካሊ",
+      "votes": 1170
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 94,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ናትናኤል ተሾመ ይግለጡ",
+      "votes": 14171
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ሉሌ ወንድሙ ቂልጡ",
+      "votes": 13637
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ደምሠው አምባው ነጋሽ",
+      "votes": 13283
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ናርዶስ ተፈራ ሸፋው",
+      "votes": 13222
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "የውብነሽ ቆምላቸው ደምሴ",
+      "votes": 12143
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "በላይነህ አርጋው አባጅ",
+      "votes": 12033
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አዳሙ ይማም ባሻ",
+      "votes": 11850
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አበበ ታምራት አፈወርቅ",
+      "votes": 11471
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አራጌ አለሙ መንገሻ",
+      "votes": 10662
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ቤተልሄም ሙሉቱ መልክ",
+      "votes": 7303
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ሡልጣን ተረዳ መሀመድ",
+      "votes": 7275
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ገነት ከበደ አብዲ",
+      "votes": 6412
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ሀዊ ዲኪ ደመሳ",
+      "votes": 6339
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ከበደ ካብትይመር ተወልደ",
+      "votes": 6266
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አለማየሁ ገመቹ ተሰማ",
+      "votes": 6152
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ናትናኤል የማነ ወልዱ",
+      "votes": 6115
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አንጻርጌ መንግስቱ ጎርፌ",
+      "votes": 6072
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አባተ አያሌው መኮንን",
+      "votes": 5902
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ታደሰ ሹሜ አበበ",
+      "votes": 5615
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አድነው ፈጠነ ሰንደቄ",
+      "votes": 5525
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ቴዎድሮስ ተገኝ ረታ",
+      "votes": 5302
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ገስታው ሙሉ ስዩም",
+      "votes": 5044
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አስጠፋኖስ አያሉ መኮንን",
+      "votes": 4864
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ደንቀ ብርሌ ካሳ",
+      "votes": 4469
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ብርሃን ሲሳይ አብተው",
+      "votes": 4189
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አባተ ኬሮ ቤለገን",
+      "votes": 4128
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ትዕግስት ሰብስቤ ይልማ",
+      "votes": 3984
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ኤርሚያስ ካሳዬ ፅና",
+      "votes": 3963
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "አሸናፊ መለሰ ሀብተገብርኤል",
+      "votes": 2497
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ቤተልሄም ተክሉ ከፈኔ",
+      "votes": 2435
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ስንዴው ተሰማ ቦጋለ",
+      "votes": 2287
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ኤልያስ በቀለ ገበየሁ",
+      "votes": 2179
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ሚና ኬድር ሁሴን",
+      "votes": 1960
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ታምሩ ጌታወይ አገዘ",
+      "votes": 1950
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "መሰረት ቢቂላ ወዬቻ",
+      "votes": 1910
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ጥበቡ ገነነ ክፍሌ",
+      "votes": 1858
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "ረዳና ገመቹ አበበ",
+      "votes": 1777
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "መሠረት ፍሰሃ ደመቀ",
+      "votes": 1706
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "እየሩሳሌም አለምነው ተገኝ",
+      "votes": 1696
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቂርቆስ",
+      "candidate": "መኮንን ሰገሰ አብዲ",
+      "votes": 1694
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ዲና ሙፍቲ ሲዶ",
+      "votes": 133252
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ያብባል አዲስ ገበየሁ",
+      "votes": 130477
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አለምፀሀይ ሽፈራው ዋቄ",
+      "votes": 130382
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "መሰንበት ሸንቁጤ አበበ",
+      "votes": 129249
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሃፍታይ ገብረእግዚአብሔር አለማየሁ",
+      "votes": 128561
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አድማሱ ዴቻሳ ጦና",
+      "votes": 127887
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ቴዎድሮስ ግዛው ገብረየስ",
+      "votes": 127753
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሀዊ ባጫ ቡልቻ",
+      "votes": 127734
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "እሸቱ ለማ አደሬ",
+      "votes": 127333
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አብዱልሃሚድ መሀመድ አብዱልወሃብ",
+      "votes": 127308
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አቶሜ አበበ መቼ",
+      "votes": 126833
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሀብታሙ ተገኘ ደስታዬ",
+      "votes": 126812
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ፊናን ግለሰ ዘውዴ",
+      "votes": 126548
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አየለ መሀመድ ኡመር",
+      "votes": 126163
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ፋኢዛ መሀመድ ኡመር",
+      "votes": 126118
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ሚሊ አሰፋ ዳዋ",
+      "votes": 126100
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ዳርባር ብርሃኑ ወልደአብ",
+      "votes": 125984
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ወልደሚካኤል ከበደ ተክሌ",
+      "votes": 125614
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "አባይነህ እመረታ ጌታ",
+      "votes": 125457
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ቦሌ",
+      "candidate": "ዮናስ ከበደ ሱራፋ",
+      "votes": 125353
+    }
+  ]
+}

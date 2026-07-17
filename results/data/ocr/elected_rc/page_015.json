@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 15,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ዞጌ መሸንቲ",
+      "candidate": "በለጠ ጥጋቡ ዘውዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ዞጌ መሸንቲ",
+      "candidate": "እመቤት ከበደ ተገኘ"
+    },
+    {
+      "region": "",
+      "constituency": "ዝቋላ አገው",
+      "candidate": "ዳግም ባይነሳኝ አቀና"
+    },
+    {
+      "region": "",
+      "constituency": "ዝቋላ አገው",
+      "candidate": "ሙሉነሽ መኮነን ዋጋነህ"
+    },
+    {
+      "region": "",
+      "constituency": "የእድ ውሃ",
+      "candidate": "ግዛቸው ወንድሜነህ ታለማ"
+    },
+    {
+      "region": "",
+      "constituency": "የእድ ውሃ",
+      "candidate": "በላይ በዛብህ በየነ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ ከተማ",
+      "candidate": "ሳሙኤል ሞላልኝ ደሳለ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ ከተማ",
+      "candidate": "ሐዋ ወሌ ደመር"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ማርቆስ",
+      "candidate": "ዳንኤል ደሳለኝ ፈንቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ማርቆስ",
+      "candidate": "መልካሙ ሽባባው ሸፈራው"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ብርሃን",
+      "candidate": "በድሉ ውብሸት ንጉሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ብርሃን",
+      "candidate": "ይርጋለም ምስጋናው ሂሩይ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ኤልያስ",
+      "candidate": "ይረፉ አዛዥ ካሳሁን"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ወርቅ",
+      "candidate": "ዋለ አባተ አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረ ወርቅ",
+      "candidate": "ሰናይት ያሳቡ ገላጋይ"
+    },
+    {
+      "region": "",
+      "constituency": "ደን ጽዮን",
+      "candidate": "ክፍያለው ሙላቴ ከብቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ደን ጽዮን",
+      "candidate": "ባንችአይ አየነው ልመንህ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዋ ጨፋ",
+      "candidate": "እንደሪስ አብዱ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዋ ጨፋ",
+      "candidate": "አህመድ ሁሴን መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳዋ ጨፋ",
+      "candidate": "ከድጃ ኡመር የሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ድል ይብዛ",
+      "candidate": "ብርሀኑ ዘውዱ ወረታ"
+    },
+    {
+      "region": "",
+      "constituency": "ድል ይብዛ",
+      "candidate": "ትዕግስት እያዩ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ጃማ ደጎሎ",
+      "candidate": "ሠይፉ ሰይድ ይማም"
+    },
+    {
+      "region": "",
+      "constituency": "ጃማ ደጎሎ",
+      "candidate": "ተፈሪ ታረቀኝ ታፈሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "ሙሉነሽ ደሴ አድማሱ"
+    },
+    {
+      "region": "",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "በላይነህ የኔሰው ተሰራ"
+    },
+    {
+      "region": "",
+      "constituency": "ግምጃ ቤት",
+      "candidate": "አሰናቀች ዘለለም ጥበቡ"
+    },
+    {
+      "region": "",
+      "constituency": "ግንደ ወይን",
+      "candidate": "ተመስገን ይበልጤ ሞላ"
+    },
+    {
+      "region": "",
+      "constituency": "ግንደ ወይን",
+      "candidate": "ባንቻምላክ ገብረማርያም በላይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጢስ አባይ",
+      "candidate": "ሹምበላይ ጠገናው ውብነተ"
+    },
+    {
+      "region": "",
+      "constituency": "ጢስ አባይ",
+      "candidate": "አላቸው ገለየ በለጠ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨፋ ሮቢት",
+      "candidate": "አህመድ አሊ አብዱፍሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨፋ ሮቢት",
+      "candidate": "አልይ ሰይድ አልይ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨፋ ሮቢት",
+      "candidate": "ሱፊያ ካሳ መሀብ"
+    },
+    {
+      "region": "",
+      "constituency": "ፍኖተ ሰላም",
+      "candidate": "ድረስ ሣህሉ ጐሹ"
+    },
+    {
+      "region": "",
+      "constituency": "ፍኖተ ሰላም",
+      "candidate": "ሙሉዓለም አሰፋው ተገኝ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "አረጋ ከበደ ሊጋስ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሕር ዳር ከተማ",
+      "candidate": "አለማዊት አለማየሁ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "ላይ ጋይንት 1",
+      "candidate": "ያበባል ጌታሁን ደሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ላይ ጋይንት 1",
+      "candidate": "ፍቃዱ ዳሞጤ ይብለጥ"
+    },
+    {
+      "region": "",
+      "constituency": "አለፋ ጣቁሳ 1",
+      "candidate": "ነጋ ይስማው አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "አለፋ ጣቁሳ 1",
+      "candidate": "ሰዋለም አሰፋ ቢተው"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ሀናን አብዱ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ ዙሪያ 1",
+      "candidate": "ሳሊም መኮንን አሊ"
+    }
+  ]
+}

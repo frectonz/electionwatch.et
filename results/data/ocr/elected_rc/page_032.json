@@ -1,0 +1,223 @@
+{
+  "pdf": "elected_rc",
+  "page": 32,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ደደር 2 / Dadar 2",
+      "candidate": "ተማማ አህመድ አቢበከር"
+    },
+    {
+      "region": "",
+      "constituency": "ደደር 2 / Dadar 2",
+      "candidate": "መሀሙዲን ከቢርሁሴን ከቢርመሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ደደር 2 / Dadar 2",
+      "candidate": "ኢሳቅ አብዲ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ሽመልስ አብዲሳ ኡልፋታ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ብዙ ባይሳ ኡርጌሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳንዲ 2 / Dandii 2",
+      "candidate": "ጉደታ አራርሳ ማንደሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴዶ 2 / Deedoo 2",
+      "candidate": "ፋዲል ካሊድ አባፎጊ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴዶ 2 / Deedoo 2",
+      "candidate": "ዘበዳ ሀጂ አባቡልጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴዶ 2 / Deedoo 2",
+      "candidate": "ሱልጣኔ አባፊጣ አባዱላ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎማ 2 / Goommaa 2",
+      "candidate": "ፋአድ ራያ አባጊሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎማ 2 / Goommaa 2",
+      "candidate": "ነዚፍ መሀመዳሚን ኢሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎማ 2 / Goommaa 2",
+      "candidate": "ኢፍቱ መሀመድ አብዱ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐብሮ 2 / Habroo 2",
+      "candidate": "ማሾ አሊዪ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ሐብሮ 2 / Habroo 2",
+      "candidate": "አብይድ ሙአዘም አብዱልሐሊም"
+    },
+    {
+      "region": "",
+      "constituency": "ሐብሮ 2 / Habroo 2",
+      "candidate": "አብዱረህማን ሀብይቢ አብዱረህማን"
+    },
+    {
+      "region": "",
+      "constituency": "ሐሮማያ 2 / Haroomaayaa 2",
+      "candidate": "ሎሚ በቀለ ፈይሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐሮማያ 2 / Haroomaayaa 2",
+      "candidate": "አለማየሁ ታደሰ ሀይሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐሮማያ 2 / Haroomaayaa 2",
+      "candidate": "አቶምሳ ኩምሳ ሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮፈሌ 2 / Kofalee 2",
+      "candidate": "ሀጂ ቡኖ ሰቆቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮፈሌ 2 / Kofalee 2",
+      "candidate": "ሚኤሶ ኤቢሶ ዱቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮፈሌ 2 / Kofalee 2",
+      "candidate": "ቦንቱ ከዲር ጉዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ 2 / Qarsaa 2",
+      "candidate": "አህመድ አብዱሰላም ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ 2 / Qarsaa 2",
+      "candidate": "ጀነቲ አብዶ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቀርሳ 2 / Qarsaa 2",
+      "candidate": "ወሰኔ ጉይታ ዲባባ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳማ 3 / Adaamaa 3",
+      "candidate": "ሴሬቻ አሰፋው መለካ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳማ 3 / Adaamaa 3",
+      "candidate": "አባቡ ዋቆ ቱራ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳማ 3 / Adaamaa 3",
+      "candidate": "ሎኮ ሐሌሌ ጅሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሮ 3 / Ciroo 3",
+      "candidate": "ፈቲያ አብረሂም አሊሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሮ 3 / Ciroo 3",
+      "candidate": "ተሾመ ከበደ በሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሮ 3 / Ciroo 3",
+      "candidate": "አህመድ አደም ዳውድ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገቢራ",
+      "candidate": "ሀንዲያ አህመድ አሊዪ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገቢራ",
+      "candidate": "ኡሱ ሀሰን አሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገቢራ",
+      "candidate": "ከድር አሊዪ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገዲኒ",
+      "candidate": "ፉአድ አደም አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ለገዲኒ",
+      "candidate": "ኑረዲን አብደላ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ለገዶል",
+      "candidate": "ደራራ ኢብራሂም ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ለገዶል",
+      "candidate": "ናሂሊ ሙሳ ቢላል"
+    },
+    {
+      "region": "",
+      "constituency": "ሐርላ",
+      "candidate": "ፋኪያ መሀመድ አደም"
+    },
+    {
+      "region": "",
+      "constituency": "ሐርላ",
+      "candidate": "ሙስጠፋ ሀሚድ ጎሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐርላ",
+      "candidate": "አዩብ በከሪ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ቀልድና",
+      "candidate": "አብዱረህማን መሀመድ አዋሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀልድና",
+      "candidate": "አብዱረሺድ ሀሰን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቀልድና",
+      "candidate": "መሀሪ ቡሀ ዲራሪ"
+    }
+  ]
+}

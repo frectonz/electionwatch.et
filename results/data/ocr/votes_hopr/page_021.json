@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 21,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "አበራ አቦ ጌምቤራ",
+      "votes": 55
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "መልካሙ ወልዴ አጫሞ",
+      "votes": 35
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሌሞ 02",
+      "candidate": "ሴዕመላ ዳሮሮ በላቸው",
+      "votes": 29
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቄ 02",
+      "candidate": "ነቢያት ጥላሁን ጫዕሚሶ",
+      "votes": 41606
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቄ 02",
+      "candidate": "እስራኤል ሙላቱ እሳቱ",
+      "votes": 2792
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቄ 02",
+      "candidate": "አድማሱ ዋርሳ ሹዕኔ",
+      "votes": 989
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቄ 02",
+      "candidate": "ሀንቄቦ ላማን ዱማሎ",
+      "votes": 734
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቄ 02",
+      "candidate": "ሰልፍሰ ኤርቃሎ ቃሎሬ",
+      "votes": 521
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሴቄ 02",
+      "candidate": "ማስረሻ ፍፁም ሚቆሬ",
+      "votes": 239
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "በረከት ማርቆስ ደረሎ",
+      "votes": 41076
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "ንጉሤ ገብሬ አቢሌ",
+      "votes": 4997
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "ተክሌ ደለሞ ሱጌቦ",
+      "votes": 732
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "ፍጥረቱ ግርማ ፈጣ",
+      "votes": 601
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "አበራ ሞየሬ መንዲዶ",
+      "votes": 492
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "ደንኤል ቢያጎ ማንሴ",
+      "votes": 488
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ሶሮ 02",
+      "candidate": "አከልሉ ግርማ ሄሴቦ",
+      "votes": 365
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 1",
+      "candidate": "ሰዉዳ ሃምዲኖ ያሲን",
+      "votes": 129982
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 1",
+      "candidate": "ማሕሙድ መሐመድ ሙሳ",
+      "votes": 629
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 1",
+      "candidate": "አብዱ ሀሰን መሀመድ",
+      "votes": 193
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 1",
+      "candidate": "ሠላሙ አማዶ በቴቦ",
+      "votes": 117
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 1",
+      "candidate": "ዘውዴ አበበ ሀንቆሬ",
+      "votes": 45
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ሀብቴ ፈታሞ አርፍጮ",
+      "votes": 18348
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ገብርኤል ዮሐንስ መናሞ",
+      "votes": 6078
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 1",
+      "candidate": "ስንታየሁ ዳምጠዉ ላንገና",
+      "votes": 4466
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እዣ 1",
+      "candidate": "መኩሪያ ኃይሌ ተክለማርያም",
+      "votes": 49528
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እዣ 1",
+      "candidate": "አብርሃም በርታ አንሰቦ",
+      "votes": 374
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እዣ 1",
+      "candidate": "ሂንደያ ሻፈ ኡመር",
+      "votes": 278
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 1",
+      "candidate": "ጥላሁን ኤርዱኖ ሀንቄቦ",
+      "votes": 31365
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 1",
+      "candidate": "አሳምነው ክብሮ ኢሳ",
+      "votes": 2802
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 1",
+      "candidate": "ደገፈ አባይነህ አበበ",
+      "votes": 1261
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 1",
+      "candidate": "ወንድሙ ደበበ ሀብተየስ",
+      "votes": 601
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 1",
+      "candidate": "ሰለሙ ሸንቆ አሼቦ",
+      "votes": 543
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 1",
+      "candidate": "ሽሰማ ገብረስላሴ ወራንጋ",
+      "votes": 38079
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 1",
+      "candidate": "ዘመቻ ወልዴ ፋይነታ",
+      "votes": 1106
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 1",
+      "candidate": "ያሬድ አረጋ ዶሬ",
+      "votes": 221
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 2",
+      "candidate": "ነጃት ግርማ ዋቅጅራ",
+      "votes": 151905
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 2",
+      "candidate": "ጌታቸው ሰፊቦ አልበሞ",
+      "votes": 347
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 2",
+      "candidate": "አማረ ሽፈራው በቀለ",
+      "votes": 288
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አላባ 2",
+      "candidate": "መሀመድ ከሊል ሰኢድ",
+      "votes": 232
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ጌታሁን ታገሠ ኑራሞ",
+      "votes": 30781
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ፀጋዬ አብዮ አናና",
+      "votes": 214
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ዳንኤል ዮሐንስ ኤርገና",
+      "votes": 90
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 2",
+      "candidate": "አባይነህ ታደሰ ዳላሎ",
+      "votes": 66
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "አንጋጫ 2",
+      "candidate": "ኤርምያስ ጎበና ሔራሞ",
+      "votes": 45
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እዣ 2",
+      "candidate": "መሠረት አመርጋ መኩሪያ",
+      "votes": 38713
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "እዣ 2",
+      "candidate": "ቶፊቅ በድሩ ሰማኒ",
+      "votes": 1058
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 2",
+      "candidate": "ዜና ማርቆስ ታደሰ",
+      "votes": 38943
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 2",
+      "candidate": "አርጋው ኤርቲሮ ኤርሰዶ",
+      "votes": 719
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 2",
+      "candidate": "ዋማሾ ባርገሞ ሳምሮ",
+      "votes": 246
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 2",
+      "candidate": "ታምራት ኤርጉዶ ጌሬጎ",
+      "votes": 184
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 2",
+      "candidate": "ሴቲ ርጅዋን ብዛ",
+      "votes": 45791
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 2",
+      "candidate": "ቸርአምላክ ፍሬሰንበት ወልደማርያም",
+      "votes": 687
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ጉመር 2",
+      "candidate": "ዲኖ ጭቅሳ አህመድ",
+      "votes": 578
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 3",
+      "candidate": "ሙሉነሽ ሳምሬ ኡሼ",
+      "votes": 40798
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 3",
+      "candidate": "አለሙ ኤርሲዶ አንሽሶ",
+      "votes": 756
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 3",
+      "candidate": "ማቴዎስ ሰፊቦ ሆብቾ",
+      "votes": 483
+    },
+    {
+      "region": "ማዕከላዊ ኢትዮጵያ",
+      "constituency": "ኮንተብ 3",
+      "candidate": "ደረጀ አቴቦ ዱቤሌ",
+      "votes": 180
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "ባሂታ ባውዲ ዘንጌ",
+      "votes": 46361
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "በጩሊ መሻሊ ቦሜአ",
+      "votes": 7595
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "ሰለሞን አቸንፈ ምትኩ",
+      "votes": 3051
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "ባይሳ ደሬሳ ከበደ",
+      "votes": 2625
+    }
+  ]
+}

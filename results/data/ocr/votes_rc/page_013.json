@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 13,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ትግስት ብላጎ ብርቦ",
+      "votes": 24
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሲንታየሁ ስለ ቃንቆሶ",
+      "votes": 22
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አገዘ አስመላሽ ቡኩላ",
+      "votes": 21
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "መልካሙ በላይነህ ባዳ",
+      "votes": 21
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አበዛሽ አስፋው ቃልሞ",
+      "votes": 20
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሐብታሙ ሐይሉ ሐሙካ",
+      "votes": 19
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ተመስገን ተፈራ ቦጣ",
+      "votes": 19
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዘነበች ጋማርሳ ሃርሶ",
+      "votes": 18
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሀይማኖት ኃይሉ ሐንቃሞ",
+      "votes": 17
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አለማየሁ ቃዋቶ ጨቃራ",
+      "votes": 16
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ደሳለኝ ቤቻቃ ቦቻ",
+      "votes": 16
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ተገኑ ጌቱ ማራሣ",
+      "votes": 15
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ባንክነሽ ሃርሶ ሃማሮ",
+      "votes": 15
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ማሙሽ ደግፌ ሀይሉ",
+      "votes": 14
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ብርቱካን ተመስገን ከበደ",
+      "votes": 14
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዳዊት ዳኜ ጋብባ",
+      "votes": 12
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ማስትኩ ጋብሶ ስንቃሴ",
+      "votes": 11
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "መስከረም ሀረሶ ብልሶ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አድሱ አለምቦ አሙሎ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ተዋበች ታሪኩ ወልዴ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ምህረት አምዴ ጌታነህ",
+      "votes": 10
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ዮሴፍ ዮሳ ዳቦ",
+      "votes": 83282
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሮዛሪያ አሸቱ አለንቦ",
+      "votes": 82841
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ክፍያለው ከበደ ሶርሳ",
+      "votes": 82778
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "በሪሁን ባራሣ ባኔታ",
+      "votes": 82745
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ፍቅረኢየሱስ አሸናፊ ዱሜራ",
+      "votes": 82715
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ስፋቶ ሲዳ ቡቻቻ",
+      "votes": 82554
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አማረች እንዳለለት አሜሎ",
+      "votes": 82277
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ብርቄ ካቢሶ ባሴ",
+      "votes": 82152
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ምህረት ግርማ ሙርቄ",
+      "votes": 81919
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አሸናፊ ኤልያስ አሳቱ",
+      "votes": 75564
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ዘርሁን ከበደ ላምሶ",
+      "votes": 2684
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ብላሎ ብግራ ኤቲሣ",
+      "votes": 2276
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታደሰ አሰፋው ዶራቶ",
+      "votes": 1943
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታደሰ ቡናዬ ዮንቦራ",
+      "votes": 1911
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሀይለየሱስ ደበላ ደማ",
+      "votes": 1894
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ስምኦን ረጋሳ ያሳ",
+      "votes": 1872
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ስሜነህ ተሾመ ተስፋዬ",
+      "votes": 1862
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አሸናፍ ዩኬ ቃሚሶ",
+      "votes": 1861
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ተዘራሽ ሀብቴ ቆቴ",
+      "votes": 1836
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አስፋው አሙሎ አዳቶ",
+      "votes": 1830
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አሸብር አወቀ ማሞ",
+      "votes": 1825
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አስታረቀች አለሙ አብሶ",
+      "votes": 1799
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አርገታ አሙሎ ዘውዴ",
+      "votes": 1797
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታደሰ ተክሌ ባድሶ",
+      "votes": 1792
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "መላኩ መንገሻ በርታ",
+      "votes": 1710
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ስድራቅ ሲማቶ ዶያሞ",
+      "votes": 1656
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታደሰ ታደሰ ሲዳ",
+      "votes": 1621
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታፈሰ ጅሶ ጋናሾ",
+      "votes": 1590
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታሪኩ ባቲ ዮቶ",
+      "votes": 1498
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሁኑት ቴሻ ያኩ",
+      "votes": 1465
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አንዳሻው ያዕቆብ ደግሰው",
+      "votes": 1447
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "የኃላሸት ደፋር ወልደፃድቅ",
+      "votes": 1405
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታርኩ ሀጥያ ባሴ",
+      "votes": 1398
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ታፈሰ ታደሰ ፋራንጄ",
+      "votes": 1299
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "መዳንት ጋልጋሎ ዎራሳ",
+      "votes": 1253
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሽመልስ ጥላሁን ከበደ",
+      "votes": 1165
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አበራሽ አዳሞ ቦሩ",
+      "votes": 1156
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ዱካሞ ዱሜራ ዬራ",
+      "votes": 932
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሻላሞ ሩሳ ቢላሞ",
+      "votes": 807
+    }
+  ]
+}

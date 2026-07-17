@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 29,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሳጉሬ / Saaguree",
+      "candidate": "መሐመድ አብሹ ዳቆቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳጉሬ / Saaguree",
+      "candidate": "ሂርጳ ዳባ ቦጋለ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳጉሬ / Saaguree",
+      "candidate": "አስቴር መንግስቱ ተሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻምቡ / Shaambuu",
+      "candidate": "ጌጤ ሀታው ዳኑ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻምቡ / Shaambuu",
+      "candidate": "ቶለሳ ገደፋ ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "ሻምቡ / Shaambuu",
+      "candidate": "መርጋ አሊቃ አመንቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሽርካ / Shirkaa",
+      "candidate": "ጣሂር አማኖ አልይ"
+    },
+    {
+      "region": "",
+      "constituency": "ሽርካ / Shirkaa",
+      "candidate": "ደጀኔ ደሜ መገርሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሽርካ / Shirkaa",
+      "candidate": "አዩባ አብደላ ጉዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሲናና / Sinaanaa",
+      "candidate": "ካሳሁን ጎፌ ባላሚ"
+    },
+    {
+      "region": "",
+      "constituency": "ሲናና / Sinaanaa",
+      "candidate": "አብዱልአዚዝ ዳውድ አደም"
+    },
+    {
+      "region": "",
+      "constituency": "ሲናና / Sinaanaa",
+      "candidate": "አልይ ሁሴን ፈቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶኮሩ / Sokorruu",
+      "candidate": "አምበሩ አባሚልኪ አባጎጃም"
+    },
+    {
+      "region": "",
+      "constituency": "ሶኮሩ / Sokorruu",
+      "candidate": "ኢስማኤል ሳንቢ ዱራ"
+    },
+    {
+      "region": "",
+      "constituency": "ሶኮሩ / Sokorruu",
+      "candidate": "ጀሚላ አባዝናብ አባዋጂ"
+    },
+    {
+      "region": "",
+      "constituency": "ታጂ / Tajjii",
+      "candidate": "ንግስት ሰብስቤ ግዛዉ"
+    },
+    {
+      "region": "",
+      "constituency": "ታጂ / Tajjii",
+      "candidate": "ብርቱካን ፈዬራ ገለልቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ታጂ / Tajjii",
+      "candidate": "ኤልያስ ኪድር ጎንደሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ታጆ / Tajjoo",
+      "candidate": "ውባለም ይሬሳ ሂካ"
+    },
+    {
+      "region": "",
+      "constituency": "ታጆ / Tajjoo",
+      "candidate": "ካስሁን ሃይሉ መርዳሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ታጆ / Tajjoo",
+      "candidate": "በደሣ ደባ ፍይሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡካ / Ukkaa",
+      "candidate": "ዶሴ ታከለ ጃንኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡካ / Ukkaa",
+      "candidate": "እንዳልካቸው ተፈሪ ሊጋባ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡካ / Ukkaa",
+      "candidate": "ፈለቀች ያይታ ጉዮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡራጋ / Uraagaa",
+      "candidate": "አብዱልሰላም መሀመድ አደም"
+    },
+    {
+      "region": "",
+      "constituency": "ኡራጋ / Uraagaa",
+      "candidate": "ጫልቱ ቱቃ ኡዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡራጋ / Uraagaa",
+      "candidate": "ገልገሎ ዋሬ ኤጀርሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ወለንጪቲ / Walancitii",
+      "candidate": "ሀዋስ ጨረጨር ሀዋስ"
+    },
+    {
+      "region": "",
+      "constituency": "ወለንጪቲ / Walancitii",
+      "candidate": "ኤልያስ በሻ መጫ"
+    },
+    {
+      "region": "",
+      "constituency": "ወለንጪቲ / Walancitii",
+      "candidate": "ታደለ ድሪርሳ ኡማ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልመራ / Walmaraa",
+      "candidate": "አሸቱ በቀለ ቸሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልመራ / Walmaraa",
+      "candidate": "ግርማ ዴሲሳ በዳዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ወልመራ / Walmaraa",
+      "candidate": "ግርማ ሀይሉ ቶላ"
+    },
+    {
+      "region": "",
+      "constituency": "ወንጪ / Wancii",
+      "candidate": "ታሪኩ ለገሰ ፈይሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ወንጪ / Wancii",
+      "candidate": "ኩሜ አበራ ሽንተማ"
+    },
+    {
+      "region": "",
+      "constituency": "ወንጪ / Wancii",
+      "candidate": "ድርርሳ ዋቁማ ኢዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ወረጃርሶ / Warra Jaarsoo",
+      "candidate": "ደረጀ ሰማ አበበ"
+    },
+    {
+      "region": "",
+      "constituency": "ወረጃርሶ / Warra Jaarsoo",
+      "candidate": "ሚኤሳ ባዩ ቶላ"
+    },
+    {
+      "region": "",
+      "constituency": "ወረጃርሶ / Warra Jaarsoo",
+      "candidate": "ይደነቁ ፊዬ ደምሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ጢቾ / Xiichoo",
+      "candidate": "ሳሬ መሀመድ ገመዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ጢቾ / Xiichoo",
+      "candidate": "ካሚል ሱሌማ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጢቾ / Xiichoo",
+      "candidate": "ሙሀመድ ኑራ ገመቹ"
+    },
+    {
+      "region": "",
+      "constituency": "ያቤሎ / Yaabelloo",
+      "candidate": "አብዱሰላም ዋሪዮ ሀሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ያቤሎ / Yaabelloo",
+      "candidate": "ጃርሶ ቦሩ ራሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ያቤሎ / Yaabelloo",
+      "candidate": "ጋልማ ኮርዶፋ ዋርዮ"
+    }
+  ]
+}

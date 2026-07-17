@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 104,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ብሩክ አለሙ ሱሞሮ",
+      "votes": 14519
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "የሱፍ አርጋው ሁሴን",
+      "votes": 12195
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ማህሌት ምናሉ ከበደ",
+      "votes": 12093
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ገነት ፋንታዬ በቀለ",
+      "votes": 11889
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አወል መሀመድ ቀማው",
+      "votes": 11354
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሜሮን ጋረደው ሸፈራው",
+      "votes": 10975
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አንተነህ ጌታቸው ቢራቱ",
+      "votes": 10728
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አስከባር ፈጠን ሲሳይ",
+      "votes": 10621
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ይታያል አሰፋ ብርሃን",
+      "votes": 10182
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዮሀንስ ዳግም አለሙ",
+      "votes": 10113
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ተመስገን ባይለየኝ ፀጋው",
+      "votes": 9894
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አብዱሰላም ተገኘ አስረስ",
+      "votes": 9847
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዘሪሁን መስፍን ወልደሚካኤል",
+      "votes": 9522
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "በሃይሉ ጌታቸው ወልደዮሃንስ",
+      "votes": 9282
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ብርሀን ከተማ ይገዙ",
+      "votes": 8876
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ጌታቸው ገሰሰ አሰፋው",
+      "votes": 8395
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ምስጋናው አማሪ ተካ",
+      "votes": 8381
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አስቻለው አያየ ታፈሰ",
+      "votes": 7957
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መስህወት ስመኝ ኃይለስላሴ",
+      "votes": 7719
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አዲሱ በላቸው አበበ",
+      "votes": 7278
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሳቀው አታላይ መኮንን",
+      "votes": 7035
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሐሰን ታፈሰ ተሊላ",
+      "votes": 5066
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሁሴን አብደላ አሊ",
+      "votes": 4857
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አልሀምዱ አረብ ኸሊል",
+      "votes": 4508
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሰገሰ ቱሉ ሞሳ",
+      "votes": 4381
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዮናስ ሕርኮ ዳባ",
+      "votes": 4353
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ወልዴ ብርሀኑ ገትር",
+      "votes": 4157
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዘገበ ትዕዛዙ ወልደአረጋይ",
+      "votes": 4069
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ኤፍራታ ዋሲሁን መላኩ",
+      "votes": 3910
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አበባ ብርሃኔ አሰፋ",
+      "votes": 3826
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "እመቤት ለገሰ አብዲ",
+      "votes": 3795
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዮርዳኖስ በቀለ ተሰማ",
+      "votes": 3745
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቤተልሄም ሀይሉ ገብሩ",
+      "votes": 3721
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ታሪኩ መኮንን አደገ",
+      "votes": 3720
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ጥሩሰት ካሰው አጥናፉ",
+      "votes": 3645
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "በረፋን ሚደክሳ ባይሳ",
+      "votes": 3613
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቶሎ ደርሱ አድማሱ",
+      "votes": 3558
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሰናይት ተስፋዬ ደሴ",
+      "votes": 3519
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ብሩክ አሰፋው ፍቅሬ",
+      "votes": 3496
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ተስፋ ቶሎሳ ዱሜቻ",
+      "votes": 3479
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዘነበች ይሀደጐ በርሄ",
+      "votes": 3386
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ደስታ ዋለልኝ አሰፋው",
+      "votes": 3377
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሰለማዊት ወርቁ በቃና",
+      "votes": 3366
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ደረጃ ጉድና ዴጋ",
+      "votes": 3334
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ታሪኩ ኃይሉ ቢሰጠኝ",
+      "votes": 3246
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ደሣለኝ ጥላሁን ወልደመድህን",
+      "votes": 3158
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ጤናሁን አየለ አርሼ",
+      "votes": 3051
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ማቲዎስ አረቦ መሐመድ",
+      "votes": 2989
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ምስራቅ እሸቱ ካሳሁን",
+      "votes": 2756
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሀብታሙ አለማየሁ ሚደቅሣ",
+      "votes": 2540
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ጢቻ ታዬ ደመሬ",
+      "votes": 2290
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዋሲሁን እሸቱ እንድሪስ",
+      "votes": 2280
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ፋአድ ሰማን ሳላህ",
+      "votes": 2275
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አብረሃም በለጠ ብርሃኑ",
+      "votes": 1911
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ረጋሳ ባዳኔ ደበሌ",
+      "votes": 1513
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አዳነች አቤቤ ደሳ",
+      "votes": 195205
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ካባ መብራቱ ቶጄ",
+      "votes": 165496
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዘላለም ሙሉቱ ደሙ",
+      "votes": 157603
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "የትምጌታ አሰራት ጣፋ",
+      "votes": 154386
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መኮንን ያኢ ገመዳ",
+      "votes": 149351
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "seats": {
+    "hopr": {
+      "decided_seats": 486,
+      "council_seats": 486,
+      "parties": 17,
+      "independent_seats": 8
+    },
+    "rc": {
+      "decided_seats": 2681,
+      "council_seats": 2700,
+      "parties": 37,
+      "independent_seats": 9
+    }
+  },
+  "elected": {
+    "hopr": 486,
+    "rc": 2681
+  },
+  "votes_rows": 10142,
+  "verification": {
+    "hopr": {
+      "elected_members": 486,
+      "published_seats": 486,
+      "agreeing_seats": 486,
+      "unattributed_seats": 0,
+      "contradicting_seats": 0,
+      "agreement": 1.0,
+      "published_to_site": true
+    },
+    "rc": {
+      "elected_members": 2681,
+      "published_seats": 2681,
+      "agreeing_seats": 2681,
+      "unattributed_seats": 0,
+      "contradicting_seats": 0,
+      "agreement": 1.0,
+      "published_to_site": true
+    }
+  },
+  "match": {
+    "elected_hopr": {
+      "rows": 486,
+      "constituency_matched": 486,
+      "candidate_matched": 486
+    },
+    "elected_rc": {
+      "rows": 2681,
+      "constituency_matched": 2681,
+      "candidate_matched": 2681
+    },
+    "votes_hopr": {
+      "rows": 1963,
+      "constituency_matched": 1962,
+      "candidate_matched": 1951
+    },
+    "votes_rc": {
+      "rows": 8179,
+      "constituency_matched": 8177,
+      "candidate_matched": 8135
+    }
+  },
+  "source_url": "https://nebe.org.et/am/7th-general-election-result-summary",
+  "published": "2026-07-08",
+  "files": [
+    {
+      "file": "addis_ababa_hopr",
+      "region": "Addis Ababa",
+      "body": "hopr",
+      "rows": 219
+    },
+    {
+      "file": "afar_hopr",
+      "region": "Afar",
+      "body": "hopr",
+      "rows": 48
+    },
+    {
+      "file": "amhara_hopr",
+      "region": "Amhara",
+      "body": "hopr",
+      "rows": 470
+    },
+    {
+      "file": "benshangul_gumz_hopr",
+      "region": "Benishangul-Gumuz",
+      "body": "hopr",
+      "rows": 31
+    },
+    {
+      "file": "central_ethiopia_hopr",
+      "region": "Central Ethiopia",
+      "body": "hopr",
+      "rows": 144
+    },
+    {
+      "file": "diredawa_hopr",
+      "region": "Dire Dawa",
+      "body": "hopr",
+      "rows": 13
+    },
+    {
+      "file": "gambella_hopr",
+      "region": "Gambela",
+      "body": "hopr",
+      "rows": 9
+    },
+    {
+      "file": "harari_hopr",
+      "region": "Harari",
+      "body": "hopr",
+      "rows": 8
+    },
+    {
+      "file": "oromia_hopr",
+      "region": "Oromia",
+      "body": "hopr",
+      "rows": 446
+    },
+    {
+      "file": "sidama_hopr",
+      "region": "Sidama",
+      "body": "hopr",
+      "rows": 143
+    },
+    {
+      "file": "somali_hopr",
+      "region": "Somali",
+      "body": "hopr",
+      "rows": 57
+    },
+    {
+      "file": "south_ethiopia_hopr",
+      "region": "South Ethiopia",
+      "body": "hopr",
+      "rows": 280
+    },
+    {
+      "file": "south_west_hopr",
+      "region": "South West Ethiopia",
+      "body": "hopr",
+      "rows": 95
+    },
+    {
+      "file": "addis_ababa_rc",
+      "region": "Addis Ababa",
+      "body": "rc",
+      "rows": 797
+    },
+    {
+      "file": "afar_rc",
+      "region": "Afar",
+      "body": "rc",
+      "rows": 469
+    },
+    {
+      "file": "amhara_rc",
+      "region": "Amhara",
+      "body": "rc",
+      "rows": 732
+    },
+    {
+      "file": "benshangul_gumz_rc",
+      "region": "Benishangul-Gumuz",
+      "body": "rc",
+      "rows": 356
+    },
+    {
+      "file": "central_ethiopia_rc",
+      "region": "Central Ethiopia",
+      "body": "rc",
+      "rows": 553
+    },
+    {
+      "file": "diredawa_rc",
+      "region": "Dire Dawa",
+      "body": "rc",
+      "rows": 208
+    },
+    {
+      "file": "gambella_rc",
+      "region": "Gambela",
+      "body": "rc",
+      "rows": 334
+    },
+    {
+      "file": "harari_rc",
+      "region": "Harari",
+      "body": "rc",
+      "rows": 67
+    },
+    {
+      "file": "oromia_rc",
+      "region": "Oromia",
+      "body": "rc",
+      "rows": 969
+    },
+    {
+      "file": "sidama_rc",
+      "region": "Sidama",
+      "body": "rc",
+      "rows": 1281
+    },
+    {
+      "file": "somali_rc",
+      "region": "Somali",
+      "body": "rc",
+      "rows": 602
+    },
+    {
+      "file": "south_ethiopia_rc",
+      "region": "South Ethiopia",
+      "body": "rc",
+      "rows": 1152
+    },
+    {
+      "file": "south_west_rc",
+      "region": "South West Ethiopia",
+      "body": "rc",
+      "rows": 659
+    }
+  ]
+}

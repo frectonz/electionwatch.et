@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 44,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አማራ",
+      "constituency": "ከምከም 2",
+      "candidate": "አንየው ክፍሌ ጓዴ",
+      "votes": 885
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ከምከም 2",
+      "candidate": "አንዳልካቸው ሞገስ ምህረቱ",
+      "votes": 845
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወገራ 2",
+      "candidate": "ማራቱ ታረቀኝ ጎሽ",
+      "votes": 53231
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወገራ 2",
+      "candidate": "ባንችአለም ስጦታው ተገኘ",
+      "votes": 1857
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወገራ 2",
+      "candidate": "አልማዝ ታፈረ ዘገየ",
+      "votes": 322
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወገራ 2",
+      "candidate": "አዲስ ካሴ ደሴ",
+      "votes": 300
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ወገራ 2",
+      "candidate": "መልካሙ ውባየ አለሙ",
+      "votes": 120
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "ዘውዱ ማለደ በላይ",
+      "votes": 84246
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "አስናቁ ደረሰ ላየሁ",
+      "votes": 84211
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "ሞላ ክፍለ ፈንታቢል",
+      "votes": 157
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "አንደበት የማነ ገናናው",
+      "votes": 114
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "በላይ ሙጬ መለሰ",
+      "votes": 114
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "ገነትማርያም ፀዳሉ ደምሳሽ",
+      "votes": 112
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደምቢያ 2",
+      "candidate": "ማማር ባታው ሀይሌ",
+      "votes": 7
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "አሊ መኮነን አሰፋው",
+      "votes": 76229
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ሰርኬ አለሙ አሰፋው",
+      "votes": 74675
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ራህመት ካሳው ሞላ",
+      "votes": 620
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "አያሌው አሸብር አደም",
+      "votes": 565
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "አሊ ሁሴን አረጋው",
+      "votes": 517
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ጫኔ አባተ ሁሴን",
+      "votes": 388
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ሙሀመድ ሸፋዉ ሙሀመድ",
+      "votes": 149
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ሰይድ ይማም ከበደ",
+      "votes": 113
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ደብረሲና 2",
+      "candidate": "ጌጤ በላይ አራጌ",
+      "votes": 76
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ሠርካለም ሊጋባው ደምሳው",
+      "votes": 43545
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ሰላምን አያዩ ገድሉ",
+      "votes": 43389
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "አስቻለው ጌጡ እጅጉ",
+      "votes": 803
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ብሩክ አለኸኝ አሰማረ",
+      "votes": 627
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "አፀደ ፈንታ ፈረደ",
+      "votes": 566
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "ሮቤል ተስፋ አድጎ",
+      "votes": 430
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ጭልጋ 2",
+      "candidate": "አገሬ ሽባባው ታከለ",
+      "votes": 422
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፋርጣ 2",
+      "candidate": "አወቀ ዘመነ ጎሹ",
+      "votes": 60013
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፋርጣ 2",
+      "candidate": "ሰናይት ተገኘ መንግስቱ",
+      "votes": 58814
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፋርጣ 2",
+      "candidate": "ሚኒሊክ አበበ ጎላ",
+      "votes": 1804
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፋርጣ 2",
+      "candidate": "ብርቱካን ምስጋነው ንጉሴ",
+      "votes": 1470
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፎገራ 2",
+      "candidate": "መድፈሪያሽ ኃይለየሱስ ተፈራ",
+      "votes": 55611
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፎገራ 2",
+      "candidate": "ያምላክ አርቅ አሰፋው",
+      "votes": 54894
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፎገራ 2",
+      "candidate": "ባየ መንግስቴ ምህረቴ",
+      "votes": 4496
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፎገራ 2",
+      "candidate": "ለማ አዱኛ ይርዳው",
+      "votes": 4327
+    },
+    {
+      "region": "አማራ",
+      "constituency": "እስቴ 3",
+      "candidate": "ካሳ አበበው ወንድማገኝ",
+      "votes": 51206
+    },
+    {
+      "region": "አማራ",
+      "constituency": "እስቴ 3",
+      "candidate": "ሳቢላ ፍቃድ ፈንቴ",
+      "votes": 49923
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፋርጣ 3",
+      "candidate": "ደሴ መኮነን ደመወዝ",
+      "votes": 41043
+    },
+    {
+      "region": "አማራ",
+      "constituency": "ፋርጣ 3",
+      "candidate": "ስድንያስ ባየ አለሙ",
+      "votes": 5126
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ሞጣና ዴታ ሀሰን",
+      "votes": 57967
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ዩሱፍ ሀሰን ሙሳ",
+      "votes": 57505
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ጎዳና አህዶ ዳታ",
+      "votes": 57474
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ፋጡማ መሀመድ ያሲን",
+      "votes": 57075
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ቃሲም አቢቶ ሙካ",
+      "votes": 57042
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "መስጠፋ ዮሴፍ ሞሚን",
+      "votes": 280
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ሮብሌ ዳውድ አሊዶ",
+      "votes": 272
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ሙና ሲራጅ ያሲን",
+      "votes": 208
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ዳንኤል ደበበ በርጋን",
+      "votes": 193
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "አድአሚ ጋዲሶ ኡርቶ",
+      "votes": 186
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ፋጡማ አሊ ሞላ",
+      "votes": 163
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "መሀመድ አህመድ ሀዋዝ",
+      "votes": 161
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "አብዱልከሪም አሊ ሰይድ",
+      "votes": 155
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ወርቁ ደስታ ጅሩ",
+      "votes": 151
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ማሪያ ጁኔድ አስማኤል",
+      "votes": 91
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "መይሙና አረቡ ሀዋዝ",
+      "votes": 88
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ፋጡማ አህመድ ሁሴን",
+      "votes": 80
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አዋሽ ፈንታሌ ወረዳ / Awaash Fatiqaleh Daqaara",
+      "candidate": "ሰአዳ መሀመድ ኑሩ",
+      "votes": 60
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "pdf": "elected_rc",
+  "page": 20,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "አደአር ወረዳ / Qaddaqar Daqaara",
+      "candidate": "መዲና ዑመር መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አደአር ወረዳ / Qaddaqar Daqaara",
+      "candidate": "ራህማ ካሎይታ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አደአር ወረዳ / Qaddaqar Daqaara",
+      "candidate": "መሀመድ ሂንዴ ሀትኬ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "መሀመድ ሁመድ የዮ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ያሲን ሀቢብ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "አቡብከር ኢሴ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ሃቢብ ሰይድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ሂክማ አሃዉ ናስር"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ፋጡማ መሀመድ አብደላ"
+    },
+    {
+      "region": "",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ኢያህ ኢሴ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ሃሚድ ዱላ ቶሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ዘሀራ ጀማል አይዳሂስ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ከድር መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭፍራ ወረዳ / Sifrâ Daqaara",
+      "candidate": "አወል አርባ አንዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭፍራ ወረዳ / Sifrâ Daqaara",
+      "candidate": "አሚን ሀጂ ከሎይታ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭፍራ ወረዳ / Sifrâ Daqaara",
+      "candidate": "አሚና አወል ጉደሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭፍራ ወረዳ / Sifrâ Daqaara",
+      "candidate": "ሀሊማ አሊ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭፍራ ወረዳ / Sifrâ Daqaara",
+      "candidate": "ሙጃሂድ መሀመድ ሰሃ"
+    },
+    {
+      "region": "",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አሚና ሴኮ ቢዳሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አደን ሃማና አደን"
+    },
+    {
+      "region": "",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "ሀስና መሀመድ ዳውድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አህመድ ሁሴን መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብዱ መሀመድ ጉረባኢስ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አህመድ አሊ ማሂር"
+    },
+    {
+      "region": "",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "ኩልሱማ አሊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "ሀስና መሀመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "መሀመድ አህመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ቢላል ዳርጌ ዲሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ጀሚላ በዩስ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሊፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "ሀሰን መሀመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሊፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "አስማ አብደላ ዱባ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሊፋጌ ወረዳ / Xalefaageh Daqaara",
+      "candidate": "አይዳሂስ አደን አይዳሂስ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሉሊ ማሀመድ ኢለማ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "አሊ መሀመድ ማሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሀሊማ ማሀመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "ሁመድ አብደላ ሁመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሎል ወረዳ / Xalol Daqaara",
+      "candidate": "መሀመድ ሳሊህ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "ሁሴን መሃመድ ዛሀብ"
+    },
+    {
+      "region": "",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "ከዉሰር ሀጂ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ያሎ ወረዳ / Yallô Daqaara",
+      "candidate": "አይሻ ኡስማን አይዳሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "መኮንን ይልማ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "ፋኖስ ለማ ጋረደ"
+    },
+    {
+      "region": "",
+      "constituency": "ያያ ጉለሌ እና ደብረ ሊባኖስ / Yaayyaa Gullallee Fi Dabra Libaanoos",
+      "candidate": "ያሬድ ግርማ ለማ"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 6,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዳዊት በየነ ባራሞ",
+      "votes": 611
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ኤልያስ ኤሳያስ ኬንባ",
+      "votes": 600
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሙሉ ሀርሶ ከንታሞ",
+      "votes": 599
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አንባቆም ኤጃሞ ዶላሞ",
+      "votes": 596
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ብርቄ ኤልያስ ናሞ",
+      "votes": 568
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ወዬሳ ርቅሞ ሮማ",
+      "votes": 563
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ገነት ጳውሎስ ሻላሞ",
+      "votes": 563
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዉዴ ሄኖክ ባሌሎ",
+      "votes": 547
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዮሴፈ ሱሩራ ባላኮ",
+      "votes": 469
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሙሉቱ ሀርሶ ልዋዎ",
+      "votes": 393
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "እሳያስ አባ ፋጋ",
+      "votes": 388
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ደምሰ ሹብሻ ጋብሶ",
+      "votes": 378
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ተስፋየ ታየ ሽፎ",
+      "votes": 377
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "መልካሙ ማርፋ ጎባሮ",
+      "votes": 363
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዮሴፍ አንበሴ ኢቲሶ",
+      "votes": 360
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ጴጥሮስ ሀርሶ ልዋዎ",
+      "votes": 346
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ስድራቅ ካንባታ ኪያሞ",
+      "votes": 335
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ማርቆስ ዳራ ሻንኬ",
+      "votes": 314
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሹንዴ ታቦታ ማጋኔ",
+      "votes": 310
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ተሻለ እንግዳ ኢንዳሞ",
+      "votes": 306
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ተመስገን ሲዳሞ ገርማሞ",
+      "votes": 297
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "መክፍን ማሩፋ ጎባሮ",
+      "votes": 290
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሰገሠ ሀግሮሶ ሀርዶ",
+      "votes": 287
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አርዳቸው ሌላሞ የመና",
+      "votes": 279
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ተገኔ ሌራ ገነሞ",
+      "votes": 247
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ታምሩ አድራ አዳላ",
+      "votes": 221
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ድንቅነሽ ሁሮ ሀጥላ",
+      "votes": 205
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሱቃስ ኤርምያስ ሌላሞ",
+      "votes": 202
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "እዮብ ዳኒኤል ጉላሞ",
+      "votes": 187
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "በረከት ዮሀንስ ገመና",
+      "votes": 187
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አላዘር እያሱ ባልካ",
+      "votes": 185
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ዳዊት ቲሶ ጋታሞ",
+      "votes": 177
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ያሬድ ታሪኩ ጣሳ",
+      "votes": 167
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ኤልያስ ዋሬ ጎላ",
+      "votes": 163
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ፀሐይ ኤልያስ ዋሬ",
+      "votes": 161
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ተሰማ ላርቦ ጋብሶ",
+      "votes": 143
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "አሚረች ኢዮብ አቶ",
+      "votes": 140
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ሳሙኤል ሐሜሶ ሲላ",
+      "votes": 136
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "በረከት ጋልፈቶ ሀያሞ",
+      "votes": 124
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ናትናኤል ያዕቆብ ሄራኖ",
+      "votes": 117
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ይርባ / Yirba",
+      "candidate": "ማርታ አዛሞ ሐሳቆ",
+      "votes": 94
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አክሊሉ አዳላ ያዬ",
+      "votes": 97059
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "በየነ ባራሳ ባሰንጎ",
+      "votes": 96119
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ሀይሌ ሀርሲሳ ሀሮ",
+      "votes": 94265
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ዮንሳነሽ በቀለ ቃሬ",
+      "votes": 94264
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አበራሽ ቃርፋፋ ቦኮ",
+      "votes": 92908
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ታፈሰ ማቴዎስ ካሮ",
+      "votes": 90552
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ብርሴ ብርሃኑ ወልደሚካኤል",
+      "votes": 89626
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አለሙ አለንቦ አሩሳ",
+      "votes": 89373
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ታደለች ዮሀንስ ወቲቻ",
+      "votes": 89001
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ከተማ ከበደ ካያሶ",
+      "votes": 5947
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "አዳነ በቀለ ሐዌሶ",
+      "votes": 5190
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ክፍያለው ወጄ ዱጉና",
+      "votes": 5126
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ዘርዬ ቴንሳሳ መቅሳ",
+      "votes": 5068
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ደስታ ኩለ ማሌ",
+      "votes": 4916
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ትሁን ወልዴ ደንበሬ",
+      "votes": 4891
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ገነት ስራሮ ሲዳ",
+      "votes": 4773
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ወርቅነሽ ብርሃኑ ባርቄ",
+      "votes": 4672
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ገረሙ ባሻ በርሴ",
+      "votes": 4567
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "አርቤጎና / Arbegoona",
+      "candidate": "ማትዎስ ኤረራ ገነሞ",
+      "votes": 2448
+    }
+  ]
+}

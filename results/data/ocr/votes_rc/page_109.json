@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 109,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አዳነ አሰፋ መንገሻ",
+      "votes": 36111
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አየለች ተራ ቴቃቶ",
+      "votes": 35826
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "መንግስቴ ማጃ ቲና",
+      "votes": 15878
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ተስፋዬ ገረሱ አድሮ",
+      "votes": 1173
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አስተያየት አለሙ ግደይ",
+      "votes": 1141
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ተገኝ ፋንጮ ፋዝጋ",
+      "votes": 1107
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አብራሃም አዳሞ አርካ",
+      "votes": 1100
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ትግስት ካዛ ካታ",
+      "votes": 1088
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ግምቱ ዳርኮ ቦራና",
+      "votes": 181
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ብርቱ ብዙነህ ፋንታ",
+      "votes": 176
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አንተነህ ያለላ ያፌ",
+      "votes": 169
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ተሌ ካንሳ ዛንባ",
+      "votes": 161
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ተከተል ካስትሮ ቶጋ",
+      "votes": 152
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ጥላሁን ኬዳ ኬንቾ",
+      "votes": 139
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ንግስት ደመሴ ደሳለኝ",
+      "votes": 118
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሰነች",
+      "candidate": "ታደሰ ሐቴ ሜኔ",
+      "votes": 29803
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሰነች",
+      "candidate": "ጥኩማ አስራት ገብረመድን",
+      "votes": 29004
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሰነች",
+      "candidate": "ሚካኤል አቶሞሊያ ኮሮጉር",
+      "votes": 473
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሰነች",
+      "candidate": "አቻው ሪትላ አከኘ",
+      "votes": 345
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ሀኪሜ አየለ ቆሣ",
+      "votes": 41274
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "አየለ ቦላ አንአ",
+      "votes": 40615
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "አለምነሽ ደመቀ አርጌ",
+      "votes": 39485
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "መሠለች ፋንታዬ አዳሬ",
+      "votes": 38445
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ታገል ጋላዳ ቱፑላ",
+      "votes": 8436
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ያዕቆብ ወልደ ወቃሳ",
+      "votes": 8395
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "አዳሮ አስኬ ሐልአ",
+      "votes": 8348
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ባንችወሰን አድማሱ ኃይሌ",
+      "votes": 8093
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ሙላቱ ሙሉ አራታ",
+      "votes": 4845
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "መራዊት አጥናፉ ደስታ",
+      "votes": 1985
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ታጋይ ተፈሪ በሌ",
+      "votes": 1619
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ምኒሊክ ዘወዴ ኤጃኖ",
+      "votes": 1601
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "መልካሙ አለማየሁ ዶኬ",
+      "votes": 1434
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "አንድነት ካንሳ ሞላ",
+      "votes": 1241
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "አዋሳ ታሪኩ ታካዶ",
+      "votes": 1237
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ማሙሽ ሰሎ ሊቃ",
+      "votes": 840
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገረሴ",
+      "candidate": "ጳውሎስ ቦራን ባልቻ",
+      "votes": 838
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "መስፍን ቶማስ አንጄሎ",
+      "votes": 62715
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ጳውሎስ ኩሳ ቡናሮ",
+      "votes": 61626
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ስንታየሁ ሰሞን ሸርኮ",
+      "votes": 61356
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ውብነሽ ማርቆስ ጋዳና",
+      "votes": 59780
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "አስረት አይዛ አሻንጎ",
+      "votes": 8367
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ንግሥት ሚልኪያስ ሳቃቶ",
+      "votes": 8141
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ፍቃዱ ኃይለማሪያም መኩሪያ",
+      "votes": 7827
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ስንሻው ኪዳኔ በላቸው",
+      "votes": 7697
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ሳሙኤል ኤካ አሰፌ",
+      "votes": 4308
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ታደለች መና አሰሮ",
+      "votes": 4064
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "መብራቱ መኮንን ጉጆ",
+      "votes": 4034
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ንጊሴ አዴማ አሻንጎ",
+      "votes": 3846
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ታምራት አዋጌ ባላ",
+      "votes": 3590
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ብርሃኑ በለጠና ሞልዶ",
+      "votes": 2747
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "መሳይ አያሉ ባባ",
+      "votes": 2159
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "አበበ ወልደሚካኤል ታደሰ",
+      "votes": 1884
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ሮማን አስራት ሞሊሶ",
+      "votes": 1602
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "በፀሎት አብረሃም ዘውጋ",
+      "votes": 1409
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "አሰፋ ቱቴ ዳንዶ",
+      "votes": 1175
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "መቅደስ ማንዛ አለሆ",
+      "votes": 1089
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ብርቱካን ባፋ ዳና",
+      "votes": 944
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ተክለ ተሾመ ሳጌ",
+      "votes": 929
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "በረከት ማናና ማንዛ",
+      "votes": 684
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "አያሌው ጎአ ዋዳ",
+      "votes": 663
+    }
+  ]
+}

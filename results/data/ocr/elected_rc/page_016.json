@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 16,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ቻላቸው ዳኘው ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ከተማ 1",
+      "candidate": "ዘላለም ልጃለም አሰፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ላይ ጋይንት 2",
+      "candidate": "ይርጋ ሲሳይ ቅጣው"
+    },
+    {
+      "region": "",
+      "constituency": "ላይ ጋይንት 2",
+      "candidate": "ተመስገን ዳኘው መቆያ"
+    },
+    {
+      "region": "",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "ታሪክ ክፍያለው አሻግሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ታች አርማጭሆ 2",
+      "candidate": "ማሬ ሽፈራው ገዜ"
+    },
+    {
+      "region": "",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "አወቀ አስፈሬ ሁነኛው"
+    },
+    {
+      "region": "",
+      "constituency": "አለፋ ጣቁሳ 2",
+      "candidate": "አማረ ሰጤ ነጋሽ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "አብራሂም አሰን የሱፍ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሴ ዙሪያ 2",
+      "candidate": "ጥሩየ አያሌው ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ሞላ መልካሙ ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ከተማ 2",
+      "candidate": "ባንቺይርጋ መለሠ ጎሹ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "ብርሃኑ ማምለለው ከበደ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ዙሪያ 3",
+      "candidate": "አብታ ሰውመሆን ተክሉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "አባይነሽ ታደሰ ኪዳኑ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎንደር ዙሪያ 4",
+      "candidate": "ደሳለኝ ጣሰው አስረስ"
+    },
+    {
+      "region": "",
+      "constituency": "መቄት 1",
+      "candidate": "ፍስሀ ደሳለኝ መኮነን"
+    },
+    {
+      "region": "",
+      "constituency": "መቄት 1",
+      "candidate": "ጃንጥራር አባይ ይግዛው"
+    },
+    {
+      "region": "",
+      "constituency": "ሳይንት 1",
+      "candidate": "መልካሙ አብቴ አፈሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ሳይንት 1",
+      "candidate": "ፍትፍት ወንድምነው ማብራቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰማዳ 1",
+      "candidate": "ሙሉቀን ስጥዬ አንዳርጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰማዳ 1",
+      "candidate": "አማሪች ጫኔ ሹምዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሉ 1",
+      "candidate": "ፋንቱ ተስፋዬ አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ቃሉ 1",
+      "candidate": "ጀማል መሃመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ተሁለደሬ 1",
+      "candidate": "አስረበብ ይመር አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ተሁለደሬ 1",
+      "candidate": "ብርሃኑ ሀይለሚካኤል አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "አስቴ 1",
+      "candidate": "ፈንታ ሽፈራው ከብቴ"
+    },
+    {
+      "region": "",
+      "constituency": "አስቴ 1",
+      "candidate": "ቀለመወርቅ ምህረቴ አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "አብናት 1",
+      "candidate": "ታንጉት ዋሴ በለጠ"
+    },
+    {
+      "region": "",
+      "constituency": "አብናት 1",
+      "candidate": "አገኘሁ ካሳው ናደው"
+    },
+    {
+      "region": "",
+      "constituency": "ከምከም 1",
+      "candidate": "መንግስቴ አምሳሉ አዴጋው"
+    },
+    {
+      "region": "",
+      "constituency": "ከምከም 1",
+      "candidate": "አበባይቱ ካሳው ተሾመ"
+    },
+    {
+      "region": "",
+      "constituency": "ወገራ 1",
+      "candidate": "ሹመት ዋሴ አቶህ"
+    },
+    {
+      "region": "",
+      "constituency": "ወገራ 1",
+      "candidate": "ስጦታው መንግስቴ ገሰሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢያ 1",
+      "candidate": "አማኑኤል ፈረደ አያሌው"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢያ 1",
+      "candidate": "ፋሲል ሰንደቁ አደመ"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና 1",
+      "candidate": "አብዱልከሪም መንግስቱ ይማም"
+    },
+    {
+      "region": "",
+      "constituency": "ደብረሲና 1",
+      "candidate": "ወንዳለ ሀብታሙ ተፈሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭልጋ 1",
+      "candidate": "ፈንታ ሁነኛው እንግዳወርቅ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭልጋ 1",
+      "candidate": "አለበል ካሴ ገላው"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 1",
+      "candidate": "አምሳል ተስፋ ተዘራ"
+    },
+    {
+      "region": "",
+      "constituency": "ፋርጣ 1",
+      "candidate": "ታደሰ ይርዳው ሞላ"
+    },
+    {
+      "region": "",
+      "constituency": "ፎገራ 1",
+      "candidate": "መላኩ አለበል አዲስ"
+    },
+    {
+      "region": "",
+      "constituency": "ፎገራ 1",
+      "candidate": "ማራቱ መራዊ ንጉሴ"
+    }
+  ]
+}

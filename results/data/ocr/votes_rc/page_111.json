@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 111,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦዲ ልዩ",
+      "candidate": "ታውጊ ሞዴ ቶሮጵሊጂ",
+      "votes": 9744
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኖንጋቶም ልዩ",
+      "candidate": "አማሪ ሎጆኮ ሎሚሎ",
+      "votes": 18940
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኖንጋቶም ልዩ",
+      "candidate": "አካል ነትሮ ኤኬንጎ",
+      "votes": 18587
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኖንጋቶም ልዩ",
+      "candidate": "ናቴሎ ኩታን ሎሱሩ",
+      "votes": 485
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኖንጋቶም ልዩ",
+      "candidate": "ምስጋና ተስፋዬ ቢረጋ",
+      "votes": 311
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ደያሞ ዳሴ ዲጋ",
+      "votes": 31626
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ጠቅላይ ጫንቴ ዓሎ",
+      "votes": 31258
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ሺፈራው ኮቻ ሎንቄ",
+      "votes": 30960
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ዜናነህ አዱላ አፈታ",
+      "votes": 30607
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ታረቀኝ በቀለ ወልደፃድቅ",
+      "votes": 15760
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ሰናይት ሰለሞን አአዋዎ",
+      "votes": 15651
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ምክሬ ጭጃሞ ችቦ",
+      "votes": 15591
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ተፈራ ቦንዶሮ ሸግዶ",
+      "votes": 15518
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "አረጋው አዋሽ ቦሎ",
+      "votes": 979
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ቡቻሌ ሸሽቱ ሸግ",
+      "votes": 955
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "አጥናፉ ልዮቻ አሞደ",
+      "votes": 870
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "አገኘሁ ካላሌ ካዜ",
+      "votes": 837
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "ሊድያ አረጋ አያቸው",
+      "votes": 830
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ጥላሁን ከበደ ወልዴ",
+      "votes": 133871
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ብርሀኑ ዘውዴ ዘታ",
+      "votes": 132069
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ደምሴ አድማሱ ጩሞ",
+      "votes": 130510
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ሊዲያ ኮንቲባ ካራ",
+      "votes": 127073
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አንደልበት ጌኔ ዮታ",
+      "votes": 13444
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "የትምወርቅ ነጋሽ በየነ",
+      "votes": 7688
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አለማየሁ ንጉሴ አበበ",
+      "votes": 7663
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ሀብታማ ሰሣይ ስልጤ",
+      "votes": 6780
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ተመስገን ሰብሉ ባዴ",
+      "votes": 6018
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አጥናፉ አየለ አንካላ",
+      "votes": 5665
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ተመስጌን ጋንቾሬ ዶሬ",
+      "votes": 5650
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "መልካሙ አለማየሁ ለገሠ",
+      "votes": 4988
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ጋሻው አለሙ ሐጎስ",
+      "votes": 4963
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ነዌል ግርማ ተሰማ",
+      "votes": 4797
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አመንሸዋ ሙሉጌታ ሜንሳ",
+      "votes": 4025
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ምስራቅ ያታ አጌና",
+      "votes": 4017
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ዘካሪያስ ካይሬ ሼናሞ",
+      "votes": 3991
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "መዓዛ ተፈሪ ጊላ",
+      "votes": 3886
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ወንዱ ወንዳፍራሽ ብዙነህ",
+      "votes": 3739
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "መሐመድ መዲሎ ዚያዳ",
+      "votes": 3713
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ሰለሞን ሳዴ ሻላ",
+      "votes": 3312
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ዮርዳኖስ ወርቁ ነጋነህ",
+      "votes": 2803
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ፅዮን አመንሸዋ ሙሉጌታ",
+      "votes": 2607
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ተስፋሁን አድሱ አዳሮ",
+      "votes": 2164
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ካሳሁን ጭናሾ ሀላላ",
+      "votes": 1860
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አለማየሁ ግርማ ሻሾ",
+      "votes": 1490
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አምሩ አልቶ ጌርጎ",
+      "votes": 1399
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አበበ ቸኮል ባጎ",
+      "votes": 1383
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ብርሀኑ ቶማስ አሰለ",
+      "votes": 1196
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አዜብ ደጀኔ ዳካ",
+      "votes": 1152
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ሶስና አምሳን ሲንታ",
+      "votes": 925
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ብርሀኑ ከበደ ወልደጊዮርጊስ",
+      "votes": 828
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ተመስገን ሙዛንጋ ሙላ",
+      "votes": 788
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አስካለች ጃንቦ ማንደፍሮ",
+      "votes": 714
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ሀብታሙ መኮንን ጌታነህ",
+      "votes": 711
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ዳዊት ቦርካ ወጋሶ",
+      "votes": 704
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ዘሪሁን በቀለ ጌታቸው",
+      "votes": 667
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ወዳጆ ወንበሬ ወጋሶ",
+      "votes": 660
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "አድሱ አዳኔ አማኖ",
+      "votes": 637
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ውዱ አበበ ቸኮል",
+      "votes": 596
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ገነት ጌታቸው ወታንጎ",
+      "votes": 592
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "መልካሙ ማርቆስ ማጋ",
+      "votes": 568
+    }
+  ]
+}

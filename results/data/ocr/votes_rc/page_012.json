@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 12,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ምኑኩ ሐምጦ አሰሌ",
+      "votes": 53
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በቀለች ሾኔ ዲኬ",
+      "votes": 50
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "መልካሙ ክፍሌ ክንባ",
+      "votes": 42
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዘላለም ለማ ጎሰማ",
+      "votes": 67600
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ለማ ላሊጎ ዲማ",
+      "votes": 67020
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሮማን ማሞ ዳሣ",
+      "votes": 66376
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሰላማዊት መኩሪያ ጥላሁን",
+      "votes": 65773
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አሻግሬ ጀንበሬ ፍለቴ",
+      "votes": 65496
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታምሬ ፅጌ ሀንቃ",
+      "votes": 65329
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ንግስት ታደሰ አላልቻ",
+      "votes": 65280
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ብርሃኑ ደሳለኝ ሚራዶ",
+      "votes": 65263
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ትሁን ፈለቀ ሂቃ",
+      "votes": 65244
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ማቶ ማሩ ሄላ",
+      "votes": 62299
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ደሞዜ ስዳሞ ስለዎ",
+      "votes": 2588
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሎምኔሽ መልካሙ መንጌሼ",
+      "votes": 2210
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዳዊት ኬታ ቆቶ",
+      "votes": 854
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሽምያ ለምቦላ በላሳ",
+      "votes": 829
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዮናሲ ዬቱራ ዬንኬ",
+      "votes": 818
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "በየነ ሻማና ሻታ",
+      "votes": 808
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አስተር ዴበሶ ቃቃዎ",
+      "votes": 803
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አልማዝ ሣሣሞ ዳቆ",
+      "votes": 785
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "እታጉ ሀሲሶ ዳንሶ",
+      "votes": 779
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አድኖ የኔ ዮመሬ",
+      "votes": 757
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "መስፍን በጋሌ ያአቆብ",
+      "votes": 493
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታገሰ ታደሰ ገኖቾ",
+      "votes": 309
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ተሻለ ታምሬ ዱካሞ",
+      "votes": 237
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "መንግስቱ ማርቆስ ሀሲሶ",
+      "votes": 236
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሳሙኤል ዳንሳሞ ቦጣ",
+      "votes": 235
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ተሻለ ታመነ አሙሎ",
+      "votes": 223
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አሰፋ አድሱ ሮዲሶ",
+      "votes": 211
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አለሙ ባራሳ ሞርካ",
+      "votes": 210
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታደመ መኮ ጋዋዎ",
+      "votes": 209
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አገኘው በየነ ደጊሶ",
+      "votes": 209
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታረቀኝ ተፈራ ሀዳና",
+      "votes": 208
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ማሩ ማራሳ ሰሳሬ",
+      "votes": 208
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ደስታ ሆሾንጋ ሐሚጦ",
+      "votes": 207
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ክፍያለው ክፍለ ቃቅሶ",
+      "votes": 202
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "መሳይንት መኩሪያ ቆቶ",
+      "votes": 198
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ፍቅሬ አዋቶ አቶ",
+      "votes": 196
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ማስረሻ ሁሚቻ ርጋሞ",
+      "votes": 192
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አድነው ጌቱ ክዳነ",
+      "votes": 191
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ካሳ ካያሞ አንጃሎ",
+      "votes": 187
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ግሩም ማርቆስ ሮማ",
+      "votes": 185
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ፍሬሕይወት ካሳሁን ዝናቡ",
+      "votes": 184
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "መንግስቱ ዳንሳሞ ዳላቻ",
+      "votes": 182
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታርኩ ካና ሣቃቶ",
+      "votes": 180
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ኢጅጉ ቃቃሞ ሻላሞ",
+      "votes": 180
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዘላለም በየነ ዓለማየሁ",
+      "votes": 179
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ክፍያለው ጆሬ ቦልካ",
+      "votes": 177
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "እጅጉ ሾሌ ጋልዲሳ",
+      "votes": 177
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አማኑኤል ብርሃኑ ሞሶሶ",
+      "votes": 131
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዶክተር ሙፋቶ ሮቆንሣ",
+      "votes": 123
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ኤልሳ ደሳለኝ ግደሶ",
+      "votes": 112
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታደሰ ታኔ ጋሞቾ",
+      "votes": 74
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዘሪሁን ሽብሩ ድቃሶ",
+      "votes": 31
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ይሁን ደሳለኝ ድኬ",
+      "votes": 30
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታርኩ ውርቅነህ ዶዮሞ",
+      "votes": 30
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ነፃነት ደግነት አሰፋ",
+      "votes": 28
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አድኖት አንዳሰ ሰላሞን",
+      "votes": 25
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አርጋው አሸናፊ አንቡሎ",
+      "votes": 24
+    }
+  ]
+}

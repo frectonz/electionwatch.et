@@ -1,0 +1,158 @@
+{
+  "pdf": "elected_rc",
+  "page": 53,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አለማየሁ ሚደና ኪቲላ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ጥላሁን ፀጋዬ ደሜ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሙሉ ደሜ ካንሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ውቢቱ ዮሃንስ ሳና"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ፈንታ ደጀን ውዱ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሂርጳሳ ጫላ ሰንበታ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አሥራት ጤራ ደሌቦ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ደረጀ እንግዳ ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዚያዳ ሻሚል ሳሊያ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሳምሶን ጉዱ ዘርጋ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ህይወት ሳሙኤል ፀጋዬ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዮሐንስ ቢፋ በልዳ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አስቴር ከበደ ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዘሪሁን አባተ አንየው"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ተረፈ ሲሳይ ገብረማሪያም"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ችሎት አያሌው ልመንህ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዳዊት ምንዳዬ ገብረፃዲቅ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሱፊያ አለሙ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ታረቀኝ ወርቅነህ ወልደሃና"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አይዳ አወል ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ክብረአለም ደምሴ ወልደሰማያት"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ተሾመ አዱኛ ረጋሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አደም ኑሬ ዋበላ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አምሳል ዋለ ደርሰህ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሜቲ ታምራት ፈጤ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ፍቅርተ አበራ መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አስቴር አንድሀገር ሞርኬ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ገነት ወልዴ ምትታ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "እየሩሳሌም ዘላለም ወልዴ"
+    },
+    {
+      "region": "",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ቢድሉ አይሳ አዝጌ"
+    }
+  ]
+}

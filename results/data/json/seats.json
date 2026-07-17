@@ -1,0 +1,2122 @@
+{
+  "hopr": {
+    "regions": [
+      {
+        "region_slug": "addis_ababa",
+        "region": "Addis Ababa",
+        "region_native": "አዲስ አበባ",
+        "council_seats": 23,
+        "decided_seats": 23,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 20,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "አበበ ገመቹ ሌንጫ",
+            "candidate_printed": "አበበ ገመቹ ለጋጫ",
+            "candidate_id": "CID844525011155",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "afar",
+        "region": "Afar",
+        "region_native": "አፋር",
+        "council_seats": 8,
+        "decided_seats": 8,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 7,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የአፋር ሕዝብ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-20",
+            "party_name_en": "Afar Peoples Party",
+            "profile_slug": "afar-peoples-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "amhara",
+        "region": "Amhara",
+        "region_native": "አማራ",
+        "council_seats": 130,
+        "decided_seats": 130,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 117,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የአማራ ብሔራዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 6,
+            "party_slug": "party-28",
+            "party_name_en": "National Movement of Amhara (NaMA)",
+            "profile_slug": "national-movement-of-amhara"
+          },
+          {
+            "party": "የአማራ ዲሞክራሲያዊ ሃይል ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-15",
+            "party_name_en": "Amhara Democratic Force Movement",
+            "profile_slug": "amhara-democratic-force-movement"
+          },
+          {
+            "party": "አርጎባ አንድነት ጀበርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-11",
+            "party_name_en": "Argoba Unity Jeberti",
+            "profile_slug": null
+          },
+          {
+            "party": "ትብብር ለኢትዮጵያ አንድነት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-2",
+            "party_name_en": "Coalition for Ethiopian Unity",
+            "profile_slug": "coalition-for-ethiopian-unity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "benshangul_gumz",
+        "region": "Benishangul-Gumuz",
+        "region_native": "ቤኒሻንጉል ጉሙዝ",
+        "council_seats": 9,
+        "decided_seats": 9,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 8,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የጉሙዝ ሕዝብ ዴሞክራሲያዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-30",
+            "party_name_en": "Gumuz Peoples Democratic Movement",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "central_ethiopia",
+        "region": "Central Ethiopia",
+        "region_native": "ማዕከላዊ ኢትዮጵያ",
+        "council_seats": 33,
+        "decided_seats": 33,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 28,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "በረከት ማርቆስ ደሪሎ",
+            "candidate_printed": null,
+            "candidate_id": "CID104641044151",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "ትብብር ለኢትዮጵያ አንድነት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-2",
+            "party_name_en": "Coalition for Ethiopian Unity",
+            "profile_slug": "coalition-for-ethiopian-unity-party"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "diredawa",
+        "region": "Dire Dawa",
+        "region_native": "ድሬዳዋ",
+        "council_seats": 2,
+        "decided_seats": 2,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "gambella",
+        "region": "Gambela",
+        "region_native": "ጋምቤላ",
+        "council_seats": 3,
+        "decided_seats": 3,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "harari",
+        "region": "Harari",
+        "region_native": "ሃረሪ",
+        "council_seats": 2,
+        "decided_seats": 2,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "oromia",
+        "region": "Oromia",
+        "region_native": "ኦሮሚያ",
+        "council_seats": 173,
+        "decided_seats": 173,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 167,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ኮሚል ሽምሱ ሲራጅ",
+            "candidate_printed": "ኮሚል ሽምሱ ሱራጅ",
+            "candidate_id": "CID236989960536",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "መለሰ ኢጃራ ደሜ",
+            "candidate_printed": "መለሰ ኢጁራ ደሜ",
+            "candidate_id": "CID187711317665",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ቀጀላ መርዳሳ ቱሉ",
+            "candidate_printed": null,
+            "candidate_id": "CID741239721633",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "አራርሶ ቢቂላ ኤሌሞ",
+            "candidate_printed": null,
+            "candidate_id": "CID383451793155",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ዲማ ኖጎ ሰርቦ",
+            "candidate_printed": null,
+            "candidate_id": "CID032411113507",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "አዲስ ትውልድ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-10",
+            "party_name_en": "New Generation Party",
+            "profile_slug": "new-generation-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "sidama",
+        "region": "Sidama",
+        "region_native": "ሲዳማ",
+        "council_seats": 16,
+        "decided_seats": 16,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 13,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-8",
+            "party_name_en": "Ethiopian Federal Democratic Unity Forum (Medrek)",
+            "profile_slug": "ethiopian-federal-democratic-unity-forum"
+          }
+        ]
+      },
+      {
+        "region_slug": "somali",
+        "region": "Somali",
+        "region_native": "ሶማሌ",
+        "council_seats": 22,
+        "decided_seats": 22,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 19,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የኦጋዴን ብሔራዊ ነፃነት ግንባር",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-12",
+            "party_name_en": "Ogaden National Liberation Front",
+            "profile_slug": null
+          },
+          {
+            "party": "ሱማሌ ፌደራሊስት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-36",
+            "party_name_en": "Somali Federalist Party",
+            "profile_slug": null
+          },
+          {
+            "party": "ኅብረት ለዲሞክራሲና ለነፃነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-32",
+            "party_name_en": "Union for Democracy and Freedom Party",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "south_ethiopia",
+        "region": "South Ethiopia",
+        "region_native": "ደቡብ ኢትዮጵያ",
+        "council_seats": 45,
+        "decided_seats": 45,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 35,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 7,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "መስፍን ኢልታሞ ኢቻ",
+            "candidate_printed": null,
+            "candidate_id": "CID289277644823",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "የዎላይታ ሕዝብ ዴሞክራሲያዊ ግንባር",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-29",
+            "party_name_en": "Wolaita Peoples Democratic Front",
+            "profile_slug": null
+          },
+          {
+            "party": "ጌዴኦ ሕዝብ ዴሞክራሲያዊ ድርጅት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-35",
+            "party_name_en": "Gedeo Peoples Democratic Organization",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "south_west",
+        "region": "South West Ethiopia",
+        "region_native": "ደቡብ ምዕራብ ኢትዮጵያ",
+        "council_seats": 20,
+        "decided_seats": 20,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 17,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "ሰላም ለኢትዮጵያ ጥምረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-4",
+            "party_name_en": "Peace for Ethiopia Coalition",
+            "profile_slug": "peace-for-ethiopia-coalition"
+          }
+        ]
+      }
+    ],
+    "decided_seats": 486,
+    "council_seats": 486,
+    "parties": [
+      {
+        "party": "ብልፅግና ፓርቲ",
+        "party_slug": "party-0",
+        "party_name_en": "Prosperity Party",
+        "profile_slug": "prosperity-party",
+        "seats": 438,
+        "regions": 13
+      },
+      {
+        "party": "ኢዜማ",
+        "party_slug": "party-1",
+        "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+        "profile_slug": "ethiopian-citizens-for-social-justice",
+        "seats": 13,
+        "regions": 5
+      },
+      {
+        "party": "የአማራ ብሔራዊ ንቅናቄ",
+        "party_slug": "party-28",
+        "party_name_en": "National Movement of Amhara (NaMA)",
+        "profile_slug": "national-movement-of-amhara",
+        "seats": 6,
+        "regions": 1
+      },
+      {
+        "party": "ነፃነትና እኩልነት ፓርቲ",
+        "party_slug": "party-3",
+        "party_name_en": "Freedom and Equality Party",
+        "profile_slug": "freedom-and-equality-party",
+        "seats": 3,
+        "regions": 3
+      },
+      {
+        "party": "የአማራ ዲሞክራሲያዊ ሃይል ንቅናቄ",
+        "party_slug": "party-15",
+        "party_name_en": "Amhara Democratic Force Movement",
+        "profile_slug": "amhara-democratic-force-movement",
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ",
+        "party_slug": "party-8",
+        "party_name_en": "Ethiopian Federal Democratic Unity Forum (Medrek)",
+        "profile_slug": "ethiopian-federal-democratic-unity-forum",
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "ትብብር ለኢትዮጵያ አንድነት",
+        "party_slug": "party-2",
+        "party_name_en": "Coalition for Ethiopian Unity",
+        "profile_slug": "coalition-for-ethiopian-unity-party",
+        "seats": 2,
+        "regions": 2
+      },
+      {
+        "party": "ሰላም ለኢትዮጵያ ጥምረት",
+        "party_slug": "party-4",
+        "party_name_en": "Peace for Ethiopia Coalition",
+        "profile_slug": "peace-for-ethiopia-coalition",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "ሱማሌ ፌደራሊስት ፓርቲ",
+        "party_slug": "party-36",
+        "party_name_en": "Somali Federalist Party",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "ኅብረት ለዲሞክራሲና ለነፃነት ፓርቲ",
+        "party_slug": "party-32",
+        "party_name_en": "Union for Democracy and Freedom Party",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "አርጎባ አንድነት ጀበርቲ",
+        "party_slug": "party-11",
+        "party_name_en": "Argoba Unity Jeberti",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "አዲስ ትውልድ ፓርቲ",
+        "party_slug": "party-10",
+        "party_name_en": "New Generation Party",
+        "profile_slug": "new-generation-party",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የአፋር ሕዝብ ፓርቲ",
+        "party_slug": "party-20",
+        "party_name_en": "Afar Peoples Party",
+        "profile_slug": "afar-peoples-party",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የኦጋዴን ብሔራዊ ነፃነት ግንባር",
+        "party_slug": "party-12",
+        "party_name_en": "Ogaden National Liberation Front",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የዎላይታ ሕዝብ ዴሞክራሲያዊ ግንባር",
+        "party_slug": "party-29",
+        "party_name_en": "Wolaita Peoples Democratic Front",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የጉሙዝ ሕዝብ ዴሞክራሲያዊ ንቅናቄ",
+        "party_slug": "party-30",
+        "party_name_en": "Gumuz Peoples Democratic Movement",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "ጌዴኦ ሕዝብ ዴሞክራሲያዊ ድርጅት",
+        "party_slug": "party-35",
+        "party_name_en": "Gedeo Peoples Democratic Organization",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      }
+    ],
+    "independents": {
+      "seats": 8,
+      "candidates": 8
+    }
+  },
+  "rc": {
+    "regions": [
+      {
+        "region_slug": "addis_ababa",
+        "region": "Addis Ababa",
+        "region_native": "አዲስ አበባ",
+        "council_seats": 158,
+        "decided_seats": 158,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 134,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 8,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "አንድ ኢትዮጵያ ዲሞክራሲ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 4,
+            "party_slug": "party-26",
+            "party_name_en": "One Ethiopia Democracy Party",
+            "profile_slug": null
+          },
+          {
+            "party": "ህዳሴ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-5",
+            "party_name_en": "Renaissance Party",
+            "profile_slug": "renaissance-party"
+          },
+          {
+            "party": "የኦሮሞ ነፃነት ግንባር",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-17",
+            "party_name_en": "Oromo Liberation Front",
+            "profile_slug": "oromo-liberation-front"
+          },
+          {
+            "party": "ትብብር ለኢትዮጵያ አንድነት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-2",
+            "party_name_en": "Coalition for Ethiopian Unity",
+            "profile_slug": "coalition-for-ethiopian-unity-party"
+          },
+          {
+            "party": "ሰላም ለኢትዮጵያ ጥምረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-4",
+            "party_name_en": "Peace for Ethiopia Coalition",
+            "profile_slug": "peace-for-ethiopia-coalition"
+          },
+          {
+            "party": "የዎላይታ ሕዝቦች ነጻነት ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-6",
+            "party_name_en": "Wolaita Peoples Freedom Movement",
+            "profile_slug": null
+          },
+          {
+            "party": "የአማራ ብሔራዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-28",
+            "party_name_en": "National Movement of Amhara (NaMA)",
+            "profile_slug": "national-movement-of-amhara"
+          },
+          {
+            "party": "የወሎ ህዝቦች ዲሞክራሲያዊ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-9",
+            "party_name_en": "Wollo Peoples Democratic Party",
+            "profile_slug": "wollo-peoples-democratic-party"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ዳናኤል ጌታቸው ጋረደው",
+            "candidate_printed": "ዳንኤል ጌታቸው ጋረደው",
+            "candidate_id": "CID481858746093",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "afar",
+        "region": "Afar",
+        "region_native": "አፋር",
+        "council_seats": 135,
+        "decided_seats": 135,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 124,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የአፋር ነፃ አውጪ ግንባር ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 4,
+            "party_slug": "party-22",
+            "party_name_en": "Afar Liberation Front Party",
+            "profile_slug": null
+          },
+          {
+            "party": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-8",
+            "party_name_en": "Ethiopian Federal Democratic Unity Forum (Medrek)",
+            "profile_slug": "ethiopian-federal-democratic-unity-forum"
+          },
+          {
+            "party": "የአፋር ሕዝብ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-20",
+            "party_name_en": "Afar Peoples Party",
+            "profile_slug": "afar-peoples-party"
+          },
+          {
+            "party": "አርጎባ አንድነት ጀበርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-11",
+            "party_name_en": "Argoba Unity Jeberti",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "amhara",
+        "region": "Amhara",
+        "region_native": "አማራ",
+        "council_seats": 277,
+        "decided_seats": 273,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 257,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የአማራ ዲሞክራሲያዊ ሃይል ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 4,
+            "party_slug": "party-15",
+            "party_name_en": "Amhara Democratic Force Movement",
+            "profile_slug": "amhara-democratic-force-movement"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "የአማራ ብሔራዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-28",
+            "party_name_en": "National Movement of Amhara (NaMA)",
+            "profile_slug": "national-movement-of-amhara"
+          },
+          {
+            "party": "የኢትዮጵያ ብሔራዊ አንድነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-13",
+            "party_name_en": "Ethiopian National Unity Party",
+            "profile_slug": "ethiopian-national-unity-party"
+          },
+          {
+            "party": "የቅማንት ዴሞክራሲያዊ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-34",
+            "party_name_en": "Qimant Democratic Party",
+            "profile_slug": "qimant-democratic-party"
+          },
+          {
+            "party": "አርጎባ አንድነት ጀበርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-11",
+            "party_name_en": "Argoba Unity Jeberti",
+            "profile_slug": null
+          },
+          {
+            "party": "ሰላም ለኢትዮጵያ ጥምረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-4",
+            "party_name_en": "Peace for Ethiopia Coalition",
+            "profile_slug": "peace-for-ethiopia-coalition"
+          },
+          {
+            "party": "ትብብር ለኢትዮጵያ አንድነት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-2",
+            "party_name_en": "Coalition for Ethiopian Unity",
+            "profile_slug": "coalition-for-ethiopian-unity-party"
+          },
+          {
+            "party": "የወሎ ህዝቦች ዲሞክራሲያዊ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-9",
+            "party_name_en": "Wollo Peoples Democratic Party",
+            "profile_slug": "wollo-peoples-democratic-party"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "benshangul_gumz",
+        "region": "Benishangul-Gumuz",
+        "region_native": "ቤኒሻንጉል ጉሙዝ",
+        "council_seats": 165,
+        "decided_seats": 165,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 145,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የጉሙዝ ሕዝብ ዴሞክራሲያዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 14,
+            "party_slug": "party-30",
+            "party_name_en": "Gumuz Peoples Democratic Movement",
+            "profile_slug": null
+          },
+          {
+            "party": "የቤኒሻንጉል ህዝብ ነፃነት ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 5,
+            "party_slug": "party-27",
+            "party_name_en": "Benishangul Peoples Liberation Movement",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ጌታቸው ወዲሻ ጊሻዲ",
+            "candidate_printed": null,
+            "candidate_id": "CID964752138634",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "central_ethiopia",
+        "region": "Central Ethiopia",
+        "region_native": "ማዕከላዊ ኢትዮጵያ",
+        "council_seats": 170,
+        "decided_seats": 170,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 143,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 12,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 7,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "ትብብር ለኢትዮጵያ አንድነት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-2",
+            "party_name_en": "Coalition for Ethiopian Unity",
+            "profile_slug": "coalition-for-ethiopian-unity-party"
+          },
+          {
+            "party": "ጎጎት ለጉራጌ አንድነት እና ፍትህ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-23",
+            "party_name_en": "Gogot for Gurage Unity and Justice Party",
+            "profile_slug": "gogot-for-gurage-unity-and-justice-party"
+          },
+          {
+            "party": "የወሎ ህዝቦች ዲሞክራሲያዊ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-9",
+            "party_name_en": "Wollo Peoples Democratic Party",
+            "profile_slug": "wollo-peoples-democratic-party"
+          },
+          {
+            "party": "የወለኔ ህዝብ ዴሞክራሲያዊ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-40",
+            "party_name_en": "Welene Peoples Democratic Party",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "diredawa",
+        "region": "Dire Dawa",
+        "region_native": "ድሬዳዋ",
+        "council_seats": 189,
+        "decided_seats": 178,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 161,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 8,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 6,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "አዲስ ትውልድ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-10",
+            "party_name_en": "New Generation Party",
+            "profile_slug": "new-generation-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "gambella",
+        "region": "Gambela",
+        "region_native": "ጋምቤላ",
+        "council_seats": 205,
+        "decided_seats": 202,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 176,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ሰላም ለኢትዮጵያ ጥምረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 17,
+            "party_slug": "party-4",
+            "party_name_en": "Peace for Ethiopia Coalition",
+            "profile_slug": "peace-for-ethiopia-coalition"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 6,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "ህዳሴ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-5",
+            "party_name_en": "Renaissance Party",
+            "profile_slug": "renaissance-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "harari",
+        "region": "Harari",
+        "region_native": "ሃረሪ",
+        "council_seats": 36,
+        "decided_seats": 36,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 32,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የኢትዮጵያ ብሔራዊ አንድነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-13",
+            "party_name_en": "Ethiopian National Unity Party",
+            "profile_slug": "ethiopian-national-unity-party"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ጀማል አባገሮ አህመድ",
+            "candidate_printed": null,
+            "candidate_id": "CID798255482377",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "የሐረሪ ዴሞክራሲያዊ ድርጅት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-42",
+            "party_name_en": "Harari Democratic Organization",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "oromia",
+        "region": "Oromia",
+        "region_native": "ኦሮሚያ",
+        "council_seats": 528,
+        "decided_seats": 528,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 523,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ፋጡማ ከማል ሁሴን",
+            "candidate_printed": null,
+            "candidate_id": "CID296503772444",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ፍለሁዲን ጠለሐ አህመድ",
+            "candidate_printed": null,
+            "candidate_id": "CID820395376698",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "አቶምሳ ኩምሳ ሮባ",
+            "candidate_printed": null,
+            "candidate_id": "CID398328191900",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "ንጋቱ ዋጋር ድሳሳ",
+            "candidate_printed": "ጌታቱ ዋጋር ድሳሳ",
+            "candidate_id": "CID271235738097",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          }
+        ]
+      },
+      {
+        "region_slug": "sidama",
+        "region": "Sidama",
+        "region_native": "ሲዳማ",
+        "council_seats": 190,
+        "decided_seats": 190,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 175,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 8,
+            "party_slug": "party-8",
+            "party_name_en": "Ethiopian Federal Democratic Unity Forum (Medrek)",
+            "profile_slug": "ethiopian-federal-democratic-unity-forum"
+          },
+          {
+            "party": "ሲዳማ አንድነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-18",
+            "party_name_en": "Sidama Unity Party",
+            "profile_slug": "sidama-unity-party"
+          },
+          {
+            "party": "የሲዳማ ሕዝብ አንድነት ዴሞክራሲያዊ ድርጅት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-14",
+            "party_name_en": "Sidama Peoples Unity Democratic Organization",
+            "profile_slug": null
+          },
+          {
+            "party": "ባልደራስ ለእውነተኛ ዲሞክራሲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-7",
+            "party_name_en": "Balderas for True Democracy",
+            "profile_slug": "balderas-for-true-democracy-party"
+          },
+          {
+            "party": "የኢትዮጵያ ዴሞክራቲክ ኅብረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-16",
+            "party_name_en": "Ethiopian Democratic Union",
+            "profile_slug": "ethiopian-democratic-union"
+          },
+          {
+            "party": "የመላው ሲዳማ ህዝብ ዴሞክራሲያዊ አንድነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-24",
+            "party_name_en": "All Sidama Peoples Democratic Unity Party",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "somali",
+        "region": "Somali",
+        "region_native": "ሶማሌ",
+        "council_seats": 252,
+        "decided_seats": 252,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 214,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "የኦጋዴን ብሔራዊ ነፃነት ግንባር",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 20,
+            "party_slug": "party-12",
+            "party_name_en": "Ogaden National Liberation Front",
+            "profile_slug": null
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 13,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "ሱማሌ ፌደራሊስት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-36",
+            "party_name_en": "Somali Federalist Party",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "አህመድ ኢርሻድ አሊኑር",
+            "candidate_printed": null,
+            "candidate_id": "CID057962603788",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "የምዕራብ ሶማሌ ዲሞክራቲክ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-33",
+            "party_name_en": "Western Somali Democratic Party",
+            "profile_slug": null
+          },
+          {
+            "party": "ኅብረት ለዲሞክራሲና ለነፃነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-32",
+            "party_name_en": "Union for Democracy and Freedom Party",
+            "profile_slug": null
+          }
+        ]
+      },
+      {
+        "region_slug": "south_ethiopia",
+        "region": "South Ethiopia",
+        "region_native": "ደቡብ ኢትዮጵያ",
+        "council_seats": 224,
+        "decided_seats": 224,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 182,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 27,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "የዎላይታ ሕዝብ ዴሞክራሲያዊ ግንባር",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-29",
+            "party_name_en": "Wolaita Peoples Democratic Front",
+            "profile_slug": null
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "የዎላይታ ሕዝቦች ነጻነት ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-6",
+            "party_name_en": "Wolaita Peoples Freedom Movement",
+            "profile_slug": null
+          },
+          {
+            "party": "ሰላም ለኢትዮጵያ ጥምረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-4",
+            "party_name_en": "Peace for Ethiopia Coalition",
+            "profile_slug": "peace-for-ethiopia-coalition"
+          },
+          {
+            "party": "ጌዴኦ ሕዝብ ዴሞክራሲያዊ ድርጅት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-35",
+            "party_name_en": "Gedeo Peoples Democratic Organization",
+            "profile_slug": null
+          },
+          {
+            "party": "የዎላይታ ብሔራዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 2,
+            "party_slug": "party-21",
+            "party_name_en": "Wolaita National Movement",
+            "profile_slug": null
+          },
+          {
+            "party": "Independent",
+            "independent": true,
+            "candidate": "እንደልቡ ጎአ ዮታ",
+            "candidate_printed": "አንደልቡ ጎአ ዮታ",
+            "candidate_id": "CID547338549295",
+            "seats": 1,
+            "party_slug": "party-25",
+            "party_name_en": "Independent",
+            "profile_slug": null
+          },
+          {
+            "party": "የኩሽ ህዝቦች ብሔራዊ ንቅናቄ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-39",
+            "party_name_en": "Kush Peoples National Movement",
+            "profile_slug": "kush-peoples-national-movement-party"
+          }
+        ]
+      },
+      {
+        "region_slug": "south_west",
+        "region": "South West Ethiopia",
+        "region_native": "ደቡብ ምዕራብ ኢትዮጵያ",
+        "council_seats": 171,
+        "decided_seats": 170,
+        "won": [
+          {
+            "party": "ብልፅግና ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 144,
+            "party_slug": "party-0",
+            "party_name_en": "Prosperity Party",
+            "profile_slug": "prosperity-party"
+          },
+          {
+            "party": "ሰላም ለኢትዮጵያ ጥምረት",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 12,
+            "party_slug": "party-4",
+            "party_name_en": "Peace for Ethiopia Coalition",
+            "profile_slug": "peace-for-ethiopia-coalition"
+          },
+          {
+            "party": "ኢዜማ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 10,
+            "party_slug": "party-1",
+            "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+            "profile_slug": "ethiopian-citizens-for-social-justice"
+          },
+          {
+            "party": "ነፃነትና እኩልነት ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 3,
+            "party_slug": "party-3",
+            "party_name_en": "Freedom and Equality Party",
+            "profile_slug": "freedom-and-equality-party"
+          },
+          {
+            "party": "የወሎ ህዝቦች ዲሞክራሲያዊ ፓርቲ",
+            "independent": false,
+            "candidate": null,
+            "candidate_printed": null,
+            "candidate_id": null,
+            "seats": 1,
+            "party_slug": "party-9",
+            "party_name_en": "Wollo Peoples Democratic Party",
+            "profile_slug": "wollo-peoples-democratic-party"
+          }
+        ]
+      }
+    ],
+    "decided_seats": 2681,
+    "council_seats": 2700,
+    "parties": [
+      {
+        "party": "ብልፅግና ፓርቲ",
+        "party_slug": "party-0",
+        "party_name_en": "Prosperity Party",
+        "profile_slug": "prosperity-party",
+        "seats": 2410,
+        "regions": 13
+      },
+      {
+        "party": "ኢዜማ",
+        "party_slug": "party-1",
+        "party_name_en": "Ethiopian Citizens for Social Justice (EZEMA)",
+        "profile_slug": "ethiopian-citizens-for-social-justice",
+        "seats": 73,
+        "regions": 8
+      },
+      {
+        "party": "ነፃነትና እኩልነት ፓርቲ",
+        "party_slug": "party-3",
+        "party_name_en": "Freedom and Equality Party",
+        "profile_slug": "freedom-and-equality-party",
+        "seats": 35,
+        "regions": 7
+      },
+      {
+        "party": "ሰላም ለኢትዮጵያ ጥምረት",
+        "party_slug": "party-4",
+        "party_name_en": "Peace for Ethiopia Coalition",
+        "profile_slug": "peace-for-ethiopia-coalition",
+        "seats": 34,
+        "regions": 5
+      },
+      {
+        "party": "የኦጋዴን ብሔራዊ ነፃነት ግንባር",
+        "party_slug": "party-12",
+        "party_name_en": "Ogaden National Liberation Front",
+        "profile_slug": null,
+        "seats": 20,
+        "regions": 1
+      },
+      {
+        "party": "የጉሙዝ ሕዝብ ዴሞክራሲያዊ ንቅናቄ",
+        "party_slug": "party-30",
+        "party_name_en": "Gumuz Peoples Democratic Movement",
+        "profile_slug": null,
+        "seats": 14,
+        "regions": 1
+      },
+      {
+        "party": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ አንድነት መድረክ",
+        "party_slug": "party-8",
+        "party_name_en": "Ethiopian Federal Democratic Unity Forum (Medrek)",
+        "profile_slug": "ethiopian-federal-democratic-unity-forum",
+        "seats": 11,
+        "regions": 2
+      },
+      {
+        "party": "ትብብር ለኢትዮጵያ አንድነት",
+        "party_slug": "party-2",
+        "party_name_en": "Coalition for Ethiopian Unity",
+        "profile_slug": "coalition-for-ethiopian-unity-party",
+        "seats": 6,
+        "regions": 3
+      },
+      {
+        "party": "ህዳሴ ፓርቲ",
+        "party_slug": "party-5",
+        "party_name_en": "Renaissance Party",
+        "profile_slug": "renaissance-party",
+        "seats": 5,
+        "regions": 2
+      },
+      {
+        "party": "የቤኒሻንጉል ህዝብ ነፃነት ንቅናቄ",
+        "party_slug": "party-27",
+        "party_name_en": "Benishangul Peoples Liberation Movement",
+        "profile_slug": null,
+        "seats": 5,
+        "regions": 1
+      },
+      {
+        "party": "አንድ ኢትዮጵያ ዲሞክራሲ ፓርቲ",
+        "party_slug": "party-26",
+        "party_name_en": "One Ethiopia Democracy Party",
+        "profile_slug": null,
+        "seats": 4,
+        "regions": 1
+      },
+      {
+        "party": "የአማራ ዲሞክራሲያዊ ሃይል ንቅናቄ",
+        "party_slug": "party-15",
+        "party_name_en": "Amhara Democratic Force Movement",
+        "profile_slug": "amhara-democratic-force-movement",
+        "seats": 4,
+        "regions": 1
+      },
+      {
+        "party": "የአፋር ነፃ አውጪ ግንባር ፓርቲ",
+        "party_slug": "party-22",
+        "party_name_en": "Afar Liberation Front Party",
+        "profile_slug": null,
+        "seats": 4,
+        "regions": 1
+      },
+      {
+        "party": "የወሎ ህዝቦች ዲሞክራሲያዊ ፓርቲ",
+        "party_slug": "party-9",
+        "party_name_en": "Wollo Peoples Democratic Party",
+        "profile_slug": "wollo-peoples-democratic-party",
+        "seats": 4,
+        "regions": 4
+      },
+      {
+        "party": "ሲዳማ አንድነት ፓርቲ",
+        "party_slug": "party-18",
+        "party_name_en": "Sidama Unity Party",
+        "profile_slug": "sidama-unity-party",
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "አዲስ ትውልድ ፓርቲ",
+        "party_slug": "party-10",
+        "party_name_en": "New Generation Party",
+        "profile_slug": "new-generation-party",
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "የአማራ ብሔራዊ ንቅናቄ",
+        "party_slug": "party-28",
+        "party_name_en": "National Movement of Amhara (NaMA)",
+        "profile_slug": "national-movement-of-amhara",
+        "seats": 3,
+        "regions": 2
+      },
+      {
+        "party": "የአፋር ሕዝብ ፓርቲ",
+        "party_slug": "party-20",
+        "party_name_en": "Afar Peoples Party",
+        "profile_slug": "afar-peoples-party",
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "የዎላይታ ሕዝብ ዴሞክራሲያዊ ግንባር",
+        "party_slug": "party-29",
+        "party_name_en": "Wolaita Peoples Democratic Front",
+        "profile_slug": null,
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "የዎላይታ ሕዝቦች ነጻነት ንቅናቄ",
+        "party_slug": "party-6",
+        "party_name_en": "Wolaita Peoples Freedom Movement",
+        "profile_slug": null,
+        "seats": 3,
+        "regions": 2
+      },
+      {
+        "party": "ጎጎት ለጉራጌ አንድነት እና ፍትህ ፓርቲ",
+        "party_slug": "party-23",
+        "party_name_en": "Gogot for Gurage Unity and Justice Party",
+        "profile_slug": "gogot-for-gurage-unity-and-justice-party",
+        "seats": 3,
+        "regions": 1
+      },
+      {
+        "party": "ሱማሌ ፌደራሊስት ፓርቲ",
+        "party_slug": "party-36",
+        "party_name_en": "Somali Federalist Party",
+        "profile_slug": null,
+        "seats": 2,
+        "regions": 1
+      },
+      {
+        "party": "አርጎባ አንድነት ጀበርቲ",
+        "party_slug": "party-11",
+        "party_name_en": "Argoba Unity Jeberti",
+        "profile_slug": null,
+        "seats": 2,
+        "regions": 2
+      },
+      {
+        "party": "የኢትዮጵያ ብሔራዊ አንድነት ፓርቲ",
+        "party_slug": "party-13",
+        "party_name_en": "Ethiopian National Unity Party",
+        "profile_slug": "ethiopian-national-unity-party",
+        "seats": 2,
+        "regions": 2
+      },
+      {
+        "party": "የኦሮሞ ነፃነት ግንባር",
+        "party_slug": "party-17",
+        "party_name_en": "Oromo Liberation Front",
+        "profile_slug": "oromo-liberation-front",
+        "seats": 2,
+        "regions": 1
+      },
+      {
+        "party": "የዎላይታ ብሔራዊ ንቅናቄ",
+        "party_slug": "party-21",
+        "party_name_en": "Wolaita National Movement",
+        "profile_slug": null,
+        "seats": 2,
+        "regions": 1
+      },
+      {
+        "party": "ጌዴኦ ሕዝብ ዴሞክራሲያዊ ድርጅት",
+        "party_slug": "party-35",
+        "party_name_en": "Gedeo Peoples Democratic Organization",
+        "profile_slug": null,
+        "seats": 2,
+        "regions": 1
+      },
+      {
+        "party": "ባልደራስ ለእውነተኛ ዲሞክራሲ",
+        "party_slug": "party-7",
+        "party_name_en": "Balderas for True Democracy",
+        "profile_slug": "balderas-for-true-democracy-party",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "ኅብረት ለዲሞክራሲና ለነፃነት ፓርቲ",
+        "party_slug": "party-32",
+        "party_name_en": "Union for Democracy and Freedom Party",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የሐረሪ ዴሞክራሲያዊ ድርጅት",
+        "party_slug": "party-42",
+        "party_name_en": "Harari Democratic Organization",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የመላው ሲዳማ ህዝብ ዴሞክራሲያዊ አንድነት ፓርቲ",
+        "party_slug": "party-24",
+        "party_name_en": "All Sidama Peoples Democratic Unity Party",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የምዕራብ ሶማሌ ዲሞክራቲክ ፓርቲ",
+        "party_slug": "party-33",
+        "party_name_en": "Western Somali Democratic Party",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የሲዳማ ሕዝብ አንድነት ዴሞክራሲያዊ ድርጅት",
+        "party_slug": "party-14",
+        "party_name_en": "Sidama Peoples Unity Democratic Organization",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የቅማንት ዴሞክራሲያዊ ፓርቲ",
+        "party_slug": "party-34",
+        "party_name_en": "Qimant Democratic Party",
+        "profile_slug": "qimant-democratic-party",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የኢትዮጵያ ዴሞክራቲክ ኅብረት",
+        "party_slug": "party-16",
+        "party_name_en": "Ethiopian Democratic Union",
+        "profile_slug": "ethiopian-democratic-union",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የኩሽ ህዝቦች ብሔራዊ ንቅናቄ",
+        "party_slug": "party-39",
+        "party_name_en": "Kush Peoples National Movement",
+        "profile_slug": "kush-peoples-national-movement-party",
+        "seats": 1,
+        "regions": 1
+      },
+      {
+        "party": "የወለኔ ህዝብ ዴሞክራሲያዊ ፓርቲ",
+        "party_slug": "party-40",
+        "party_name_en": "Welene Peoples Democratic Party",
+        "profile_slug": null,
+        "seats": 1,
+        "regions": 1
+      }
+    ],
+    "independents": {
+      "seats": 9,
+      "candidates": 9
+    }
+  }
+}

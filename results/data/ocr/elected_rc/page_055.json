@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 55,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ብርብር",
+      "candidate": "ኢሳያስ እንድርያስ ዳኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ብርብር",
+      "candidate": "ብርሃኑ ጌቦ ጌቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ብርብር",
+      "candidate": "ወርቁ ወልደ ቶጌታ"
+    },
+    {
+      "region": "",
+      "constituency": "ብርብር",
+      "candidate": "ናዝሬት አካሉ አታየ"
+    },
+    {
+      "region": "",
+      "constituency": "ብርብር",
+      "candidate": "ኃይሌሚካኤል ከተማ ካንታ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋ",
+      "candidate": "አበባየሁ ኤርሚያስ አዳሬ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋ",
+      "candidate": "ሰላማዊት ሳሙኤል ቦቾ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋ",
+      "candidate": "አበባ ዋኬ ገለሱ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋ",
+      "candidate": "መስለች ቦጋሌ ጆባ"
+    },
+    {
+      "region": "",
+      "constituency": "አፋ",
+      "candidate": "ትዕግስት ባሣ ባቡሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምባ",
+      "candidate": "ምናዬ ሞሶሌ አሸካሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምባ",
+      "candidate": "ልሳነወርቅ ካሳዬ ኤቃ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምባ",
+      "candidate": "ፅንቁ ዮሐንስ ኪርኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምባ",
+      "candidate": "መክበብ መግስቱ ማሄ"
+    },
+    {
+      "region": "",
+      "constituency": "ከምባ",
+      "candidate": "መልካሙ መዞ ጽቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ",
+      "candidate": "ነፃነት ቁልጭ ስክንቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ",
+      "candidate": "ዘነበ ሰንበቶ ጉማኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ",
+      "candidate": "ፍሬዘር ከርባይዶ ጋንዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ",
+      "candidate": "ገሰቦ ጎልቶሞ አሊታ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንሶ",
+      "candidate": "አዳነች ኩሼታ ከተማ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲታ",
+      "candidate": "አሻግሬ አይዳ አሻሜ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲታ",
+      "candidate": "አምሳለች ማረፃ አባ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲታ",
+      "candidate": "አዳነ አልቶ መንገሻ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲታ",
+      "candidate": "አየለች ተራ ቱቃቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲታ",
+      "candidate": "መንግስቱ ማጃ ቲና"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሰነች",
+      "candidate": "ታደለ ሐቴ ሚኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሰነች",
+      "candidate": "ጥሎማ አስራት ገብረመድን"
+    },
+    {
+      "region": "",
+      "constituency": "ገረሴ",
+      "candidate": "ሀኪሜ አየለ ቆሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ገረሴ",
+      "candidate": "አየለ ቦላ አንአ"
+    },
+    {
+      "region": "",
+      "constituency": "ገረሴ",
+      "candidate": "አለማየሽ ደመቀ አርጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ገረሴ",
+      "candidate": "መሠለች ፋንታዬ አዳሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ገረሴ",
+      "candidate": "ታገል ጋላዳ ቱቶላ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "መስፍን ቶማስ አንጃሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ጳውሎስ ኩሳ ቡሩሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ስንታየሁ ስምዖን ሸርኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ውብነሽ ማርቆስ ጋዳና"
+    },
+    {
+      "region": "",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "አስራት አይዛ አሻንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐመር ልዩ",
+      "candidate": "ወሊ ሃይሌ ቦኖ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐመር ልዩ",
+      "candidate": "ነባ ሻለማን ሙዳ"
+    },
+    {
+      "region": "",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ምናሴ ኤልያስ አንዳሴ"
+    },
+    {
+      "region": "",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ማሩፋ መኩሪያ መልካ"
+    },
+    {
+      "region": "",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ልዑልሰገድ ገመዴ ገብሬ"
+    },
+    {
+      "region": "",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "በላይነሽ በቀለ ዱቃ"
+    },
+    {
+      "region": "",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ገነሙ ጋሳላ ገብሬ"
+    }
+  ]
+}

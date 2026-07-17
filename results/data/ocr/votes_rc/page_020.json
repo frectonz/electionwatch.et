@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 20,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አስፋው ፋንጮ ፋራንጃ",
+      "votes": 237
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መክፈራ አለማየሁ ጎና",
+      "votes": 232
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "በረከት በቀለ ሸፋራው",
+      "votes": 226
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "እየሩሳሌም ተክሌ ቦሼ",
+      "votes": 224
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ዝናቡ አበበ አዲሄኖ",
+      "votes": 221
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ታደለች ደንቦ መንገሻ",
+      "votes": 215
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ዳዊት ግርማ ገሞሬ",
+      "votes": 213
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ታምራት ደምሴ ጎዌ",
+      "votes": 208
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሄለን ኪሮስ ገብረመድን",
+      "votes": 202
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ሳምራዊት አለሙ ዳንኤል",
+      "votes": 189
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ደንበላሽ ግርማ ገመደ",
+      "votes": 155
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ቆንጂት ለምሶ ሌታሞ",
+      "votes": 154
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ደምሴ አሳቱ ዶቄ",
+      "votes": 75287
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ብሩክ ሰለሞን ባሻ",
+      "votes": 74825
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ነጻነት ሸንኮራ ኤጋሞ",
+      "votes": 74796
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መድሃኒት ከበደ ለገሰ",
+      "votes": 73459
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አሰፋ ፎና ደበሰ",
+      "votes": 73407
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አብዮት ሳሙኤል ኑኡሻ",
+      "votes": 73181
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ማትዎስ ሆያሞ ጎሎማ",
+      "votes": 72641
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሳሙኤል ሮድሶ ባራ",
+      "votes": 72285
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ፀጋነሽ ቱምቻ ሹሎ",
+      "votes": 71972
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አስቴር ገረሙ ብንቢላ",
+      "votes": 3402
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መላኩ ማርቆስ ተጋ",
+      "votes": 1637
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አበበ ቦኮ ያቀኖ",
+      "votes": 1450
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መሰረት ማትዎስ ባራሞ",
+      "votes": 1359
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ቀጸላ ሱኖ ቦኪሶ",
+      "votes": 1315
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መሠረት ዳዊት ኤጋሞ",
+      "votes": 1295
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሳርምሶ ዋሳሞ ዳምባራ",
+      "votes": 1291
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ግዛቸው ግርማ ሐርሶ",
+      "votes": 1255
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ዘርቱ ኤርምያስ ኤሹራ",
+      "votes": 1177
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሳቶ ሳርምሶ ሻሻሞ",
+      "votes": 1123
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አበበ አብዲሳ ጋልጋሎ",
+      "votes": 1021
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሳሙኤል ፋንጦ መንገሻ",
+      "votes": 574
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ኢልፍነሽ ዳጉና ቃማ",
+      "votes": 525
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሹና ሀርቃ ጢጣ",
+      "votes": 446
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ዘገየ ሀርሶ ናሙራ",
+      "votes": 446
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ንጉሴ ሀርሶ ናሙራ",
+      "votes": 431
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ኤልያስ ጋልፋቶ ጋራሞ",
+      "votes": 424
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ስመኝ ሰለሞን ይገረሙ",
+      "votes": 409
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ንግስት ሳሚሶ ሌታሞ",
+      "votes": 400
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ባሻ ቦና ቃንቃሶ",
+      "votes": 345
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ብሊሶ ብሩ ማራሳ",
+      "votes": 221
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ተስፋዬ ጦና ቃሬ",
+      "votes": 207
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሁሉአገርሽ ሀርሶ ሳረኛ",
+      "votes": 204
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መኮንን ሞሉ ጎሎማ",
+      "votes": 199
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "በየነ ቦጥሳ ሀንኬ",
+      "votes": 186
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "አበራ ደምሴ ደሳለኝ",
+      "votes": 185
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ማርቆስ ሀጢያ አሺሮ",
+      "votes": 177
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ታፈሰ አሸንጎ ጌጋ",
+      "votes": 170
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ዳሳቻ ዳሳ ፋራሶ",
+      "votes": 169
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሹሩፋ አበራ አማኑኤል",
+      "votes": 169
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ባሻ ላንቃሞ ሆርሳ",
+      "votes": 124
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ጌመቹ ጋሬኖ ጋፋሬ",
+      "votes": 121
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሻምበል ዱካሞ ዳንጌሶ",
+      "votes": 109
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ኤልያስ ሀንቃሞ ቦዬ",
+      "votes": 104
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ተሰማ ሰርባሞ ሆዋሬ",
+      "votes": 102
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሌንጅሶ ሌትሞ ሻሼጎ",
+      "votes": 100
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ከበደ ካንጋታ መዴዴ",
+      "votes": 95
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ኤርምያስ ካቻራ ካንባታ",
+      "votes": 82
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ለምለም ደስታ ጉርሙ",
+      "votes": 80
+    }
+  ]
+}

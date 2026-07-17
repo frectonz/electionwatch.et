@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 27,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "መሐመድ ጣሂር ዲሪዬ",
+      "votes": 55319
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "ሀምሴ ሪያሌ ሀምሴ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "አይሻ / Cayshica",
+      "candidate": "አብዲ መይደኔ ጋላብ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "አህመድ ኢርሻድ አሊኑር",
+      "votes": 78394
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "መርየን መሀመድ ሲራጅ",
+      "votes": 78392
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "ሹክሪ ሀሰን ባሬ",
+      "votes": 78390
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "አገ አዶው አይዲድ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "አህመድ መሀመድ አቡሬ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልከሬ / Ceelkare",
+      "candidate": "ኡመር ሼክ ዳሂር",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "አብዲቃዲር መሀመድ ሀሰን",
+      "votes": 19537
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "ፈረሂያ መሀመድ አብዲ",
+      "votes": 19198
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "አሚን ሁሴን አሊ",
+      "votes": 19024
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "ከዲር አላድ መሀመድ",
+      "votes": 17005
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "ለዳን ዲሪዬ ኡመር",
+      "votes": 209
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "አህመድኑር መሀመድ ኡመር",
+      "votes": 133
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ኤልወይን / Ceelweyn",
+      "candidate": "አያን አራብ መሀመድ",
+      "votes": 104
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "ፈይሰል ረሺድ ኡመር",
+      "votes": 29630
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "አህመድያሲን ኢብራሂም አብዲ",
+      "votes": 29622
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "ፋጡማ መሐመድ ዩሱፍ",
+      "votes": 29618
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "አብዲቀኒ መሀሙድ ባሩድ",
+      "votes": 850
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "መሐመድ አደን እስማዕል",
+      "votes": 62804
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "አህመድ አብዱላሂ ሁሰን",
+      "votes": 61571
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "ራቢአ አህመድ ዩሱፍ",
+      "votes": 61209
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "አብዲወሊ በደል አብዲ",
+      "votes": 617
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "ሂሰ መሀመድ ሙሁመድ",
+      "votes": 405
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "ሙሴ አብዲ አሰማን",
+      "votes": 395
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀመዶ / Dhagax Madaw",
+      "candidate": "አህመድ ሼክ አሊ",
+      "votes": 365
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "ሰሚራ መሀመድ ሙሁመድ",
+      "votes": 73857
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "ከድራ ሁሴን እስማኤል",
+      "votes": 73067
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "መሀመድ ኑር ኢሴ",
+      "votes": 72899
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "መሀሙድ ሀሰን ሁሴን",
+      "votes": 62971
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "ከድራ አብዱላሂ ኡመር",
+      "votes": 2985
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "ሀሰን ሂሰ ራጌ",
+      "votes": 1786
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "አብዱላሂ በደል ዑመር",
+      "votes": 1598
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደጋሀቡር / Dhagaxbuur",
+      "candidate": "አብዱሰላም ሼክ መሀመድ",
+      "votes": 1132
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "ሙሴ አህመድ ኢብራሂም",
+      "votes": 103097
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "አብዲፈታህ ሀጂኡመር አሬ",
+      "votes": 103061
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "መሀመድ አደን ቢሌ",
+      "votes": 2199
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "አብዲ አዶሽ ጣሂር",
+      "votes": 164
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "ሙርሰል ጌዲ ሙሁመድ",
+      "votes": 123
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ደምበል / Dhambal",
+      "candidate": "ሀሰን ፋሬ አደን",
+      "votes": 21
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "አብዱላሂ ሁሴን አብዲኑር",
+      "votes": 61805
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "አብዲሰላም ሙቃዲን መሀመድ",
+      "votes": 56868
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "ኢብራሂም መሀመድ ሁሴን",
+      "votes": 38640
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "አብዲረዛቅ ኡጋስ መሀሙድ",
+      "votes": 499
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "መሀሙድ መሀመድ ጋሻን",
+      "votes": 495
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "ዚያድ አክባል ሃጂጎሬ",
+      "votes": 330
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "ዳይብ ዋአሲን ስሁግሬ",
+      "votes": 276
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "መሃመድ ሱልጣን አብዲ",
+      "votes": 233
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዳናን / Dhanaan",
+      "candidate": "ባደል ቡዳል አብዲ",
+      "votes": 222
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "መሀመድ ጣሂር ሃሺ",
+      "votes": 106430
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "አየን አብዲ መክተል",
+      "votes": 100110
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "ማኪ ሀጂ አብዲቀኒ",
+      "votes": 94604
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "ኑር አብዲ መሀመድ",
+      "votes": 6778
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ድሁን / Dhixun",
+      "candidate": "ኡስማን አብዲወሀብ ዩሱፍ",
+      "votes": 0
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "መሀመድ ፋታህ መሀመድ",
+      "votes": 39242
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "ዴክ ከይድሰነዕ ፋራህ",
+      "votes": 38745
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "ነጅማ አብዲካድር ሁሴን",
+      "votes": 38550
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "መሀመድ አብዲዳሪ አብዱላሂ",
+      "votes": 725
+    },
+    {
+      "region": "ሶማሌ",
+      "constituency": "ዶቦወይን / Dhoobawayn",
+      "candidate": "አረብ አሊ አደን",
+      "votes": 422
+    }
+  ]
+}

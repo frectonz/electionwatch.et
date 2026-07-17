@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 51,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አፋር",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "መሀመድ አሊ አብዱልቃድር",
+      "votes": 11
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "አብራሂም መሀመድ ዑመድ",
+      "votes": 9
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "አብዱ አሊ አብደላ",
+      "votes": 7
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ያሲን አሊ አብዱልቃድር",
+      "votes": 5
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኤሊዳር ወረዳ / Qeelidaqar Daqaara",
+      "candidate": "ሀሰን ዑመድ ሀሰን",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ሃሚድ ዳላ ቶሬ",
+      "votes": 66866
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ዘሀራ ጀማል አይዳሂስ",
+      "votes": 61266
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ከድር መሀመድ አህመድ",
+      "votes": 60970
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "መዳና አደን ሀመዱ",
+      "votes": 1820
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "አሊ መሀመድ ሀንፍሬ",
+      "votes": 1108
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "መሀመድ አባሃባ ሀመዱ",
+      "votes": 673
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "ሳዳም ሁሴን ኢስማን",
+      "votes": 579
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ሰሙሮቢ ወረዳ / Semuroobih Daqaara",
+      "candidate": "አባሂና ሴኮ አደን",
+      "votes": 513
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አወል አርባ አንዴ",
+      "votes": 167210
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አሚን ሀጂ ከሎይታ",
+      "votes": 86972
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አሚና አወል ጉደሌ",
+      "votes": 80987
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "ሀሊማ አሊ አህመድ",
+      "votes": 72320
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "ሙጃሂድ መሀመድ ሰሃ",
+      "votes": 62664
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "መሀመድ አብዱቃድር መሀመድ",
+      "votes": 1566
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አሊ ዑመድ ሃዮ",
+      "votes": 158
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አወል መሀመድ ራክቤል",
+      "votes": 101
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "ሙክታር ሀምዛ አብዱ",
+      "votes": 40
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አሚን መሀመድ ሴኮ",
+      "votes": 7
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "ኖራ ዋሬ ቡካሳ",
+      "votes": 3
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "አህመድ ቡካሳ ከሎይታ",
+      "votes": 1
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "መሀመድ ሀሰን ዳውድ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "በረከታ መሀመድ ወአድ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ጭፍራ ወረዳ / Sifrá Daqaara",
+      "candidate": "ኡመር አሊ ሀሰን",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አሚና ሴኮ ቢዳሩ",
+      "votes": 77105
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አደን ሃማና አደን",
+      "votes": 76104
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "ሀሰና መሀመድ ዳውድ",
+      "votes": 74589
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "ኑሩ ሁሴን መሀመድ",
+      "votes": 1892
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "መሀመድ አሊ መሀመድ",
+      "votes": 1542
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አብደላህ ሀሰን ዳውድ",
+      "votes": 1098
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አሚና ሰይድ ሙህዲን",
+      "votes": 1023
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አስያ ዳውድ አብደላ",
+      "votes": 702
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "ሀሊማ መሀመድ አህመድ",
+      "votes": 663
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አርባ ሱሌ ዳውድ",
+      "votes": 447
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ተላላክ ወረዳ / Talaalak Daqaara",
+      "candidate": "አብራሂም ቢዳሩ አሊ",
+      "votes": 398
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አህመድ ሁሴን መሀመድ",
+      "votes": 52724
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብዱ መሀመድ ጉራባኢስ",
+      "votes": 52680
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አህመድ አሊ ጣሂር",
+      "votes": 52654
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "ኩልሱማ አሊ መሀመድ",
+      "votes": 52652
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "ሀሰና መሀመድ አሊ",
+      "votes": 27985
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብዱ አህዋ አብዱቃድር",
+      "votes": 1478
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አረብ አሊ መሀመድ",
+      "votes": 1196
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብደላ መሀመድ አሊ",
+      "votes": 1092
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብደላ መሀመድ ሳቢር",
+      "votes": 384
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "ኡመር መሀመድ ኢስካህ",
+      "votes": 372
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አንደሪስ ማሃመድ አሊ",
+      "votes": 351
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብዱ አሊ ኡመር",
+      "votes": 260
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ቴሩ ወረዳ / Teeri Daqaara",
+      "candidate": "አብራሂም አሊ ኢጋሀሌ",
+      "votes": 245
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "መሀመድ አህመድ አሊ",
+      "votes": 75454
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ቢላል ዳርጌ ዳሙ",
+      "votes": 73424
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ጀሚላ በዩስ አህመድ",
+      "votes": 71419
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ኖራ ዑመድ መሀመድ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "አፍኪኤ ዋሬ ቡርአሌ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "አህመድ መሀመድ አሊ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "አብዱ ሀሰን የሬስ",
+      "votes": 0
+    },
+    {
+      "region": "አፋር",
+      "constituency": "ኡዋ ወረዳ / Uwwâ Daqaara",
+      "candidate": "ሰይድ አቦ ዑመድ",
+      "votes": 0
+    }
+  ]
+}

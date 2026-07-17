@@ -1,0 +1,448 @@
+{
+  "_comment": "Hand-adjudicated matches for scanned rows the tiered matcher cannot resolve: names garbled past its edit-distance bound, constituency names misread into another region's look-alike, names printed in Latin script, and one printed name shared by two candidates. Keys are the exact printed strings from the sheet, whitespace-normalized, so an entry can only ever catch the one row it was written for. 'votes' narrows a key to a single vote row where a printed name is not unique. The matched candidate record supplies the name, party, constituency and region, which also refiles rows whose constituency was misread. Each note records the evidence for the match.",
+  "candidates": [
+    {
+      "body": "hopr",
+      "constituency": "ባሌ / Balee",
+      "candidate": "መብራት ባጫ ዋቅጅራ",
+      "candidate_id": "CID223551858547",
+      "note": "Oromia's በሌ / Balee, printed ባሌ. The name matches its candidate መብራት ባጫ ዋቅጂራ at distance 1, and በሌ had no elected row."
+    },
+    {
+      "body": "hopr",
+      "constituency": "መተከል",
+      "candidate": "ባይታ ባውዲ ዘንጌ",
+      "candidate_id": "CID865253143247",
+      "note": "መተከል's own ባሂታ ባውዲ ዘጎፌ. The middle name ባውዲ is unique in the pool."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ዳንጉር",
+      "candidate": "ፀዳለ አበራ ነጋሪ",
+      "candidate_id": "CID884799702793",
+      "note": "Benshangul-Gumuz's ዳለቲ candidate, an exact and unique name match across all regions. ዳለቲ had no elected row."
+    },
+    {
+      "body": "hopr",
+      "constituency": "አባ ዶቦረ ጸሐይ",
+      "candidate": "ጋሻውሙ ጋላ ጋዳዬ",
+      "candidate_id": "CID075247495996",
+      "note": "ኡባ ደብረ ጸሐይ's own ጋሻያለው ጋላ ጋላዳ. The middle name ጋላ is unique in the pool."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ድርጋ ጨሬ 1",
+      "candidate": "ከበቡሽ ሸፈራው ሮኬ",
+      "candidate_id": "CID361009781561",
+      "note": "ይርጋ ጨፌ 1's ክብነሽ ሽፈራው ሮቤ. Both the constituency and candidate names are near-transcriptions, and ይርጋ ጨፌ 1 had no elected row."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "ገበየሁ ሳላ ዱዱ",
+      "candidate_id": "CID690653813691",
+      "note": "ሶዶ ዙሪያ 2's ጎበዜ ጎአ ዳዱ of the Wolaita People's Democratic Front, the top of the seat's vote sheet with 19,551 votes."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ሉማሜ",
+      "candidate": "አመሻሽ ለሁሉ ጥላሁን",
+      "candidate_id": "CID017237130488",
+      "note": "Top row of single-member ሉማሜ's vote sheet. A garble of the elected winner ስመኝሽ ሳህሉ ጥኡም, with no closer name in the pool."
+    },
+    {
+      "body": "hopr",
+      "constituency": "መስቃንና ማረቆ 2",
+      "candidate": "መሰለ ሱሚሶ አሸሞ",
+      "candidate_id": "CID057885833151",
+      "note": "Top row of the seat's vote sheet. A distance-3 garble of the elected winner መለሰ ጡሚሶ አሸሞ."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ቀዲዳ ጋሜላ 2",
+      "candidate": "ብሩክ ሳሙኤል ቀሚሾ",
+      "candidate_id": "CID772651977674",
+      "note": "Top row of the seat's vote sheet. A garble of the elected winner ብሩክ ላምቢሶ ዋሚሾ."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ሐብሮ 1 / Habroo 1",
+      "candidate": "ፋቱማ አሊይ መሓ",
+      "candidate_id": "CID789116357247",
+      "note": "Top row of single-member ሐብሮ 1's vote sheet. A garble of the elected winner ፋሩቅ አልይ ሙሳ, anchored by the middle name."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ቃቄ / Qaaqee",
+      "candidate": "ነገሪ ሲንቄ ዑልቄም",
+      "candidate_id": "CID698861581615",
+      "note": "Top row of single-member ቃቄ's vote sheet. A garble of the elected winner ነገሪ ሌንጮ ቡልቱም."
+    },
+    {
+      "body": "hopr",
+      "constituency": "ደገም / Dagam",
+      "candidate": "ጅማ ቆሱ ንጉፋ",
+      "candidate_id": "CID958420489612",
+      "note": "Top row of single-member ደገም's vote sheet. A garble of the elected winner ጅማ ቱሉ ጎንፋ."
+    },
+    {
+      "body": "rc",
+      "constituency": "ባቢሌ / Baabili",
+      "candidate": "RAABI SHEIK RASHID",
+      "candidate_id": "CID029727438099",
+      "note": "Printed in Latin script, identical to ባቢሌ's own candidate list entry. The matcher compares Ethiopic text only and saw an empty string."
+    },
+    {
+      "body": "rc",
+      "constituency": "ፌርፌር / Feerfeer",
+      "candidate": "ABDIHAKAM HAJI SADIK",
+      "candidate_id": "CID365782540108",
+      "note": "Printed in Latin script, identical to ፌርፌር's own candidate list entry. The matcher compares Ethiopic text only and saw an empty string."
+    },
+    {
+      "body": "rc",
+      "constituency": "አምቦ 2 / Ambo 2",
+      "candidate": "Takele Uma Banti",
+      "candidate_id": "CID810326836075",
+      "note": "Printed in Latin script, identical to አምቦ 2's own candidate list entry. The matcher compares Ethiopic text only and saw an empty string."
+    },
+    {
+      "body": "rc",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "ፈይሰል ረሺድ ኡመር",
+      "candidate_id": "CID196796383236",
+      "note": "Somali's ዳኖት / Dabood, printed ዳቦት. Exact name match in the Dabood pool, and Dabood had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "አህመድያሲን ኢብራሂም አብዲ",
+      "candidate_id": "CID151234453269",
+      "note": "Somali's ዳኖት / Dabood, printed ዳቦት. Exact name match in the Dabood pool, and Dabood had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "ፋጡማ መሐመድ ዩሱፍ",
+      "candidate_id": "CID795410614079",
+      "note": "Somali's ዳኖት / Dabood, printed ዳቦት. Exact name match in the Dabood pool, and Dabood had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ዳቦት / Dabood",
+      "candidate": "አብዲቀኒ መሀሙድ ባሩድ",
+      "candidate_id": "CID404670111013",
+      "note": "Somali's ዳኖት / Dabood, printed ዳቦት on the vote sheet as well. Exact name match to Dabood's independent candidate."
+    },
+    {
+      "body": "rc",
+      "constituency": "አዴጎ",
+      "candidate": "አታላይ ጥላሁን ጫኔ",
+      "candidate_id": "CID475219379931",
+      "note": "Amhara's አዴት, printed አዴጎ. Exact name match in the አዴት pool, and አዴት had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "አዴጎ",
+      "candidate": "ተስፋሁን አለምነህ ይስማው",
+      "candidate_id": "CID479575474324",
+      "note": "Amhara's አዴት, printed አዴጎ. Exact name match in the አዴት pool, and አዴት had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ደህና",
+      "candidate": "አድና ምህረቱ በዛብህ",
+      "candidate_id": "CID442203954548",
+      "note": "Amhara's ደሀና, printed ደህና. Exact name match in the ደሀና pool, and ደሀና had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ደህና",
+      "candidate": "ስቡህ ገበያው ታረቀ",
+      "candidate_id": "CID187411131776",
+      "note": "Amhara's ደሀና, printed ደህና. Exact name match in the ደሀና pool, and ደሀና had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ደህና",
+      "candidate": "ጌታወይ ሲሳይ ላቀው",
+      "candidate_id": "CID673259519702",
+      "note": "Amhara's ደሀና, printed ደህና. Exact name match in the ደሀና pool, and ደሀና had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቀልድና",
+      "candidate": "አብዱረህማን መሀመድ አዋሌ",
+      "candidate_id": "CID046859930659",
+      "note": "Dire Dawa's ቀልአድ, printed ቀልድና. The candidate appears on ቀልአድ's own vote sheet, and ቀልአድ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቀልድና",
+      "candidate": "መሀሪ ቡሀ ዲራሪ",
+      "candidate_id": "CID761384976096",
+      "note": "Dire Dawa's ቀልአድ, printed ቀልድና. A garble of ሙሴ ቡህ ዲራኔ, who appears on ቀልአድ's own vote sheet."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቀልድና",
+      "candidate": "አብዱረሺድ ሀሰን አህመድ",
+      "candidate_id": "CID135603227261",
+      "note": "Dire Dawa's ቀልአድ, printed ቀልድና, and the name is exactly ቀልአድ's candidate. Without this entry the matcher credits Somali ዋርዴር's same-named candidate with a second seat."
+    },
+    {
+      "body": "rc",
+      "constituency": "ላይ አርማጭሆ",
+      "candidate": "እናና ዮሐንስ ኀላ",
+      "candidate_id": "CID596042901072",
+      "note": "ላይ አርማጭሆ's own እናና የኋላ ጎላ. The given name እናና is unique in the pool."
+    },
+    {
+      "body": "rc",
+      "constituency": "ታች ጋይንት",
+      "candidate": "ስናይት አስፈራው ከበደ",
+      "candidate_id": "CID911579373549",
+      "note": "ታች ጋይንት's own ሰናይት አስራደው ኮከቤ, the only ሰናይት in the pool."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "አህመድ መሀመድ ሀይስማ",
+      "candidate_id": "CID424704797493",
+      "note": "Two ሚሌ candidates are named አህመድ መሀመድ ሀይሰማ. The elected one polled 133,621 votes, inside the Prosperity slate's band, so this is the Prosperity candidate. The Afar People's Party namesake polled 1,198."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "አህመድ መሀመድ ሀይሰማ",
+      "votes": 133621,
+      "candidate_id": "CID424704797493",
+      "note": "Vote row of the elected Prosperity candidate. See the elected-row entry for the reasoning."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሚሌ ወረዳ / Millê Daqaara",
+      "candidate": "አህመድ መሀመድ ሀይሰማ",
+      "votes": 1198,
+      "candidate_id": "CID316963401470",
+      "note": "Vote row of the Afar People's Party namesake, polling in that party's band of hundreds."
+    },
+    {
+      "body": "rc",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ጫልቱ ተፈራ ቱጆ",
+      "candidate_id": "CID481975336906",
+      "note": "ደምቢ ዶሎ's own ጫልቱ ተረፈ ቱቾ, the only ጫልቱ in the pool."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሰንጎ ገበያ / Sangoo Gabayaa",
+      "candidate": "በንቲ ቶሊና ጥልቂ",
+      "candidate_id": "CID142046350980",
+      "note": "Oromia's ሰኞ ገበያ / Sangoo Gabayaa, printed ሰንጎ ገበያ. Exact name match, and ሰኞ ገበያ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሰንጎ ገበያ / Sangoo Gabayaa",
+      "candidate": "ጽዮን ታዬ ባይሣ",
+      "candidate_id": "CID612141145550",
+      "note": "Oromia's ሰኞ ገበያ / Sangoo Gabayaa, printed ሰንጎ ገበያ. Exact name match, and ሰኞ ገበያ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሰንጎ ገበያ / Sangoo Gabayaa",
+      "candidate": "አብረሃም ሞሲሳ ደለሳ",
+      "candidate_id": "CID123077189023",
+      "note": "Oromia's ሰኞ ገበያ / Sangoo Gabayaa, printed ሰንጎ ገበያ. Exact name match, and ሰኞ ገበያ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ባሌ / Balee",
+      "candidate": "አይናለም አበበ ወርቁ",
+      "candidate_id": "CID407775787179",
+      "note": "Oromia's በሌ / Balee, printed ባሌ. Exact name match, and በሌ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ባሌ / Balee",
+      "candidate": "ጤይባ አብዱልፈታይ ሙሀመድ",
+      "candidate_id": "CID537042681774",
+      "note": "Oromia's በሌ / Balee, printed ባሌ. Exact name match, and በሌ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ባሌ / Balee",
+      "candidate": "መሀመድ ጁንዳ ኡመሬ",
+      "candidate_id": "CID662731034167",
+      "note": "Oromia's በሌ / Balee, printed ባሌ. Exact name match, and በሌ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ሻሸመኔ 1 / Shaashamannee 1",
+      "candidate": "አዳነ ተክለማርያም ጃልዶ",
+      "candidate_id": "CID178842058707",
+      "note": "ሻሸመኔ 1's own አዳነ ተክለግዮርግስ ጃልዶ, the only ጃልዶ in the pool."
+    },
+    {
+      "body": "rc",
+      "constituency": "አዋሴ",
+      "candidate": "ሰኒያ ሙስጠፋ ኢብራሂም",
+      "candidate_id": "CID612563954943",
+      "note": "Dire Dawa's አዋሌ, printed አዋሴ. Exact name match, and አዋሌ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "አዋሴ",
+      "candidate": "ሙራድ ሙክታር አሚን",
+      "candidate_id": "CID715155820997",
+      "note": "Dire Dawa's አዋሌ, printed አዋሴ. Exact name match, and አዋሌ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "አዋሴ",
+      "candidate": "ኒብራስ መሀመድ ኡመር",
+      "candidate_id": "CID263911903260",
+      "note": "Dire Dawa's አዋሌ, printed አዋሴ. Exact name match, and አዋሌ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ፈፅመታ መሐመድ ኢብራሂም",
+      "candidate_id": "CID333977207516",
+      "note": "07 ቀበሌ's own ፈልመታ መሐመድ ኢብራሂም, at distance 1."
+    },
+    {
+      "body": "rc",
+      "constituency": "ማኩዌይ",
+      "candidate": "ዱዋች ጋትሉአክ ቢያች",
+      "candidate_id": "CID918036391683",
+      "note": "ማኩዌይ's own ዱዋች ጋትኮት ቢቾክ. The given name ዱዋች is unique in the pool."
+    },
+    {
+      "body": "rc",
+      "constituency": "ጆር",
+      "candidate": "ኡኬሎ አለሙ ንነዎ",
+      "candidate_id": "CID266324228188",
+      "note": "ጆር's own ኡኬሎ አለው ኝጎዎ, at distance 3."
+    },
+    {
+      "body": "rc",
+      "constituency": "ምሻጋ",
+      "candidate": "ጌታሁን አብዲሣ ሌንጫ",
+      "candidate_id": "CID459699814893",
+      "note": "Benshangul-Gumuz's ምዥጋ, printed ምሻጋ. Exact name match, and ምዥጋ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ምሻጋ",
+      "candidate": "አበራሽ ደጃሰ ቴቶ",
+      "candidate_id": "CID374038298240",
+      "note": "Benshangul-Gumuz's ምዥጋ, printed ምሻጋ. Name matches አበራሽ ደጃስ ቴቶ at distance 1."
+    },
+    {
+      "body": "rc",
+      "constituency": "ምሻጋ",
+      "candidate": "አበራ ባይታ ቲባ",
+      "candidate_id": "CID430304607324",
+      "note": "Benshangul-Gumuz's ምዥጋ, printed ምሻጋ. Name matches አበራ ባያታ ቲባ at distance 1."
+    },
+    {
+      "body": "rc",
+      "constituency": "ምሻጋ",
+      "candidate": "ምትኩ ናኖ ሳፋ",
+      "candidate_id": "CID881061274103",
+      "note": "Benshangul-Gumuz's ምዥጋ, printed ምሻጋ. Exact name match, and ምዥጋ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ምሻጋ",
+      "candidate": "ታደሰ ዴሬሳ አባዶሼ",
+      "candidate_id": "CID214064065113",
+      "note": "Benshangul-Gumuz's ምዥጋ, printed ምሻጋ. Exact name match, and ምዥጋ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ምሻጋ",
+      "candidate": "ጥበቡ ታምሩ ዱላ",
+      "candidate_id": "CID680071610739",
+      "note": "Benshangul-Gumuz's ምዥጋ, printed ምሻጋ. Exact name match to the Gumuz People's Democratic Movement candidate."
+    },
+    {
+      "body": "rc",
+      "constituency": "ከማሺ",
+      "candidate": "ብድጋ ባሪያ ኩቺ",
+      "candidate_id": "CID267414531206",
+      "note": "ከማሺ's own ብጅጋ ፃፊዮ ኩቺ, the only ኩቺ in the pool, with a matching given name."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቋጫ",
+      "candidate": "መስፍን መንገሻ ማሞ",
+      "candidate_id": "CID390078791632",
+      "note": "South Ethiopia's ቁጫ, printed ቋጫ. Name matches ቁጫ's መስፍን መንዛ ማሞ, filed with four other ቁጫ rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቋጫ",
+      "candidate": "ዳንኤል ደሳለኝ ዳኮ",
+      "candidate_id": "CID620614154340",
+      "note": "South Ethiopia's ቁጫ, printed ቋጫ. Exact name match, and ቁጫ had no elected rows."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቋጫ",
+      "candidate": "ኩረባቸው ታንቱ ሰባ",
+      "candidate_id": "CID461048641259",
+      "note": "South Ethiopia's ቁጫ, printed ቋጫ. Name matches ኩሪባቸው ታንቱ ሳባ at distance 2."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቋጫ",
+      "candidate": "ቴማ አየለ ያዳ",
+      "candidate_id": "CID809474042529",
+      "note": "South Ethiopia's ቁጫ, printed ቋጫ. Name matches ቱማ አየለ ያዳ at distance 1."
+    },
+    {
+      "body": "rc",
+      "constituency": "ቋጫ",
+      "candidate": "ወርቅነሽ ሎማና አየለ",
+      "candidate_id": "CID793445722962",
+      "note": "South Ethiopia's ቁጫ, printed ቋጫ. Exact name match to the Freedom and Equality Party candidate."
+    },
+    {
+      "body": "rc",
+      "constituency": "ጎዛምን",
+      "candidate": "መልሴ ዋስካይድር ከብቴ",
+      "candidate_id": "CID216254122479",
+      "note": "Top row of ጎዛምን's vote sheet. A garble of the elected winner መሰሌ ሞትባይኖር ከብቴ, with the surname exact."
+    },
+    {
+      "body": "rc",
+      "constituency": "01 ቀበሌ",
+      "candidate": "አብዲ መብራህቱ ሙሜ",
+      "candidate_id": "CID374559019643",
+      "note": "Top row of 01 ቀበሌ's vote sheet. A garble of the elected winner አብዲ ሙከታር ሙሜ, with the first and last names exact."
+    },
+    {
+      "body": "rc",
+      "constituency": "ዲታ",
+      "candidate": "አሻግሬ አይዳ አሻሜ",
+      "candidate_id": "CID470988462065",
+      "note": "ዲታ's own አሸናፊ ኦይዳ ኦዥጌ. The elected sheet lists five winners for ዲታ, the vote sheet flags four, and this candidate is the one unflagged top scorer with 39,041 votes."
+    },
+    {
+      "body": "rc",
+      "constituency": "ዲሜ ልዩ",
+      "candidate": "ታደሰ ጋልጆ ሻልሻ",
+      "candidate_id": "CID548067118685",
+      "note": "ዲሜ ልዩ's own ታደሰ ጋልጶክ ሾልቭ, the only ታደሰ in the pool with a ጋል- middle name."
+    },
+    {
+      "body": "rc",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "መስቀሎት ተማም አባሻም",
+      "candidate_id": "CID888101326988",
+      "note": "South West's ፈለገ ሰላም, printed ፈረገ ሰላም. A garble of መስተዋት ተማም አባጎጃም, whose middle name ተማም is unique in the pool."
+    }
+  ]
+}

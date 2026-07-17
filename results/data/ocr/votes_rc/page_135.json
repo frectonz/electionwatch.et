@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 135,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ዘውድቱ ውዳጆ ወልደ",
+      "votes": 54660
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ክፍሌ ኃይለጊዮርጊስ የሾ",
+      "votes": 54642
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ገነት ታደሰ ወዳጆ",
+      "votes": 54291
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አስራት መኩሪያ ወልደሚካኤል",
+      "votes": 54138
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ተረፈ ቆጭቶ ኢከሎ",
+      "votes": 54070
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ሎሚቱ ገብረማርያም አዶ",
+      "votes": 3379
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ብርሃኑ ወልደማርያም ገብሬ",
+      "votes": 3109
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ፍቃዱ ወልዴ ግቦ",
+      "votes": 2280
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አክሊሉ ወልደጊዮርጊስ ወልደሚካኤል",
+      "votes": 2130
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ተስፋዬ ሻዎ ሻየኖ",
+      "votes": 2112
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ታርኩ ወልደሰንበት ጋዎ",
+      "votes": 2043
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ባህሩ ኬሜቶ ወልደሚካኤል",
+      "votes": 1916
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ጥራቱ ገብረዮሐንስ አሞ",
+      "votes": 1910
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አስራት ወልደማርያም ወልዴ",
+      "votes": 1897
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ሀብታሙ ገብረሚካኤል ዳመቀ",
+      "votes": 1855
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ወልደጊዮርጊስ ገብሬ ውሎ",
+      "votes": 1820
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አለማየሁ ወልደማርያም ገብሬ",
+      "votes": 1774
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አደመ አዴቶ ኃይሌ",
+      "votes": 1738
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ወዳጆ ወንድሙ አምቦ",
+      "votes": 1691
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ኃይሌ ገብረሚካኤል ሻዎ",
+      "votes": 1539
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ቆጭቶ መኮንን ባዩ",
+      "votes": 1506
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አሸብር ተስፋዬ ገብሬ",
+      "votes": 1283
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ታምሩ ሚሾ ኦጎ",
+      "votes": 901
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ሀይሌ ግዛው ኬቶ",
+      "votes": 747
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ገሮ ወልደማሪያም ጊቦ",
+      "votes": 729
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ፍቃዱ ገብረሚካኤል ገብሬ",
+      "votes": 704
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ዘሪሁን ሀፍተማሪያም ተክሌ",
+      "votes": 703
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ሲሳይ ቆጭቶ ጋዎ",
+      "votes": 629
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ከበደ ወልደማርያም አዶ",
+      "votes": 612
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አልማዝ ቢጅቲ የሾ",
+      "votes": 549
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ምኑኩ ግዛው ኬቶ",
+      "votes": 533
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "አይናለም ገብሬየስ አዶ",
+      "votes": 465
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ይደነቁሽ ምትኩ ሻዎ",
+      "votes": 462
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ክፍሌ አሸሎ አጦ",
+      "votes": 450
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጭራ መደበኛ",
+      "candidate": "ተሾመ ቆጭቶ ገብረፃድቅ",
+      "votes": 394
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ንጉሴ ወልደጊዮርጊስ ኃይሌ",
+      "votes": 54754
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ዘመዴ አንዳርጌ አምባው",
+      "votes": 54732
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አትርሴ ሸታቸው አቦ",
+      "votes": 54593
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ሸዋዬ አግደው አዶ",
+      "votes": 54275
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "መንግስቱ መንገሻ መኩሪያ",
+      "votes": 54106
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አበባሽ አበበ ወልደሚካኤል",
+      "votes": 54082
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "መስተዋት ተማም አባጃምቦ",
+      "votes": 53530
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ቆጭቶ ጣሞ ታኖሞ",
+      "votes": 52469
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ትዕግስት ክፍሌ ኬቶ",
+      "votes": 7345
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አለማየሁ ወልደገብርኤል አምቦ",
+      "votes": 7040
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ታደለች መኮንን ገብረሚካኤል",
+      "votes": 635
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ገዛሀኝ ኃይሌ ጋሬኖ",
+      "votes": 611
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ቆጭቶ ኮታኖ አቱሞ",
+      "votes": 598
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አልማዝ ታምሩ ብርሃኑ",
+      "votes": 595
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ታመነ ተክሌ ገብረሥላሴ",
+      "votes": 590
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ፋሲካ አትርሰው ሐጅቶ",
+      "votes": 471
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ሙሉጌታ ጋድሳ ጋይቶ",
+      "votes": 469
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አረጋሽ ደምሴ ደጀኔ",
+      "votes": 287
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ራዲኤት ብርሃኑ ዘውዴ",
+      "votes": 258
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አዲሱ አየለ ኃይለማርያም",
+      "votes": 205
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አራን አሚቶ ገብረየሱስ",
+      "votes": 198
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አብርሃም ከበደ ገብረስላሴ",
+      "votes": 193
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ገነት አበበ ኃይሌ",
+      "votes": 191
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "አሰጋኝ አጣኖ ኬቶ",
+      "votes": 187
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ፈሊገ ሰላም",
+      "candidate": "ታደሰ ተክሌ ገብሬ",
+      "votes": 174
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 21,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ምዕራፍ ፈጢ ሩዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "በለጠች በየነ ካሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሆሮ ጉዱሩ ወለጋ ኮምቦልቻ / Horroo Guduruu Wallagga Kombolcha",
+      "candidate": "ሉሉ ቂጣታ ጉታታ"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "መሊሃ አሜ ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "ጀማል ዮንስ ወዳይ"
+    },
+    {
+      "region": "",
+      "constituency": "ምስራቅ ሐረርጌ ኮምቦልቻ / Harargee Baha Kombolcha",
+      "candidate": "መዋርዲ ሙስጠፋ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ትዕግስት ግርማ ታፈሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ጉግሳ ደጀኔ ጉርሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ሱሉልታ እና ሙሎ / Sulultaa Fi Muloo",
+      "candidate": "ተስፋዬ ቱሉ መልካ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidate": "ቁጣላ በሪሶ ዱቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidate": "ትግስት ገመዴ ባናታ"
+    },
+    {
+      "region": "",
+      "constituency": "ሐገረ ማርያም / ቡሌ ሆራ/ Bulee Horaa",
+      "candidate": "አኖ ባሪሶ ባሳዬ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቴ ደራ / Abootee Darraa",
+      "candidate": "ገበየሁ ሀብቴ ግዛዉ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቴ ደራ / Abootee Darraa",
+      "candidate": "ከበቡሽ ሙሀመድ አራርሴ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦቴ ደራ / Abootee Darraa",
+      "candidate": "አሸብር ሀዳቡ ቦርጃ"
+    },
+    {
+      "region": "",
+      "constituency": "አደአ በርጋ / Ada'aa Bargaa",
+      "candidate": "አፁዱ ጌታቸዉ ቆሪቾ"
+    },
+    {
+      "region": "",
+      "constituency": "አደአ በርጋ / Ada'aa Bargaa",
+      "candidate": "ሸዋዬ ቢሩ ጃታኒ"
+    },
+    {
+      "region": "",
+      "constituency": "አደአ በርጋ / Ada'aa Bargaa",
+      "candidate": "ዮናታን አየለ ሁንዴ"
+    },
+    {
+      "region": "",
+      "constituency": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
+      "candidate": "ስኪና ሱልጣን ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
+      "candidate": "አብዱልጀሊል አብዱሮ ሙሃመድ"
+    },
+    {
+      "region": "",
+      "constituency": "አጋርፋ ጋሰራ / Agaarfaa Gaasaraa",
+      "candidate": "ሜሳ ደሞ ብሩ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ጤና / Alam Xeenaa / Botee",
+      "candidate": "ኪሱ ለማ ጆቴ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ጤና / Alam Xeenaa / Botee",
+      "candidate": "አበበች ሻንቆ ሙሉቱ"
+    },
+    {
+      "region": "",
+      "constituency": "አለም ጤና / Alam Xeenaa / Botee",
+      "candidate": "አሼት ሲሳው ቱሉ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
+      "candidate": "መስፍን ከብቴ ተፈራ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
+      "candidate": "አባይ ሌሊሣ ሒርጳ"
+    },
+    {
+      "region": "",
+      "constituency": "አቃቂ ጉምቢቹ / Aqaaqii Gumbichuu",
+      "candidate": "ደሚቱ ታዬ በዳዳ"
+    },
+    {
+      "region": "",
+      "constituency": "አይራ ጉሊሶ / Ayiraa Gullisoo",
+      "candidate": "ብርቄ በቀለ ታፈሰ"
+    },
+    {
+      "region": "",
+      "constituency": "አይራ ጉሊሶ / Ayiraa Gullisoo",
+      "candidate": "ኤልያስ ኡመታ ኮርማ"
+    },
+    {
+      "region": "",
+      "constituency": "አይራ ጉሊሶ / Ayiraa Gullisoo",
+      "candidate": "ድንቃ ሁንዴሳ ኩሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኮ ትቤ / Baakkoo Tibbee",
+      "candidate": "ፍቅሩ ረጋሣ ጋሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኮ ትቤ / Baakkoo Tibbee",
+      "candidate": "አያንቱ ይሻው ጉታታ"
+    },
+    {
+      "region": "",
+      "constituency": "ባኮ ትቤ / Baakkoo Tibbee",
+      "candidate": "ያዳኒ ጂሬኛ ጉዲና"
+    },
+    {
+      "region": "",
+      "constituency": "በረህ አላቱ / Barah Alaltuu",
+      "candidate": "አለማየሁ ተንኮሉ አለሙ"
+    },
+    {
+      "region": "",
+      "constituency": "በረህ አላቱ / Barah Alaltuu",
+      "candidate": "አልማዝ ደመቀ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "በረህ አላቱ / Barah Alaltuu",
+      "candidate": "ፍቃዱ ቱሉ ከተማ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ሙሃወሊ አድሪስ ገነሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ኡመር ሙሃመድ ገልቹ"
+    },
+    {
+      "region": "",
+      "constituency": "ደሎ መና / Dalloo Mannaa",
+      "candidate": "ኡመር አብዶ ባቲ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ግርማ ደንገላ ሪንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "ጫልቱ ተፈራ ቱጆ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ ዶሎ / Dambii Doolloo",
+      "candidate": "በላይነሽ ፋፋ ኢጆ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ሀይሉ ደበላ አብዲሣ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ዋቅጋሪ ነገራ ፉፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲጋ ኮሎቦ / Diggaa Koloboo",
+      "candidate": "ጫልቱ ዲዲሳ ጉቱ"
+    }
+  ]
+}

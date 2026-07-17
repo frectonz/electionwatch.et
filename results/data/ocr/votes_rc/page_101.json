@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 101,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አዳነ ኮሬ ይሙት",
+      "votes": 15758
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዕማሽ ለማ አሰፋ",
+      "votes": 15431
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ትረፌ ዱሜሶ አቶምሳ",
+      "votes": 15373
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አራርሴ ዱሜሶ አቶምሳ",
+      "votes": 15303
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሙሉ ሰዴታ ንንፋ",
+      "votes": 15059
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ፋንቱ አበራ ገነማ",
+      "votes": 13499
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አጉችው ገብሬ ጎበዜ",
+      "votes": 12962
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ካሱ መገርሳ ጉዲሳ",
+      "votes": 12683
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ያይኔአበባ ታሪኩ ሀይሌ",
+      "votes": 12344
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አብራሃም አበራ ገመቹ",
+      "votes": 11837
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ጌትነት ሲሳይ ሽርታጋ",
+      "votes": 11177
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መላኩ ቅናጤ አቶምሳ",
+      "votes": 10905
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ቶሰኒ ጉቱ ባቤ",
+      "votes": 10190
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ቃልፅድቅ ተስራ አንዳዓለም",
+      "votes": 9734
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ኤልያስ ደሴ ዝቄ",
+      "votes": 9672
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ወንደሰን ጎሹ አስረስ",
+      "votes": 9634
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ነብዩ አለምይሁን መብራቴ",
+      "votes": 9579
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አበባ አሰናቀ ተመስገን",
+      "votes": 9543
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሚሊዮን ተሾመ እውላቸው",
+      "votes": 9521
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ክፍሌ ታፈሰ አየለ",
+      "votes": 9486
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ታረቀኝ ታዲዮስ ታንጋ",
+      "votes": 9484
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዝናው ተሰማ ቃንዛ",
+      "votes": 9473
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ደሳለኝ ቶላ እማ",
+      "votes": 9454
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መሠረት ወንድሙ ካሣዬ",
+      "votes": 8740
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መልከብርሀን ዘበነ አቅናው",
+      "votes": 8545
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ነጋሽ መተኪያ በለጠ",
+      "votes": 8199
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መሪ የኔው ጀሞበር",
+      "votes": 7925
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መኮንን ከበደ አሰራት",
+      "votes": 7693
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መሠለ ኩማ ጋጋ",
+      "votes": 7418
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዳግም እሱባለው አድጎ",
+      "votes": 7288
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ብርሃኑ ታዬ ሀብተህይወት",
+      "votes": 7065
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ጌቱ ቱሉ ፊባ",
+      "votes": 6701
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሰጠሽኝ ጋጋ በርሳሞ",
+      "votes": 6597
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ብርቱካን ላብሶ ቦንጃ",
+      "votes": 5721
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ታደለች ወዬቻ ቦጋለ",
+      "votes": 5536
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ምስጋና ታደሰ ናጋሪ",
+      "votes": 5529
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "የሱፍ ሁሴን ከማል",
+      "votes": 4304
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "አሒባ ሰፋ ሙዘየም",
+      "votes": 4146
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሪሀና አህመድ ሰይድ",
+      "votes": 4091
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ባንቻየሁ ክንዴ ሰራዬ",
+      "votes": 3897
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ፎዚያ አህመድ ሰይድ",
+      "votes": 3839
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ቶማስ ታምሩ ዘውዴ",
+      "votes": 3661
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ይርጋለም አዲስ አሰፋ",
+      "votes": 3618
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ኤልያስ መሀመድ አህመድ",
+      "votes": 3595
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ካሊድ አወል መሐመድ",
+      "votes": 3579
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሚዛን ከበደ ባህታ",
+      "votes": 3406
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ከፈለኝ ጥላሁን ደምሴ",
+      "votes": 3288
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ታደሰ አማና ገደፋ",
+      "votes": 3253
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ቢያም ባዬ ታደገኝ",
+      "votes": 3213
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሳሊም ኡስማን አሊ",
+      "votes": 3196
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መሰረት አሰፋ አክሊሉ",
+      "votes": 3165
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ኢብራሂም ከድር ሀሰን",
+      "votes": 3060
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መሰረት ቸኮል ሙሉ",
+      "votes": 2924
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ማሊክ ናስር መሀመድ",
+      "votes": 2690
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ግርማ ደቻሳ ወዬሳ",
+      "votes": 2544
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዮሐንስ ዘርሁን ከበደ",
+      "votes": 2506
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ዮሃንስ አያኔ ቦጋለ",
+      "votes": 2246
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "መስከረም ከተማ ወንድሙ",
+      "votes": 2129
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ኩማ ደገሳ ቦቃ",
+      "votes": 2123
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ሰላሞን አባባው ዘለቀ",
+      "votes": 1939
+    }
+  ]
+}

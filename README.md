@@ -1,6 +1,6 @@
 # electionwatch.et
 
-An independent civic project publishing open data for Ethiopia's 7th General Election: party debate positions, the full candidate lists, and the polling stations where people vote.
+An independent civic project publishing open data for Ethiopia's 7th General Election: the declared results, party debate positions, the full candidate lists, and the polling stations where people vote.
 
 **Live at [electionwatch.et](https://electionwatch.et)**
 
@@ -12,6 +12,7 @@ Everything comes from material published by the National Election Board of Ethio
 - `candidates/` — the full HoPR and Regional Council candidate lists, parsed from NEBE's PDFs, cross-linked to parties and polling stations, and annotated with the number of council seats each constituency returns (HoPR is single-member; Regional Council constituencies are multi-member).
 - `polling-stations/` — every registered polling station, with NEBE-published GPS coordinates where available.
 - `symbols/` — the ballot symbols matched to each party.
+- `results/` — the declared results: seats won per party, the elected members, and every candidate's vote count, matched back to the candidate lists.
 - `website/` — the Astro site that renders all of the above.
 
 Each pipeline preprocesses its source into website-ready JSON; the website does no heavy joining at request time.

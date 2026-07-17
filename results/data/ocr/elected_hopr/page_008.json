@@ -1,0 +1,273 @@
+{
+  "pdf": "elected_hopr",
+  "page": 8,
+  "pages": 10,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 24",
+      "candidate": "ከይረዲን ተዘራ አደራ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 25",
+      "candidate": "የሺመቤት ነጋሽ በለጠ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 26 እና 27",
+      "candidate": "መሰረት መስቀሌ አያኖ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ለሊሴ ነሜ ሶሪ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "አብርሃም በላይ በርሀ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 4",
+      "candidate": "ሰሐርላ አብዱላሂ ባህዶን"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ያሰሚን ወሀብረቢ ሰኢድ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ሳምሶን ወንድሜነህ እሾቴ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "መሀመድ መሀመድከማል አሊአልአሩሲ"
+    },
+    {
+      "region": "",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "ቆንጂት ደበላ ዎላ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አለሚቱ ዮሴፍ ሳቃቶ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ግዛቸው አየለ በራሶ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ዮሐንስ ማሬ ጎሎ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "መላሠ መና ገሜዎ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ሰለሞን ሶካ ሻኛርታ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "መስፍን ኤልታሞ ኢቻ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሰነች",
+      "candidate": "ዘካሪያስ አንበሴ ሰበልቶኮ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "አንዳልካቸው አሰራት ዘለቀ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁምቦ ጠበላ",
+      "candidate": "ሳሙኤል አርቃቶ ኩርኬ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሐመር ልዩ",
+      "candidate": "ጎይቲ ዋንጮ አይኬ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ካሳሁን ሰለሞን ላሀ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ማሌ ልዩ",
+      "candidate": "አቅናው ካውዛ ማለፊያ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባስኬቶ ልዩ",
+      "candidate": "ካሳሁን ወንድወሰን ምናሴ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አማሮ ኬሌ",
+      "candidate": "አወቀ አምዛዬ አለማ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አርባ ምንጭ",
+      "candidate": "ታገሰ ጫፎ ዱሎ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አይዳ ልዩ",
+      "candidate": "አንድረሰበ ወርቁ ጉሳ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዘይሴ ልዩ",
+      "candidate": "አብርሃም አምሼ አለማ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዘላ ዴሪማሎ",
+      "candidate": "ሙሉነሽ ጉሴ ሱላ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ደራሼ ልዩ",
+      "candidate": "ገነነ ገዛኸኝ ቆናቦ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ገዋዳ ልዩ",
+      "candidate": "ማታማ ማካ ጋሳቶ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጊዶሌ መደበኛ",
+      "candidate": "ዘነበ ሳንዶ አርካይዶ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፀማይ ልዩ",
+      "candidate": "ጎላ ጉደቦ አቾ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ፍስሀ ገነት",
+      "candidate": "ፍቃዱ ሺፈራው ደጎማ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቀይ አፈር መደበኛ",
+      "candidate": "ወላይቴ ቤቶ ጉንዘር"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አባ ዶቦረ ጸሐይ",
+      "candidate": "ጋሻውሙ ጋላ ጋዳዬ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 1",
+      "candidate": "አስቴር ዳዊት ጦሼ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 1",
+      "candidate": "ወልደየስ ደበበ ደልኪ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦንሶ ሶሬ 1",
+      "candidate": "አለማየሁ አሳሴ ኤርጋዶ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 1",
+      "candidate": "አንድድርያስ ጌታ ቤልዴዳ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ድርጋ ጨሬ 1",
+      "candidate": "ከበቡሽ ሸፈራው ሮኬ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ወይዴ 1",
+      "candidate": "ተሾመ ታከለ ጨሜሳ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 1",
+      "candidate": "ዲጋቶ ኩምቤ ቆልቻ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጎፋ ዙሪያ 1",
+      "candidate": "ተመስገን ጌታቸው ገመቹ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሶዶ ዙሪያ 2",
+      "candidate": "ገበየሁ ሳላ ዱዱ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ባኮ ጋዘር 2",
+      "candidate": "አብዮት ደለለኝ ይርኩቦ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦንሶ ሶሬ 2",
+      "candidate": "ሸዋት ጥንካ ሻንጎ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኪንዶ ኮይሻ 2",
+      "candidate": "አስለፈች ኩቼ ጌአ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሞት ጋሌ 2",
+      "candidate": "አታፈራሁ ሞታ ቦጋለ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጎፋ ዙሪያ 2",
+      "candidate": "ተስፋዬ በልጅጌ ዳሬ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቦንሶ ሶሬ 3",
+      "candidate": "ፈቃደስላሴ ቤዛ ባዴቦ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 1",
+      "candidate": "ሰለሺ ኬሬ ዱኬ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ወናጎ 2",
+      "candidate": "ዘሪቱ ሺፈራው በየነ"
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ድርጋጨሬ 2",
+      "candidate": "ጌቱ ታምሩ ቤተሞ"
+    }
+  ]
+}

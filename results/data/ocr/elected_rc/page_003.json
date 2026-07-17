@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 3,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አስፋው ጎኔሶ ጎመራ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ዳዊት ዳንጌሶ ሆርሳ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አየለች ተክሉ ዳኮሌ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አሰይ ሰላሞን ሺና"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "መሳይ ኃይሉ ዳንጌሶ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተናኝ ታምሩ ሐሜሶ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ቆንጅት ወቴ ጎዳና"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ደሳለኝ ዳንቾ ቦሶቃ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "በላይነሽ ባካዬ ጉበለ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ተሾመ ደበበ ቶርባኔ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አምራች በቀለ ላሌም"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አዳነች ቃምሶ ጋልዲዳ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አዲሱ ሙጫ ጎሰማ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ወይንሸት መንገሻ ሲንቃሌ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ባቢሶ ባናታ ዳሣ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አሰናቀች ጴጥሮስ ሀልቻዬ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ግርማ ግንቦ ቦሮጄ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ፋኖሴ ጋንጌ ዮንቦ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዮንሴ ጨሉቆ ባሬዶ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ሞኮንን ሀሎ ሰሬቦ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ዘላለም ለማ ጎሰማ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ለማ ሳሊን ዲማ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሮማን ማሞ ዳሣ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ሰላማዊት መኩሪያ ጥላሁን"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "አሻግሬ ጀንበሬ ፍላቴ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ታምሬ ፅጌ ሀንቃ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ንግስት ታደሰ አላልቻ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ብርሃኑ ደሳለኝ ሚሬዶ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ትሁን ፈለቀ ሂቃ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጩኮ / Chuuko",
+      "candidate": "ማቶ ማሩ ሄላ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ዮሴፍ ዮሳ ዳቦ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሮዛሪያ እሸቱ አለንቦ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ክፍያለው ከበደ ሰርሳ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "በሪሁን ባራካ ባሬታ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ፍቅረኢየሱስ አሸናፊ ዱማሬ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ስፋቶ ሲዳ ቡቻቻ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አማረች እንዳለለት አጣሎ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ብርቄ ካቢሶ ባሌ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ምህረት ግርማ ሙርቄ"
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አሸናፊ ኤልያስ አሳቱ"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 22,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "መኳንንት ገበየሁ አቤ",
+      "votes": 1971
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "ሙሀመድ ሱፍያን ዳውድ",
+      "votes": 1358
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "መተከል",
+      "candidate": "ጌታሁን እመኑ ደለለ",
+      "votes": 1264
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አልረያሃ ሀመደኒል አህመድ",
+      "votes": 32828
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ሀሰደላ መሀመድ አህመድ",
+      "votes": 7959
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ነፊሳ አልማህዲ አልአቅብ",
+      "votes": 16625
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አብዱ ብሩ ሱራጅ",
+      "votes": 1998
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሮዛ ለመ አብዲሳ",
+      "votes": 1236
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሼ",
+      "candidate": "መኮንን ጎሱሃ በጀትስ",
+      "votes": 15518
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ዳላቲ",
+      "candidate": "ፀዳለ አበራ ነጋሪ",
+      "votes": 27175
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጂናሻ ልዩ",
+      "candidate": "ፍሬህይወት አበበ ጎበና",
+      "votes": 1881
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጂናሻ ልዩ",
+      "candidate": "መብራቱ አለሙ ሰንበታ",
+      "votes": 848
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ጂናሻ ልዩ",
+      "candidate": "ወርቁ አጋ ዲንጊ",
+      "votes": 101
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "ሙሳ አህመድ ባበከር",
+      "votes": 19067
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "አሰይድ ኢብራሂም ሀሊድ",
+      "votes": 3992
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "አማረ ተስፋዬ ወርቁ",
+      "votes": 1742
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "መሀመድ አደም ተስፋው",
+      "votes": 1053
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "አደገች አስራት ጥሩነህ",
+      "votes": 894
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "ሙስጠፋ አያሌው ሙሳ",
+      "votes": 470
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ ሆን",
+      "candidate": "ዮሃንስ አምሳሉ አማረ",
+      "votes": 439
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "መናሂል አምራን እንድሪስ",
+      "votes": 14796
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "ደረጀ ደለና ገበየሁ",
+      "votes": 1176
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "ትግስት ሲሳይ መለሰ",
+      "votes": 912
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "መሳይ ካሊፋ መሀመድ",
+      "votes": 714
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "ብሩ ዲሲስ ጊዲቱ",
+      "votes": 450
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ መጋሌ",
+      "candidate": "አህመድ አሊ ሰይድ",
+      "votes": 338
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ማኦ ኮሞ ልዩ",
+      "candidate": "ሪማታላ ሙሳ ቶላ",
+      "votes": 22543
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ጌዲዮን ጢሞቴዎስ ሄሴቦን",
+      "votes": 26890
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ዮሐንስ መኮንን ደለለኝ",
+      "votes": 4532
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ይሳቅ ወልዳይ ሃጎስ",
+      "votes": 2558
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ትዕግስት አሰፋ ፈይሳ",
+      "votes": 2404
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "አሊ ኡመር መሃመድ",
+      "votes": 1958
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ሻምበል ጅራ እጅጉ",
+      "votes": 1260
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "ግርማ ኡርጌሳ ተሰማ",
+      "votes": 450
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 1 እና 9",
+      "candidate": "አታገኝ አለምነህ አበበ",
+      "votes": 391
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ሰላማዊት ዳዊት ካማሊ",
+      "votes": 22514
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ዮሐንስ ሸዋቀና ወንድምአገኘሁ",
+      "votes": 5017
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ጥላሁን ወልደስላሴ ዜና",
+      "votes": 4187
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "አንዷለም አለማየው አዲስ",
+      "votes": 2706
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ፈየራ አብዲሳ ኬትላ",
+      "votes": 1386
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ማርታ አዮብ አዳሙ",
+      "votes": 1284
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ሀና ሀይሉ ሙላቱ",
+      "votes": 515
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ቻም ኤልያስ ዲን",
+      "votes": 490
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 10",
+      "candidate": "ሸጋው አለምነህ ይሻር",
+      "votes": 379
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "አበበ ገመቹ ሱጋሜ",
+      "votes": 10459
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "ሰይፈገብርኤል ተሾመ ፈለቀ",
+      "votes": 7280
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "ሰሎሞን አኒባል አዲሱ",
+      "votes": 7097
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "አበባው ደሳለው ባየበል",
+      "votes": 5439
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "አድሃና መለሰ ምትኩን",
+      "votes": 3604
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "ፍታለው አባይ ላቀው",
+      "votes": 1633
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "ሳራ ለማ በላቸው",
+      "votes": 1286
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "ዳንኤል መገርሳ ፍሮምሳ",
+      "votes": 1005
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "ያሬድ ሙሉጌታ ናማጋ",
+      "votes": 904
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 11",
+      "candidate": "የማነ አሰፋ ተድላ",
+      "votes": 691
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "መቅደስ ዳባ ፈይሳ",
+      "votes": 43160
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ሰማኝ አብርሃም ማሞ",
+      "votes": 5040
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ጋሻው አየለ በላይ",
+      "votes": 4506
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ኤልያስ ደመቀ ይታገሱ",
+      "votes": 1940
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "መላኩ መለሰ መንግስቱ",
+      "votes": 1512
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ፍቅር በላይ ዘለቀ",
+      "votes": 1430
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "አዲሱ ፈንታው ዝናቤ",
+      "votes": 1125
+    }
+  ]
+}

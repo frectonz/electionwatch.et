@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 70,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አያሌ ጉምጉም",
+      "candidate": "ኢባህ አብዱላሂ ራጌ",
+      "votes": 2610
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አያሌ ጉምጉም",
+      "candidate": "ፋአድ መሀመድ ሜይደኔ",
+      "votes": 2610
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አያሌ ጉምጉም",
+      "candidate": "ጀማል አሚን አሜ",
+      "votes": 2610
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዲጋ ፈለማ",
+      "candidate": "አሊያ ናዲ ሱፊያን",
+      "votes": 2910
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዲጋ ፈለማ",
+      "candidate": "አብዲ አብደላ ኢብራሂም",
+      "votes": 2857
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "አዲጋ ፈለማ",
+      "candidate": "ቤዛ የማነ በርሄ",
+      "votes": 43
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጀሎ ቤሌና",
+      "candidate": "አሚጅ አብደላ መሀመድ",
+      "votes": 5993
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጀሎ ቤሌና",
+      "candidate": "አብዲ ታጁራ አድሪስ",
+      "votes": 5993
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጀሎ ቤሌና",
+      "candidate": "ረመዳን መሀመድ ሰኢድ",
+      "votes": 200
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገርባ አነኖ",
+      "candidate": "ሀይር ሀጅኑር ኡመር",
+      "votes": 5989
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገርባ አነኖ",
+      "candidate": "ሐርቢ ብሀ ወርሰሜ",
+      "votes": 5989
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገርባ አነኖ",
+      "candidate": "ኡስማን አሊ ሀሰን",
+      "votes": 5989
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ሪጌ",
+      "candidate": "ከሪማ አሊ ሮባ",
+      "votes": 5245
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ሪጌ",
+      "candidate": "ፉአድ ከማል አህመድ",
+      "votes": 4860
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ሪጌ",
+      "candidate": "መይሙና ዳዊድ ሃሰን",
+      "votes": 4688
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ገበሬ",
+      "candidate": "ፋቲያ ኢስማኤል ሁሴን",
+      "votes": 2918
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ገበሬ",
+      "candidate": "ጉሌድ ኢስማኤል ሀሰን",
+      "votes": 2917
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገንደ ገበሬ",
+      "candidate": "ኢሊያስ አሊዪ አብዱልከሪም",
+      "votes": 2916
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገዳን ሳር",
+      "candidate": "ኡስማን አህመድ ሙሳ",
+      "votes": 1497
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገዳን ሳር",
+      "candidate": "ያሲን አህመድ ሙሳ",
+      "votes": 1497
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ገዳን ሳር",
+      "candidate": "መሀመድ ሙሴ ኡስማን",
+      "votes": 1497
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጎል አደግ",
+      "candidate": "ኢድል አደን ኢስማኤል",
+      "votes": 1487
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጎል አደግ",
+      "candidate": "ሀቢብ ፋራህ ቡኒ",
+      "votes": 1487
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጭራ ሚቲ",
+      "candidate": "ኢኑስ ሀሰን ሀጂ",
+      "votes": 4758
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "ጭራ ሚቲ",
+      "candidate": "አህመድኑር አብዲ መሀመድ",
+      "votes": 4758
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "01 ቀበሌ",
+      "candidate": "አብዲ መብራህቱ ሙሜ",
+      "votes": 11147
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "01 ቀበሌ",
+      "candidate": "ኡመር ዳኡድ አሊ",
+      "votes": 11004
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "01 ቀበሌ",
+      "candidate": "ፈሮዛን ዩሱፍ መከተል",
+      "votes": 10922
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "01 ቀበሌ",
+      "candidate": "ኢልሃን ሁሴን ኢብራሂም",
+      "votes": 157
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "01 ቀበሌ",
+      "candidate": "ወንድወሰን ዘለቀ ገዜ",
+      "votes": 72
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "01 ቀበሌ",
+      "candidate": "ቅድስት አየለ ተፈሪ",
+      "votes": 66
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ግርማ ተሰማ ማንደሮ",
+      "votes": 19843
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ገበየሁ ጥላሁን ገብረአስላሴ",
+      "votes": 19813
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ጀማል አህመድ መሀመድ",
+      "votes": 19135
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ረሂማ አወል ሁሴን",
+      "votes": 19102
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "አንድነት ሀይሉ ተሾመ",
+      "votes": 17942
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ሃይለማርያም ዳዲ ደምሴ",
+      "votes": 17814
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ወንድማገኝ በሻህ ገብረፃዲቅ",
+      "votes": 17535
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ቴዎድሮስ ፍቅሬ አዱኛ",
+      "votes": 14861
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ስምረት ዘሪሁን ተስፋዬ",
+      "votes": 5668
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ጥላሁን አበበ ልብሰወርቅ",
+      "votes": 4565
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ወንድሙ ደንደሮ አረጋ",
+      "votes": 3834
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ጋሮማ ምሩፅ ገመዳ",
+      "votes": 3529
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "በአምላክ ደግፌ ሙራ",
+      "votes": 3249
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ራህማ ፋራህ ሮብሌ",
+      "votes": 2069
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "02 ቀበሌ",
+      "candidate": "መሀመድ አደም ኢስማኤል",
+      "votes": 1815
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ብሩክ ወርቅነህ በየነ",
+      "votes": 7494
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ሹክሪ አብዱራህማን አሊ",
+      "votes": 6659
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ማርቆስ ባዩክ አየለ",
+      "votes": 6528
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "አቡበከር አዶሽ አልሃዬ",
+      "votes": 6360
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "አስራር ቢደና ተቂ",
+      "votes": 5679
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "አህመድ ሰኢድ ሁሴን",
+      "votes": 5582
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ትእግስት አየለ ገብረኪዳን",
+      "votes": 5431
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ጌታቸው ሲሳይ ወልደስላሴ",
+      "votes": 2552
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ያዘው ቦጋለ ውዴ",
+      "votes": 2453
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ነስቲሆ ሙሴ ሀሰን",
+      "votes": 2209
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ሠርካለም አሳምነው በሻ",
+      "votes": 2130
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "04 ቀበሌ",
+      "candidate": "ደረጃ ፀጋዬ ተመስገን",
+      "votes": 7460
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "04 ቀበሌ",
+      "candidate": "ብሩክ ፈለቀ ዳኜ",
+      "votes": 7115
+    },
+    {
+      "region": "ድሬዳዋ",
+      "constituency": "04 ቀበሌ",
+      "candidate": "መታሰቢያ በቀለ አየለ",
+      "votes": 7037
+    }
+  ]
+}

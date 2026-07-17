@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 25,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 26 እና 27",
+      "candidate": "ሀቃ ደሳለኝ ሀይሌ",
+      "votes": 1682
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 26 እና 27",
+      "candidate": "መቅደስ ይልማ ኃይሌ",
+      "votes": 1586
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 26 እና 27",
+      "candidate": "በውቀት አማሪ አብዬ",
+      "votes": 1525
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 26 እና 27",
+      "candidate": "ጊዜው በለጠ ወንዴ",
+      "votes": 1296
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 26 እና 27",
+      "candidate": "ሰላሞን ተካ ወልደማርያም",
+      "votes": 1241
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ለሊሴ ነሜ ሱሪ",
+      "votes": 108860
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "በቀለ ክፍሌ ገብረመድህን",
+      "votes": 14323
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ዝናት አበራ አሠጋኸኝ",
+      "votes": 10979
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ገብሩ በርሄ አብርሀ",
+      "votes": 6270
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "አምሀ ዳኘው ተሠማ",
+      "votes": 5664
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ወንደሰን ያረጋል አያሌው",
+      "votes": 4923
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "አብዲ ሰይድ ሰጄ",
+      "votes": 4124
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ሀይማኖት ወርቅነህ በጅጋ",
+      "votes": 3605
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ሲሳይ ደጉ ድልአርጌ",
+      "votes": 3376
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ሙሉቱ አበበ አብዮ",
+      "votes": 3023
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "ጌታቸው መንገሻ አብዶ",
+      "votes": 2577
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 28",
+      "candidate": "መዲና ይማም ፍላቴ",
+      "votes": 1997
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "አብርሃም በላይ በርሀ",
+      "votes": 13530
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "ጥላሁን ገብረህይወት ወልደጊዮርጊስ",
+      "votes": 2872
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "አያሌው ተስፋዬ መንገሻ",
+      "votes": 1930
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "ለማ ካሕሳይ በየነ",
+      "votes": 1218
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "አማን ካሳሁን ሀሰን",
+      "votes": 809
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "የምስራች ጌታቸው ሊጋባ",
+      "votes": 593
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "ዳዊት አብደታ ሀንዴሳ",
+      "votes": 481
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "ተሾመ አየለ አሻንጎ",
+      "votes": 374
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "ሲሳይ ፀጋዬ ይመር",
+      "votes": 371
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 3",
+      "candidate": "ራሄል ፈጣ ለታ",
+      "votes": 320
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 4",
+      "candidate": "ሰአርላ አብዱላሂ ባህዶን",
+      "votes": 16406
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 4",
+      "candidate": "ሰለማዊት ጌታቸው ገብረኪዳን",
+      "votes": 3613
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 4",
+      "candidate": "ፋሲል መንግስቱ ፈረደ",
+      "votes": 2937
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 4",
+      "candidate": "የምስራች በየነ ሳህሉ",
+      "votes": 967
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ያቡሚን መሀብረቢ ሲኢድ",
+      "votes": 16268
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ብሩክ መለሰ ደስታ",
+      "votes": 3789
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ደጀኔ አለሙ መላኩ",
+      "votes": 1402
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ጀሚል ሳኒ ሃሰን",
+      "votes": 963
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ሙሉነሽ አሰራት አድጉ",
+      "votes": 812
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "ታሪኩ አየለ አዝመራው",
+      "votes": 572
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 5",
+      "candidate": "መሐሪ መኮንን ይመር",
+      "votes": 450
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ሳምሶን ወንድሜነህ እሸቴ",
+      "votes": 13491
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ሳሊም ከማል ሱራጅ",
+      "votes": 3412
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ይህዓለም ታምሩ ሳሙና",
+      "votes": 1527
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ዳንኤል ጌትነት ሽባባው",
+      "votes": 849
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ከሊፋ ከድር መሀመድ",
+      "votes": 816
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "አለምፀሐይ አበራ ማሞ",
+      "votes": 685
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "አየለ ማንደፍሮ ሙሉጌታ",
+      "votes": 607
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 6",
+      "candidate": "ገነት በርሄ ወልደአረጋይ",
+      "votes": 353
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "መሀመድ መሀመድከማል ኢሊአልሳዲቢ",
+      "votes": 19048
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "ኤፍሬም ወዳጆ ገብሩ",
+      "votes": 3492
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "ጥሩማር አበተ አያሌው",
+      "votes": 2166
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "መሀመድ ሮባ አሊ",
+      "votes": 1397
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "አንድነት በቀለ ፍቃዱ",
+      "votes": 806
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "ሳምራዊት ዮሴፍ ስጦታው",
+      "votes": 708
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "መሊያ ጅሀድ ከድር",
+      "votes": 545
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "ተሾመ ተሰማ ኢሉ",
+      "votes": 408
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 7",
+      "candidate": "አብርሃም ዋዲሎ ደስታ",
+      "votes": 261
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "ቆንጂት ደበላ ዎላ",
+      "votes": 23648
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "አማን ቶፊቅ አህመድ",
+      "votes": 4595
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "ወንድወሰን አጎናፍር ይፍሩ",
+      "votes": 3269
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "አንድሪስ ፈረጅ ኑሬ",
+      "votes": 1520
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "አለሙ ስሜነህ ደመመ",
+      "votes": 963
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "አብዮት አሸናፊ ጨቆርሶ",
+      "votes": 855
+    }
+  ]
+}

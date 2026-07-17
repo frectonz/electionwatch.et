@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 25,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "በደኖ / Baddannoo",
+      "candidate": "ደሲ ከሊፋ ያሲራ"
+    },
+    {
+      "region": "",
+      "constituency": "በደኖ / Baddannoo",
+      "candidate": "እብራሂም ሸረፍ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "በደኖ / Baddannoo",
+      "candidate": "ፍለሁዲን ጠለሐ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "በዴሳ / Baddeessaa",
+      "candidate": "መሀመድ ኡመር ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "በዴሳ / Baddeessaa",
+      "candidate": "አሸረፋ ሁሴን አሊሾ"
+    },
+    {
+      "region": "",
+      "constituency": "በዴሳ / Baddeessaa",
+      "candidate": "አልይ ከማል ሙሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሌ / Balee",
+      "candidate": "አይናለም አበበ ወርቁ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሌ / Balee",
+      "candidate": "ጤይባ አብዱልፈታይ ሙሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ባሌ / Balee",
+      "candidate": "መሀመድ ጁንዳ ኡመሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢሎኖጳ / Billoo Noophaa",
+      "candidate": "ሞሲሣ ለማሣ ወዳጆ"
+    },
+    {
+      "region": "",
+      "constituency": "ቢሎኖጳ / Billoo Noophaa",
+      "candidate": "ሎሚ ሐቢብ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "ቢሎኖጳ / Billoo Noophaa",
+      "candidate": "ፈጠነ የኋለሸት ሀይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦኮ / Bokkoo",
+      "candidate": "ሼክ አብዱሰላም አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦኮ / Bokkoo",
+      "candidate": "ነስራ አብራሂም አብዱሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦኮ / Bokkoo",
+      "candidate": "መሀመድ ኡስማን ዶሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሬ / Booree",
+      "candidate": "ዲዱ ጭራ ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሬ / Booree",
+      "candidate": "ታደሰ ብዙነህ አጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦሬ / Booree",
+      "candidate": "ወንድሙ ሮቤ ዋሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦረዳ / Boreedaa",
+      "candidate": "ታጅር ሙመድ ሐሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ቦረዳ / Boreedaa",
+      "candidate": "ሚስኪ መሀመድ አብዱላ"
+    },
+    {
+      "region": "",
+      "constituency": "ቦረዳ / Boreedaa",
+      "candidate": "መሀመድ ኢብራሂም ሙመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጫንጮ / Caancoo",
+      "candidate": "ቃሲም ኢብሮ በሪሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጫንጮ / Caancoo",
+      "candidate": "ሩሚያ ኢሳ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጫንጮ / Caancoo",
+      "candidate": "ሹራቤ ጋፋሬ አጅ"
+    },
+    {
+      "region": "",
+      "constituency": "ጮሌ / Collee",
+      "candidate": "ከማል ማሜ ወሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ጮሌ / Collee",
+      "candidate": "ጋሻው ደጀኔ ቢርመጄ"
+    },
+    {
+      "region": "",
+      "constituency": "ጮሌ / Collee",
+      "candidate": "በድሪያ አሰ ሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "ጮራ / Cooraa",
+      "candidate": "ዘሀራ ኢታና አላና"
+    },
+    {
+      "region": "",
+      "constituency": "ጮራ / Cooraa",
+      "candidate": "ባጫ ገምታ አወጅ"
+    },
+    {
+      "region": "",
+      "constituency": "ጮራ / Cooraa",
+      "candidate": "ጉደታ ተሰማ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳኖ / Daannoo",
+      "candidate": "ፍቃዱ ምትኩ አብዲሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳኖ / Daannoo",
+      "candidate": "ረሂማ አደም ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ዳኖ / Daannoo",
+      "candidate": "ዳዊት ጎሰ ናጋሪ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሪሙ / Daarimmuu",
+      "candidate": "ወርቁ ቦጋለ ካሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሪሙ / Daarimmuu",
+      "candidate": "የወርቅውሃ አየለ ይርጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ዳሪሙ / Daarimmuu",
+      "candidate": "ባዲረ በቀለ ሹረ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋም / Dagam",
+      "candidate": "ከበቡሽ ደበበ አስፋው"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋም / Dagam",
+      "candidate": "አበበ ቡሎ ጅሮ"
+    },
+    {
+      "region": "",
+      "constituency": "ደጋም / Dagam",
+      "candidate": "አብዮት ተስፋዬ ደጋጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ / Dambii",
+      "candidate": "ጋሊ መካታር አባዱራ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ / Dambii",
+      "candidate": "ረሻድ ከማል ሠኢድ"
+    },
+    {
+      "region": "",
+      "constituency": "ደምቢ / Dambii",
+      "candidate": "ዉባለም ቦጋለ ሻሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴራ / Dheerraa",
+      "candidate": "አለማየሁ ረጋሳ ሄዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴራ / Dheerraa",
+      "candidate": "ኑራ ሁሴን ፊቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ዴራ / Dheerraa",
+      "candidate": "ሩቂያ ከዲር አብደላ"
+    }
+  ]
+}

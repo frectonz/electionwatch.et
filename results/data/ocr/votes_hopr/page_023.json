@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 23,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "እፀገነት ተስፋዬ ኃይሌ",
+      "votes": 860
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ሂክማ ሸረፋ አብደላ",
+      "votes": 660
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ሉዊሳ አገርሙ ዳቃ",
+      "votes": 584
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ሐምክ ቅጣው አዘነ",
+      "votes": 584
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ዘመድኩን ብርሃኑ ክፍሌ",
+      "votes": 444
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "አብርሀም ባሳ እኔቦ",
+      "votes": 364
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 12 እና 13",
+      "candidate": "ይማኑ መኩሪያ ወንድም",
+      "votes": 318
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "ደቢሌ ቃቢታ ሁርሳ",
+      "votes": 5280
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "የሺዋስ አሰፋ የኔሁን",
+      "votes": 1127
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "አሰፉ ተረፈ ውቤ",
+      "votes": 719
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "ውቢ ደነቀው መኩንን",
+      "votes": 284
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "በንቱ አብርሀም ነመራ",
+      "votes": 177
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "መቅደስ መለሰ ሹምዬ",
+      "votes": 162
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 15",
+      "candidate": "ደጀኔ ገብረማርያም ጨሪው",
+      "votes": 143
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "አይሻ መሀመድ አደን",
+      "votes": 15172
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ተስፋዬ ተክሌ ወልደጊዮርጊስ",
+      "votes": 2505
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ትእግስት ካሳሁን ተረዳ",
+      "votes": 1965
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ሙሉጌታ ሐድጉ በያድጉ",
+      "votes": 1891
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ግደይ ሐድስ አለሙ",
+      "votes": 836
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "በየነ በሊሳ አሙማ",
+      "votes": 728
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ታደሰ ቴዎድሮስ ቅጣው",
+      "votes": 486
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ይበሉ ተሾመ ደስታ",
+      "votes": 322
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ቆንጂት ቄፋ ሶሬሳ",
+      "votes": 319
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 16",
+      "candidate": "ዘሪሁን ገብረማሪያም ወልደሚካኤል",
+      "votes": 171
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "አናትዓለም መለሰ ሚደቅሳ",
+      "votes": 104715
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ማሙሸት አማረ ድልነሴ",
+      "votes": 12307
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ሐርሴ ዮሴፍ ገብረእግዚአብሔር",
+      "votes": 9887
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ይርጋ ቄሞላቸው ደስታ",
+      "votes": 2757
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "እስጢፋኖስ ተሾመ ረጋሳ",
+      "votes": 2526
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ሞገስ ማርዬ አበራ",
+      "votes": 2508
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "አብርሃም ጥላሁን አስመሮም",
+      "votes": 2340
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ምንትኔ ታደሠ እደቶ",
+      "votes": 2162
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ዘለቀ ወንድሜ አበጀሁ",
+      "votes": 2020
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ረድኤት መላኩ ዮሴፍ",
+      "votes": 1799
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "መሀመድ ሙሉ ሰይድ",
+      "votes": 1798
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ሰውዓለም ሳህሉ መንገሻ",
+      "votes": 1670
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 17",
+      "candidate": "ደረጄ በዛብህ ተጫኔ",
+      "votes": 1129
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "ኢዮብ መሳፍንት ኃይለማሪያም",
+      "votes": 12130
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "አመኘው አለምነው ሞላ",
+      "votes": 3647
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "አለምፀሀይ ሀሤ በዳሳ",
+      "votes": 1575
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "ኢድሪስ መንግስት ሀሰን",
+      "votes": 1565
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "አንድሮስ ይዘንጋው ተዋበ",
+      "votes": 959
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "ቢኒያም ማስረሻ በቀለ",
+      "votes": 921
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 18",
+      "candidate": "ዳኛው አባተ ይማም",
+      "votes": 869
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ሰላማዊት ካሳ ወዳጄነህ",
+      "votes": 38358
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ሚስጥረስላሴ ታምራት ትርፌ",
+      "votes": 10275
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ዳግላስ ወልደስላሴ ሞላ",
+      "votes": 2502
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ወሊንሱ ሬቦ ሱበር",
+      "votes": 1332
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ከማል ሰይድ ሀሰን",
+      "votes": 1170
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ማስተዋል ንብረት ብርሀን",
+      "votes": 953
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ሰማያት ብዙነህ ሐዳሮ",
+      "votes": 646
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ፍቅሬ ሽፈራው ውብና",
+      "votes": 628
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ትዕግስት ግርማ ጢቆ",
+      "votes": 601
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 19",
+      "candidate": "ገመቹ ሻቃ ኦጋ",
+      "votes": 478
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ዳንኤል ክብረት ብርሃኔ",
+      "votes": 4157
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ህይወት ያረጋል ሁነኛው",
+      "votes": 589
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ታሪኩ ድንበሩ ማንያህልሃል",
+      "votes": 519
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ዘቢባ ኢብራሂም ሙሐመድ",
+      "votes": 441
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "አባይነህ አሰማረ ቦጋለ",
+      "votes": 235
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ወርቁ ወዳጆ በዳዳ",
+      "votes": 185
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 2 እና 14",
+      "candidate": "ካሉሻ መዝገቡ በቀለ",
+      "votes": 167
+    }
+  ]
+}

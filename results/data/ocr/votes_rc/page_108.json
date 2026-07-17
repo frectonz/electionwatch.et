@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 108,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "አለቃቱ ቆልቻ ሚሲቦ",
+      "votes": 528
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "አስራት አማሬ ጦና",
+      "votes": 498
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "በረከት ባዛ ሃሳጮ",
+      "votes": 487
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "አስቴር ኦሣ አልቤ",
+      "votes": 483
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ታምራት ዳዊት ኩዳነ",
+      "votes": 475
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ሀሩት ተሾመ ገርማሞ",
+      "votes": 472
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ዮናስ ያንጋ ያያ",
+      "votes": 470
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ተስፋነሽ ማንቶላ ማና",
+      "votes": 460
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ወንድማገኝ ኤልያስ ማጃ",
+      "votes": 451
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ግርማ ወጋሶ ሄሊሶ",
+      "votes": 419
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "በረከት ግርማ በየነ",
+      "votes": 416
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ዮሐንስ መልካሙ ሚያሃለ",
+      "votes": 400
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ዘሪቱ ዘውዴ ጋዴቦ",
+      "votes": 399
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ወይንሸት ሀይሌ ሀጥያ",
+      "votes": 398
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "መምሩ መላኩ ማዳልቾ",
+      "votes": 386
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ሙሉጌታ ሚልኪያስ ሙካ",
+      "votes": 381
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ጥበቡ ጮረሞ ኮሮቶ",
+      "votes": 370
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ብርቱካን ቶሩ ቶንጃ",
+      "votes": 322
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ሳራ ፀሐይ ደበጫ",
+      "votes": 279
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "አበበች ሄንታ ሄበና",
+      "votes": 271
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "አይናለም አያኑ አርባ",
+      "votes": 258
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኦፋ",
+      "candidate": "ታምራት ሎሃ ሎታ",
+      "votes": 242
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ሞናዬ ሞላሊ አሸካሬ",
+      "votes": 67453
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ልሳነወርቅ ካሳዬ ኤቃ",
+      "votes": 67121
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ዕንቁ ዮሐንስ ኪርኮ",
+      "votes": 66524
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "መክብብ መግስቱ ማሄ",
+      "votes": 65404
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "መልካሙ መዞ ዶቆ",
+      "votes": 5194
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ፀጋነሽ አየለ ስርኮ",
+      "votes": 5169
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ኤልሳቤት ካዛ ካምአሎ",
+      "votes": 4952
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ታገስ ታደሰ አባ",
+      "votes": 4675
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ዮናስ መቅኔ መንጎ",
+      "votes": 4359
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ካሣሁን ከበደ መንዛ",
+      "votes": 1812
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "መሐመድ አሊ ኢብራሂም",
+      "votes": 1683
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "አመነች አንጃሎ ሞንኬ",
+      "votes": 620
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "አማኑኤል አርባ ሰራ",
+      "votes": 608
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "እስራኤል ኡራጌ ኡንቴ",
+      "votes": 585
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ኢያሱ ላሌ ሻው",
+      "votes": 580
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "አይሳ ሲሬ የልአ",
+      "votes": 562
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ሳኔ ሻዋየ ሸናቴ",
+      "votes": 547
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ሀብታሙ አንቶ አሙኑ",
+      "votes": 529
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "አለቃ አደፋ አቻሜ",
+      "votes": 480
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ስብሃት ሞኒስ ሞርጌ",
+      "votes": 428
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "እስራኤል መኮንን ሙታ",
+      "votes": 403
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "መለሰ አንጎላ ሀሙላ",
+      "votes": 357
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "ከንዓን ካማአሌ ካላ",
+      "votes": 337
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮምቦ",
+      "candidate": "አንዳዓለም ዮንዶዬ የልአ",
+      "votes": 329
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ነፃነት ቁልጭ ሰከንቶ",
+      "votes": 60572
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ዘነበ ሰንበቶ ጉማኖ",
+      "votes": 59737
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ፍሬዘር ኮርባይዶ ጋንዶ",
+      "votes": 56845
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ገሰሰ ገልቶሞ አሊታ",
+      "votes": 55402
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "አሳነች ኮይታ ከተማ",
+      "votes": 54043
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "በርሻ ጉራቻ ቦሬ",
+      "votes": 21846
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "አድራት አልማሴ አይሱሴ",
+      "votes": 21614
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "አሼ ጋማይሎ ጉይታ",
+      "votes": 21468
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ኩናቴ ኮራ ቦዬኔ",
+      "votes": 21378
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "አርማሴ አጋንዴ ገይኖ",
+      "votes": 21055
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "አድሱ ኢሊያ ኮርካሴ",
+      "votes": 3922
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ኩማቸው ኩሴ ገለቦ",
+      "votes": 3539
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አሸናፊ አይዳ አሻሜ",
+      "votes": 39041
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አምሳለች ማረግ ላባ",
+      "votes": 36400
+    }
+  ]
+}

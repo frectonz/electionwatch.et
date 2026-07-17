@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 26,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "ፋንቱ ጠንክር ገብረመስቀል",
+      "votes": 826
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የምርጫ ክልል 8",
+      "candidate": "አበራ በቀለ በዳዳ",
+      "votes": 502
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አለሚቱ ዮሴፍ ሳቃቶ",
+      "votes": 71219
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ገነነ ገደቡ ፈለሃ",
+      "votes": 2353
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አካሉ ሞያ ሞጋ",
+      "votes": 238
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ባንታይሁ ባብሦ ጠራ",
+      "votes": 150
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "ጥላሁን አፋይሳ ኃይሌ",
+      "votes": 123
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አበበ አንጃ አቦዬ",
+      "votes": 69
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቁጫ",
+      "candidate": "አባይነህ አኔቦ ማንደ",
+      "votes": 29
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ግዛቸው አየለ በራሶ",
+      "votes": 27875
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ደረጃ መንገሻ ቤፍቱ",
+      "votes": 5935
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ታምራት ገመዴ ወንዶ",
+      "votes": 1435
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡሌ",
+      "candidate": "ሱራልኝ ተሾመ ዱባለ",
+      "votes": 1155
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ቡርጂ",
+      "candidate": "ዮሐንስ ማሬ ጎሎ",
+      "votes": 15637
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "መሰሠ መና ገሜሦ",
+      "votes": 113781
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "ሕዝቅኤል ለማ አያቶ",
+      "votes": 1774
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "ሃና ቡታቆ ቡናሮ",
+      "votes": 1670
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "ታደለ ማዳልቾ ጋጋ",
+      "votes": 1049
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "ፋንታሁን ባልቻ በቀለ",
+      "votes": 466
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "ሚልኪያስ ሳንጣ ቴንካላ",
+      "votes": 455
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "ወንድሙ ወልዴ አባቴ",
+      "votes": 371
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "አማኑኤል ዴላ ዎታንጎ",
+      "votes": 362
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "አለማየሁ ገብረጊዮርጊስ ግርማ",
+      "votes": 305
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "አባይነህ ፋላሖ ቶሮ",
+      "votes": 283
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "መንግስቱ ዮሐንስ ከበደ",
+      "votes": 219
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "አፋ",
+      "candidate": "አለማየሁ አዴ ቶሩ",
+      "votes": 195
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ሰለሞን ሶካ ግኛርታ",
+      "votes": 56706
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ካምቢሮ ካይዳሬ ካሽቦ",
+      "votes": 20330
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "አዲሱ ኢዮብ ድሊያ",
+      "votes": 1831
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ኮንሶ",
+      "candidate": "ዘውዴ ጎኣ ጋንታ",
+      "votes": 1526
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "መስፍን ኢልታሞ ኢቻ",
+      "votes": 36887
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ጭሻ ጪማ ጪልቤ",
+      "votes": 1120
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "አርኮ አሻንጎ አደሎ",
+      "votes": 370
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ገላነህ ገብሬ ሻታ",
+      "votes": 234
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዲታ",
+      "candidate": "ግንጆ ኩማ አዳዬ",
+      "votes": 101
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ዳሰነች",
+      "candidate": "ዘካሪያስ አንበሴ ሰበልቶኮ",
+      "votes": 7018
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "እንዳልካቸው አሰራት ዘለቀ",
+      "votes": 33868
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "ሻምቤል ሀብተማርያም ዜማ",
+      "votes": 6348
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "ዳዊት ጉምአ ጉጌ",
+      "votes": 2666
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "ጌታቸው ጌሌ ጌሌሼ",
+      "votes": 1669
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "አብዮት አጅሌ አንካላ",
+      "votes": 794
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "አዳነ አሰፋው ክንዴ",
+      "votes": 503
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "ኢታለም ኢሳያስ ባሼ",
+      "votes": 432
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "አለማየሁ አየለ አጋጋ",
+      "votes": 339
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "ጃምቦ ጃፋሮ ቄንታ",
+      "votes": 316
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ጨንቻ",
+      "candidate": "ጌታቸው ጴጥሮስ ዘውዴ",
+      "votes": 234
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ሳሙኤል ኡርቃቶ ኩርኬ",
+      "votes": 63699
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ተስፋዬ ዋና ዶኮ",
+      "votes": 6336
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ደሳለኝ ዳቼ ኤልቴ",
+      "votes": 2642
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ላቀች ፋንታ ዋትሮ",
+      "votes": 2181
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ዮሴፍ ዮሐንስ ካይጤ",
+      "votes": 1281
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "እስራኤል ሊቃ ሴራ",
+      "votes": 1039
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ተካልኝ ታደሰ በየነ",
+      "votes": 972
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ተስፋዬ አዶ ሻሞ",
+      "votes": 773
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "እስራኤል ካሳ ኩማ",
+      "votes": 568
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሁላም ጠበላ",
+      "candidate": "ደመቀች ዳንሳ ሂዶቶ",
+      "votes": 304
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሐመር ልዩ",
+      "candidate": "ገይቲ ዋንጮ አይኬ",
+      "votes": 22200
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሐመር ልዩ",
+      "candidate": "ሺሎ ማሮ ባላሞ",
+      "votes": 1472
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "ሐመር ልዩ",
+      "candidate": "ዘላለም በግዱ ዘርቱ",
+      "votes": 599
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ካሳሁን ሰለሞን ላህ",
+      "votes": 24314
+    },
+    {
+      "region": "ደቡብ ኢትዮጵያ",
+      "constituency": "መሎ ኮዛ",
+      "candidate": "ደሴ ደበና ጋልቾ",
+      "votes": 13823
+    }
+  ]
+}

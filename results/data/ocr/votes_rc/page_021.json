@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 21,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ፍሎ ፍርዳሞ ሁርሶ",
+      "votes": 71
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ማሳሞ ሻንካ ሀርሲሶ",
+      "votes": 60
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ብሩክ ሚልኪያስ ሞጭፎ",
+      "votes": 52
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ነፃነት ከበደ ድሎ",
+      "votes": 42
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ሴዳንቱ ፍረሞ ኩከሳ",
+      "votes": 41
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "መሳፍንት ማትዎስ ቃጀላ",
+      "votes": 36
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ለኩ / Lakku",
+      "candidate": "ኤርምያስ ባንቁርሶ ቦርሳሞ",
+      "votes": 31
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ተመስገን ተረፈ ጨብሳ",
+      "votes": 111731
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታደሰ ታሸቴ ሙዴ",
+      "votes": 109870
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ብዙነሽ ሻፎ ሀሪሶ",
+      "votes": 109845
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታሪኩ ለማ ዋቃዮ",
+      "votes": 109337
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዋሪሳ ዳርሞ ቢንባዋ",
+      "votes": 108989
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ምናሉሽ ፋኑኤል ፋንቱ",
+      "votes": 108370
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "በላይ በልጉዳ ናሮ",
+      "votes": 108136
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ካሱ አሩሳ ቦቼ",
+      "votes": 107549
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ደበሣ ዳካ ዳላቻ",
+      "votes": 24796
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ንዋይ ንጉሴ ዋርሳሞ",
+      "votes": 12591
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ኤልሳቤጥ ልማሳ ዋያሞ",
+      "votes": 12363
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ምኑኩ በቀለ ሻጋ",
+      "votes": 2248
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አበበ ሌዴሶ ሰርጌ",
+      "votes": 1765
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ገዛኸኝ ጋባሬ ፍሬ",
+      "votes": 1371
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሚልኪያስ ሴታ ቡሎ",
+      "votes": 1313
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ውዴ ሙሉ ዮንሳው",
+      "votes": 1234
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "መልካሙ መሳፍንት ህንቃና",
+      "votes": 1204
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ደምሴ ቢጆ ባቴ",
+      "votes": 1111
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አድሊ አቶሳ ርቅዋ",
+      "votes": 973
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታደሰ ቱማቶ ቱራ",
+      "votes": 927
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "በላቸው አሣየስ አጋሞ",
+      "votes": 842
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አበበ ጩቦ ቱሌ",
+      "votes": 807
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አርዳቸው ፀጋዬ ሊሳ",
+      "votes": 767
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አስቴር አምቦ ሌጋሞ",
+      "votes": 720
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "መኮንን የቱራ ድማ",
+      "votes": 657
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታረቀች ሳንቃሞ ፋሪሶ",
+      "votes": 613
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታምራት ደምሴ ብጆ",
+      "votes": 597
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዳንኤል ደታሞ ኤያሞ",
+      "votes": 502
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ምኮንን ንጋቱ መጅጎ",
+      "votes": 351
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ታደሰ ኩሳ አንጃሎ",
+      "votes": 341
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ብርሃኑ ለዳሞ ገለሌቻ",
+      "votes": 277
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አበዛሽ አየለ ፉሳ",
+      "votes": 276
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዋርሳሞ ዋርቱ ጉጃሞ",
+      "votes": 276
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ባርሶ ሰዳሞ ትሮ",
+      "votes": 249
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ፍፁም አበበ ከለቾ",
+      "votes": 239
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ጥላሁን ጮሬሞ ጦና",
+      "votes": 234
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሲሳይ አበራ አቦታ",
+      "votes": 166
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ዳዊት ባናታ ሀርሳሞ",
+      "votes": 161
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ብሩክታዊት ሺቢሺ መኮንን",
+      "votes": 140
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ካሌብ በቀለ ባሳ",
+      "votes": 121
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "መለሰ ፈለሀ ያኤ",
+      "votes": 110
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አየለ ሊቃ ሳማጎ",
+      "votes": 64
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሙሉነሽ ዮኤል ታቃሳ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "መሰረት ባሳታ ኩማሞ",
+      "votes": 40
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ደረጃ በቀለ ዱካሞ",
+      "votes": 33
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ኃይሉ ሐሶሶ ሐንቃሞ",
+      "votes": 29
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ኢያሱ ሀጥያ ሀለላ",
+      "votes": 29
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ባዩ ኤያሞ ኤሌሎ",
+      "votes": 27
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "አያሌው አባይነህ በቀለ",
+      "votes": 26
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ማሙሽ ፍስሐ መዝገቡ",
+      "votes": 23
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ገዛኸኝ ሳንባቶ ሴጤ",
+      "votes": 22
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "በዛብህ ቦዮና በቀለ",
+      "votes": 21
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቱላ / Tuula",
+      "candidate": "ሀጎስ ባረቆ ባሻ",
+      "votes": 20
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 97,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሽልማት ሰለሞን ገላሌቻ",
+      "votes": 7096
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሰሎሞን ከበደ አለሙ",
+      "votes": 7011
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሰርካለም ደጀኔ ወንድአፍራሽ",
+      "votes": 6691
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ቤዛ ሊጋባ ጉታ",
+      "votes": 6394
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሰናይት ዘውዴ አበበ",
+      "votes": 6224
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ወንዴ ገብረማርያም ማሞ",
+      "votes": 6113
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ኑኡል ታፈሰ ሰበታ",
+      "votes": 6006
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ወልደጊዮርጊስ ይሁኔ አምሩ",
+      "votes": 5799
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ለሊሴ ፍሮምሳ ሳቀታ",
+      "votes": 5403
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሀብታሙ ጌታሁን መንግስቱ",
+      "votes": 5278
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አየነው የኋላው ገብረየስ",
+      "votes": 4767
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ተስፋዬ ጅሩ ቤፍቱ",
+      "votes": 4716
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሮማን ንጉሴ ካሣዬ",
+      "votes": 4709
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አበበ ያዘው ጥንቅሽ",
+      "votes": 4375
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ተመስገን አክሊ አዳነ",
+      "votes": 4175
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "የማርያምወርቅ ክፍለ ፈለቀ",
+      "votes": 4108
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ክፍያለው ብርሃኔ ወልደገብርኤል",
+      "votes": 4020
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አዳነ ሲሳይ ተሰማ",
+      "votes": 4017
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አሉባለው ደምሴ ምትኩ",
+      "votes": 3863
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ወለኑ መኩሪያ ገብረጊዮርጊስ",
+      "votes": 3753
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ተሾመ ፀጋዬ ተስፋሁንኝ",
+      "votes": 3686
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ኤራሔል አበራ ደልድል",
+      "votes": 3637
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሞገስ ፀጋአለም አበጋዝ",
+      "votes": 3578
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሰዋሰው ታከለ አመሃ",
+      "votes": 3529
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሰውነት ዘለቀ ፈንቴ",
+      "votes": 3508
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ብርሃነመስቀል ይታገሱ ፍትህአወቅ",
+      "votes": 3398
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ታደሰ ጥበቡ ጉግሳ",
+      "votes": 3373
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ተሾመ ከበደ መኮንን",
+      "votes": 3368
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሽመልስ ቀለመወርቅ ወርቁ",
+      "votes": 3350
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ክፍሌ አይቸው አጅጉ",
+      "votes": 3235
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሀያት መሀመድ ሰይድ",
+      "votes": 3224
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ክፍያለው ዘውዱ ገብረፃዲቅ",
+      "votes": 3165
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አለማየሁ ታደሰ የኃላሸት",
+      "votes": 2719
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "መሀዲ ኑርአህመድ ሙሀመድ",
+      "votes": 1865
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "መሐመድ ሳለም ያሲን",
+      "votes": 1596
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሊዲያ ከድር ጃርሶ",
+      "votes": 1534
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አንተነህ ሳምሶን ፈለቀ",
+      "votes": 1504
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ሙሀመድአንዋር ሰይድ ሙሀመድ",
+      "votes": 1382
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "መቅደስ ያቆብ ብርሃኑ",
+      "votes": 1251
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ማሂ ኑረዲን አህመድ",
+      "votes": 1245
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ተመስገን አንዳው ከበደ",
+      "votes": 1161
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ደጀኔ አበራ ወልዴ",
+      "votes": 1122
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ጀማል ሸምሱ አህመድ",
+      "votes": 956
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ክፍለማርያም ሙሉጌታ አርዮን",
+      "votes": 943
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "አብርሃም አርጃ አላሮ",
+      "votes": 916
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አራዳ",
+      "candidate": "ያዕቆብ ብርሃኑ በላንጎ",
+      "votes": 912
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "እመቤት ገዛኸኝ ይታይአልኝ",
+      "votes": 121948
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "በሻቱ ቀለማርያም ተረፈ",
+      "votes": 119843
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አስፋው ታከለ አህመድ",
+      "votes": 119154
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ካሙዙ ካሳ ሳሌ",
+      "votes": 117822
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሹሜ ግዛው ባንቲ",
+      "votes": 117051
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ጋትዌች ዎር ዲያው",
+      "votes": 116651
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ፍፁም ሀይሌ ተፈሪ",
+      "votes": 115660
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ጌዕመተላህ ከበደ አሰፋ",
+      "votes": 113274
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ቡዜና አልከድር ሐጅዙቢ",
+      "votes": 111497
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "መሐመድ እንድሪስ አሊ",
+      "votes": 111157
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ሙሉጌታ አየለ ሐሊቦ",
+      "votes": 110886
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ፀሐይ ኪባሞ አቶቾ",
+      "votes": 110683
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "አብዱልቃድር ሬድዋን ከማል",
+      "votes": 107842
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "የካ",
+      "candidate": "ፍፁም ዘገዬ ባዬች",
+      "votes": 106131
+    }
+  ]
+}

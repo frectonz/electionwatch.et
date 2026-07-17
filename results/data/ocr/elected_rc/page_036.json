@@ -1,0 +1,173 @@
+{
+  "pdf": "elected_rc",
+  "page": 36,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ካሊድ መሐመድ አብዱሌ"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ሻኪር አህመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ኢሳም ሁሴን ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ሁከሚያ መሀመድ አብዱሌ"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ዮናስ ጥግነህ ወልደኪዳን"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "አብዱልፈታህ አብዲ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ዮርዳኖስ ገብረሕይወት ኃይለሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ነኢማ ኢብራሂም ሸሪፍ"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "በርካለም መለሰ ኃይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ሰላም ኤፍሬም ታምራት"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ዮናስ በትሩ ጣሰው"
+    },
+    {
+      "region": "",
+      "constituency": "06 ቀበሌ",
+      "candidate": "ዘከሪያ ኢብራሂም አብደላ"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ፈፅመታ መሐመድ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ጣሂር ሮብሌ አብሴዬ"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ኡመር አብዱቃድር ሐሰን"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ኬይሬ አብዲላሂ ኬይሬ"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ሰባህ መሀዲ አደን"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ከድራ መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ወርቁ ታምራት ደስታ"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "ኢክራም ጀማል አማን"
+    },
+    {
+      "region": "",
+      "constituency": "07 ቀበሌ",
+      "candidate": "መሀመድ አሊ ኡስማን"
+    },
+    {
+      "region": "",
+      "constituency": "08 ቀበሌ",
+      "candidate": "ኢፍቱ አብደላ ኡመር"
+    },
+    {
+      "region": "",
+      "constituency": "08 ቀበሌ",
+      "candidate": "ሐሚድ አብደላ ሐሚድ"
+    },
+    {
+      "region": "",
+      "constituency": "08 ቀበሌ",
+      "candidate": "ሳጅድ አልይ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "08 ቀበሌ",
+      "candidate": "ሊሊሴ አህመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "08 ቀበሌ",
+      "candidate": "ኢብራሂም አብዱልሃሚድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "08 ቀበሌ",
+      "candidate": "ካሊድ አብዱልከሪም ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "09 ቀበሌ",
+      "candidate": "ኤፍሬም ግርማይ ፀጋዬ"
+    },
+    {
+      "region": "",
+      "constituency": "09 ቀበሌ",
+      "candidate": "ራህማ ያሲን አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "09 ቀበሌ",
+      "candidate": "ሰኢዳ አዋሌ አሚር"
+    },
+    {
+      "region": "",
+      "constituency": "09 ቀበሌ",
+      "candidate": "ፋራህ መሀመድ ፋራህ"
+    },
+    {
+      "region": "",
+      "constituency": "09 ቀበሌ",
+      "candidate": "ኡመልከይር ሙሴ አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "09 ቀበሌ",
+      "candidate": "ያሲን ሀሰን አብዱላሂ"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 89,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "አብዱሠላም አብራሂም አሸፊ",
+      "votes": 16802
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "አቡልቃሲም ኡስማን አሚር",
+      "votes": 16065
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ሙክታር አብዱላሂ ኢሳ",
+      "votes": 15745
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ሰሎዋ ኡመር ቁርጣ",
+      "votes": 15669
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "በዱር ሀድር ዘለበዲን",
+      "votes": 15560
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ዘካሪያ ሰቢት ጀንናር",
+      "votes": 15348
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ነዋል አሊ ኢብራሂም",
+      "votes": 15279
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ብራቱ ዋና አዴሰ",
+      "votes": 561
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ጉይታ አሎሪ ሰአ",
+      "votes": 513
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "አለሙ ታመኔ አጐዳ",
+      "votes": 506
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "የኑስ ደምበራ ማቲ",
+      "votes": 502
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "አሸሪፍ ባይሳ አጉባ",
+      "votes": 468
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ጀማ ኡስማን አባቁቤ",
+      "votes": 451
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "አደም ቶቶባ አልጅራ",
+      "votes": 450
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ቢልዲግሉ",
+      "candidate": "ከድር መሀመድ ሰይድ",
+      "votes": 432
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አይሪስ መሀመድ አብዱልሃዲ",
+      "votes": 19799
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አብዱልዋሂድ አዙቤር አብዱላሂ",
+      "votes": 19327
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ጃፈር አኑር ሃቢድ",
+      "votes": 19087
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ታሪቀኝ ታሲሳ ብድቃ",
+      "votes": 18740
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አልሀጃ መሀመድ ሃሚድ",
+      "votes": 18158
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ዘይነብ አልፈኪ አሊ",
+      "votes": 17802
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሙባረክ አሣብር ሙባረክ",
+      "votes": 17566
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሐጅራ ኢብራሂም አቡልሀሰን",
+      "votes": 17498
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ዳዉድ አልማሃዲ አሊ",
+      "votes": 17439
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ፍጡማ መሀመድ ኢብራሂም",
+      "votes": 17341
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ተመስገን ኃይሉ አያሌው",
+      "votes": 17046
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ኑርያ ይማም አህመድ",
+      "votes": 1363
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ደለለኝ ግርማይ ሰገሰ",
+      "votes": 1339
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሲቲና ሀሚድ አሊ",
+      "votes": 1320
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አህመድ ሙፍቲ አብራሂም",
+      "votes": 1255
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሰይድ አንደሪስ የሲን",
+      "votes": 1252
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሀብታሙ አበራ አጋዥ",
+      "votes": 1171
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ከሊፋ ረመዳን ረጀብ",
+      "votes": 1162
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ያሲን ኢብራሂም በከሬ",
+      "votes": 1152
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "መሪማ አብራሂም በከሬ",
+      "votes": 1145
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "መሪማ ተፈራ ኢብራሂም",
+      "votes": 1111
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ከሊፋ ራህማ አሻሪ",
+      "votes": 1091
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አብዱልሙንየም አልበሽር አህመድ",
+      "votes": 31034
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሁዳ ከድር አህመድ",
+      "votes": 30989
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ከልቱም ባበክር አብዱረሂም",
+      "votes": 30898
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አንዳርጋቸው ሞላ ተመስገን",
+      "votes": 30671
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ባበክር ሀሊፋ አብደላ",
+      "votes": 30595
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አሙና አብዱልዋሂድ ዩሱፍ",
+      "votes": 30522
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ኤልያስ አብዲን አትማን",
+      "votes": 30494
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሀሰኒያ ሱሌማን ሙሳ",
+      "votes": 29458
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ትዕግስት ቤኛ ገበና",
+      "votes": 29030
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ዩኑስ አብዱላሂ አብዱረሂም",
+      "votes": 28470
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሙሉ ሀይደር አደም",
+      "votes": 28011
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አህመድ አልሃሰን ሀሊፋ",
+      "votes": 27310
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሙጃሂድ ቢላል ወርቁ",
+      "votes": 7548
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አስከዳር ጥጋቡ ይመር",
+      "votes": 5359
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አወቀ ከበደ አያሌው",
+      "votes": 5312
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ጀማል ያሲን ሸረፈዲን",
+      "votes": 4857
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሳሌ አሳድቅ አልሀሰን",
+      "votes": 4615
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሀዳ አልማህዲ ዩሱፍ",
+      "votes": 4354
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አልቃሪብ አብዱረሂም አደም",
+      "votes": 4276
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሙሉነሽ ይማም ብርሀኑ",
+      "votes": 4255
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አማረ ሙኔ መልኬ",
+      "votes": 4243
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አራጋው መኮነን ሀሰን",
+      "votes": 4104
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ጀማል ኑረዲን አደም",
+      "votes": 4064
+    }
+  ]
+}

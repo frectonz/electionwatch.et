@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 60,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "ዳዊት ተሰማ የሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "አለማየሁ አለሙ ሙቲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "አልማው ዘውዴ ግችላ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "አብነት አድራሮ አንገሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "ተካዬ ኩቲ በንዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "ካህኔ ገመዳ በንጎሎም"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "ዮሃንስ ካሳሁን ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "ጀቤሳ አሰፋ ሊታ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "አንድነት እያሌው አስራዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ቴፒ",
+      "candidate": "እመቤት ያየህ ሞገስ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "አልማዝ ገብረሚካኤል ሳጅ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "መሠረት ከበደ እምሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ደመላሽ ጉኑሤ ሀሊቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ደምሴ ገብሬማሪያም ሻዎ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "አሚና ሀሰን አባጎዱ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ራቢያ ሲራጅ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ኢብራሂም ተማም አባዲጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ክፍሌ ገብረማርያም ወልደሰንበት"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ምንተስኖት አለኔ ሀይለ"
+    },
+    {
+      "region": "",
+      "constituency": "ዋቻ",
+      "candidate": "ተስፋዬ አሸግሬ መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "ዘልማም",
+      "candidate": "ባርቴ ሉጥቴ ኮሮቤራ"
+    },
+    {
+      "region": "",
+      "constituency": "ዘልማም",
+      "candidate": "መላኩ ካሳ ሙርዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ትብብሩ አሰፋ ተሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "በላይ ተሰማ ጅሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ህይወት አሰግድ ገብረስላሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ጋዎ አባመጫ ወልደጊዮርጊስ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "አታላይ ንጉሴ ገብረሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "አምሳለ ንጋቱ ሃይለማርያም"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ሸረፈዲን ኑሩ አባቡልጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ዶር ኢር ገብረማሪያምወልደሰንበት"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ናትናኤል በድሩ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ጊምቦ",
+      "candidate": "ቦጋለ ኃይሌ ሾሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አባተ ኢቃ ካንጌሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ኢዮብ ቶማስ ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አንድነት አሸናፊ ቢካርዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ዉለታዉ ተስፋዬ ጣሔ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አስቴር ክፍያው ዳቹ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሙሉነሽ ከበደ ደርቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተክሌ በዛብህ ባቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሌአሲል አሰፋው አንቃሼ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "መብራቱ ለገሠ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ለገሰ አመል አልሳሳ"
+    },
+    {
+      "region": "",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ፋድዮ ሳፒ ወትራሻ"
+    },
+    {
+      "region": "",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ታምሩ ቦኒ ቆቡራ"
+    },
+    {
+      "region": "",
+      "constituency": "መኤኒት ልዩ",
+      "candidate": "ትዕግስት አለሙ አቢታው"
+    }
+  ]
+}

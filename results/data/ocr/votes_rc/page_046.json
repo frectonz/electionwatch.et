@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 46,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "አሲያ አብዱ መሀመድ",
+      "votes": 44935
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "አሊ መሀመድ ሳሊህ",
+      "votes": 29880
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "አሊ ሳሊህ ሁመድ",
+      "votes": 2626
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ዶክተር ሳልህ ደርሳ",
+      "votes": 2007
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ገአስ ያሲን ያኢድ",
+      "votes": 865
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ሰኢዳ አብዱ ሁመድ",
+      "votes": 815
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ዘምዘም ሆላ መሀመድ",
+      "votes": 418
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "ሉባባ አሊ ይመር",
+      "votes": 373
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አፍዴራ ወረዳ / Afdeerâ Daqaara",
+      "candidate": "አህመድ መሀመድ ሰኢድ",
+      "votes": 370
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ኡመር ኑር አርባ",
+      "votes": 54384
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "አብራሂም ሁመድ መሀመድ",
+      "votes": 54363
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ኤይሳ ጣሂር ያሲን",
+      "votes": 54339
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "መሀመድ ማርቶሌ አሊ",
+      "votes": 641
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "መሀመድ አሊ ደራያ",
+      "votes": 203
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ሀሰና ቃድር መሀመድ",
+      "votes": 151
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ሀሰና ዲቢስ ፎኩ",
+      "votes": 113
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ሀመዱ አሊ መሀመድ",
+      "votes": 107
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "አንዴ አሊ አንዴ",
+      "votes": 84
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "አብዱ ኢሴ ኡመር",
+      "votes": 67
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "ሉባ አረባ ኡዳይቱ",
+      "votes": 59
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "መሃመድ ሃመድ አሊ",
+      "votes": 57
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "አቡበከር መሀመድ አሊ",
+      "votes": 57
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አውራ ወረዳ / Awrâ Daqaara",
+      "candidate": "መሀመድ ሀንፈሬ አሊ",
+      "votes": 57
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አህመድ ኑር ሳሊም",
+      "votes": 88513
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ነስሮ ኡዳ መሀመድ",
+      "votes": 85745
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አሊያ አብዱልቃድር በረከት",
+      "votes": 84323
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ፋጡማ ገዶ ሀምሎ",
+      "votes": 83763
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀንፈሬ አለሚራህ ሀንፈሬ",
+      "votes": 29571
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሃመድ ዳውድ ማሀሙድ",
+      "votes": 16396
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሃይሰማ አሊ መሀመድ",
+      "votes": 16259
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀያት አብዱ እንድሪስ",
+      "votes": 370
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሠአዳ አብዱ ሀመድ",
+      "votes": 296
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መይረም ሀሰን መሀመድ",
+      "votes": 286
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አሚናት አህመድ አሊ",
+      "votes": 279
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "እንድሪስ አሊ እንድሪስ",
+      "votes": 274
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ጀማነሽ እንድሪስ ሠይድ",
+      "votes": 242
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀንፈሬ መሀመድ ሀንፈሬ",
+      "votes": 209
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሀመድ አብዱልቃድር መሀመድ",
+      "votes": 193
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀንፍሬ ሱሩር ሀንፍሬ",
+      "votes": 161
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሰአዳ ኑርየ ንንጉል",
+      "votes": 157
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አህመድ አብዱልቃድር መሀመድ",
+      "votes": 153
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሙሳ ዳና ሀንፍሬ",
+      "votes": 141
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሰድቃ ዱላ ሀንፋሬ",
+      "votes": 125
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ዘቢባ ሱልጣን መሀመድ",
+      "votes": 108
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሀመድ አሎ ሀንፈሬ",
+      "votes": 98
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አሊ ጋህያ ሀመድ",
+      "votes": 98
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀመድ መሀመድ ሀሰን",
+      "votes": 88
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ኤይሳ አብደላ መሀመድ",
+      "votes": 86
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሀመድ ሁሴን ሀመድ",
+      "votes": 58
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሀመድ ገአስ አሊ",
+      "votes": 48
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ከድር አሊ ሀንፈሬ",
+      "votes": 40
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ደዊት አህመድ አብደላ",
+      "votes": 35
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀኔ ሀመዱ ዲሀሪ",
+      "votes": 35
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አሊ አይዳሂስ አሊ",
+      "votes": 34
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀሰና ሀመዱ ሀመድ",
+      "votes": 34
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "አብደላ ከሊፋ አሊ",
+      "votes": 34
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ፈንታው ሠይድ እንድሪስ",
+      "votes": 31
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "መሃመድ ሙክታር የሱፍ",
+      "votes": 29
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ሀዋ መሀመድ ሙሳ",
+      "votes": 29
+    },
+    {
+      "region": "አፋር",
+      "constituency": "አይሳኢታ ወረዳ / Aysaqiiti Daqaara",
+      "candidate": "ዛህራ አብዱ ኡመር",
+      "votes": 28
+    }
+  ]
+}

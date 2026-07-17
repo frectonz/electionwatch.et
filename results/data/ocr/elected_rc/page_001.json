@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 1,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዳመነ ደባልቄ ጉጃ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዮሐንስ ዮና ሲኒዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "መምሩ ሞኬ ደበቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ማዘንጊያ ሾንቶካ ሀሪሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ገነት ቄና ቱሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "መንገሻ ቤና ጅሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ዋርቴ ሻላ ቃሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "አዳነች አርሹ ድጋሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ፍሰሀ ፍቾላ ባኩሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሀገረ ሰላም / ሁላ / Hageresalaami / Hula",
+      "candidate": "ቡንቱካ ዳንጉራ ዳዋሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "እመቤት ኢሳያስ ሀሜሶ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "አልሳቤጥ ፍቼ ማጎ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ትግስት ማኒሳ አሪሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ተሰማ ዲማ ቡቱታ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ዘመን ለገሰ ወልዴ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ሰላማዊት መንገሻ ቢላል"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ፋንታዬ ከበደ ዲካ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "መንገሻ ፈታሞ ኮራሞ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ወጋየሁ ዮሰፍ ሀርሶ"
+    },
+    {
+      "region": "",
+      "constituency": "አለታ ወንዶ / Alatta Wondo",
+      "candidate": "ለገሰ ቢታቻ ቢሊሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ወርቅነህ ፍላቴ ዳንሳሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "በቀለ ሞጦቃ ግክሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አንበሴ አበበ ጋርሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ትሸጋገር ግርማ ፈቀደ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ወይንሸት ድንጋሞ ዳዳሴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ጠጅቱ ሮማ ጎሰማ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ሚሊዮን ዮሳ ሳምቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "ብዙነሽ ሀሪሶ ቃንቄ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "አስበው ያዕቆብ አታራ"
+    },
+    {
+      "region": "",
+      "constituency": "ሴንቴሪያ / Santariya",
+      "candidate": "የትናየት እሸቱ መለሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "በየነች ቦጋለ ቦረና"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "መስፍን ቂጤሳ ቀቀቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "አገረጽዮን አበበ ቦኤ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ፍፁም በላይነህ አፈራ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ዘገዬ ሀሜሶ ሀንግሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ስኳሬ ኪዳሞ ካርቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ዘነበ ዘርፉ ሂዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ሐርሰ ብልሶ ሥረቴ"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ሀጅ መስጠፋ ናስር"
+    },
+    {
+      "region": "",
+      "constituency": "ሻፊና / Shafinaa",
+      "candidate": "ታፈሰ ላንቃሞ ላምሶ"
+    }
+  ]
+}

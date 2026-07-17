@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 54,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ፈዲላ ቢያ አበመጫ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መሀቡባ ሰይድ አብደላ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሙህዲን ረሻድ ጀማል"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መአዛ መንግስቱ ቢንባዎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አብይ ይልማ አዝጌ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "የሺ ወልዴ ይመር"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቴዎድሮስ ወልደሚካኤል ሻእመሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቅድስት ወልደጊዮርጊስ ወልደኪዳን"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ኢዘዲን ሙስባህ ኡልቱጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ገዛኸኝ ዳቢሳ ወጂ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መኮንን ገቦ አንገሎ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ፀሐይ ጌታሁን በላቸው"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሐና አርዓያሥላሴ ዘሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መሰረት ጌታቸው ግዛው"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አርዳኝ አሰፋ ሾሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቶሬቃ ሸውሞሎ ሹራላ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አዳነች አቤቤ ደሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ካባ መብራቱ ዳኜ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዘላለም ሙሉጌታ ደሙ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "የትምጌታ አሰራት ማሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መኮንን ያኪ ገመዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ቢያድም ምከሩ አለማየሁ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "እሌኒ አየለ ደርቤ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መለሰ ወቆሳ ዱጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዘሀራ መሀመድ ሹሽሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አብርሃም ታደሰ ካሳዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "በራልኝ ብርሃኑ ከፈኔ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሱኬሬ ሻይረዲን አበዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ፍቃዱ ታምራት ገሰ"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዳናኤል ጌታቸው ጋረደው"
+    },
+    {
+      "region": "",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መሠረት ማሞ ፈለቀ"
+    },
+    {
+      "region": "",
+      "constituency": "ቋጫ",
+      "candidate": "መስፍን መንገሻ ማሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ቋጫ",
+      "candidate": "ዳንኤል ደሳለኝ ዳኮ"
+    },
+    {
+      "region": "",
+      "constituency": "ቋጫ",
+      "candidate": "ኩረባቸው ታንቱ ሰባ"
+    },
+    {
+      "region": "",
+      "constituency": "ቋጫ",
+      "candidate": "ቴማ አየለ ያዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቋጫ",
+      "candidate": "ወርቅነሽ ሎማና አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሌ",
+      "candidate": "እድስአለም ጉበና ሀርባዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሌ",
+      "candidate": "አስናቀች ሐልቻዬ በደቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሌ",
+      "candidate": "ከፋያለች ዋቅየሁ ቦረ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሌ",
+      "candidate": "አብርሃም መኩሪያ ቆንቢ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሌ",
+      "candidate": "ገመቹ ጃርሶ ሕርባዬ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡርጂ",
+      "candidate": "አየለ አዳነ አይቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡርጂ",
+      "candidate": "ኡራጎ ገበየሁ ኡራጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሳ",
+      "candidate": "አስቻለው ከበደ ካፌ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡሳ",
+      "candidate": "መሰታወት ታከለ ታደሰ"
+    }
+  ]
+}

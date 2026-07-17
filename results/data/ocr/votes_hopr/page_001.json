@@ -1,0 +1,374 @@
+{
+  "pdf": "votes_hopr",
+  "page": 1,
+  "pages": 33,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ሙሉጌታ ጥላሁን ደታሞ",
+      "votes": 1552
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ካሳሁን ሙሉጌታ ዱሞ",
+      "votes": 1085
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ቦጋለ ቦኤ ቶሣ",
+      "votes": 397
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "አሰፋ ቦጋለ ተንሰሳ",
+      "votes": 280
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ገነት ዘመቻ አግዛ",
+      "votes": 250
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ጠናዬ ተስፋዬ ዶዶላ",
+      "votes": 193
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ኤልያስ ዘርፉ ደና",
+      "votes": 104
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ባንሳ / Bansa",
+      "candidate": "ብርችኳን አብርሃም ድቃሶ",
+      "votes": 65
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በቀለ በላቸው ጉዬ",
+      "votes": 66782
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ብርቱካን ቱአላ ክአ",
+      "votes": 607
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ማሳመ መንግስቱ ቃቃዎ",
+      "votes": 538
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "እስራኤል አርባ ዱሞ",
+      "votes": 394
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ደመቀ ደቢቦ ሪቄ",
+      "votes": 332
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "አርሻ አሸኔ ዩንኩራ",
+      "votes": 323
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ጥበቡ ጥላሁን አንዲሳ",
+      "votes": 286
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ዳዎታ ዳንጉራ ዮንቡ",
+      "votes": 213
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "በቀለ በጠና ስአሶ",
+      "votes": 97
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ቡርሳ / Bursa",
+      "candidate": "ሀምሳለ ሀማሮ ሀሮ",
+      "votes": 92
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አለሚቱ አበበ ኢቲሳ",
+      "votes": 83690
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ደመላሽ ደብሶ ባሩካ",
+      "votes": 3112
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ጌታቸው በየነ ዶባሶ",
+      "votes": 1189
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ብርሃኑ ብርበቶ ብፍቱ",
+      "votes": 1052
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ፀሐይነሽ ሻሻሞ ሀንቃሞ",
+      "votes": 909
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ዮሃንስ ገብረጻዲቅ ሪቂቻ",
+      "votes": 614
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "አክሊሉ አየለ ዳጌ",
+      "votes": 561
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "በላይነህ ሐይሉ ሀጥሶ",
+      "votes": 537
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዳራ / Daara",
+      "candidate": "ሃይለ ሾራ ወሬ",
+      "votes": 501
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሚሊዮን ማቲዎስ ኮርሲሳ",
+      "votes": 107283
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ማሙሽ ድጉና ሀይሶ",
+      "votes": 1822
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ደህናነሽ ዳን ሳማን",
+      "votes": 948
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ኤርሚያስ ቡኖ ቡቃቶ",
+      "votes": 826
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "አባተ ተሾመ ሻንዲሮ",
+      "votes": 719
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "መሰፍንት መንግስቱ ሳልማ",
+      "votes": 268
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ሙሉጌታ ሙጤ ዴካሞ",
+      "votes": 217
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ቴዎድሮስ ታዬ ታደሴ",
+      "votes": 200
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ደሴ / Dessie",
+      "candidate": "ዘላለም አለማየሁ አስረስ",
+      "votes": 184
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሰለሞን ላሌ ካሎ",
+      "votes": 86651
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ትግስት ደባሮ ድካለ",
+      "votes": 188
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "አሰፋ ጋናሞ ጋሳራ",
+      "votes": 174
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ፅሐይ ታደሰ ሞላ",
+      "votes": 136
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሙሉጌታ ናዳሞ ለምሶ",
+      "votes": 76
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ሎመ ማብራቱ ሲኢሶ",
+      "votes": 66
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ዮሴፍ ደምሴ ቆንጩራ",
+      "votes": 56
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ዱባ / Duuba",
+      "candidate": "ታሪኩ እንድርያስ አራሳ",
+      "votes": 23
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ደምሴ ሰንሬ ሳኩማ",
+      "votes": 67243
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ጳውሎስ ቦኤ ዱቆቻ",
+      "votes": 5105
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ባራራ ቡጤ ሂረሶ",
+      "votes": 1812
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ማትዎስ አሱኬ ቦራሳ",
+      "votes": 670
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ፍፁም ለገሠ እንዴሻዉ",
+      "votes": 570
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጎርቼ / Gorchee",
+      "candidate": "ያዕቆብ ቀጥላ ህዬሶ",
+      "votes": 443
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አያኖ በራሶ ሁላ",
+      "votes": 56711
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ሀብታሙ ሀርቃ ቦሬ",
+      "votes": 923
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ሁራሣ ሁርሶ ጋማዬ",
+      "votes": 498
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አየለ አሰፋ ኢጋና",
+      "votes": 482
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "አሸናፍ አበበ ደቄ",
+      "votes": 293
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ስዩም ፈንዲጋ ሣጣ",
+      "votes": 211
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ጉጉማ / Guguma",
+      "candidate": "ፍሬው ተስፋዬ አርባሞ",
+      "votes": 86
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ፍፁም አሠፋ አዴላ",
+      "votes": 151606
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "መድህንት ሰለሞን ቦርዳ",
+      "votes": 6048
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "አሰፋ ዳርጌ ታደገ",
+      "votes": 5098
+    },
+    {
+      "region": "ሲዳማ",
+      "constituency": "ሐዋሳ / Hawaasa",
+      "candidate": "ወንድሙ ኃይሌ ወልደሚካኤል",
+      "votes": 3093
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 105,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ቢያደም ምትኩ አለማየሁ",
+      "votes": 144758
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አሊኒ አየለ ደርቤ",
+      "votes": 144440
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መሰለ ወዩሳ ዱጋ",
+      "votes": 141367
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዘሀራ መሀመድ ቡሽራ",
+      "votes": 140227
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አብርሃም ታደሰ ካሳዬ",
+      "votes": 138349
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "በራልኝ ብርሀኑ ከፈኔ",
+      "votes": 135646
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሱኬሪ ኸይረዲን አብዱ",
+      "votes": 133796
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ፍቃዱ ታምራት ገሶ",
+      "votes": 132266
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዳናኤል ጌታቸው ጋረደው",
+      "votes": 40724
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "መሠረት ማሞ ፈለቀ",
+      "votes": 36402
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "በፍቃዱ መርሻ ቃሩ",
+      "votes": 35295
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አንግዳሸት ገብረማርያም ወልደዮሐንስ",
+      "votes": 34981
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ዓለማየሁ ብስራት ተፈራ",
+      "votes": 33092
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሀብታሙ ሸኔ በለጠ",
+      "votes": 32775
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሳይን ኃይለ ገብረሚካኤል",
+      "votes": 31260
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ገመቹ ቃሲም መሀመድ",
+      "votes": 30711
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሰለሞን በላይነህ ሰገሰ",
+      "votes": 29311
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አሰነ ጥላሁን ወለሊ",
+      "votes": 27465
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ጌታነህ ከበደ በላይነህ",
+      "votes": 26473
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አስራኤል ጃምቦ ደካ",
+      "votes": 25952
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አስታሉ ተመስገን ወርቁ",
+      "votes": 10228
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ግርማቸው ቤተማርያም ተሰማ",
+      "votes": 9213
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ጥበቡ ይርጋ አበራ",
+      "votes": 9063
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ፋንታነሽ ዘርፉ ደሴ",
+      "votes": 9044
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ለቀች ድረሰ አለምረው",
+      "votes": 8871
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ትንሣኤ ተሠፋዬ ደምሴ",
+      "votes": 8765
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሞላ ደግሰኝ ሱማው",
+      "votes": 8512
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ተረፈ ኃይሌ ከበደ",
+      "votes": 8476
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ተመስገን ሻምበል ሚደቅሳ",
+      "votes": 8464
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "እስክንድር ሞገስ አስናቀ",
+      "votes": 7203
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሀገረህይወት ኢይሱሳ አላና",
+      "votes": 7176
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ውቢት አማረ አግማሴ",
+      "votes": 5852
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሙሉቀን ታደሰ በረዳ",
+      "votes": 5568
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሁሉንአየሁ ጌታቸው ተፈራ",
+      "votes": 4740
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ኢብራሂም አሊ ሙሃመድ",
+      "votes": 4740
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሀሠን ሙላት ቢላል",
+      "votes": 4614
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "እሹቱ ፋንታዬ ገሰሰ",
+      "votes": 4609
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አብዱልፈታ አህመድ ሱሌይማን",
+      "votes": 4429
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሙሉቀን ታምሩ ከበደ",
+      "votes": 3810
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሃይሉ ረዳ ወልደስላሴ",
+      "votes": 3744
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ኤርሚያስ ገብረመድህን ግደይ",
+      "votes": 3588
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሙሉጌታ አስመላሽ ጋሹ",
+      "votes": 3579
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አለምፀሃይ ቀሬ አንተነህ",
+      "votes": 3454
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አመቤት ኩችሬ ሻኔ",
+      "votes": 3446
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሰንታየሁ ህዝቅኤል ሀይሌ",
+      "votes": 3328
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ጌታቸው ይስማው ወለሌ",
+      "votes": 3323
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ፀሐይ ተክሉ አሸንጎ",
+      "votes": 3183
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ሀብታሙ አያሌው ፅጌ",
+      "votes": 3034
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ግርማ አዳኛ ብርበሳ",
+      "votes": 2951
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ታዬ ሰርሳ ካባ",
+      "votes": 2907
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አልማዝ ካሱ አበቢ",
+      "votes": 2754
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ማሞ መና ባቴ",
+      "votes": 2718
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አብነት አልታይ ይቃሞ",
+      "votes": 2629
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ደቻሳ ደረሴ ዳካ",
+      "votes": 2480
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ደጀኔ ጩቄ ማሞ",
+      "votes": 2472
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ትዕግስት ቶማስ ተክሶ",
+      "votes": 2392
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ቢሊሱማ ደረጀ አያና",
+      "votes": 2345
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ወልደማርቆስ አለሙ ይላቅ",
+      "votes": 2342
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "አላዛር ዳካ ቤታ",
+      "votes": 2305
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ንፋስ ስልክ ላፍቶ",
+      "candidate": "ደጋጋ ፈቀደ ወለጋ",
+      "votes": 2264
+    }
+  ]
+}

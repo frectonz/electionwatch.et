@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 24,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ኖሌ ካባ 2 / Noolee Kaabaa 2",
+      "candidate": "ፅሐዬ ጉርሙ ገረባ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖሌ ካባ 2 / Noolee Kaabaa 2",
+      "candidate": "ተክሌ አሰፋ ኢተቻ"
+    },
+    {
+      "region": "",
+      "constituency": "ኖሌ ካባ 2 / Noolee Kaabaa 2",
+      "candidate": "አበቡ ደገፋ ደብሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ኦሞ ናዳ 2 / Oomoonaadaa 2",
+      "candidate": "ደሊል ሀሰን አባዱላ"
+    },
+    {
+      "region": "",
+      "constituency": "ኦሞ ናዳ 2 / Oomoonaadaa 2",
+      "candidate": "አመና ነጋ አባባ"
+    },
+    {
+      "region": "",
+      "constituency": "ኦሞ ናዳ 2 / Oomoonaadaa 2",
+      "candidate": "አብዳላ ከዲር ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቃ ጨቆርሳ 2 / Saqqaa Coqorsaa 2",
+      "candidate": "መሀመድሳኒ አባአሊ አባቡልጉ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቃ ጨቆርሳ 2 / Saqqaa Coqorsaa 2",
+      "candidate": "አሚና አባጂሃድ አባሲመል"
+    },
+    {
+      "region": "",
+      "constituency": "ሰቃ ጨቆርሳ 2 / Saqqaa Coqorsaa 2",
+      "candidate": "ሀሚድ አባመጫ አባዲጋ"
+    },
+    {
+      "region": "",
+      "constituency": "ሉሜ / ሞጆ / Luumee / Mojoo",
+      "candidate": "ገዛል ሀሹ ኤደኦ"
+    },
+    {
+      "region": "",
+      "constituency": "ሉሜ / ሞጆ / Luumee / Mojoo",
+      "candidate": "እስቴር ደሜ በዳዳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሉሜ / ሞጆ / Luumee / Mojoo",
+      "candidate": "ሜሮን አለማየሁ ታደሰ"
+    },
+    {
+      "region": "",
+      "constituency": "አኖ / Aannoo",
+      "candidate": "ዲባ ጉቱ ኢብሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አኖ / Aannoo",
+      "candidate": "ወርቃዮ አሰፋ ኢልፈታ"
+    },
+    {
+      "region": "",
+      "constituency": "አኖ / Aannoo",
+      "candidate": "አስመራ ኢጃራ ደፋር"
+    },
+    {
+      "region": "",
+      "constituency": "አቦምሳ / Abboomsaa",
+      "candidate": "አለሙ ስሜ ፈይሳ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦምሳ / Abboomsaa",
+      "candidate": "ሰአዳ ከድር በሩ"
+    },
+    {
+      "region": "",
+      "constituency": "አቦምሳ / Abboomsaa",
+      "candidate": "ሰይዳ ጂሎ ሲምቦሬ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳባ / Adaabbaa",
+      "candidate": "ጀማል ሻንቆ ፊቶ"
+    },
+    {
+      "region": "",
+      "constituency": "አዳባ / Adaabbaa",
+      "candidate": "ሸምሲያ ወልይ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "አዳባ / Adaabbaa",
+      "candidate": "ብራሃኑ አፍራሳ በሻዳ"
+    },
+    {
+      "region": "",
+      "constituency": "አጉሊቾ / Aguulichoo",
+      "candidate": "መኪዳ ሻሾ ነሜ"
+    },
+    {
+      "region": "",
+      "constituency": "አጉሊቾ / Aguulichoo",
+      "candidate": "ገብሬ አርጌሳ ሮባ"
+    },
+    {
+      "region": "",
+      "constituency": "አጉሊቾ / Aguulichoo",
+      "candidate": "ደሮ በሪሶ እሬ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቦ / Aliiboo",
+      "candidate": "ታከለ አላና ሰኚ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቦ / Aliiboo",
+      "candidate": "ሙሉነሽ ድንሳ ገለታ"
+    },
+    {
+      "region": "",
+      "constituency": "አሊቦ / Aliiboo",
+      "candidate": "መሰረት ሞኮንን አብደና"
+    },
+    {
+      "region": "",
+      "constituency": "አርቦዬ / Arbooyee",
+      "candidate": "ፊድዋን ጀማል ገመዳ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቦዬ / Arbooyee",
+      "candidate": "ሳዳት ነሻ አረባ"
+    },
+    {
+      "region": "",
+      "constituency": "አርቦዬ / Arbooyee",
+      "candidate": "ዘምዘም ጀይላን ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "አሰኮ / Asakoo",
+      "candidate": "ኢብራሂም ከድር ጅማ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰኮ / Asakoo",
+      "candidate": "መኮ ከዲር ኪሮ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰኮ / Asakoo",
+      "candidate": "ገቢ ገልቹ በንቶ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰላ / Asallaa",
+      "candidate": "ዘምዘም ሻሎ ዋሪዮ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰላ / Asallaa",
+      "candidate": "ውብሸት ሲሳይ ጅማ"
+    },
+    {
+      "region": "",
+      "constituency": "አሰላ / Asallaa",
+      "candidate": "እሳመነት ግርማ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "አያና / Ayyaanaa",
+      "candidate": "ሰበሌ ደንሣ ቀነኒ"
+    },
+    {
+      "region": "",
+      "constituency": "አያና / Ayyaanaa",
+      "candidate": "ታረቀኝ ገመቹ የደታ"
+    },
+    {
+      "region": "",
+      "constituency": "አያና / Ayyaanaa",
+      "candidate": "መላ ቆርሶ ጎበና"
+    },
+    {
+      "region": "",
+      "constituency": "በቾ / Bacho",
+      "candidate": "ኃይለጊዮርጊስ ፋሪስ ዋጅራ"
+    },
+    {
+      "region": "",
+      "constituency": "በቾ / Bacho",
+      "candidate": "መሠረት አሰፋ ዳዳና"
+    },
+    {
+      "region": "",
+      "constituency": "በቾ / Bacho",
+      "candidate": "ገዛኸኝ መቻል ሚኒትኩ"
+    },
+    {
+      "region": "",
+      "constituency": "በደሌ / Baddallee",
+      "candidate": "ታደሰ ቀነኒ ፋጅ"
+    },
+    {
+      "region": "",
+      "constituency": "በደሌ / Baddallee",
+      "candidate": "ነፃነት ወርቅነህ ግዲ"
+    },
+    {
+      "region": "",
+      "constituency": "በደሌ / Baddallee",
+      "candidate": "ከድጃ አብዱራህማን አህመድ"
+    }
+  ]
+}

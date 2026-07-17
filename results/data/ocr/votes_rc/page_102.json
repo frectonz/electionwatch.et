@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 102,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ቃልኪዳን መኮንን መንግስቱ",
+      "votes": 1920
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አቃቂ ቃሊቲ",
+      "candidate": "ፍቅሩ ዳኜ በቀለ",
+      "votes": 1399
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዳዊት ምንዳዬ ገብረፃዲቅ",
+      "votes": 47510
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሶፊያ አለሙ ሁሴን",
+      "votes": 46703
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ታረቀኝ ወርቅነህ ወልደሃና",
+      "votes": 46435
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አይዳ አወል ማሞ",
+      "votes": 46110
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ክብረአለም ደምሴ ወልደሰማዕት",
+      "votes": 45985
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ተሾመ አዱኛ ረጋሳ",
+      "votes": 45882
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አደም ኑሪ ዋበላ",
+      "votes": 45622
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አምሳል ዋለ ደርሰህ",
+      "votes": 45411
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሜቲ ታምራት ፈጤ",
+      "votes": 44579
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ፍቅርተ አበራ መኮንን",
+      "votes": 43778
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አስቴር አንድሀገር ምርኬ",
+      "votes": 43444
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ገነት ወልዴ ምኑታ",
+      "votes": 42501
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "እየሩሳሌም ዘላለም ወልዴ",
+      "votes": 17609
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "በድሉ አደሳ አዝጌ",
+      "votes": 17255
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ፅዮናዊት መኮንን እሸቴ",
+      "votes": 16962
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዘላለም ወልዴ ዶሪ",
+      "votes": 16950
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሉባባ ሸሪፍ ሀሰን",
+      "votes": 16422
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አዲስ መሀመድ እውነቱ",
+      "votes": 16403
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ማሂር ሙዘይን ጀማል",
+      "votes": 15980
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ከድር አብድልሸኩር ሸፋ",
+      "votes": 15834
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አብራሂም ሰኢድ የሱፍ",
+      "votes": 15521
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ጃፈር አህመድ ኢብራሂም",
+      "votes": 15484
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዳንኤል ግርማ ቱቻ",
+      "votes": 15090
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አበበ ነጋሳ መገርሳ",
+      "votes": 14864
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ፋሩቅ ሙሃመድ በሽር",
+      "votes": 14428
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ኢሊያስ አበሻ ያሲኖ",
+      "votes": 13705
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ፍፁም ንጉሴ ባድዬ",
+      "votes": 13642
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሬድዋን ጭቅሳ ኑር",
+      "votes": 12404
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ኢያኤል እሸቱ ገረመው",
+      "votes": 8659
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሰለሞን ጌታቸው ሙሉነህ",
+      "votes": 8581
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "እስጢፋኖስ በኩረፅዮን ወልደዳዊት",
+      "votes": 8345
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አበራ ወልደሰንበት ሳህለማርያም",
+      "votes": 8333
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሃሰን መሀመድ ሳላህ",
+      "votes": 8151
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዳንኤል ተሾመ ሲማ",
+      "votes": 8121
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ብርሃኑ ቢረጋ ለዲ",
+      "votes": 8045
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ያዕቆብ አስቻለው ተመስገን",
+      "votes": 7710
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ደመቀ ፀጋዬ ታደሰ",
+      "votes": 7612
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ኃይሉ ግዛው አንዴታ",
+      "votes": 7179
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ትዝታ ገብረኪዳን ኮሩ",
+      "votes": 7068
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ትዕግስት ተሾመ ብዙነህ",
+      "votes": 6097
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዚያድ ጀቢር ሱሩር",
+      "votes": 6012
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ነጋሽ ይሁኔ ተሰማ",
+      "votes": 5735
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዘመኑ ሞላ አፎሌ",
+      "votes": 5442
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ይታይሽ አያሌው መንግስቴ",
+      "votes": 5441
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዘለአለም አያሌው ብርሃኑ",
+      "votes": 5415
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አብደላ ሸፋ ዑመር",
+      "votes": 4961
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ለገሰ ታደሰ አደራ",
+      "votes": 4960
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዮሴፍ በቀለ አወል",
+      "votes": 4517
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ጊዜው ደምሴ አበራ",
+      "votes": 4310
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ተስፋዬ ጉንታ ኤካ",
+      "votes": 4306
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዳንኤል መርሃጽድቅ መኮንን",
+      "votes": 4134
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ይስማ አበበ ጌታነህ",
+      "votes": 4011
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ዘይቱና ሱልጣን የሱፍ",
+      "votes": 3593
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ገዛኸኝ ውቤ አወቀ",
+      "votes": 3327
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ራሔል ሞልቶት አለማው",
+      "votes": 3109
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አብዱራህማን ሁልጭፎ በሽር",
+      "votes": 3106
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ቀበኔ ቀኖ አትምሳ",
+      "votes": 3074
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "መቅደሳዊት ዴጄኔ መንገሻ",
+      "votes": 3071
+    }
+  ]
+}

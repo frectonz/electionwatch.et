@@ -1,0 +1,203 @@
+{
+  "pdf": "elected_rc",
+  "page": 63,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ነጋ አበራ አክርሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "እንግዳወርቅ ደኖቾ ታከለ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ታከለ ተስፋ ኮማ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ገዛኸኝ ገዝሙ ገዜ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ፋንታሁን ብላቴ ኢታ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ገበያነሽ ገበየሁ ንጉሡ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "የኋላሸት በላይነህ በየነ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ጀበሮ ዱላ ዱባለ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ተስፋዬ ገብሬ ወልዴኢየሱስ"
+    },
+    {
+      "region": "",
+      "constituency": "ኮንታ ልዩ",
+      "candidate": "ዘለቀ ዶላሞ ዶዴ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲዚ ልዩ",
+      "candidate": "አዲስምዕራፍ አለሙ አኩዝ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲዚ ልዩ",
+      "candidate": "ኮምቱ ኮሉቡርጂ ባቡ"
+    },
+    {
+      "region": "",
+      "constituency": "ዲዚ ልዩ",
+      "candidate": "ጋሊ ነገሬ አርባቡዝ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ ልዩ",
+      "candidate": "ተቼሬ ተክሌ ሉቲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ ልዩ",
+      "candidate": "አካሉ አልኩ እሸቱ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ ልዩ",
+      "candidate": "ደስታ ደሳለኝ በቀለ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ወንዱ አደመ ገብሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ታረቀኝ ኃይሌ ገብሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ታረቀኝ ታደሰ መኮንን"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ዘውድቱ ውዲጀ ወልደ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ክፍሌ ኃይሌጊዮርጊስ የሾ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ገነት ታደሰ ወዲጀ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "አስራት መኩሪያ ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ተረፈ ቆጭቶ ኢካሶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ሎሚቱ ገብረማርያም አዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ መደበኛ",
+      "candidate": "ብርሃኑ ወልደማርያም ገብሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "ንጉሴ ወልደጊዮርጊስ ኃይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "ዘመዴ አንዳርጌ አምባው"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "አትርሴ ሸታቸው አቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "ሸዋዬ አግደው አዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "መንግስቱ መንገሻ መኩሪያ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "አበባሽ አበበ ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "መስቀሎት ተማም አባሻም"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "ቆጭቶ ማሞ ታናሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "ትዕግስት ክፍሌ ኮቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ፈረገ ሰላም",
+      "candidate": "አለማየሁ ወልደገብርኤል አምቦ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ ልዩ ናኡ",
+      "candidate": "አስራት አዳሮ ወልደሚካኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ ልዩ ናኡ",
+      "candidate": "ንጉሴ ባዬ ጊንዶ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭሪ ልዩ ናኡ",
+      "candidate": "እታለም ከበደ ጎበና"
+    }
+  ]
+}

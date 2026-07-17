@@ -1,0 +1,233 @@
+{
+  "pdf": "elected_rc",
+  "page": 35,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ጎሰ አደግ",
+      "candidate": "ኢድል አደን ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጎሰ አደግ",
+      "candidate": "ሀቢብ ፋራህ ቡኒ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭራ ሚቲ",
+      "candidate": "አህመድኑር አብዲ ሙሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጭራ ሚቲ",
+      "candidate": "ኢኑብ ሀሰን ሀጂ"
+    },
+    {
+      "region": "",
+      "constituency": "01 ቀበሌ",
+      "candidate": "አብዲ ሙክታር ሙሜ"
+    },
+    {
+      "region": "",
+      "constituency": "01 ቀበሌ",
+      "candidate": "አመር ዱአሌ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "01 ቀበሌ",
+      "candidate": "ፈርቱን የሱፍ መክተል"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ግርማ ተሰማ ማንጎሮ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ገበየሁ ጥላሁን ገብረስላሴ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ጀማል አህመድ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ረሂማ አወል ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "አንድነት ሀይሉ ተሾመ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ሃይለማርያም ዳዲ ደምሴ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ወንድማገኝ በሻህ ገብረፃዲቅ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ቴዎድሮስ ፍቅሬ አዱኛ"
+    },
+    {
+      "region": "",
+      "constituency": "02 ቀበሌ",
+      "candidate": "ስምረት ዘሪሁን ተስፋዬ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ብሩክ ወርቅነህ በየነ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ሹክሪ አብዱራህማን አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ማርቆስ ባዩሕ አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "አቡበከር አዶሽ አልሃዬ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "አስራር በድሩ ተቂ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "አህመድ ሰኢድ ሁሴን"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ትእግስት አየለ ገብረኪዳን"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ጌታቸው ሲሳይ ወልደስላሴ"
+    },
+    {
+      "region": "",
+      "constituency": "03 ቀበሌ",
+      "candidate": "ያዘው ቦጋለ ውዴ"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "ደረጀ ፀጋዬ ተመስገን"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "ብሩክ ፈለቀ ዳኜ"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "መታሰቢያ በቀለ አየለ"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "ፈውዛ ሙስጠፋ ሀቢብ"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "መስከረም ተክለሀይማኖት ግርማይ"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "አይናለም ተክሌ ጥላሁን"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "ፍሬ ጥበቡ ባያብል"
+    },
+    {
+      "region": "",
+      "constituency": "04 ቀበሌ",
+      "candidate": "አብዱልጀዋድ መሀመድ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ሮቤል ጌታቸው ውብሸት"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ቤዛ ዳምጠው ሀይሌ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "አያሌውሽም መንግስቱ አስረስ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ስንታየሁ ማሞ ቸርነት"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ኢሳያስ ደበል ገላን"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ሰናይት ወጊዱ ወንድሙ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ኤደን ዘመድኩን አብርሃ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ዝናቧ ነጋደ ሀይሉ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ተሾመ አበበ አዱኛ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ዘለቀ አባተ ጅሎ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ሐዋዝ ዘመድኩን ገብረየስ"
+    },
+    {
+      "region": "",
+      "constituency": "05 ቀበሌ",
+      "candidate": "ገዛኸኝ ባልቻ ተስፋዬ"
+    }
+  ]
+}

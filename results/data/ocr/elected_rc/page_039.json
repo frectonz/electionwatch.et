@@ -1,0 +1,228 @@
+{
+  "pdf": "elected_rc",
+  "page": 39,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ማህበር ኮር ኪየር"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ቢያ ቶክ ዋት"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ሜይ ኞት ብቾክ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጆን ቾል ጋትሉዋክ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኛኩዌት ዶሉት ምዮንግ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኡሞድ ኡጋር ኡኩኖ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኡቱቲ ኤጌድ አቻኔ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኡሞድ ኡማን አብኖ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ቻም አብንግ ቻም"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኮንግ ቾል ውል"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አጅሉ አሙሉ ኢቻንግ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጁሙስ ኞች አባንባን"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኞን ቾል ሉዋል"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "አኬሎ አዋር ኢቻላ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ቦል ጎኝ ቦንኪር"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "መፅናናት ኩላ ነፃነት"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኛኮኒ ጆክ ጎርባ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኡቹኒ አፓይ አንድረስ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ኮንግ ያት ኛንግ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጁል ናንጋል ዶል"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ኢታንግ",
+      "candidate": "ጆን ጋደባንግ ቢያይ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ደቪድ ሯች ታንገ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጀምስ ዴንግ ቾል"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ቸንኩት ዴቪድ ዴቪት"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኡላንግ ጋች ጉር"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "በምኩት ፓምሞ ጋት"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ሞክ ቱት ጋር"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ዩክ ቾት ቶሃን"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ላም ታንገ ዚያች"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ታን ጋች ቢያይ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኛቶክ ቱት ኮር"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ኛሊዊት ፖል ጉክ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጀማይዲን ከበደ መሐመድ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ከበ ቴር ፊት"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዋንቱዋር",
+      "candidate": "ጋትሉዋክ ጋትበል ቱት"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አምቢበል ሀይሌ ጊዮርጊስ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ኡቶር ኡኩጉ ኡጁሉ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አጁሉ ባይክ አበላ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አበንጋ ኡጋል ኡማን"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ጊሎ ኡሞድ ኡቆው"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "አጁሉ ሜዶ ቻም"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ቶር ኡዳንግ ኡሞድ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ኡባንግ ኡጁሉ አበላ"
+    },
+    {
+      "region": "ጋምቤላ",
+      "constituency": "ዲማ",
+      "candidate": "ኡማን አሙሉ አኩዋይ"
+    }
+  ]
+}

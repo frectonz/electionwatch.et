@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 128,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "አስናቀ ቦጋለ ሀይሌ",
+      "votes": 1394
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ዘላለም ተሾመ አቡዬ",
+      "votes": 1334
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "አለሽኝ ወንድሙ ወልዴ",
+      "votes": 1279
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ምዓዛ ንጉሴ ዘለቀ",
+      "votes": 1208
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "አዲስዓለም ከንፌ ገመቹ",
+      "votes": 1207
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ቤቴልሔም ቆጭቶ አላቶ",
+      "votes": 1178
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ታርኳ ቡሾ ደበሮ",
+      "votes": 1141
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "በዝናሽ በዛብህ ሾቦ",
+      "votes": 1140
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ምህረት አባቡ በረሄ",
+      "votes": 1106
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ደብሪቱ አለሙ ገብረስላሴ",
+      "votes": 958
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ፋጡማ አባመጫ አባቡልጉ",
+      "votes": 907
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ባንቻየሁ ግርማ ወዳጆ",
+      "votes": 745
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "አግቶ አበራ ወልደሚካኤል",
+      "votes": 689
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ሙሉቀን አደመ ሀይሌ",
+      "votes": 673
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ኤርሚያስ ፍሬው መጫ",
+      "votes": 594
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ታየች በቀለ ኡታ",
+      "votes": 586
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ሚኪያሰ ወንድወሰን ተረፈ",
+      "votes": 543
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "አቤኔዘር መለሰ ገብረማሪያም",
+      "votes": 422
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "አፈወርቅ አደመ ገብሬ",
+      "votes": 404
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ጊምቦ",
+      "candidate": "ሀይማኖት ግርማ ገብረፃዲቅ",
+      "votes": 360
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አባተ ኡቃ ካንፌሶ",
+      "votes": 32340
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ኢዮብ ቶማስ ጎበና",
+      "votes": 31509
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አንድነት አሸናፊ ቢካርዶ",
+      "votes": 31137
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ዉለታዉ ተስፋዬ ጣሔ",
+      "votes": 30888
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አስቴር ክፍታው ዳቹ",
+      "votes": 30394
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሙሉነሽ ከበደ ደሮታ",
+      "votes": 30389
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተክሌ በዛብህ ባቡ",
+      "votes": 30344
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሰኔሲል አስፋው አንቃሼ",
+      "votes": 30229
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "መብራቱ ሰህነ በቀለ",
+      "votes": 29873
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ለገሰ አመሌ አልካሳ",
+      "votes": 12257
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ወንዱ ወጄ አናሹ",
+      "votes": 12246
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ግርማ ወልደሚካኤል ተፈራ",
+      "votes": 12098
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ዳንኤል ዋንታላ ቡርጁ",
+      "votes": 12079
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "በላይነህ በዛብህ ባፌ",
+      "votes": 11816
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተክሌ በላቸው ሉጎ",
+      "votes": 11720
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አበበ ግንባቶ ድልቦ",
+      "votes": 11402
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሰብለወንገል ዳንኤል ዳናቶ",
+      "votes": 11253
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ታረቀኝ አባዬ አላንቼ",
+      "votes": 11203
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "መርከኔ መድህን መንገሻ",
+      "votes": 10591
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ብቃሙ ብርሃኑ ብብሶ",
+      "votes": 2323
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተስፋዬ ኩማ በልኤ",
+      "votes": 1970
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ጥሩነሽ ለማ ኬቱ",
+      "votes": 1883
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ዳመነ ደምሴ ላንገና",
+      "votes": 1836
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አስናቀች ተሰማ ጫክሶ",
+      "votes": 1813
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ኡቴ ማሞ መኩሪያ",
+      "votes": 1800
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ዮሴፍ ግንባቶ ብሉቴ",
+      "votes": 1756
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አንበሰው ሀይሉ ጦፋ",
+      "votes": 1709
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ዘካሪያስ ዱማሞ ዳባሴ",
+      "votes": 1691
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ወልደማሪያም ካሳ በቀለ",
+      "votes": 1685
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አወል ኬድር አሊ",
+      "votes": 1641
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ደምሴ ደምጤ ዳናዬ",
+      "votes": 1617
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ሙሉጌታ በቀለ ባሹ",
+      "votes": 1530
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ጮሞቦሎ ጮሎ ጮራሞ",
+      "votes": 1287
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ታዬ ታደሰ ጫፌ",
+      "votes": 1212
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተስፋዬ ተሰማ ደቻሣ",
+      "votes": 1161
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አየለ አባቴ አቶሮ",
+      "votes": 1157
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "በቀለ ተክለ በታሎ",
+      "votes": 1012
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ማቴዎስ ማዳ መሳና",
+      "votes": 994
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "ተመስገን ወልዴ ባኩ",
+      "votes": 980
+    },
+    {
+      "region": "ደቡብ ምዕራብ ኢትዮጵያ",
+      "constituency": "ሎማ ቦሳ",
+      "candidate": "አሰፋ አምጄ አምፌ",
+      "votes": 409
+    }
+  ]
+}

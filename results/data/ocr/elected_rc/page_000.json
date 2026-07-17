@@ -1,0 +1,188 @@
+{
+  "pdf": "elected_rc",
+  "page": 0,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "አርዲን በድሪ ሀምደኝ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ካሊድ አልዋን ኢሳቅ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ሙክታር ሳሊህ ኢብራሂም"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "አሚና አብዱልከሪም መሐመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "አሪፍ መሀመድ አዱስ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "አብዱልሐኪም ኡመር አብራሂም"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ሙህዲን አህመድ ሐሰን"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ኢሪት በርከድሌ አሊ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "መሊካ ዘካሪያ አቡበከር"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ሀምዲ ሰለሃዲን አብዱልዋሲ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "አይማን መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ነቢል ዩሱፍ አብራሂም"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "ሃሰነት ሙጫ አብዱልአዚዝ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ልዩ",
+      "candidate": "አብዱልሀሪዝ አህመድ አብዲሱብሀን"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል መደበኛ",
+      "candidate": "ተወለዳ አብዶሽ አህመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል መደበኛ",
+      "candidate": "ነቢላ መህዲ ኢድሪስ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል መደበኛ",
+      "candidate": "ዚነት ዩሱፍ መሀመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል መደበኛ",
+      "candidate": "ጆርዳን ሊሳቅ መሀመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ሱልጣን አብዱሰላም አህምድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ቶፊቅ መሀመድ ዩዮ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ፈርሃን ዚያድ አብዲ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ኢክራም አብዱልቃድር አህመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "አንዋር ሸምሸዲን መሀመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ፈቲያ ሳኒ አብሮ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ጃፈር ሱፊያን አብራሂም"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ከዲጃ በከር አህመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ኢበሳ አብራሂም አብዱላሂ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ኪያር እስማኤል ዩሱፍ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ኢፍቱ ተስፋዬ ዲባባ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "አሻ አሊ አደም"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ሙስጠፋ ኤሊያስ ሙመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ረሃ ፋአድ አብዱረህማን"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ኡስማኤል ዩሱፍ አህመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ያሲን አብዱላሂ ኡስማን"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ጀማል አባሮ አህመድ"
+    },
+    {
+      "region": "ሀረሪ",
+      "constituency": "ጅጎል ዙሪያ እና ሁንዴኔ",
+      "candidate": "ሁሴን ሱሌማን አብሮ"
+    }
+  ]
+}

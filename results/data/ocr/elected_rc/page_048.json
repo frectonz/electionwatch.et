@@ -1,0 +1,203 @@
+{
+  "pdf": "elected_rc",
+  "page": 48,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አድሪስ መሀመድ አብዱልሃዲ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አብዱልዋሂድ አዙቤር አብዱላሂ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ጃፈር አኑር ሃሊድ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ታረቀኝ ታሲሳ ብድቃ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "አልሀጃ መሀመድ ሃሚድ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ዘይኑበ አልፈኪ አሊ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሙባረክ አሣብር ሙባረክ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ሐጅራ ኢብራሂም አቡልሀሰን"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ዳዉድ አልማሃዲ አሊ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ፍጡማ መሀመድ ኢብራሂም"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ባምባሲ",
+      "candidate": "ተመስጌን ኃይሉ አያሌው"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አብዱልሙንየም አልበሽር አህመድ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሁዳ ከድር አህመድ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ከልቱም ባበክር አብዱረሂም"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አንጻርጋቸው ሞላ ተመስጌን"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ባበክር ሀሊፋ አብደላ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አሙና አብዱልዋሂድ ዩሱፍ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ኤልያስ አብዲን ኡትማን"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሀስኒያ ሱሌማን ሙሳ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ትዕግስት ቤኛ ጎበና"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ዩኑስ አብዱላሂ አብዱረሂም"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሙሳ ሀይደር አደም"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "አህመድ አልሀሰን ሀሊፋ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "አሶሳ",
+      "candidate": "ሙጃሂድ ቢላል ወርቁ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "ብድጋ ባሪያ ኩቺ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "ገ ርቢ አሻካ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "ደረጀ ቀረንሳ በራና"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "ሙሉነሽ ዘዉዴ ባዮራ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "ጌጤ ቄሶ ለበታ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ከማሺ",
+      "candidate": "ዮሴፍ አንጃፋ መንገሻ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "መሀመድ አብዱላዚዝ አኑር"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ከማል መሀመድ ሆጀሌ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ኡመር አብዱልቃድር አፋዲ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "መሀመድ አልማሂ ኡትማን"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "አልወያ ሃሚድ ሰሌማን"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ተወፊቅ አብዱልቀዩም አብዱልጀሊል"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "አብዱልሙእሚን አደም ሀሚስ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ራህሃ ረዘቅ አብደላ"
+    },
+    {
+      "region": "ቤኒሻንጉል ጉሙዝ",
+      "constituency": "ኩርሙክ",
+      "candidate": "ሀሊል አርባብ ሀሚስ"
+    }
+  ]
+}

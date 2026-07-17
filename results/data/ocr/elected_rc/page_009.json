@@ -1,0 +1,218 @@
+{
+  "pdf": "elected_rc",
+  "page": 9,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "ሙክታር አህመድ አብዱላህ"
+    },
+    {
+      "region": "",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "መሃመድ መሃሙድ አዳን"
+    },
+    {
+      "region": "",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "ኢፊቴና ፋራ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ፊልቱ / Fiiltu",
+      "candidate": "አባህ አብዱላሂ ኢሳቅ"
+    },
+    {
+      "region": "",
+      "constituency": "ፊቅ / Fiiq",
+      "candidate": "አሊ በደል ሙሁመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ፊቅ / Fiiq",
+      "candidate": "ሡልጣን ወሊ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ፊቅ / Fiiq",
+      "candidate": "ሙክታር አብዲ መዕሊን"
+    },
+    {
+      "region": "",
+      "constituency": "ፊቅ / Fiiq",
+      "candidate": "ከሊፍ ወሊ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋሻሞ / Gaashaamo",
+      "candidate": "ወርሰን አወል ሙሁመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋሻሞ / Gaashaamo",
+      "candidate": "አብዲሃፊድ አሊ አብድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጋሻሞ / Gaashaamo",
+      "candidate": "አብዲስታር አህመድ ኢንዲቡር"
+    },
+    {
+      "region": "",
+      "constituency": "ገላዲን / Galaadin",
+      "candidate": "ጀበርቲ አማር ኖር"
+    },
+    {
+      "region": "",
+      "constituency": "ገላዲን / Galaadin",
+      "candidate": "አብዲራህማን ኑር መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ገላዲን / Galaadin",
+      "candidate": "ነኢሞ መሀመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ገላዲን / Galaadin",
+      "candidate": "አብዱላሂ ዲቅ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ገርቦ / Garbo",
+      "candidate": "መሃመድ አብዲ ባራህ"
+    },
+    {
+      "region": "",
+      "constituency": "ገርቦ / Garbo",
+      "candidate": "ሱሌካ ኑር መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ገርቦ / Garbo",
+      "candidate": "አህመድ አብዱላሂ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ / Goday",
+      "candidate": "መሀመድ አመሮ አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ / Goday",
+      "candidate": "ፈርዳውስ ረሺድ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ / Goday",
+      "candidate": "ፋርቱን አብዲ መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎዴ / Goday",
+      "candidate": "መሀሙድ አብዲላሂ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎልጃኖ / Goljano",
+      "candidate": "ለይላ አህመድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎልጃኖ / Goljano",
+      "candidate": "መሀመድ አያንሌ ማህር"
+    },
+    {
+      "region": "",
+      "constituency": "ጎልጃኖ / Goljano",
+      "candidate": "ኢፍራህ አብዱላሂ አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጎልጃኖ / Goljano",
+      "candidate": "ንማአን መሃመድ ሀሰን"
+    },
+    {
+      "region": "",
+      "constituency": "ጉኖጎዶ / Gunagado",
+      "candidate": "አህመድ ሁሴን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉኖጎዶ / Gunagado",
+      "candidate": "አብዱላሂ መሀመድ ኢስማኤል"
+    },
+    {
+      "region": "",
+      "constituency": "ጉኖጎዶ / Gunagado",
+      "candidate": "አህመድ አር አብዱላሂ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉራዳሞሌ / Guradhamoole",
+      "candidate": "አብዲቃድር ረሺድ ዱአሌ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉራዳሞሌ / Guradhamoole",
+      "candidate": "መሀመድ ሸቅሌ ጃማ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉራዳሞሌ / Guradhamoole",
+      "candidate": "አብዱላሂ ረሺድ አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉርሱም / Gursum",
+      "candidate": "ከውሰር አብዱላሂ ኬኔዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉርሱም / Gursum",
+      "candidate": "ከድር አህመድኑር አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ጉርሱም / Gursum",
+      "candidate": "አብዲ አደን አብዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁደት / Hudhet",
+      "candidate": "ኢብራሂም ሀሰን አሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁደት / Hudhet",
+      "candidate": "መሪየም ኩሎው ሰሞ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁደት / Hudhet",
+      "candidate": "አብዲ ሼክሁሴን ዮኒስ"
+    },
+    {
+      "region": "",
+      "constituency": "ሁደት / Hudhet",
+      "candidate": "አብዱላሂ መሃመድ ኢሳቅ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨረቲ / Jarati",
+      "candidate": "ላይላ አብዲ ጃማ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨረቲ / Jarati",
+      "candidate": "አህመድ አብዱላሂ ሀሺ"
+    },
+    {
+      "region": "",
+      "constituency": "ጨረቲ / Jarati",
+      "candidate": "መሀመድ አልሞን ቡልሀን"
+    }
+  ]
+}

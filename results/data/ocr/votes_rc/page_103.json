@@ -1,0 +1,368 @@
+{
+  "pdf": "votes_rc",
+  "page": 103,
+  "pages": 137,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሚስጥረ ተክለብርሃን በየነ",
+      "votes": 3062
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አበያ ያንዶ ነነዎ",
+      "votes": 3002
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ውብዓለም ገላው ብርሃኑ",
+      "votes": 2980
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ወይንሸት ሰንሰ አብዲ",
+      "votes": 2966
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ደሞዝ ኃይለሚካኤል ግዛው",
+      "votes": 2437
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "መኳንንት ገብረሚካኤል ወልዱ",
+      "votes": 2414
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አትገኩት መኮነን ፍቃዱ",
+      "votes": 2379
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ትዕግስት አበበ ብሩ",
+      "votes": 2327
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሐሊ ሙዘይን ባዲቦ",
+      "votes": 2202
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "እሸቱ አሰራት አድጎ",
+      "votes": 2139
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "አብነት ካሱ አበቤ",
+      "votes": 2098
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ሶስና ጸጋዬ አሰፋው",
+      "votes": 1854
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ካሳዬ ምትኩ መኮንን",
+      "votes": 1728
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ታከለ ቡሼ አናሮ",
+      "votes": 1687
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "አዲስ ከተማ",
+      "candidate": "ናኦል ምትኩ ማሞ",
+      "votes": 1635
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ፈዲሳ ቢያ አባመጫ",
+      "votes": 118159
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መሀበብ ሰይድ አብደላ",
+      "votes": 117109
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሙሀዲን ረሻድ ጀማል",
+      "votes": 115557
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መልዛ መንግስቱ ቤንባዎ",
+      "votes": 114744
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አብይ ይልማ አዝጌ",
+      "votes": 114416
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "የሺ ወልዴ ይመር",
+      "votes": 114203
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቴዎድሮስ ወልደሚካኤል ሻእመሎ",
+      "votes": 113255
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቅድስት ወልደጊዮርጊስ ወልደኪዳን",
+      "votes": 112278
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ኢዘዲን ሙስባህ ኡልቴጋ",
+      "votes": 111991
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ገዛኸኝ ዴሲሳ ወጄ",
+      "votes": 109616
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መኮንን ገበ አንገሎ",
+      "votes": 108205
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ፀሐይ ጌታሁን በላቸው",
+      "votes": 107672
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሐና አረጋዊሥላሴ ዘሚካኤል",
+      "votes": 107019
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መሰረት ጌታቸው ግዛው",
+      "votes": 31760
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አርዳኝ አሰፋ ሾሬ",
+      "votes": 30973
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቶሬቅ ሸውሞሎ ሹራላ",
+      "votes": 30534
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አዳነች ዳዲ ቶላ",
+      "votes": 29855
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መሠረት አብርሃም ይርዳው",
+      "votes": 29413
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ኢዮብ ተገኔ ጉግሳ",
+      "votes": 28989
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ታዬ ሽመልስ ዋስልኝ",
+      "votes": 28862
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሚካኤል አብርሀም በቀለ",
+      "votes": 28111
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ምትኩ አሰፋው ፋርሰው",
+      "votes": 27862
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "መዳና ካሚል በድሩ",
+      "votes": 26526
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ፈይሰል ጀማል ሰይድ",
+      "votes": 26446
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሙሐመድ አያሌው አብድሬ",
+      "votes": 26125
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሲሳይ ኃይሉ ነስማነ",
+      "votes": 26000
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሙናዬ ሻረ ቡኬር",
+      "votes": 25580
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ራሂያ ሳዲቅ ጀማል",
+      "votes": 25171
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አብዮት ለማ ጉተማ",
+      "votes": 24025
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አሸቱ ይትባረክ አለነ",
+      "votes": 23854
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ስዩም አበበ አበጋዝ",
+      "votes": 23593
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አህመድ አልይ ሼከና",
+      "votes": 22976
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሙጂብ በድሩ ኡስማን",
+      "votes": 22914
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ዘርይሁን ደያ ምኒስ",
+      "votes": 22881
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሰናይት ጋሻው ካሳው",
+      "votes": 22431
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ተሾመ እምቶ ወልደማርያም",
+      "votes": 21607
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሸምሰዲን ዓብዱራሕማን ኢማም",
+      "votes": 21402
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሰይዳ አሊ ኑርሁሴን",
+      "votes": 20950
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "አንዋር ጀማል ሙሀመድ",
+      "votes": 20784
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ሚፍታ ከድር አወል",
+      "votes": 20454
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ማሔ ሰንዶ ቶንቼ",
+      "votes": 19939
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ኑርሁሴን ደላሰኝ ማሬ",
+      "votes": 19880
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ጌትነት ገበቶ አደሬ",
+      "votes": 19183
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ቀለመወርቅ ወርቃየሁ ንጉሴ",
+      "votes": 17584
+    },
+    {
+      "region": "አዲስ አበባ",
+      "constituency": "ኮልፌ ቀራኒዮ",
+      "candidate": "ኑሪያ አላዊ ሀዳር",
+      "votes": 16768
+    }
+  ]
+}

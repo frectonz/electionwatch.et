@@ -1,0 +1,208 @@
+{
+  "pdf": "elected_rc",
+  "page": 47,
+  "pages": 64,
+  "model": "gemini-3.1-pro-preview",
+  "rows": [
+    {
+      "region": "",
+      "constituency": "ምሻጋ",
+      "candidate": "ጌታሁን አብዲሣ ሌንጫ"
+    },
+    {
+      "region": "",
+      "constituency": "ምሻጋ",
+      "candidate": "አበራሽ ደጃሰ ቴቶ"
+    },
+    {
+      "region": "",
+      "constituency": "ምሻጋ",
+      "candidate": "አበራ ባይታ ቲባ"
+    },
+    {
+      "region": "",
+      "constituency": "ምሻጋ",
+      "candidate": "ምትኩ ናኖ ሳፋ"
+    },
+    {
+      "region": "",
+      "constituency": "ምሻጋ",
+      "candidate": "ታደሰ ዴሬሳ አባዶሼ"
+    },
+    {
+      "region": "",
+      "constituency": "ምሻጋ",
+      "candidate": "ጥበቡ ታምሩ ዱላ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰዳል",
+      "candidate": "ቢኒያም መንገሻ ፊምጨ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰዳል",
+      "candidate": "እስፓኮ ጨጨቋ በላቸው"
+    },
+    {
+      "region": "",
+      "constituency": "ሰዳል",
+      "candidate": "አደመ ሊካሳ አባንዳሬ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰዳል",
+      "candidate": "ሀዋ ጃለታ መርዳሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ሰዳል",
+      "candidate": "ዋየሰ ካሳ ጀናር"
+    },
+    {
+      "region": "",
+      "constituency": "ሰዳል",
+      "candidate": "መገርሳ ልካሳ ባዝጉም"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አስር ኢብራሂም አሻድሊ"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አጀሊ ሙሳ አቶም"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ናስር መሀመድ አልመኪ"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አሰማኒ ሀሰን መሀሙድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ስሌማን አቡጀድ አቁሸን"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ከማል አልያስ ድርድር"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "መሪየም አብዱራህማን አህመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "ፋጥና ሀሊፋ ኢብራሂም"
+    },
+    {
+      "region": "",
+      "constituency": "ሸርቆሌ",
+      "candidate": "አብዱራሂም በዱዊ ጅማ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ተመስገን ዲሳሳ ጣሩ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ስንቄ ተፈራ ፍሬው"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "አስካለት አልቦሮ ዲባባ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ሐብታሙ አለነ በማንጀ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "አመኝቴ ገሺ ተፈራ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ሺበሺ ባሬዳ ዳንጎ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ቢኒያም ጃንዶ ወድም"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ጌታቸው ወዲሻ ጊሻዲ"
+    },
+    {
+      "region": "",
+      "constituency": "ቡለን",
+      "candidate": "ቀልቤሳ አምሳለታ ዘልቆ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "አሻደሊ ሃሰን አልአጅብ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "ሀድራ ኢብራሂም መሀመድ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "በከሪ አብዱላሂ ቶሬን"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "አብዱላላም ኢብራሂም አሸፊ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "አቡልቃሲም ኡሱማን አሚር"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "ሙክታር አብዱላሂ ኢሳ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "ሰሉዋ ኡመር ቁርጣ"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "በዱር ሀድሮ ዘለበዲን"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "ዘሃሪያ ስቢት ጅቡናር"
+    },
+    {
+      "region": "",
+      "constituency": "ቤልዲግሉ",
+      "candidate": "ነዋለ አሊ ኢብራሂም"
+    }
+  ]
+}
