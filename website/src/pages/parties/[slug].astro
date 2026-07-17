@@ -12,7 +12,8 @@ import {
 import { partyByProfileSlug, partyUrlSlug } from "@/data/candidates";
 import { slugifyTopic, fmt } from "@/lib/format";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
-import { MessagesSquare, Quote, Users } from "@lucide/astro";
+import { MessagesSquare, Quote, Users, Vote } from "@lucide/astro";
+import { partyResults, partyResultHref } from "@/data/results";
 
 export function getStaticPaths() {
   return allParties.map((p) => ({ params: { slug: p.slug } }));
@@ -27,6 +28,8 @@ if (!party) {
 const partyDebates = allDebates.filter((d) =>
   d.meta.parties.some((p) => p.slug === slug),
 );
+
+const result = partyResults.find((r) => r.profileSlug === slug) ?? null;
 
 // The first debate the party appeared in, shown in the player by default
 // instead of an empty placeholder.
@@ -89,6 +92,18 @@ const candidateParty = partyByProfileSlug.get(slug);
           >
             <Users class="w-4 h-4" />
             {fmt(candidateParty.candidates)} candidates running &rsaquo;
+          </a>
+        )
+      }
+      {
+        result && (
+          <a
+            href={partyResultHref(result)}
+            class="inline-flex items-center gap-1.5 text-ew-shell hover:text-ew-gold font-medium"
+          >
+            <Vote class="w-4 h-4" />
+            {fmt(result.seats)}
+            {result.seats === 1 ? "seat" : "seats"} won &rsaquo;
           </a>
         )
       }

@@ -22,7 +22,8 @@ import DataGrid, {
   type GridColumn,
   type GridRow,
 } from "@/components/DataGrid.astro";
-import { ArrowRight, MessageSquareQuote, MapPin } from "@lucide/astro";
+import { ArrowRight, MessageSquareQuote, MapPin, Vote } from "@lucide/astro";
+import { partyResults, partyResultHref } from "@/data/results";
 
 type ContestedRow = {
   region: string;
@@ -81,6 +82,8 @@ const { party, candidates, contested } = Astro.props as {
 };
 const HOPR = BALLOT_COLORS.hopr;
 const RC = BALLOT_COLORS.rc;
+
+const result = partyResults.find((r) => r.partySlug === party.slug) ?? null;
 
 const female = candidates.filter((c) => c.gender === "Female").length;
 const disabled = candidates.filter((c) => c.disability).length;
@@ -190,6 +193,19 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
             <MapPin class="w-3.5 h-3.5 text-ew-text-muted" />
             {fmt(totalStations)} polling stations across its constituencies
           </span>
+        )
+      }
+      {
+        result && (
+          <a
+            href={partyResultHref(result)}
+            class="inline-flex items-center gap-1.5 text-ew-shell hover:text-ew-gold font-medium"
+          >
+            <Vote class="w-4 h-4" />
+            {fmt(result.seats)}
+            {result.seats === 1 ? "seat" : "seats"} won in the results
+            <ArrowRight class="w-3.5 h-3.5" />
+          </a>
         )
       }
       {
