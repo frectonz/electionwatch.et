@@ -199,8 +199,6 @@ const legend = [
         )) as MapData;
         const points = data.points;
         const { hoprC, rcC } = data;
-        const bounds = new LngLatBounds();
-        for (const [lat, lon] of points) bounds.extend([lon, lat]);
 
         const fc: GeoJSON.FeatureCollection = {
           type: "FeatureCollection",
@@ -238,8 +236,20 @@ const legend = [
           ),
         };
 
-        if (cfg.fitData && !bounds.isEmpty()) {
-          map.fitBounds(bounds, { padding: 40, maxZoom: 11, duration: 0 });
+        if (cfg.fitData && points.length) {
+          // Frame the dense core (2nd-98th percentile) so a handful of remote
+          // stations don't push the whole region far out.
+          const q = (vals: number[], f: number) => {
+            const s = [...vals].sort((a, b) => a - b);
+            return s[Math.floor(f * (s.length - 1))];
+          };
+          const lats = points.map((p) => p[0]);
+          const lons = points.map((p) => p[1]);
+          const bounds = new LngLatBounds(
+            [q(lons, 0.02), q(lats, 0.02)],
+            [q(lons, 0.98), q(lats, 0.98)],
+          );
+          map.fitBounds(bounds, { padding: 32, maxZoom: 11, duration: 0 });
         }
 
         map.addSource("st", { type: "geojson", data: fc });
