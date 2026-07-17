@@ -106,7 +106,7 @@ const innerStyle = minWidth ? `min-width:${minWidth}` : "";
           filterOptions[i] && filterOptions[i]!.length > 1 ? (
             <select
               data-filter={String(i)}
-              class="bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50 max-w-[200px]"
+              class="flex-1 min-w-[140px] sm:flex-initial bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50 max-w-[200px]"
             >
               <option value="">All {col.label.toLowerCase()}</option>
               {filterOptions[i]!.map((v) => (
@@ -118,7 +118,7 @@ const innerStyle = minWidth ? `min-width:${minWidth}` : "";
         {sortableCols.length > 0 && (
           <select
             data-sort-select
-            class="sm:hidden bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50"
+            class="sm:hidden flex-1 min-w-[140px] max-w-[200px] bg-ew-card border border-ew-card-border rounded-lg h-10 px-3 text-sm text-ew-text-dim focus:outline-none focus:border-ew-shell/50"
           >
             <option value="">Sort by…</option>
             {sortableCols.map(({ c, i }) => (
