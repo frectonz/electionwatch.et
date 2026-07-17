@@ -272,8 +272,8 @@ export function winnersByConstituency(body: Body): Map<string, PartyResult> {
   const out = new Map<string, PartyResult>();
   for (const row of resultsElected[body]) {
     if (!row.constituency_slug) continue;
-    const key = row.party_slug ?? row.party;
-    const party = key ? partyResultByKey.get(key) : undefined;
+    // partyOfSlug so an independent's "party-25" slug reaches the pooled entry.
+    const party = partyOfSlug(row.party_slug ?? row.party);
     if (party) out.set(row.constituency_slug, party);
   }
   return out;
