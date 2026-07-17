@@ -23,7 +23,13 @@ import {
   type Race,
 } from "@/data/results";
 import { candidateRegions, type Body } from "@/data/candidates";
-import { fmt, pct, LEADER_COLOR, CHALLENGER_COLOR } from "@/lib/format";
+import {
+  fmt,
+  pct,
+  shareLabel,
+  LEADER_COLOR,
+  CHALLENGER_COLOR,
+} from "@/lib/format";
 import { ArrowRight } from "@lucide/astro";
 
 const BALLOTS: Body[] = ["hopr", "rc"];
@@ -302,8 +308,7 @@ const regionRows: GridRow[] = candidateRegions
       <BallotToggle target="people" />
     </div>
     <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
-      Gender and disability of the elected members, as recorded on their
-      candidate registrations.
+      Counted from each elected member's entry in the candidate register.
     </p>
     {
       BALLOTS.map((b) => {
@@ -319,17 +324,17 @@ const regionRows: GridRow[] = candidateRegions
                 {
                   label: "Women elected",
                   value: fmt(d.women),
-                  sub: `${pct(d.women, d.matched)}% of members`,
+                  sub: `${shareLabel(d.women, d.matched)}% of members`,
                 },
                 {
                   label: "Men elected",
                   value: fmt(d.men),
-                  sub: `${pct(d.men, d.matched)}% of members`,
+                  sub: `${shareLabel(d.men, d.matched)}% of members`,
                 },
                 {
                   label: "With a disability",
                   value: fmt(d.disabled),
-                  sub: `${pct(d.disabled, d.matched)}% of members`,
+                  sub: `${shareLabel(d.disabled, d.matched)}% of members`,
                 },
               ]}
               class="grid grid-cols-2 sm:grid-cols-3 gap-4"
