@@ -117,7 +117,7 @@ const glyphs = Array.from({ length: 150 }, () => {
       })}
     />
     <slot name="head" />
-    {import.meta.env.PROD && <script is:inline src="/registerSW.js" />}
+    {import.meta.env.PROD && <script is:inline defer src="/registerSW.js" />}
   </head>
   <body
     class="bg-ew-bg font-body min-h-screen flex flex-col antialiased relative"
@@ -155,23 +155,23 @@ const glyphs = Array.from({ length: 150 }, () => {
         <div class="flex items-center gap-3 sm:gap-5 text-sm">
           <a href="/" class={navLink("/")}>
             <House class="w-4 h-4" />
-            <span class="hidden sm:inline">Home</span>
+            <span class="sr-only sm:not-sr-only">Home</span>
           </a>
           <a href="/results" class={navLink("/results")}>
             <ChartColumn class="w-4 h-4" />
-            <span class="hidden sm:inline">Results</span>
+            <span class="sr-only sm:not-sr-only">Results</span>
           </a>
           <a href="/data" class={navLink("/data")}>
             <Database class="w-4 h-4" />
-            <span class="hidden sm:inline">Data</span>
+            <span class="sr-only sm:not-sr-only">Data</span>
           </a>
           <a href="/parties" class={navLink("/parties")}>
             <Landmark class="w-4 h-4" />
-            <span class="hidden sm:inline">Parties</span>
+            <span class="sr-only sm:not-sr-only">Parties</span>
           </a>
           <a href="/about" class={navLink("/about")}>
             <Info class="w-4 h-4" />
-            <span class="hidden sm:inline">About</span>
+            <span class="sr-only sm:not-sr-only">About</span>
           </a>
           <a
             href="https://github.com/frectonz/electionwatch.et"
@@ -181,7 +181,7 @@ const glyphs = Array.from({ length: 150 }, () => {
             aria-label="Source code on GitHub"
           >
             <Icon name="simple-icons:github" class="w-4 h-4" />
-            <span class="hidden sm:inline">GitHub</span>
+            <span class="sr-only sm:not-sr-only">GitHub</span>
           </a>
         </div>
       </div>
