@@ -18,9 +18,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሀመዴሮ ምርጫ ጣቢያ ሀመዴሮ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.453675,
+    "longitude": 40.80819,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -42,9 +42,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ሀመዴሮ ምርጫ ጣቢያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.453675,
+    "longitude": 40.80819,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -3906,9 +3906,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ኣደይቱ ኢና ኣባኮ ምርጫ ጣቢያ አበባኮ -ለ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.25123,
+    "longitude": 40.3699,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -3930,9 +3930,9 @@
     "polling_station_id": "6",
     "ps_type": 1,
     "name": "ኣደይቱ ኢና ኣባኮ ምርጫ ጣቢያ ዳኒ ዳባ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.25123,
+    "longitude": 40.3699,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -10914,9 +10914,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቀበሌ02 ምርጫ ጣብያ አንጋላሌ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.604618,
+    "longitude": 40.01811,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -10938,9 +10938,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቀበሌ03 ምርጫ ጣብያ ማዲያ ሃፋታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.604618,
+    "longitude": 40.01811,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -11394,9 +11394,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዳትሃራሊ ምርጫ ጣብያ ደርዕብ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.604618,
+    "longitude": 40.01811,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -11418,9 +11418,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ዳትሃራሊ ምርጫ ጣብያ አሞ ስታሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.604618,
+    "longitude": 40.01811,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -11442,9 +11442,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ዳትሃራሊ ምርጫ ጣብያ ሳካይ ቡሩ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.604618,
+    "longitude": 40.01811,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -12522,9 +12522,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሊደዳና ማአባሌ ምርጫ ጣቢያ ሲደዱ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 12.985124,
+    "longitude": 41.51453,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -12546,9 +12546,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሚንዲግና ምርጫ ጣቢያ ግሪፎ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 12.985124,
+    "longitude": 41.51453,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -12906,9 +12906,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ታትአሊና አርቢ ምርጫ ጣቢያ ኘተትአሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 12.985124,
+    "longitude": 41.51453,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -12978,9 +12978,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አሣቡይና ዳረቦ ምርጫ ጣቢያ አሣቡይ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 12.985124,
+    "longitude": 41.51453,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -13218,9 +13218,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዳይቡር ምርጫ ጣቢያ ሚንዲግ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 12.985124,
+    "longitude": 41.51453,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -14418,9 +14418,9 @@
     "polling_station_id": "6",
     "ps_type": 1,
     "name": "ሰበታ ደማሌ ምርጫ ጣቢያ አገልግሎት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.816669,
+    "longitude": 39.9788,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -15138,9 +15138,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ሃራማሊ ምርጫ ጣብያ ሃራማሊ ምርጫ ጣቢያ ኢብድሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.359317,
+    "longitude": 39.76719,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -15162,9 +15162,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ሃራማሊ ምርጫ ጣብያ ሃራማሊ ምርጫ ጣቢያ ኢብድሉ _2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.359317,
+    "longitude": 39.76719,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -16554,9 +16554,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ሃይተን ምርጫ ጣቢያ አብአ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.185927,
+    "longitude": 40.06566,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -18402,9 +18402,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሚንጊዕ ምርጫ ጣብያ ዋላቲ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.549755,
+    "longitude": 39.8773,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -18426,9 +18426,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሱዋን ምርጫ ጣብያ ኤላንቶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.549755,
+    "longitude": 39.8773,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -18498,9 +18498,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አድካሉ ምርጫ ጣብያ ቡያሞ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.549755,
+    "longitude": 39.8773,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -18618,9 +18618,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ያአሌ ና ዲዳዕቶ ምርጫ ጣብያ ያአሌ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.549755,
+    "longitude": 39.8773,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -18690,9 +18690,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ጉቤ ምርጫ ጣብያ ሳላሁ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.549755,
+    "longitude": 39.8773,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -18714,9 +18714,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ጋቦይታ ና ካትካቱ ምርጫ ጣብያ ጋቦይታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 13.549755,
+    "longitude": 39.8773,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -19386,9 +19386,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ባርባሪ ምርጫ ጣቢያ ባርበሪ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 14.254237,
+    "longitude": 39.86718,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -19410,9 +19410,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ባርባሪ ምርጫ ጣቢያ አብአፍ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 14.254237,
+    "longitude": 39.86718,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -19434,9 +19434,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ባርበሪ ምርጫ ጣቢያ ፍንቲ ላአሳ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 14.254237,
+    "longitude": 39.86718,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -19986,9 +19986,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "አደኩዋ ምርጫ ጣብያ ማናኪና ሴካይቶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 14.254237,
+    "longitude": 39.86718,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -20058,9 +20058,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አድ ኣሮ ምርጫ ጣብያ ማይዱባት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 14.254237,
+    "longitude": 39.86718,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -21810,9 +21810,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "የዲያራ ምርጫ ጣቢያ ደያራ 01",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.094732,
+    "longitude": 40.41986,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -22002,9 +22002,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ሲዲሃፋጌ ምርጫ ጣቢያ ሲዲሐፋጌ ቃበሌ 01የድርጅቱ ዋናው ጽ/ቤት ምር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 9.292625,
+    "longitude": 40.172675,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -23442,9 +23442,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሱባህኪሎ ምርጫ ጣብያ ጉምሩክ መስሪያ ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.992334,
+    "longitude": 40.16461,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -28674,9 +28674,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቡርቃ ምርጫ ጣቢያ ግድብ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.820903,
+    "longitude": 40.005805,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -29154,9 +29154,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አላሌሱቡላ ምርጫ ጣቢያ መስጊድ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.820903,
+    "longitude": 40.005805,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -29250,9 +29250,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኮፎቡዱድ ምርጫ ጣቢያ ሱኖታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.820903,
+    "longitude": 40.005805,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -29274,9 +29274,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ኮፎቡዱድ ምርጫ ጣቢያ ሆሮንጎግ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.820903,
+    "longitude": 40.005805,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -29418,9 +29418,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዱባ ምርጫ ጣቢያ ደጋገሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.820903,
+    "longitude": 40.005805,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -31362,9 +31362,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "የፎኪሳ ምርጫ ጣቢያ ፎኪሳ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 12.196453,
+    "longitude": 39.97302,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -32946,9 +32946,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ሆቴሞሮና ጋዲሳዳ ምርጫ ጣቢያ ነማውሳ አሞ ዱላ ደጉራ ረንዳሌ ኪራይ ቤ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 9.894755,
+    "longitude": 40.135855,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -34170,9 +34170,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሀዳ ቡታ እና ቦሎታሞ ምርጫ ጣቢያ ሀደ-ሀ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.952124,
+    "longitude": 40.2164,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -34194,9 +34194,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ሀዳ ቡታ እና ቦሎታሞ ምርጫ ጣቢያ ሀደ-ለ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.952124,
+    "longitude": 40.2164,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -34218,9 +34218,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ሀዳ ቡታ እና ቦሎታሞ ምርጫ ጣቢያ ሃይደበቴ ሀ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.952124,
+    "longitude": 40.2164,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -34242,9 +34242,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ሃዳ ቡታ ኢና ቦሎታሞ ምርጫ ጣቢያ ሂደበተ ለ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.952124,
+    "longitude": 40.2164,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -34266,9 +34266,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ሃዳ ቡታ ኢና ቦሎታሞ ምርጫ ጣቢያ ቦሎሃም",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.952124,
+    "longitude": 40.2164,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -34458,9 +34458,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "አዋሬና ነሜሌፈን ምርጫ ጣቢያ ነመሊፈን አንደኛ እና መካከለኛ ደረጃ ትም",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.952124,
+    "longitude": 40.2164,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -36786,9 +36786,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ኬኼርቱና ቱትሊ ምርጫ ጣቢያ አሳ ቦሎ ኮረብታው ላይ የኡመር ሁመድ ቤ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.742666,
+    "longitude": 40.233825,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37218,9 +37218,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ገዳንሳና ፈረስኮሪ ምርጫ ጣቢያ ዱሶይታ ውሀ ማውጫ ሶላር የአደን ሀቢብ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.742666,
+    "longitude": 40.233825,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37290,9 +37290,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ማዳጋንሌ ምርጫ ጣብያ ማዳጋንሌ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37314,9 +37314,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሲባይቢ ምርጫ ጣብያ ሲባይቢ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37338,9 +37338,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አዴሙ ምርጫ ጣብያ አዴሙ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37362,9 +37362,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኡደሌይታ ምርጫ ጣብያ ኡደሌይታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37410,9 +37410,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኩሱሪ ምርጫ ጣብያ ኩሱሪ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37434,9 +37434,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ካላሉ ምርጫ ጣብያ ካላሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37458,9 +37458,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዋህሉ ምርጫ ጣብያ ዋህሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37482,9 +37482,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዑንዳ ፎዖ ምርጫ ጣብያ ዑንዳ ፎዖ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37506,9 +37506,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዳትባሃሪ ምርጫ ጣብያ ዳትባሃሪ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37530,9 +37530,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ጊበዳሀ ምርጫ ጣብያ ጊበዳሀ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37554,9 +37554,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ፋነቲዳሂ ምርጫ ጣብያ ፋነቲዳሂ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.494863,
+    "longitude": 40.798693,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37578,9 +37578,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሚራህኩስራ ምርጫ ጣብያ ሚራህኩስራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37602,9 +37602,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ማንዳኤላ ምርጫ ጣብያ ማንዳኤላ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37626,9 +37626,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሰማድሊ ምርጫ ጣብያ ሰማድሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37650,9 +37650,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "በዳፋ ምርጫ ጣብያ በዳፋ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37674,9 +37674,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቡሮኮማ ምርጫ ጣብያ ቡሮኮማ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37698,9 +37698,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አዳዓዶ ምርጫ ጣብያ አዳዓዶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37722,9 +37722,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አዶራሳ ምርጫ ጣብያ አዶራሳ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37746,9 +37746,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኤሮሊ ምርጫ ጣብያ ኤሮሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37770,9 +37770,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኦዱ ምርጫ ጣብያ ኦዱ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37794,9 +37794,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ደሀብሊ ምርጫ ጣብያ ደሀብሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37818,9 +37818,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ጉባኮማ ምርጫ ጣብያ ጉባኮማ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37842,9 +37842,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ጋብላሊ ምርጫ ጣብያ ጋብላሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.166156,
+    "longitude": 40.629798,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37866,9 +37866,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሁሴን ኮማና ጉሁሙ ምርጫ ጣብያ ሁሴን ኮማና ጉሁሙ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37890,9 +37890,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ማናተና ሂናሉ ምርጫ ጣብያ ማናተና ሂናሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37914,9 +37914,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ማጉዳና ኢሊ ኣሌ ምርጫ ጣብያ ማጉዳና ኢሊ ኣሌ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37938,9 +37938,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቴውኦና ቤይን ዓሌ ምርጫ ጣብያ ቴውኦና ቤይን ዓሌ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37962,9 +37962,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አላየላና ሳንድ ምርጫ ጣብያ አላየላና ሳንድ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -37986,9 +37986,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኢንዲሂሳ ምርጫ ጣብያ ኢንዲሂሳ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38010,9 +38010,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኪላሉና ሀፎ ጋንታ ምርጫ ጣብያ ኪላሉና ሀፎ ጋንታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38034,9 +38034,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ካይኒኤኮማና ዲሀያ ምርጫ ጣብያ ካይኒኤኮማና ዲሀያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38058,9 +38058,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዓሰ ዓሌና አዳአዶ ምርጫ ጣብያ ዓሰ ዓሌና አዳአዶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38082,9 +38082,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዳረ ሩበሉ ምርጫ ጣብያ ዳረ ሩበሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38106,9 +38106,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዳሬየና እና ዓራነ ሙዳ ምርጫ ጣብያ ዳሬየና እና ዓራነ ሙዳ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38130,9 +38130,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ጎበቱናኮዶ ምርጫ ጣብያ ጎበቱናኮዶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38154,9 +38154,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ፋያ ቡሪ ምርጫ ጣብያ ፋያ ቡሪ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.008652,
+    "longitude": 40.981367,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38178,9 +38178,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሃላሌ ምርጫ ጣብያ ሃላሌ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38202,9 +38202,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሃርጉፍያ ምርጫ ጣብያ ሃርጉፍያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38226,9 +38226,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሙዳሙዲ ምርጫ ጣብያ ሙዳሙዲ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38250,9 +38250,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሜኮለ ምርጫ ጣብያ ሜኮለ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38274,9 +38274,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሮቶ ምርጫ ጣብያ ሮቶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38298,9 +38298,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ባላዓ ምርጫ ጣብያ ባላዓ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38322,9 +38322,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቴሬና ምርጫ ጣብያ ቴሬና",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38346,9 +38346,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አናዔ ዶሮዋ ምርጫ ጣብያ አናዔ ዶሮዋ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38370,9 +38370,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኦሮሲ ምርጫ ጣብያ ኦሮሲ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38394,9 +38394,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ኬሰለቶለጌራ ምርጫ ጣብያ ኬሰለቶለጌራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38418,9 +38418,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ክላሉ ምርጫ ጣብያ ክላሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38442,9 +38442,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ወሃሉና መሰሉ ምርጫ ጣብያ ወሃሉና መሰሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38466,9 +38466,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዴነንጌራ ምርጫ ጣብያ ዴነንጌራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 10.806862,
+    "longitude": 40.684103,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38970,9 +38970,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሉኣ ቡሪና አሴጋሪቱ 01 ቀበሌ ምርጫ ጣብያ አሞይሲና ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -38994,9 +38994,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ሉኣ ቡሪና አሴጋሪቱ 01 ቀበሌ ምርጫ ጣብያ ቶታል ማዲያ ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39018,9 +39018,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ሉኣ ቡሪና አሴጋሪቱ 01 ቀበሌ ምርጫ ጣብያ ዳረሩል ሂጅራ ሰፍር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39042,9 +39042,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ሉኣ ቡሪና አሴጋሪቱ 01 ቀበሌ ምርጫ ጣብያ ናዝሬት ቁጥር 2 ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39066,9 +39066,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ሉኣ ቡሪና አሴጋሪቱ 01 ቀበሌ ምርጫ ጣብያ ጤና ጣቢያ ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39210,9 +39210,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "በቦሎህ ኣ 02 ቀበሌ ምርጫ ጣብያ ኢድ ቦራ ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39234,9 +39234,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "በቦሎህ ኣ 02 ቀበሌ ምርጫ ጣብያ ኩሩጅ መስጂድ ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39258,9 +39258,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "በቦሎህ ኣ 02 ቀበሌ ምርጫ ጣብያ ቢላል ትምህርት ቤት ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39282,9 +39282,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "በቦሎህ ኣ 02 ቀበሌ ምርጫ ጣብያ ፋያሌ ቡሪ (ጎራ ገንዳ) ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39306,9 +39306,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "በቦሎህ ኣ 02 ቀበሌ ምርጫ ጣብያ ጋላፊ ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39330,9 +39330,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቡርካሌ ቡሪ 03 ቀበሌ ምርጫ ጣብያ ፋነንቲ ቦራ( ሙዝ ተራ) ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39354,9 +39354,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ቡርካሌ ቡሪ 03 ቀበሌ ምርጫ ጣብያ ሀይስኩል ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39378,9 +39378,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ቡርካሌ ቡሪ 03 ቀበሌ ምርጫ ጣብያ የውሃ ታንከር ሰፈር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39402,9 +39402,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ቡርካሌ ቡሪ 03 ቀበሌ ምርጫ ጣብያ እሞን ትምህርት ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39450,9 +39450,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ካኒኤ ቡሪና እድዶራ 04 ምርጫ ጣብያ አዶ ኤጋሪቱ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39474,9 +39474,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ካኒኤ ቡሪና እድዶራ 04 ምርጫ ጣብያ ተንዳሆ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39498,9 +39498,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ካኒኤ ቡሪና እድዶራ 04 ምርጫ ጣብያ ካይኒኤ ቡሪ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.723318,
+    "longitude": 40.977375,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39570,9 +39570,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ማሎላ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39594,9 +39594,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ኢልሞይቲ ቦራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39618,9 +39618,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ሃማድ ሳራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39642,9 +39642,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ቦኮል ዶራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39666,9 +39666,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ሎሚ ዳሪፋ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39690,9 +39690,9 @@
     "polling_station_id": "6",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ሜግሌኪቦ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39714,9 +39714,9 @@
     "polling_station_id": "7",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ ሀዩካሌ ላል",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39738,9 +39738,9 @@
     "polling_station_id": "8",
     "ps_type": 1,
     "name": "ሀዩካሊ 02 ቀበሌ ምርጫ ጣብያ አዳጋ ፋነቴና",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39810,9 +39810,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ሰመራ ጤና ጣቢያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39834,9 +39834,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ዲዮይታሌ ዶራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39858,9 +39858,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ኢዲ ቦራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39882,9 +39882,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ በቦሎሃሞ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39906,9 +39906,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ዳራ ዶራ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39930,9 +39930,9 @@
     "polling_station_id": "6",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ አላየይቶሌ ጎሞ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39954,9 +39954,9 @@
     "polling_station_id": "7",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ዳማሁሌ ዱሉል",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -39978,9 +39978,9 @@
     "polling_station_id": "8",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ሳጋንቶሌ ጋበላሉ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -40002,9 +40002,9 @@
     "polling_station_id": "9",
     "ps_type": 1,
     "name": "አላየቶሌ 01 ቀበሌ ምርጫ ጣብያ ዱበቲ ጊታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -40074,9 +40074,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አሰስቦዳዪ ቀበሌ ምርጫ ጣብያ ኡዱድሊ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -40098,9 +40098,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "አሰስቦዳዪ ቀበሌ ምርጫ ጣብያ አርሆ ጊታ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -40146,9 +40146,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ዋድባይቲ ቀበሌ ምርጫ ጣብያ ጃሚኣት ፎሃ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -40170,9 +40170,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ዋድባይቲ ቀበሌ ምርጫ ጣብያ ዋድባይቱ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 11.794501,
+    "longitude": 41.00608,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   }
 ]

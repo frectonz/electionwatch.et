@@ -7,7 +7,7 @@
     "stations": 1719,
     "digital": 1719,
     "manual": 0,
-    "with_coordinates": 1712
+    "with_coordinates": 1719
   },
   {
     "slug": "afar",
@@ -17,7 +17,7 @@
     "stations": 1674,
     "digital": 0,
     "manual": 1674,
-    "with_coordinates": 1540
+    "with_coordinates": 1674
   },
   {
     "slug": "amhara",
@@ -37,7 +37,7 @@
     "stations": 752,
     "digital": 0,
     "manual": 752,
-    "with_coordinates": 678
+    "with_coordinates": 752
   },
   {
     "slug": "central_ethiopia",
@@ -47,7 +47,7 @@
     "stations": 2946,
     "digital": 62,
     "manual": 2884,
-    "with_coordinates": 2937
+    "with_coordinates": 2946
   },
   {
     "slug": "diredawa",
@@ -57,7 +57,7 @@
     "stations": 287,
     "digital": 262,
     "manual": 25,
-    "with_coordinates": 284
+    "with_coordinates": 287
   },
   {
     "slug": "gambella",
@@ -67,7 +67,7 @@
     "stations": 443,
     "digital": 0,
     "manual": 443,
-    "with_coordinates": 435
+    "with_coordinates": 443
   },
   {
     "slug": "harari",
@@ -77,7 +77,7 @@
     "stations": 305,
     "digital": 0,
     "manual": 305,
-    "with_coordinates": 275
+    "with_coordinates": 305
   },
   {
     "slug": "oromia",
@@ -87,7 +87,7 @@
     "stations": 18009,
     "digital": 997,
     "manual": 17012,
-    "with_coordinates": 11837
+    "with_coordinates": 18009
   },
   {
     "slug": "sidama",
@@ -97,7 +97,7 @@
     "stations": 2251,
     "digital": 301,
     "manual": 1950,
-    "with_coordinates": 2236
+    "with_coordinates": 2251
   },
   {
     "slug": "somali",
@@ -107,7 +107,7 @@
     "stations": 4040,
     "digital": 94,
     "manual": 3946,
-    "with_coordinates": 1953
+    "with_coordinates": 4040
   },
   {
     "slug": "south_ethiopia",
@@ -117,7 +117,7 @@
     "stations": 3915,
     "digital": 447,
     "manual": 3468,
-    "with_coordinates": 3895
+    "with_coordinates": 3915
   },
   {
     "slug": "south_west",
@@ -127,6 +127,6 @@
     "stations": 1764,
     "digital": 0,
     "manual": 1764,
-    "with_coordinates": 1704
+    "with_coordinates": 1764
   }
 ]

@@ -1818,9 +1818,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "አዱላላ ቦኩ ምርጫ ጣቢያ አዱላላ ቦኩ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.437555,
+    "longitude": 39.299181,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -2250,9 +2250,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ደከአዲ ምርጫ ጣቢያ ጨቆኑ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.579655,
+    "longitude": 39.293712,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -3522,9 +3522,9 @@
     "polling_station_id": "11",
     "ps_type": 1,
     "name": "12 ምርጫ ጣቢያ መ2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.535602,
+    "longitude": 39.282329,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -7434,9 +7434,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቡርቂቱ ምርጫ ጣቢያ 14 ለ 2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.948425,
+    "longitude": 39.137467,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -8010,9 +8010,9 @@
     "polling_station_id": "9",
     "ps_type": 1,
     "name": "ወልኬሳ ምርጫ ጣቢያ የጢዮ ወረዳ እርሻ ልማት ፅ/ቤት ጅርባ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.973999,
+    "longitude": 39.130825,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -13026,9 +13026,9 @@
     "polling_station_id": "1",
     "ps_type": 2,
     "name": "ገቦሶያ ምርጫ ጣቢያ ጋፋት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.763843,
+    "longitude": 39.03568,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -15930,9 +15930,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቦቶ ምርጫ ጣቢያ ቦቶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.307011,
+    "longitude": 35.579256,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -15954,9 +15954,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ቦቶ ምርጫ ጣቢያ ሳርዶ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.307011,
+    "longitude": 35.579256,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -19194,9 +19194,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "መሪኖ ምርጫ ጣቢያ መሪኖ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.849562,
+    "longitude": 38.768151,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -19362,9 +19362,9 @@
     "polling_station_id": "7",
     "ps_type": 1,
     "name": "ጨፊ ቱማ ምርጫ ጣቢያ ደንጎራ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.849562,
+    "longitude": 38.768151,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -19650,9 +19650,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ጨፊ ቱማ ምርጫ ጣቢያ ወረቦ ወዳንሶ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.870422,
+    "longitude": 38.826158,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20034,9 +20034,9 @@
     "polling_station_id": "20",
     "ps_type": 1,
     "name": "ቱሉ ዲምቱ ምርጫ ጣቢያ ምስራቅ የጋራ መኖሪያ ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.870422,
+    "longitude": 38.826158,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20058,9 +20058,9 @@
     "polling_station_id": "21",
     "ps_type": 1,
     "name": "ቱሉ ዲምቱ ምርጫ ጣቢያ ደካ ሰዴን ቡኡረ ቦሩ ት/ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.870422,
+    "longitude": 38.826158,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20250,9 +20250,9 @@
     "polling_station_id": "8",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ቦራ-1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20274,9 +20274,9 @@
     "polling_station_id": "9",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ቦራ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20298,9 +20298,9 @@
     "polling_station_id": "10",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ቦራ-3",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20322,9 +20322,9 @@
     "polling_station_id": "11",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ዳሶ-1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20346,9 +20346,9 @@
     "polling_station_id": "12",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ዳሶ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20370,9 +20370,9 @@
     "polling_station_id": "13",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ኢፋ ቦሩ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20394,9 +20394,9 @@
     "polling_station_id": "14",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ኢፋ ቦሩ-3",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20418,9 +20418,9 @@
     "polling_station_id": "15",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ቀርሳ ጋታኑ-1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20442,9 +20442,9 @@
     "polling_station_id": "16",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ቀርሳ ጋታኑ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20466,9 +20466,9 @@
     "polling_station_id": "17",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ቀርሳ ጋታኑ-3",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20490,9 +20490,9 @@
     "polling_station_id": "18",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳቀርሳ ደበሌ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20514,9 +20514,9 @@
     "polling_station_id": "19",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ኢላላ ፈርዳ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20538,9 +20538,9 @@
     "polling_station_id": "20",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳኢላላ ፈርዳ ቁጥር 3",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20562,9 +20562,9 @@
     "polling_station_id": "21",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ገንዳ ጡሪ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20586,9 +20586,9 @@
     "polling_station_id": "22",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳ ሀጫሉ መንደር-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -20610,9 +20610,9 @@
     "polling_station_id": "23",
     "ps_type": 1,
     "name": "ወዴሳ ምርጫ ጣቢያ ወዴሳጫሪ መስቀለኛ-2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.906206,
+    "longitude": 38.832599,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -22386,9 +22386,9 @@
     "polling_station_id": "8",
     "ps_type": 1,
     "name": "አሊቾ ሀረባቴ-ሀ ንኡስ ጣቢያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.179437,
+    "longitude": 38.585923,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -23658,9 +23658,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ጥቁር ውሀ ምርጫ ጣቢያ -ሀ ንኡስ ጣቢያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.115898,
+    "longitude": 38.480484,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {

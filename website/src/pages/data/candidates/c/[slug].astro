@@ -144,11 +144,6 @@ const stats = [
           Where these candidates are voted on.
         </p>
         <ConstituencyStationMap slug={c.slug} />
-        <p class="text-xs text-ew-text-muted mt-2">
-          {c.region_slug === "amhara"
-            ? "Dots are placed at random around the centre of each station's woreda because NEBE published no GPS coordinates for this region."
-            : "Only stations NEBE published GPS coordinates for are mapped."}
-        </p>
       </section>
     )
   }

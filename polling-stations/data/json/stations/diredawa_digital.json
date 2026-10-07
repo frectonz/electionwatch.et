@@ -930,9 +930,9 @@
     "polling_station_id": "29",
     "ps_type": 1,
     "name": "02 ቀበሌ ምርጫ ጣቢያ ገንደ ተስፋ ኮሚኒቲ ሴንተር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 9.592989,
+    "longitude": 41.867624,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -2082,9 +2082,9 @@
     "polling_station_id": "18",
     "ps_type": 1,
     "name": "05 ቀበሌ ምርጫ ጣቢያ 4 እየሩሳሌም ወፍጮ ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 9.592989,
+    "longitude": 41.867624,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -2106,9 +2106,9 @@
     "polling_station_id": "19",
     "ps_type": 1,
     "name": "05 ቀበሌ ምርጫ ጣቢያ ፍልውሀ አልማዝ ቶሎሳ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 9.592989,
+    "longitude": 41.867624,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {

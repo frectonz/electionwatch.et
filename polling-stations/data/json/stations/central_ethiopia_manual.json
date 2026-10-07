@@ -7554,9 +7554,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ጦራ 03 ምርጫ ጣቢያ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.861564,
+    "longitude": 38.423854,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -7578,9 +7578,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ጦራ 03 ምርጫ ጣቢያ 2",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.861564,
+    "longitude": 38.423854,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -12306,9 +12306,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቀበሌ 03 ምርጫ ጣቢያ ከወረዳ ግብርና ወደ አርሴማ መታጠፊያ መስቀለኛ መንገድ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.127543,
+    "longitude": 38.368848,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -20490,9 +20490,9 @@
     "polling_station_id": "6",
     "ps_type": 1,
     "name": "አራንቻ ምርጫ ጣቢያ ሾኔ ቁ 2 የመጀመሪያ ደረጃና 1ኛ እና 2ኛ ሰይክል ትምህርት ቤ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.142864,
+    "longitude": 37.954919,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -28962,9 +28962,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቦኖ አየገዶ ምርጫ ጣቢያ ቦኖ ሀ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.243545,
+    "longitude": 38.474662,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -28986,9 +28986,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ቦኖ አየገዶ ምርጫ ጣቢያ ቦኖ ለ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.243545,
+    "longitude": 38.474662,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -36234,9 +36234,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ቅበት 01 /ጣቢያ 1 ንኡስ ጣቢያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.02683,
+    "longitude": 38.327835,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -40002,9 +40002,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ሀምበርቾ ዋሰራ ምርጫ ጣቢያ ተምቦ ቃለ-ሕይወት ቤተክርስቲያን አጠገብ በኪራይ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.363078,
+    "longitude": 37.853959,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -63066,9 +63066,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ፈረጃት 02 ንኡስ ጣቢያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.792583,
+    "longitude": 38.244908,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {

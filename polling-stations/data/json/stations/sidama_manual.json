@@ -6282,9 +6282,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ቱላ ገጠር ምርጫ ጣቢያ ቱላ ገጠር የገበሬዎች ማሰልጠኛ ማዕከል (FT",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.986686,
+    "longitude": 38.501454,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -7386,9 +7386,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ፊንጫዋ ምርጫ ጣቢያ ፊንጫዋ የገበሬዎች ማሰልጠኛ ማዕከል ግቢ (F",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.986686,
+    "longitude": 38.501454,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -8490,9 +8490,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ኤዶ ምርጫ ጣቢያ 04",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.022546,
+    "longitude": 38.619806,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -8514,9 +8514,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ኤዶ ምርጫ ጣቢያ 03",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.022546,
+    "longitude": 38.619806,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -9450,9 +9450,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "መንትዮ ምርጫ ጣቢያ መንትዮ 1ኛ እና 2ኛ ሳይክል 1ኛ ደረጃ ትምህር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.598808,
+    "longitude": 38.600206,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -9498,9 +9498,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "መጫ ምርጫ ጣቢያ መጫ 1ኛ እና 2ኛ ሳይክል 1ኛ ደረጃ ትምህርት ቤ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.598808,
+    "longitude": 38.600206,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -9522,9 +9522,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "መጫ ምርጫ ጣቢያ መጫ አሺሾ 1ኛ እና 2ኛ ሳይክል 1ኛ ደረጃ ትምህ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.598808,
+    "longitude": 38.600206,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -9546,9 +9546,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቡሌ ምርጫ ጣቢያ ቡሌ ጣራቃ 1ኛ እና 2ኛ ሳይክል 1ኛ ደረጃ ትምህር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.598808,
+    "longitude": 38.600206,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -14466,9 +14466,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ሎኮ ሀይጠላ ምርጫ ጣቢያ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.571318,
+    "longitude": 38.324432,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -14562,9 +14562,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ሎኮ ዳማ ምርጫ ጣቢያ 1 ሀ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.571318,
+    "longitude": 38.324432,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -16146,9 +16146,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ጩኮ ለመላ ምርጫ ጣቢያ 1",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.589526,
+    "longitude": 38.335815,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -27282,9 +27282,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ሻንታ ዌኔ ምርጫ ጣቢያ ሻንታ ሀላታ አንደኛ እና ሁለተኛ ደረጃ ት/ት ቤ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.520581,
+    "longitude": 38.829802,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -31938,9 +31938,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ራቻ ባለሳ ምርጫ ጣቢያ ራቻ በለሳ የገበሬዎች ማሰልጠኛ ማዕከል (FT",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.252229,
+    "longitude": 38.972079,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -32490,9 +32490,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ዌሌ ማጋዶ ምርጫ ጣቢያ ዌሌ ማጋዶ አድቬንቲስት ቤተክርስቲያን አከ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.252229,
+    "longitude": 38.972079,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -43026,9 +43026,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ባራና ምርጫ ጣቢያ ባልቻ የገበሬዎች ማሰልጠኛ ማዕከል ፊትለፊት (F",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 6.940444,
+    "longitude": 38.63541,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {

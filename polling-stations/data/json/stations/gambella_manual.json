@@ -690,9 +690,9 @@
     "polling_station_id": "5",
     "ps_type": 1,
     "name": "ምርጫ ጣቢያ 02 ቀበሌ ኒውላንድ ሰፈር 01 እና 02 ቀበሌ መንገድ ወንጌላዊት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.246333,
+    "longitude": 34.595825,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -1626,9 +1626,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "2 ምርጫ ጣቢያ ቡር-ቴፐር-ሐ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.305441,
+    "longitude": 33.97719,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -2682,9 +2682,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ፓልቡል ምርጫ ጣቢያ ለ - ኑዋንኦክ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.305441,
+    "longitude": 33.97719,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -5586,9 +5586,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "አላኣ ምርጫ ጣቢያ ፕቶክ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.233008,
+    "longitude": 34.153455,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -6018,9 +6018,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "አቼዋ ምርጫ ጣቢያ አቹዋ ለ1 _",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.233008,
+    "longitude": 34.153455,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -6474,9 +6474,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ፑልኮድ ምርጫ ጣቢያ ፑልኮድ ምርጫ ጣቢያ ኮንግ ዲው 1ኛ ደረጃ ትምህርት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.233008,
+    "longitude": 34.153455,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -6642,9 +6642,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ሊቲኮር ምርጫ ጣቢያ ሊድችር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.35278,
+    "longitude": 33.359265,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {
@@ -10218,9 +10218,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ቴዶ ምርጫ ጣቢያ ኡቱዋን",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 7.650658,
+    "longitude": 34.255265,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "manual"
   },
   {

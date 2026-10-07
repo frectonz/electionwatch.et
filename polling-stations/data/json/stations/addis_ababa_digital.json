@@ -2106,9 +2106,9 @@
     "polling_station_id": "13",
     "ps_type": 1,
     "name": "ወረዳ 7 ምርጫ ጣቢያ ኢሚግሬሽን",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 9.024419,
+    "longitude": 38.747404,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -8394,9 +8394,9 @@
     "polling_station_id": "8",
     "ps_type": 1,
     "name": "ወረዳ 13 ምርጫ ጣቢያ እንደራሴ የጋራ መኖሪያ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.86943,
+    "longitude": 38.81253,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -8418,9 +8418,9 @@
     "polling_station_id": "1",
     "ps_type": 1,
     "name": "ወረዳ 2 ምርጫ ጣቢያ 04 ሸማቾች",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.860778,
+    "longitude": 38.791863,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -8442,9 +8442,9 @@
     "polling_station_id": "2",
     "ps_type": 1,
     "name": "ወረዳ 2 ምርጫ ጣቢያ ሰፈረ ሰላም ዕድር",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.860778,
+    "longitude": 38.791863,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -8466,9 +8466,9 @@
     "polling_station_id": "3",
     "ps_type": 1,
     "name": "ወረዳ 2 ምርጫ ጣቢያ ስላሴ ዕድር ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.860778,
+    "longitude": 38.791863,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -8490,9 +8490,9 @@
     "polling_station_id": "4",
     "ps_type": 1,
     "name": "ወረዳ 2 ምርጫ ጣቢያ ቀጠና 3 ዕድር ቤት",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.860778,
+    "longitude": 38.791863,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
@@ -13482,9 +13482,9 @@
     "polling_station_id": "9",
     "ps_type": 1,
     "name": "ወረዳ 13 ምርጫ ጣቢያ ቱፋ ላብያጆ",
-    "latitude": null,
-    "longitude": null,
-    "coordinate_source": null,
+    "latitude": 8.960941,
+    "longitude": 38.714109,
+    "coordinate_source": "woreda_centroid",
     "registration_type": "digital"
   },
   {
