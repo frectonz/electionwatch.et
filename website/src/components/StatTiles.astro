@@ -1,18 +1,14 @@
 ---
-// A row of headline stat tiles, used across the candidate and dataset pages.
 import { fmt } from "@/lib/format";
 
 export interface StatTile {
   label: string;
-  /** Pre-formatted string, or a number that will be thousands-formatted. */
   value: string | number;
-  /** Optional sub-label under the value (e.g. a constituency name). */
   sub?: string;
 }
 
 interface Props {
   tiles: StatTile[];
-  /** Tailwind grid classes; defaults suit 3–4 tiles. */
   class?: string;
 }
 

@@ -1,5 +1,3 @@
-// The strip plot of every seat by the share of the vote its winner took,
-// plus the page's ballot-toggle wiring.
 import * as echarts from "echarts";
 import {
   offsetTooltip,
@@ -15,11 +13,9 @@ import { LEADER_COLOR, CHALLENGER_COLOR } from "@/lib/format";
 
 export type Ballot = "hopr" | "rc";
 
-/** [share, incumbent, seat, winner, party, slug] — see SeatDot in data/results. */
 type Dot = [number, 0 | 1, string, string, string, string];
 type ByBallot<T> = Record<Ballot, T>;
 
-/** Wire every ballot toggle on the page to whatever listens for it. */
 function wireBallots(onChange: (target: string, ballot: Ballot) => void) {
   document
     .querySelectorAll<HTMLElement>("[data-ballot-toggle]")
@@ -46,7 +42,6 @@ function wireBallots(onChange: (target: string, ballot: Ballot) => void) {
     });
 }
 
-/** Show only the elements belonging to the chosen ballot. */
 function swapPanels(target: string, ballot: Ballot) {
   document
     .querySelectorAll<HTMLElement>(`[data-ballot-panel="${target}"]`)
@@ -60,7 +55,6 @@ export function initResultCharts() {
   let chart: echarts.ECharts | null = null;
   let data: ByBallot<Dot[]> | null = null;
 
-  // Deterministic jitter, so the picture is identical on every render.
   const jitter = (i: number) => ((i * 2654435761) % 1000) / 1000;
 
   const option = (dots: Dot[]) => ({
@@ -68,8 +62,6 @@ export function initResultCharts() {
     tooltip: {
       trigger: "item",
       position: offsetTooltip,
-      // The tooltip carries a link, so it must survive the mouse travelling
-      // into it instead of vanishing the instant the cursor leaves the dot.
       enterable: true,
       hideDelay: 200,
       ...tooltipBox,
@@ -137,7 +129,6 @@ export function initResultCharts() {
     data = JSON.parse(el.dataset.dots) as ByBallot<Dot[]>;
     chart = echarts.init(el);
     chart.setOption(option(data.hopr));
-    // Clicking a dot is also the touch path; the hover tooltip is mouse-only.
     chart.on("click", (p) => {
       const dot = (p.data as { dot?: Dot })?.dot;
       if (dot) window.location.assign(`/data/candidates/c/${dot[5]}`);

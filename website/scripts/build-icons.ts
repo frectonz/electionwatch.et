@@ -7,13 +7,9 @@ import { Resvg } from "@resvg/resvg-js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEST = path.resolve(__dirname, "../public");
 
-// Brand palette (mirrors src/styles/global.css).
 const SHELL = "#1f2455";
 const GOLD = "#c79a3a";
 
-// Generated PWA/favicon assets. `radius` is the corner rounding as a fraction
-// of the canvas (0 = full-bleed square, needed for maskable + iOS icons which
-// apply their own mask). `safe` shrinks the glyph into the maskable safe zone.
 interface IconSpec {
   file: string;
   size: number;
@@ -51,7 +47,6 @@ function buildMarkup(spec: IconSpec) {
         fontFamily: "Noto Sans Ethiopic",
         fontWeight: 700,
         fontSize: `${Math.round(spec.size * glyphFraction)}px`,
-        // Optical centering: the glyph sits slightly high otherwise.
         lineHeight: 1,
         paddingTop: `${Math.round(spec.size * 0.04)}px`,
       },
@@ -60,10 +55,6 @@ function buildMarkup(spec: IconSpec) {
   };
 }
 
-// One-off generator: run `pnpm icons` once and commit the PNGs in public/.
-// The favicon/PWA icons are static brand assets, so they are NOT regenerated
-// on every dev/build (unlike the OG cards in src/pages/og). Re-run this only
-// when the wordmark glyph or palette changes.
 export async function buildIcons() {
   const fontData = await (await fetch(FONT_URL)).arrayBuffer();
 

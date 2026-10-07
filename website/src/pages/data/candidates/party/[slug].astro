@@ -45,7 +45,6 @@ export function getStaticPaths() {
 
   return candidateParties.map((party) => {
     const candidates = byParty.get(party.name) ?? [];
-    // Roll candidates up into the constituencies the party contests.
     const seats = new Map<string, ContestedRow>();
     for (const c of candidates) {
       const key = `${c.body}|${c.region}|${c.constituency}`;
@@ -89,7 +88,6 @@ const female = candidates.filter((c) => c.gender === "Female").length;
 const disabled = candidates.filter((c) => c.disability).length;
 const totalStations = contested.reduce((a, r) => a + r.pollingStations, 0);
 
-// Per-region totals.
 const regionRows = regionAggregation(candidates);
 
 const stats = [
@@ -99,7 +97,6 @@ const stats = [
   { label: "Constituencies", value: contested.length },
 ];
 
-// Group contested seats by region for the navigable list.
 const byRegion = new Map<string, ContestedRow[]>();
 for (const row of contested) {
   const list = byRegion.get(row.region) ?? [];
@@ -121,11 +118,8 @@ const genderChart = peopleRings(
   disabled,
   candidates.length,
 );
-// Education distribution, sorted by candidate count (desc).
 const eduChart = educationChart(candidates);
 
-// Footprint map: the candidate-constituency slugs this party contests, split by
-// ballot. Constituencies with no polling-station match won't appear as dots.
 const contestedHopr = contested
   .filter((r) => r.body === "hopr" && r.slug)
   .map((r) => r.slug as string);
@@ -134,8 +128,6 @@ const contestedRc = contested
   .map((r) => r.slug as string);
 const mappedSeats = contestedHopr.length + contestedRc.length;
 
-// Every candidate this party fields, as a searchable/filterable grid. Party is
-// constant here, so the columns carry region, constituency, and ballot.
 const ballotLabel = (body: string) => (body === "hopr" ? "HoPR" : "RC");
 const candidateColumns: GridColumn[] = [
   { label: "Name", grow: 1.6, sortable: true },
@@ -223,7 +215,6 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
     </div>
   </section>
 
-  <!-- Region chart -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
     <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
       <h2 class="font-display text-2xl">Where they&rsquo;re standing</h2>
@@ -240,7 +231,6 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
     </div>
   </section>
 
-  <!-- Footprint map -->
   {
     mappedSeats > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
@@ -264,7 +254,6 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
     )
   }
 
-  <!-- Demographics -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <div class="grid lg:grid-cols-5 gap-4">
       <div
@@ -295,7 +284,6 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
     </div>
   </section>
 
-  <!-- Full candidate list -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
     <h2 class="font-display text-2xl mb-1">All candidates</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
@@ -312,7 +300,6 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
     />
   </section>
 
-  <!-- Constituencies contested (navigable + filterable) -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16" id="contested">
     <h2 class="font-display text-2xl mb-1">Constituencies contested</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
@@ -398,7 +385,6 @@ const candidateRows: GridRow[] = candidates.map((c) => ({
   </section>
 
   <script>
-    // Ballot filter for the contested-constituencies list.
     const filter = document.getElementById("ballotFilter");
     if (filter) {
       const buttons = [...filter.querySelectorAll<HTMLButtonElement>("button")];

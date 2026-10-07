@@ -54,7 +54,6 @@ const questions = debate.analysis.questions.map((q, i) => {
   title={`${debate.analysis.title} · electionwatch.et`}
   description={`Analysis of the ${debate.analysis.title} debate during Ethiopia's 7th General Election.`}
 >
-  <!-- Header -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
     <Breadcrumbs
       items={[
@@ -87,7 +86,6 @@ const questions = debate.analysis.questions.map((q, i) => {
     </p>
   </section>
 
-  <!-- Player + chapter timeline -->
   <ClipPlayer defaultVideoId={videoId}>
     <div class="relative h-6 bg-ew-surface rounded overflow-hidden mt-1">
       {
@@ -130,7 +128,6 @@ const questions = debate.analysis.questions.map((q, i) => {
     </a>
   </ClipPlayer>
 
-  <!-- Question ToC + Party filter -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
     <div class="grid lg:grid-cols-[2fr_1fr] gap-6">
       <div>
@@ -206,7 +203,6 @@ const questions = debate.analysis.questions.map((q, i) => {
     </div>
   </section>
 
-  <!-- Questions -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <div class="space-y-10">
       {
@@ -357,8 +353,6 @@ const questions = debate.analysis.questions.map((q, i) => {
         b.classList.toggle("border-ew-shell", active);
         b.classList.toggle("border-ew-card-border", !active);
         b.classList.toggle("text-ew-text-dim", !active);
-        // Only hover-tint while inactive; otherwise the white label turns
-        // ew-shell on the ew-shell background and becomes unreadable.
         b.classList.toggle("hover:text-ew-shell", !active);
         b.classList.toggle("hover:border-ew-shell", !active);
       });

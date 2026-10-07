@@ -37,8 +37,6 @@ const sortedRegions = [...candidateRegions].sort(
 
 const women = idx.by_gender.Female ?? 0;
 
-// Cross-link coverage: how many constituencies we matched to their polling
-// stations across the two NEBE datasets.
 const allConstituencies = [
   ...hoprCandidateConstituencies,
   ...rcCandidateConstituencies,
@@ -48,17 +46,10 @@ const linkedConstituencies = allConstituencies.filter(
 ).length;
 const linkPct = pct(linkedConstituencies, allConstituencies.length);
 
-// Contestedness is measured by the number of parties competing for a
-// constituency, not the candidate count (RC constituencies are multi-member, so
-// a candidate count would just track seats). Shown for the two ballots combined,
-// then for each on its own.
 const allConstituenciesForContest = [
   ...hoprCandidateConstituencies,
   ...rcCandidateConstituencies,
 ];
-// Most contested: most parties competing first. Ties break by name so the list
-// is stable rather than candidate-count driven. (The opposite end, uncontested
-// races, has its own page since it's almost entirely single-party seats.)
 const byContest = (list: CandidateConstituency[], n: number) =>
   [...list]
     .sort((a, b) => b.parties - a.parties || a.name.localeCompare(b.name))
@@ -75,7 +66,6 @@ const contestedGroups = [
     items: byContest(rcCandidateConstituencies, 6),
   },
 ];
-// Count of single-party races, for the link to the uncontested-seats page.
 const uncontestedCount = allConstituenciesForContest.filter(
   (c) => c.parties === 1,
 ).length;
@@ -113,7 +103,6 @@ const bodies = [
   },
 ];
 
-// Top parties by total candidates (stacked HoPR / RC).
 const topParties = candidateParties.slice(0, 15);
 const partyChart = {
   names: topParties.map((p) => p.name_en),
@@ -121,17 +110,13 @@ const partyChart = {
   rc: topParties.map((p) => p.rc),
 };
 
-// Education distribution, sorted by candidate count (desc).
 const eduChart = countChart(Object.entries(idx.by_education));
 
-// Which parties field the most candidates at each education level (e.g. the
-// most doctorate-holders). Interactive: pick a tier, rank parties within it.
 const eduByParty = educationTiersByParty(loadAllCandidates());
 const eduTierWithData = eduByParty.order.filter(
   (t) => eduByParty.byTier[t.key].labels.length > 0,
 );
 
-// Concentric pie: gender (inner ring) + disability (outer ring).
 const peopleChart = peopleRings(
   idx.by_gender.Female ?? 0,
   idx.by_gender.Male ?? 0,
@@ -199,7 +184,6 @@ const peopleChart = peopleRings(
     </p>
   </section>
 
-  <!-- Bodies -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-4">Two ballots</h2>
     <div class="grid sm:grid-cols-2 gap-4">
@@ -232,7 +216,6 @@ const peopleChart = peopleRings(
     </div>
   </section>
 
-  <!-- Parties -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Parties</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
@@ -256,7 +239,6 @@ const peopleChart = peopleRings(
     </div>
   </section>
 
-  <!-- Demographics -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-4">Who the candidates are</h2>
     <div class="grid lg:grid-cols-5 gap-4">
@@ -288,7 +270,6 @@ const peopleChart = peopleRings(
     </div>
   </section>
 
-  <!-- Education by party -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Education by party</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
@@ -325,7 +306,6 @@ const peopleChart = peopleRings(
     </div>
   </section>
 
-  <!-- Most contested -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Most contested seats</h2>
     <p class="text-ew-text-dim text-sm mb-6 max-w-2xl">
@@ -348,7 +328,6 @@ const peopleChart = peopleRings(
     }
   </section>
 
-  <!-- By region -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <h2 class="font-display text-2xl mb-4">Browse by region</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -402,8 +381,6 @@ const peopleChart = peopleRings(
   </script>
 
   <script>
-    // Education-by-party: a horizontal bar ranking parties by candidate count
-    // at the selected education level. The tier buttons re-render the chart.
     import * as echarts from "echarts";
     import {
       grad,

@@ -19,7 +19,6 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RESULTS_ROOT = path.resolve(__dirname, "../../../results/data/json");
 
-/** National registration / turnout / ballot figures from NEBE's summary sheet. */
 export type ResultsSummary = {
   registered_voters: number;
   votes_cast: number;
@@ -28,26 +27,19 @@ export type ResultsSummary = {
   ballots_used: number;
   ballots_unused: number;
   ballots_invalid: number;
-  /** NEBE excludes constituencies undergoing recounts or re-elections. */
   excludes_recounts_and_reruns: boolean;
   source_url: string;
   published: string;
 };
 
-/** One party's (or independent's) seat haul in one region. */
 export type SeatRow = {
-  /** Party name as printed in the results PDF (Amharic). */
   party: string;
   independent: boolean;
-  /** Independent candidate's name, when `independent` is true. */
   candidate: string | null;
-  /** Join key to candidates/{region}_{body}.json, when matched. */
   candidate_id: string | null;
   seats: number;
-  /** Join key to the candidates dataset's parties.json, when matched. */
   party_slug: string | null;
   party_name_en: string | null;
-  /** Join key to the party-profile dataset, when the party has a profile. */
   profile_slug: string | null;
 };
 
@@ -55,9 +47,7 @@ export type RegionSeats = {
   region_slug: string;
   region: string;
   region_native: string;
-  /** The region's total council seats (null where the PDF omits it). */
   council_seats: number | null;
-  /** Seats decided so far (excludes recount / re-run constituencies). */
   decided_seats: number;
   won: SeatRow[];
 };
@@ -68,7 +58,6 @@ export type PartySeatTotal = {
   party_name_en: string | null;
   profile_slug: string | null;
   seats: number;
-  /** Number of regions the party won seats in. */
   regions: number;
 };
 
@@ -80,30 +69,23 @@ export type BodySeats = {
   independents: { seats: number; candidates: number };
 };
 
-/** One elected candidate, as produced by results/extract.py. */
 export type ElectedRow = {
   region_slug: string;
-  /** Constituency as printed in the results PDF. */
   constituency: string;
-  /** Join key to the candidates dataset's constituencies.json, when matched. */
   constituency_slug: string | null;
-  /** Candidate name as printed in the results PDF. */
   candidate: string;
   candidate_id: string | null;
-  /** Party (Amharic candidate-list name), resolved via the candidate match. */
   party: string | null;
   party_slug: string | null;
   party_name_en: string | null;
   profile_slug: string | null;
 };
 
-/** One candidate's votes in one constituency (region comes from the file). */
 export type VoteRow = Omit<ElectedRow, "region_slug"> & {
   votes: number | null;
   elected: boolean;
 };
 
-// A body only appears once its sheet is fully transcribed, so both maps are partial.
 export type ResultsIndex = {
   seats: Partial<
     Record<
@@ -127,7 +109,6 @@ export type ResultsIndex = {
   files: { file: string; region: string; body: Body; rows: number }[];
 };
 
-/** Read a file the results pipeline always produces; it ships with the repo. */
 function read<T>(name: string): T {
   return JSON.parse(
     fs.readFileSync(path.join(RESULTS_ROOT, name), "utf-8"),
@@ -139,33 +120,24 @@ const resultsIndex = read<ResultsIndex>("index.json");
 export const resultsSummary = read<ResultsSummary>("summary.json");
 export const resultsElected = read<Record<Body, ElectedRow[]>>("elected.json");
 
-/** Votes for one region + body. Absent until every page of the council's
- * vote sheet is transcribed, so callers must handle the empty case. */
 export function votesFor(regionSlug: string, body: Body): VoteRow[] {
   const file = path.join(RESULTS_ROOT, "votes", `${regionSlug}_${body}.json`);
   if (!fs.existsSync(file)) return [];
   return JSON.parse(fs.readFileSync(file, "utf-8")) as VoteRow[];
 }
 
-/** True for a council whose per-candidate vote counts are published. */
 export const hasVotes = (body: Body) =>
   resultsIndex.files.some((f) => f.body === body);
 
-// --- Derived views ---------------------------------------------------------
-
 const BODIES: Body[] = ["hopr", "rc"];
 
-/** Every body the results cover, with its seat data. */
 export const resultBodies = BODIES.map((key) => ({
   key,
   data: resultsSeats[key],
 }));
 
-/** A party's seats across both councils, keyed by party slug. */
 export type PartyResult = {
-  /** Internal identity, used to join rows. Positional, so never put in a URL. */
   key: string;
-  /** Readable slug the URLs use, shared with the candidate pages. */
   urlSlug: string;
   party: string;
   partyName: string;
@@ -174,12 +146,10 @@ export type PartyResult = {
   independent: boolean;
   seats: number;
   byBody: Partial<Record<Body, number>>;
-  /** Region slugs where the party took at least one seat. */
   regions: string[];
   color: string;
 };
 
-/** Party identity key; independents are pooled under one key. */
 const keyOf = (row: {
   independent: boolean;
   party_slug: string | null;
@@ -243,12 +213,9 @@ export const partyResultByUrlSlug = new Map(
   partyResults.map((p) => [p.urlSlug, p]),
 );
 
-/** The address of a party's results page. */
 export const partyResultHref = (p: PartyResult) =>
   `/results/party/${p.urlSlug}`;
 
-// An independent's rows carry the candidate list's "Independent" party slug,
-// which has to alias onto the pooled entry.
 const byAnySlug = new Map<string, PartyResult>();
 for (const p of partyResults) byAnySlug.set(p.key, p);
 for (const { data } of resultBodies) {
@@ -260,26 +227,21 @@ for (const { data } of resultBodies) {
   }
 }
 
-/** The party behind a row, whether it names a party slug or a pooled key. */
 export const partyOfSlug = (slug: string | null | undefined) =>
   slug ? (byAnySlug.get(slug) ?? null) : null;
 
-/** The party holding the most seats nationally. */
 export const leadingParty: PartyResult = partyResults[0];
 
-/** Winner of each constituency, keyed by constituency slug. */
 export function winnersByConstituency(body: Body): Map<string, PartyResult> {
   const out = new Map<string, PartyResult>();
   for (const row of resultsElected[body]) {
     if (!row.constituency_slug) continue;
-    // partyOfSlug so an independent's "party-25" slug reaches the pooled entry.
     const party = partyOfSlug(row.party_slug ?? row.party);
     if (party) out.set(row.constituency_slug, party);
   }
   return out;
 }
 
-/** What the map paints for one seat. */
 export type SeatOutcome = "leader" | "challenger" | "unknown";
 
 export function seatOutcomes(body: Body): Record<string, SeatOutcome> {
@@ -296,9 +258,6 @@ export function seatOutcomes(body: Body): Record<string, SeatOutcome> {
   return out;
 }
 
-// --- The chamber, as seats ---------------------------------------------------
-
-/** One block of the seat grid: a party and the tiles it holds in a chamber. */
 export type SeatBlock = {
   party: string;
   seats: number;
@@ -307,7 +266,6 @@ export type SeatBlock = {
   incumbent: boolean;
 };
 
-/** Every seat in a chamber, grouped by who holds it, largest holding first. */
 export function seatBlocks(body: Body): SeatBlock[] {
   const holders = partyResults
     .filter((p) => (p.byBody[body] ?? 0) > 0)
@@ -349,7 +307,6 @@ export function seatBlocks(body: Body): SeatBlock[] {
   return blocks;
 }
 
-/** Seat outcomes from one party's point of view: their seats highlighted. */
 export function seatOutcomesFor(
   body: Body,
   partyKey: string,
@@ -361,13 +318,11 @@ export function seatOutcomesFor(
     out[c.slug] = !winner
       ? "unknown"
       : winner.key === partyKey
-        ? "challenger" // the highlighted state; "challenger" is the gold slot
+        ? "challenger"
         : "leader";
   }
   return out;
 }
-
-// --- How the seats were actually won ---------------------------------------
 
 export type Race = {
   constituencySlug: string;
@@ -378,29 +333,18 @@ export type Race = {
   winnerParty: PartyResult | null;
   votes: number;
   totalVotes: number;
-  /** The winner's share of the votes cast in the seat, 0-100. */
   share: number;
-  /** Seats this constituency returned (1 for HoPR; RC seats are multi-member). */
   seats: number;
-  /** Points between the last candidate elected and the first to miss a seat.
-   * In a multi-member seat first and second can both be elected, so the race
-   * is at that boundary. Null wherever the boundary cannot be trusted. */
   margin: number | null;
-  /** The same gap in raw votes. */
   marginVotes: number | null;
-  /** The pair the margin measures: who took the final seat, who missed it. */
   marginWinner: string | null;
   marginWinnerParty: PartyResult | null;
   marginLoser: string | null;
   candidates: number;
 };
 
-/** Every seat whose votes are published, reconstructed as a race. */
 export function races(body: Body): Race[] {
   if (!hasVotes(body)) return [];
-  // A margin is published only where the vote sheet's elected flags account
-  // for every seat the elected list awards; otherwise the boundary could sit
-  // between two winners.
   const listedSeats = new Map<string, number>();
   for (const row of resultsElected?.[body] ?? []) {
     if (row.constituency_slug)
@@ -461,8 +405,6 @@ export function races(body: Body): Race[] {
   return out;
 }
 
-/** One dot per seat for the strip plot. Tuples, because this ships to the
- * browser as an attribute on the page. */
 export type SeatDot = [
   share: number,
   incumbent: 0 | 1,
@@ -483,20 +425,14 @@ export function seatDots(all: Race[]): SeatDot[] {
   ]);
 }
 
-// --- Who the elected members are --------------------------------------------
-
 export type ElectedDemographics = {
   total: number;
-  /** Members matched to a candidate registration, which is where gender and
-   * disability come from. */
   matched: number;
   women: number;
   men: number;
   disabled: number;
 };
 
-/** Gender and disability of the elected members, joined from their candidate
- * registrations by candidate id. */
 export function electedDemographics(body: Body): ElectedDemographics {
   const rows = resultsElected?.[body] ?? [];
   const out: ElectedDemographics = {

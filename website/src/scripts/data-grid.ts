@@ -1,13 +1,8 @@
-// Progressive enhancement for <DataGrid>. Every grid renders its rows server-
-// side; this adds client-side search, per-column enum filters, and sortable
-// columns by reading the data-* attributes the component emits. Column state is
-// addressed by column index: each row carries data-s{i} (sort value) and
-// data-c{i} (filter value), plus a combined data-search string.
 type Dir = "asc" | "desc";
 
 export function initDataGrids() {
   document.querySelectorAll<HTMLElement>("[data-grid]").forEach((grid) => {
-    if (grid.dataset.gridReady === "1") return; // enhance once
+    if (grid.dataset.gridReady === "1") return;
     grid.dataset.gridReady = "1";
     const search = grid.querySelector<HTMLInputElement>("[data-search]");
     const filters = [

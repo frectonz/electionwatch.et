@@ -5,13 +5,11 @@ import satori from "satori";
 import { Resvg } from "@resvg/resvg-js";
 import { ogPages, type OgPage } from "@/lib/og-pages";
 
-// --- Brand palette (mirrors src/styles/global.css) ---
 const SHELL = "#1f2455";
 const SHELL_DEEP = "#15172a";
 const GOLD = "#c79a3a";
 const PAPER = "#eeeff5";
 
-// --- Fonts: read from the @fontsource packages at build time ---
 const require = createRequire(import.meta.url);
 function loadFont(pkgPath: string): Buffer {
   return readFileSync(require.resolve(pkgPath));
@@ -27,7 +25,6 @@ const notoEthiopic = loadFont(
   "@fontsource/noto-sans-ethiopic/files/noto-sans-ethiopic-ethiopic-400-normal.woff",
 );
 
-// --- Markup builder ---
 function buildMarkup(page: OgPage) {
   return {
     type: "div",
@@ -41,7 +38,6 @@ function buildMarkup(page: OgPage) {
         background: `linear-gradient(135deg, ${SHELL} 0%, ${SHELL_DEEP} 100%)`,
       },
       children: [
-        // Left gold accent bar
         {
           type: "div",
           props: {
@@ -55,7 +51,6 @@ function buildMarkup(page: OgPage) {
             },
           },
         },
-        // Decorative Ethiopic glyphs (ምርጫ = election)
         {
           type: "div",
           props: {
@@ -104,7 +99,6 @@ function buildMarkup(page: OgPage) {
             children: "ጫ",
           },
         },
-        // Corner accents
         {
           type: "div",
           props: {
@@ -135,7 +129,6 @@ function buildMarkup(page: OgPage) {
             },
           },
         },
-        // Main content
         {
           type: "div",
           props: {
@@ -148,7 +141,6 @@ function buildMarkup(page: OgPage) {
               padding: "60px 70px 50px 56px",
             },
             children: [
-              // Top: logo badge + wordmark
               {
                 type: "div",
                 props: {
@@ -192,7 +184,6 @@ function buildMarkup(page: OgPage) {
                   ],
                 },
               },
-              // Center: title + description
               {
                 type: "div",
                 props: {
@@ -235,7 +226,6 @@ function buildMarkup(page: OgPage) {
                   ],
                 },
               },
-              // Bottom: gold rule + tagline
               {
                 type: "div",
                 props: {
@@ -280,7 +270,6 @@ function buildMarkup(page: OgPage) {
   };
 }
 
-// --- Render pipeline ---
 async function renderOgImage(page: OgPage) {
   const svg = await satori(buildMarkup(page) as Parameters<typeof satori>[0], {
     width: 1200,
@@ -301,7 +290,6 @@ async function renderOgImage(page: OgPage) {
   return resvg.render().asPng();
 }
 
-// --- Astro static paths + GET handler ---
 export const getStaticPaths: GetStaticPaths = () =>
   Object.keys(ogPages).map((route) => ({ params: { route: `${route}.png` } }));
 

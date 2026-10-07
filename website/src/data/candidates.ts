@@ -14,13 +14,11 @@ export const BODY_LABEL: Record<Body, string> = {
 };
 export const BODY_SHORT: Record<Body, string> = { hopr: "HoPR", rc: "RC" };
 
-/** One candidate, as produced by candidates/extract.py. */
 export type Candidate = {
   region: string;
   region_native: string;
   region_code: string;
   body: Body;
-  /** Electoral district (HoPR) or sub-region (RC) the candidate runs in. */
   constituency: string;
   candidate_id: string;
   full_name: string;
@@ -40,26 +38,19 @@ export type CandidateRegion = {
   rc: number;
   hopr_constituencies: number;
   rc_constituencies: number;
-  /** Total Regional Council seats across the region (multi-member constituencies). */
   rc_seats: number;
 };
 
 export type Party = {
-  /** Stable positional id ("party-N"); party names are Amharic. */
   slug: string;
-  /** Amharic name, as printed on the candidate lists. */
   name: string;
-  /** English name (official where one exists, else a best-effort translation). */
   name_en: string;
-  /** Slug into the party-profile dataset (/parties/[slug]) when one exists. */
   profile_slug: string | null;
   candidates: number;
   hopr: number;
   rc: number;
 };
 
-/** A constituency on the candidate side, pre-joined to its polling stations
- * by candidates/extract.py (matched on constituency name, joined by code). */
 export type CandidateConstituency = {
   slug: string;
   region_slug: string;
@@ -69,15 +60,9 @@ export type CandidateConstituency = {
   name: string;
   candidates: number;
   parties: number;
-  /** Council seats this constituency returns. HoPR is always 1 (single-member);
-   * RC constituencies are multi-member. From NEBE's seat-allocation tables, or
-   * estimated from the largest party slate when the name couldn't be matched. */
   seats: number | null;
-  /** True when `seats` is the candidate-count estimate, not the official figure. */
   seats_estimated: boolean;
-  /** Polling stations in this constituency (0 when no station match was found). */
   polling_stations: number;
-  /** Matched polling-station constituency codes (join key to that dataset). */
   polling_station_codes: string[];
 };
 
@@ -121,7 +106,6 @@ export const partyByName = new Map(candidateParties.map((p) => [p.name, p]));
 export const partySlugByName = new Map(
   candidateParties.map((p) => [p.name, p.slug]),
 );
-/** Reverse bridge: party-profile slug -> the candidate party (for /parties). */
 export const partyByProfileSlug = new Map(
   candidateParties
     .filter((p) => p.profile_slug)
@@ -134,9 +118,6 @@ const slugifyName = (name: string): string =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
-// Readable, stable URL slug for each candidate party: its profile slug when it
-// has one, else a slugified English name (deduplicated). Replaces the positional
-// "party-N" id in URLs.
 const urlSlugById = new Map<string, string>();
 export const partyByUrlSlug = new Map<string, Party>();
 {
@@ -151,11 +132,9 @@ export const partyByUrlSlug = new Map<string, Party>();
   }
 }
 
-/** The public URL slug for a candidate party (use for /data/candidates/party/). */
 export const partyUrlSlug = (p: Party): string =>
   urlSlugById.get(p.slug) ?? p.slug;
 
-/** Look up a candidate constituency by body + region + name (candidate side). */
 const constituencyByKey = new Map<string, CandidateConstituency>();
 for (const c of [
   ...hoprCandidateConstituencies,
@@ -177,8 +156,6 @@ export function candidateConstituencies(body: Body): CandidateConstituency[] {
     : rcCandidateConstituencies;
 }
 
-// Polling-station constituency code -> candidate constituency, so the
-// polling-stations pages can link each constituency to its candidates.
 const byStationCode: Record<Body, Map<string, CandidateConstituency>> = {
   hopr: new Map(),
   rc: new Map(),
@@ -195,7 +172,6 @@ export function candidateConstituencyByStation(
   return byStationCode[body].get(stationCode);
 }
 
-/** Load every candidate (all regions + bodies). Used by party pages. */
 export function loadAllCandidates(): Candidate[] {
   const out: Candidate[] = [];
   for (const r of candidateRegions) {
@@ -207,19 +183,12 @@ export function loadAllCandidates(): Candidate[] {
   return out;
 }
 
-/**
- * Load the candidate list for one region + body on demand. The combined dataset
- * is large, so pages load only the slice they render.
- */
 export function loadCandidates(regionSlug: string, body: Body): Candidate[] {
   const file = path.join(ROOT, "candidates", `${regionSlug}_${body}.json`);
   if (!fs.existsSync(file)) return [];
   return JSON.parse(fs.readFileSync(file, "utf-8")) as Candidate[];
 }
 
-// --- Shaping helpers shared by the candidate pages -------------------------
-
-/** Region name -> slug, so pages don't re-scan candidateRegionBySlug per row. */
 export const regionSlugByName = new Map(
   candidateRegions.map((r) => [r.name, r.slug]),
 );
@@ -232,7 +201,6 @@ export type RegionAgg = {
   rc: number;
 };
 
-/** Per-region candidate totals (with HoPR/RC split), sorted by total desc. */
 export function regionAggregation(candidates: Candidate[]): RegionAgg[] {
   const agg = new Map<string, RegionAgg>();
   for (const c of candidates) {
@@ -251,7 +219,6 @@ export function regionAggregation(candidates: Candidate[]): RegionAgg[] {
   return [...agg.values()].sort((a, b) => b.total - a.total);
 }
 
-/** Inner gender ring + outer disability ring for the concentric people pie. */
 export function peopleRings(
   female: number,
   male: number,
@@ -278,13 +245,11 @@ export function peopleRings(
 
 export type CountChart = { labels: string[]; counts: number[] };
 
-/** Sort label/count pairs by count desc into the {labels, counts} chart shape. */
 export function countChart(entries: [string, number][]): CountChart {
   const sorted = [...entries].sort((a, b) => b[1] - a[1]);
   return { labels: sorted.map(([k]) => k), counts: sorted.map(([, v]) => v) };
 }
 
-/** Candidates per education level, highest first. */
 export function educationChart(candidates: Candidate[]): CountChart {
   const counts = new Map<string, number>();
   for (const c of candidates) {
@@ -294,9 +259,6 @@ export function educationChart(candidates: Candidate[]): CountChart {
   return countChart([...counts.entries()]);
 }
 
-// Every education level NEBE prints on the candidate lists, ordered highest to
-// lowest. The selectable filters mirror this enum exactly. "Not Specified"
-// (missing data) is omitted on purpose, as it is not an attainment level.
 export const EDU_LEVELS: string[] = [
   "Doctorate",
   "Master of Law",
@@ -313,24 +275,17 @@ export const EDU_LEVELS: string[] = [
 
 export type EduByParty = {
   order: { key: string; label: string }[];
-  /** Per level: parties ranked by candidate count at that level (top N). */
   byTier: Record<
     string,
     { labels: string[]; counts: number[]; totals: number[]; shares: number[] }
   >;
 };
 
-/**
- * For each education level, rank parties by how many of their candidates hold
- * it (e.g. which parties field the most doctorate-holders). `totals` and
- * `shares` carry each party's candidate total and the level's share of it.
- */
 export function educationTiersByParty(
   candidates: Candidate[],
   topN = 15,
 ): EduByParty {
   const levels = new Set(EDU_LEVELS);
-  // party english name -> { total, perLevel: Map<level, count> }
   const agg = new Map<string, { total: number; levels: Map<string, number> }>();
   for (const c of candidates) {
     const name = partyByName.get(c.party)?.name_en ?? c.party;
@@ -369,7 +324,6 @@ export function educationTiersByParty(
   };
 }
 
-/** Candidates per party (labelled by English name), highest first. */
 export function partyDistChart(candidates: Candidate[]): CountChart {
   const counts = new Map<string, number>();
   for (const c of candidates)

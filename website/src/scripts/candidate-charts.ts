@@ -1,6 +1,3 @@
-// Shared ECharts setup for the candidate pages. Charts are intentionally clean:
-// values live in the tooltip, so value axes carry no numeric labels; only the
-// category axis is labelled. Colours are the site's orange/teal ballot combo.
 import * as echarts from "echarts";
 import {
   grad,
@@ -36,14 +33,10 @@ export function initCandidateCharts() {
     observed.push(el);
   };
 
-  // Horizontal stacked HoPR/RC bar (region or party breakdowns). `labelsRight`
-  // puts the category names on the right-hand side.
   const stackedBar = (id: string, labelsRight = false) =>
     mount(id, (el) => {
       const d = JSON.parse(el.dataset.chart!) as Stacked;
       const c = JSON.parse(el.dataset.colors!) as { hopr: string; rc: string };
-      // What each bar counts (e.g. "candidates", "uncontested seats"), shown in
-      // the tooltip total. Defaults to candidates for the existing breakdowns.
       const unit = el.dataset.unit ?? "candidates";
       const chart = echarts.init(el);
       chart.setOption({
@@ -114,8 +107,6 @@ export function initCandidateCharts() {
       return chart;
     });
 
-  // Horizontal bar (education / party distribution); each row named beside its
-  // bar. `labelsRight` moves the category names to the right-hand side.
   const histBar = (id: string, labelsRight = false) =>
     mount(id, (el) => {
       const d = JSON.parse(el.dataset.chart!) as Hist;
@@ -165,8 +156,6 @@ export function initCandidateCharts() {
       return chart;
     });
 
-  // Concentric pie. Accepts a single ring (Slice[]) or several nested rings
-  // ({ rings: Slice[][] }), e.g. gender on the inside, disability outside.
   const RADII: [string, string][] = [
     ["40%", "57%"],
     ["63%", "80%"],

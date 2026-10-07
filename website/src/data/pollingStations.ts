@@ -7,7 +7,6 @@ const PS_ROOT = path.resolve(__dirname, "../../../polling-stations/data/json");
 
 export type RegistrationType = "digital" | "manual";
 
-/** One polling station, as produced by polling-stations/extract.py. */
 export type PollingStation = {
   no: number;
   region: string;
@@ -19,23 +18,16 @@ export type PollingStation = {
   woreda_code: string;
   kebele: string;
   kebele_code: string;
-  /** Join key to constituencies.hopr[].code. */
   hopr_constituency_code: string;
   hopr_constituency: string;
-  /** Join key to constituencies.rc[].code. */
   rc_constituency_code: string;
   rc_constituency: string;
-  /** Stable unique identifier for the station. */
   polling_station_code: string;
   polling_station_id: string;
   ps_type: number | null;
   name: string;
   latitude: number | null;
   longitude: number | null;
-  /** "nebe" when NEBE published a coordinate for the station,
-   * "woreda_centroid" when the position is the approximate centre of the
-   * station's woreda (derived from OCHA admin boundaries; Amhara publishes no
-   * GPS), else null. */
   coordinate_source: "nebe" | "woreda_centroid" | null;
   registration_type: RegistrationType;
 };
@@ -63,7 +55,6 @@ export type PollingStationsIndex = {
   by_registration_type: Record<RegistrationType, number>;
   with_coordinates: number;
   without_coordinates: number;
-  /** Station counts by how their coordinate was sourced. */
   coordinate_sources: Record<string, number>;
   region_count: number;
   hopr_constituency_count: number;
@@ -97,11 +88,6 @@ export const rcConstituencies = constituenciesFile.rc;
 
 export const regionBySlug = new Map(regions.map((r) => [r.slug, r]));
 
-/**
- * Load the full station list for one region + registration type on demand.
- * The combined dataset is large (~50k rows), so callers should load only the
- * slices they render rather than eagerly importing every file.
- */
 export function loadStations(
   regionSlug: string,
   type: RegistrationType,

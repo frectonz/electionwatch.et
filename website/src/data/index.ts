@@ -85,7 +85,6 @@ export type Debate = {
 export type Party = {
   slug: string;
   name: string;
-  /** Public URL of the party's ballot symbol, or null if none was extracted. */
   symbol: string | null;
   positions: PartyPosition[];
   debateCount: number;
@@ -95,8 +94,6 @@ const partiesRegistry: Record<string, PartyRegistryEntry> = JSON.parse(
   fs.readFileSync(path.join(DATA_ROOT, "parties.json"), "utf-8"),
 );
 
-// Symbols are synced into public/symbols/ at build time (see
-// scripts/sync-symbols.ts); map each party slug to its served URL.
 const symbolsList: SymbolEntry[] = JSON.parse(
   fs.readFileSync(path.join(SYMBOLS_ROOT, "symbols.json"), "utf-8"),
 );

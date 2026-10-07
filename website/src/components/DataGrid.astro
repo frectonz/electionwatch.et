@@ -1,39 +1,25 @@
 ---
-// A generic, progressively-enhanced data grid: full-text search, sortable
-// columns, and an automatic dropdown filter for any column marked `filter`.
-// Rows render server-side; src/scripts/data-grid.ts wires up the interactions.
 import { fmt } from "@/lib/format";
 
 export interface GridColumn {
   label: string;
-  /** Render an enum filter dropdown from this column's distinct values. */
   filter?: boolean;
-  /** Allow sorting on this column (default true). */
   sortable?: boolean;
-  /** Right-align (use for counts). */
   numeric?: boolean;
-  /** Flex weight for the column width (default 1). */
   grow?: number;
 }
 
 export interface GridCell {
-  /** Display value; numbers are thousands-formatted. */
   text: string | number;
-  /** Make the cell a link. */
   href?: string | null;
-  /** Override the value used for sorting (e.g. an ordering rank). */
   sort?: string | number;
-  /** Override the value used for the filter dropdown (default = text). */
   filterValue?: string;
-  /** Small secondary line under the text. */
   sub?: string;
-  /** Small chip shown after the text. */
   badge?: string;
 }
 
 export interface GridRow {
   cells: GridCell[];
-  /** Override the searchable text (default = all cell texts joined). */
   search?: string;
 }
 
@@ -42,12 +28,9 @@ interface Props {
   rows: GridRow[];
   search?: boolean;
   searchPlaceholder?: string;
-  /** Column index sorted by default (otherwise server order is kept). */
   defaultSort?: number;
   defaultDir?: "asc" | "desc";
-  /** Min width before the grid scrolls horizontally (for wide tables). */
   minWidth?: string;
-  /** Cap the rows' height and scroll, with a sticky header. */
   maxHeight?: string;
 }
 
@@ -70,7 +53,6 @@ const filterVal = (cell: GridCell) => cell.filterValue ?? String(cell.text);
 const rowSearch = (r: GridRow) =>
   (r.search ?? r.cells.map((c) => c.text).join(" ")).toLowerCase();
 
-// Distinct values for each filterable column.
 const filterOptions = columns.map((col, i) =>
   col.filter
     ? [...new Set(rows.map((r) => filterVal(r.cells[i])).filter(Boolean))].sort(
@@ -138,7 +120,6 @@ const innerStyle = minWidth ? `min-width:${minWidth}` : "";
     class="bg-ew-card border border-ew-card-border rounded-xl overflow-x-auto"
   >
     <div style={innerStyle}>
-      <!-- Header -->
       <div
         class="grid gap-3 px-4 py-2 bg-ew-surface sticky top-0 z-10"
         style={`grid-template-columns:${template}`}
@@ -204,8 +185,6 @@ const innerStyle = minWidth ? `min-width:${minWidth}` : "";
                           : "text-ew-text-dim",
                     ]}
                   >
-                    {/* text-decoration does not propagate into the
-                         inline-block truncating span, so it lives there. */}
                     <span
                       class:list={[
                         "truncate inline-block max-w-full align-bottom",
@@ -244,8 +223,6 @@ const innerStyle = minWidth ? `min-width:${minWidth}` : "";
 </div>
 
 <style is:global>
-  /* Native select chrome replaced with the site's own chevron, inset from the
-     right edge. */
   .dg-select {
     appearance: none;
     padding-right: 1.9rem;

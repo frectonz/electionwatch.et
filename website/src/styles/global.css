@@ -51,8 +51,6 @@
   }
 }
 
-/* Shared MapLibre popup chrome (PollingStationMap + PartyFootprintMap). The
-   per-map body content keeps its own component-scoped classes. */
 .maplibregl-popup-content {
   padding: 0 !important;
   border-radius: 12px !important;
@@ -93,7 +91,6 @@
   padding: 11px 14px;
   background: var(--color-ew-card);
 }
-/* Disclosure for stations placed at random around their woreda's centre. */
 .ew-pop-note {
   margin-top: 9px;
   font-size: 11px;

@@ -46,13 +46,9 @@ type Scope = {
   rcC: ConstituencyRef[];
 };
 
-// Deterministic scatter for stations that only have a woreda centroid: a
-// sunflower spiral around the centre with seeded jitter, so every station in
-// the woreda gets its own stable, non-overlapping position without ever
-// claiming station-level precision (the popup and page captions say so).
 const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
-const SPACING = 0.009; // degrees between neighbouring dots, ~1 km
-const MIN_SEP = 0.003; // degrees, ~330 m floor between any two scattered dots
+const SPACING = 0.009;
+const MIN_SEP = 0.003;
 
 const fnv = (s: string) => {
   let h = 2166136261;
@@ -70,7 +66,6 @@ const mulberry32 = (a: number) => () => {
   return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
 };
 
-/** polling_station_code -> scattered [lat, lon] for woreda-centroid stations. */
 function scatterDerived(
   records: StationRecord[],
 ): Map<string, [number, number]> {
@@ -83,8 +78,6 @@ function scatterDerived(
     byCentroid.get(key)!.push(r);
   }
 
-  // Spatial hash over placed dots so nearby woredas (a town centroid inside
-  // its rural woreda, for example) cannot interleave dots closer than MIN_SEP.
   const grid = new Map<string, [number, number][]>();
   const cellOf = (lat: number, lon: number) =>
     `${Math.floor(lat / MIN_SEP)},${Math.floor(lon / MIN_SEP)}`;
@@ -133,21 +126,12 @@ function scatterDerived(
   return out;
 }
 
-// candidates/extract.py already matched each polling-station constituency to the
-// candidate constituency voted on there and emitted station_links.json keyed by
-// polling-station constituency *code*. We just look it up — no name matching here.
 function loadStationLinks(): StationLinks {
   const file = path.join(CAND_JSON, "station_links.json");
   if (!fs.existsSync(file)) return { hopr: {}, rc: {} };
   return JSON.parse(fs.readFileSync(file, "utf-8")) as StationLinks;
 }
 
-// Builds the compact dataset(s) the map fetches at runtime: one global file and
-// one per region. Each point carries the HoPR and RC candidate constituencies
-// voted on there (by index into the scope's `hoprC` / `rcC`) and a source flag:
-// 0 for a NEBE-published GPS position, 1 for a station NEBE published without
-// coordinates (Amhara), scattered deterministically around its woreda's centre.
-// Stations with no coordinates at all are not included.
 export function buildPollingStationPoints() {
   if (!fs.existsSync(SRC)) {
     console.warn(`[ps-map] source dir not found, skipping: ${SRC}`);
@@ -160,9 +144,6 @@ export function buildPollingStationPoints() {
   const slugByName = new Map(regionMeta.map((r) => [r.name, r.slug]));
   const stationLinks = loadStationLinks();
 
-  // Every candidate constituency that matched a polling station, so we can emit
-  // a (possibly empty) file for each one — the constituency page fetches by slug
-  // and must not 404 when NEBE published no GPS coordinates for its stations.
   const constituenciesFile = JSON.parse(
     fs.readFileSync(path.join(CAND_JSON, "constituencies.json"), "utf-8"),
   ) as { hopr: ConstituencyRecord[]; rc: ConstituencyRecord[] };
@@ -265,8 +246,6 @@ export function buildPollingStationPoints() {
       if (!perRegion.has(slug)) perRegion.set(slug, makeScope());
       add(perRegion.get(slug)!, r, lat, lon, src, hoprRef, rcRef);
     }
-    // Each station belongs to one HoPR and one RC candidate constituency; emit
-    // it into both, keyed by the candidate-side slug the page is built on.
     if (hoprRef)
       add(constituencyScope(hoprRef.slug), r, lat, lon, src, hoprRef, rcRef);
     if (rcRef)

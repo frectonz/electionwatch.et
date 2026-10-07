@@ -1,23 +1,11 @@
 ---
-// Map of uncontested seats: every locatable polling station, coloured by the
-// single party standing unopposed in the constituency voted on there. Stations
-// in contested constituencies fade to faint grey, so the dominance of one party
-// across the uncontested races reads at a glance. A ballot toggle switches
-// between the HoPR and Regional Council races. Amhara's stations, which NEBE
-// published without coordinates, are scattered around their woreda's centre
-// and their popups say so. Reuses the global map JSON built by
-// build-ps-points.ts.
-
 export interface UncontestedParty {
-  /** Stable key (the party's Amharic name) used to match dots to colours. */
   key: string;
-  /** English label shown in the legend and popups. */
   label: string;
   color: string;
 }
 interface Props {
   parties: UncontestedParty[];
-  /** Constituency slug -> party key, for each ballot's uncontested seats. */
   hopr: Record<string, string>;
   rc: Record<string, string>;
   height?: string;
@@ -25,8 +13,7 @@ interface Props {
 const { parties, hopr, rc, height = "68vh" } = Astro.props;
 
 const id = "ucmap-" + Math.random().toString(36).slice(2, 8);
-const GREY = "#d4d7e1"; // faint "contested" dots
-// Always open on the HoPR ballot; the toggle switches to the Regional Council.
+const GREY = "#d4d7e1";
 const startMode: "hopr" | "rc" = "hopr";
 const config = {
   grey: GREY,
@@ -152,7 +139,6 @@ const config = {
     hname: string;
     rslug: string;
     rname: string;
-    /** 1 when the position is randomized around the woreda's centre. */
     derived: number;
   }
 
@@ -169,7 +155,6 @@ const config = {
       const map = createMap(id);
       initScrollZoom(map, container, id);
 
-      // A categorical "match" expression: party key -> its colour, else grey.
       const colorFor = (mode: string): ExpressionSpecification => {
         const pairs: string[] = [];
         for (const p of parties) pairs.push(p.key, p.color);
@@ -180,7 +165,6 @@ const config = {
           grey,
         ] as unknown as ExpressionSpecification;
       };
-      // Uncontested (coloured) dots draw above the grey contested ones.
       const sortFor = (mode: string): ExpressionSpecification => [
         "case",
         ["==", ["get", prop(mode)], ""],

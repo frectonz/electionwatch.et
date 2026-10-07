@@ -1,5 +1,4 @@
 ---
-// The result in one constituency: who was elected, and how the vote divided.
 import DataGrid, {
   type GridColumn,
   type GridRow,
@@ -12,7 +11,6 @@ interface Props {
   regionSlug: string;
   constituencySlug: string;
   body: Body;
-  /** Seats this constituency returns; RC seats are multi-member. */
   seats: number | null;
 }
 const { regionSlug, constituencySlug, body, seats } = Astro.props;
@@ -26,7 +24,6 @@ const elected = rows.filter((r) => r.elected);
 const runnerUp = rows.find((r) => !r.elected && r.votes !== null);
 const top = elected[0];
 
-// A margin only means something in a single-member race.
 const margin =
   body === "hopr" && top?.votes != null && runnerUp?.votes != null
     ? top.votes - runnerUp.votes

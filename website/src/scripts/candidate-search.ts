@@ -1,8 +1,3 @@
-// Client-side search for the top-level /candidates page. Fetches the compact
-// index emitted by src/pages/candidates-index.json.ts, then filters it in the
-// browser on every keystroke or filter change and renders the top matches.
-
-// Tuple layout, mirrored from the index endpoint.
 type Row = [
   name: string,
   partyEn: string,
@@ -20,7 +15,6 @@ const MAX_RESULTS = 100;
 
 const BODY_SHORT: Record<string, string> = { hopr: "HoPR", rc: "RC" };
 
-// Education ordered high -> low so the filter dropdown reads top-down.
 const EDU_ORDER = [
   "Doctorate",
   "Master of Law",
@@ -98,7 +92,6 @@ export async function initCandidateSearch() {
     return;
   }
 
-  // Populate the dynamic dropdowns from the data.
   const uniq = (i: number) =>
     [...new Set(rows.map((r) => r[i] as string))].filter(Boolean);
   fillSelect(

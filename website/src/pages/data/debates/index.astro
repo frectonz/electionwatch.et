@@ -12,7 +12,6 @@ import {
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight } from "@lucide/astro";
 
-// Parties ranked by how many of the analysed debates they took part in.
 const appearanceParties = allParties
   .filter((p) => p.debateCount > 0)
   .sort(
@@ -42,7 +41,6 @@ const appearanceChart = {
     </p>
   </section>
 
-  <!-- Parties by appearance -->
   {
     appearanceParties.length > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
@@ -119,8 +117,6 @@ const appearanceChart = {
   }
 
   <script>
-    // Horizontal bar of parties by debate appearances. Clicking a bar opens
-    // the party's profile.
     import * as echarts from "echarts";
     import {
       grad,
@@ -144,7 +140,6 @@ const appearanceChart = {
         total: number;
       };
       const chart = echarts.init(el);
-      // Leave headroom past the longest bar so it stops short of the labels.
       const maxVal = Math.max(1, ...d.counts);
       chart.setOption({
         baseOption: {

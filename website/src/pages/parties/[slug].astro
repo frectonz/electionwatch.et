@@ -31,8 +31,6 @@ const partyDebates = allDebates.filter((d) =>
 
 const result = partyResults.find((r) => r.profileSlug === slug) ?? null;
 
-// The first debate the party appeared in, shown in the player by default
-// instead of an empty placeholder.
 const firstDebate = [...partyDebates].sort((a, b) =>
   a.meta.upload_date < b.meta.upload_date ? -1 : 1,
 )[0];
@@ -45,7 +43,6 @@ const debateByVideo = new Map<string, { title: string }>(
   allDebates.map((d) => [d.meta.video_id, { title: d.analysis.title }]),
 );
 
-// Link to this party's candidate breakdown, if it fields candidates.
 const candidateParty = partyByProfileSlug.get(slug);
 ---
 

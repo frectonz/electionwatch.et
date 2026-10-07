@@ -70,7 +70,6 @@ for (const { key: body, data } of resultBodies) {
       Boolean(r.party),
     );
 
-  // Independents pool into one row.
   const merged = new Map<string, { party: PartyResult; seats: number }>();
   for (const r of rows) {
     const found = merged.get(r.party.key);
@@ -99,8 +98,6 @@ elected.sort(
     a.row.candidate.localeCompare(b.row.candidate),
 );
 
-// Seat tiles for one body, coloured like the national chamber: incumbent
-// navy, independents their own colour, every other party a distinct hue.
 const seatBlocksFor = (b: BodyBlock): SeatBlock[] => {
   let hue = 0;
   const out: SeatBlock[] = b.rows.map(({ party, seats }) => {

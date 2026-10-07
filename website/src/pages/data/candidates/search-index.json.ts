@@ -6,11 +6,6 @@ import {
   findConstituency,
 } from "@/data/candidates";
 
-// Compact, client-fetched search index for /candidates. Each candidate is a
-// positional tuple (not an object) to keep the payload small across ~10k rows:
-//   [name, partyEn, partySlug, region, constituency, conSlug, body, gender,
-//    education, disability]
-// The order is mirrored by src/scripts/candidate-search.ts.
 export const GET: APIRoute = () => {
   const rows = loadAllCandidates().map((c) => {
     const party = partyByName.get(c.party);

@@ -24,9 +24,6 @@ const allConstituencies = [
   ...rcCandidateConstituencies,
 ];
 
-// The single party standing in each constituency, keyed by ballot+region+name.
-// A constituency is "uncontested" when only one party fields candidates there
-// (parties === 1); this map tells us which party that is.
 const partyByKey = new Map<string, string>();
 for (const cand of loadAllCandidates()) {
   partyByKey.set(
@@ -71,8 +68,6 @@ const stats = [
   },
 ];
 
-// Uncontested runs by party, split HoPR / RC. The dominant story is one party
-// winning the large majority of these races outright.
 type PartyTally = {
   name: string;
   nameEn: string;
@@ -101,15 +96,12 @@ for (const u of uncontested) {
 const byParty = [...tallies.values()].sort(
   (a, b) => b.total - a.total || b.rc - a.rc,
 );
-// Stacked HoPR/RC bar chart of uncontested seats per party.
 const partyChart = {
   names: byParty.map((p) => p.nameEn),
   hopr: byParty.map((p) => p.hopr),
   rc: byParty.map((p) => p.rc),
 };
 
-// Map colouring: one distinct colour per party (keyed by Amharic name, the
-// stable join key), assigned in order of how many uncontested seats they hold.
 const PALETTE = [
   "#2d3370",
   "#c79a3a",
@@ -125,14 +117,12 @@ const mapParties = byParty.map((p, i) => ({
   label: p.nameEn,
   color: PALETTE[i % PALETTE.length],
 }));
-// Constituency slug -> party key, per ballot, for the dots on the map.
 const mapHopr: Record<string, string> = {};
 const mapRc: Record<string, string> = {};
 for (const u of uncontested) {
   (u.c.body === "hopr" ? mapHopr : mapRc)[u.c.slug] = u.partyName;
 }
 
-// Full, searchable list of every uncontested constituency.
 const columns: GridColumn[] = [
   { label: "Constituency", grow: 2 },
   { label: "Region", grow: 1.1, filter: true },
@@ -193,7 +183,6 @@ const rows: GridRow[] = uncontested
     />
   </section>
 
-  <!-- By party -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Uncontested runs by party</h2>
     <p class="text-ew-text-dim text-sm mb-3 max-w-2xl">
@@ -216,7 +205,6 @@ const rows: GridRow[] = uncontested
     </div>
   </section>
 
-  <!-- Map -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-1">Where the uncontested races are</h2>
     <p class="text-ew-text-dim text-sm mb-4 max-w-2xl">
@@ -231,7 +219,6 @@ const rows: GridRow[] = uncontested
     </p>
   </section>
 
-  <!-- Full list -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <h2 class="font-display text-2xl mb-4">Every uncontested constituency</h2>
     <DataGrid

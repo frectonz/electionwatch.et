@@ -1,4 +1,3 @@
-// Results are a nav section of their own, not a dataset card.
 import { allDebates, allParties } from "./index";
 import { pollingStationsIndex } from "./pollingStations";
 import { candidatesIndex } from "./candidates";
@@ -14,9 +13,7 @@ export type DatasetMeta = {
   records: number;
   recordsLabel: string;
   sources: string[];
-  /** Short description of where the underlying data came from. */
   sourceNote: string;
-  /** Link to the primary source. */
   sourceUrl: string;
   updatedAt?: string;
 };

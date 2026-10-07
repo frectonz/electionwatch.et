@@ -1,13 +1,10 @@
 ---
-// A chamber drawn as its seats: one tile per seat, grouped by who holds it.
 import { seatBlocks, type SeatBlock } from "@/data/results";
 import { fmt, shareLabel } from "@/lib/format";
 import type { Body } from "@/data/candidates";
 
 interface Props {
-  /** Ballot whose national chamber to draw; ignored when blocks is given. */
   body?: Body;
-  /** Explicit seat blocks, e.g. one region's council. */
   blocks?: SeatBlock[];
 }
 const { body, blocks: given } = Astro.props;
@@ -15,8 +12,6 @@ const { body, blocks: given } = Astro.props;
 const blocks: SeatBlock[] = given ?? seatBlocks(body!);
 const total = blocks.reduce((n, b) => n + b.seats, 0);
 
-// Tiles are built on the client: 2,681 seats as markup would weigh more than
-// the rest of the page.
 const config = blocks.map((b) => ({
   party: b.party,
   seats: b.seats,

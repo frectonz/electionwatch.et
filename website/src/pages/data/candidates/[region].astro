@@ -37,16 +37,13 @@ const all = [
 const female = all.filter((c) => c.gender === "Female").length;
 const disabled = all.filter((c) => c.disability).length;
 
-// Gender (inner) + disability (outer) concentric pie.
 const peopleChart = peopleRings(
   female,
   all.length - female,
   disabled,
   all.length,
 );
-// Education distribution (horizontal bar), sorted by candidate count (desc).
 const eduChart = educationChart(all);
-// Party distribution chart (candidates per party in this region).
 const partyDist = partyDistChart(all);
 
 const stats = [
@@ -60,7 +57,6 @@ const stats = [
   { label: "Parties", value: partyDist.counts.length },
 ];
 
-// Constituency tables, one per ballot.
 const conColumns: GridColumn[] = [
   { label: "Constituency", grow: 2.2 },
   { label: "Seats", numeric: true, grow: 0.6 },
@@ -79,7 +75,6 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
       cells: [
         { text: c.name, href: `/data/candidates/c/${c.slug}` },
         {
-          // RC is multi-member; "~" flags a seat count estimated from candidates.
           text:
             c.seats == null ? "" : c.seats_estimated ? `~${c.seats}` : c.seats,
           sort: c.seats ?? 0,
@@ -123,7 +118,6 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
     </p>
   </section>
 
-  <!-- Demographics -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-4">Who the candidates are</h2>
     <div class="grid lg:grid-cols-5 gap-4">
@@ -155,7 +149,6 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
     </div>
   </section>
 
-  <!-- Parties in region -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
     <h2 class="font-display text-2xl mb-4">Parties standing here</h2>
     <div class="bg-ew-card border border-ew-card-border rounded-xl p-4">
@@ -168,7 +161,6 @@ const lists: { body: Body; label: string; rows: GridRow[] }[] = (
     </div>
   </section>
 
-  <!-- Constituencies (HoPR + RC) -->
   <section
     class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 grid lg:grid-cols-2 gap-8 items-start"
   >

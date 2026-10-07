@@ -1,21 +1,12 @@
 ---
-// Where the leading party was beaten, painted through polling stations: the
-// station is the finest geography NEBE publishes coordinates for, and
-// constituency borders do not exist as open data. Amhara's stations, which
-// NEBE published without coordinates, are scattered around their woreda's
-// centre and their popups say so.
 import { LEADER_COLOR, CHALLENGER_COLOR, NO_RESULT_COLOR } from "@/lib/format";
 import { leadingParty, type SeatOutcome } from "@/data/results";
 
 interface Props {
-  /** constituency slug -> outcome, per ballot. */
   hopr: Record<string, SeatOutcome>;
   rc: Record<string, SeatOutcome>;
-  /** Show only this party's seats in gold, everything else muted. */
   focusParty?: string;
-  /** Map data URL (global by default; pass a per-region file for region pages). */
   dataUrl?: string;
-  /** Fit the view to the data bounds instead of the default Ethiopia view. */
   fitData?: boolean;
   height?: string;
 }
@@ -42,8 +33,6 @@ const config = {
   fitData,
 };
 
-// No-result stations dissolve into the base map by design, so a legend swatch
-// for them would be invisible; the popup names them instead.
 const legend = [
   {
     color: CHALLENGER_COLOR,
@@ -180,8 +169,6 @@ const legend = [
       const map = createMap(id);
       initScrollZoom(map, container, id);
 
-      // The outcome rides on each point as a property, so toggling the ballot
-      // repaints 50k features without touching JS.
       const colorExpr = (mode: "hopr" | "rc"): ExpressionSpecification =>
         [
           "match",
@@ -237,8 +224,6 @@ const legend = [
         };
 
         if (cfg.fitData && points.length) {
-          // Frame the dense core (2nd-98th percentile) so a handful of remote
-          // stations don't push the whole region far out.
           const q = (vals: number[], f: number) => {
             const s = [...vals].sort((a, b) => a - b);
             return s[Math.floor(f * (s.length - 1))];
@@ -261,7 +246,6 @@ const legend = [
         });
 
         let mode: "hopr" | "rc" = "hopr";
-        // wireModeToggle appends "-mode" to the id itself.
         wireModeToggle(id, (next) => {
           mode = next as "hopr" | "rc";
           map.setPaintProperty("st", "circle-color", colorExpr(mode));

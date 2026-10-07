@@ -6,13 +6,9 @@ import { fmt } from "@/lib/format";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import { ArrowRight, Quote, MessagesSquare, Users } from "@lucide/astro";
 
-// Parties with a debate-position profile.
 const withPositions = allParties.filter((p) => p.positions.length > 0);
 const positionSlugs = new Set(withPositions.map((p) => p.slug));
 
-// The full ballot is every party fielding candidates, including the grouped
-// "Independent" bucket (individual candidates rolled up into one entry). Those
-// without a debate profile are listed below.
 const ballotParties = candidateParties;
 const withoutPositions = ballotParties
   .filter((p) => !(p.profile_slug && positionSlugs.has(p.profile_slug)))

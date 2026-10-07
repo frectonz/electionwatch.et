@@ -17,7 +17,6 @@ const initialSrc = defaultVideoId
   ? `https://www.youtube.com/embed/${defaultVideoId}?rel=0&enablejsapi=1`
   : "";
 
-// Buttons that appear below the timeline; toggled by display in the script.
 const btnBase =
   "justify-center items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors";
 const btnPrimary = `${btnBase} bg-ew-shell text-white hover:opacity-90`;
@@ -104,7 +103,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
             </a>
           </div>
 
-          <!-- Shown for a cued clip (e.g. opened from a ?clip= link). -->
           <button
             type="button"
             id="clip-play"
@@ -115,7 +113,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
             Play clip
           </button>
 
-          <!-- Shown when a clip reaches its end. -->
           <div
             id="clip-ended-actions"
             style="display:none"
@@ -175,12 +172,11 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
     let player = null;
     let playerReady = false;
     let iframeCreated = hasDefault;
-    let onReady = null; // a single action to run once the player is ready
-    let active = null; // { videoId, start, end, label } of the current clip
+    let onReady = null;
+    let active = null;
     let rafId = null;
     let lastSec = -1;
 
-    // --- formatting -----------------------------------------------------------
     const pad = (n) => String(n).padStart(2, "0");
     function clock(s) {
       if (!Number.isFinite(s)) return "0:00";
@@ -191,7 +187,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       return h > 0 ? h + ":" + pad(m) + ":" + pad(sec) : m + ":" + pad(sec);
     }
     const clamp = (sec) => Math.max(0, Math.floor(sec));
-    // The full video at a given second, so "continue" resumes where you are.
     const watchUrl = (id, sec) =>
       "https://www.youtube.com/watch?v=" + id + "&t=" + clamp(sec) + "s";
     const embedUrl = (id, start, end, autoplay) =>
@@ -205,7 +200,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       (autoplay ? "1" : "0") +
       "&rel=0&enablejsapi=1";
 
-    // --- show/hide the toggled controls --------------------------------------
     const toggle = (node, on) => {
       if (node) node.style.display = on ? "flex" : "none";
     };
@@ -217,16 +211,13 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       toggle(el.endedActions, true);
     }
 
-    // --- progress bar (driven by requestAnimationFrame for smoothness) --------
     function renderProgress() {
       if (!active || !player || !player.getCurrentTime) return;
       const t = player.getCurrentTime();
       const dur = active.end - active.start;
-      // getCurrentTime() can return NaN for a tick right after a load.
       if (!Number.isFinite(t) || dur <= 0) return;
       const elapsed = Math.max(0, Math.min(dur, t - active.start));
       el.fill.style.width = (elapsed / dur) * 100 + "%";
-      // Text + link only change once a second — no need to touch them per frame.
       const sec = Math.floor(elapsed);
       if (sec !== lastSec) {
         lastSec = sec;
@@ -249,7 +240,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       rafId = null;
     }
 
-    // --- YouTube iframe + player ----------------------------------------------
     function ensurePlayer() {
       if (window.YT && window.YT.Player) {
         createPlayer();
@@ -289,9 +279,7 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
             },
           },
         });
-      } catch {
-        /* iframe API failed to load */
-      }
+      } catch {}
     }
     function mountIframe(videoId, start, end, autoplay) {
       const placeholder = document.getElementById("player-placeholder");
@@ -308,7 +296,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       ensurePlayer();
     }
 
-    // --- loading / controlling clips ------------------------------------------
     function syncUrl(clip) {
       const url = new URL(window.location.href);
       if (clip) {
@@ -339,7 +326,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       }
     }
 
-    // mode: "play" autoplays; "cue" loads paused and shows the Play button.
     function loadClip(videoId, start, end, name, youtubeUrl, mode) {
       const cue = mode === "cue";
       active = { videoId: videoId, start: start, end: end, label: name };
@@ -348,7 +334,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       el.label.textContent = name;
       el.progress.classList.remove("hidden");
       if (el.reset) el.reset.classList.remove("hidden");
-      // Initial target = clip start; renderProgress() then tracks the live time.
       if (el.openYT && youtubeUrl) el.openYT.href = youtubeUrl;
       el.fill.style.width = "0%";
       el.time.textContent = "0:00 / " + clock(end - start);
@@ -416,9 +401,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       }
     }
 
-    // Restore a clip shared via ?clip=videoId:start-end. The param holds rounded
-    // seconds, but the clip triggers carry exact times — so match on floor/ceil
-    // and reuse the trigger's precise time, label and YouTube link.
     function applyClipFromUrl() {
       const param = new URLSearchParams(window.location.search).get("clip");
       const m =
@@ -450,7 +432,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
       );
     }
 
-    // --- wiring ---------------------------------------------------------------
     if (el.replay) el.replay.addEventListener("click", replayActive);
     if (el.play) el.play.addEventListener("click", playActive);
 
@@ -479,8 +460,6 @@ const btnGhost = `${btnBase} bg-ew-surface border border-ew-card-border text-ew-
 
     if (hasDefault) ensurePlayer();
 
-    // Defer until the clip triggers lower in the page are parsed (this inline
-    // script runs before them), so we can resolve the clip's real title.
     if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", applyClipFromUrl);
     } else {

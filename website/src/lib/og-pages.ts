@@ -13,13 +13,7 @@ export interface OgPage {
 
 const TAGLINE = "Ethiopia's 7th General Election";
 
-// Every entry here gets a dedicated social card rendered by /og/<key>.png.
-// The key is the page's URL path with no leading/trailing slash ("index" for
-// the homepage). Pages NOT listed here fall back to the homepage card — see
-// `ogImageFor` below — so unbounded routes (individual candidates, polling
-// stations) don't each need their own image.
 export const ogPages: Record<string, OgPage> = Object.fromEntries([
-  // --- Top-level pages ---
   [
     "index",
     {
@@ -49,7 +43,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ],
 
-  // --- Dataset landing pages ---
   [
     "data/candidates",
     {
@@ -79,7 +72,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ],
 
-  // --- Party profiles ---
   ...allParties.map((p): [string, OgPage] => [
     `parties/${p.slug}`,
     {
@@ -88,7 +80,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ]),
 
-  // --- Candidates by region ---
   ...candidateRegions.map((r): [string, OgPage] => [
     `data/candidates/${r.slug}`,
     {
@@ -97,7 +88,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ]),
 
-  // --- Candidates by party ---
   ...candidateParties.map((p): [string, OgPage] => [
     `data/candidates/party/${partyUrlSlug(p)}`,
     {
@@ -106,7 +96,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ]),
 
-  // --- Polling stations by region ---
   ...pollingRegions.map((r): [string, OgPage] => [
     `data/polling-stations/${r.slug}`,
     {
@@ -115,7 +104,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
     },
   ]),
 
-  // --- Debate analyses ---
   ...allDebates.map((d): [string, OgPage] => [
     `data/debates/${d.meta.video_id}`,
     {
@@ -125,10 +113,6 @@ export const ogPages: Record<string, OgPage> = Object.fromEntries([
   ]),
 ]);
 
-/**
- * Resolve a request path to the social-card image URL. Returns the dedicated
- * card when one exists, otherwise the homepage card.
- */
 export function ogImageFor(pathname: string): string {
   const key = pathname.replace(/^\/+|\/+$/g, "") || "index";
   return ogPages[key] ? `/og/${key}.png` : "/og/index.png";

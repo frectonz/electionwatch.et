@@ -22,7 +22,6 @@ import { ArrowRight, MapPin } from "@lucide/astro";
 export function getStaticPaths() {
   const all = [...hoprCandidateConstituencies, ...rcCandidateConstituencies];
 
-  // Load each region+body candidate file once, grouped by constituency name.
   const cache = new Map<string, Map<string, Candidate[]>>();
   const group = (regionSlug: string, body: "hopr" | "rc") => {
     const key = `${regionSlug}_${body}`;
@@ -59,9 +58,6 @@ const votesById = new Map(
     .map((r) => [r.candidate_id!, r.votes]),
 );
 
-// Seats this constituency returns. HoPR is single-member; RC is multi-member,
-// which is why a party fields several candidates here. `seats_estimated` marks
-// RC constituencies NEBE's seat table didn't list under a matching name.
 const seatSub =
   c.body === "hopr"
     ? "single-member"
@@ -131,7 +127,6 @@ const stats = [
     }
   </section>
 
-  <!-- The result, once it is published -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <ConstituencyResult
       regionSlug={c.region_slug}
@@ -141,7 +136,6 @@ const stats = [
     />
   </div>
 
-  <!-- Polling-station map -->
   {
     c.polling_stations > 0 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
@@ -159,10 +153,7 @@ const stats = [
     )
   }
 
-  <!-- Party split -->
   {
-    /* Only meaningful when a party fields more than one candidate (RC seats are
-       multi-member; HoPR is single-member, so every party would just show 1). */
     partyDist.counts.length > 1 && partyDist.counts[0] > 1 && (
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <h2 class="font-display text-2xl mb-4">Candidates by party</h2>
@@ -177,13 +168,11 @@ const stats = [
     )
   }
 
-  <!-- Candidate data grid -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <h2 class="font-display text-2xl mb-4">Candidates</h2>
     <CandidateTable candidates={candidates} votes={votesById} />
   </section>
 
-  <!-- Explore next -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
     <h2 class="font-display text-xl mb-3">Explore</h2>
     <div class="grid sm:grid-cols-2 gap-3">
